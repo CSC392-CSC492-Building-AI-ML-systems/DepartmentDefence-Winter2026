@@ -1,0 +1,4 @@
+python-dotenv==1.0.1
+cohere==5.13.12
+numpy==1.26.4
+tqdm==4.67.1
