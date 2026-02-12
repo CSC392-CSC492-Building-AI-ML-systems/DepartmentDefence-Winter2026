@@ -18,7 +18,6 @@ Policy-focused RAG CLI for procurement questions using Cohere.
   - Retrieves relevant excerpts
   - Answers with citations
 - A source collector (`collect_sources.py`) for Buyer’s Guide / Buy Canadian / TBS Directive content.
-- A batch evaluator (`evaluation/eval_runner.py`) for testing retrieval + answer quality.
 - A structured eval stack runner (`evaluation/eval_stack_runner.py`) for retrieval/answer metrics + subgroup reporting.
 
 ## Quick Start
@@ -34,12 +33,10 @@ Policy-focused RAG CLI for procurement questions using Cohere.
   - `python main.py`
 - Collect/update source corpus:
   - `python collect_sources.py --max-pages 300 --verbose`
-- Run baseline eval set:
-  - `python evaluation/eval_runner.py --questions-file evaluation/questions/eval_questions.txt --with-chat --output evaluation/runs/latest_with_chat.json`
-- Retrieval-only eval:
-  - `python evaluation/eval_runner.py --questions-file evaluation/questions/eval_questions.txt --output evaluation/runs/latest_retrieval.json`
 - Run structured eval stack:
   - `python evaluation/eval_stack_runner.py --cases-file evaluation/cases/eval_cases.jsonl --with-chat --output evaluation/runs/stack_eval_with_chat.json`
+- Run structured eval stack with judge:
+  - `python evaluation/eval_stack_runner.py --cases-file evaluation/cases/eval_cases_reference.jsonl --with-chat --with-judge --output evaluation/runs/stack_eval_reference_with_judge.json`
 
 ## Repo Map
 - `rag/`: core RAG package (config, corpus, embedding, retrieval, prompting)
@@ -50,11 +47,8 @@ Policy-focused RAG CLI for procurement questions using Cohere.
 - `docs/`: architecture, navigation, and workflow docs
 
 ## Evaluation Files (Important)
-- `evaluation/questions/eval_questions.txt`: baseline test prompts
-- `evaluation/questions/eval_questions_hard.txt`: adversarial / harder prompts
-- `evaluation/questions/eval_questions_focus.txt`: targeted prompts for specific failure modes
-- `evaluation/questions/eval_questions_policy_conflicts.txt`: contradiction/higher-order prompts
-- `evaluation/cases/eval_cases.jsonl`: structured cases with expected evidence/constraints
+- `evaluation/cases/eval_cases.jsonl`: primary structured cases with evidence/constraints
+- `evaluation/cases/eval_cases_reference.jsonl`: cases with reference answers for judge/reference alignment
 - `evaluation/runs/*.json`: generated results (safe to delete and regenerate)
 
 ## Data Files (Important)
@@ -67,5 +61,5 @@ Policy-focused RAG CLI for procurement questions using Cohere.
 - `docs/REPO_MAP.md`: folder-by-folder navigation guide
 - `docs/ARCHITECTURE.md`: end-to-end architecture and retrieval strategy
 - `docs/RUNBOOK.md`: command cookbook for common tasks
-- `docs/EVALUATION.md`: how question sets and eval outputs are structured
+- `docs/EVALUATION.md`: case datasets, metrics, and eval output structure
 

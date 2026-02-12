@@ -99,7 +99,8 @@ What it asks:
 - Did the answer include the required policy content?
 
 Per-case:
-- For each required claim, evaluator checks match using lexical+semantic rules.
+- For each required claim, evaluator computes semantic similarity against all answer sentences.
+- A claim is counted as "hit" only if max similarity is above the required-claim threshold.
 - `required_claim_recall = (# required claims hit) / (total required claims)`
 
 Example:
@@ -132,7 +133,8 @@ What it asks:
 - When answer cites chunks, does each cited sentence align with cited chunk text?
 
 Per-case:
-- For each sentence+citation pair, compute semantic similarity.
+- For each sentence+citation pair, compute semantic similarity between the answer sentence and
+  the best-matching sentence window from the cited chunk.
 - Mark supported if similarity >= threshold.
 - `citation_support_rate = supported_pairs / total_pairs`
 
@@ -242,4 +244,3 @@ For weekly quality tracking, watch these 8:
 6. `answer_citation_support_rate_mean`
 7. `answer_abstention_accuracy`
 8. `timing_summary_ms.total.p50`
-

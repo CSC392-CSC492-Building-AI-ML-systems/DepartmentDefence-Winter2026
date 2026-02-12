@@ -41,26 +41,18 @@
   - manifest: `data/manifest.json`
 
 ## Run Evaluations
-- Baseline questions:
-  - `python evaluation/eval_runner.py --questions-file evaluation/questions/eval_questions.txt --with-chat --output evaluation/runs/baseline_with_chat.json`
-- Hard questions:
-  - `python evaluation/eval_runner.py --questions-file evaluation/questions/eval_questions_hard.txt --with-chat --output evaluation/runs/hard_with_chat.json`
-- Focus questions:
-  - `python evaluation/eval_runner.py --questions-file evaluation/questions/eval_questions_focus.txt --with-chat --output evaluation/runs/focus_with_chat.json`
-- Policy conflict questions:
-  - `python evaluation/eval_runner.py --questions-file evaluation/questions/eval_questions_policy_conflicts.txt --with-chat --output evaluation/runs/policy_conflicts_with_chat.json`
-- Retrieval only (no chat calls):
-  - `python evaluation/eval_runner.py --questions-file evaluation/questions/eval_questions.txt --output evaluation/runs/retrieval_only.json`
-
-Structured eval stack:
 - Deterministic + chat metrics:
   - `python evaluation/eval_stack_runner.py --cases-file evaluation/cases/eval_cases.jsonl --with-chat --output evaluation/runs/stack_eval_with_chat.json`
 - Add LLM judge scoring:
   - `python evaluation/eval_stack_runner.py --cases-file evaluation/cases/eval_cases.jsonl --with-chat --with-judge --output evaluation/runs/stack_eval_with_judge.json`
+- Reference-answer judge run:
+  - `python evaluation/eval_stack_runner.py --cases-file evaluation/cases/eval_cases_reference.jsonl --with-chat --with-judge --output evaluation/runs/stack_eval_reference_with_judge.json`
+- Retrieval-only smoke:
+  - `python evaluation/eval_stack_runner.py --cases-file evaluation/cases/eval_cases.jsonl --limit 3 --output evaluation/runs/stack_eval_smoke.json`
 
 Latency notes:
-- `evaluation/eval_runner.py` now records per-question timings and run-level latency summaries in the output JSON.
-- It also prints p50/p95 timing summaries to stdout after each run.
+- `evaluation/eval_stack_runner.py` records per-case timings and run-level latency summaries in the output JSON.
+- It prints p50 timing summaries to stdout after each run.
 - Retrieval timing includes query rewrite, retrieval, rerank, and context packing.
 - Chat timing includes the final Cohere chat call only.
 

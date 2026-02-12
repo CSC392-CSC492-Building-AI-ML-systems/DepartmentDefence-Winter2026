@@ -19,6 +19,7 @@ This stack adds structured expectations and consistent metrics.
 
 ## Runner
 - `evaluation/eval_stack_runner.py`
+- Core modules live under `evaluation/stack_eval/` (`runner.py`, `answer_metrics.py`, `retrieval_metrics.py`, `judge.py`, `summary.py`).
 
 ### Retrieval + deterministic checks (default)
 ```powershell
