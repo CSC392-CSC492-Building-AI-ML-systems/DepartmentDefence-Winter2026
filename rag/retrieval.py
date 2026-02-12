@@ -1,7 +1,7 @@
 """Similarity retrieval over embedded policy chunks."""
 
 import re
-from typing import Dict, List, Set, Tuple
+from typing import Dict, List, Optional, Set, Tuple
 
 import cohere
 import numpy as np
@@ -20,8 +20,11 @@ from .app_config import (
     MIN_CHUNKS_PER_EXPANSION,
     MIN_CHUNKS_PER_CLAUSE,
     MIN_CHUNKS_PER_MODE,
+    ENABLE_RERANK,
     MODE_MATCH_BONUS,
     MODE_MISMATCH_PENALTY,
+    RERANK_ALPHA,
+    RERANK_MODEL,
     RETRIEVAL_CANDIDATE_POOL,
     RETRIEVAL_ALPHA,
 )
@@ -300,21 +303,103 @@ def _has_acan_mode(modes: Set[str]) -> bool:
     return "acan" in modes
 
 
+def _merge_query_texts(query: str, query_expansions: Optional[List[str]]) -> List[str]:
+    merged: List[str] = []
+    seen = set()
+    for value in [query, *(query_expansions or [])]:
+        normalized = value.strip()
+        if not normalized:
+            continue
+        lowered = normalized.lower()
+        if lowered in seen:
+            continue
+        seen.add(lowered)
+        merged.append(normalized)
+    return merged or [query]
+
+
+def _compute_dense_scores(
+    client: cohere.Client,
+    query_texts: List[str],
+    chunk_vecs: np.ndarray,
+) -> np.ndarray:
+    # Embed all query variants in one request.
+    qvecs = embed_texts(client, query_texts, input_type="search_query")
+    dense_matrix = chunk_vecs @ qvecs.T
+    if dense_matrix.shape[1] == 1:
+        dense_scores = dense_matrix[:, 0]
+    else:
+        primary = dense_matrix[:, 0]
+        expanded_best = np.max(dense_matrix[:, 1:], axis=1)
+        dense_scores = np.maximum(primary, expanded_best)
+    return (dense_scores + 1.0) / 2.0
+
+
+def _apply_rerank_scores(
+    client: cohere.Client,
+    query: str,
+    chunks: List[Chunk],
+    candidate_idx: List[int],
+    combined_scores: np.ndarray,
+) -> np.ndarray:
+    if (not ENABLE_RERANK) or (not candidate_idx):
+        return combined_scores
+
+    rerank_alpha = min(max(RERANK_ALPHA, 0.0), 1.0)
+    if rerank_alpha <= 0:
+        return combined_scores
+
+    documents = [f"{chunks[idx].title}\n{chunks[idx].text}" for idx in candidate_idx]
+    try:
+        response = client.rerank(
+            model=RERANK_MODEL,
+            query=query,
+            documents=documents,
+            top_n=len(documents),
+            return_documents=False,
+        )
+    except Exception:
+        return combined_scores
+
+    rerank_scores: Dict[int, float] = {}
+    for row in response.results:
+        local_idx = int(row.index)
+        if local_idx < 0 or local_idx >= len(candidate_idx):
+            continue
+        rerank_scores[candidate_idx[local_idx]] = float(row.relevance_score)
+    if not rerank_scores:
+        return combined_scores
+
+    values = list(rerank_scores.values())
+    min_score = min(values)
+    max_score = max(values)
+    denom = (max_score - min_score) + 1e-12
+
+    updated = combined_scores.copy()
+    for global_idx, value in rerank_scores.items():
+        normalized = (value - min_score) / denom
+        blended = ((1.0 - rerank_alpha) * float(updated[global_idx])) + (
+            rerank_alpha * float(normalized)
+        )
+        updated[global_idx] = np.float32(min(max(blended, 0.0), 1.0))
+    return updated
+
+
 def retrieve(
     client: cohere.Client,
     query: str,
     chunks: List[Chunk],
     chunk_vecs: np.ndarray,
     k: int,
+    query_expansions: Optional[List[str]] = None,
 ) -> List[Tuple[Chunk, float]]:
     """Return top-k chunks using hybrid semantic+lexical scoring with mode-aware routing."""
-    # Use the query embedding with search_query input type.
-    qvec = embed_texts(client, [query], input_type="search_query")[0]
-    # Vectors are normalized, so dot product equals cosine similarity.
-    dense_scores = chunk_vecs @ qvec
-    dense_scores = (dense_scores + 1.0) / 2.0
+    target_k = max(1, int(k))
 
-    query_tokens = _content_tokens(query)
+    query_texts = _merge_query_texts(query, query_expansions)
+    dense_scores = _compute_dense_scores(client, query_texts, chunk_vecs)
+
+    query_tokens = _content_tokens(" ".join(query_texts))
     chunk_vocabs: List[Set[str]] = [
         set(_content_tokens(f"{chunk.title} {chunk.source_path} {chunk.text}"))
         for chunk in chunks
@@ -350,7 +435,16 @@ def retrieve(
         combined_scores = np.clip(combined_scores + mode_adjustments, 0.0, 1.0)
 
     ranked_idx = np.argsort(-combined_scores)
-    candidate_pool = max(k, RETRIEVAL_CANDIDATE_POOL)
+    candidate_pool = max(target_k, RETRIEVAL_CANDIDATE_POOL)
+    candidate_idx = [int(idx) for idx in ranked_idx[:candidate_pool]]
+    combined_scores = _apply_rerank_scores(
+        client=client,
+        query=query,
+        chunks=chunks,
+        candidate_idx=candidate_idx,
+        combined_scores=combined_scores,
+    )
+    ranked_idx = np.argsort(-combined_scores)
     candidate_idx = [int(idx) for idx in ranked_idx[:candidate_pool]]
 
     # Diversify results so one long source file doesn't dominate all retrieved chunks.
@@ -386,13 +480,13 @@ def retrieve(
                 if try_select(idx):
                     mode_counts[mode] += 1
                     needed -= 1
-                if needed == 0 or len(selected) == k:
+                if needed == 0 or len(selected) == target_k:
                     break
-            if len(selected) == k:
+            if len(selected) == target_k:
                 break
 
     # 2) Targeted supplementation pass across full ranking if a mode is still uncovered.
-    if ENABLE_MODE_ROUTING and ENABLE_MODE_COVERAGE and len(selected) < k:
+    if ENABLE_MODE_ROUTING and ENABLE_MODE_COVERAGE and len(selected) < target_k:
         for mode in sorted(query_modes):
             if mode_counts.get(mode, 0) >= min_per_mode:
                 continue
@@ -404,11 +498,11 @@ def retrieve(
                 if try_select(idx, ignore_source_cap=True):
                     mode_counts[mode] = mode_counts.get(mode, 0) + 1
                     break
-            if len(selected) == k:
+            if len(selected) == target_k:
                 break
 
     # 3) Clause coverage pass for multi-part prompts.
-    if ENABLE_CLAUSE_COVERAGE and len(selected) < k:
+    if ENABLE_CLAUSE_COVERAGE and len(selected) < target_k:
         clauses = _extract_subqueries(query, MAX_SUBQUERIES)
         clause_vectors = (
             embed_texts(client, clauses, input_type="search_query") if clauses else np.empty((0, 0))
@@ -423,7 +517,7 @@ def retrieve(
             clause_dense = ((chunk_vecs @ clause_vectors[clause_idx]) + 1.0) / 2.0
             needed = min_per_clause
             prefer_mode_match = bool(query_modes)
-            while needed > 0 and len(selected) < k:
+            while needed > 0 and len(selected) < target_k:
                 best_idx = None
                 best_score = 0.0
                 for raw_idx in ranked_idx:
@@ -456,7 +550,7 @@ def retrieve(
                 needed -= 1
 
     # 4) Query-expansion coverage pass (generic compliance/mode expansion queries).
-    if ENABLE_QUERY_EXPANSION and len(selected) < k:
+    if ENABLE_QUERY_EXPANSION and len(selected) < target_k:
         expansions = _build_expansion_queries(
             query=query,
             clauses=clauses,
@@ -475,7 +569,7 @@ def retrieve(
                 continue
             expansion_dense = ((chunk_vecs @ expansion_vectors[expansion_idx]) + 1.0) / 2.0
             needed = min_per_expansion
-            while needed > 0 and len(selected) < k:
+            while needed > 0 and len(selected) < target_k:
                 best_idx = None
                 best_score = 0.0
                 for raw_idx in ranked_idx:
@@ -503,26 +597,27 @@ def retrieve(
 
     # 5) Fill remaining slots from globally best chunks, deferring ACAN when not requested.
     acan_deferred: List[int] = []
-    for raw_idx in ranked_idx:
-        idx = int(raw_idx)
-        if idx in selected_set:
-            continue
-        if ENABLE_MODE_ROUTING and (not _has_acan_mode(query_modes)) and _has_acan_mode(chunk_modes[idx]):
-            acan_deferred.append(idx)
-            continue
-        if try_select(idx):
-            if len(selected) == k:
-                break
+    if len(selected) < target_k:
+        for raw_idx in ranked_idx:
+            idx = int(raw_idx)
+            if idx in selected_set:
+                continue
+            if ENABLE_MODE_ROUTING and (not _has_acan_mode(query_modes)) and _has_acan_mode(chunk_modes[idx]):
+                acan_deferred.append(idx)
+                continue
+            if try_select(idx):
+                if len(selected) == target_k:
+                    break
 
     # 6) Fallback: if we still need slots, allow deferred ACAN chunks.
-    if len(selected) < k:
+    if len(selected) < target_k:
         for idx in acan_deferred:
             if try_select(idx):
-                if len(selected) == k:
+                if len(selected) == target_k:
                     break
 
     # 7) Final fallback: ignore source cap to guarantee exactly k when possible.
-    if len(selected) < k:
+    if len(selected) < target_k:
         final_deferred_acan: List[int] = []
         for raw_idx in ranked_idx:
             idx = int(raw_idx)
@@ -532,13 +627,15 @@ def retrieve(
                 final_deferred_acan.append(idx)
                 continue
             if try_select(idx, ignore_source_cap=True):
-                if len(selected) == k:
+                if len(selected) == target_k:
                     break
         # Last-resort fill with ACAN chunks only if still short.
-        if len(selected) < k:
+        if len(selected) < target_k:
             for idx in final_deferred_acan:
                 if try_select(idx, ignore_source_cap=True):
-                    if len(selected) == k:
+                    if len(selected) == target_k:
                         break
 
+    # Safety cap: never return more than requested top-k.
+    selected = selected[:target_k]
     return [(chunks[i], float(combined_scores[i])) for i in selected]

@@ -25,15 +25,15 @@ ENABLE_MODE_ROUTING = (
 )
 # Ensure at least some evidence for each detected query mode (for multi-part questions).
 ENABLE_MODE_COVERAGE = (
-    os.getenv("ENABLE_MODE_COVERAGE", "true").strip().lower() in {"1", "true", "yes", "on"}
+    os.getenv("ENABLE_MODE_COVERAGE", "false").strip().lower() in {"1", "true", "yes", "on"}
 )
 # Ensure sub-query coverage for long multi-part questions.
 ENABLE_CLAUSE_COVERAGE = (
-    os.getenv("ENABLE_CLAUSE_COVERAGE", "true").strip().lower() in {"1", "true", "yes", "on"}
+    os.getenv("ENABLE_CLAUSE_COVERAGE", "false").strip().lower() in {"1", "true", "yes", "on"}
 )
 # Enable lightweight query-expansion retrieval for compliance-oriented prompts.
 ENABLE_QUERY_EXPANSION = (
-    os.getenv("ENABLE_QUERY_EXPANSION", "true").strip().lower() in {"1", "true", "yes", "on"}
+    os.getenv("ENABLE_QUERY_EXPANSION", "false").strip().lower() in {"1", "true", "yes", "on"}
 )
 # Minimum chunks to pull for each detected mode when available.
 MIN_CHUNKS_PER_MODE = int(os.getenv("MIN_CHUNKS_PER_MODE", "1"))
@@ -61,6 +61,46 @@ COHERE_API_KEY = os.getenv("COHERE_API_KEY", "")
 CHAT_MODEL = os.getenv("COHERE_CHAT_MODEL", "command-r-plus")
 EMBED_MODEL = os.getenv("COHERE_EMBED_MODEL", "embed-english-v3.0")
 EMBED_BATCH = int(os.getenv("EMBED_BATCH", "64"))
+
+# Rerank settings (Cohere hosted reranking).
+ENABLE_RERANK = (
+    os.getenv("ENABLE_RERANK", "true").strip().lower() in {"1", "true", "yes", "on"}
+)
+RERANK_MODEL = os.getenv("COHERE_RERANK_MODEL", "rerank-english-v3.0")
+# Blend between local hybrid score and Cohere rerank score for candidates.
+# 0.0 = no rerank impact, 1.0 = rerank only for candidate ordering.
+RERANK_ALPHA = float(os.getenv("RERANK_ALPHA", "0.60"))
+
+# LLM query rewrite / expansion settings.
+ENABLE_LLM_QUERY_REWRITE = (
+    os.getenv("ENABLE_LLM_QUERY_REWRITE", "true").strip().lower() in {"1", "true", "yes", "on"}
+)
+QUERY_REWRITE_MODEL = os.getenv("QUERY_REWRITE_MODEL", CHAT_MODEL)
+QUERY_REWRITE_MAX_QUERIES = int(os.getenv("QUERY_REWRITE_MAX_QUERIES", "3"))
+QUERY_REWRITE_MAX_TOKENS = int(os.getenv("QUERY_REWRITE_MAX_TOKENS", "220"))
+
+# Chat context packing and memory settings.
+TOKENIZER_MODEL = os.getenv("TOKENIZER_MODEL", CHAT_MODEL)
+CHAT_MAX_INPUT_TOKENS = int(os.getenv("CHAT_MAX_INPUT_TOKENS", "4096"))
+CHAT_MAX_OUTPUT_TOKENS = int(os.getenv("CHAT_MAX_OUTPUT_TOKENS", "400"))
+# Reserve output and system/message overhead while packing documents.
+CHAT_RESERVED_TOKENS = int(os.getenv("CHAT_RESERVED_TOKENS", "1000"))
+# Cap individual document payload size before packing.
+MAX_DOC_TOKENS = int(os.getenv("MAX_DOC_TOKENS", "320"))
+MAX_PACKED_DOCS = int(os.getenv("MAX_PACKED_DOCS", "8"))
+# Keep only the latest N conversation turns (user + assistant pairs).
+MAX_HISTORY_TURNS = int(os.getenv("MAX_HISTORY_TURNS", "3"))
+
+CHAT_PREAMBLE = os.getenv(
+    "CHAT_PREAMBLE",
+    (
+        "You are a procurement policy assistant. "
+        "Use only the provided policy documents. "
+        "For each policy claim, cite the CHUNK_ID value shown in the documents in square brackets, "
+        "e.g. [buyers_guide__...__3]. "
+        "If evidence is insufficient, say so explicitly and do not infer beyond the documents."
+    ),
+)
 
 
 def validate_config() -> None:

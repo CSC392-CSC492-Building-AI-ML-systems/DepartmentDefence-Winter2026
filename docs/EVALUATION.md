@@ -25,9 +25,16 @@ Lines starting with `#` are comments and ignored by `eval_runner.py`.
 
 Each run JSON contains:
 - `config`: run settings (`top_k`, `with_chat`, `question_count`)
+- `timing_summary_ms`: run-level latency summary (`p50`, `p95`, `mean`)
 - `results[]`: one record per question
   - `question`
   - `answer` (or chat error text)
+  - `query_expansions`: LLM-generated retrieval query variants used for that question
+  - `packing_stats`: token-budget packing stats for supplied chat documents
+  - `timing_ms`:
+    - `retrieval`
+    - `chat` (null when `--with-chat` is not used)
+    - `total`
   - `retrieved[]`:
     - `chunk_id`
     - `title`
@@ -44,6 +51,10 @@ Each run JSON contains:
     - mode mismatch (e.g., ACAN content in non-ACAN prompts),
     - weak conflict handling,
     - unsupported “override” claims.
+- Performance quality:
+  - Track `timing_summary_ms.total.p50` and `timing_summary_ms.total.p95`.
+  - For chat runs, separately track `timing_summary_ms.chat.p95` to detect model-side latency spikes.
+  - Retrieval timing includes rewrite + rerank + document packing, not just vector similarity.
 
 ## Retention Policy
 `eval_runs/*.json` are generated artifacts. You usually do not need to keep all historical files.

@@ -21,8 +21,9 @@
 - `corpus.py`: document listing + chunking.
 - `embedding_client.py`: Cohere client + embeddings helper.
 - `pipeline.py`: document-to-embedding pipeline.
-- `retrieval.py`: retrieval/reranking logic.
-- `prompting.py`: grounded prompt construction.
+- `query_rewrite.py`: LLM-generated retrieval query expansion.
+- `retrieval.py`: hybrid retrieval + Cohere rerank + selection logic.
+- `prompting.py`: token-budget document packing (and legacy prompt builder).
 - `rag_types.py`: shared dataclasses.
 
 ## Data (`data/`)
