@@ -1,0 +1,20 @@
+TITLE: Offer evaluation - Prepare an evaluation report
+SOURCE_URL: https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-solicitation-offers
+CANONICAL_URL: https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-solicitation-offers
+DOC_TYPE: buyers_guide
+AUTHORITY_RANK: 3
+DATE_MODIFIED: 2026-01-31
+---
+Prepare an evaluation report
+An evaluation report must be prepared detailing the process used to review offers. It must include any clarifications requested and the basis for the final decision to rank and select the offerors.
+Contents of the report
+The evaluation report should outline:
+the criteria used for evaluation
+the rationale for mandatory and point ratings for each criterion
+the names and contact information of all evaluators involved in the process
+Signatures
+All individuals involved in the evaluation are required to sign the report to validate the findings and decisions made.
+Record keeping
+All notes taken during the evaluation process must be preserved in their original form. These documents must be retained in the procurement file for audit and review purposes.
+Additional tools
+In some regions, checklists have been developed to help you tabulate offers. Use these tools where applicable to ensure consistency and thoroughness in the evaluation process. If you're unsure whether such tools have been created for your region, consult your manager for guidance.

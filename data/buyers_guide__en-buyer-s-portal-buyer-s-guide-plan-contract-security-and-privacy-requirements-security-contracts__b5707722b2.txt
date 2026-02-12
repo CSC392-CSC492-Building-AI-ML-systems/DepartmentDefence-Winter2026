@@ -1,0 +1,19 @@
+TITLE: Offer evaluation - Conduct an offer clarification
+SOURCE_URL: https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-contracts
+CANONICAL_URL: https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-contracts
+DOC_TYPE: buyers_guide
+AUTHORITY_RANK: 3
+DATE_MODIFIED: 2026-01-31
+---
+Conduct an offer clarification
+When pursuing a contract award, offers must meet all mandatory requirements outlined in the solicitation of offers by the closing date. It is the offeror’s responsibility to ensure their offers meet the solicitation criteria and must seek clarification if any requirement is unclear. You may seek clarification from offerors but you are not obligated to do so.
+Pursuant to the Canadian International Trade Tribunal , a written clarification is acceptable only if it is an explanation of an existing aspect of the offer that does not constitute a substantive revision or modification of the offer.
+In instances where you opt to request clarification or additional supporting data, you must also ensure that this process does not unfairly benefit any offeror over others. It is crucial that these clarifications do not lead to changes in the offer's price or substantive elements.
+The following points outline the permissible scope and process for clarifications:
+clarifications can only pertain to aspects of the offer that do not alter its substance or price
+requests for clarification and the corresponding responses must be documented in writing
+any response that substantially alters the offer is deemed as offer repair and will be excluded from the evaluation process.
+clarifications are only acceptable if they clarify an existing aspect of the offer without constituting a significant revision
+In evaluating offers, Canada may without obligation, correct any pricing errors based on unit pricing or adjust for errors in quantities to match those stated in the solicitation of offers. Should an unusually low offer price be identified, the offeror will have the opportunity to confirm or withdraw their offer in writing.
+Once confirmed, the offeror is bound to the stated price in any resulting contract. You are prohibited from disclosing the price difference between the confirmed offer and the next lowest offer and from allowing the offeror to increase the price. In solicitations with offer security, this provision may not apply.
+Offerors are given a specified timeframe to comply with any request for clarification. Failure to meet this requirement may lead to the offer being deemed non-responsive.

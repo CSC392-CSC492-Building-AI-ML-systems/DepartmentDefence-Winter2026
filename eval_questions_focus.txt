@@ -1,0 +1,5 @@
+# Focus set for targeted debugging of known weak behaviors.
+# See docs/EVALUATION.md for how to use this file.
+We are issuing a non-defence RFP under an existing supply arrangement renewal, and a supplier from a non-trade-partner country submits an offer after closing with evidence of system delay; under reciprocal procurement and late-offer rules, is the supplier eligible, can the offer be considered, and what exact file documentation and approvals are mandatory before award?
+For a non-defence procurement where a best value exception and public interest exception are both being considered under reciprocal procurement, who must approve each exception in writing and what has to be included in the procurement file?
+Under the Buy Canadian policy instruments, when exceptions are invoked by a common service provider on behalf of multiple departments, what approvals and supporting documentation are required prior to solicitation?

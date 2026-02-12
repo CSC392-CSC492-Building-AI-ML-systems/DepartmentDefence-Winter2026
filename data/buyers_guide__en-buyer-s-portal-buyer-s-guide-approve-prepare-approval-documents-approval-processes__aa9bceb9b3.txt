@@ -1,0 +1,37 @@
+TITLE: Prepare approval documents - Approval processes
+SOURCE_URL: https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/approval-processes
+CANONICAL_URL: https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/approval-processes
+DOC_TYPE: buyers_guide
+AUTHORITY_RANK: 3
+DATE_MODIFIED: 2026-01-31
+---
+Approval processes
+Prior to initiating significant procurement actions, including but not limited to, issuing an Advance Contract Award Notice (ACAN), a Notice of Proposed Procurement, a solicitation of offers, or beginning negotiations, the procurement strategy must be approved by the approval authority.
+You can pursue an exception to allow a sole-source contracting activity by invoking 6(d) of the Government Contracts Regulations (GCRs). If you do, the answers to the seven Treasury Board (TB) sole source questions must be appended to all approval documents and documented in the procurement file.
+Two levels of control apply to the procurement process:
+Primary control: the contract approval authority is responsible for reviewing the file to ensure compliance with all applicable legislation, regulations and policies, then accepting and approving the terms and conditions proposed in the contract documents
+Secondary control : the contract signing authority must ensure that the terms and conditions of the contract documents reflect those approved by the contract approval authority
+You must ensure that the complexity level and risk assessments are aligned with any changes to the procurement strategy or new information that may impact complexity level or risk assessment. You may need to perform these assessments again in response to changes in strategy or new information, and resubmit the approval document to the appropriate authority level.
+Addressing identified risks in the approval document
+In your approval document, you should detail risks and include:
+Risk statement : describing what risk may occur, the potential harm, the likelihood of the harm occurring, and the degree of impact or severity of its impact
+Risk responses : describing actions to mitigate the degree of risk, including risk reduction measures to lessen the impact and measures for risk avoidance and prevention
+Residual risk : the description of the residual risk that remains after risk response measures have been applied
+Note: In theory, no risk can be completely eliminated, so there must be a description of the residual risk. The level of residual risk can be a critical factor in determining how to proceed with the procurement because the residual may be at an unacceptable level
+As a Public Services and Procurement Canada (PSPC) buyer, you must complete a Procurement Risk Assessment (PRA), in accordance with the predetermined complexity level, include it with the approval document, and keep it on the procurement file. The approval authority may direct you:
+to review the procurement strategy or risk factors
+to seek review by legal services, cost analysts or other subject matter experts
+to repeat the complexity assessment or PRA ( accessible only on the Government of Canada network - for PSPC only)
+In cases where the PRA is revised, a copy must be attached to the approval document indicating which version it is and the reason for the revised PRA .
+Procurement approval levels and approval documents
+The required approval level and approval process will depend on the nature of the procurement including its dollar value, the product and service category, the associated risks, and specific circumstances (for example, emergency conditions or the stage in the procurement process).
+As a PSPC buyer, to determine the appropriate approval level and approval document required, you must refer to the Delegation of authorities instrument (accessible only on the Government of Canada network - for PSPC only). The limits shown in the instrument include both contract entry and amendment authority. These limits are maximums as defined by the application of both the complexity assessment and the PRA . The authority required for contract entry or amendments will be determined on a case-by-case basis through the application of a PRA for the level of complexity.
+Types of procurement approval documents include:
+procurement plan
+Contract Planning and Advance Approval (CPAA)
+CPAA resubmission
+contract summary
+contract request
+Treasury Board (TB) submission
+contract amendment request
+Each approval document type is appropriate for different stages of the procurement process. They may require additional reviews by various authorities as outlined in Additional reviewers .

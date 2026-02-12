@@ -1,0 +1,32 @@
+TITLE: Engage - Engage with clients
+SOURCE_URL: https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-clients
+CANONICAL_URL: https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-clients
+DOC_TYPE: buyers_guide
+AUTHORITY_RANK: 3
+DATE_MODIFIED: 2026-01-31
+---
+Engage with clients
+You should develop a comprehensive procurement schedule early in the process, in collaboration with the client, to ensure a smooth procurement cycle. In this schedule, you must factor in, as applicable, time to:
+review and analyse the client's requirements
+complete the Request for Information process
+assess the level of approval required, and prepare approval documents
+obtain approvals, including for the use of a fairness monitor and the approval of the Procurement plan or the Contract Planning and Advance Approval
+prepare the solicitation documents, factoring in translation requirements
+prepare, receive and review offers, including time for site visits and offerors’ conferences
+publish the solicitation, including any extensions
+conduct the technical evaluation, which may include pre-award testing such as benchmarking
+conduct the financial evaluation
+obtain recommendations from legal and conduct financial reviews
+comply with the requirement for negotiation
+obtain security clearances
+consider any other factors that may affect the procurement schedule
+Treasury Board (TB) approval
+Clients should be made aware that under normal circumstances, the Treasury Board Secretariat must receive a final draft submission 7 weeks prior to scheduling it on a TB agenda. This timeframe allows sufficient time for review and consideration.
+A minimum of at least 16 weeks is needed for a qualified offer to obtain TB approval. This is with the understanding that a major procurement process may extend up to 6 months, if no unforeseen challenges arise. You must also ensure that the offer validity period is long enough to ensure that offers or arrangements are still valid when TB approval is received.
+Phased Offer Compliance Process (POCP)
+You should advise clients to consult with the procurement team at the earliest opportunity to discuss the appropriateness of including the POCP in their solicitation plans. This proactive approach helps in addressing any potential issues upfront and facilitates a smoother procurement process overall.
+Elements to go over:
+ensure that the client understands the POCP
+refer to the POCP Handbook as part of the Phased Bid Compliance Process (accessible only on the Government of Canada network)
+address any concerns or issues the client might have
+clarify the eligibility of the procurement for the POCP

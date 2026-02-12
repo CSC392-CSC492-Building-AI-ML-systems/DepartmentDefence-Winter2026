@@ -1,0 +1,13 @@
+TITLE: Consider a peer review - Determine if a peer review is required
+SOURCE_URL: https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review/determine-if-peer-review-required
+CANONICAL_URL: https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review/determine-if-peer-review-required
+DOC_TYPE: buyers_guide
+AUTHORITY_RANK: 3
+DATE_MODIFIED: 2026-01-31
+---
+Determine if a peer review is required
+The specifics of when a peer review is required vary based on the complexity and risk associated with the procurement. For examples of when a peer review is required, refer to the following list:
+for complexity level 2 and 3 competitive procurements, the requirement for a peer review is determined based on the procurement risk assessment
+for complexity level 4 and 5 procurements, a peer review is mandatory
+informal peer reviews may also take place at your discretion or the applicable approval authority
+The decision on who conducts the peer review is made during the procurement strategy phase when seeking approval in accordance with the risk assessment tool or at the discretion of the approval authority.

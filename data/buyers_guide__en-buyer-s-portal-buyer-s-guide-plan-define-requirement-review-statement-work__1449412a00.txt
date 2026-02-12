@@ -1,0 +1,38 @@
+TITLE: Define the requirement - Review a statement of work
+SOURCE_URL: https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/review-statement-work
+CANONICAL_URL: https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/review-statement-work
+DOC_TYPE: buyers_guide
+AUTHORITY_RANK: 3
+DATE_MODIFIED: 2026-01-31
+---
+Review a statement of work
+Before soliciting offers and awarding contracts, you must review the client's statement of work (SOW) to ensure that the requirements are clearly defined. As a buyer, it's your responsibility to verify that the SOW contains all necessary details to support a successful procurement process.
+When reviewing an SOW , ensure that:
+the client's requirements are clearly identified and articulated
+the deliverables are precisely defined, including any specific products, services, or outcomes
+the delivery schedule is realistic and clearly outlined
+all tasks and responsibilities are thoroughly described
+The SOW should provide enough detail to ensure that all potential offerors have a clear understanding of the requirements, allowing them to submit competitive and compliant offers. This level of clarity also ensures that all offerors are treated equally throughout the procurement process.
+For more guidance on preparing and reviewing a statement of work, refer to the Statement of Work Guide (accessible only on the Government of Canada network).
+Equivalent products
+When there is no alternative to specifying a particular manufactured product, you should include appropriate procurement clauses for equivalent products in the solicitation document, if possible. This indicates that products that are equivalent in form, fit, function and quality may be considered. Before issuing the solicitation of offers, you should discuss with the client the potential for equivalent products, and any mandatory performance criteria related to the specified item. These criteria must be included in the solicitation document to ensure proper evaluation of a substitute product’s equivalency. All references to a manufacturer’s brand name, model and/or part number contained in the solicitation must be followed by the words "or equivalent.”
+For procurements subject to the Canadian Free Trade Agreement (CFTA), or to any of Canada’s international trade agreements, provisions for equivalent products must be made. You must give consideration to offerors’ claims of equivalence and have some way to determine if the proposed products are equivalent.
+No substitute products
+You must clearly state in the solicitation document that substitute products will not be considered when a manufacturer’s brand name, model and/or part number are used in the item description. The no substitute products stipulation must not be used in solicitations of offers subject to the CFTA or any of Canada’s international trade agreements.
+Multi-item offers
+Multi-item requirements can be structured using one or a combination of the following basis:
+aggregate basis: where the entire requirement is awarded to one offeror
+item-by-item basis: used to potentially secure better prices for specific products or to ensure complete coverage if a single offeror cannot fulfill the entire requirement
+Cost-benefit analysis of multi-item offers
+In the evaluation of multi-item offers you must consider cost-benefit factors. This involves assessing the savings from dividing a requirement across multiple contracts against the additional costs typically associated with multiple awards or the issuance of multiple standing offers.
+You should consider costs to:
+PSPC (awarding, managing, and closing out contracts)
+the client (extra billing, inspection, and other administrative expenses)
+the contractor (transportation costs, price per unit)
+Sectors/regions should determine their own administrative premiums based on the above considerations.
+Challenges with multiple contracts
+You must balance the benefits from awarding more than one contract against potential drawbacks, which may include:
+variations in delivery times from different offerors
+issues with interoperability or compatibility of items from different offerors
+challenges related to the service or maintenance of delivered items
+While the solicitation of offers typically allows for partial or complete acceptance, consciously incorporating an aggregate or item-by-item award basis into the procurement strategy may offer best value to Canada.

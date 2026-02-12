@@ -1,0 +1,11 @@
+TITLE: Terminate or suspend a contract - Suspension of the work and stop work orders
+SOURCE_URL: https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/suspension-work-and-stop-work-orders
+CANONICAL_URL: https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/suspension-work-and-stop-work-orders
+DOC_TYPE: buyers_guide
+AUTHORITY_RANK: 3
+DATE_MODIFIED: 2026-01-31
+---
+Suspension of the work and stop work orders
+If a client needs to have work under a contract suspended instead of cancelled, you should use the appropriate clause to issue a stop work order. Suspending the work provides time to review the contract's status before deciding the type and extent of termination (including termination for default).
+To reinstate the contract after issuing a stop work order, you must cancel the stop work order using the appropriate clause. It may be necessary to adjust the delivery terms or the contract price. You are responsible to determine if the contractor's claims for additional costs are reasonable.
+Amendments to cover payment of such costs must be approved in accordance with the contract amendment approval and signing authorities. Further guidance can be found in Termination for convenience .

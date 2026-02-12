@@ -1,0 +1,26 @@
+TITLE: Determine the solicitation period - Figure 1: Normal minimum solicitation period
+SOURCE_URL: https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/normal-minimum-solicitation-periods
+CANONICAL_URL: https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/normal-minimum-solicitation-periods
+DOC_TYPE: buyers_guide
+AUTHORITY_RANK: 3
+DATE_MODIFIED: 2026-01-31
+---
+Normal minimum solicitation periods
+Regardless of minimum solicitation period requirements, offerors must always be given enough time to prepare and submit compliant offers. The following must be considered when determining the solicitation period for a procurement:
+the nature and complexity of the procurement
+the extent of subcontracting anticipated
+the time necessary for transmitting tenders by non-electronic means
+Minimum solicitation periods for procurements
+May be less than 15 calendar days for efficiency and cost effectiveness:
+Goods: below $25K (including taxes)
+Construction: below $40K (including taxes)
+Services: below $40K (including taxes)
+15 calendar days if the Notice of Proposed Procurement (NPP) and tender documents are published at the same time electronically
+13 calendar days if 15 calendar days is impracticable
+10 calendar days if offers are accepted electronically
+Note: If the NPP and tender documents are not published at the same time electronically, the guidance for non-commercial goods and/or services below applies.
+40 calendar days, which can be reduced by 5 days, to no less than 25 days, for each of the following conditions:
+the NPP is published electronically
+all tender documents are available electronically from the NPP date of publication
+the procuring entity accepts tenders electronically
+Note: If using limited tendering, the solicitation period should be at least 15 calendar days.

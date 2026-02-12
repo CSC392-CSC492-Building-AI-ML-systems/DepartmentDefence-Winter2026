@@ -1,0 +1,17 @@
+TITLE: Tender notices - Tender notices and Procurement Strategy for Indigenous Business set-asides
+SOURCE_URL: https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-procurement-strategy-indigenous-business-set-asides
+CANONICAL_URL: https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-procurement-strategy-indigenous-business-set-asides
+DOC_TYPE: buyers_guide
+AUTHORITY_RANK: 3
+DATE_MODIFIED: 2026-01-31
+---
+Tender notices and Procurement Strategy for Indigenous Business set-asides
+When publishing notices such as a Notice of Proposed Procurement (NPP) or an Advance Contract Award Notice (ACAN) for procurements set aside under the federal government's Procurement Strategy for Indigenous Business (PSIB), these notices must prominently feature one of the following statements:
+For NPP : “This procurement has been set aside under the federal government's Procurement Strategy for Indigenous Business (PSIB). In order to be considered, a business must certify that it qualifies as an Indigenous business as defined under PSIB and that it will comply with all requirements of PSIB .”
+For ACAN s: “This procurement has been set-aside under the federal government's Procurement Strategy for Indigenous Business (PSIB). Only Indigenous businesses as defined under PSIB are eligible to challenge the proposed procurement strategy to award the contract to the named Indigenous business.”
+You must ensure that the appropriate “Agreement Type” is selected for PSIB set-asides when posting these notices on the Government Electronic Tendering Service (GETS) to ensure clarity and compliance with PSIB requirements.
+Tender notices and Comprehensive Land Claims Agreements
+When issuing tender notices for procurements subject to Comprehensive Land Claims Agreements (CLCAs), it is crucial to include a statement in the notice on GETS indicating the applicable CLCAs .
+For any procurement subject to a CLCA , the notice should explicitly state which agreement applies. For instance, a notice might read: “This procurement is subject to the Inuvialuit Final Agreement.”
+If the CLCA provides its beneficiaries with a right of first refusal for the procurement, the notice must clearly reserve the procurement for those beneficiaries. The statement should be detailed and include the exact reference to the applicable CLCA , as follows:
+“This procurement is reserved for beneficiaries of the following Comprehensive Land Claims Agreement (CLCA): [insert the applicable CLCA ] under [insert the applicable CLCA chapter, article, and paragraph numbers].”

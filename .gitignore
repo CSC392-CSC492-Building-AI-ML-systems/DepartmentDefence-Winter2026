@@ -1,2 +1,5 @@
 .env
 /.venv/
+__pycache__/
+rag/__pycache__/
+eval_runs/*.json

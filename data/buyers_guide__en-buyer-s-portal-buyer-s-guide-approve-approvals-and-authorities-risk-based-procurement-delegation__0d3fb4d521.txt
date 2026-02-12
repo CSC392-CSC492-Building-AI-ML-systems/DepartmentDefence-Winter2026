@@ -1,0 +1,15 @@
+TITLE: Approval and authorities - Risk-based procurement delegation
+SOURCE_URL: https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/risk-based-procurement-delegation
+CANONICAL_URL: https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/risk-based-procurement-delegation
+DOC_TYPE: buyers_guide
+AUTHORITY_RANK: 3
+DATE_MODIFIED: 2026-01-31
+---
+Risk-based procurement delegation
+This grid illustrates the delegation limits of individual officers based on the risk level and the complexity of the procurement. Row headers identify the risk level, moving down from high to low. Column headers identify complexity level, moving left to right from Level 1 through 5 inclusive. The characteristics applicable to the various levels of complexity are identified at Characteristics of procurement complexity levels .
+Risk
+level
+Equivalent positions
+The following table provides information related to positions within PSPC AP , whether at headquarters, client sites, or regional offices, with responsibility for common service acquisitions.
+unless restricted by legislation, regulation, or policy the Deputy Minister and Associate Deputy Minister of PSPC possess the same authorities as the Minister of PSPC
+positions not listed, the equivalent positions as recognized by the Chief Financial Officer of PSPC will apply

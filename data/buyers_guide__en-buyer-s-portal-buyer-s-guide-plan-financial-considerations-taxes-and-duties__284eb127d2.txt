@@ -1,0 +1,255 @@
+TITLE: Financial considerations - Taxes and duties
+SOURCE_URL: https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/taxes-and-duties
+CANONICAL_URL: https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/taxes-and-duties
+DOC_TYPE: buyers_guide
+AUTHORITY_RANK: 3
+DATE_MODIFIED: 2026-01-31
+---
+Taxes and duties
+Taxes and duties are important elements to consider for pricing and payment.
+You may refer to the Canada Border Services Agency’s ( CBSA ) website Contact border information services for questions on excise taxes and customs duties, including those related to rates, exemptions, refunds, other valuation methods and prohibited items.
+As a Public Services and Procurement Canada ( PSPC ) buyer, you may contact the sector responsible for procurement policy for questions related to:
+Goods and Services Tax/Harmonized Sales Tax ( GST/HST )
+defence supplies remission of customs duty
+federal/provincial reciprocal tax agreements
+Pricing
+For the purposes of the solicitation of offers, offerors with a Canadian address are considered Canadian-based offerors. Offerors that only have an address outside of Canada are considered foreign-based offerors.
+Canadian-based offerors
+Canadian-based offerors must include all applicable customs duties and excise taxes in their prices, unless otherwise specified. Offerors must show the GST/HST separately and identify whether each item is fully taxable, zero-rated or exempt.
+For the resulting contract, include all applicable customs duties, excise tax and GST/HST in the total estimated price.
+Foreign-based offerors
+Normally, foreign-based offerors must exclude Canadian customs duties, excise taxes and GST/HST from their offer prices. For the resulting contract, do not include these in the total estimated price. The client will pay the customs duties when the goods are imported. However, a foreign-based offeror who subcontracts for the manufacture and delivery of goods in Canada will include all customs duties applicable to the subcontract.
+If foreign-based offerors must submit fixed prices in Canadian dollars, you will typically require them to exclude Canadian customs duties, excise tax and GST/HST .
+Occasionally, it may be appropriate to request foreign-based offerors to submit their prices in Canadian dollars, inclusive of customs duties and excise tax. However, this may impact the participation of foreign-based offerors, particularly those used to pricing Free On Board ( FOB ). The importer of record pays the customs duties and excise tax, so a foreign-based offeror has no direct interest in the calculations unless the requirement is FOB destination.
+Goods and Services Tax / Harmonized Sales Tax
+Some terms have specific definitions for GST/HST . “Supply” means the provision of property or service in any manner. A supply is declared to be “made in Canada” if:
+for a supply of goods, they are made available or delivered in Canada to the recipient; that is, if the goods are in Canada when sold and transferred from the supplier to the purchaser, or if they are imported into Canada for delivery to the purchaser
+real property situated in Canada
+tangible personal property situated in Canada
+a service performed in Canada
+for a supply of real property or a service in respect of real property when the property is situated in Canada
+for a supply of other services, if it is performed in whole, or in part, in Canada
+for a telecommunications service consisting of making available telecommunication facilities, when the facilities, or any part, are located in Canada
+GST/HST applicability
+The GST/HST is payable on the invoiced amount, before any discount for prompt payment or penalty for late payment. It is payable when a progress payment, milestone payment or advance payment becomes due, or the client pays it. The Canada Revenue Agency ( CRA ) considers advance payments to be progress payments.
+The GST/HST applies to supplies made in Canada of real property, tangible property (that is, goods), intangible personal property (such as intellectual property) and services. The GST/HST on a supply made in Canada is payable by the recipient of the supply to a supplier who is registered for GST/HST . The supplier is responsible to remit the tax to CRA .
+The GST/HST on goods imported into Canada is payable on the duty paid value of the goods (determined under the Customs Act ). The importer must pay the GST/HST directly to CBSA when the goods are imported or taken out of bond for use. Refer to Importer obligations and responsibilities on the CBSA ’s website for more information.
+Goods imported into Canada for supply are subject to GST/HST at the time of importation and are subject to GST/HST when supplied in Canada by a supplier who is registered for GST/HST .
+The GST/HST also applies to supplies of services and intangible personal properties made outside Canada (generally by a non-resident supplier) to a person who is resident in Canada, if the person acquires the supply for use in Canada, but not exclusively in the course of commercial activities. These supplies are referred to as “imported taxable supplies”. The GST/HST on imported taxable supplies is self-assessed by the Canadian recipient of the supply and remitted directly to CRA .
+Holdbacks
+The GST/HST is normally paid on the total amount claimed before any holdback is deducted. No GST/HST is paid when the holdback is released. For a holdback under a contract for the construction, renovation or repair of a marine vessel or real property, the GST/HST on the holdback amount becomes payable either when the holdback is paid or at the end of the holdback period, whichever is earlier.
+Leases
+Lease payments on tangible goods under a lease signed before August 8, 1989, are not subject to GST/HST . However, if duration of such a lease is amended, or if the property is leased on or after that date, the payments become subject to GST/HST .
+Trade-ins
+The trade-in of a used good on the purchase of a new good creates two separate transactions for GST/HST purposes, if the person trading in the used good is a GST/HST registrant. The GST/HST applies to the full sale price of the new good, regardless of the allowance for trade-in, and each party must collect and pay GST/HST on the fair market value of the supply to the other.
+If the person trading in the used goods is not required to charge tax on the supply (for example, non-registrant supplier, or goods not used in commercial activities), then the supplier of the new goods subtracts the trade-in value from the value of the new goods before calculating the GST/HST .
+Exemptions and special cases
+Note : The word “Indian” is used in this section due to its legal context within the Indian Act .
+The GST/HST does not apply to exempt supplies, zero-rated supplies or certain imports. It normally does not apply to Indians, Indian bands and band-empowered entities. For more information, see the Buyer’s guide section on Tax exemption.
+The GST/HST does not apply to transactions between parts of the same organization. As the federal government has registered its departments (those entities listed in Schedule I, Schedule I.I and Schedule II of the Financial Administration Act ), as a single person, the GST/HST does not apply to transactions between departments. The GST/HST will apply to taxable transactions between departments and Crown corporations.
+Government-Supplied Material ( GSM ) is not subject to additional GST/HST costs, as the owner/end-user has already paid it. Contractors should not charge GST/HST against the value of GSM used in the performance of a contract. Foreign-based contractors must identify the GST/HST separately on CBSA 's Form CI1 - Canada Customs Invoice (PDF, 429 KB) - ( help on file formats ), describing them as Canadian goods returned and providing a value. If GSM is provided from one foreign-based contractor directly to another, this value should be included in the value of the item for customs clearance purposes, as this GSM would not have had GST/HST paid yet.
+The federal government does not pay GST/HST on imported taxable supplies, as the federal government is not required to self-assess tax. Imported taxable supplies include services performed wholly outside Canada for use in Canada, or services performed in Canada and supplied by a non-resident supplier who is not registered for GST/HST purposes. They also include intangible personal property supplied by a non-resident supplier who is not registered for GST/HST purposes.
+The federal government is required to pay tax on importation of goods if it is the importer of record, unless the goods qualify as non-taxable importations.
+Customs duties
+Imported goods are subject to duties at the rates applicable when the documentation is presented to obtain release of the goods from CBSA . The primary basis for determining the value of duty on imported goods is the transaction value method, which is generally the invoice price. For more details, refer to CBSA Memorandum D13-3-1 .
+Excise taxes
+Excise taxes are payable on certain goods. When goods are manufactured or produced and sold in Canada, the excise tax is payable by the manufacturer or producer when the goods are delivered. When goods are imported, the excise tax is payable by the importer or transferee, who takes the goods out of bond, when they are imported or taken out of bond for consumption.
+The following goods are subject to excise tax:
+gasoline: gasoline, aviation, unleaded and unleaded aviation
+fuel: diesel and aviation
+station wagons and vans weighing over 2,268 kg
+other automobiles (excluding ambulances) weighing over 2,007 kg
+air conditioners designed for use in automobiles, station wagons, vans or trucks
+real or imitation jewellery
+clocks and watches, where the duty paid value exceeds $50
+certain goldsmiths' and silversmiths' products
+insurance premiums on policies placed with unlicensed insurers or through non-resident brokers or agents
+amusement devices: coin-, disc- or token-operated games
+cigarettes and manufactured tobacco, cigars, cigarette lighters, matches, playing cards (per pack) and wines
+Duty and the GST/HST on tools, equipment or spare parts in contracts for services by non-residents
+Tools, equipment or spare parts brought into Canada by non-resident personnel for certain services under a contract may be subject to customs duty and GST/HST . These are payable to the CBSA when assessed.
+Clauses
+For contracts for services that non-residents perform in Canada, include a provision instructing the non-resident contractor, its employees or the subcontractor and its employees, to comply with all CBSA requirements and to pay any applicable customs duties, excess taxes and GST/HST .
+If it is anticipated that a non-resident may be required to import tools, equipment or spare parts to perform services in Canada, use the appropriate contract clause.
+General background
+The following sections provide general background on applicable regulations. For questions on specific cases, contact CBSA .
+Temporary importation of personal tools by non-resident workers of personal tools
+A non-resident worker entering Canada with personal tools or other equipment to erect, install or repair machinery or plant equipment, who is being sent by the foreign manufacturer, may import tools or other equipment under the Temporary Importation (Tariff Item No. 9993.00.00) Regulations . Customs duty is fully relieved, and GST/HST is payable on 1/60th of the value of the tools/equipment for each month they remain in Canada. For more details, see CBSA Memorandum D8-1-1 .
+Temporary importation by non-resident workers of tools supplied by manufacturer
+A non-resident worker entering Canada with tools or other equipment supplied by the manufacturer of the machinery to be erected, installed or repaired, may bring them into Canada. They will be subject to GST/HST payable on 1/60th of the value of the tools/equipment under the Temporary Importation (Tariff Item No. 9993.00.00) Regulations . For more information, see CBSA Memorandum D8-1-1 .
+Implications for foreign-based contractors involving temporary importation of tools by non-resident workers
+Full customs duty apply for a contract with a foreign-based contractor who is not the manufacturer of the machinery or equipment when a non-resident worker enters Canada with tools or other equipment to repair, erect or install that machinery or equipment. The GST/HST is also payable on the full value if there is no relief available under any other provision.
+Spare parts duty and GST/HST
+Duty and GST/HST are levied on all spare parts at the time of entry. After exporting unused spare parts from Canada under CBSA supervision, a drawback claim for the return of the customs duty on the unused spare parts may be filed under the Goods I mported and E xported D rawback R egulations . The GST is not refundable.
+Duty and GST/HST on the repair and overhaul of Canadian goods abroad
+The customs duty and the GST/HST varies for Canadian goods returning to Canada having been repaired or overhauled abroad, depending on the country where the repair or overhaul is done.
+Free trade partner countries
+Goods repaired in a country with which Canada has a free trade agreement are re-imported under Tariff Item No. 9992.00.00 for goods, or Tariff Item No. 9971.00.00 for vessels. The related policy and procedures are outlined in CBSA Memorandum D8-2-26 and D8-2-25 respectively.
+GST/HST is owed on the value of the repair or overhaul, unless performed under warranty. Goods imported under Tariff Items 9992.00.00 and 9971.00.00 are customs duty free. You should verify that no drawback claims have been paid on the temporarily exported goods.
+To qualify for these tariff items, required documentation, including an invoice and proof of export, must be submitted as per the regulations. The invoice or written statement from the foreign processor should include the value of the repair or alteration. Proof of export can be a customs or transportation document, an exporter declaration, or other documents set out in the regulations. It should describe the goods sufficiently to establish that the re-imported goods are the same goods that were exported. Records of the make, model and serial numbers help identify the goods.
+Non free trade partner countries
+For countries without a free trade agreement with Canada, the goods may be eligible for the Canadian Goods Abroad Program as outlined in sections 101-105 of the Customs Tariff. Under certain conditions, this program provides full customs duties and GST/HST relief on the Canadian export value of the goods when they return to Canada, per the CBSA Memorandum D8-2-1 .
+Goods qualify under this program if all of the following apply:
+they are documented in a manner acceptable to the CBSA
+the CBSA is satisfied that the repairs could not be performed in Canada
+the goods are returned to Canada within 12 months of export
+GST/HST is owed on the value of the repair or overhaul, unless performed under warranty. Under the Canadian Goods Abroad Program, customs duties are owed on the value of repair or overhaul. You should verify that no drawback claims have been paid on the temporarily exported goods and that repair facilities are not available within a reasonable distance in Canada.
+The CBSA may accept a verbal declaration from the consignee or PSPC , confirming the absence of repair or overhaul facilities within a reasonable distance in Canada. Canadian and United States (US) government agencies establish lists of approved repair suppliers for certain articles for use at defence establishments that are manufactured to rigid specifications. In such cases, if no Canadian-based supplier is approved to perform the repairs, this will be accepted as satisfactory evidence that the repairs could not be made in Canada.
+Duty and GST/HST calculation
+When calculating duty and GST/HST on the service performed abroad, consider the cost of materials used, the cost of labour, factory overhead and normal profit mark-up. The value for duty remains unchanged even if repairs are conducted under warranty with no charge for the repair or overhaul.
+Warranty work
+Replacement goods under warranty are subject to full customs duties but are non-taxable for GST/HST purposes, under Section 5 of Schedule VII to the Excise Tax Act . Goods exported for warranty work and then re-imported are exempt from GST/HST according to paragraph 3(j) of the Non-Taxable Imported Goods ( GST/HST ) Regulations.
+Duty and GST/HST on Canadian goods returned
+This section outlines the application of duty and GST/HST for Canadian goods re-imported into Canada after being exported for purposes other than repairs, equipment additions, or work done abroad.
+General exemption from customs duty
+Customs duty does not apply to Canadian goods returned from abroad if they have not been:
+advanced in value or improved in condition through any manufacturing process or other means
+combined with any other article while abroad
+For more information, see CBSA Memorandum D8-2-27 .
+Testing of articles
+Goods that are sent abroad solely for testing, without any adjustments, alterations or enhancements in value as a result of the testing, are exempt from customs duty and GST/HST upon return. This is regardless of whether there is a charge for the test .
+Government-owned munitions and supplies of war
+Canadian government-owned munitions and supplies of war that are returned to a government department or agency after being sent abroad are exempt from customs duty and GST/HST . This exemption applies specifically to items being shipped from Canadian Armed Forces establishments abroad back to government departments or agencies. It does not extend to goods purchased by government departments and agencies for import into Canada.
+Reciprocal taxation agreements and comprehensive integrated tax coordination agreements
+The federal government has entered into Reciprocal Taxation Agreements ( RTAs ) with all territories and provinces, except Alberta, for the payment, collection and remittance of provincial sales tax ( PST ) and other provincial taxes and fees ( PTFs ). The federal government has also entered into Comprehensive Integrated Tax Coordination Agreements (CITCAs) with those provinces that have their sales tax combined with the federal GST into a single harmonized sales tax (HST).
+Refer to the following documents for the most current and accurate information on PST and PTFs :
+Directive on Payments
+Guide to Collecting and Paying Federal and Provincial Sales Taxes
+Summary of Reciprocal Taxation Agreements with Provinces and Territories
+General information
+Departments claim an exemption from the payment of PST on the purchase of taxable goods and services in all provinces that have PST except Quebec. Departments must pay Quebec’s PST , known as Quebec Sales Tax (QST), on taxable goods or services, and then they must claim a rebate through the QST Federal Rebate Administrator from Revenue Québec.
+Contractors must not provide the federal government's PST exemption numbers or certificates to their own suppliers.
+Departments will reimburse third parties for PST and HST paid for goods or services purchased either on their behalf or during work-related travel.
+When acting as a supplier, federal departments, agencies and Crown corporations must collect and remit PST or HST when delivering goods or services in a province.
+Crown corporations
+Crown corporations are not covered by the RTAs , and must pay PST and HST , similarly to the private sector. Some Crown corporations hold special PST licenses allowing them to acquire goods and services PST -free for their own use.
+Fuel tax
+Liquid fuels may be subject to provincial fuel tax or retail sales tax, depending on the end use, with potential exemptions under certain conditions.
+Construction contracts
+The contractor is considered the consumer of materials used in contracts for the construction or repair of a building or structure. They must pay tax on purchases of materials. PST is an element of cost to the contractor, and as such, is included in the price. No further PST is imposed on the transaction between the contractor and Canada.
+Construction contracts should not contain a mix of real property and tangible personal property. However, if unavoidable, PST exemption numbers or certificates apply only to the “tangible personal property” component.
+For contracts for the supply and installation of free-standing equipment, affixed to but not providing direct service to a building or structure:
+do not include PST in the contract price
+cite the appropriate PST exemption numbers or certificates in the contract
+Note: In New Brunswick, such contracts are treated as real property contracts, and are subject to the procedure outlined above.
+United States sales tax, use tax and personal property tax
+If businesses based in the United States (U.S.) might submit offers, specify in the solicitation document that prices must exclude any U.S. sales or use tax. Items exported from the U.S. by the purchaser are exempt from these taxes. You should ensure that such items are not taxed in error and that the appropriate contract clauses are included.
+Purchases from California
+California's strict tax laws require particular attention due to its sales, use and personal property taxes, which could affect federal government procurement. You should take similar precautions for procurements from other states.
+California Sales and Use Taxes
+California has a sales and use tax, which a supplier must apply to goods when title to the goods is transferred to the purchaser in the State and the goods will be used in the State. However, imports and exports are not taxed. The use tax is the same as the sales tax, but the use tax applies when the goods are purchased by an out-of-state entity for use in the state. The use tax is not payable on items for which sales tax is payable.
+To be exempt as an export, the good sold must be intended for a destination in a foreign country and actually delivered to the foreign country before making any use of the good. If Canada desires to have title to the goods transferred in California, the contract must state that the goods are to be shipped to Canada and are for use in Canada only. Canada can still take title in California and also be responsible for loss of goods during transport.
+For example, goods may not be subject to California sales and use tax if either of the following apply:
+The goods are delivered California free carrier with title passing upon such delivery and are then shipped to a point outside California
+Title passes at time of delivery, and the goods are delivered by the seller to a conveyance provided by the purchaser (for example, where they are picked up by the Canadian Armed Forces) and are then shipped to a point outside the U.S.
+Progress Payments and Advance Payments
+Another area for particular attention is the use of progress payments or advance payments. California taxes may be payable when ownership is transferred to the purchaser. This transfer of ownership may be declared by the State to take place when the progress payment or advance payment is made. You should ensure that ownership is not transferred until the goods are delivered.
+Personal property tax
+California personal property tax applies to work-in-process, finished work and baled items located in California. It is assessed on the first Monday of every March at noon, regardless of whether:
+the contract is fixed price or cost reimbursable
+Canada or the contractor has title
+You should verify how California contractors apply this tax to contracts with the Government of Canada. If it’s charged as a direct charge to the contract, it shouldn’t also be charged indirectly, and overhead shouldn’t be applied to the direct charge.
+Duties relief and drawback programs
+Duties relief and drawback programs exist to enhance the competitiveness of exporters in foreign markets by providing relief from duties and excise taxes on:
+goods imported and then exported before use
+goods imported and used in the manufacture in Canada of goods that are then exported
+materials imported and consumed or expended in the manufacture in Canada of exported goods
+Duties Relief Program
+The Duties Relief Program is for imported goods that are exported either in the same condition or after having been manufactured. It grants relief from:
+customs duties
+anti-dumping and countervailing duties
+excise taxes
+taxes other than the GST
+Relief is granted at the time the goods are imported. For further information, see CBSA Memorandum D7-4-1 .
+Duty Drawback Program
+The Duty Drawback Program is similar to the Duties Relief Program, except that duties and excise taxes must be paid at the time of importation and are refunded after the goods have been exported. For additional details, consult CBSA Memorandum D7-4-2.
+Remission of customs duty for defence supplies
+Remission of customs duty payable is granted under the Tariff Item No. 9982.00.00 when:
+the total contract value of the defence supplies is $250,000 or more; this reflects the import value of the goods plus the duty that would be applicable in the absence of the customs tariff
+the goods are certified by PSPC to be defence supplies
+Since duty rates vary depending on the type of product, country of origin and mix of imported components, it may be difficult to decide whether the defence supply is subject to the tariff. Where there is uncertainty as to whether the total estimated expenditure would exceed the $250,000 threshold, you should request prices with customs duty identified as a separate item. When the total estimated value of a standing offer exceeds $250,000, each call-up is subject to the Tariff Item No. 9982.00.00.
+For more information, see CBSA Memorandum D8-9-3 .
+Non Department of National Defence importer
+When the importer is not the Department of National Defence (DND), a copy of the following certification must be attached to the contract:
+Certificate for Defence Supplies
+I certify that the items purchased under contract number __________ are "defence supplies," as defined in the Defence Production Act , pursuant to Tariff Item No. 9982.00.00.
+Approved by Authorized Officer:
+Signature
+Date
+Title
+The only proof acceptable to CBSA from the contractor that the import is a defence supply is a copy of the certification, which may be requested by the DND Director Supply Chain Operations/Customs, or by the investigating Regional Compliance Verification Division of CBSA . These parties investigate claims for remission and may contact you to verify the claim.
+Department of National Defence importer
+When the importer is DND, the CBSA accepts a copy of the contract for defence supplies as sufficient proof for remission. A copy of the certification for defence supplies does not need to be attached to the awarded contract.
+Changes to taxes and duties
+If applicable taxes, customs duties and excise taxes are included in the contract price, then you may need to adjust the contract price if taxes or duties change after the contract is awarded. See the contract clause on taxes for more information.
+After-imposed and after-relieved taxes
+If taxes increase after a contract is agreed upon (after-imposed taxes), increase the contract price by the actual amount of tax increase. The contractor must first provide you with a certified statement showing that the cost increase is directly attributable to the after-imposed taxes, and that no amount for the newly imposed taxes was included in the contract price.
+Conversely, if taxes are reduced (after-relieved taxes), decrease the contract price by the actual amount of the tax reduction.
+After-imposed and after-relieved duties in firm price contracts
+Provisions for price adjustments, upward or downward, may be made in firm price contracts if, after the contract is awarded, there are changes in duties that affect the cost of the work to the contractor. For after-imposed duties, increase the contract price by the actual amount of the duty increase. The contractor must first provide you with a certified statement, showing that the cost increase is directly attributed to the after-imposed duties, and that no amount for the newly imposed duties was included in the contract price.
+For after-relieved duties, reduce the contract price by the actual amount of the duty reduction.
+Tax exemption
+A tax-exempt supply is not subject to GST or HST . A contractor does not collect GST/HST on these exempt supplies and cannot claim input tax credits on related purchases. The GST/HST paid by a contractor is included in their overhead, separating exempt supplies from zero-rated supplies, which are taxable at 0% but allow for input tax credits.
+List of exempt supplies
+The following goods and services are considered exempt supplies.
+Health and dental services
+Only medically necessary or reconstructive services are exempt from GST/HST , not those for cosmetic purposes. This category includes:
+hospital and nursing home services
+medical devices prescribed by a licensed medical or dental practitioner
+prescribed diagnostics, treatments, and other healthcare services
+ambulance services
+nursing and dental hygienist services
+Child care services
+Daycare services for children under 15 years are exempt from GST/HST .
+Personal care services
+Personal care services provided in institutions for children, or for disabled or underprivileged individuals are exempt.
+Legal aid services
+The recipient of legal aid services pays no GST/HST . The lawyer performing the service bills the legal aid plan and charges GST/HST .
+Educational services
+Most educational services tied to primary or secondary education, including tutoring, are exempt. Most other educational services are exempt, except those purely recreational. Meal plans offered by universities and colleges are also exempt.
+Charitable supplies and public service bodies
+Most supplies by charities and many supplies of a public service nature by public service bodies are exempt, unless specifically excluded under Schedule V, Part VI, section 2 of the Excise Tax Act . Most universities in Canada are charities for the purposes of the GST/HST , so their supplies are generally exempt.
+Financial services
+Most financial services provided in Canada are exempt from GST/HST .
+Residential rents and housing
+Long-term residential rents and sales of used housing are exempt.
+Zero-rated supplies
+Zero-rated supplies are taxable at a 0% rate. Persons involved in the production of such supplies can claim input tax credits on the supplies they use. This ensures that customers do not pay GST/HST . Zero-rated supplies include:
+goods/services supplied to a purchaser outside Canada
+basic groceries, excluding soft drinks, candies, confections and snack foods
+cut flowers, foliage or trees
+bedding plants
+sod
+soil and soil additives
+seeds, in quantity ordinarily sold or offered to consumers
+natural fertilizer, unless sold in bulk
+wood
+horses
+wool other than in an unprocessed state
+fur and animal hide
+prescription drugs for human use
+medical devices, includes replacement parts and charges for installation and repair
+international freight services and freight from one part of Canada to another if it is part of a continuous movement into or from Canada
+Non-taxable importations
+Non-taxable importations under the GST/HST refers to certain imports listed in Schedule VII of the Excise Tax Act . No tax is paid on the importation of these supplies:
+goods exempt from customs duties such as foreign-based conveyances coming into Canada, settler's effects, tourist's baggage and foreign diplomat’s effects
+prizes and trophies won abroad (other than saleable goods, such as an automobile)
+tourist literature supplies by foreign governments or like organizations, which is to be distributed for free
+goods donated to charities
+warranty replacement parts
+zero-rated supplies in Section 2 of Part I or in Parts Il, Ill, IV, or VIII of Schedule VI of the Excise Tax Act
+imported goods valued under $20 delivered by mail or courier, not including alcohol, tobacco and more
+Indians, Indian bands, and band-empowered entities
+The Canada Revenue Agency B-039 GST/HST Administrative Policy - Application of GST/HST to Indians summarizes the policy concerning the treatment of supplies made to, or by, Indians, Indian bands and band-empowered entities ( BEEs ) under the GST/HST . It explains the conditions when tax relief applies. For example, Indians must present proof of registration under the Indian Act to the vendor in order to acquire goods or services on reserve without the payment of GST/HST .
+GST/HST does not apply to:
+goods acquired on reserve by Indians, Indian bands, or BEEs
+goods acquired off reserve by Indians, Indian bands, or BEEs , where the vendor or the vendor's agent delivers the goods to the reserve
+services acquired by Indians for real property interests on a reserve
+services performed totally on reserve where they are acquired by Indians
+transportation
+short-term accommodation
+meals and entertainment
+Note: They can recover the GST/HST paid through a rebate mechanism if the purchases are for band management activities or for real property on reserve.
+Unincorporated Indian-owned businesses receive the same tax relief on the acquisition of goods and services as that of their Indian owner. Indian-owned corporations are treated like all other businesses and are required to pay GST/HST on their purchases, unless they qualify as BEEs and the conditions set out in the B-039 GST/HST Administrative Policy are met.
+Indian bands and BEEs (for example, band-run schools and hospitals) may also be entitled to file the applicable Public Service Body Rebate to recover a partial rebate on any remaining GST/HST paid. Funding provided by Indian bands to non-profit organizations is the same as government funding to qualify for the 50% GST/HST rebate to non-profit organizations.
+Indian-owned businesses must collect and remit GST/HST on the supply of taxable goods and services to non-Indians on or off a reserve.

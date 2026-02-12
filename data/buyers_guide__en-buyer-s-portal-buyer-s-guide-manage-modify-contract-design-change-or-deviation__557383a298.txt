@@ -1,0 +1,38 @@
+TITLE: Modify a contract - Design change or deviation
+SOURCE_URL: https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/design-change-or-deviation
+CANONICAL_URL: https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/design-change-or-deviation
+DOC_TYPE: buyers_guide
+AUTHORITY_RANK: 3
+DATE_MODIFIED: 2026-01-31
+---
+Design change or deviation
+If there is no provision in the contract for design changes or deviations, the procedure may be initiated upon receipt of an authorization document from the client. The authorization must be incorporated into the contract through an amendment. Adequate funding must be authorized and set aside for changes. If additional funds are required, a requisition amendment must be submitted.
+The responsibilities and considerations involved in managing changes or deviations are listed below:
+each design change must have technical approval by the technical authority or project authority as specified in the contract and be approved by the buyer
+a design change requiring a price adjustment, should be negotiated before the change in work is made
+after approval by the client, you are responsible for prompt negotiation of price adjustments and updating the total contract price
+The form PWGSC-TPSGC 9038 Design Change/Deviation (PDF, 241 KB) (accessible only on the Government of Canada network) support all deviations and changes
+surplus materials from an authorized design change or deviation must be accounted for and reported to you, the buyer
+Design change or deviation procedure
+The following is an example of a design change or deviation procedure:
+Initiation
+A request for a design change or deviation can be made by the technical authority, project authority, or the contractor when it is necessary to depart, either temporarily or permanently, from the governing technical data in a contract.
+Contractor's role
+The contractor may initiate the design change or deviation process by completing section 1 of form PWGSC-TPSGC 9038 Design Change/Deviation (PDF, 241 KB) (accessible only on the Government of Canada network) and submitting it along with a ceiling price for the proposed change, subject to negotiation, to both the technical or project authority and you, the buyer. Supporting technical data should accompany the form, if necessary.
+Subcontractor submission
+Subcontractors must submit their requests through the contractor and ensure all necessary details are included before submission.
+Approval process
+The technical authority or project authority, with the sole right to deny approval, will review the design change or deviation request, and either approves it, and forwards it to the buyer, or rejects it, and returns it to the contractor.
+Authority initiated changes
+The technical or project authority may initiate the process by sending copies of the form to the contractor. The contractor then fills in the required details and returns copies of the form to the technical or project authority and to you.
+Multiple contracts
+Where equipment or stores affected by the change are being procured under more than one contract, a separate form for each contract is needed unless the technical authority or project authority has specifically authorized the use of one form for all contracts held by a single contractor. All relevant contract references must be included on the form.
+Buyer's responsibilities
+You are responsible for several key tasks when managing design changes or deviations:
+negotiate a firm price if possible, or another pricing basis that is consistent with the existing basis of payment in the contract
+provide contractual authority for the design change or deviation
+sign and distribute the design change form and send a copy to the contract and the technical authority or project authority
+prompting the contractor to implement the change
+ensuring that all relevant parties are informed of the amendment and that the contract's documentation remains up-to-date and accurate
+Contractor inquiries
+The contractor should direct enquiries on the design change or deviation procedure to the technical or project authority.

@@ -1,0 +1,20 @@
+TITLE: Manage payments - Overtime
+SOURCE_URL: https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/overtime
+CANONICAL_URL: https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/overtime
+DOC_TYPE: buyers_guide
+AUTHORITY_RANK: 3
+DATE_MODIFIED: 2026-01-31
+---
+Overtime
+When overtime is performed under a contract, Canada may incur added costs due to overtime premiums. Recognition of the additional costs by Canada depends upon the attendant circumstances and the cause for the overtime. Work performed under a contract should not result in higher overtime charges than would apply to similar commercial work.
+Scheduled overtime premium costs included in a contractor’s overhead are allowable if the contracts account for a pro rata share of the overtime.
+Unscheduled overtime premium costs to specific contracts are allowable only, if the overtime is due to Public Services and Procurement Canada (PSPC) or client demands for accelerated delivery, increased delivery quantities, or other reasons initiated by the client where the benefit to Canada can be demonstrated.
+If unscheduled overtime is likely, you should ensure the contract includes proper provisions for authorization, rates, and dollar limits.
+You should consult with a cost analyst to determine if the contractor's cost system includes overtime premium costs in the overhead account or as a direct charge to the particular contract. PSPC buyers should consult the Guideline on the Use of Cost and Price Analysis Services (accessible only on the Government of Canada’s network - PSPC only).
+When authorizing unscheduled overtime, you must:
+consult with the client to jointly confirm the need of overtime will result in a benefit to Canada
+ensure funding is available for reimbursing the contractor
+determine the aggregate limits of time and costs of the overtime to be authorized
+decide what, if any, delegation of authority should be made to the client's representative
+ensure that provisions for proper claiming and approval of overtime claimed, and overtime payments to the contractor, is included in the contract
+ensure that the procurement file includes clear documentation of all aspects related to the decision to authorize overtime

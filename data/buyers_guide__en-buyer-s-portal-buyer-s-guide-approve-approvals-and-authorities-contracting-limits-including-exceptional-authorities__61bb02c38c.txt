@@ -1,0 +1,30 @@
+TITLE: Approval and authorities - Contracting limits including exceptional authorities
+SOURCE_URL: https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contracting-limits-including-exceptional-authorities
+CANONICAL_URL: https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contracting-limits-including-exceptional-authorities
+DOC_TYPE: buyers_guide
+AUTHORITY_RANK: 3
+DATE_MODIFIED: 2026-01-31
+---
+Contracting limits including exceptional authorities
+This section details PSPC ’s internal and signing authorities. TB approval is required for submissions exceeding these authorities.
+The Delegation of Authorities instrument and Schedule 3 specimen signature card templates for the Acquisitions Program can be found in the Delegation of Authorities (accessible only on the Government of Canada network - for PSPC only) folder.
+Delegation of authorities tables
+The delegation of authority tables outline PSPC ’s departmental contracting limits in accordance with Appendix A (Contracting Approvals) of the TB Directive on the Management of Procurement . The delegation of authority tables can be found in the Delegation of authorities instrument (accessible only on the Government of Canada network - for PSPC only).
+The limits shown in the Delegation of Authorities Tables include both contract entry and amendment authority. These limits are maximums as defined by the application of both a Complexity Assessment and a Procurement Risk Assessment (PRA). The authority required for contract entry or amendments will be determined on a case-by-case basis through the application of a PRA appropriate for the level of complexity. This assessment will identify the specific risks of a procurement or proposed amendment, and the appropriate level of approval required for contract entry or issuing a contract amendment.
+Exceptional authorities
+Unless otherwise specified within “notes” accompanying the Delegation of Authorities Tables , (accessible only on the Government of Canada network - for PSPC only), exceptional authorities include both contract entry and amendment authority. Once the departmental authority limit for the exceptional authority has been reached, any subsequent approvals require a TB submission.
+Signing authority
+Any incumbent, under any level, who holds a valid delegation of approval authority for contract entry may sign a contractual document, regardless of its dollar value, providing that the incumbent has delegation of authority for the same type of authority that is required for the approval of the contractual document.
+For example, if the incumbent holds a valid delegation of approval authority for contract entry for goods and military repair and overhaul, then the incumbent has signing authority for goods and military repair and overhaul.
+Position-based delegation limits and individual buyers
+The relevant limits for individual buyers, which may be lower than the maximums identified in the Delegation of Authority Tables, are contingent upon AP policies and procedures. Any authorities you exercise must be in accordance with your approved delegation form.
+Standing offers and supply arrangements
+Approval and amendment authorities are set in the Exceptional Contracting Limits detailed in Schedule 3 of the Delegation of Authorities (accessible only on the Government of Canada network - for PSPC only) folder. However, the issuance and renewal of all non-competitive standing offers for professional services requires approval of the ADM Procurement Branch.
+The Contract Planning and Advance Approval (CPAA) issued to seek advance approval to use the standing offer or establish a supply arrangement (or the formal procurement plan to seek procurement strategy approval) must be approved based on the total estimated value (i.e. the entire project/program). Total value must include all applicable taxes of the requirement that is proposed to be satisfied by this method of supply.
+Therefore, if it is intended to issue more than one standing offer against a request for a standing offer, the sum of the total estimated value (applicable taxes included) of all resulting standing offers must be used to obtain CPAA or formal procurement plan approval.
+Advance Contract Award Notices
+For the purposes of contract approval authorities, an ACAN is classified under the "competitive" category. The competitive approval authority levels apply whenever an ACAN has been posted, and no valid statement of capabilities has been submitted.
+Approval authority for complex procurements
+For complexity levels 4 and 5 with the exception of administrative amendments, approval authority for contract entry and non-administrative amendments is set at ADM , Procurement Branch, or Defence and Marine Procurement Branch regardless of the competitiveness of the requirement.
+Equivalent positions
+Refer to the table of equivalent positions for position titles under each level.
