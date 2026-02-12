@@ -44,41 +44,6 @@ from rag.query_rewrite import generate_query_expansions
 from rag.rag_types import Chunk
 from rag.retrieval import retrieve
 
-MODE_PATTERNS: Dict[str, List[str]] = {
-    "acan": [
-        "acan",
-        "advance contract award notice",
-        "advanced contract award notice",
-        "single known business",
-    ],
-    "rfp": [
-        "rfp",
-        "request for proposal",
-        "solicitation of offers",
-    ],
-    "rfsa": [
-        "rfsa",
-        "request for supply arrangement",
-        "supply arrangement",
-    ],
-    "rfso": [
-        "rfso",
-        "request for standing offer",
-        "standing offer",
-    ],
-    "late_offer": [
-        "late offer",
-        "delayed offer",
-        "offer validity period",
-        "handle late or delayed offers",
-    ],
-    "award": [
-        "before award",
-        "contract award",
-        "elements to consider before award",
-    ],
-}
-
 ABSTAIN_PATTERNS = [
     "i don't have enough information",
     "i do not have enough information",
@@ -206,28 +171,6 @@ def _bootstrap_ci95(values: Sequence[float], samples: int = 1000) -> Optional[Di
     return {"low": _round(low), "high": _round(high), "n": n}
 
 
-def _binary_ndcg_at_k(relevance: Sequence[int], k: int) -> float:
-    if k <= 0:
-        return 0.0
-    rel = list(relevance[:k])
-    if not rel:
-        return 0.0
-    dcg = 0.0
-    for i, r in enumerate(rel):
-        if r <= 0:
-            continue
-        dcg += 1.0 / math.log2(i + 2.0)
-    ideal_rel = sorted(rel, reverse=True)
-    idcg = 0.0
-    for i, r in enumerate(ideal_rel):
-        if r <= 0:
-            continue
-        idcg += 1.0 / math.log2(i + 2.0)
-    if idcg <= 0:
-        return 0.0
-    return float(dcg / idcg)
-
-
 def _load_cases(path: Path) -> List[Dict[str, Any]]:
     if not path.exists():
         raise FileNotFoundError(f"Cases file not found: {path}")
@@ -241,26 +184,6 @@ def _load_cases(path: Path) -> List[Dict[str, Any]]:
             raise ValueError(f"Case must include 'id' and 'question': {raw}")
         out.append(payload)
     return out
-
-
-def _infer_modes(text: str) -> List[str]:
-    normalized = re.sub(r"\s+", " ", text.lower())
-    modes: List[str] = []
-    for mode, phrases in MODE_PATTERNS.items():
-        if any(phrase in normalized for phrase in phrases):
-            modes.append(mode)
-    return modes
-
-
-def _source_family_for_chunk(chunk: Chunk) -> str:
-    stem = Path(chunk.source_path).stem.lower()
-    if stem.startswith("buyers_guide__"):
-        return "buyers_guide"
-    if stem.startswith("buy_canadian_policy__"):
-        return "buy_canadian_policy"
-    if stem.startswith("tbs_directive__"):
-        return "tbs_directive"
-    return "other"
 
 
 def _doc_prefix_from_chunk_id(chunk_id: str) -> str:
@@ -313,12 +236,6 @@ def _parse_citations(text: str) -> List[str]:
         seen.add(item)
         deduped.append(item)
     return deduped
-
-
-def _citation_matches_retrieved(citation: str, retrieved_ids: Sequence[str]) -> bool:
-    if citation in retrieved_ids:
-        return True
-    return any(rid.endswith(citation) for rid in retrieved_ids)
 
 
 def _abstained(answer_lower: str) -> bool:
@@ -597,6 +514,7 @@ def _judge_answer(
     answer: str,
     retrieved: List[Tuple[Chunk, float]],
     judge_model: str,
+    reference_answer: Optional[str],
 ) -> Tuple[Optional[Dict[str, Any]], Optional[str], float]:
     required_claims = _case_required_claims(case)
     forbidden_claims = _case_forbidden_claims(case)
@@ -617,6 +535,7 @@ def _judge_answer(
         "\"completeness\": 0|1|2, "
         "\"mandatory_optional_precision\": 0|1|2, "
         "\"uncertainty_handling\": 0|1|2, "
+        "\"reference_alignment\": 0|1|2, "
         "\"required_claim_recall\": number, "
         "\"forbidden_claim_violation\": 0|1, "
         "\"required_claim_checks\": [{\"claim\":\"...\",\"covered\":0|1,\"reason\":\"...\"}], "
@@ -629,6 +548,7 @@ def _judge_answer(
         "- 0 = wrong/unsupported\n"
         "- required_claim_recall in [0,1]\n"
         "- forbidden_claim_violation: 1 if answer asserts forbidden claim meaningfully\n\n"
+        "- reference_alignment: how well answer matches reference answer policy meaning\n\n"
         "Coverage rules:\n"
         "- Mark a required claim covered only if the answer states it with policy-faithful meaning.\n"
         "- Prefer claims that are explicitly supported by the provided evidence snippets.\n"
@@ -637,6 +557,7 @@ def _judge_answer(
         f"Required claims:\n{json.dumps(required_claims)}\n\n"
         f"Forbidden claims:\n{json.dumps(forbidden_claims)}\n\n"
         f"Expect abstain:\n{json.dumps(case.get('expect_abstain'))}\n\n"
+        f"Reference answer:\n{(reference_answer or '(none provided)')}\n\n"
         f"Answer:\n{answer}\n\n"
         f"Evidence snippets:\n{evidence_text}\n"
     )
@@ -652,15 +573,20 @@ def _judge_answer(
         )
         raw = (resp.text or "").strip()
         payload = _try_parse_json_object(raw)
-        for key in (
+        score_keys = [
             "decision_correctness",
             "groundedness",
             "completeness",
             "mandatory_optional_precision",
             "uncertainty_handling",
-        ):
+        ]
+        if reference_answer:
+            score_keys.append("reference_alignment")
+        for key in score_keys:
             value = int(payload.get(key, 0))
             payload[key] = max(0, min(2, value))
+        if not reference_answer:
+            payload["reference_alignment"] = None
         required_checks_raw = payload.get("required_claim_checks", [])
         required_checks: List[Dict[str, Any]] = []
         if isinstance(required_checks_raw, list):
@@ -728,84 +654,20 @@ def _case_metrics(
     retrieved_ids = [chunk.chunk_id for chunk, _ in retrieved]
     retrieved_prefix_list = [_doc_prefix_from_chunk_id(cid) for cid in retrieved_ids]
     retrieved_prefixes = set(retrieved_prefix_list)
-    retrieved_families = {_source_family_for_chunk(chunk) for chunk, _ in retrieved}
 
-    expected_prefixes: List[str] = _case_list(case, "expected_doc_prefixes")
     gold_doc_prefixes: List[str] = _case_list(case, "gold_relevant_doc_prefixes")
     if not gold_doc_prefixes:
         # Backward compatibility: treat expected prefixes as gold document labels.
-        gold_doc_prefixes = expected_prefixes
-    gold_chunk_ids: List[str] = _case_list(case, "gold_relevant_chunk_ids")
+        gold_doc_prefixes = _case_list(case, "expected_doc_prefixes")
     contradiction_prefixes: List[str] = _case_list(case, "contradiction_doc_prefixes")
     noise_prefixes: List[str] = _case_list(case, "noise_doc_prefixes")
-    needed_families: List[str] = _case_list(case, "source_family_needed")
-    case_mode = str(case.get("mode", "")).strip().lower()
     k = len(retrieved_ids)
-
-    prefix_hits = 0
-    prefix_recall = None
-    if expected_prefixes:
-        prefix_hits = sum(1 for prefix in expected_prefixes if prefix in retrieved_prefixes)
-        prefix_recall = prefix_hits / len(expected_prefixes)
 
     gold_doc_hits = 0
     gold_doc_recall_at_k = None
     if gold_doc_prefixes:
         gold_doc_hits = sum(1 for prefix in gold_doc_prefixes if prefix in retrieved_prefixes)
         gold_doc_recall_at_k = gold_doc_hits / len(gold_doc_prefixes)
-
-    gold_chunk_hit_positions: List[int] = []
-    if gold_chunk_ids:
-        gold_chunk_set = set(gold_chunk_ids)
-        for idx, rid in enumerate(retrieved_ids):
-            if rid in gold_chunk_set:
-                gold_chunk_hit_positions.append(idx)
-
-    chunk_recall_at_k = None
-    chunk_precision_at_k = None
-    chunk_mrr_at_k = None
-    chunk_ndcg_at_k = None
-    if gold_chunk_ids and k > 0:
-        hit_count = len(set(gold_chunk_ids) & set(retrieved_ids))
-        chunk_recall_at_k = hit_count / len(gold_chunk_ids)
-        chunk_precision_at_k = hit_count / k
-        if gold_chunk_hit_positions:
-            chunk_mrr_at_k = 1.0 / (min(gold_chunk_hit_positions) + 1.0)
-        rel = [1 if rid in set(gold_chunk_ids) else 0 for rid in retrieved_ids]
-        chunk_ndcg_at_k = _binary_ndcg_at_k(rel, k)
-
-    # Proxy IR metrics when chunk-level labels are unavailable.
-    doc_proxy_precision_at_k = None
-    doc_proxy_mrr_at_k = None
-    doc_proxy_ndcg_at_k = None
-    if gold_doc_prefixes and k > 0:
-        rel = [1 if prefix in set(gold_doc_prefixes) else 0 for prefix in retrieved_prefix_list]
-        doc_proxy_precision_at_k = sum(rel) / k
-        first_rel = next((idx for idx, flag in enumerate(rel) if flag > 0), None)
-        if first_rel is not None:
-            doc_proxy_mrr_at_k = 1.0 / (first_rel + 1.0)
-        doc_proxy_ndcg_at_k = _binary_ndcg_at_k(rel, k)
-
-    family_hits = 0
-    family_coverage = None
-    if needed_families:
-        family_hits = sum(1 for fam in needed_families if fam in retrieved_families)
-        family_coverage = family_hits / len(needed_families)
-
-    mode_match_rate = None
-    mode_diversity = None
-    if retrieved:
-        retrieved_modes: List[List[str]] = [
-            _infer_modes(f"{chunk.title} {chunk.source_path} {chunk.text[:220]}")
-            for chunk, _ in retrieved
-        ]
-        all_modes = sorted({m for modes in retrieved_modes for m in modes})
-        mode_diversity = len(all_modes)
-        if case_mode and case_mode != "cross_mode":
-            matches = sum(1 for modes in retrieved_modes if case_mode in modes)
-            mode_match_rate = matches / len(retrieved_modes)
-        elif case_mode == "cross_mode":
-            mode_match_rate = min(mode_diversity / 2.0, 1.0)
 
     contradiction_rate = None
     if contradiction_prefixes and k > 0:
@@ -822,26 +684,10 @@ def _case_metrics(
     )
 
     answer_metrics: Dict[str, Any] = {
-        "required_claim_hits": None,
-        "required_claim_total": None,
         "required_claim_recall": None,
-        "required_claim_similarity_mean": None,
-        "required_claim_lexical_overlap_mean": None,
-        "required_claim_max_similarity": [],
-        "required_claim_max_lexical_overlap": [],
-        "required_claim_hit_methods": [],
-        "forbidden_claim_total": None,
-        "forbidden_claim_violations": None,
         "forbidden_claim_violation_rate": None,
-        "forbidden_claim_max_similarity": [],
-        "forbidden_claim_max_lexical_overlap": [],
-        "forbidden_claim_violation_methods": [],
-        "has_citation": None,
-        "citation_count": None,
-        "citation_validity": None,
         "citation_support_rate": None,
-        "citation_sentence_similarity_mean": None,
-        "abstained": None,
+        "reference_answer_similarity": None,
         "abstention_correct": None,
     }
 
@@ -866,13 +712,6 @@ def _case_metrics(
             lexical_threshold=forbidden_lexical_threshold,
         )
 
-        citations = _parse_citations(answer)
-        has_citation = len(citations) > 0
-        citation_validity = None
-        if citations:
-            valid = sum(1 for cid in citations if _citation_matches_retrieved(cid, retrieved_ids))
-            citation_validity = valid / len(citations)
-
         citation_support = _citation_support_metrics(
             client=client,
             answer_sentences=answer_sentences,
@@ -880,45 +719,32 @@ def _case_metrics(
             threshold=citation_support_threshold,
         )
 
+        reference_answer = str(case.get("reference_answer", "")).strip()
+        reference_answer_similarity = None
+        if reference_answer:
+            ref_vec = embed_texts(client, [reference_answer], input_type="search_document")[0]
+            ans_vec = embed_texts(client, [answer], input_type="search_document")[0]
+            reference_answer_similarity = float((ref_vec * ans_vec).sum())
+
         abstained = _abstained(answer_lower)
         abstention_correct = None
         if case.get("expect_abstain") is not None:
             abstention_correct = abstained == bool(case.get("expect_abstain"))
 
         answer_metrics = {
-            **required_metrics,
-            **forbidden_metrics,
-            "has_citation": has_citation,
-            "citation_count": len(citations),
-            "citation_validity": _round(citation_validity),
+            "required_claim_recall": required_metrics["required_claim_recall"],
+            "forbidden_claim_violation_rate": forbidden_metrics["forbidden_claim_violation_rate"],
             "citation_support_rate": citation_support["citation_support_rate"],
-            "citation_sentence_similarity_mean": citation_support["citation_sentence_similarity_mean"],
-            "abstained": abstained,
+            "reference_answer_similarity": _round(reference_answer_similarity),
             "abstention_correct": abstention_correct,
         }
 
     return {
         "retrieval": {
             "k": k,
-            "expected_doc_prefix_hits": prefix_hits,
-            "expected_doc_prefix_total": len(expected_prefixes),
-            "expected_doc_prefix_recall": _round(prefix_recall),
             "gold_doc_prefix_hits": gold_doc_hits,
             "gold_doc_prefix_total": len(gold_doc_prefixes),
             "gold_doc_recall_at_k": _round(gold_doc_recall_at_k),
-            "gold_chunk_total": len(gold_chunk_ids),
-            "gold_chunk_recall_at_k": _round(chunk_recall_at_k),
-            "gold_chunk_precision_at_k": _round(chunk_precision_at_k),
-            "gold_chunk_mrr_at_k": _round(chunk_mrr_at_k),
-            "gold_chunk_ndcg_at_k": _round(chunk_ndcg_at_k),
-            "doc_proxy_precision_at_k": _round(doc_proxy_precision_at_k),
-            "doc_proxy_mrr_at_k": _round(doc_proxy_mrr_at_k),
-            "doc_proxy_ndcg_at_k": _round(doc_proxy_ndcg_at_k),
-            "source_family_hits": family_hits,
-            "source_family_total": len(needed_families),
-            "source_family_coverage": _round(family_coverage),
-            "mode_match_rate": _round(mode_match_rate),
-            "mode_diversity": mode_diversity,
             "contradiction_rate": _round(contradiction_rate),
             "noise_rate": _round(noise_rate),
             **evidence_coverage,
@@ -951,27 +777,6 @@ def _summarize_case_rows(rows: List[Dict[str, Any]]) -> Dict[str, Any]:
         "retrieval_gold_doc_recall_at_k_mean": _round(
             _mean(_collect_numeric(rows, ("metrics", "retrieval", "gold_doc_recall_at_k")))
         ),
-        "retrieval_gold_chunk_recall_at_k_mean": _round(
-            _mean(_collect_numeric(rows, ("metrics", "retrieval", "gold_chunk_recall_at_k")))
-        ),
-        "retrieval_gold_chunk_precision_at_k_mean": _round(
-            _mean(_collect_numeric(rows, ("metrics", "retrieval", "gold_chunk_precision_at_k")))
-        ),
-        "retrieval_gold_chunk_mrr_at_k_mean": _round(
-            _mean(_collect_numeric(rows, ("metrics", "retrieval", "gold_chunk_mrr_at_k")))
-        ),
-        "retrieval_gold_chunk_ndcg_at_k_mean": _round(
-            _mean(_collect_numeric(rows, ("metrics", "retrieval", "gold_chunk_ndcg_at_k")))
-        ),
-        "retrieval_doc_proxy_precision_at_k_mean": _round(
-            _mean(_collect_numeric(rows, ("metrics", "retrieval", "doc_proxy_precision_at_k")))
-        ),
-        "retrieval_doc_proxy_mrr_at_k_mean": _round(
-            _mean(_collect_numeric(rows, ("metrics", "retrieval", "doc_proxy_mrr_at_k")))
-        ),
-        "retrieval_doc_proxy_ndcg_at_k_mean": _round(
-            _mean(_collect_numeric(rows, ("metrics", "retrieval", "doc_proxy_ndcg_at_k")))
-        ),
         "retrieval_claim_evidence_coverage_mean": _round(
             _mean(_collect_numeric(rows, ("metrics", "retrieval", "claim_evidence_coverage")))
         ),
@@ -981,32 +786,14 @@ def _summarize_case_rows(rows: List[Dict[str, Any]]) -> Dict[str, Any]:
         "retrieval_noise_rate_mean": _round(
             _mean(_collect_numeric(rows, ("metrics", "retrieval", "noise_rate")))
         ),
-        "retrieval_expected_doc_prefix_recall_mean": _round(
-            _mean(_collect_numeric(rows, ("metrics", "retrieval", "expected_doc_prefix_recall")))
-        ),
-        "retrieval_source_family_coverage_mean": _round(
-            _mean(_collect_numeric(rows, ("metrics", "retrieval", "source_family_coverage")))
-        ),
-        "retrieval_mode_match_rate_mean": _round(
-            _mean(_collect_numeric(rows, ("metrics", "retrieval", "mode_match_rate")))
-        ),
         "answer_required_claim_recall_mean": _round(
             _mean(_collect_numeric(rows, ("metrics", "answer", "required_claim_recall")))
         ),
-        "answer_required_claim_similarity_mean": _round(
-            _mean(_collect_numeric(rows, ("metrics", "answer", "required_claim_similarity_mean")))
-        ),
-        "answer_required_claim_lexical_overlap_mean": _round(
-            _mean(_collect_numeric(rows, ("metrics", "answer", "required_claim_lexical_overlap_mean")))
-        ),
-        "answer_citation_presence_rate": _round(
-            _mean(_collect_numeric(rows, ("metrics", "answer", "has_citation")))
-        ),
-        "answer_citation_validity_mean": _round(
-            _mean(_collect_numeric(rows, ("metrics", "answer", "citation_validity")))
-        ),
         "answer_citation_support_rate_mean": _round(
             _mean(_collect_numeric(rows, ("metrics", "answer", "citation_support_rate")))
+        ),
+        "answer_reference_similarity_mean": _round(
+            _mean(_collect_numeric(rows, ("metrics", "answer", "reference_answer_similarity")))
         ),
         "answer_abstention_accuracy": _round(
             _mean(_collect_numeric(rows, ("metrics", "answer", "abstention_correct")))
@@ -1018,15 +805,9 @@ def _summarize_case_rows(rows: List[Dict[str, Any]]) -> Dict[str, Any]:
     )
     metrics["answer_forbidden_violation_rate"] = _round(_mean(forbidden_rates))
 
-    # Backward-compatible alias for earlier reports.
-    metrics["answer_required_group_recall_mean"] = metrics["answer_required_claim_recall_mean"]
-
     for judge_key in (
         "decision_correctness",
-        "groundedness",
-        "completeness",
-        "mandatory_optional_precision",
-        "uncertainty_handling",
+        "reference_alignment",
         "required_claim_recall",
         "forbidden_claim_violation",
     ):
@@ -1039,13 +820,6 @@ def _summarize_case_rows(rows: List[Dict[str, Any]]) -> Dict[str, Any]:
 def _summarize_ci95(rows: List[Dict[str, Any]]) -> Dict[str, Dict[str, float]]:
     ci_metrics: Dict[str, Sequence[str]] = {
         "retrieval_gold_doc_recall_at_k_mean": ("metrics", "retrieval", "gold_doc_recall_at_k"),
-        "retrieval_doc_proxy_precision_at_k_mean": (
-            "metrics",
-            "retrieval",
-            "doc_proxy_precision_at_k",
-        ),
-        "retrieval_doc_proxy_mrr_at_k_mean": ("metrics", "retrieval", "doc_proxy_mrr_at_k"),
-        "retrieval_doc_proxy_ndcg_at_k_mean": ("metrics", "retrieval", "doc_proxy_ndcg_at_k"),
         "retrieval_claim_evidence_coverage_mean": (
             "metrics",
             "retrieval",
@@ -1055,7 +829,9 @@ def _summarize_ci95(rows: List[Dict[str, Any]]) -> Dict[str, Dict[str, float]]:
         "retrieval_noise_rate_mean": ("metrics", "retrieval", "noise_rate"),
         "answer_required_claim_recall_mean": ("metrics", "answer", "required_claim_recall"),
         "answer_citation_support_rate_mean": ("metrics", "answer", "citation_support_rate"),
+        "answer_reference_similarity_mean": ("metrics", "answer", "reference_answer_similarity"),
         "judge_decision_correctness_mean": ("judge", "scores", "decision_correctness"),
+        "judge_reference_alignment_mean": ("judge", "scores", "reference_alignment"),
     }
     out: Dict[str, Dict[str, float]] = {}
     for metric_name, path in ci_metrics.items():
@@ -1265,6 +1041,7 @@ def main() -> None:
                 answer=answer,
                 retrieved=retrieved,
                 judge_model=args.judge_model,
+                reference_answer=str(case.get("reference_answer", "")).strip() or None,
             )
 
         total_ms = (time.perf_counter() - t_case_start) * 1000.0
@@ -1380,17 +1157,14 @@ def main() -> None:
     print(
         "Overall metrics: "
         f"doc_recall@k={overall_metrics['retrieval_gold_doc_recall_at_k_mean']}, "
-        f"doc_proxy_precision@k={overall_metrics['retrieval_doc_proxy_precision_at_k_mean']}, "
-        f"doc_proxy_mrr@k={overall_metrics['retrieval_doc_proxy_mrr_at_k_mean']}, "
-        f"doc_proxy_ndcg@k={overall_metrics['retrieval_doc_proxy_ndcg_at_k_mean']}, "
         f"claim_evidence_cov={overall_metrics['retrieval_claim_evidence_coverage_mean']}, "
         f"contradiction_rate={overall_metrics['retrieval_contradiction_rate_mean']}, "
         f"noise_rate={overall_metrics['retrieval_noise_rate_mean']}, "
-        f"source_cov={overall_metrics['retrieval_source_family_coverage_mean']}, "
         f"required_claim_recall={overall_metrics['answer_required_claim_recall_mean']}, "
-        f"citation_presence={overall_metrics['answer_citation_presence_rate']}, "
         f"citation_support={overall_metrics['answer_citation_support_rate_mean']}, "
-        f"forbidden_rate={overall_metrics['answer_forbidden_violation_rate']}"
+        f"forbidden_rate={overall_metrics['answer_forbidden_violation_rate']}, "
+        f"abstention_acc={overall_metrics['answer_abstention_accuracy']}, "
+        f"ref_similarity={overall_metrics['answer_reference_similarity_mean']}"
     )
     print(
         "Timing p50(ms): "

@@ -26,15 +26,13 @@ Lines starting with `#` are comments and ignored by `evaluation/eval_runner.py`.
   - Primary stack input for `evaluation/eval_stack_runner.py`.
   - Contains richer metadata per case:
     - `id`, `question`, `split`, `mode`, `question_type`
-    - `source_family_needed`
-    - `expected_doc_prefixes`
     - `gold_relevant_doc_prefixes` (doc-level relevance labels)
-    - `gold_relevant_chunk_ids` (optional chunk-level relevance labels)
     - `claim_evidence` (retrieval-side required evidence mapping)
     - `noise_doc_prefixes`, `contradiction_doc_prefixes` (optional retrieval risk labels)
     - `required_claims`
     - `forbidden_claims`
     - `expect_abstain`
+    - optional `reference_answer` (canonical answer text for answer-alignment checks)
 
 ## Output Files
 `evaluation/eval_runner.py` writes JSON to `evaluation/runs/`.
@@ -73,17 +71,14 @@ For stack runs (`evaluation/eval_stack_runner.py`) you also get:
 
 ## How To Interpret Results
 - Retrieval quality:
-  - Primary (if labels exist): `retrieval_gold_doc_recall_at_k_mean`, `retrieval_gold_chunk_recall_at_k_mean`,
-    `retrieval_gold_chunk_precision_at_k_mean`, `retrieval_gold_chunk_mrr_at_k_mean`, `retrieval_gold_chunk_ndcg_at_k_mean`.
+  - Primary: `retrieval_gold_doc_recall_at_k_mean`.
   - Retrieval sufficiency: `retrieval_claim_evidence_coverage_mean`.
   - Risk signals: `retrieval_contradiction_rate_mean`, `retrieval_noise_rate_mean`.
-  - Diagnostics/proxies: expected/source/mode coverage metrics.
 - Answer quality:
-  - Verify the answer uses citations and does not over-claim beyond excerpts.
-  - Watch for:
-    - mode mismatch (e.g., ACAN content in non-ACAN prompts),
-    - weak conflict handling,
-    - unsupported “override” claims.
+  - Primary: `answer_required_claim_recall_mean`, `answer_forbidden_violation_rate`.
+  - Grounding: `answer_citation_support_rate_mean`.
+  - Abstention behavior: `answer_abstention_accuracy`.
+  - Optional canonical-alignment signal: `answer_reference_similarity_mean` (if `reference_answer` is present).
 - Performance quality:
   - Track `timing_summary_ms.total.p50` and `timing_summary_ms.total.p95`.
   - For chat runs, separately track `timing_summary_ms.chat.p95` to detect model-side latency spikes.
