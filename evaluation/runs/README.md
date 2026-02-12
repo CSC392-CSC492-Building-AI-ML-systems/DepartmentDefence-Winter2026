@@ -1,6 +1,8 @@
-# eval_runs
+# evaluation/runs
 
-This folder stores generated evaluation outputs from `eval_runner.py`.
+This folder stores generated evaluation outputs from:
+- `evaluation/eval_runner.py`
+- `evaluation/eval_stack_runner.py`
 
 - File type: JSON
 - Typical contents: retrieval snapshots and optional chat answers

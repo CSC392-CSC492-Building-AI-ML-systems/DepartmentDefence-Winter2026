@@ -3,9 +3,19 @@
 import argparse
 import json
 import math
+import sys
 import time
 from pathlib import Path
 from typing import List
+
+# Ensure repo-root imports work when running:
+#   python evaluation/eval_runner.py
+EVAL_DIR = Path(__file__).resolve().parent
+REPO_ROOT = EVAL_DIR.parent
+QUESTIONS_DIR = EVAL_DIR / "questions"
+RUNS_DIR = EVAL_DIR / "runs"
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
 
 from rag.app_config import (
     CHAT_MAX_INPUT_TOKENS,
@@ -88,7 +98,8 @@ def parse_args() -> argparse.Namespace:
         help=(
             "Text file containing one question per line "
             "(blank lines and # comments ignored), "
-            "e.g. eval_questions.txt or eval_questions_hard.txt."
+            f"e.g. {QUESTIONS_DIR / 'eval_questions.txt'} "
+            f"or {QUESTIONS_DIR / 'eval_questions_hard.txt'}."
         ),
     )
     parser.add_argument(
@@ -110,7 +121,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--output",
         type=Path,
-        default=Path("eval_runs/latest_eval.json"),
+        default=RUNS_DIR / "latest_eval.json",
         help="Path to write JSON report.",
     )
     return parser.parse_args()

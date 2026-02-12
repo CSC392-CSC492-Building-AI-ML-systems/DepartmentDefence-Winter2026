@@ -11,4 +11,4 @@ Core implementation package for the CLI RAG system.
 - `retrieval.py`: hybrid retrieval, routing, and coverage logic.
 - `prompting.py`: grounded prompt assembly.
 
-Entry scripts (`main.py`, `eval_runner.py`, `collect_sources.py`) import from this package.
+Entry scripts (`main.py`, `evaluation/eval_runner.py`, `evaluation/eval_stack_runner.py`, `collect_sources.py`) import from this package.

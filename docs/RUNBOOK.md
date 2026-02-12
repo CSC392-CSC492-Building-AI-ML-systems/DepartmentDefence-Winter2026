@@ -13,6 +13,7 @@
 2. Configure `.env`:
    - `COHERE_API_KEY=...`
    - Optional tuning keys (`TOP_K`, `RETRIEVAL_ALPHA`, etc.)
+   - Precedence note: `rag/app_config.py` loads `.env` with override enabled, so `.env` values take priority over conflicting shell env values.
    - New recommended keys for runtime quality/performance:
      - `ENABLE_RERANK=true`
      - `COHERE_RERANK_MODEL=rerank-english-v3.0`
@@ -41,24 +42,30 @@
 
 ## Run Evaluations
 - Baseline questions:
-  - `python eval_runner.py --questions-file eval_questions.txt --with-chat --output eval_runs/baseline_with_chat.json`
+  - `python evaluation/eval_runner.py --questions-file evaluation/questions/eval_questions.txt --with-chat --output evaluation/runs/baseline_with_chat.json`
 - Hard questions:
-  - `python eval_runner.py --questions-file eval_questions_hard.txt --with-chat --output eval_runs/hard_with_chat.json`
+  - `python evaluation/eval_runner.py --questions-file evaluation/questions/eval_questions_hard.txt --with-chat --output evaluation/runs/hard_with_chat.json`
 - Focus questions:
-  - `python eval_runner.py --questions-file eval_questions_focus.txt --with-chat --output eval_runs/focus_with_chat.json`
+  - `python evaluation/eval_runner.py --questions-file evaluation/questions/eval_questions_focus.txt --with-chat --output evaluation/runs/focus_with_chat.json`
 - Policy conflict questions:
-  - `python eval_runner.py --questions-file eval_questions_policy_conflicts.txt --with-chat --output eval_runs/policy_conflicts_with_chat.json`
+  - `python evaluation/eval_runner.py --questions-file evaluation/questions/eval_questions_policy_conflicts.txt --with-chat --output evaluation/runs/policy_conflicts_with_chat.json`
 - Retrieval only (no chat calls):
-  - `python eval_runner.py --questions-file eval_questions.txt --output eval_runs/retrieval_only.json`
+  - `python evaluation/eval_runner.py --questions-file evaluation/questions/eval_questions.txt --output evaluation/runs/retrieval_only.json`
+
+Structured eval stack:
+- Deterministic + chat metrics:
+  - `python evaluation/eval_stack_runner.py --cases-file evaluation/cases/eval_cases.jsonl --with-chat --output evaluation/runs/stack_eval_with_chat.json`
+- Add LLM judge scoring:
+  - `python evaluation/eval_stack_runner.py --cases-file evaluation/cases/eval_cases.jsonl --with-chat --with-judge --output evaluation/runs/stack_eval_with_judge.json`
 
 Latency notes:
-- `eval_runner.py` now records per-question timings and run-level latency summaries in the output JSON.
+- `evaluation/eval_runner.py` now records per-question timings and run-level latency summaries in the output JSON.
 - It also prints p50/p95 timing summaries to stdout after each run.
 - Retrieval timing includes query rewrite, retrieval, rerank, and context packing.
 - Chat timing includes the final Cohere chat call only.
 
 ## Clean Generated Eval Outputs
-`eval_runs/*.json` are generated artifacts and can be deleted any time.
+`evaluation/runs/*.json` are generated artifacts and can be deleted any time.
 
 PowerShell example:
-- `Get-ChildItem eval_runs\\*.json | Remove-Item`
+- `Get-ChildItem evaluation\\runs\\*.json | Remove-Item`

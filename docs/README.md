@@ -6,7 +6,8 @@ This folder is the navigation hub for the repository.
 - `REPO_MAP.md`: folder-level navigation map and "which file to edit" guide.
 - `ARCHITECTURE.md`: system design, data flow, retrieval logic, and config knobs.
 - `RUNBOOK.md`: practical commands for running chatbot, collector, and evals.
-- `EVALUATION.md`: what each `eval_questions*.txt` file is for, and how to read `eval_runs/*.json`.
+- `EVALUATION.md`: what each `evaluation/questions/*.txt` file is for, and how to read `evaluation/runs/*.json`.
+- `EVAL_STACK.md`: structured evaluation stack (cases, metrics, subgroup reporting, judge mode).
 
 ## Suggested Reading Order
 1. `../readme.MD`
@@ -14,3 +15,4 @@ This folder is the navigation hub for the repository.
 3. `ARCHITECTURE.md`
 4. `RUNBOOK.md`
 5. `EVALUATION.md`
+6. `EVAL_STACK.md`

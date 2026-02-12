@@ -6,7 +6,9 @@ from pathlib import Path
 from dotenv import load_dotenv
 
 # Load .env values into process environment at import time.
-load_dotenv()
+# `override=True` enforces deterministic local behavior: if a key exists in both
+# shell env and .env, the .env value wins.
+load_dotenv(override=True)
 
 # Ingestion + retrieval settings.
 # These are code-level defaults. If the same key exists in .env, .env wins.

@@ -18,7 +18,8 @@ Policy-focused RAG CLI for procurement questions using Cohere.
   - Retrieves relevant excerpts
   - Answers with citations
 - A source collector (`collect_sources.py`) for Buyer’s Guide / Buy Canadian / TBS Directive content.
-- A batch evaluator (`eval_runner.py`) for testing retrieval + answer quality.
+- A batch evaluator (`evaluation/eval_runner.py`) for testing retrieval + answer quality.
+- A structured eval stack runner (`evaluation/eval_stack_runner.py`) for retrieval/answer metrics + subgroup reporting.
 
 ## Quick Start
 1. Install dependencies:
@@ -34,26 +35,27 @@ Policy-focused RAG CLI for procurement questions using Cohere.
 - Collect/update source corpus:
   - `python collect_sources.py --max-pages 300 --verbose`
 - Run baseline eval set:
-  - `python eval_runner.py --questions-file eval_questions.txt --with-chat --output eval_runs/latest_with_chat.json`
+  - `python evaluation/eval_runner.py --questions-file evaluation/questions/eval_questions.txt --with-chat --output evaluation/runs/latest_with_chat.json`
 - Retrieval-only eval:
-  - `python eval_runner.py --questions-file eval_questions.txt --output eval_runs/latest_retrieval.json`
+  - `python evaluation/eval_runner.py --questions-file evaluation/questions/eval_questions.txt --output evaluation/runs/latest_retrieval.json`
+- Run structured eval stack:
+  - `python evaluation/eval_stack_runner.py --cases-file evaluation/cases/eval_cases.jsonl --with-chat --output evaluation/runs/stack_eval_with_chat.json`
 
 ## Repo Map
 - `rag/`: core RAG package (config, corpus, embedding, retrieval, prompting)
 - `data/`: active corpus (`*.txt`) + `manifest.json`
-- `eval_questions*.txt`: benchmark question sets
-- `eval_runs/`: generated evaluation outputs (`.json`)
+- `evaluation/`: all evaluation scripts, datasets, and run outputs
 - `main.py`: interactive CLI
-- `eval_runner.py`: batch eval runner
 - `collect_sources.py`: policy source collector
 - `docs/`: architecture, navigation, and workflow docs
 
 ## Evaluation Files (Important)
-- `eval_questions.txt`: baseline test prompts
-- `eval_questions_hard.txt`: adversarial / harder prompts
-- `eval_questions_focus.txt`: targeted prompts for specific failure modes
-- `eval_questions_policy_conflicts.txt`: contradiction/higher-order prompts
-- `eval_runs/*.json`: generated results (safe to delete and regenerate)
+- `evaluation/questions/eval_questions.txt`: baseline test prompts
+- `evaluation/questions/eval_questions_hard.txt`: adversarial / harder prompts
+- `evaluation/questions/eval_questions_focus.txt`: targeted prompts for specific failure modes
+- `evaluation/questions/eval_questions_policy_conflicts.txt`: contradiction/higher-order prompts
+- `evaluation/cases/eval_cases.jsonl`: structured cases with expected evidence/constraints
+- `evaluation/runs/*.json`: generated results (safe to delete and regenerate)
 
 ## Data Files (Important)
 - `data/*.txt`: active corpus documents
