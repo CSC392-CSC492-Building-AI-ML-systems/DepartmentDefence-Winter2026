@@ -141,29 +141,34 @@ const ChatInterface = ({ onLogout }) => {
     scrollRef.current?.scrollIntoView({ behavior: 'smooth' });
   }, [messages]);
 
-  const handleSend = (e) => {
+  const handleSend = async (e) => {
     e.preventDefault();
     if (!input.trim()) return;
 
-    // Add User Message
-    const userMsg = { id: Date.now(), type: 'user', text: input };
-    setMessages(prev => [...prev, userMsg]);
-    setInput('');
+    const userMsg = { id: Date.now(), type: "user", text: input };
+    setMessages((prev) => [...prev, userMsg]);
+    setInput("");
 
-    // Simulate Bot Response with Citation (matching image_5f35b3)
-    setTimeout(() => {
+    try {
+      const response = await fetch("/api/chat", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ message: input }),
+      });
+      const data = await response.json();
+
       const botMsg = {
         id: Date.now() + 1,
-        type: 'bot',
-        text: "This functionality has not been setup yet. However, here is an example of how a bot response with a citation would look like.",
-        citation: {
-          title: "Canada.ca",
-          link: "https://canada.ca"
-        }
+        type: "bot",
+        text: data.reply,
+        citation: data.citation || null,
       };
-      setMessages(prev => [...prev, botMsg]);
-    }, 1500);
+      setMessages((prev) => [...prev, botMsg]);
+    } catch (error) {
+      console.error("Error:", error);
+    }
   };
+
 
   return (
     <div className="flex flex-col h-screen bg-white">
