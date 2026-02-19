@@ -1,6 +1,7 @@
 """LLM-assisted retrieval query rewrite/expansion helpers."""
 
 import json
+import re
 from typing import List, Sequence
 
 import cohere
@@ -14,24 +15,42 @@ from .app_config import (
 )
 
 
+JSON_OBJECT_RE = re.compile(r"\{.*\}", re.DOTALL)
+
+
 def _dedupe_keep_order(items: Sequence[str]) -> List[str]:
     out: List[str] = []
     seen = set()
     for item in items:
         normalized = item.strip()
-        if not normalized or normalized in seen:
+        key = normalized.lower()
+        if not normalized or key in seen:
             continue
-        seen.add(normalized)
+        seen.add(key)
         out.append(normalized)
     return out
 
 
 def _parse_queries_from_json(text: str) -> List[str]:
+    candidate = text.strip()
     try:
-        payload = json.loads(text)
+        payload = json.loads(candidate)
     except json.JSONDecodeError:
-        return []
-    raw_queries = payload.get("queries", [])
+        match = JSON_OBJECT_RE.search(candidate)
+        if not match:
+            return []
+        try:
+            payload = json.loads(match.group(0))
+        except json.JSONDecodeError:
+            return []
+
+    if isinstance(payload, list):
+        raw_queries = payload
+    elif isinstance(payload, dict):
+        raw_queries = payload.get("queries", [])
+    else:
+        raw_queries = []
+
     if not isinstance(raw_queries, list):
         return []
     return _dedupe_keep_order([str(query) for query in raw_queries])
@@ -85,4 +104,4 @@ def generate_query_expansions(
 
     # Filter away exact repeats of the original question.
     filtered = [query for query in queries if query.lower() != question.lower()]
-    return filtered[:max_queries]
+    return _dedupe_keep_order(filtered)[:max_queries]

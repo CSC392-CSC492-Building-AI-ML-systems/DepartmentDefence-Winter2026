@@ -7,8 +7,8 @@ import cohere
 import numpy as np
 from tqdm import tqdm
 
-from .app_config import EMBED_BATCH
-from .corpus import chunk_text
+from .app_config import EMBED_BATCH, RAW_DIR
+from .corpus import chunk_document, load_manifest_index
 from .embedding_client import embed_texts
 from .rag_types import Chunk
 
@@ -16,9 +16,9 @@ from .rag_types import Chunk
 def load_chunks_from_docs(docs: List[Path]) -> List[Chunk]:
     """Read each document and convert it into retrievable chunks."""
     chunks: List[Chunk] = []
+    manifest_index = load_manifest_index(RAW_DIR)
     for path in docs:
-        text = path.read_text(encoding="utf-8", errors="ignore")
-        chunks.extend(chunk_text(text=text, title=path.stem, source_path=str(path)))
+        chunks.extend(chunk_document(path=path, manifest_index=manifest_index))
     return chunks
 
 

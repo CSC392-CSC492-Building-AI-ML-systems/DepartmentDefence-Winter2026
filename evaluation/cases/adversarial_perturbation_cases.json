@@ -1,0 +1,252 @@
+[
+  {
+    "id": "perturb_001_verbose",
+    "split": "dev",
+    "source_case_id": "robust_01_typo_reciprocal_declaration",
+    "perturbation": "verbose_memo",
+    "question": "For a compliance memo, answer this precisely with policy-grounded caveats and scope checks: For rcciprocal procrument, do declrations need to be in before award, and can buyer make them mandatory at closing?",
+    "expected_doc_prefixes": [
+      "buyers_guide__en-buyer-s-portal-buyer-s-guide-plan-determine-procurement-strategy-interim-policy-reciprocal-procurement__5e3e4634b7"
+    ]
+  },
+  {
+    "id": "perturb_002_noisy",
+    "split": "dev",
+    "source_case_id": "robust_01_typo_reciprocal_declaration",
+    "perturbation": "noisy_typos",
+    "question": "Quick check pls: For rcciprocal procrument, do declrations need to be in before award, and can buyer make them mandatory at closing? Keep it strict to policy and identify governing source(s).",
+    "expected_doc_prefixes": [
+      "buyers_guide__en-buyer-s-portal-buyer-s-guide-plan-determine-procurement-strategy-interim-policy-reciprocal-procurement__5e3e4634b7"
+    ]
+  },
+  {
+    "id": "perturb_003_verbose",
+    "split": "dev",
+    "source_case_id": "robust_02_negation_trap_closing",
+    "perturbation": "verbose_memo",
+    "question": "For a compliance memo, answer this precisely with policy-grounded caveats and scope checks: True or false: reciprocal procurement declarations are only required at offer closing and not before award.",
+    "expected_doc_prefixes": [
+      "buyers_guide__en-buyer-s-portal-buyer-s-guide-plan-determine-procurement-strategy-interim-policy-reciprocal-procurement__5e3e4634b7"
+    ]
+  },
+  {
+    "id": "perturb_004_noisy",
+    "split": "dev",
+    "source_case_id": "robust_02_negation_trap_closing",
+    "perturbation": "noisy_typos",
+    "question": "Quick check pls: True or false: reciprocal procurment declrations are only reqd at offer closing and not before award. Keep it strict to policy and identify governing source(s).",
+    "expected_doc_prefixes": [
+      "buyers_guide__en-buyer-s-portal-buyer-s-guide-plan-determine-procurement-strategy-interim-policy-reciprocal-procurement__5e3e4634b7"
+    ]
+  },
+  {
+    "id": "perturb_005_verbose",
+    "split": "dev",
+    "source_case_id": "robust_03_cross_late_offer_plus_declaration",
+    "perturbation": "verbose_memo",
+    "question": "For a compliance memo, answer this precisely with policy-grounded caveats and scope checks: A declaration package arrives late by courier for a supply arrangement solicitation. What governs delayed-vs-late handling and what is still required before award under reciprocal procurement?",
+    "expected_doc_prefixes": [
+      "buyers_guide__en-buyer-s-portal-buyer-s-guide-plan-determine-procurement-strategy-interim-policy-reciprocal-procurement__5e3e4634b7",
+      "buyers_guide__en-buyer-s-portal-buyer-s-guide-receive-and-evaluate-receive-offers-handle-late-or-delayed-offers__797ed5959b"
+    ]
+  },
+  {
+    "id": "perturb_006_noisy",
+    "split": "dev",
+    "source_case_id": "robust_03_cross_late_offer_plus_declaration",
+    "perturbation": "noisy_typos",
+    "question": "Quick check pls: A declration package arrives late by courier for a supply arrangment solicitation. What governs delayed-vs-late handling and what is still reqd before award under reciprocal procurment? Keep it strict to policy and identify governing source(s).",
+    "expected_doc_prefixes": [
+      "buyers_guide__en-buyer-s-portal-buyer-s-guide-plan-determine-procurement-strategy-interim-policy-reciprocal-procurement__5e3e4634b7",
+      "buyers_guide__en-buyer-s-portal-buyer-s-guide-receive-and-evaluate-receive-offers-handle-late-or-delayed-offers__797ed5959b"
+    ]
+  },
+  {
+    "id": "perturb_007_verbose",
+    "split": "dev",
+    "source_case_id": "robust_04_acronym_rfsa_npp_thresholds",
+    "perturbation": "verbose_memo",
+    "question": "For a compliance memo, answer this precisely with policy-grounded caveats and scope checks: For an RFSA, when does TA threshold trigger an NPP obligation versus no TA obligations?",
+    "expected_doc_prefixes": [
+      "buyers_guide__en-buyer-s-portal-buyer-s-guide-create-solicitation-choose-solicitation-method-request-supply-arrangement__f09e4fcb6e",
+      "buyers_guide__en-buyer-s-portal-buyer-s-guide-plan-determine-procurement-strategy-trade-agreement-applicability__53e32c23a1"
+    ]
+  },
+  {
+    "id": "perturb_008_noisy",
+    "split": "dev",
+    "source_case_id": "robust_04_acronym_rfsa_npp_thresholds",
+    "perturbation": "noisy_typos",
+    "question": "Quick check pls: For an RFSA, when does TA threshold trigger an NPP obligation versus no TA obligations? Keep it strict to policy and identify governing source(s).",
+    "expected_doc_prefixes": [
+      "buyers_guide__en-buyer-s-portal-buyer-s-guide-create-solicitation-choose-solicitation-method-request-supply-arrangement__f09e4fcb6e",
+      "buyers_guide__en-buyer-s-portal-buyer-s-guide-plan-determine-procurement-strategy-trade-agreement-applicability__53e32c23a1"
+    ]
+  },
+  {
+    "id": "perturb_009_verbose",
+    "split": "test",
+    "source_case_id": "robust_05_long_multihop_buy_canadian_precedence",
+    "perturbation": "verbose_memo",
+    "question": "For a compliance memo, answer this precisely with policy-grounded caveats and scope checks: If a buyer is told the Buy Canadian framework applies across departmental instruments while the TBS procurement directive has its own conflict language, how should they reason about precedence for a specific file without making a universal override claim?",
+    "expected_doc_prefixes": [
+      "buy_canadian_policy__en-buy-canadian-policy__e9189922a5",
+      "tbs_directive__pol-doc-eng-aspx__id-32692__70db5331eb"
+    ]
+  },
+  {
+    "id": "perturb_010_noisy",
+    "split": "test",
+    "source_case_id": "robust_05_long_multihop_buy_canadian_precedence",
+    "perturbation": "noisy_typos",
+    "question": "Quick check pls: If a buyer is told the Buy Canadian framework applies across departmental instruments while the TBS procurment directive has its own conflict language, how should they reason about precedence for a specific file without making a universal override claim? Keep it strict to policy and identify governing source(s).",
+    "expected_doc_prefixes": [
+      "buy_canadian_policy__en-buy-canadian-policy__e9189922a5",
+      "tbs_directive__pol-doc-eng-aspx__id-32692__70db5331eb"
+    ]
+  },
+  {
+    "id": "perturb_011_verbose",
+    "split": "test",
+    "source_case_id": "robust_06_buy_canadian_exception_documentation",
+    "perturbation": "verbose_memo",
+    "question": "For a compliance memo, answer this precisely with policy-grounded caveats and scope checks: Under Buy Canadian policy instruments, what file evidence is expected when exceptions are approved by a common service provider?",
+    "expected_doc_prefixes": [
+      "buy_canadian_policy__en-how-procurement-works-policies-and-guidelines-policies-directives-and-regulations-policy-prioritizing-cana__1a6137428b",
+      "buy_canadian_policy__en-how-procurement-works-policies-and-guidelines-policies-directives-and-regulations-policy-prioritizing-cana__5ae715d737"
+    ]
+  },
+  {
+    "id": "perturb_012_noisy",
+    "split": "test",
+    "source_case_id": "robust_06_buy_canadian_exception_documentation",
+    "perturbation": "noisy_typos",
+    "question": "Quick check pls: Under Buy Canadian policy instruments, what file evidence is expected when exceptions are approved by a common service provider? Keep it strict to policy and identify governing source(s).",
+    "expected_doc_prefixes": [
+      "buy_canadian_policy__en-how-procurement-works-policies-and-guidelines-policies-directives-and-regulations-policy-prioritizing-cana__1a6137428b",
+      "buy_canadian_policy__en-how-procurement-works-policies-and-guidelines-policies-directives-and-regulations-policy-prioritizing-cana__5ae715d737"
+    ]
+  },
+  {
+    "id": "perturb_013_verbose",
+    "split": "dev",
+    "source_case_id": "robust_07_debt_forgiveness_and_tb_limits",
+    "perturbation": "verbose_memo",
+    "question": "For a compliance memo, answer this precisely with policy-grounded caveats and scope checks: If a contract debt is under the non-competitive limit, can a PSPC employee forgive it without delegated authority, and which instrument governs the limit versus debt forgiveness authority?",
+    "expected_doc_prefixes": [
+      "buyers_guide__en-buyer-s-portal-buyer-s-guide-approve-special-considerations-forgiveness-debts__0a269f9863",
+      "tbs_directive__pol-doc-eng-aspx__id-32692__70db5331eb"
+    ]
+  },
+  {
+    "id": "perturb_014_noisy",
+    "split": "dev",
+    "source_case_id": "robust_07_debt_forgiveness_and_tb_limits",
+    "perturbation": "noisy_typos",
+    "question": "Quick check pls: If a contract debt is under the non-competitive limit, can a PSPC employee forgive it without delegated authoritiy, and which instrument governs the limit versus debt forgiveness authoritiy? Keep it strict to policy and identify governing source(s).",
+    "expected_doc_prefixes": [
+      "buyers_guide__en-buyer-s-portal-buyer-s-guide-approve-special-considerations-forgiveness-debts__0a269f9863",
+      "tbs_directive__pol-doc-eng-aspx__id-32692__70db5331eb"
+    ]
+  },
+  {
+    "id": "perturb_015_verbose",
+    "split": "dev",
+    "source_case_id": "robust_08_integrity_verification_evidence",
+    "perturbation": "verbose_memo",
+    "question": "For a compliance memo, answer this precisely with policy-grounded caveats and scope checks: At award, what Integrity Verification Services evidence must stay in the procurement file?",
+    "expected_doc_prefixes": [
+      "buyers_guide__en-buyer-s-portal-buyer-s-guide-award-award-contract-elements-consider-award__bc84b1b70f"
+    ]
+  },
+  {
+    "id": "perturb_016_noisy",
+    "split": "dev",
+    "source_case_id": "robust_08_integrity_verification_evidence",
+    "perturbation": "noisy_typos",
+    "question": "Quick check pls: At award, what Integrity Verification Services evidence must stay in the procurment file? Keep it strict to policy and identify governing source(s).",
+    "expected_doc_prefixes": [
+      "buyers_guide__en-buyer-s-portal-buyer-s-guide-award-award-contract-elements-consider-award__bc84b1b70f"
+    ]
+  },
+  {
+    "id": "perturb_017_verbose",
+    "split": "test",
+    "source_case_id": "robust_09_acan_pre_post_requirements",
+    "perturbation": "verbose_memo",
+    "question": "For a compliance memo, answer this precisely with policy-grounded caveats and scope checks: Before issuing an ACAN and before award, what minimum rationale and records must already exist to justify single-supplier treatment?",
+    "expected_doc_prefixes": [
+      "buyers_guide__en-buyer-s-portal-buyer-s-guide-create-solicitation-tender-notices-advanced-contract-award-notice__6941c7b148"
+    ]
+  },
+  {
+    "id": "perturb_018_noisy",
+    "split": "test",
+    "source_case_id": "robust_09_acan_pre_post_requirements",
+    "perturbation": "noisy_typos",
+    "question": "Quick check pls: Before issuing an ACAN and before award, what minimum rationale and records must already exist to justify single-supplier treatment? Keep it strict to policy and identify governing source(s).",
+    "expected_doc_prefixes": [
+      "buyers_guide__en-buyer-s-portal-buyer-s-guide-create-solicitation-tender-notices-advanced-contract-award-notice__6941c7b148"
+    ]
+  },
+  {
+    "id": "perturb_019_verbose",
+    "split": "dev",
+    "source_case_id": "robust_10_binding_mechanism_so_vs_sa",
+    "perturbation": "verbose_memo",
+    "question": "For a compliance memo, answer this precisely with policy-grounded caveats and scope checks: Explain the binding mechanism difference: standing offer call-up versus supply arrangement contract award.",
+    "expected_doc_prefixes": [
+      "buyers_guide__en-buyer-s-portal-buyer-s-guide-plan-determine-procurement-strategy-choose-method-supply__902b2afcf8"
+    ]
+  },
+  {
+    "id": "perturb_020_noisy",
+    "split": "dev",
+    "source_case_id": "robust_10_binding_mechanism_so_vs_sa",
+    "perturbation": "noisy_typos",
+    "question": "Quick check pls: Explain the binding mechanism difference: standing offer call-up versus supply arrangment contract award. Keep it strict to policy and identify governing source(s).",
+    "expected_doc_prefixes": [
+      "buyers_guide__en-buyer-s-portal-buyer-s-guide-plan-determine-procurement-strategy-choose-method-supply__902b2afcf8"
+    ]
+  },
+  {
+    "id": "perturb_021_verbose",
+    "split": "test",
+    "source_case_id": "robust_11_offer_validity_expiry",
+    "perturbation": "verbose_memo",
+    "question": "For a compliance memo, answer this precisely with policy-grounded caveats and scope checks: Evaluation is delayed and validity may expire. What options exist before expiry, and what does a post-expiry award imply?",
+    "expected_doc_prefixes": [
+      "buyers_guide__en-buyer-s-portal-buyer-s-guide-receive-and-evaluate-receive-offers-handle-offers__a1b9b21036"
+    ]
+  },
+  {
+    "id": "perturb_022_noisy",
+    "split": "test",
+    "source_case_id": "robust_11_offer_validity_expiry",
+    "perturbation": "noisy_typos",
+    "question": "Quick check pls: Evaluation is delayed and validity may expire. What options exist before expiry, and what does a post-expiry award imply? Keep it strict to policy and identify governing source(s).",
+    "expected_doc_prefixes": [
+      "buyers_guide__en-buyer-s-portal-buyer-s-guide-receive-and-evaluate-receive-offers-handle-offers__a1b9b21036"
+    ]
+  },
+  {
+    "id": "perturb_023_verbose",
+    "split": "test",
+    "source_case_id": "robust_12_emergency_reporting_thresholds",
+    "perturbation": "verbose_memo",
+    "question": "For a compliance memo, answer this precisely with policy-grounded caveats and scope checks: For pressing emergency procurement, what must be documented and when does Treasury Board approval or ratification become required?",
+    "expected_doc_prefixes": [
+      "tbs_directive__pol-doc-eng-aspx__id-32692__70db5331eb"
+    ]
+  },
+  {
+    "id": "perturb_024_noisy",
+    "split": "test",
+    "source_case_id": "robust_12_emergency_reporting_thresholds",
+    "perturbation": "noisy_typos",
+    "question": "Quick check pls: For pressing emergency procurment, what must be documented and when does Treasurey Board approval or ratification become reqd? Keep it strict to policy and identify governing source(s).",
+    "expected_doc_prefixes": [
+      "tbs_directive__pol-doc-eng-aspx__id-32692__70db5331eb"
+    ]
+  }
+]

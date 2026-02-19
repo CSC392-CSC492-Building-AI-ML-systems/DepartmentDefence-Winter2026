@@ -1,0 +1,63 @@
+[
+  {
+    "id": "adv_01_debt_vs_limits",
+    "question": "A PSPC employee wants to forgive a debt arising from a contract action because the amount is below $140,000 non-competitive. Is that allowed without delegated authority, and which source governs each part?",
+    "expected_chunk_ids": [
+      "buyers_guide__en-buyer-s-portal-buyer-s-guide-approve-special-considerations-forgiveness-debts__0a269f9863__1",
+      "tbs_directive__pol-doc-eng-aspx__id-32692__70db5331eb__56"
+    ]
+  },
+  {
+    "id": "adv_02_exceptional_limits_precedence",
+    "question": "When a department has an exceptional contracting limit different from the basic limit, which limit applies and when is Treasury Board approval required?",
+    "expected_chunk_ids": [
+      "tbs_directive__pol-doc-eng-aspx__id-32692__70db5331eb__62",
+      "tbs_directive__pol-doc-eng-aspx__id-32692__70db5331eb__56"
+    ]
+  },
+  {
+    "id": "adv_03_prof_services_threshold_and_preaward_docs",
+    "question": "For professional services, what dollar threshold triggers the mandatory procedures, and what must business owners provide before awarding a contract or task authorization?",
+    "expected_chunk_ids": [
+      "tbs_directive__pol-doc-eng-aspx__id-32692__70db5331eb__137",
+      "tbs_directive__pol-doc-eng-aspx__id-32692__70db5331eb__139"
+    ]
+  },
+  {
+    "id": "adv_04_reciprocal_exception_controls",
+    "question": "Under reciprocal procurement, if you apply an exception to include non-trading partners, does that remove the need to solicit offers, and what approval/file documentation is mandatory for best value or public interest exceptions?",
+    "expected_chunk_ids": [
+      "buyers_guide__en-buyer-s-portal-buyer-s-guide-plan-determine-procurement-strategy-interim-policy-reciprocal-procurement__5e3e4634b7__19",
+      "buyers_guide__en-buyer-s-portal-buyer-s-guide-plan-determine-procurement-strategy-interim-policy-reciprocal-procurement__5e3e4634b7__20"
+    ]
+  },
+  {
+    "id": "adv_05_reciprocal_trade_step_always",
+    "question": "In the interim reciprocal procurement process, is determining trade agreement applicability mandatory even if the policy may ultimately not apply to that procurement?",
+    "expected_chunk_ids": [
+      "buyers_guide__en-buyer-s-portal-buyer-s-guide-plan-determine-procurement-strategy-interim-policy-reciprocal-procurement__5e3e4634b7__17"
+    ]
+  },
+  {
+    "id": "adv_06_reciprocal_declaration_timing",
+    "question": "For procurements subject to reciprocal procurement, must declarations be submitted before contract award, and can buyers force that declaration at offer closing?",
+    "expected_chunk_ids": [
+      "buyers_guide__en-buyer-s-portal-buyer-s-guide-plan-determine-procurement-strategy-interim-policy-reciprocal-procurement__5e3e4634b7__30"
+    ]
+  },
+  {
+    "id": "adv_07_supply_arrangement_transition_date",
+    "question": "What is the deadline to amend existing supply arrangements with reciprocal procurement clauses, and what rule applies to solicitations issued under existing SAs before renewal?",
+    "expected_chunk_ids": [
+      "buyers_guide__en-buyer-s-portal-buyer-s-guide-plan-determine-procurement-strategy-interim-policy-reciprocal-procurement__5e3e4634b7__25"
+    ]
+  },
+  {
+    "id": "adv_08_spring_2026_scope",
+    "question": "Which policy states that by Spring 2026 non-defence contracts are only awarded to Canadian suppliers, goods and services (or trusted reciprocal partners), and what phrase says Canadian suppliers stay eligible in all cases?",
+    "expected_chunk_ids": [
+      "buy_canadian_policy__en-buy-canadian-policy__e9189922a5__2",
+      "buyers_guide__en-buyer-s-portal-buyer-s-guide-plan-determine-procurement-strategy-interim-policy-reciprocal-procurement__5e3e4634b7__15"
+    ]
+  }
+]

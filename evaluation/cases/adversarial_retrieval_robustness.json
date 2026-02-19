@@ -1,0 +1,115 @@
+[
+  {
+    "id": "robust_01_typo_reciprocal_declaration",
+    "split": "dev",
+    "challenge": "typos",
+    "question": "For rcciprocal procrument, do declrations need to be in before award, and can buyer make them mandatory at closing?",
+    "expected_doc_prefixes": [
+      "buyers_guide__en-buyer-s-portal-buyer-s-guide-plan-determine-procurement-strategy-interim-policy-reciprocal-procurement__5e3e4634b7"
+    ]
+  },
+  {
+    "id": "robust_02_negation_trap_closing",
+    "split": "dev",
+    "challenge": "negation",
+    "question": "True or false: reciprocal procurement declarations are only required at offer closing and not before award.",
+    "expected_doc_prefixes": [
+      "buyers_guide__en-buyer-s-portal-buyer-s-guide-plan-determine-procurement-strategy-interim-policy-reciprocal-procurement__5e3e4634b7"
+    ]
+  },
+  {
+    "id": "robust_03_cross_late_offer_plus_declaration",
+    "split": "dev",
+    "challenge": "cross_source",
+    "question": "A declaration package arrives late by courier for a supply arrangement solicitation. What governs delayed-vs-late handling and what is still required before award under reciprocal procurement?",
+    "expected_doc_prefixes": [
+      "buyers_guide__en-buyer-s-portal-buyer-s-guide-receive-and-evaluate-receive-offers-handle-late-or-delayed-offers__797ed5959b",
+      "buyers_guide__en-buyer-s-portal-buyer-s-guide-plan-determine-procurement-strategy-interim-policy-reciprocal-procurement__5e3e4634b7"
+    ]
+  },
+  {
+    "id": "robust_04_acronym_rfsa_npp_thresholds",
+    "split": "dev",
+    "challenge": "acronyms",
+    "question": "For an RFSA, when does TA threshold trigger an NPP obligation versus no TA obligations?",
+    "expected_doc_prefixes": [
+      "buyers_guide__en-buyer-s-portal-buyer-s-guide-create-solicitation-choose-solicitation-method-request-supply-arrangement__f09e4fcb6e",
+      "buyers_guide__en-buyer-s-portal-buyer-s-guide-plan-determine-procurement-strategy-trade-agreement-applicability__53e32c23a1"
+    ]
+  },
+  {
+    "id": "robust_05_long_multihop_buy_canadian_precedence",
+    "split": "test",
+    "challenge": "long_multihop",
+    "question": "If a buyer is told the Buy Canadian framework applies across departmental instruments while the TBS procurement directive has its own conflict language, how should they reason about precedence for a specific file without making a universal override claim?",
+    "expected_doc_prefixes": [
+      "buy_canadian_policy__en-buy-canadian-policy__e9189922a5",
+      "tbs_directive__pol-doc-eng-aspx__id-32692__70db5331eb"
+    ]
+  },
+  {
+    "id": "robust_06_buy_canadian_exception_documentation",
+    "split": "test",
+    "challenge": "cross_policy_instrument",
+    "question": "Under Buy Canadian policy instruments, what file evidence is expected when exceptions are approved by a common service provider?",
+    "expected_doc_prefixes": [
+      "buy_canadian_policy__en-how-procurement-works-policies-and-guidelines-policies-directives-and-regulations-policy-prioritizing-cana__1a6137428b",
+      "buy_canadian_policy__en-how-procurement-works-policies-and-guidelines-policies-directives-and-regulations-policy-prioritizing-cana__5ae715d737"
+    ]
+  },
+  {
+    "id": "robust_07_debt_forgiveness_and_tb_limits",
+    "split": "dev",
+    "challenge": "numeric_and_authority",
+    "question": "If a contract debt is under the non-competitive limit, can a PSPC employee forgive it without delegated authority, and which instrument governs the limit versus debt forgiveness authority?",
+    "expected_doc_prefixes": [
+      "buyers_guide__en-buyer-s-portal-buyer-s-guide-approve-special-considerations-forgiveness-debts__0a269f9863",
+      "tbs_directive__pol-doc-eng-aspx__id-32692__70db5331eb"
+    ]
+  },
+  {
+    "id": "robust_08_integrity_verification_evidence",
+    "split": "dev",
+    "challenge": "specific_evidence",
+    "question": "At award, what Integrity Verification Services evidence must stay in the procurement file?",
+    "expected_doc_prefixes": [
+      "buyers_guide__en-buyer-s-portal-buyer-s-guide-award-award-contract-elements-consider-award__bc84b1b70f"
+    ]
+  },
+  {
+    "id": "robust_09_acan_pre_post_requirements",
+    "split": "test",
+    "challenge": "process_guardrails",
+    "question": "Before issuing an ACAN and before award, what minimum rationale and records must already exist to justify single-supplier treatment?",
+    "expected_doc_prefixes": [
+      "buyers_guide__en-buyer-s-portal-buyer-s-guide-create-solicitation-tender-notices-advanced-contract-award-notice__6941c7b148"
+    ]
+  },
+  {
+    "id": "robust_10_binding_mechanism_so_vs_sa",
+    "split": "dev",
+    "challenge": "contrastive_reasoning",
+    "question": "Explain the binding mechanism difference: standing offer call-up versus supply arrangement contract award.",
+    "expected_doc_prefixes": [
+      "buyers_guide__en-buyer-s-portal-buyer-s-guide-plan-determine-procurement-strategy-choose-method-supply__902b2afcf8"
+    ]
+  },
+  {
+    "id": "robust_11_offer_validity_expiry",
+    "split": "test",
+    "challenge": "timeline_reasoning",
+    "question": "Evaluation is delayed and validity may expire. What options exist before expiry, and what does a post-expiry award imply?",
+    "expected_doc_prefixes": [
+      "buyers_guide__en-buyer-s-portal-buyer-s-guide-receive-and-evaluate-receive-offers-handle-offers__a1b9b21036"
+    ]
+  },
+  {
+    "id": "robust_12_emergency_reporting_thresholds",
+    "split": "test",
+    "challenge": "emergency_authority",
+    "question": "For pressing emergency procurement, what must be documented and when does Treasury Board approval or ratification become required?",
+    "expected_doc_prefixes": [
+      "tbs_directive__pol-doc-eng-aspx__id-32692__70db5331eb"
+    ]
+  }
+]

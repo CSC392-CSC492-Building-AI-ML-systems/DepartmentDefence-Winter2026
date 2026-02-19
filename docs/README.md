@@ -8,6 +8,7 @@ This folder is the navigation hub for the repository.
 - `RUNBOOK.md`: practical commands for running chatbot, collector, and evals.
 - `EVALUATION.md`: case datasets, eval metrics, and how to read `evaluation/runs/*.json`.
 - `EVAL_STACK.md`: structured evaluation stack (cases, metrics, subgroup reporting, judge mode).
+- `QUESTION_DESIGN_AND_ANSWERING.md`: how to write meaningful policy questions and answer with evidence across Buyer’s Guide, Buy Canadian, and TBS Directive.
 
 ## Suggested Reading Order
 1. `../readme.MD`
@@ -16,3 +17,4 @@ This folder is the navigation hub for the repository.
 4. `RUNBOOK.md`
 5. `EVALUATION.md`
 6. `EVAL_STACK.md`
+7. `QUESTION_DESIGN_AND_ANSWERING.md`

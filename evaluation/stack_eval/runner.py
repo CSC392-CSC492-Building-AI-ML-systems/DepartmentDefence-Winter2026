@@ -40,7 +40,7 @@ from rag.pipeline import embed_chunks, load_chunks_from_docs  # noqa: E402
 from rag.prompting import pack_retrieved_documents  # noqa: E402
 from rag.query_rewrite import generate_query_expansions  # noqa: E402
 from rag.rag_types import Chunk  # noqa: E402
-from rag.retrieval import retrieve  # noqa: E402
+from rag.retrieval import build_chunk_features, retrieve  # noqa: E402
 
 
 def serialize_retrieved(retrieved: List[Tuple[Chunk, float]]) -> List[Dict[str, Any]]:
@@ -259,6 +259,7 @@ def main() -> None:
     chunk_vecs = embed_chunks(client, chunks)
     if chunk_vecs.size == 0:
         raise RuntimeError("Embedding matrix is empty.")
+    chunk_vocabs, chunk_modes, chunk_meta_vocabs = build_chunk_features(chunks)
 
     case_rows: List[Dict[str, Any]] = []
     retrieval_timings: List[float] = []
@@ -280,6 +281,9 @@ def main() -> None:
             chunk_vecs=chunk_vecs,
             k=args.top_k,
             query_expansions=query_expansions,
+            chunk_vocabs=chunk_vocabs,
+            chunk_modes=chunk_modes,
+            chunk_meta_vocabs=chunk_meta_vocabs,
         )
         packed_docs, packing_stats = pack_retrieved_documents(
             client=client,

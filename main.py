@@ -1,3 +1,5 @@
+import argparse
+
 from rag.app_config import (
     CHAT_MAX_INPUT_TOKENS,
     CHAT_MAX_OUTPUT_TOKENS,
@@ -11,10 +13,33 @@ from rag.embedding_client import create_client
 from rag.pipeline import embed_chunks, load_chunks_from_docs
 from rag.prompting import pack_retrieved_documents
 from rag.query_rewrite import generate_query_expansions
-from rag.retrieval import retrieve
+from rag.retrieval import build_chunk_features, retrieve
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Run the interactive PolicyRAG CLI.")
+    parser.add_argument(
+        "--show-excerpts",
+        action="store_true",
+        help="Print excerpt text for each retrieved source shown in the CLI output.",
+    )
+    parser.add_argument(
+        "--hide-context-stats",
+        action="store_true",
+        help="Hide retrieval/context packing stats in the CLI output.",
+    )
+    parser.add_argument(
+        "--max-sources",
+        type=int,
+        default=6,
+        help="Maximum number of packed sources to show after each answer.",
+    )
+    return parser.parse_args()
 
 
 def main() -> None:
+    args = parse_args()
+
     docs = list_docs()
     if not docs:
         print("No docs found. Put .txt/.md files into data/ (or set RAW_DIR) and re-run.")
@@ -32,6 +57,7 @@ def main() -> None:
     if chunk_vecs.size == 0:
         print("No embeddings were created. Check chunking/input data and retry.")
         return
+    chunk_vocabs, chunk_modes, chunk_meta_vocabs = build_chunk_features(chunks)
 
     chat_history: list[dict] = []
 
@@ -61,6 +87,9 @@ def main() -> None:
                 chunk_vecs=chunk_vecs,
                 k=TOP_K,
                 query_expansions=query_expansions,
+                chunk_vocabs=chunk_vocabs,
+                chunk_modes=chunk_modes,
+                chunk_meta_vocabs=chunk_meta_vocabs,
             )
             packed_docs, packing_stats = pack_retrieved_documents(
                 client=client,
@@ -109,21 +138,32 @@ def main() -> None:
             chat_history = chat_history[-max_messages:]
 
         print("\nANSWER:\n", answer)
-        print(
-            "\nCONTEXT STATS:\n"
-            f"- query expansions: {len(query_expansions)}\n"
-            f"- retrieved chunks: {len(retrieved)}\n"
-            f"- packed docs: {packing_stats['packed_docs']} / {packing_stats['retrieved_docs']}\n"
-            f"- packed tokens: {packing_stats['used_doc_tokens']} / {packing_stats['budget_for_docs_tokens']}"
-        )
-        print("\nCITATIONS (retrieved excerpts):")
+
+        if not args.hide_context_stats:
+            print(
+                "\nCONTEXT STATS:\n"
+                f"- query expansions: {len(query_expansions)}\n"
+                f"- retrieved chunks: {len(retrieved)}\n"
+                f"- packed docs: {packing_stats['packed_docs']} / {packing_stats['retrieved_docs']}\n"
+                f"- packed tokens: {packing_stats['used_doc_tokens']} / {packing_stats['budget_for_docs_tokens']}"
+            )
+
+        print("\nSOURCES SENT TO MODEL:")
         packed_ids = {doc["chunk_id"] for doc in packed_docs}
+        shown = 0
+        max_sources = max(1, args.max_sources)
         for ch, score in retrieved:
-            if ch.chunk_id not in packed_ids:
+            if ch.chunk_id not in packed_ids or shown >= max_sources:
                 continue
-            quote = ch.text.replace("\n", " ")
             print(f"- [{ch.chunk_id}] {ch.title} (score={score:.3f})")
-            print(f"  {quote}\n")
+            if args.show_excerpts:
+                quote = " ".join(ch.text.split())
+                print(f"  {quote[:420]}")
+            shown += 1
+
+        packed_retrieved_count = sum(1 for ch, _ in retrieved if ch.chunk_id in packed_ids)
+        if packed_retrieved_count > shown:
+            print(f"- ... {packed_retrieved_count - shown} more packed sources not shown")
 
 
 if __name__ == "__main__":
