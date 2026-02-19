@@ -35,9 +35,10 @@
 
 ## Collect Sources
 - Default crawl:
-  - `python collect_sources.py --max-pages 300 --verbose`
+  - `python collect_sources.py --clean --max-pages 350 --verbose`
 - Default outputs:
-  - documents: `data/*.txt`
+  - documents: `data/corpus/*.md`
+  - metadata: `data/metadata/*.json`
   - manifest: `data/manifest.json`
 
 ## Run Evaluations

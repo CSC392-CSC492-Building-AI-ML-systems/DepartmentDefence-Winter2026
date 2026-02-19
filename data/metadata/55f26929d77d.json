@@ -1,0 +1,1311 @@
+{
+  "doc_id": "55f26929d77d",
+  "title": "Buyer's Guide Engage - Engage with businesses",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-businesses",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-businesses",
+  "doc_type": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": "2026-02-05",
+  "fetched_at": "2026-02-19T09:15:43.992868+00:00",
+  "content_hash": "dfe212cc5279565037bda6afac1bd25753fb8f4820a1a4c20bef335a7e8b96db",
+  "word_count": 2693,
+  "text_path": "data/corpus/buyers_guide__en-buyer-s-portal-buyer-s-guide-plan-engage-engage-businesses__55f26929d7.md",
+  "extraction_method": "buyers_guide_regions",
+  "breadcrumbs": [
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "https://canadabuys.canada.ca/en",
+      "canonical_url": "https://canadabuys.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "in_scope": true
+    },
+    {
+      "title": "Engage",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage",
+      "in_scope": true
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage",
+    "parent_doc_id": "30756d1e95c9",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-businesses"
+    ],
+    "lineage_doc_ids": [
+      "1e29c7881335",
+      "30756d1e95c9",
+      "55f26929d77d"
+    ],
+    "depth": 2,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-accounting-and-pricing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-reimbursable",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/firm-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-time/unit-rate",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/overview-key-pricing-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/price-and-currency-adjustments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/pricing-methods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/provisional-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/types-basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/application-registration",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/completing-security-requirements-check-list",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/controlled-goods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/foreign-ownership-control-or-influence",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/privacy-and-confidentiality",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-international-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-timelines",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/importance-clear-procurement-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/requisition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/review-statement-work",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/socioeconomic-requirements-definition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/standards-and-quality-assurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/choose-method-supply",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/determine-sourcing-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/developing-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/interim-policy-reciprocal-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/trade-agreement-applicability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/early-engagement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-clients",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-subject-matter-experts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/invoicing-instructions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/payment-instruments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/taxes-and-duties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/withholding-non-resident-contractors",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/communicating-method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/developing-selection-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/including-basis-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/specifying-evaluation-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/canadian-general-standards-board",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/compliance-canadian-electrical-code",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/contractor-liability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/emergency-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/employer/employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/fairness-monitoring",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/insurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/intellectual-property-and-copyright",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/liability-and-risk-management",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/managing-urgent-acquisitions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/official-languages-obligation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/warranties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/holdbacks",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/incentives",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/accessibility",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/anti-forced-labour-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/green-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/indigenous-considerations"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-accounting-and-pricing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-reimbursable",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/firm-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-time/unit-rate",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/overview-key-pricing-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/price-and-currency-adjustments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/pricing-methods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/provisional-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/types-basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/application-registration",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/completing-security-requirements-check-list",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/controlled-goods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/foreign-ownership-control-or-influence",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/privacy-and-confidentiality",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-international-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-timelines",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/importance-clear-procurement-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/requisition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/review-statement-work",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/socioeconomic-requirements-definition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/standards-and-quality-assurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/choose-method-supply",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/determine-sourcing-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/developing-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/interim-policy-reciprocal-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/trade-agreement-applicability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/early-engagement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-clients",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-subject-matter-experts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/invoicing-instructions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/payment-instruments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/taxes-and-duties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/withholding-non-resident-contractors",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/communicating-method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/developing-selection-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/including-basis-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/specifying-evaluation-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/canadian-general-standards-board",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/compliance-canadian-electrical-code",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/contractor-liability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/emergency-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/employer/employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/fairness-monitoring",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/insurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/intellectual-property-and-copyright",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/liability-and-risk-management",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/managing-urgent-acquisitions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/official-languages-obligation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/warranties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/holdbacks",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/incentives",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/accessibility",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/anti-forced-labour-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/green-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/indigenous-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure": {
+    "block_count": 52,
+    "section_count": 17,
+    "heading_count": 16,
+    "paragraph_count": 30,
+    "list_count": 6,
+    "table_count": 0
+  },
+  "sections": [
+    {
+      "section_id": "55f26929d77d::root",
+      "parent_section_id": null,
+      "level": 0,
+      "heading": "Buyer's Guide Engage - Engage with businesses",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses"
+      ],
+      "block_count": 0,
+      "word_count": 0,
+      "char_count": 0,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": null,
+      "last_block_index": null,
+      "preview": "",
+      "prev_section_id": null,
+      "next_section_id": null
+    },
+    {
+      "section_id": "55f26929d77d::s001",
+      "parent_section_id": "55f26929d77d::root",
+      "level": 1,
+      "heading": "Buyer's Guide Engage - Engage with businesses",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide Engage - Engage with businesses"
+      ],
+      "block_count": 1,
+      "word_count": 7,
+      "char_count": 45,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 0,
+      "last_block_index": 0,
+      "preview": "Buyer's Guide Engage - Engage with businesses",
+      "prev_section_id": null,
+      "next_section_id": "55f26929d77d::s002"
+    },
+    {
+      "section_id": "55f26929d77d::s002",
+      "parent_section_id": "55f26929d77d::root",
+      "level": 1,
+      "heading": "Buyer's Guide",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide"
+      ],
+      "block_count": 3,
+      "word_count": 1345,
+      "char_count": 8930,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 1,
+      "last_block_index": 3,
+      "preview": "Buyer's Guide Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage Engage with businesses Engaging with businesses is a crucial aspect of procurement activities. It facilitates a clear understan",
+      "prev_section_id": "55f26929d77d::s001",
+      "next_section_id": "55f26929d77d::s003"
+    },
+    {
+      "section_id": "55f26929d77d::s003",
+      "parent_section_id": "55f26929d77d::s002",
+      "level": 2,
+      "heading": "Engage with businesses",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses"
+      ],
+      "block_count": 2,
+      "word_count": 44,
+      "char_count": 328,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 4,
+      "last_block_index": 5,
+      "preview": "Engage with businesses Engaging with businesses is a crucial aspect of procurement activities. It facilitates a clear understanding of procedures and fosters a competitive and inclusive environment. Learn how you can effectively interact wi",
+      "prev_section_id": "55f26929d77d::s002",
+      "next_section_id": "55f26929d77d::s004"
+    },
+    {
+      "section_id": "55f26929d77d::s004",
+      "parent_section_id": "55f26929d77d::s003",
+      "level": 3,
+      "heading": "Key principles for business engagement",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Key principles for business engagement"
+      ],
+      "block_count": 2,
+      "word_count": 26,
+      "char_count": 186,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 6,
+      "last_block_index": 7,
+      "preview": "Key principles for business engagement When engaging with businesses, you should adhere to the following principles to maintain the integrity and effectiveness of the procurement process.",
+      "prev_section_id": "55f26929d77d::s003",
+      "next_section_id": "55f26929d77d::s005"
+    },
+    {
+      "section_id": "55f26929d77d::s005",
+      "parent_section_id": "55f26929d77d::s004",
+      "level": 4,
+      "heading": "Clarity and transparency",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Key principles for business engagement",
+        "Clarity and transparency"
+      ],
+      "block_count": 2,
+      "word_count": 19,
+      "char_count": 151,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 8,
+      "last_block_index": 9,
+      "preview": "Clarity and transparency Ensure that all communications with businesses are clear and transparent, avoiding ambiguity and ensuring mutual understanding.",
+      "prev_section_id": "55f26929d77d::s004",
+      "next_section_id": "55f26929d77d::s006"
+    },
+    {
+      "section_id": "55f26929d77d::s006",
+      "parent_section_id": "55f26929d77d::s004",
+      "level": 4,
+      "heading": "Fairness",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Key principles for business engagement",
+        "Fairness"
+      ],
+      "block_count": 2,
+      "word_count": 16,
+      "char_count": 120,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 10,
+      "last_block_index": 11,
+      "preview": "Fairness Treat all potential offerors equally, providing them with the same information and opportunities to participate.",
+      "prev_section_id": "55f26929d77d::s005",
+      "next_section_id": "55f26929d77d::s007"
+    },
+    {
+      "section_id": "55f26929d77d::s007",
+      "parent_section_id": "55f26929d77d::s004",
+      "level": 4,
+      "heading": "Openness",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Key principles for business engagement",
+        "Openness"
+      ],
+      "block_count": 2,
+      "word_count": 20,
+      "char_count": 123,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 12,
+      "last_block_index": 13,
+      "preview": "Openness Be open to feedback and concerns from businesses, and be willing to clarify any aspects of the procurement process.",
+      "prev_section_id": "55f26929d77d::s006",
+      "next_section_id": "55f26929d77d::s008"
+    },
+    {
+      "section_id": "55f26929d77d::s008",
+      "parent_section_id": "55f26929d77d::s004",
+      "level": 4,
+      "heading": "Collaboration",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Key principles for business engagement",
+        "Collaboration"
+      ],
+      "block_count": 2,
+      "word_count": 18,
+      "char_count": 152,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 14,
+      "last_block_index": 15,
+      "preview": "Collaboration Encourage a collaborative approach, seeking to understand business capabilities and innovations that could benefit the procurement process.",
+      "prev_section_id": "55f26929d77d::s007",
+      "next_section_id": "55f26929d77d::s009"
+    },
+    {
+      "section_id": "55f26929d77d::s009",
+      "parent_section_id": "55f26929d77d::s003",
+      "level": 3,
+      "heading": "Price and availability enquiry",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Price and availability enquiry"
+      ],
+      "block_count": 2,
+      "word_count": 81,
+      "char_count": 515,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 16,
+      "last_block_index": 17,
+      "preview": "Price and availability enquiry You can use a price and availability (P&A) enquiry to gather information from businesses about specific goods or services. It serves as a foundational step for program planning or budgetary considerations by P",
+      "prev_section_id": "55f26929d77d::s008",
+      "next_section_id": "55f26929d77d::s010"
+    },
+    {
+      "section_id": "55f26929d77d::s010",
+      "parent_section_id": "55f26929d77d::s003",
+      "level": 3,
+      "heading": "Engaging using the POCP",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Engaging using the POCP"
+      ],
+      "block_count": 4,
+      "word_count": 79,
+      "char_count": 469,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 2,
+      "first_block_index": 18,
+      "last_block_index": 21,
+      "preview": "Engaging using the POCP You should engage with the industry, including potential offerors in the context of the POCP . You should provide the following information about the POCP : its purpose and how it works ; the contemplation of its inc",
+      "prev_section_id": "55f26929d77d::s009",
+      "next_section_id": "55f26929d77d::s011"
+    },
+    {
+      "section_id": "55f26929d77d::s011",
+      "parent_section_id": "55f26929d77d::s003",
+      "level": 3,
+      "heading": "Offerors' conference",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Offerors' conference"
+      ],
+      "block_count": 2,
+      "word_count": 37,
+      "char_count": 278,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 22,
+      "last_block_index": 23,
+      "preview": "Offerors' conference Offerors' conferences serve a critical role in the procurement process, providing you with a platform to provide uniform information to all potential offerors. Review the essential procedures and guidelines for conducti",
+      "prev_section_id": "55f26929d77d::s010",
+      "next_section_id": "55f26929d77d::s012"
+    },
+    {
+      "section_id": "55f26929d77d::s012",
+      "parent_section_id": "55f26929d77d::s011",
+      "level": 4,
+      "heading": "Key procedures and guidelines",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Offerors' conference",
+        "Key procedures and guidelines"
+      ],
+      "block_count": 9,
+      "word_count": 203,
+      "char_count": 1327,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 7,
+      "first_block_index": 24,
+      "last_block_index": 32,
+      "preview": "Key procedures and guidelines A conference must be held only when you deem it necessary for offerors to fully understand the proposed procurement. The conference's primary goal is to provide information and opportunities for offerors to ask",
+      "prev_section_id": "55f26929d77d::s011",
+      "next_section_id": "55f26929d77d::s013"
+    },
+    {
+      "section_id": "55f26929d77d::s013",
+      "parent_section_id": "55f26929d77d::s011",
+      "level": 4,
+      "heading": "Before the conference",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Offerors' conference",
+        "Before the conference"
+      ],
+      "block_count": 4,
+      "word_count": 96,
+      "char_count": 618,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 2,
+      "first_block_index": 33,
+      "last_block_index": 36,
+      "preview": "Before the conference You must schedule the conference in a manner that allows offerors ample time to obtain and review the solicitation of offers before the closing date. The solicitation of offers documents announcing the conference must ",
+      "prev_section_id": "55f26929d77d::s012",
+      "next_section_id": "55f26929d77d::s014"
+    },
+    {
+      "section_id": "55f26929d77d::s014",
+      "parent_section_id": "55f26929d77d::s011",
+      "level": 4,
+      "heading": "During the conference",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Offerors' conference",
+        "During the conference"
+      ],
+      "block_count": 2,
+      "word_count": 43,
+      "char_count": 274,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 37,
+      "last_block_index": 38,
+      "preview": "During the conference As the chair of the conference, you are responsible for ensuring that the discussion remains on topic and that all questions are addressed. Clients are also expected to be present to answer any specific questions relat",
+      "prev_section_id": "55f26929d77d::s013",
+      "next_section_id": "55f26929d77d::s015"
+    },
+    {
+      "section_id": "55f26929d77d::s015",
+      "parent_section_id": "55f26929d77d::s011",
+      "level": 4,
+      "heading": "After the conference",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Offerors' conference",
+        "After the conference"
+      ],
+      "block_count": 2,
+      "word_count": 132,
+      "char_count": 873,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 39,
+      "last_block_index": 40,
+      "preview": "After the conference You must prepare and distribute the minutes of the conference to all attendees and to the offeror\u2019s who could not attend. This helps to maintain fairness and transparency. The document should include any clarifications ",
+      "prev_section_id": "55f26929d77d::s014",
+      "next_section_id": "55f26929d77d::s016"
+    },
+    {
+      "section_id": "55f26929d77d::s016",
+      "parent_section_id": "55f26929d77d::s003",
+      "level": 3,
+      "heading": "Site visits",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Site visits"
+      ],
+      "block_count": 11,
+      "word_count": 527,
+      "char_count": 3390,
+      "table_count": 0,
+      "list_count": 2,
+      "paragraph_count": 8,
+      "first_block_index": 41,
+      "last_block_index": 51,
+      "preview": "Site visits Site visits are organized gatherings at a work location, giving offerors the chance to view and assess aspects of the work that can't be fully described in documentation. These visits can be either optional or mandatory. When a ",
+      "prev_section_id": "55f26929d77d::s015",
+      "next_section_id": null
+    }
+  ],
+  "tables": [],
+  "blocks": [
+    {
+      "block_id": "55f26929d77d::b0001",
+      "section_id": "55f26929d77d::s001",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide Engage - Engage with businesses"
+      ],
+      "markdown": "# Buyer's Guide Engage - Engage with businesses",
+      "plain_text": "Buyer's Guide Engage - Engage with businesses"
+    },
+    {
+      "block_id": "55f26929d77d::b0002",
+      "section_id": "55f26929d77d::s002",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide"
+      ],
+      "markdown": "# Buyer's Guide",
+      "plain_text": "Buyer's Guide"
+    },
+    {
+      "block_id": "55f26929d77d::b0003",
+      "section_id": "55f26929d77d::s002",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide"
+      ],
+      "markdown": "- Plan\n- Approve\n- Create solicitation\n- Solicit\n- Receive and evaluate\n- Negotiate\n- Award\n- Manage",
+      "plain_text": "Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage"
+    },
+    {
+      "block_id": "55f26929d77d::b0004",
+      "section_id": "55f26929d77d::s002",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide"
+      ],
+      "markdown": "Engage with businesses Engaging with businesses is a crucial aspect of procurement activities. It facilitates a clear understanding of procedures and fosters a competitive and inclusive environment. Learn how you can effectively interact with businesses to enhance transparency, fairness, and innovation in procurement processes. Key principles for business engagement When engaging with businesses, you should adhere to the following principles to maintain the integrity and effectiveness of the procurement process. Clarity and transparency Ensure that all communications with businesses are clear and transparent, avoiding ambiguity and ensuring mutual understanding. Fairness Treat all potential offerors equally, providing them with the same information and opportunities to participate. Openness Be open to feedback and concerns from businesses, and be willing to clarify any aspects of the procurement process. Collaboration Encourage a collaborative approach, seeking to understand business capabilities and innovations that could benefit the procurement process. Price and availability enquiry You can use a price and availability (P&A) enquiry to gather information from businesses about specific goods or services. It serves as a foundational step for program planning or budgetary considerations by PSPC or its clients. You can direct P&A enquiries to select businesses or post them publicly on the Tender opportunities page. It is imperative that such enquiries clearly communicate that they are not solicitations of offers and do not commit to future purchases or contracts. Engaging using the POCP You should engage with the industry, including potential offerors in the context of the POCP . You should provide the following information about the POCP : its purpose and how it works the contemplation of its inclusion in upcoming solicitation of offers or requests for standing offers issues or concerns related to the process and how they will be addressed the final decision regarding the POCP 's inclusion in the solicitation documents. Offerors' conference Offerors' conferences serve a critical role in the procurement process, providing you with a platform to provide uniform information to all potential offerors. Review the essential procedures and guidelines for conducting these conferences effectively below. Key procedures and guidelines A conference must be held only when you deem it necessary for offerors to fully understand the proposed procurement. The conference's primary goal is to provide information and opportunities for offerors to ask questions about the project and the procurement process. The announcement of an offerors' conference will be clearly stated in the notice of proposed procurement and the solicitation of offers documents. The venue for the conference is typically the buyer's office that issues the solicitation of offers, or another location accessible to the public. This approach is preferred to eliminate the need for security clearances or government escorts, making it easier for all interested parties to attend. For a practical approach to widen participation You can adopt technical means such as: video conferencing teleconferencing webcasting Video or audio recordings can be made available to those unable to attend. To maintain control over the distribution of information do not allow personal recordings. While the offeror\u2019s conference is normally held as 1 meeting, the scope of the solicitation may dictate the need for a series of cross-country regional conferences. Note: Offeror\u2019s attendance is optional. Non-attendance at the offeror\u2019s conference is not a requirement to submit an offer. Before the conference You must schedule the conference in a manner that allows offerors ample time to obtain and review the solicitation of offers before the closing date. The solicitation of offers documents announcing the conference must include necessary instructions for attendance so potential offerors can prepare. These instructions should include: the location date time any required level of security clearance request the names of the representatives attending request for any issues they wish to discuss This is crucial for preparing a focused and effective agenda outlining elements to be discussed. During the conference As the chair of the conference, you are responsible for ensuring that the discussion remains on topic and that all questions are addressed. Clients are also expected to be present to answer any specific questions related to the procurement requirements. After the conference You must prepare and distribute the minutes of the conference to all attendees and to the offeror\u2019s who could not attend. This helps to maintain fairness and transparency. The document should include any clarifications or specification changes that may result in a change to the requirements. This distribution must be done promptly to allow offerors sufficient time to consider the information discussed when preparing their offers. For solicitations posted on the tender opportunities page, the minutes must also be made available there. Any clarifications or changes to the solicitation that arise from discussions at the conference must be formally included as amendments to the solicitation of offers. These amendments must be accessible on the tender opportunities page or directly to all offerors who have engaged with the solicitation documents. Site visits Site visits are organized gatherings at a work location, giving offerors the chance to view and assess aspects of the work that can't be fully described in documentation. These visits can be either optional or mandatory. When a visit is mandatory, it applies to all offerors, including those familiar with the site. You should carefully examine the requirement for a mandatory site visit and properly document it on the procurement file as part of the procurement planning stage. You should organize and coordinate these visits in close collaboration with the client. When scheduling a site visit, you must consider a date that will allow sufficient time for: offerors to review the solicitation documents offerors to obtain the required security clearance and for the Contract Security Program (CSP) to confirm that the offerors hold the required security clearance you to prepare and distribute minutes from the visit well before the offer submission deadline so offerors have sufficient time to adjust their offers if necessary Whenever there is a site visit requirement, in the notice of proposed procurement (NPP) and solicitation of offers you must : indicate the location, date and time state the optional or mandatory nature of the site visit For mandatory visits, specify that failure to attend will result in the offer being declared non-responsive For optional visits, specify non-attendance isn\u2019t required to submit an offer specify the level of clearance required (if the location requires that participants hold a valid security clearance) The requirement for a valid security clearance to access the site or sensitive information affects the scheduling of visits and may limit access for some offerors. In scenarios where security clearance is a barrier, you must explore alternatives. These alternatives include rescheduling the visit or providing escorted access if holding a security clearance for access to sensitive information or assets is not required to access the site. Prior to the site visit, you must ensure a Security Requirements Check List (SRCL) has been completed and submitted to the CSP . A Request for Private Sector Organization Screening (PSOS) and an Application for Registration (AFR) form (accessible only on the Government of Canada network) must also be submitted along with the SRCL to initiate the screening process of any offerors that are not already registered with the CSP . You can find additional information on how to initiate the provisional screening clearance for offerors requiring access to sensitive information in Security in solicitation of offers. You are responsible for confirming with the CSP that visiting offerors or their representatives possess the required security clearance This is a task typically managed by the offeror's security officer. Before the visit, you must request offerors provide, in writing, the names of the representatives who will attend the site visit and the issues they wish to discuss. Following the visit, you must update the solicitation documents with any changes in specifications, necessary amendments or clarifications resulting from the site visit discussions. Minutes from the visit, capturing essential details and clarifications, should also be shared, ensuring sensitive information is handled appropriately. These updates must be made accessible to all potential offerors.",
+      "plain_text": "Engage with businesses Engaging with businesses is a crucial aspect of procurement activities. It facilitates a clear understanding of procedures and fosters a competitive and inclusive environment. Learn how you can effectively interact with businesses to enhance transparency, fairness, and innovation in procurement processes. Key principles for business engagement When engaging with businesses, you should adhere to the following principles to maintain the integrity and effectiveness of the procurement process. Clarity and transparency Ensure that all communications with businesses are clear and transparent, avoiding ambiguity and ensuring mutual understanding. Fairness Treat all potential offerors equally, providing them with the same information and opportunities to participate. Openness Be open to feedback and concerns from businesses, and be willing to clarify any aspects of the procurement process. Collaboration Encourage a collaborative approach, seeking to understand business capabilities and innovations that could benefit the procurement process. Price and availability enquiry You can use a price and availability (P&A) enquiry to gather information from businesses about specific goods or services. It serves as a foundational step for program planning or budgetary considerations by PSPC or its clients. You can direct P&A enquiries to select businesses or post them publicly on the Tender opportunities page. It is imperative that such enquiries clearly communicate that they are not solicitations of offers and do not commit to future purchases or contracts. Engaging using the POCP You should engage with the industry, including potential offerors in the context of the POCP . You should provide the following information about the POCP : its purpose and how it works the contemplation of its inclusion in upcoming solicitation of offers or requests for standing offers issues or concerns related to the process and how they will be addressed the final decision regarding the POCP 's inclusion in the solicitation documents. Offerors' conference Offerors' conferences serve a critical role in the procurement process, providing you with a platform to provide uniform information to all potential offerors. Review the essential procedures and guidelines for conducting these conferences effectively below. Key procedures and guidelines A conference must be held only when you deem it necessary for offerors to fully understand the proposed procurement. The conference's primary goal is to provide information and opportunities for offerors to ask questions about the project and the procurement process. The announcement of an offerors' conference will be clearly stated in the notice of proposed procurement and the solicitation of offers documents. The venue for the conference is typically the buyer's office that issues the solicitation of offers, or another location accessible to the public. This approach is preferred to eliminate the need for security clearances or government escorts, making it easier for all interested parties to attend. For a practical approach to widen participation You can adopt technical means such as: video conferencing teleconferencing webcasting Video or audio recordings can be made available to those unable to attend. To maintain control over the distribution of information do not allow personal recordings. While the offeror\u2019s conference is normally held as 1 meeting, the scope of the solicitation may dictate the need for a series of cross-country regional conferences. Note: Offeror\u2019s attendance is optional. Non-attendance at the offeror\u2019s conference is not a requirement to submit an offer. Before the conference You must schedule the conference in a manner that allows offerors ample time to obtain and review the solicitation of offers before the closing date. The solicitation of offers documents announcing the conference must include necessary instructions for attendance so potential offerors can prepare. These instructions should include: the location date time any required level of security clearance request the names of the representatives attending request for any issues they wish to discuss This is crucial for preparing a focused and effective agenda outlining elements to be discussed. During the conference As the chair of the conference, you are responsible for ensuring that the discussion remains on topic and that all questions are addressed. Clients are also expected to be present to answer any specific questions related to the procurement requirements. After the conference You must prepare and distribute the minutes of the conference to all attendees and to the offeror\u2019s who could not attend. This helps to maintain fairness and transparency. The document should include any clarifications or specification changes that may result in a change to the requirements. This distribution must be done promptly to allow offerors sufficient time to consider the information discussed when preparing their offers. For solicitations posted on the tender opportunities page, the minutes must also be made available there. Any clarifications or changes to the solicitation that arise from discussions at the conference must be formally included as amendments to the solicitation of offers. These amendments must be accessible on the tender opportunities page or directly to all offerors who have engaged with the solicitation documents. Site visits Site visits are organized gatherings at a work location, giving offerors the chance to view and assess aspects of the work that can't be fully described in documentation. These visits can be either optional or mandatory. When a visit is mandatory, it applies to all offerors, including those familiar with the site. You should carefully examine the requirement for a mandatory site visit and properly document it on the procurement file as part of the procurement planning stage. You should organize and coordinate these visits in close collaboration with the client. When scheduling a site visit, you must consider a date that will allow sufficient time for: offerors to review the solicitation documents offerors to obtain the required security clearance and for the Contract Security Program (CSP) to confirm that the offerors hold the required security clearance you to prepare and distribute minutes from the visit well before the offer submission deadline so offerors have sufficient time to adjust their offers if necessary Whenever there is a site visit requirement, in the notice of proposed procurement (NPP) and solicitation of offers you must : indicate the location, date and time state the optional or mandatory nature of the site visit For mandatory visits, specify that failure to attend will result in the offer being declared non-responsive For optional visits, specify non-attendance isn\u2019t required to submit an offer specify the level of clearance required (if the location requires that participants hold a valid security clearance) The requirement for a valid security clearance to access the site or sensitive information affects the scheduling of visits and may limit access for some offerors. In scenarios where security clearance is a barrier, you must explore alternatives. These alternatives include rescheduling the visit or providing escorted access if holding a security clearance for access to sensitive information or assets is not required to access the site. Prior to the site visit, you must ensure a Security Requirements Check List (SRCL) has been completed and submitted to the CSP . A Request for Private Sector Organization Screening (PSOS) and an Application for Registration (AFR) form (accessible only on the Government of Canada network) must also be submitted along with the SRCL to initiate the screening process of any offerors that are not already registered with the CSP . You can find additional information on how to initiate the provisional screening clearance for offerors requiring access to sensitive information in Security in solicitation of offers. You are responsible for confirming with the CSP that visiting offerors or their representatives possess the required security clearance This is a task typically managed by the offeror's security officer. Before the visit, you must request offerors provide, in writing, the names of the representatives who will attend the site visit and the issues they wish to discuss. Following the visit, you must update the solicitation documents with any changes in specifications, necessary amendments or clarifications resulting from the site visit discussions. Minutes from the visit, capturing essential details and clarifications, should also be shared, ensuring sensitive information is handled appropriately. These updates must be made accessible to all potential offerors."
+    },
+    {
+      "block_id": "55f26929d77d::b0005",
+      "section_id": "55f26929d77d::s003",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses"
+      ],
+      "markdown": "## Engage with businesses",
+      "plain_text": "Engage with businesses"
+    },
+    {
+      "block_id": "55f26929d77d::b0006",
+      "section_id": "55f26929d77d::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses"
+      ],
+      "markdown": "Engaging with businesses is a crucial aspect of procurement activities. It facilitates a clear understanding of procedures and fosters a competitive and inclusive environment. Learn how you can effectively interact with businesses to enhance transparency, fairness, and innovation in procurement processes.",
+      "plain_text": "Engaging with businesses is a crucial aspect of procurement activities. It facilitates a clear understanding of procedures and fosters a competitive and inclusive environment. Learn how you can effectively interact with businesses to enhance transparency, fairness, and innovation in procurement processes."
+    },
+    {
+      "block_id": "55f26929d77d::b0007",
+      "section_id": "55f26929d77d::s004",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Key principles for business engagement"
+      ],
+      "markdown": "### Key principles for business engagement",
+      "plain_text": "Key principles for business engagement"
+    },
+    {
+      "block_id": "55f26929d77d::b0008",
+      "section_id": "55f26929d77d::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Key principles for business engagement"
+      ],
+      "markdown": "When engaging with businesses, you should adhere to the following principles to maintain the integrity and effectiveness of the procurement process.",
+      "plain_text": "When engaging with businesses, you should adhere to the following principles to maintain the integrity and effectiveness of the procurement process."
+    },
+    {
+      "block_id": "55f26929d77d::b0009",
+      "section_id": "55f26929d77d::s005",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Key principles for business engagement",
+        "Clarity and transparency"
+      ],
+      "markdown": "#### Clarity and transparency",
+      "plain_text": "Clarity and transparency"
+    },
+    {
+      "block_id": "55f26929d77d::b0010",
+      "section_id": "55f26929d77d::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Key principles for business engagement",
+        "Clarity and transparency"
+      ],
+      "markdown": "Ensure that all communications with businesses are clear and transparent, avoiding ambiguity and ensuring mutual understanding.",
+      "plain_text": "Ensure that all communications with businesses are clear and transparent, avoiding ambiguity and ensuring mutual understanding."
+    },
+    {
+      "block_id": "55f26929d77d::b0011",
+      "section_id": "55f26929d77d::s006",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Key principles for business engagement",
+        "Fairness"
+      ],
+      "markdown": "#### Fairness",
+      "plain_text": "Fairness"
+    },
+    {
+      "block_id": "55f26929d77d::b0012",
+      "section_id": "55f26929d77d::s006",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Key principles for business engagement",
+        "Fairness"
+      ],
+      "markdown": "Treat all potential offerors equally, providing them with the same information and opportunities to participate.",
+      "plain_text": "Treat all potential offerors equally, providing them with the same information and opportunities to participate."
+    },
+    {
+      "block_id": "55f26929d77d::b0013",
+      "section_id": "55f26929d77d::s007",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Key principles for business engagement",
+        "Openness"
+      ],
+      "markdown": "#### Openness",
+      "plain_text": "Openness"
+    },
+    {
+      "block_id": "55f26929d77d::b0014",
+      "section_id": "55f26929d77d::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Key principles for business engagement",
+        "Openness"
+      ],
+      "markdown": "Be open to feedback and concerns from businesses, and be willing to clarify any aspects of the procurement process.",
+      "plain_text": "Be open to feedback and concerns from businesses, and be willing to clarify any aspects of the procurement process."
+    },
+    {
+      "block_id": "55f26929d77d::b0015",
+      "section_id": "55f26929d77d::s008",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Key principles for business engagement",
+        "Collaboration"
+      ],
+      "markdown": "#### Collaboration",
+      "plain_text": "Collaboration"
+    },
+    {
+      "block_id": "55f26929d77d::b0016",
+      "section_id": "55f26929d77d::s008",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Key principles for business engagement",
+        "Collaboration"
+      ],
+      "markdown": "Encourage a collaborative approach, seeking to understand business capabilities and innovations that could benefit the procurement process.",
+      "plain_text": "Encourage a collaborative approach, seeking to understand business capabilities and innovations that could benefit the procurement process."
+    },
+    {
+      "block_id": "55f26929d77d::b0017",
+      "section_id": "55f26929d77d::s009",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Price and availability enquiry"
+      ],
+      "markdown": "### Price and availability enquiry",
+      "plain_text": "Price and availability enquiry"
+    },
+    {
+      "block_id": "55f26929d77d::b0018",
+      "section_id": "55f26929d77d::s009",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Price and availability enquiry"
+      ],
+      "markdown": "You can use a price and availability (P&A) enquiry to gather information from businesses about specific goods or services. It serves as a foundational step for program planning or budgetary considerations by PSPC or its clients. You can direct P&A enquiries to select businesses or post them publicly on the Tender opportunities page. It is imperative that such enquiries clearly communicate that they are not solicitations of offers and do not commit to future purchases or contracts.",
+      "plain_text": "You can use a price and availability (P&A) enquiry to gather information from businesses about specific goods or services. It serves as a foundational step for program planning or budgetary considerations by PSPC or its clients. You can direct P&A enquiries to select businesses or post them publicly on the Tender opportunities page. It is imperative that such enquiries clearly communicate that they are not solicitations of offers and do not commit to future purchases or contracts."
+    },
+    {
+      "block_id": "55f26929d77d::b0019",
+      "section_id": "55f26929d77d::s010",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Engaging using the POCP"
+      ],
+      "markdown": "### Engaging using the POCP",
+      "plain_text": "Engaging using the POCP"
+    },
+    {
+      "block_id": "55f26929d77d::b0020",
+      "section_id": "55f26929d77d::s010",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Engaging using the POCP"
+      ],
+      "markdown": "You should engage with the industry, including potential offerors in the context of the POCP .",
+      "plain_text": "You should engage with the industry, including potential offerors in the context of the POCP ."
+    },
+    {
+      "block_id": "55f26929d77d::b0021",
+      "section_id": "55f26929d77d::s010",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Engaging using the POCP"
+      ],
+      "markdown": "You should provide the following information about the POCP :",
+      "plain_text": "You should provide the following information about the POCP :"
+    },
+    {
+      "block_id": "55f26929d77d::b0022",
+      "section_id": "55f26929d77d::s010",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Engaging using the POCP"
+      ],
+      "markdown": "- its purpose and how it works\n- the contemplation of its inclusion in upcoming solicitation of offers or requests for standing offers\n- issues or concerns related to the process and how they will be addressed\n- the final decision regarding the POCP 's inclusion in the solicitation documents.",
+      "plain_text": "its purpose and how it works ; the contemplation of its inclusion in upcoming solicitation of offers or requests for standing offers ; issues or concerns related to the process and how they will be addressed ; the final decision regarding the POCP 's inclusion in the solicitation documents."
+    },
+    {
+      "block_id": "55f26929d77d::b0023",
+      "section_id": "55f26929d77d::s011",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Offerors' conference"
+      ],
+      "markdown": "### Offerors' conference",
+      "plain_text": "Offerors' conference"
+    },
+    {
+      "block_id": "55f26929d77d::b0024",
+      "section_id": "55f26929d77d::s011",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Offerors' conference"
+      ],
+      "markdown": "Offerors' conferences serve a critical role in the procurement process, providing you with a platform to provide uniform information to all potential offerors. Review the essential procedures and guidelines for conducting these conferences effectively below.",
+      "plain_text": "Offerors' conferences serve a critical role in the procurement process, providing you with a platform to provide uniform information to all potential offerors. Review the essential procedures and guidelines for conducting these conferences effectively below."
+    },
+    {
+      "block_id": "55f26929d77d::b0025",
+      "section_id": "55f26929d77d::s012",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Offerors' conference",
+        "Key procedures and guidelines"
+      ],
+      "markdown": "#### Key procedures and guidelines",
+      "plain_text": "Key procedures and guidelines"
+    },
+    {
+      "block_id": "55f26929d77d::b0026",
+      "section_id": "55f26929d77d::s012",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Offerors' conference",
+        "Key procedures and guidelines"
+      ],
+      "markdown": "A conference must be held only when you deem it necessary for offerors to fully understand the proposed procurement. The conference's primary goal is to provide information and opportunities for offerors to ask questions about the project and the procurement process.",
+      "plain_text": "A conference must be held only when you deem it necessary for offerors to fully understand the proposed procurement. The conference's primary goal is to provide information and opportunities for offerors to ask questions about the project and the procurement process."
+    },
+    {
+      "block_id": "55f26929d77d::b0027",
+      "section_id": "55f26929d77d::s012",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Offerors' conference",
+        "Key procedures and guidelines"
+      ],
+      "markdown": "The announcement of an offerors' conference will be clearly stated in the notice of proposed procurement and the solicitation of offers documents.",
+      "plain_text": "The announcement of an offerors' conference will be clearly stated in the notice of proposed procurement and the solicitation of offers documents."
+    },
+    {
+      "block_id": "55f26929d77d::b0028",
+      "section_id": "55f26929d77d::s012",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Offerors' conference",
+        "Key procedures and guidelines"
+      ],
+      "markdown": "The venue for the conference is typically the buyer's office that issues the solicitation of offers, or another location accessible to the public. This approach is preferred to eliminate the need for security clearances or government escorts, making it easier for all interested parties to attend. For a practical approach to widen participation",
+      "plain_text": "The venue for the conference is typically the buyer's office that issues the solicitation of offers, or another location accessible to the public. This approach is preferred to eliminate the need for security clearances or government escorts, making it easier for all interested parties to attend. For a practical approach to widen participation"
+    },
+    {
+      "block_id": "55f26929d77d::b0029",
+      "section_id": "55f26929d77d::s012",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Offerors' conference",
+        "Key procedures and guidelines"
+      ],
+      "markdown": "You can adopt technical means such as:",
+      "plain_text": "You can adopt technical means such as:"
+    },
+    {
+      "block_id": "55f26929d77d::b0030",
+      "section_id": "55f26929d77d::s012",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Offerors' conference",
+        "Key procedures and guidelines"
+      ],
+      "markdown": "- video conferencing\n- teleconferencing\n- webcasting",
+      "plain_text": "video conferencing ; teleconferencing ; webcasting"
+    },
+    {
+      "block_id": "55f26929d77d::b0031",
+      "section_id": "55f26929d77d::s012",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Offerors' conference",
+        "Key procedures and guidelines"
+      ],
+      "markdown": "Video or audio recordings can be made available to those unable to attend. To maintain control over the distribution of information do not allow personal recordings.",
+      "plain_text": "Video or audio recordings can be made available to those unable to attend. To maintain control over the distribution of information do not allow personal recordings."
+    },
+    {
+      "block_id": "55f26929d77d::b0032",
+      "section_id": "55f26929d77d::s012",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Offerors' conference",
+        "Key procedures and guidelines"
+      ],
+      "markdown": "While the offeror\u2019s conference is normally held as 1 meeting, the scope of the solicitation may dictate the need for a series of cross-country regional conferences.",
+      "plain_text": "While the offeror\u2019s conference is normally held as 1 meeting, the scope of the solicitation may dictate the need for a series of cross-country regional conferences."
+    },
+    {
+      "block_id": "55f26929d77d::b0033",
+      "section_id": "55f26929d77d::s012",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Offerors' conference",
+        "Key procedures and guidelines"
+      ],
+      "markdown": "Note: Offeror\u2019s attendance is optional. Non-attendance at the offeror\u2019s conference is not a requirement to submit an offer.",
+      "plain_text": "Note: Offeror\u2019s attendance is optional. Non-attendance at the offeror\u2019s conference is not a requirement to submit an offer."
+    },
+    {
+      "block_id": "55f26929d77d::b0034",
+      "section_id": "55f26929d77d::s013",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Offerors' conference",
+        "Before the conference"
+      ],
+      "markdown": "#### Before the conference",
+      "plain_text": "Before the conference"
+    },
+    {
+      "block_id": "55f26929d77d::b0035",
+      "section_id": "55f26929d77d::s013",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Offerors' conference",
+        "Before the conference"
+      ],
+      "markdown": "You must schedule the conference in a manner that allows offerors ample time to obtain and review the solicitation of offers before the closing date. The solicitation of offers documents announcing the conference must include necessary instructions for attendance so potential offerors can prepare. These instructions should include:",
+      "plain_text": "You must schedule the conference in a manner that allows offerors ample time to obtain and review the solicitation of offers before the closing date. The solicitation of offers documents announcing the conference must include necessary instructions for attendance so potential offerors can prepare. These instructions should include:"
+    },
+    {
+      "block_id": "55f26929d77d::b0036",
+      "section_id": "55f26929d77d::s013",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Offerors' conference",
+        "Before the conference"
+      ],
+      "markdown": "- the location\n- date\n- time\n- any required level of security clearance\n- request the names of the representatives attending\n- request for any issues they wish to discuss",
+      "plain_text": "the location ; date ; time ; any required level of security clearance ; request the names of the representatives attending ; request for any issues they wish to discuss"
+    },
+    {
+      "block_id": "55f26929d77d::b0037",
+      "section_id": "55f26929d77d::s013",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Offerors' conference",
+        "Before the conference"
+      ],
+      "markdown": "This is crucial for preparing a focused and effective agenda outlining elements to be discussed.",
+      "plain_text": "This is crucial for preparing a focused and effective agenda outlining elements to be discussed."
+    },
+    {
+      "block_id": "55f26929d77d::b0038",
+      "section_id": "55f26929d77d::s014",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Offerors' conference",
+        "During the conference"
+      ],
+      "markdown": "#### During the conference",
+      "plain_text": "During the conference"
+    },
+    {
+      "block_id": "55f26929d77d::b0039",
+      "section_id": "55f26929d77d::s014",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Offerors' conference",
+        "During the conference"
+      ],
+      "markdown": "As the chair of the conference, you are responsible for ensuring that the discussion remains on topic and that all questions are addressed. Clients are also expected to be present to answer any specific questions related to the procurement requirements.",
+      "plain_text": "As the chair of the conference, you are responsible for ensuring that the discussion remains on topic and that all questions are addressed. Clients are also expected to be present to answer any specific questions related to the procurement requirements."
+    },
+    {
+      "block_id": "55f26929d77d::b0040",
+      "section_id": "55f26929d77d::s015",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Offerors' conference",
+        "After the conference"
+      ],
+      "markdown": "#### After the conference",
+      "plain_text": "After the conference"
+    },
+    {
+      "block_id": "55f26929d77d::b0041",
+      "section_id": "55f26929d77d::s015",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Offerors' conference",
+        "After the conference"
+      ],
+      "markdown": "You must prepare and distribute the minutes of the conference to all attendees and to the offeror\u2019s who could not attend. This helps to maintain fairness and transparency. The document should include any clarifications or specification changes that may result in a change to the requirements. This distribution must be done promptly to allow offerors sufficient time to consider the information discussed when preparing their offers. For solicitations posted on the tender opportunities page, the minutes must also be made available there. Any clarifications or changes to the solicitation that arise from discussions at the conference must be formally included as amendments to the solicitation of offers. These amendments must be accessible on the tender opportunities page or directly to all offerors who have engaged with the solicitation documents.",
+      "plain_text": "You must prepare and distribute the minutes of the conference to all attendees and to the offeror\u2019s who could not attend. This helps to maintain fairness and transparency. The document should include any clarifications or specification changes that may result in a change to the requirements. This distribution must be done promptly to allow offerors sufficient time to consider the information discussed when preparing their offers. For solicitations posted on the tender opportunities page, the minutes must also be made available there. Any clarifications or changes to the solicitation that arise from discussions at the conference must be formally included as amendments to the solicitation of offers. These amendments must be accessible on the tender opportunities page or directly to all offerors who have engaged with the solicitation documents."
+    },
+    {
+      "block_id": "55f26929d77d::b0042",
+      "section_id": "55f26929d77d::s016",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Site visits"
+      ],
+      "markdown": "### Site visits",
+      "plain_text": "Site visits"
+    },
+    {
+      "block_id": "55f26929d77d::b0043",
+      "section_id": "55f26929d77d::s016",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Site visits"
+      ],
+      "markdown": "Site visits are organized gatherings at a work location, giving offerors the chance to view and assess aspects of the work that can't be fully described in documentation. These visits can be either optional or mandatory. When a visit is mandatory, it applies to all offerors, including those familiar with the site.",
+      "plain_text": "Site visits are organized gatherings at a work location, giving offerors the chance to view and assess aspects of the work that can't be fully described in documentation. These visits can be either optional or mandatory. When a visit is mandatory, it applies to all offerors, including those familiar with the site."
+    },
+    {
+      "block_id": "55f26929d77d::b0044",
+      "section_id": "55f26929d77d::s016",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Site visits"
+      ],
+      "markdown": "You should carefully examine the requirement for a mandatory site visit and properly document it on the procurement file as part of the procurement planning stage. You should organize and coordinate these visits in close collaboration with the client.",
+      "plain_text": "You should carefully examine the requirement for a mandatory site visit and properly document it on the procurement file as part of the procurement planning stage. You should organize and coordinate these visits in close collaboration with the client."
+    },
+    {
+      "block_id": "55f26929d77d::b0045",
+      "section_id": "55f26929d77d::s016",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Site visits"
+      ],
+      "markdown": "When scheduling a site visit, you must consider a date that will allow sufficient time for:",
+      "plain_text": "When scheduling a site visit, you must consider a date that will allow sufficient time for:"
+    },
+    {
+      "block_id": "55f26929d77d::b0046",
+      "section_id": "55f26929d77d::s016",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Site visits"
+      ],
+      "markdown": "- offerors to review the solicitation documents\n- offerors to obtain the required security clearance and for the Contract Security Program (CSP) to confirm that the offerors hold the required security clearance\n- you to prepare and distribute minutes from the visit well before the offer submission deadline so offerors have sufficient time to adjust their offers if necessary",
+      "plain_text": "offerors to review the solicitation documents ; offerors to obtain the required security clearance and for the Contract Security Program (CSP) to confirm that the offerors hold the required security clearance ; you to prepare and distribute minutes from the visit well before the offer submission deadline so offerors have sufficient time to adjust their offers if necessary"
+    },
+    {
+      "block_id": "55f26929d77d::b0047",
+      "section_id": "55f26929d77d::s016",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Site visits"
+      ],
+      "markdown": "Whenever there is a site visit requirement, in the notice of proposed procurement (NPP) and solicitation of offers you must :",
+      "plain_text": "Whenever there is a site visit requirement, in the notice of proposed procurement (NPP) and solicitation of offers you must :"
+    },
+    {
+      "block_id": "55f26929d77d::b0048",
+      "section_id": "55f26929d77d::s016",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Site visits"
+      ],
+      "markdown": "- indicate the location, date and time\n- state the optional or mandatory nature of the site visit\n- For mandatory visits, specify that failure to attend will result in the offer being declared non-responsive\n- For optional visits, specify non-attendance isn\u2019t required to submit an offer\n- specify the level of clearance required (if the location requires that participants hold a valid security clearance)",
+      "plain_text": "indicate the location, date and time ; state the optional or mandatory nature of the site visit ; For mandatory visits, specify that failure to attend will result in the offer being declared non-responsive ; For optional visits, specify non-attendance isn\u2019t required to submit an offer ; specify the level of clearance required (if the location requires that participants hold a valid security clearance)"
+    },
+    {
+      "block_id": "55f26929d77d::b0049",
+      "section_id": "55f26929d77d::s016",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Site visits"
+      ],
+      "markdown": "The requirement for a valid security clearance to access the site or sensitive information affects the scheduling of visits and may limit access for some offerors. In scenarios where security clearance is a barrier, you must explore alternatives. These alternatives include rescheduling the visit or providing escorted access if holding a security clearance for access to sensitive information or assets is not required to access the site.",
+      "plain_text": "The requirement for a valid security clearance to access the site or sensitive information affects the scheduling of visits and may limit access for some offerors. In scenarios where security clearance is a barrier, you must explore alternatives. These alternatives include rescheduling the visit or providing escorted access if holding a security clearance for access to sensitive information or assets is not required to access the site."
+    },
+    {
+      "block_id": "55f26929d77d::b0050",
+      "section_id": "55f26929d77d::s016",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Site visits"
+      ],
+      "markdown": "Prior to the site visit, you must ensure a Security Requirements Check List (SRCL) has been completed and submitted to the CSP . A Request for Private Sector Organization Screening (PSOS) and an Application for Registration (AFR) form (accessible only on the Government of Canada network) must also be submitted along with the SRCL to initiate the screening process of any offerors that are not already registered with the CSP . You can find additional information on how to initiate the provisional screening clearance for offerors requiring access to sensitive information in Security in solicitation of offers.",
+      "plain_text": "Prior to the site visit, you must ensure a Security Requirements Check List (SRCL) has been completed and submitted to the CSP . A Request for Private Sector Organization Screening (PSOS) and an Application for Registration (AFR) form (accessible only on the Government of Canada network) must also be submitted along with the SRCL to initiate the screening process of any offerors that are not already registered with the CSP . You can find additional information on how to initiate the provisional screening clearance for offerors requiring access to sensitive information in Security in solicitation of offers."
+    },
+    {
+      "block_id": "55f26929d77d::b0051",
+      "section_id": "55f26929d77d::s016",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Site visits"
+      ],
+      "markdown": "You are responsible for confirming with the CSP that visiting offerors or their representatives possess the required security clearance This is a task typically managed by the offeror's security officer. Before the visit, you must request offerors provide, in writing, the names of the representatives who will attend the site visit and the issues they wish to discuss.",
+      "plain_text": "You are responsible for confirming with the CSP that visiting offerors or their representatives possess the required security clearance This is a task typically managed by the offeror's security officer. Before the visit, you must request offerors provide, in writing, the names of the representatives who will attend the site visit and the issues they wish to discuss."
+    },
+    {
+      "block_id": "55f26929d77d::b0052",
+      "section_id": "55f26929d77d::s016",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with businesses",
+        "Buyer's Guide",
+        "Engage with businesses",
+        "Site visits"
+      ],
+      "markdown": "Following the visit, you must update the solicitation documents with any changes in specifications, necessary amendments or clarifications resulting from the site visit discussions. Minutes from the visit, capturing essential details and clarifications, should also be shared, ensuring sensitive information is handled appropriately. These updates must be made accessible to all potential offerors.",
+      "plain_text": "Following the visit, you must update the solicitation documents with any changes in specifications, necessary amendments or clarifications resulting from the site visit discussions. Minutes from the visit, capturing essential details and clarifications, should also be shared, ensuring sensitive information is handled appropriately. These updates must be made accessible to all potential offerors."
+    }
+  ]
+}

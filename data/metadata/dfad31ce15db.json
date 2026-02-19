@@ -1,0 +1,336 @@
+{
+  "doc_id": "dfad31ce15db",
+  "title": "Buyer's Guide Manage payments - Final payments",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/final-payments",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/final-payments",
+  "doc_type": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": "2026-01-31",
+  "fetched_at": "2026-02-19T09:19:48.167325+00:00",
+  "content_hash": "d2c5f61a6553a54c11545997afeba6fc9f6ce3aba795a8164d7cb7ad7095ea4c",
+  "word_count": 105,
+  "text_path": "data/corpus/buyers_guide__en-buyer-s-portal-buyer-s-guide-manage-manage-payments-final-payments__dfad31ce15.md",
+  "extraction_method": "buyers_guide_regions",
+  "breadcrumbs": [
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "https://canadabuys.canada.ca/en",
+      "canonical_url": "https://canadabuys.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "in_scope": true
+    },
+    {
+      "title": "Manage payments",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments",
+      "in_scope": true
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments",
+    "parent_doc_id": "50e41986f614",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/final-payments"
+    ],
+    "lineage_doc_ids": [
+      "1e29c7881335",
+      "50e41986f614",
+      "dfad31ce15db"
+    ],
+    "depth": 2,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/best-practices-contract-close-out",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/contract-close-out-activities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/alternative-dispute-resolution",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/assignment-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/buyer-and-client-responsibilites",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/certifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/contract-dispute-resolution",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/employer-employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/integrity-provisions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/protecting-canada-s-interests",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/subcontracting",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/task-authorizations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/vendor-performance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/assignment-monies",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/claims-progress-payments-and-invoicing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/cost-reimbursable-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/exchange-rate-fluctuation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/financial-claims",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/fixed-time-rate-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/interest-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/overtime",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/refund-excess-profits",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/administrative-guidance-implementing-contract-modifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/considerations-when-making-amendments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/design-change-or-deviation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/exercise-options",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/procedural-elements-amending-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/revisions-standing-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/approval-authority",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/legal-services",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/public-services-and-procurement-canada-offices-outside-canada",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/source-lists",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/suspension-work-and-stop-work-orders",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-contracts-financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-convenience",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-default",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-mutual-consent"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/best-practices-contract-close-out",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/contract-close-out-activities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/alternative-dispute-resolution",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/assignment-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/buyer-and-client-responsibilites",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/certifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/contract-dispute-resolution",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/employer-employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/integrity-provisions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/protecting-canada-s-interests",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/subcontracting",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/task-authorizations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/vendor-performance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/assignment-monies",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/claims-progress-payments-and-invoicing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/cost-reimbursable-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/exchange-rate-fluctuation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/financial-claims",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/fixed-time-rate-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/interest-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/overtime",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/refund-excess-profits",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/administrative-guidance-implementing-contract-modifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/considerations-when-making-amendments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/design-change-or-deviation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/exercise-options",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/procedural-elements-amending-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/revisions-standing-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/approval-authority",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/legal-services",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/public-services-and-procurement-canada-offices-outside-canada",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/source-lists",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/suspension-work-and-stop-work-orders",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-contracts-financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-convenience",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-default",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-mutual-consent",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure": {
+    "block_count": 6,
+    "section_count": 4,
+    "heading_count": 3,
+    "paragraph_count": 2,
+    "list_count": 1,
+    "table_count": 0
+  },
+  "sections": [
+    {
+      "section_id": "dfad31ce15db::root",
+      "parent_section_id": null,
+      "level": 0,
+      "heading": "Buyer's Guide Manage payments - Final payments",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Final payments"
+      ],
+      "block_count": 0,
+      "word_count": 0,
+      "char_count": 0,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": null,
+      "last_block_index": null,
+      "preview": "",
+      "prev_section_id": null,
+      "next_section_id": null
+    },
+    {
+      "section_id": "dfad31ce15db::s001",
+      "parent_section_id": "dfad31ce15db::root",
+      "level": 1,
+      "heading": "Buyer's Guide Manage payments - Final payments",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Final payments",
+        "Buyer's Guide Manage payments - Final payments"
+      ],
+      "block_count": 1,
+      "word_count": 7,
+      "char_count": 46,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 0,
+      "last_block_index": 0,
+      "preview": "Buyer's Guide Manage payments - Final payments",
+      "prev_section_id": null,
+      "next_section_id": "dfad31ce15db::s002"
+    },
+    {
+      "section_id": "dfad31ce15db::s002",
+      "parent_section_id": "dfad31ce15db::root",
+      "level": 1,
+      "heading": "Buyer's Guide",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Final payments",
+        "Buyer's Guide"
+      ],
+      "block_count": 2,
+      "word_count": 20,
+      "char_count": 111,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 0,
+      "first_block_index": 1,
+      "last_block_index": 2,
+      "preview": "Buyer's Guide Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage",
+      "prev_section_id": "dfad31ce15db::s001",
+      "next_section_id": "dfad31ce15db::s003"
+    },
+    {
+      "section_id": "dfad31ce15db::s003",
+      "parent_section_id": "dfad31ce15db::s002",
+      "level": 2,
+      "heading": "Final payments",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Final payments",
+        "Buyer's Guide",
+        "Final payments"
+      ],
+      "block_count": 3,
+      "word_count": 78,
+      "char_count": 531,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 2,
+      "first_block_index": 3,
+      "last_block_index": 5,
+      "preview": "Final payments The total time charged under a fixed-rate contract should be verified for acceptability and accuracy before processing the final claim for payment. Findings should be documented in the procurement file. As the buyer, you or a",
+      "prev_section_id": "dfad31ce15db::s002",
+      "next_section_id": null
+    }
+  ],
+  "tables": [],
+  "blocks": [
+    {
+      "block_id": "dfad31ce15db::b0001",
+      "section_id": "dfad31ce15db::s001",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Final payments",
+        "Buyer's Guide Manage payments - Final payments"
+      ],
+      "markdown": "# Buyer's Guide Manage payments - Final payments",
+      "plain_text": "Buyer's Guide Manage payments - Final payments"
+    },
+    {
+      "block_id": "dfad31ce15db::b0002",
+      "section_id": "dfad31ce15db::s002",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Final payments",
+        "Buyer's Guide"
+      ],
+      "markdown": "# Buyer's Guide",
+      "plain_text": "Buyer's Guide"
+    },
+    {
+      "block_id": "dfad31ce15db::b0003",
+      "section_id": "dfad31ce15db::s002",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Final payments",
+        "Buyer's Guide"
+      ],
+      "markdown": "- Plan\n- Approve\n- Create solicitation\n- Solicit\n- Receive and evaluate\n- Negotiate\n- Award\n- Manage",
+      "plain_text": "Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage"
+    },
+    {
+      "block_id": "dfad31ce15db::b0004",
+      "section_id": "dfad31ce15db::s003",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Final payments",
+        "Buyer's Guide",
+        "Final payments"
+      ],
+      "markdown": "## Final payments",
+      "plain_text": "Final payments"
+    },
+    {
+      "block_id": "dfad31ce15db::b0005",
+      "section_id": "dfad31ce15db::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Final payments",
+        "Buyer's Guide",
+        "Final payments"
+      ],
+      "markdown": "The total time charged under a fixed-rate contract should be verified for acceptability and accuracy before processing the final claim for payment. Findings should be documented in the procurement file.",
+      "plain_text": "The total time charged under a fixed-rate contract should be verified for acceptability and accuracy before processing the final claim for payment. Findings should be documented in the procurement file."
+    },
+    {
+      "block_id": "dfad31ce15db::b0006",
+      "section_id": "dfad31ce15db::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Final payments",
+        "Buyer's Guide",
+        "Final payments"
+      ],
+      "markdown": "As the buyer, you or a designated qualified personnel from the relevant sector or region should verify the acceptability of the time charged. Personnel from the financial division or another approved qualified individual should ensure the accuracy of recording, following verification standards set by the director.",
+      "plain_text": "As the buyer, you or a designated qualified personnel from the relevant sector or region should verify the acceptability of the time charged. Personnel from the financial division or another approved qualified individual should ensure the accuracy of recording, following verification standards set by the director."
+    }
+  ]
+}

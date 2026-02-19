@@ -1,0 +1,1396 @@
+{
+  "doc_id": "e8c6848e7466",
+  "title": "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/special-cost-considerations",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/special-cost-considerations",
+  "doc_type": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": "2026-01-31",
+  "fetched_at": "2026-02-19T09:19:06.952660+00:00",
+  "content_hash": "e73a1ef5af0092b4f93e7a65b1baaa2de2c13ea5c39a78f16819485dd6c2516c",
+  "word_count": 3559,
+  "text_path": "data/corpus/buyers_guide__en-buyer-s-portal-buyer-s-guide-negotiate-cost-and-profit-negotiations-special-cost-considerations__e8c6848e74.md",
+  "extraction_method": "buyers_guide_regions",
+  "breadcrumbs": [
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "https://canadabuys.canada.ca/en",
+      "canonical_url": "https://canadabuys.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "in_scope": true
+    },
+    {
+      "title": "Cost and profit negotiations",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations",
+      "in_scope": true
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations",
+    "parent_doc_id": "46720e2d4953",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/special-cost-considerations"
+    ],
+    "lineage_doc_ids": [
+      "1e29c7881335",
+      "46720e2d4953",
+      "e8c6848e7466"
+    ],
+    "depth": 2,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation/how-negotiate",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation/negotiation-services-hub",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation/when-negotiate",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/alternative-pricing-strategies",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/analyze-and-negotiate-costs",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/analyze-and-negotiate-profit",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/contact-cost-analyst-group",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/getting-started-cost-and-profit-negotiations"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation/how-negotiate",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation/negotiation-services-hub",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation/when-negotiate",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/alternative-pricing-strategies",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/analyze-and-negotiate-costs",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/analyze-and-negotiate-profit",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/contact-cost-analyst-group",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/getting-started-cost-and-profit-negotiations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure": {
+    "block_count": 64,
+    "section_count": 16,
+    "heading_count": 15,
+    "paragraph_count": 33,
+    "list_count": 14,
+    "table_count": 2
+  },
+  "sections": [
+    {
+      "section_id": "e8c6848e7466::root",
+      "parent_section_id": null,
+      "level": 0,
+      "heading": "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations"
+      ],
+      "block_count": 0,
+      "word_count": 0,
+      "char_count": 0,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": null,
+      "last_block_index": null,
+      "preview": "",
+      "prev_section_id": null,
+      "next_section_id": null
+    },
+    {
+      "section_id": "e8c6848e7466::s001",
+      "parent_section_id": "e8c6848e7466::root",
+      "level": 1,
+      "heading": "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations"
+      ],
+      "block_count": 1,
+      "word_count": 10,
+      "char_count": 72,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 0,
+      "last_block_index": 0,
+      "preview": "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+      "prev_section_id": null,
+      "next_section_id": "e8c6848e7466::s002"
+    },
+    {
+      "section_id": "e8c6848e7466::s002",
+      "parent_section_id": "e8c6848e7466::root",
+      "level": 1,
+      "heading": "Buyer's Guide",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide"
+      ],
+      "block_count": 3,
+      "word_count": 1740,
+      "char_count": 11627,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 1,
+      "last_block_index": 3,
+      "preview": "Buyer's Guide Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage Special cost considerations This section will help you to consider costs according to the following special cost considerations",
+      "prev_section_id": "e8c6848e7466::s001",
+      "next_section_id": "e8c6848e7466::s003"
+    },
+    {
+      "section_id": "e8c6848e7466::s003",
+      "parent_section_id": "e8c6848e7466::s002",
+      "level": 2,
+      "heading": "Special cost considerations",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations"
+      ],
+      "block_count": 3,
+      "word_count": 52,
+      "char_count": 404,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 4,
+      "last_block_index": 6,
+      "preview": "Special cost considerations This section will help you to consider costs according to the following special cost considerations: research and development contracts with universities and colleges ; non-competitive contracts with non-profit o",
+      "prev_section_id": "e8c6848e7466::s002",
+      "next_section_id": "e8c6848e7466::s004"
+    },
+    {
+      "section_id": "e8c6848e7466::s004",
+      "parent_section_id": "e8c6848e7466::s003",
+      "level": 3,
+      "heading": "Research and development contracts with universities and colleges",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Research and development contracts with universities and colleges"
+      ],
+      "block_count": 2,
+      "word_count": 58,
+      "char_count": 400,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 7,
+      "last_block_index": 8,
+      "preview": "Research and development contracts with universities and colleges Research and development work undertaken by universities or colleges is priced at direct costs plus a contribution to overhead. Contract Cost Principles 1031-2 must not be in",
+      "prev_section_id": "e8c6848e7466::s003",
+      "next_section_id": "e8c6848e7466::s005"
+    },
+    {
+      "section_id": "e8c6848e7466::s005",
+      "parent_section_id": "e8c6848e7466::s004",
+      "level": 4,
+      "heading": "Allowable direct costs and overhead",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Research and development contracts with universities and colleges",
+        "Allowable direct costs and overhead"
+      ],
+      "block_count": 9,
+      "word_count": 367,
+      "char_count": 2334,
+      "table_count": 1,
+      "list_count": 2,
+      "paragraph_count": 5,
+      "first_block_index": 9,
+      "last_block_index": 17,
+      "preview": "Allowable direct costs and overhead The allowable direct costs are as follows: direct payroll costs as follows, with annual salaries prorated over annual working days, taking into account statutory holidays and annual vacation: ; profession",
+      "prev_section_id": "e8c6848e7466::s004",
+      "next_section_id": "e8c6848e7466::s006"
+    },
+    {
+      "section_id": "e8c6848e7466::s006",
+      "parent_section_id": "e8c6848e7466::s004",
+      "level": 4,
+      "heading": "Disallowed costs",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Research and development contracts with universities and colleges",
+        "Disallowed costs"
+      ],
+      "block_count": 3,
+      "word_count": 82,
+      "char_count": 555,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 18,
+      "last_block_index": 20,
+      "preview": "Disallowed costs Costs that do not directly relate to the research activity under the contract are not allowable as direct charges. These include: university annual reports ; contingency reserves ; convention expenses not specific to the co",
+      "prev_section_id": "e8c6848e7466::s005",
+      "next_section_id": "e8c6848e7466::s007"
+    },
+    {
+      "section_id": "e8c6848e7466::s007",
+      "parent_section_id": "e8c6848e7466::s004",
+      "level": 4,
+      "heading": "Computer centre charges",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Research and development contracts with universities and colleges",
+        "Computer centre charges"
+      ],
+      "block_count": 2,
+      "word_count": 48,
+      "char_count": 281,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 21,
+      "last_block_index": 22,
+      "preview": "Computer centre charges The use of a computer centre must be charged to a contract at a predetermined rate per hour, including general overhead, and computed at a break-even level for the centre. These charges must be in line with normal po",
+      "prev_section_id": "e8c6848e7466::s006",
+      "next_section_id": "e8c6848e7466::s008"
+    },
+    {
+      "section_id": "e8c6848e7466::s008",
+      "parent_section_id": "e8c6848e7466::s004",
+      "level": 4,
+      "heading": "United States Government requirements",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Research and development contracts with universities and colleges",
+        "United States Government requirements"
+      ],
+      "block_count": 2,
+      "word_count": 87,
+      "char_count": 627,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 23,
+      "last_block_index": 24,
+      "preview": "United States Government requirements Departments and agencies of the United States (U.S.) Government negotiate directly with Canadian universities and colleges on research and development contracts. Public Services and Procurement Canada (",
+      "prev_section_id": "e8c6848e7466::s007",
+      "next_section_id": "e8c6848e7466::s009"
+    },
+    {
+      "section_id": "e8c6848e7466::s009",
+      "parent_section_id": "e8c6848e7466::s003",
+      "level": 3,
+      "heading": "Non-competitive contract with non-profit organizations",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Non-competitive contract with non-profit organizations"
+      ],
+      "block_count": 9,
+      "word_count": 223,
+      "char_count": 1349,
+      "table_count": 1,
+      "list_count": 2,
+      "paragraph_count": 5,
+      "first_block_index": 25,
+      "last_block_index": 33,
+      "preview": "Non-competitive contract with non-profit organizations Non-profit organizations, excluding universities and colleges, incur financing charges for working capital above their normal operating costs. They are also subject to business and cont",
+      "prev_section_id": "e8c6848e7466::s008",
+      "next_section_id": "e8c6848e7466::s010"
+    },
+    {
+      "section_id": "e8c6848e7466::s010",
+      "parent_section_id": "e8c6848e7466::s003",
+      "level": 3,
+      "heading": "Non-competitive contract for specific goods or services",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Non-competitive contract for specific goods or services"
+      ],
+      "block_count": 7,
+      "word_count": 232,
+      "char_count": 1487,
+      "table_count": 0,
+      "list_count": 2,
+      "paragraph_count": 4,
+      "first_block_index": 34,
+      "last_block_index": 40,
+      "preview": "Non-competitive contract for specific goods or services The following procedures provide for the establishment of fair and reasonable prices, when the competitive process cannot be used for: acquisitions from Canadian agency and resale outl",
+      "prev_section_id": "e8c6848e7466::s009",
+      "next_section_id": "e8c6848e7466::s011"
+    },
+    {
+      "section_id": "e8c6848e7466::s011",
+      "parent_section_id": "e8c6848e7466::s010",
+      "level": 4,
+      "heading": "Laid-down cost",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Non-competitive contract for specific goods or services",
+        "Laid-down cost"
+      ],
+      "block_count": 4,
+      "word_count": 64,
+      "char_count": 419,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 2,
+      "first_block_index": 41,
+      "last_block_index": 44,
+      "preview": "Laid-down cost For the laid-down cost: obtain price support from the offeror for the goods or services quoted by the principal ; ensure all trade discounts have been deducted ; verify the applicability and amount of any added costs for tran",
+      "prev_section_id": "e8c6848e7466::s010",
+      "next_section_id": "e8c6848e7466::s012"
+    },
+    {
+      "section_id": "e8c6848e7466::s012",
+      "parent_section_id": "e8c6848e7466::s010",
+      "level": 4,
+      "heading": "Cost of necessary services and overhead",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Non-competitive contract for specific goods or services",
+        "Cost of necessary services and overhead"
+      ],
+      "block_count": 6,
+      "word_count": 188,
+      "char_count": 1297,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 4,
+      "first_block_index": 45,
+      "last_block_index": 50,
+      "preview": "Cost of necessary services and overhead The establishment of the cost of necessary services rendered by the offeror depends on the requirements, the type of organization operated by the offeror, and the sophistication of the offeror's cost ",
+      "prev_section_id": "e8c6848e7466::s011",
+      "next_section_id": "e8c6848e7466::s013"
+    },
+    {
+      "section_id": "e8c6848e7466::s013",
+      "parent_section_id": "e8c6848e7466::s010",
+      "level": 4,
+      "heading": "Profit",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Non-competitive contract for specific goods or services",
+        "Profit"
+      ],
+      "block_count": 6,
+      "word_count": 222,
+      "char_count": 1263,
+      "table_count": 0,
+      "list_count": 2,
+      "paragraph_count": 3,
+      "first_block_index": 51,
+      "last_block_index": 56,
+      "preview": "Profit The allowable profit depends on the type of agency and resale outlet. For a type 1 agency and resale outlet: a reasonable rate of profit is allowed on the total of laid-down costs and the cost of services required by Canada ; the rat",
+      "prev_section_id": "e8c6848e7466::s012",
+      "next_section_id": "e8c6848e7466::s014"
+    },
+    {
+      "section_id": "e8c6848e7466::s014",
+      "parent_section_id": "e8c6848e7466::s003",
+      "level": 3,
+      "heading": "Non-competitive requirements of commercial goods or services",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Non-competitive requirements of commercial goods or services"
+      ],
+      "block_count": 4,
+      "word_count": 90,
+      "char_count": 625,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 2,
+      "first_block_index": 57,
+      "last_block_index": 60,
+      "preview": "Non-competitive requirements of commercial goods or services When procuring commercial goods or services without a competitive process, you must negotiate a fair price based on one or more of the following: recent prices paid ; latest publi",
+      "prev_section_id": "e8c6848e7466::s013",
+      "next_section_id": "e8c6848e7466::s015"
+    },
+    {
+      "section_id": "e8c6848e7466::s015",
+      "parent_section_id": "e8c6848e7466::s003",
+      "level": 3,
+      "heading": "Non-competitive requirements of non-commercial goods or services",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Non-competitive requirements of non-commercial goods or services"
+      ],
+      "block_count": 3,
+      "word_count": 96,
+      "char_count": 614,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 2,
+      "first_block_index": 61,
+      "last_block_index": 63,
+      "preview": "Non-competitive requirements of non-commercial goods or services For non-competitive contracts valued at $50,000 or less for non-commercial goods or services, you may negotiate a fair price in accordance with the guidelines for commercial g",
+      "prev_section_id": "e8c6848e7466::s014",
+      "next_section_id": null
+    }
+  ],
+  "tables": [
+    {
+      "table_id": "e8c6848e7466::t001",
+      "section_id": "e8c6848e7466::s005",
+      "row_count": 4,
+      "column_count": 2,
+      "headers": [
+        "Column 1",
+        "Column 2"
+      ],
+      "sample_rows": [
+        [
+          "Consultant category",
+          "Allowable overhead on direct costs"
+        ],
+        [
+          "In-house standard rate of pay",
+          "65%"
+        ],
+        [
+          "External type consultant (in-house personnel working additional hours at increased rates, but using university equipment)",
+          "0%"
+        ],
+        [
+          "Outside consultants",
+          "0%"
+        ]
+      ]
+    },
+    {
+      "table_id": "e8c6848e7466::t002",
+      "section_id": "e8c6848e7466::s009",
+      "row_count": 6,
+      "column_count": 2,
+      "headers": [
+        "Column 1",
+        "Column 2"
+      ],
+      "sample_rows": [
+        [
+          "Basis of Payment",
+          "Profit"
+        ],
+        [
+          "Fixed price",
+          "up to 4% of costs incurred"
+        ],
+        [
+          "Fixed time/unit rate with ceiling price",
+          "up to 3% of costs incurred"
+        ],
+        [
+          "Cost reimbursable with ceiling price",
+          "up to 3% of costs incurred"
+        ],
+        [
+          "Fixed time/unit rate without ceiling price",
+          "up to 2% of costs incurred"
+        ],
+        [
+          "Cost reimbursable with no ceiling price",
+          "0%"
+        ]
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "block_id": "e8c6848e7466::b0001",
+      "section_id": "e8c6848e7466::s001",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations"
+      ],
+      "markdown": "# Buyer's Guide Cost and profit negotiations - Special cost considerations",
+      "plain_text": "Buyer's Guide Cost and profit negotiations - Special cost considerations"
+    },
+    {
+      "block_id": "e8c6848e7466::b0002",
+      "section_id": "e8c6848e7466::s002",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide"
+      ],
+      "markdown": "# Buyer's Guide",
+      "plain_text": "Buyer's Guide"
+    },
+    {
+      "block_id": "e8c6848e7466::b0003",
+      "section_id": "e8c6848e7466::s002",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide"
+      ],
+      "markdown": "- Plan\n- Approve\n- Create solicitation\n- Solicit\n- Receive and evaluate\n- Negotiate\n- Award\n- Manage",
+      "plain_text": "Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage"
+    },
+    {
+      "block_id": "e8c6848e7466::b0004",
+      "section_id": "e8c6848e7466::s002",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide"
+      ],
+      "markdown": "Special cost considerations This section will help you to consider costs according to the following special cost considerations: research and development contracts with universities and colleges non-competitive contracts with non-profit organizations, excluding universities and colleges non-competitive contracts of manufactured products and repair and overhaul services from agency and resale outlets Research and development contracts with universities and colleges Research and development work undertaken by universities or colleges is priced at direct costs plus a contribution to overhead. Contract Cost Principles 1031-2 must not be incorporated into the contract, and post-contract audits of overhead charges must not be conducted. However, direct costs must be subject to verification or audit. Allowable direct costs and overhead The allowable direct costs are as follows: direct payroll costs as follows, with annual salaries prorated over annual working days, taking into account statutory holidays and annual vacation: professional salaries clerical salaries technicians' wages fellowships at daily rates for personnel working directly on the contract fringe benefits, including: unemployment insurance workers' compensation Canada or Quebec Pension Plan university pension plan (current service only) university portion of medical plans sick leave materials and supplies stationery postage materials issued from stores materials, parts, and components purchased specially at \"laid-down cost\" long distance telephone charges telecommunications freight and express publication charges as agreed in the contract direct expenses (costs which can be specifically identified and measured as having been used, or to be used, in the contract performance, and which are so identified and measured by the institution's cost accounting system): travel expenses consultant services apparatus and equipment acquisition, retained as Canada\u2019s property and subject to GCSurplus procedures other negotiated costs, such as computer time Consultants are categorized as three separate categories, with direct costs plus the overhead shown in the table below: Allowable overhead costs for consultants Consultant category Allowable overhead on direct costs In-house standard rate of pay 65% External type consultant (in-house personnel working additional hours at increased rates, but using university equipment) 0% Outside consultants 0% Manufactured equipment is to be considered as a \"make\" or \"buy\" decision for the buyer. In either case, the equipment will become Canada\u2019s property and disposal will be decided on later. A \"buy\" must be a direct charge. A \"make\" should be a separate item under the contract, and the university would be allowed the cost of parts and labour per the offer, including 65% overhead. Allowable overhead costs are: maximum of 65% on direct payroll costs for on-campus work maximum of 30% on direct payroll costs for off-campus work an administrative charge of 2% on travel and living expenses incurred directly against the contract Disallowed costs Costs that do not directly relate to the research activity under the contract are not allowable as direct charges. These include: university annual reports contingency reserves convention expenses not specific to the contract post-service lump-sum payments termination allowances not earned during the contract admissions department costs grants not related to services under the contract finance charges (for example, bank, debenture, bond interest) additional special facility charges (these are in the allowable overhead) Computer centre charges The use of a computer centre must be charged to a contract at a predetermined rate per hour, including general overhead, and computed at a break-even level for the centre. These charges must be in line with normal policies of the university for internal use. United States Government requirements Departments and agencies of the United States (U.S.) Government negotiate directly with Canadian universities and colleges on research and development contracts. Public Services and Procurement Canada (PSPC) may be asked for assistance in developing an appropriate overhead rate. Upon request, the Price Support Directorate responsible for price support will assist in developing overhead rates from the latest certified financial statements of the university or college, with indirect costs prorated over the direct cost base in line with the applicable U.S. Government costing principles. Non-competitive contract with non-profit organizations Non-profit organizations, excluding universities and colleges, incur financing charges for working capital above their normal operating costs. They are also subject to business and contractual risks, though less than for-profit entities. Pricing for these contracts is based on costs incurred per Contract Cost Principles 1031-2 , plus an allowance instead of profit. The allowance for financing charges on working capital employed depends on the contract\u2019s method of payment: progress payments or milestone payments: 1.5% of costs incurred no progress payments or milestone payments: 3% of costs incurred The general business risk profit is based on contract costs: direct materials, subcontracts, and direct charges: up to 1% of these costs direct labour and overhead: up to 2% of these costs The contractual risk profit depends on the basis of payment of the contract (or part of the contract): Contractual risk profit based on basis of payment Basis of Payment Profit Fixed price up to 4% of costs incurred Fixed time/unit rate with ceiling price up to 3% of costs incurred Cost reimbursable with ceiling price up to 3% of costs incurred Fixed time/unit rate without ceiling price up to 2% of costs incurred Cost reimbursable with no ceiling price 0% Non-competitive contract for specific goods or services The following procedures provide for the establishment of fair and reasonable prices, when the competitive process cannot be used for: acquisitions from Canadian agency and resale outlets acquisitions of manufactured products and repair and overhaul services from Canadian suppliers There are two primary types of agency and resale outlets recognized when purchasing for Canada. These two types of acquisitions have key differences in the determination of the allowable costs and the profit. The procedures also differ depending on whether the good or service is commercial or non-commercial The two types of recognized agency and resale outlets are: Type 1: Those engaged in manufacturing (for example, by adding or assembling certain parts), which also act as agents or resale outlets for other manufacturers Type 2: Those not engaged in any form of manufacturing which also act only as agents, distributors, wholesalers, jobbers or retailers Those involved only in the administrative aspects of moving the goods to the final purchaser (for example, purchasing, receiving, storing, shipping and accounting) A type 1 agency and resale outlet would contribute to the manufacturing of the good being procured by adding or assembling certain parts for example, versus a type 2 agency and resale outlet does not contribute to any of the manufacturing and only the administrative aspects of moving the goods to the final purchaser. Laid-down cost For the laid-down cost: obtain price support from the offeror for the goods or services quoted by the principal ensure all trade discounts have been deducted verify the applicability and amount of any added costs for transportation, foreign exchange, customs duty and brokerage For the price analysis and profit calculations, transfer prices representing fair market value constitute the laid-down cost. Cost of necessary services and overhead The establishment of the cost of necessary services rendered by the offeror depends on the requirements, the type of organization operated by the offeror, and the sophistication of the offeror's cost accounting system. The types of services that may be considered for costing purposes include: purchasing internal handling including unpacking, incoming inspection, inhibiting, warehousing and re-packing for delivery to one or more destinations, but excluding costs related to the offeror's own manufacturing or other related costs general and administrative expenses applicable to the activity required After-sales activities such as on-site installation and testing should be taken into account when establishing the overall price structure. Overhead costs allocated to the contract should be examined to ensure that the allocation represents a reasonable and justifiable distribution according to the Contract Cost Principles 1031-2 . If direct shipment from the principal will meet Canada's requirements, the offeror's charges are normally limited to purchasing and invoicing costs. In such cases, a special direct shipment overhead rate should be developed, and the negotiated rates are generally applied as a percentage additive to the laid-down costs. Profit The allowable profit depends on the type of agency and resale outlet. For a type 1 agency and resale outlet: a reasonable rate of profit is allowed on the total of laid-down costs and the cost of services required by Canada the rate must be commensurate with the risk, the volume of resale business to Canada and other circumstances for example, if the services required include the maintenance of an inventory, a higher rate of profit is permitted For a type 2 agency and resale outlet: the maximum rates of profit applied to laid-down costs depend on the method of supply to recognize the cost of financing and risks associated with the maintenance of stocks: supplied from stocks maintained and financed by the offeror: up to 4% supplied from stocks held by the offeror on consignment from the principal: up to 3% supplied by the principal through the offeror, only when ordered by Canada: up to 3% supplied by the principal in direct shipment to Canada: up to 2% the profit on the cost of necessary services and overhead recognizes the general business risk associated with the services provided: where the services include purchasing and invoicing only: up to 7.5% where the services include other than purchasing and invoicing: up to 10% Non-competitive requirements of commercial goods or services When procuring commercial goods or services without a competitive process, you must negotiate a fair price based on one or more of the following: recent prices paid latest published price lists or catalogues prices paid by others such as other governments, Crown corporations, hospitals, universities and large private sector corporations or companies Before accepting a supportable commercial price, you must obtain and validate sufficient price support. See the Practitioner\u2019s Guide for Procurement Pricing , Section 5.0.2, Commercial Pricing for more guidance. Non-competitive requirements of non-commercial goods or services For non-competitive contracts valued at $50,000 or less for non-commercial goods or services, you may negotiate a fair price in accordance with the guidelines for commercial goods or services, if the data to follow these guidelines is available. You must request the offeror to provide an itemized price breakdown. The extent of the analysis will depend on the contract value and the quality and completeness of the offeror\u2019s support data. You will need to weigh the cost of performing the price analysis against the potential benefit of cost savings.",
+      "plain_text": "Special cost considerations This section will help you to consider costs according to the following special cost considerations: research and development contracts with universities and colleges non-competitive contracts with non-profit organizations, excluding universities and colleges non-competitive contracts of manufactured products and repair and overhaul services from agency and resale outlets Research and development contracts with universities and colleges Research and development work undertaken by universities or colleges is priced at direct costs plus a contribution to overhead. Contract Cost Principles 1031-2 must not be incorporated into the contract, and post-contract audits of overhead charges must not be conducted. However, direct costs must be subject to verification or audit. Allowable direct costs and overhead The allowable direct costs are as follows: direct payroll costs as follows, with annual salaries prorated over annual working days, taking into account statutory holidays and annual vacation: professional salaries clerical salaries technicians' wages fellowships at daily rates for personnel working directly on the contract fringe benefits, including: unemployment insurance workers' compensation Canada or Quebec Pension Plan university pension plan (current service only) university portion of medical plans sick leave materials and supplies stationery postage materials issued from stores materials, parts, and components purchased specially at \"laid-down cost\" long distance telephone charges telecommunications freight and express publication charges as agreed in the contract direct expenses (costs which can be specifically identified and measured as having been used, or to be used, in the contract performance, and which are so identified and measured by the institution's cost accounting system): travel expenses consultant services apparatus and equipment acquisition, retained as Canada\u2019s property and subject to GCSurplus procedures other negotiated costs, such as computer time Consultants are categorized as three separate categories, with direct costs plus the overhead shown in the table below: Allowable overhead costs for consultants Consultant category Allowable overhead on direct costs In-house standard rate of pay 65% External type consultant (in-house personnel working additional hours at increased rates, but using university equipment) 0% Outside consultants 0% Manufactured equipment is to be considered as a \"make\" or \"buy\" decision for the buyer. In either case, the equipment will become Canada\u2019s property and disposal will be decided on later. A \"buy\" must be a direct charge. A \"make\" should be a separate item under the contract, and the university would be allowed the cost of parts and labour per the offer, including 65% overhead. Allowable overhead costs are: maximum of 65% on direct payroll costs for on-campus work maximum of 30% on direct payroll costs for off-campus work an administrative charge of 2% on travel and living expenses incurred directly against the contract Disallowed costs Costs that do not directly relate to the research activity under the contract are not allowable as direct charges. These include: university annual reports contingency reserves convention expenses not specific to the contract post-service lump-sum payments termination allowances not earned during the contract admissions department costs grants not related to services under the contract finance charges (for example, bank, debenture, bond interest) additional special facility charges (these are in the allowable overhead) Computer centre charges The use of a computer centre must be charged to a contract at a predetermined rate per hour, including general overhead, and computed at a break-even level for the centre. These charges must be in line with normal policies of the university for internal use. United States Government requirements Departments and agencies of the United States (U.S.) Government negotiate directly with Canadian universities and colleges on research and development contracts. Public Services and Procurement Canada (PSPC) may be asked for assistance in developing an appropriate overhead rate. Upon request, the Price Support Directorate responsible for price support will assist in developing overhead rates from the latest certified financial statements of the university or college, with indirect costs prorated over the direct cost base in line with the applicable U.S. Government costing principles. Non-competitive contract with non-profit organizations Non-profit organizations, excluding universities and colleges, incur financing charges for working capital above their normal operating costs. They are also subject to business and contractual risks, though less than for-profit entities. Pricing for these contracts is based on costs incurred per Contract Cost Principles 1031-2 , plus an allowance instead of profit. The allowance for financing charges on working capital employed depends on the contract\u2019s method of payment: progress payments or milestone payments: 1.5% of costs incurred no progress payments or milestone payments: 3% of costs incurred The general business risk profit is based on contract costs: direct materials, subcontracts, and direct charges: up to 1% of these costs direct labour and overhead: up to 2% of these costs The contractual risk profit depends on the basis of payment of the contract (or part of the contract): Contractual risk profit based on basis of payment Basis of Payment Profit Fixed price up to 4% of costs incurred Fixed time/unit rate with ceiling price up to 3% of costs incurred Cost reimbursable with ceiling price up to 3% of costs incurred Fixed time/unit rate without ceiling price up to 2% of costs incurred Cost reimbursable with no ceiling price 0% Non-competitive contract for specific goods or services The following procedures provide for the establishment of fair and reasonable prices, when the competitive process cannot be used for: acquisitions from Canadian agency and resale outlets acquisitions of manufactured products and repair and overhaul services from Canadian suppliers There are two primary types of agency and resale outlets recognized when purchasing for Canada. These two types of acquisitions have key differences in the determination of the allowable costs and the profit. The procedures also differ depending on whether the good or service is commercial or non-commercial The two types of recognized agency and resale outlets are: Type 1: Those engaged in manufacturing (for example, by adding or assembling certain parts), which also act as agents or resale outlets for other manufacturers Type 2: Those not engaged in any form of manufacturing which also act only as agents, distributors, wholesalers, jobbers or retailers Those involved only in the administrative aspects of moving the goods to the final purchaser (for example, purchasing, receiving, storing, shipping and accounting) A type 1 agency and resale outlet would contribute to the manufacturing of the good being procured by adding or assembling certain parts for example, versus a type 2 agency and resale outlet does not contribute to any of the manufacturing and only the administrative aspects of moving the goods to the final purchaser. Laid-down cost For the laid-down cost: obtain price support from the offeror for the goods or services quoted by the principal ensure all trade discounts have been deducted verify the applicability and amount of any added costs for transportation, foreign exchange, customs duty and brokerage For the price analysis and profit calculations, transfer prices representing fair market value constitute the laid-down cost. Cost of necessary services and overhead The establishment of the cost of necessary services rendered by the offeror depends on the requirements, the type of organization operated by the offeror, and the sophistication of the offeror's cost accounting system. The types of services that may be considered for costing purposes include: purchasing internal handling including unpacking, incoming inspection, inhibiting, warehousing and re-packing for delivery to one or more destinations, but excluding costs related to the offeror's own manufacturing or other related costs general and administrative expenses applicable to the activity required After-sales activities such as on-site installation and testing should be taken into account when establishing the overall price structure. Overhead costs allocated to the contract should be examined to ensure that the allocation represents a reasonable and justifiable distribution according to the Contract Cost Principles 1031-2 . If direct shipment from the principal will meet Canada's requirements, the offeror's charges are normally limited to purchasing and invoicing costs. In such cases, a special direct shipment overhead rate should be developed, and the negotiated rates are generally applied as a percentage additive to the laid-down costs. Profit The allowable profit depends on the type of agency and resale outlet. For a type 1 agency and resale outlet: a reasonable rate of profit is allowed on the total of laid-down costs and the cost of services required by Canada the rate must be commensurate with the risk, the volume of resale business to Canada and other circumstances for example, if the services required include the maintenance of an inventory, a higher rate of profit is permitted For a type 2 agency and resale outlet: the maximum rates of profit applied to laid-down costs depend on the method of supply to recognize the cost of financing and risks associated with the maintenance of stocks: supplied from stocks maintained and financed by the offeror: up to 4% supplied from stocks held by the offeror on consignment from the principal: up to 3% supplied by the principal through the offeror, only when ordered by Canada: up to 3% supplied by the principal in direct shipment to Canada: up to 2% the profit on the cost of necessary services and overhead recognizes the general business risk associated with the services provided: where the services include purchasing and invoicing only: up to 7.5% where the services include other than purchasing and invoicing: up to 10% Non-competitive requirements of commercial goods or services When procuring commercial goods or services without a competitive process, you must negotiate a fair price based on one or more of the following: recent prices paid latest published price lists or catalogues prices paid by others such as other governments, Crown corporations, hospitals, universities and large private sector corporations or companies Before accepting a supportable commercial price, you must obtain and validate sufficient price support. See the Practitioner\u2019s Guide for Procurement Pricing , Section 5.0.2, Commercial Pricing for more guidance. Non-competitive requirements of non-commercial goods or services For non-competitive contracts valued at $50,000 or less for non-commercial goods or services, you may negotiate a fair price in accordance with the guidelines for commercial goods or services, if the data to follow these guidelines is available. You must request the offeror to provide an itemized price breakdown. The extent of the analysis will depend on the contract value and the quality and completeness of the offeror\u2019s support data. You will need to weigh the cost of performing the price analysis against the potential benefit of cost savings."
+    },
+    {
+      "block_id": "e8c6848e7466::b0005",
+      "section_id": "e8c6848e7466::s003",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations"
+      ],
+      "markdown": "## Special cost considerations",
+      "plain_text": "Special cost considerations"
+    },
+    {
+      "block_id": "e8c6848e7466::b0006",
+      "section_id": "e8c6848e7466::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations"
+      ],
+      "markdown": "This section will help you to consider costs according to the following special cost considerations:",
+      "plain_text": "This section will help you to consider costs according to the following special cost considerations:"
+    },
+    {
+      "block_id": "e8c6848e7466::b0007",
+      "section_id": "e8c6848e7466::s003",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations"
+      ],
+      "markdown": "- research and development contracts with universities and colleges\n- non-competitive contracts with non-profit organizations, excluding universities and colleges\n- non-competitive contracts of manufactured products and repair and overhaul services from agency and resale outlets",
+      "plain_text": "research and development contracts with universities and colleges ; non-competitive contracts with non-profit organizations, excluding universities and colleges ; non-competitive contracts of manufactured products and repair and overhaul services from agency and resale outlets"
+    },
+    {
+      "block_id": "e8c6848e7466::b0008",
+      "section_id": "e8c6848e7466::s004",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Research and development contracts with universities and colleges"
+      ],
+      "markdown": "### Research and development contracts with universities and colleges",
+      "plain_text": "Research and development contracts with universities and colleges"
+    },
+    {
+      "block_id": "e8c6848e7466::b0009",
+      "section_id": "e8c6848e7466::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Research and development contracts with universities and colleges"
+      ],
+      "markdown": "Research and development work undertaken by universities or colleges is priced at direct costs plus a contribution to overhead. Contract Cost Principles 1031-2 must not be incorporated into the contract, and post-contract audits of overhead charges must not be conducted. However, direct costs must be subject to verification or audit.",
+      "plain_text": "Research and development work undertaken by universities or colleges is priced at direct costs plus a contribution to overhead. Contract Cost Principles 1031-2 must not be incorporated into the contract, and post-contract audits of overhead charges must not be conducted. However, direct costs must be subject to verification or audit."
+    },
+    {
+      "block_id": "e8c6848e7466::b0010",
+      "section_id": "e8c6848e7466::s005",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Research and development contracts with universities and colleges",
+        "Allowable direct costs and overhead"
+      ],
+      "markdown": "#### Allowable direct costs and overhead",
+      "plain_text": "Allowable direct costs and overhead"
+    },
+    {
+      "block_id": "e8c6848e7466::b0011",
+      "section_id": "e8c6848e7466::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Research and development contracts with universities and colleges",
+        "Allowable direct costs and overhead"
+      ],
+      "markdown": "The allowable direct costs are as follows:",
+      "plain_text": "The allowable direct costs are as follows:"
+    },
+    {
+      "block_id": "e8c6848e7466::b0012",
+      "section_id": "e8c6848e7466::s005",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Research and development contracts with universities and colleges",
+        "Allowable direct costs and overhead"
+      ],
+      "markdown": "- direct payroll costs as follows, with annual salaries prorated over annual working days, taking into account statutory holidays and annual vacation:\n- professional salaries\n- clerical salaries\n- technicians' wages\n- fellowships at daily rates for personnel working directly on the contract\n- fringe benefits, including:\n- unemployment insurance\n- workers' compensation\n- Canada or Quebec Pension Plan\n- university pension plan (current service only)\n- university portion of medical plans\n- sick leave\n- materials and supplies\n- stationery\n- postage\n- materials issued from stores\n- materials, parts, and components purchased specially at \"laid-down cost\"\n- long distance telephone charges\n- telecommunications\n- freight and express\n- publication charges as agreed in the contract\n- direct expenses (costs which can be specifically identified and measured as having been used, or to be used, in the contract performance, and which are so identified and measured by the institution's cost accounting system):\n- travel expenses\n- consultant services\n- apparatus and equipment acquisition, retained as Canada\u2019s property and subject to GCSurplus procedures\n- other negotiated costs, such as computer time",
+      "plain_text": "direct payroll costs as follows, with annual salaries prorated over annual working days, taking into account statutory holidays and annual vacation: ; professional salaries ; clerical salaries ; technicians' wages ; fellowships at daily rates for personnel working directly on the contract ; fringe benefits, including: ; unemployment insurance ; workers' compensation ; Canada or Quebec Pension Plan ; university pension plan (current service only) ; university portion of medical plans ; sick leave ; materials and supplies ; stationery ; postage ; materials issued from stores ; materials, parts, and components purchased specially at \"laid-down cost\" ; long distance telephone charges ; telecommunications ; freight and express ; publication charges as agreed in the contract ; direct expenses (costs which can be specifically identified and measured as having been used, or to be used, in the contract performance, and which are so identified and measured by the institution's cost accounting system): ; travel expenses ; consultant services ; apparatus and equipment acquisition, retained as Canada\u2019s property and subject to GCSurplus procedures ; other negotiated costs, such as computer time"
+    },
+    {
+      "block_id": "e8c6848e7466::b0013",
+      "section_id": "e8c6848e7466::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Research and development contracts with universities and colleges",
+        "Allowable direct costs and overhead"
+      ],
+      "markdown": "Consultants are categorized as three separate categories, with direct costs plus the overhead shown in the table below:",
+      "plain_text": "Consultants are categorized as three separate categories, with direct costs plus the overhead shown in the table below:"
+    },
+    {
+      "block_id": "e8c6848e7466::b0014",
+      "section_id": "e8c6848e7466::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Research and development contracts with universities and colleges",
+        "Allowable direct costs and overhead"
+      ],
+      "markdown": "Allowable overhead costs for consultants",
+      "plain_text": "Allowable overhead costs for consultants"
+    },
+    {
+      "block_id": "e8c6848e7466::b0015",
+      "section_id": "e8c6848e7466::s005",
+      "type": "table",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Research and development contracts with universities and colleges",
+        "Allowable direct costs and overhead"
+      ],
+      "markdown": "| Column 1 | Column 2 |\n| --- | --- |\n| Consultant category | Allowable overhead on direct costs |\n| In-house standard rate of pay | 65% |\n| External type consultant (in-house personnel working additional hours at increased rates, but using university equipment) | 0% |\n| Outside consultants | 0% |",
+      "plain_text": "Column 1 | Column 2 ; Consultant category | Allowable overhead on direct costs ; In-house standard rate of pay | 65% ; External type consultant (in-house personnel working additional hours at increased rates, but using university equipment) | 0% ; Outside consultants | 0%",
+      "table_id": "e8c6848e7466::t001"
+    },
+    {
+      "block_id": "e8c6848e7466::b0016",
+      "section_id": "e8c6848e7466::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Research and development contracts with universities and colleges",
+        "Allowable direct costs and overhead"
+      ],
+      "markdown": "Manufactured equipment is to be considered as a \"make\" or \"buy\" decision for the buyer. In either case, the equipment will become Canada\u2019s property and disposal will be decided on later. A \"buy\" must be a direct charge. A \"make\" should be a separate item under the contract, and the university would be allowed the cost of parts and labour per the offer, including 65% overhead.",
+      "plain_text": "Manufactured equipment is to be considered as a \"make\" or \"buy\" decision for the buyer. In either case, the equipment will become Canada\u2019s property and disposal will be decided on later. A \"buy\" must be a direct charge. A \"make\" should be a separate item under the contract, and the university would be allowed the cost of parts and labour per the offer, including 65% overhead."
+    },
+    {
+      "block_id": "e8c6848e7466::b0017",
+      "section_id": "e8c6848e7466::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Research and development contracts with universities and colleges",
+        "Allowable direct costs and overhead"
+      ],
+      "markdown": "Allowable overhead costs are:",
+      "plain_text": "Allowable overhead costs are:"
+    },
+    {
+      "block_id": "e8c6848e7466::b0018",
+      "section_id": "e8c6848e7466::s005",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Research and development contracts with universities and colleges",
+        "Allowable direct costs and overhead"
+      ],
+      "markdown": "- maximum of 65% on direct payroll costs for on-campus work\n- maximum of 30% on direct payroll costs for off-campus work\n- an administrative charge of 2% on travel and living expenses incurred directly against the contract",
+      "plain_text": "maximum of 65% on direct payroll costs for on-campus work ; maximum of 30% on direct payroll costs for off-campus work ; an administrative charge of 2% on travel and living expenses incurred directly against the contract"
+    },
+    {
+      "block_id": "e8c6848e7466::b0019",
+      "section_id": "e8c6848e7466::s006",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Research and development contracts with universities and colleges",
+        "Disallowed costs"
+      ],
+      "markdown": "#### Disallowed costs",
+      "plain_text": "Disallowed costs"
+    },
+    {
+      "block_id": "e8c6848e7466::b0020",
+      "section_id": "e8c6848e7466::s006",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Research and development contracts with universities and colleges",
+        "Disallowed costs"
+      ],
+      "markdown": "Costs that do not directly relate to the research activity under the contract are not allowable as direct charges. These include:",
+      "plain_text": "Costs that do not directly relate to the research activity under the contract are not allowable as direct charges. These include:"
+    },
+    {
+      "block_id": "e8c6848e7466::b0021",
+      "section_id": "e8c6848e7466::s006",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Research and development contracts with universities and colleges",
+        "Disallowed costs"
+      ],
+      "markdown": "- university annual reports\n- contingency reserves\n- convention expenses not specific to the contract\n- post-service lump-sum payments\n- termination allowances not earned during the contract\n- admissions department costs\n- grants not related to services under the contract\n- finance charges (for example, bank, debenture, bond interest)\n- additional special facility charges (these are in the allowable overhead)",
+      "plain_text": "university annual reports ; contingency reserves ; convention expenses not specific to the contract ; post-service lump-sum payments ; termination allowances not earned during the contract ; admissions department costs ; grants not related to services under the contract ; finance charges (for example, bank, debenture, bond interest) ; additional special facility charges (these are in the allowable overhead)"
+    },
+    {
+      "block_id": "e8c6848e7466::b0022",
+      "section_id": "e8c6848e7466::s007",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Research and development contracts with universities and colleges",
+        "Computer centre charges"
+      ],
+      "markdown": "#### Computer centre charges",
+      "plain_text": "Computer centre charges"
+    },
+    {
+      "block_id": "e8c6848e7466::b0023",
+      "section_id": "e8c6848e7466::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Research and development contracts with universities and colleges",
+        "Computer centre charges"
+      ],
+      "markdown": "The use of a computer centre must be charged to a contract at a predetermined rate per hour, including general overhead, and computed at a break-even level for the centre. These charges must be in line with normal policies of the university for internal use.",
+      "plain_text": "The use of a computer centre must be charged to a contract at a predetermined rate per hour, including general overhead, and computed at a break-even level for the centre. These charges must be in line with normal policies of the university for internal use."
+    },
+    {
+      "block_id": "e8c6848e7466::b0024",
+      "section_id": "e8c6848e7466::s008",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Research and development contracts with universities and colleges",
+        "United States Government requirements"
+      ],
+      "markdown": "#### United States Government requirements",
+      "plain_text": "United States Government requirements"
+    },
+    {
+      "block_id": "e8c6848e7466::b0025",
+      "section_id": "e8c6848e7466::s008",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Research and development contracts with universities and colleges",
+        "United States Government requirements"
+      ],
+      "markdown": "Departments and agencies of the United States (U.S.) Government negotiate directly with Canadian universities and colleges on research and development contracts. Public Services and Procurement Canada (PSPC) may be asked for assistance in developing an appropriate overhead rate. Upon request, the Price Support Directorate responsible for price support will assist in developing overhead rates from the latest certified financial statements of the university or college, with indirect costs prorated over the direct cost base in line with the applicable U.S. Government costing principles.",
+      "plain_text": "Departments and agencies of the United States (U.S.) Government negotiate directly with Canadian universities and colleges on research and development contracts. Public Services and Procurement Canada (PSPC) may be asked for assistance in developing an appropriate overhead rate. Upon request, the Price Support Directorate responsible for price support will assist in developing overhead rates from the latest certified financial statements of the university or college, with indirect costs prorated over the direct cost base in line with the applicable U.S. Government costing principles."
+    },
+    {
+      "block_id": "e8c6848e7466::b0026",
+      "section_id": "e8c6848e7466::s009",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Non-competitive contract with non-profit organizations"
+      ],
+      "markdown": "### Non-competitive contract with non-profit organizations",
+      "plain_text": "Non-competitive contract with non-profit organizations"
+    },
+    {
+      "block_id": "e8c6848e7466::b0027",
+      "section_id": "e8c6848e7466::s009",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Non-competitive contract with non-profit organizations"
+      ],
+      "markdown": "Non-profit organizations, excluding universities and colleges, incur financing charges for working capital above their normal operating costs. They are also subject to business and contractual risks, though less than for-profit entities. Pricing for these contracts is based on costs incurred per Contract Cost Principles 1031-2 , plus an allowance instead of profit.",
+      "plain_text": "Non-profit organizations, excluding universities and colleges, incur financing charges for working capital above their normal operating costs. They are also subject to business and contractual risks, though less than for-profit entities. Pricing for these contracts is based on costs incurred per Contract Cost Principles 1031-2 , plus an allowance instead of profit."
+    },
+    {
+      "block_id": "e8c6848e7466::b0028",
+      "section_id": "e8c6848e7466::s009",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Non-competitive contract with non-profit organizations"
+      ],
+      "markdown": "The allowance for financing charges on working capital employed depends on the contract\u2019s method of payment:",
+      "plain_text": "The allowance for financing charges on working capital employed depends on the contract\u2019s method of payment:"
+    },
+    {
+      "block_id": "e8c6848e7466::b0029",
+      "section_id": "e8c6848e7466::s009",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Non-competitive contract with non-profit organizations"
+      ],
+      "markdown": "- progress payments or milestone payments: 1.5% of costs incurred\n- no progress payments or milestone payments: 3% of costs incurred",
+      "plain_text": "progress payments or milestone payments: 1.5% of costs incurred ; no progress payments or milestone payments: 3% of costs incurred"
+    },
+    {
+      "block_id": "e8c6848e7466::b0030",
+      "section_id": "e8c6848e7466::s009",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Non-competitive contract with non-profit organizations"
+      ],
+      "markdown": "The general business risk profit is based on contract costs:",
+      "plain_text": "The general business risk profit is based on contract costs:"
+    },
+    {
+      "block_id": "e8c6848e7466::b0031",
+      "section_id": "e8c6848e7466::s009",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Non-competitive contract with non-profit organizations"
+      ],
+      "markdown": "- direct materials, subcontracts, and direct charges: up to 1% of these costs\n- direct labour and overhead: up to 2% of these costs",
+      "plain_text": "direct materials, subcontracts, and direct charges: up to 1% of these costs ; direct labour and overhead: up to 2% of these costs"
+    },
+    {
+      "block_id": "e8c6848e7466::b0032",
+      "section_id": "e8c6848e7466::s009",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Non-competitive contract with non-profit organizations"
+      ],
+      "markdown": "The contractual risk profit depends on the basis of payment of the contract (or part of the contract):",
+      "plain_text": "The contractual risk profit depends on the basis of payment of the contract (or part of the contract):"
+    },
+    {
+      "block_id": "e8c6848e7466::b0033",
+      "section_id": "e8c6848e7466::s009",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Non-competitive contract with non-profit organizations"
+      ],
+      "markdown": "Contractual risk profit based on basis of payment",
+      "plain_text": "Contractual risk profit based on basis of payment"
+    },
+    {
+      "block_id": "e8c6848e7466::b0034",
+      "section_id": "e8c6848e7466::s009",
+      "type": "table",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Non-competitive contract with non-profit organizations"
+      ],
+      "markdown": "| Column 1 | Column 2 |\n| --- | --- |\n| Basis of Payment | Profit |\n| Fixed price | up to 4% of costs incurred |\n| Fixed time/unit rate with ceiling price | up to 3% of costs incurred |\n| Cost reimbursable with ceiling price | up to 3% of costs incurred |\n| Fixed time/unit rate without ceiling price | up to 2% of costs incurred |\n| Cost reimbursable with no ceiling price | 0% |",
+      "plain_text": "Column 1 | Column 2 ; Basis of Payment | Profit ; Fixed price | up to 4% of costs incurred ; Fixed time/unit rate with ceiling price | up to 3% of costs incurred ; Cost reimbursable with ceiling price | up to 3% of costs incurred ; Fixed time/unit rate without ceiling price | up to 2% of costs incurred ; Cost reimbursable with no ceiling price | 0%",
+      "table_id": "e8c6848e7466::t002"
+    },
+    {
+      "block_id": "e8c6848e7466::b0035",
+      "section_id": "e8c6848e7466::s010",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Non-competitive contract for specific goods or services"
+      ],
+      "markdown": "### Non-competitive contract for specific goods or services",
+      "plain_text": "Non-competitive contract for specific goods or services"
+    },
+    {
+      "block_id": "e8c6848e7466::b0036",
+      "section_id": "e8c6848e7466::s010",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Non-competitive contract for specific goods or services"
+      ],
+      "markdown": "The following procedures provide for the establishment of fair and reasonable prices, when the competitive process cannot be used for:",
+      "plain_text": "The following procedures provide for the establishment of fair and reasonable prices, when the competitive process cannot be used for:"
+    },
+    {
+      "block_id": "e8c6848e7466::b0037",
+      "section_id": "e8c6848e7466::s010",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Non-competitive contract for specific goods or services"
+      ],
+      "markdown": "- acquisitions from Canadian agency and resale outlets\n- acquisitions of manufactured products and repair and overhaul services from Canadian suppliers",
+      "plain_text": "acquisitions from Canadian agency and resale outlets ; acquisitions of manufactured products and repair and overhaul services from Canadian suppliers"
+    },
+    {
+      "block_id": "e8c6848e7466::b0038",
+      "section_id": "e8c6848e7466::s010",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Non-competitive contract for specific goods or services"
+      ],
+      "markdown": "There are two primary types of agency and resale outlets recognized when purchasing for Canada. These two types of acquisitions have key differences in the determination of the allowable costs and the profit. The procedures also differ depending on whether the good or service is commercial or non-commercial",
+      "plain_text": "There are two primary types of agency and resale outlets recognized when purchasing for Canada. These two types of acquisitions have key differences in the determination of the allowable costs and the profit. The procedures also differ depending on whether the good or service is commercial or non-commercial"
+    },
+    {
+      "block_id": "e8c6848e7466::b0039",
+      "section_id": "e8c6848e7466::s010",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Non-competitive contract for specific goods or services"
+      ],
+      "markdown": "The two types of recognized agency and resale outlets are:",
+      "plain_text": "The two types of recognized agency and resale outlets are:"
+    },
+    {
+      "block_id": "e8c6848e7466::b0040",
+      "section_id": "e8c6848e7466::s010",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Non-competitive contract for specific goods or services"
+      ],
+      "markdown": "- Type 1:\n- Those engaged in manufacturing (for example, by adding or assembling certain parts), which also act as agents or resale outlets for other manufacturers\n- Type 2:\n- Those not engaged in any form of manufacturing which also act only as agents, distributors, wholesalers, jobbers or retailers\n- Those involved only in the administrative aspects of moving the goods to the final purchaser (for example, purchasing, receiving, storing, shipping and accounting)",
+      "plain_text": "Type 1: ; Those engaged in manufacturing (for example, by adding or assembling certain parts), which also act as agents or resale outlets for other manufacturers ; Type 2: ; Those not engaged in any form of manufacturing which also act only as agents, distributors, wholesalers, jobbers or retailers ; Those involved only in the administrative aspects of moving the goods to the final purchaser (for example, purchasing, receiving, storing, shipping and accounting)"
+    },
+    {
+      "block_id": "e8c6848e7466::b0041",
+      "section_id": "e8c6848e7466::s010",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Non-competitive contract for specific goods or services"
+      ],
+      "markdown": "A type 1 agency and resale outlet would contribute to the manufacturing of the good being procured by adding or assembling certain parts for example, versus a type 2 agency and resale outlet does not contribute to any of the manufacturing and only the administrative aspects of moving the goods to the final purchaser.",
+      "plain_text": "A type 1 agency and resale outlet would contribute to the manufacturing of the good being procured by adding or assembling certain parts for example, versus a type 2 agency and resale outlet does not contribute to any of the manufacturing and only the administrative aspects of moving the goods to the final purchaser."
+    },
+    {
+      "block_id": "e8c6848e7466::b0042",
+      "section_id": "e8c6848e7466::s011",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Non-competitive contract for specific goods or services",
+        "Laid-down cost"
+      ],
+      "markdown": "#### Laid-down cost",
+      "plain_text": "Laid-down cost"
+    },
+    {
+      "block_id": "e8c6848e7466::b0043",
+      "section_id": "e8c6848e7466::s011",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Non-competitive contract for specific goods or services",
+        "Laid-down cost"
+      ],
+      "markdown": "For the laid-down cost:",
+      "plain_text": "For the laid-down cost:"
+    },
+    {
+      "block_id": "e8c6848e7466::b0044",
+      "section_id": "e8c6848e7466::s011",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Non-competitive contract for specific goods or services",
+        "Laid-down cost"
+      ],
+      "markdown": "- obtain price support from the offeror for the goods or services quoted by the principal\n- ensure all trade discounts have been deducted\n- verify the applicability and amount of any added costs for transportation, foreign exchange, customs duty and brokerage",
+      "plain_text": "obtain price support from the offeror for the goods or services quoted by the principal ; ensure all trade discounts have been deducted ; verify the applicability and amount of any added costs for transportation, foreign exchange, customs duty and brokerage"
+    },
+    {
+      "block_id": "e8c6848e7466::b0045",
+      "section_id": "e8c6848e7466::s011",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Non-competitive contract for specific goods or services",
+        "Laid-down cost"
+      ],
+      "markdown": "For the price analysis and profit calculations, transfer prices representing fair market value constitute the laid-down cost.",
+      "plain_text": "For the price analysis and profit calculations, transfer prices representing fair market value constitute the laid-down cost."
+    },
+    {
+      "block_id": "e8c6848e7466::b0046",
+      "section_id": "e8c6848e7466::s012",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Non-competitive contract for specific goods or services",
+        "Cost of necessary services and overhead"
+      ],
+      "markdown": "#### Cost of necessary services and overhead",
+      "plain_text": "Cost of necessary services and overhead"
+    },
+    {
+      "block_id": "e8c6848e7466::b0047",
+      "section_id": "e8c6848e7466::s012",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Non-competitive contract for specific goods or services",
+        "Cost of necessary services and overhead"
+      ],
+      "markdown": "The establishment of the cost of necessary services rendered by the offeror depends on the requirements, the type of organization operated by the offeror, and the sophistication of the offeror's cost accounting system.",
+      "plain_text": "The establishment of the cost of necessary services rendered by the offeror depends on the requirements, the type of organization operated by the offeror, and the sophistication of the offeror's cost accounting system."
+    },
+    {
+      "block_id": "e8c6848e7466::b0048",
+      "section_id": "e8c6848e7466::s012",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Non-competitive contract for specific goods or services",
+        "Cost of necessary services and overhead"
+      ],
+      "markdown": "The types of services that may be considered for costing purposes include:",
+      "plain_text": "The types of services that may be considered for costing purposes include:"
+    },
+    {
+      "block_id": "e8c6848e7466::b0049",
+      "section_id": "e8c6848e7466::s012",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Non-competitive contract for specific goods or services",
+        "Cost of necessary services and overhead"
+      ],
+      "markdown": "- purchasing\n- internal handling including unpacking, incoming inspection, inhibiting, warehousing and re-packing for delivery to one or more destinations, but excluding costs related to the offeror's own manufacturing or other related costs\n- general and administrative expenses applicable to the activity required",
+      "plain_text": "purchasing ; internal handling including unpacking, incoming inspection, inhibiting, warehousing and re-packing for delivery to one or more destinations, but excluding costs related to the offeror's own manufacturing or other related costs ; general and administrative expenses applicable to the activity required"
+    },
+    {
+      "block_id": "e8c6848e7466::b0050",
+      "section_id": "e8c6848e7466::s012",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Non-competitive contract for specific goods or services",
+        "Cost of necessary services and overhead"
+      ],
+      "markdown": "After-sales activities such as on-site installation and testing should be taken into account when establishing the overall price structure. Overhead costs allocated to the contract should be examined to ensure that the allocation represents a reasonable and justifiable distribution according to the Contract Cost Principles 1031-2 .",
+      "plain_text": "After-sales activities such as on-site installation and testing should be taken into account when establishing the overall price structure. Overhead costs allocated to the contract should be examined to ensure that the allocation represents a reasonable and justifiable distribution according to the Contract Cost Principles 1031-2 ."
+    },
+    {
+      "block_id": "e8c6848e7466::b0051",
+      "section_id": "e8c6848e7466::s012",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Non-competitive contract for specific goods or services",
+        "Cost of necessary services and overhead"
+      ],
+      "markdown": "If direct shipment from the principal will meet Canada's requirements, the offeror's charges are normally limited to purchasing and invoicing costs. In such cases, a special direct shipment overhead rate should be developed, and the negotiated rates are generally applied as a percentage additive to the laid-down costs.",
+      "plain_text": "If direct shipment from the principal will meet Canada's requirements, the offeror's charges are normally limited to purchasing and invoicing costs. In such cases, a special direct shipment overhead rate should be developed, and the negotiated rates are generally applied as a percentage additive to the laid-down costs."
+    },
+    {
+      "block_id": "e8c6848e7466::b0052",
+      "section_id": "e8c6848e7466::s013",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Non-competitive contract for specific goods or services",
+        "Profit"
+      ],
+      "markdown": "#### Profit",
+      "plain_text": "Profit"
+    },
+    {
+      "block_id": "e8c6848e7466::b0053",
+      "section_id": "e8c6848e7466::s013",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Non-competitive contract for specific goods or services",
+        "Profit"
+      ],
+      "markdown": "The allowable profit depends on the type of agency and resale outlet.",
+      "plain_text": "The allowable profit depends on the type of agency and resale outlet."
+    },
+    {
+      "block_id": "e8c6848e7466::b0054",
+      "section_id": "e8c6848e7466::s013",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Non-competitive contract for specific goods or services",
+        "Profit"
+      ],
+      "markdown": "For a type 1 agency and resale outlet:",
+      "plain_text": "For a type 1 agency and resale outlet:"
+    },
+    {
+      "block_id": "e8c6848e7466::b0055",
+      "section_id": "e8c6848e7466::s013",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Non-competitive contract for specific goods or services",
+        "Profit"
+      ],
+      "markdown": "- a reasonable rate of profit is allowed on the total of laid-down costs and the cost of services required by Canada\n- the rate must be commensurate with the risk, the volume of resale business to Canada and other circumstances\n- for example, if the services required include the maintenance of an inventory, a higher rate of profit is permitted",
+      "plain_text": "a reasonable rate of profit is allowed on the total of laid-down costs and the cost of services required by Canada ; the rate must be commensurate with the risk, the volume of resale business to Canada and other circumstances ; for example, if the services required include the maintenance of an inventory, a higher rate of profit is permitted"
+    },
+    {
+      "block_id": "e8c6848e7466::b0056",
+      "section_id": "e8c6848e7466::s013",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Non-competitive contract for specific goods or services",
+        "Profit"
+      ],
+      "markdown": "For a type 2 agency and resale outlet:",
+      "plain_text": "For a type 2 agency and resale outlet:"
+    },
+    {
+      "block_id": "e8c6848e7466::b0057",
+      "section_id": "e8c6848e7466::s013",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Non-competitive contract for specific goods or services",
+        "Profit"
+      ],
+      "markdown": "- the maximum rates of profit applied to laid-down costs depend on the method of supply to recognize the cost of financing and risks associated with the maintenance of stocks:\n- supplied from stocks maintained and financed by the offeror: up to 4%\n- supplied from stocks held by the offeror on consignment from the principal: up to 3%\n- supplied by the principal through the offeror, only when ordered by Canada: up to 3%\n- supplied by the principal in direct shipment to Canada: up to 2%\n- the profit on the cost of necessary services and overhead recognizes the general business risk associated with the services provided:\n- where the services include purchasing and invoicing only: up to 7.5%\n- where the services include other than purchasing and invoicing: up to 10%",
+      "plain_text": "the maximum rates of profit applied to laid-down costs depend on the method of supply to recognize the cost of financing and risks associated with the maintenance of stocks: ; supplied from stocks maintained and financed by the offeror: up to 4% ; supplied from stocks held by the offeror on consignment from the principal: up to 3% ; supplied by the principal through the offeror, only when ordered by Canada: up to 3% ; supplied by the principal in direct shipment to Canada: up to 2% ; the profit on the cost of necessary services and overhead recognizes the general business risk associated with the services provided: ; where the services include purchasing and invoicing only: up to 7.5% ; where the services include other than purchasing and invoicing: up to 10%"
+    },
+    {
+      "block_id": "e8c6848e7466::b0058",
+      "section_id": "e8c6848e7466::s014",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Non-competitive requirements of commercial goods or services"
+      ],
+      "markdown": "### Non-competitive requirements of commercial goods or services",
+      "plain_text": "Non-competitive requirements of commercial goods or services"
+    },
+    {
+      "block_id": "e8c6848e7466::b0059",
+      "section_id": "e8c6848e7466::s014",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Non-competitive requirements of commercial goods or services"
+      ],
+      "markdown": "When procuring commercial goods or services without a competitive process, you must negotiate a fair price based on one or more of the following:",
+      "plain_text": "When procuring commercial goods or services without a competitive process, you must negotiate a fair price based on one or more of the following:"
+    },
+    {
+      "block_id": "e8c6848e7466::b0060",
+      "section_id": "e8c6848e7466::s014",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Non-competitive requirements of commercial goods or services"
+      ],
+      "markdown": "- recent prices paid\n- latest published price lists or catalogues\n- prices paid by others such as other governments, Crown corporations, hospitals, universities and large private sector corporations or companies",
+      "plain_text": "recent prices paid ; latest published price lists or catalogues ; prices paid by others such as other governments, Crown corporations, hospitals, universities and large private sector corporations or companies"
+    },
+    {
+      "block_id": "e8c6848e7466::b0061",
+      "section_id": "e8c6848e7466::s014",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Non-competitive requirements of commercial goods or services"
+      ],
+      "markdown": "Before accepting a supportable commercial price, you must obtain and validate sufficient price support. See the Practitioner\u2019s Guide for Procurement Pricing , Section 5.0.2, Commercial Pricing for more guidance.",
+      "plain_text": "Before accepting a supportable commercial price, you must obtain and validate sufficient price support. See the Practitioner\u2019s Guide for Procurement Pricing , Section 5.0.2, Commercial Pricing for more guidance."
+    },
+    {
+      "block_id": "e8c6848e7466::b0062",
+      "section_id": "e8c6848e7466::s015",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Non-competitive requirements of non-commercial goods or services"
+      ],
+      "markdown": "### Non-competitive requirements of non-commercial goods or services",
+      "plain_text": "Non-competitive requirements of non-commercial goods or services"
+    },
+    {
+      "block_id": "e8c6848e7466::b0063",
+      "section_id": "e8c6848e7466::s015",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Non-competitive requirements of non-commercial goods or services"
+      ],
+      "markdown": "For non-competitive contracts valued at $50,000 or less for non-commercial goods or services, you may negotiate a fair price in accordance with the guidelines for commercial goods or services, if the data to follow these guidelines is available.",
+      "plain_text": "For non-competitive contracts valued at $50,000 or less for non-commercial goods or services, you may negotiate a fair price in accordance with the guidelines for commercial goods or services, if the data to follow these guidelines is available."
+    },
+    {
+      "block_id": "e8c6848e7466::b0064",
+      "section_id": "e8c6848e7466::s015",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Special cost considerations",
+        "Buyer's Guide",
+        "Special cost considerations",
+        "Non-competitive requirements of non-commercial goods or services"
+      ],
+      "markdown": "You must request the offeror to provide an itemized price breakdown. The extent of the analysis will depend on the contract value and the quality and completeness of the offeror\u2019s support data. You will need to weigh the cost of performing the price analysis against the potential benefit of cost savings.",
+      "plain_text": "You must request the offeror to provide an itemized price breakdown. The extent of the analysis will depend on the contract value and the quality and completeness of the offeror\u2019s support data. You will need to weigh the cost of performing the price analysis against the potential benefit of cost savings."
+    }
+  ]
+}

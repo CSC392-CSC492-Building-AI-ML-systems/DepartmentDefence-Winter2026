@@ -1,0 +1,645 @@
+{
+  "doc_id": "c299f813be96",
+  "title": "Buyer's Guide Terminate or suspend a contract - Termination of contracts with financial security",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-contracts-financial-security",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-contracts-financial-security",
+  "doc_type": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": "2026-01-31",
+  "fetched_at": "2026-02-19T09:20:10.079667+00:00",
+  "content_hash": "1d57724fc3ea9960a3447d6470047cc079b086da67da21a5bea4aae9537b52e8",
+  "word_count": 591,
+  "text_path": "data/corpus/buyers_guide__en-buyer-s-portal-buyer-s-guide-manage-terminate-or-suspend-contract-termination-contracts-financial-security__c299f813be.md",
+  "extraction_method": "buyers_guide_regions",
+  "breadcrumbs": [
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "https://canadabuys.canada.ca/en",
+      "canonical_url": "https://canadabuys.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "in_scope": true
+    },
+    {
+      "title": "Terminate or suspend a contract",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract",
+      "in_scope": true
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract",
+    "parent_doc_id": "fbe0f53b22b5",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-contracts-financial-security"
+    ],
+    "lineage_doc_ids": [
+      "1e29c7881335",
+      "fbe0f53b22b5",
+      "c299f813be96"
+    ],
+    "depth": 2,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/best-practices-contract-close-out",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/contract-close-out-activities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/alternative-dispute-resolution",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/assignment-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/buyer-and-client-responsibilites",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/certifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/contract-dispute-resolution",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/employer-employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/integrity-provisions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/protecting-canada-s-interests",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/subcontracting",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/task-authorizations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/vendor-performance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/assignment-monies",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/claims-progress-payments-and-invoicing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/cost-reimbursable-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/exchange-rate-fluctuation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/final-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/financial-claims",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/fixed-time-rate-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/interest-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/overtime",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/refund-excess-profits",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/administrative-guidance-implementing-contract-modifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/considerations-when-making-amendments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/design-change-or-deviation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/exercise-options",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/procedural-elements-amending-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/revisions-standing-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/approval-authority",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/legal-services",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/public-services-and-procurement-canada-offices-outside-canada",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/source-lists",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/suspension-work-and-stop-work-orders",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-convenience",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-default",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-mutual-consent"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/award-contract/elements-consider-award",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/best-practices-contract-close-out",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/contract-close-out-activities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/alternative-dispute-resolution",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/assignment-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/buyer-and-client-responsibilites",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/certifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/contract-dispute-resolution",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/employer-employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/integrity-provisions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/protecting-canada-s-interests",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/subcontracting",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/task-authorizations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/vendor-performance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/assignment-monies",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/claims-progress-payments-and-invoicing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/cost-reimbursable-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/exchange-rate-fluctuation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/final-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/financial-claims",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/fixed-time-rate-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/interest-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/overtime",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/refund-excess-profits",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/administrative-guidance-implementing-contract-modifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/considerations-when-making-amendments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/design-change-or-deviation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/exercise-options",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/procedural-elements-amending-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/revisions-standing-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/approval-authority",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/legal-services",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/public-services-and-procurement-canada-offices-outside-canada",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/source-lists",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/suspension-work-and-stop-work-orders",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-convenience",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-default",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-mutual-consent",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure": {
+    "block_count": 20,
+    "section_count": 9,
+    "heading_count": 8,
+    "paragraph_count": 10,
+    "list_count": 2,
+    "table_count": 0
+  },
+  "sections": [
+    {
+      "section_id": "c299f813be96::root",
+      "parent_section_id": null,
+      "level": 0,
+      "heading": "Buyer's Guide Terminate or suspend a contract - Termination of contracts with financial security",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination of contracts with financial security"
+      ],
+      "block_count": 0,
+      "word_count": 0,
+      "char_count": 0,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": null,
+      "last_block_index": null,
+      "preview": "",
+      "prev_section_id": null,
+      "next_section_id": null
+    },
+    {
+      "section_id": "c299f813be96::s001",
+      "parent_section_id": "c299f813be96::root",
+      "level": 1,
+      "heading": "Buyer's Guide Terminate or suspend a contract - Termination of contracts with financial security",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination of contracts with financial security",
+        "Buyer's Guide Terminate or suspend a contract - Termination of contracts with financial security"
+      ],
+      "block_count": 1,
+      "word_count": 14,
+      "char_count": 96,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 0,
+      "last_block_index": 0,
+      "preview": "Buyer's Guide Terminate or suspend a contract - Termination of contracts with financial security",
+      "prev_section_id": null,
+      "next_section_id": "c299f813be96::s002"
+    },
+    {
+      "section_id": "c299f813be96::s002",
+      "parent_section_id": "c299f813be96::root",
+      "level": 1,
+      "heading": "Buyer's Guide",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination of contracts with financial security",
+        "Buyer's Guide"
+      ],
+      "block_count": 2,
+      "word_count": 20,
+      "char_count": 111,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 0,
+      "first_block_index": 1,
+      "last_block_index": 2,
+      "preview": "Buyer's Guide Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage",
+      "prev_section_id": "c299f813be96::s001",
+      "next_section_id": "c299f813be96::s003"
+    },
+    {
+      "section_id": "c299f813be96::s003",
+      "parent_section_id": "c299f813be96::s002",
+      "level": 2,
+      "heading": "Termination of contracts with financial security",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination of contracts with financial security",
+        "Buyer's Guide",
+        "Termination of contracts with financial security"
+      ],
+      "block_count": 3,
+      "word_count": 118,
+      "char_count": 764,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 2,
+      "first_block_index": 3,
+      "last_block_index": 5,
+      "preview": "Termination of contracts with financial security If the contract is secured by a security deposit (government guaranteed bonds, bills of exchange, or irrevocable standby letters of credit), it should not be terminated without prior advice o",
+      "prev_section_id": "c299f813be96::s002",
+      "next_section_id": "c299f813be96::s004"
+    },
+    {
+      "section_id": "c299f813be96::s004",
+      "parent_section_id": "c299f813be96::s003",
+      "level": 3,
+      "heading": "Surety and performance bonds",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination of contracts with financial security",
+        "Buyer's Guide",
+        "Termination of contracts with financial security",
+        "Surety and performance bonds"
+      ],
+      "block_count": 3,
+      "word_count": 137,
+      "char_count": 839,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 2,
+      "first_block_index": 6,
+      "last_block_index": 8,
+      "preview": "Surety and performance bonds If the contract is secured by surety bonds, it must not be terminated as this would also terminate the existing contractual relationship with the bonding company. When a contractor fails to perform a contract, o",
+      "prev_section_id": "c299f813be96::s003",
+      "next_section_id": "c299f813be96::s005"
+    },
+    {
+      "section_id": "c299f813be96::s005",
+      "parent_section_id": "c299f813be96::s003",
+      "level": 3,
+      "heading": "Integrity compliance and verification in contract terminations",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination of contracts with financial security",
+        "Buyer's Guide",
+        "Termination of contracts with financial security",
+        "Integrity compliance and verification in contract terminations"
+      ],
+      "block_count": 3,
+      "word_count": 92,
+      "char_count": 622,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 2,
+      "first_block_index": 9,
+      "last_block_index": 11,
+      "preview": "Integrity compliance and verification in contract terminations To comply with the Ineligibility and Suspension Policy , the surety or completing contractor needs to provide a signed certification (see letter templates for integrity ). If ap",
+      "prev_section_id": "c299f813be96::s004",
+      "next_section_id": "c299f813be96::s006"
+    },
+    {
+      "section_id": "c299f813be96::s006",
+      "parent_section_id": "c299f813be96::s005",
+      "level": 4,
+      "heading": "Integrity declaration form",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination of contracts with financial security",
+        "Buyer's Guide",
+        "Termination of contracts with financial security",
+        "Integrity compliance and verification in contract terminations",
+        "Integrity declaration form"
+      ],
+      "block_count": 2,
+      "word_count": 25,
+      "char_count": 176,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 12,
+      "last_block_index": 13,
+      "preview": "Integrity declaration form If needed, you should direct the surety or completing contractor to use the Integrity declaration form \u2013 replacement entity and completing contractor.",
+      "prev_section_id": "c299f813be96::s005",
+      "next_section_id": "c299f813be96::s007"
+    },
+    {
+      "section_id": "c299f813be96::s007",
+      "parent_section_id": "c299f813be96::s005",
+      "level": 4,
+      "heading": "Non-compliance",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination of contracts with financial security",
+        "Buyer's Guide",
+        "Termination of contracts with financial security",
+        "Integrity compliance and verification in contract terminations",
+        "Non-compliance"
+      ],
+      "block_count": 3,
+      "word_count": 123,
+      "char_count": 774,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 14,
+      "last_block_index": 16,
+      "preview": "Non-compliance If the surety or completing contractor, or as applicable its affiliates, is found to be ineligible or suspended under the Ineligibility and Suspension Policy , you may: For sureties , decline to direct the surety to complete ",
+      "prev_section_id": "c299f813be96::s006",
+      "next_section_id": "c299f813be96::s008"
+    },
+    {
+      "section_id": "c299f813be96::s008",
+      "parent_section_id": "c299f813be96::s005",
+      "level": 4,
+      "heading": "Verification of first-tier subcontractor",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination of contracts with financial security",
+        "Buyer's Guide",
+        "Termination of contracts with financial security",
+        "Integrity compliance and verification in contract terminations",
+        "Verification of first-tier subcontractor"
+      ],
+      "block_count": 3,
+      "word_count": 62,
+      "char_count": 469,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 2,
+      "first_block_index": 17,
+      "last_block_index": 19,
+      "preview": "Verification of first-tier subcontractor Sureties and completing contractors are responsible for verifying the status of first-tier subcontractors before entering into a contractual relationship. Even if a pre-existing contractual relations",
+      "prev_section_id": "c299f813be96::s007",
+      "next_section_id": null
+    }
+  ],
+  "tables": [],
+  "blocks": [
+    {
+      "block_id": "c299f813be96::b0001",
+      "section_id": "c299f813be96::s001",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination of contracts with financial security",
+        "Buyer's Guide Terminate or suspend a contract - Termination of contracts with financial security"
+      ],
+      "markdown": "# Buyer's Guide Terminate or suspend a contract - Termination of contracts with financial security",
+      "plain_text": "Buyer's Guide Terminate or suspend a contract - Termination of contracts with financial security"
+    },
+    {
+      "block_id": "c299f813be96::b0002",
+      "section_id": "c299f813be96::s002",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination of contracts with financial security",
+        "Buyer's Guide"
+      ],
+      "markdown": "# Buyer's Guide",
+      "plain_text": "Buyer's Guide"
+    },
+    {
+      "block_id": "c299f813be96::b0003",
+      "section_id": "c299f813be96::s002",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination of contracts with financial security",
+        "Buyer's Guide"
+      ],
+      "markdown": "- Plan\n- Approve\n- Create solicitation\n- Solicit\n- Receive and evaluate\n- Negotiate\n- Award\n- Manage",
+      "plain_text": "Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage"
+    },
+    {
+      "block_id": "c299f813be96::b0004",
+      "section_id": "c299f813be96::s003",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination of contracts with financial security",
+        "Buyer's Guide",
+        "Termination of contracts with financial security"
+      ],
+      "markdown": "## Termination of contracts with financial security",
+      "plain_text": "Termination of contracts with financial security"
+    },
+    {
+      "block_id": "c299f813be96::b0005",
+      "section_id": "c299f813be96::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination of contracts with financial security",
+        "Buyer's Guide",
+        "Termination of contracts with financial security"
+      ],
+      "markdown": "If the contract is secured by a security deposit (government guaranteed bonds, bills of exchange, or irrevocable standby letters of credit), it should not be terminated without prior advice of legal services.",
+      "plain_text": "If the contract is secured by a security deposit (government guaranteed bonds, bills of exchange, or irrevocable standby letters of credit), it should not be terminated without prior advice of legal services."
+    },
+    {
+      "block_id": "c299f813be96::b0006",
+      "section_id": "c299f813be96::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination of contracts with financial security",
+        "Buyer's Guide",
+        "Termination of contracts with financial security"
+      ],
+      "markdown": "Where a contract, in respect of which a security deposit (government guaranteed bonds, bills of exchange, irrevocable standby letters of credit) was given, has terminated through no fault of the contractor, the security deposit must be returned to the contractor. The PSPC buyer must instruct the Finance Branch to requisition a cheque for the amount of a bill of exchange plus accumulated interest, or to request to arrange the release of bonds, letters of credit and other negotiable instruments deposited.",
+      "plain_text": "Where a contract, in respect of which a security deposit (government guaranteed bonds, bills of exchange, irrevocable standby letters of credit) was given, has terminated through no fault of the contractor, the security deposit must be returned to the contractor. The PSPC buyer must instruct the Finance Branch to requisition a cheque for the amount of a bill of exchange plus accumulated interest, or to request to arrange the release of bonds, letters of credit and other negotiable instruments deposited."
+    },
+    {
+      "block_id": "c299f813be96::b0007",
+      "section_id": "c299f813be96::s004",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination of contracts with financial security",
+        "Buyer's Guide",
+        "Termination of contracts with financial security",
+        "Surety and performance bonds"
+      ],
+      "markdown": "### Surety and performance bonds",
+      "plain_text": "Surety and performance bonds"
+    },
+    {
+      "block_id": "c299f813be96::b0008",
+      "section_id": "c299f813be96::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination of contracts with financial security",
+        "Buyer's Guide",
+        "Termination of contracts with financial security",
+        "Surety and performance bonds"
+      ],
+      "markdown": "If the contract is secured by surety bonds, it must not be terminated as this would also terminate the existing contractual relationship with the bonding company. When a contractor fails to perform a contract, or when a claim is received for non-payment of labour or material, and a payment bond is in place, you must immediately inform the surety company in writing requesting that corrective action be taken. You must not enter negotiations with the contractor or claimants.",
+      "plain_text": "If the contract is secured by surety bonds, it must not be terminated as this would also terminate the existing contractual relationship with the bonding company. When a contractor fails to perform a contract, or when a claim is received for non-payment of labour or material, and a payment bond is in place, you must immediately inform the surety company in writing requesting that corrective action be taken. You must not enter negotiations with the contractor or claimants."
+    },
+    {
+      "block_id": "c299f813be96::b0009",
+      "section_id": "c299f813be96::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination of contracts with financial security",
+        "Buyer's Guide",
+        "Termination of contracts with financial security",
+        "Surety and performance bonds"
+      ],
+      "markdown": "If the contract is secured by a performance bond and you intend to direct the surety to complete the work, you must first verify the surety\u2019s compliance with the Ineligibility and Suspension Policy . If the surety plans to enter into a contract with a completing contractor, you must also verify the completing contractor\u2019s compliance.",
+      "plain_text": "If the contract is secured by a performance bond and you intend to direct the surety to complete the work, you must first verify the surety\u2019s compliance with the Ineligibility and Suspension Policy . If the surety plans to enter into a contract with a completing contractor, you must also verify the completing contractor\u2019s compliance."
+    },
+    {
+      "block_id": "c299f813be96::b0010",
+      "section_id": "c299f813be96::s005",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination of contracts with financial security",
+        "Buyer's Guide",
+        "Termination of contracts with financial security",
+        "Integrity compliance and verification in contract terminations"
+      ],
+      "markdown": "### Integrity compliance and verification in contract terminations",
+      "plain_text": "Integrity compliance and verification in contract terminations"
+    },
+    {
+      "block_id": "c299f813be96::b0011",
+      "section_id": "c299f813be96::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination of contracts with financial security",
+        "Buyer's Guide",
+        "Termination of contracts with financial security",
+        "Integrity compliance and verification in contract terminations"
+      ],
+      "markdown": "To comply with the Ineligibility and Suspension Policy , the surety or completing contractor needs to provide a signed certification (see letter templates for integrity ). If applicable, the surety or completing contractor must also provide a list of names of directors, or the names of the owners for privately owned corporations. You must then verify integrity compliance with the Ineligibility and Suspension Policy as outlined in Integrity compliance .",
+      "plain_text": "To comply with the Ineligibility and Suspension Policy , the surety or completing contractor needs to provide a signed certification (see letter templates for integrity ). If applicable, the surety or completing contractor must also provide a list of names of directors, or the names of the owners for privately owned corporations. You must then verify integrity compliance with the Ineligibility and Suspension Policy as outlined in Integrity compliance ."
+    },
+    {
+      "block_id": "c299f813be96::b0012",
+      "section_id": "c299f813be96::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination of contracts with financial security",
+        "Buyer's Guide",
+        "Termination of contracts with financial security",
+        "Integrity compliance and verification in contract terminations"
+      ],
+      "markdown": "Please refer to the Forms for supplier integrity page for sample letters regarding contractor integrity.",
+      "plain_text": "Please refer to the Forms for supplier integrity page for sample letters regarding contractor integrity."
+    },
+    {
+      "block_id": "c299f813be96::b0013",
+      "section_id": "c299f813be96::s006",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination of contracts with financial security",
+        "Buyer's Guide",
+        "Termination of contracts with financial security",
+        "Integrity compliance and verification in contract terminations",
+        "Integrity declaration form"
+      ],
+      "markdown": "#### Integrity declaration form",
+      "plain_text": "Integrity declaration form"
+    },
+    {
+      "block_id": "c299f813be96::b0014",
+      "section_id": "c299f813be96::s006",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination of contracts with financial security",
+        "Buyer's Guide",
+        "Termination of contracts with financial security",
+        "Integrity compliance and verification in contract terminations",
+        "Integrity declaration form"
+      ],
+      "markdown": "If needed, you should direct the surety or completing contractor to use the Integrity declaration form \u2013 replacement entity and completing contractor.",
+      "plain_text": "If needed, you should direct the surety or completing contractor to use the Integrity declaration form \u2013 replacement entity and completing contractor."
+    },
+    {
+      "block_id": "c299f813be96::b0015",
+      "section_id": "c299f813be96::s007",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination of contracts with financial security",
+        "Buyer's Guide",
+        "Termination of contracts with financial security",
+        "Integrity compliance and verification in contract terminations",
+        "Non-compliance"
+      ],
+      "markdown": "#### Non-compliance",
+      "plain_text": "Non-compliance"
+    },
+    {
+      "block_id": "c299f813be96::b0016",
+      "section_id": "c299f813be96::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination of contracts with financial security",
+        "Buyer's Guide",
+        "Termination of contracts with financial security",
+        "Integrity compliance and verification in contract terminations",
+        "Non-compliance"
+      ],
+      "markdown": "If the surety or completing contractor, or as applicable its affiliates, is found to be ineligible or suspended under the Ineligibility and Suspension Policy , you may:",
+      "plain_text": "If the surety or completing contractor, or as applicable its affiliates, is found to be ineligible or suspended under the Ineligibility and Suspension Policy , you may:"
+    },
+    {
+      "block_id": "c299f813be96::b0017",
+      "section_id": "c299f813be96::s007",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination of contracts with financial security",
+        "Buyer's Guide",
+        "Termination of contracts with financial security",
+        "Integrity compliance and verification in contract terminations",
+        "Non-compliance"
+      ],
+      "markdown": "- For sureties , decline to direct the surety to complete the contract work and invoke another condition in the performance bond, including the option for the surety to propose the use of a completing contractor\n- For completing contractors , refuse approval and require the surety to propose a new completing contractor\n- In either case, request a public interest exception to the Deputy Head or equivalent for the contract to proceed with an ineligible surety or completing contractor (refer to the Ineligibility and Suspension Policy for details where the offeror is ineligible or suspended)",
+      "plain_text": "For sureties , decline to direct the surety to complete the contract work and invoke another condition in the performance bond, including the option for the surety to propose the use of a completing contractor ; For completing contractors , refuse approval and require the surety to propose a new completing contractor ; In either case, request a public interest exception to the Deputy Head or equivalent for the contract to proceed with an ineligible surety or completing contractor (refer to the Ineligibility and Suspension Policy for details where the offeror is ineligible or suspended)"
+    },
+    {
+      "block_id": "c299f813be96::b0018",
+      "section_id": "c299f813be96::s008",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination of contracts with financial security",
+        "Buyer's Guide",
+        "Termination of contracts with financial security",
+        "Integrity compliance and verification in contract terminations",
+        "Verification of first-tier subcontractor"
+      ],
+      "markdown": "#### Verification of first-tier subcontractor",
+      "plain_text": "Verification of first-tier subcontractor"
+    },
+    {
+      "block_id": "c299f813be96::b0019",
+      "section_id": "c299f813be96::s008",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination of contracts with financial security",
+        "Buyer's Guide",
+        "Termination of contracts with financial security",
+        "Integrity compliance and verification in contract terminations",
+        "Verification of first-tier subcontractor"
+      ],
+      "markdown": "Sureties and completing contractors are responsible for verifying the status of first-tier subcontractors before entering into a contractual relationship. Even if a pre-existing contractual relationship exists with a first-tier contractor, their status must still be verified for work under this defaulted contract.",
+      "plain_text": "Sureties and completing contractors are responsible for verifying the status of first-tier subcontractors before entering into a contractual relationship. Even if a pre-existing contractual relationship exists with a first-tier contractor, their status must still be verified for work under this defaulted contract."
+    },
+    {
+      "block_id": "c299f813be96::b0020",
+      "section_id": "c299f813be96::s008",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination of contracts with financial security",
+        "Buyer's Guide",
+        "Termination of contracts with financial security",
+        "Integrity compliance and verification in contract terminations",
+        "Verification of first-tier subcontractor"
+      ],
+      "markdown": "For details and options when a first-tier subcontractor is ineligible or suspended, consult Integrity compliance .",
+      "plain_text": "For details and options when a first-tier subcontractor is ineligible or suspended, consult Integrity compliance ."
+    }
+  ]
+}

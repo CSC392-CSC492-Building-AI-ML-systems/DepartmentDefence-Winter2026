@@ -1,0 +1,137 @@
+# Buyer's Guide Define the requirement - Socioeconomic requirements definition
+
+# Buyer's Guide
+
+- Plan
+- Approve
+- Create solicitation
+- Solicit
+- Receive and evaluate
+- Negotiate
+- Award
+- Manage
+
+Socioeconomic requirements definition The following describes the socioeconomic requirements that you must take into consideration. Green procurement requirements definition Canada is committed to implementing the Policy on Green Procurement . To ensure that the government cost effectively procures, operates and disposes of its assets that protects the environment and supports sustainable development objectives. This commitment is reflected across the entire procurement process, from planning and acquisition through use and disposal. You must assist clients in defining their procurement needs by: evaluating if new purchases are essential, recognizing that the most sustainable option may be to avoid purchasing altogether reviewing opportunities for the client to meet their obligations and departmental green procurement targets Key considerations include: assessing the need, utilization, and scale of procurement to potentially reduce requirements confirming the appropriateness and usage certainty of requested quantities considering the feasibility of alternatives such as short term leasing, renting, or sharing exploring internal solutions or utilizing government surplus to fulfill requirements combining requirements with other departments when suitable to leverage economies of scale, reduce packaging, and conserve resources Comprehensive green procurement practices Canada's Policy on Green Procurement aligns with Treasury Board policies on assets and acquired services. It emphasizes the integration of environmental performance and costs throughout the life cycle of assets and acquired services, including planning, acquisition, use, and disposal. This approach ensures a comprehensive assessment of value for money, by considering environmental impact alongside traditional cost elements. Here are some key environmental factors and related cost elements for you to consider when assessing value for money in the evaluation of offers: operational costs (e.g. energy or water consumed by the good over its life) indirect costs (impacts of less energy-efficient equipment on other systems, such as increased energy use due to additional cooling requirements) administrative costs (e.g. costs to comply with environmental regulations like the Workplace Hazardous Materials Information System (WHMIS)) upfront investments (costs saved over time through measures like enhanced insulation) disposal costs (expenses associated with the disposal of assets) The application of Total Life Cycle Costing involves the aggregation of Product, Resource, Operating, and Contingent (PROC) costs. This methodology is crucial for integrating environmental considerations into procurement processes. It ensures that value for money encompasses environmental performance alongside cost, quality, and availability. The PROC technique is particularly recommended for significant projects with substantial operating costs, for example, major construction projects or motor vehicle purchases. You must ensure that procurements achieve value for money for Canada, incorporating considerations such as cost, performance, availability, quality, and environmental performance. To ensure these you must: integrate green procurement principles to address environmental considerations when preparing solicitation of offers documents, contracts, requests for standing offers and supply arrangements, if appropriate. collaborate with relevant teams on developing and implementing green procurement plans to ensure environmental aspects of specific product and service categories and departmental green procurement targets are considered under the Commodity Management Policy , you must develop and adhere to a green procurement plan for relevant products and service categories, ensuring procurements align with environmental objectives Note: The Green Procurement Tools website offers valuable information. Including, the Completed Green Procurement Plans, related templates, a list of green standing offers (SO), supply arrangements (SA), contracts and a repertoire of existing contracting language related to green procurement. develop clauses and conditions focused on environmental performance as needed, pending the establishment of centrally developed, standard clauses and conditions for environmental performance Note : non-standardized clauses and conditions must receive approval from Legal Services. For help incorporating environmental considerations into your procurement documents, ensuring alignment with departmental targets and leveraging experiences from other departments, PSPC buyers can contact the Green Procurement team by email . For green procurement environmental factors and evaluation indicators, refer to Socioeconomic evaluation criteria . Accessible procurement requirements definition The Government of Canada is committed to making federal procurement in Canada barrier-free for the broadest range of end-users. It aligns with the Accessible Canada Act to create inclusive access to federally purchased goods, services, and construction through the identification and removal of accessibility barriers and the prevention of new ones. You should ensure this commitment is reflected throughout the procurement process, by working with your client to ensure accessibility is considered in every procurement decision as mandated by the Treasury Board per the accessibility requirements of the Directive on the Management of Procurement . The TB Directive states that departments must: Where appropriate, include accessibility considerations when specifying requirements for goods, services and construction, and ensuring that deliverables incorporate accessibility features Ensure clear justification is documented if it is determined that accessibility considerations are not consistent with modern treaties or trade agreements, or if it is not appropriate to include them as part of commodity specifications, or if it is not possible to obtain goods, services or construction that comply You should guide the client in circumstances where there is an awareness of accessibility criteria being used for solicitations with the same type of commodity. You are responsible for: ensuring that clients have considered accessibility and included accessibility requirements, where appropriate playing a challenge-function role with the client if accessibility standards apply to the procurement and accessibility has not been addressed ensuring that the client provides a written justification if accessibility criteria are not appropriate or the procurement of goods or services that comply were unable to be obtained The client is responsible for: ensuring accessibility is considered when defining the requirements of the procurement and including accessibility criteria in the specifications, if applicable providing a justification when accessibility criteria are not included Key considerations in defining the requirement are: consider using a Request for Information to understand market availability of accessible goods or services engage with end-users or groups representing persons with disabilities consider integrating accessibility standards into procurement requirements or leveraging universal design principles to develop accessibility criteria to be built into the requirements of the procurement to build flexibility into the design so that end-deliverables incorporate accessibility features ensure that, in the absence of specific standards, products are chosen with flexible or inclusive features for the broadest usability clearly identify accessibility requirements in the statement of work and solicitation of offers evaluation criteria, ensuring that these requirements are applicable and appropriate utilize prototypes and product demonstrations to validate that the final deliverables meet the stipulated accessibility requirements Note : Accessibility will not be prioritized over Canada’s obligations under trade agreements and Comprehensive Land Claims Agreements (CLCAs). Accessible procurement resources For further guidance on accessibility factors and indicators for planning and identifying accessibility requirements, refer to: Factors and considerations the Accessible Procurement Resource Centre Accessible Procurement Resource Centre (accessible only on the Government of Canada network) PSPC ’s Accessibility Office (accessible only on the Government of Canada network) Treasury Board Secretariat’s Office of Public Service Accessibility (accessible only on the Government of Canada network) Accessibility in the public service Guide to Considering Accessibility When Procuring Goods and Services Guide for Including Accessibility in Information and Communication Technology (ICT) Related Procurement Digital Accessibility Toolkit Requirements definition under Comprehensive Land Claims Agreements (CLCA) In alignment with CLCA , you must ensure the requirements definition for a procurement adhere to practices that are both practical and consistent with sound procurement management. Practices that are both practical and consistent with sound procurement management include: avoiding artificially inflated employment skills requirements to ensure fair access to procurement opportunities considering the separation of requirements into commodity or geographic groupings to facilitate greater participation by smaller and more specialized businesses For example, the Nunavut Land Claims Agreement specifies measures designed to enhance competitive participation by Inuit firms in the Nunavut Settlement Area. These measures include: setting solicitation of offers dates, locations, and terms and conditions for submitting offers that enable Inuit firms to participate readily organizing solicitation of offers by products and service categories to allow smaller and specialized firms better access allowing offers for specific portions of a larger requirements to encourage participation from smaller firms designing construction contracts to increase opportunities for these firms avoiding artificially inflated employment skills requirements not essential to the fulfillment Other agreements with similar provisions include: James Bay and Northern Quebec Agreement (Inuit portion) Sahtu Dene and Metis Comprehensive Land Claim Agreement (Implementation Plan) Labrador Inuit Land Claims Agreement Nunavik Inuit Land Claims Agreement Eeyou Marine Region Land Claims Agreement CLCA often include specific provisions regarding access to designated lands. Buyers and clients are advised to consult with PSPC ’s Indigenous Procurement Policy Directorate to verify if the location of a procurement activity falls under these provisions and to ascertain if any access permits are necessary. Contact PSPC ’s the Indigenous Procurement Policy Case Management Team by email.
+
+## Socioeconomic requirements definition
+
+The following describes the socioeconomic requirements that you must take into consideration.
+
+### Green procurement requirements definition
+
+Canada is committed to implementing the Policy on Green Procurement . To ensure that the government cost effectively procures, operates and disposes of its assets that protects the environment and supports sustainable development objectives. This commitment is reflected across the entire procurement process, from planning and acquisition through use and disposal.
+
+You must assist clients in defining their procurement needs by:
+
+- evaluating if new purchases are essential, recognizing that the most sustainable option may be to avoid purchasing altogether
+- reviewing opportunities for the client to meet their obligations and departmental green procurement targets
+
+Key considerations include:
+
+- assessing the need, utilization, and scale of procurement to potentially reduce requirements
+- confirming the appropriateness and usage certainty of requested quantities considering the feasibility of alternatives such as short term leasing, renting, or sharing
+- exploring internal solutions or utilizing government surplus to fulfill requirements
+- combining requirements with other departments when suitable to leverage economies of scale, reduce packaging, and conserve resources
+
+#### Comprehensive green procurement practices
+
+Canada's Policy on Green Procurement aligns with Treasury Board policies on assets and acquired services. It emphasizes the integration of environmental performance and costs throughout the life cycle of assets and acquired services, including planning, acquisition, use, and disposal. This approach ensures a comprehensive assessment of value for money, by considering environmental impact alongside traditional cost elements.
+
+Here are some key environmental factors and related cost elements for you to consider when assessing value for money in the evaluation of offers:
+
+- operational costs (e.g. energy or water consumed by the good over its life)
+- indirect costs (impacts of less energy-efficient equipment on other systems, such as increased energy use due to additional cooling requirements)
+- administrative costs (e.g. costs to comply with environmental regulations like the Workplace Hazardous Materials Information System (WHMIS))
+- upfront investments (costs saved over time through measures like enhanced insulation)
+- disposal costs (expenses associated with the disposal of assets)
+
+The application of Total Life Cycle Costing involves the aggregation of Product, Resource, Operating, and Contingent (PROC) costs. This methodology is crucial for integrating environmental considerations into procurement processes. It ensures that value for money encompasses environmental performance alongside cost, quality, and availability.
+
+The PROC technique is particularly recommended for significant projects with substantial operating costs, for example, major construction projects or motor vehicle purchases.
+
+You must ensure that procurements achieve value for money for Canada, incorporating considerations such as cost, performance, availability, quality, and environmental performance. To ensure these you must:
+
+- integrate green procurement principles to address environmental considerations when preparing solicitation of offers documents, contracts, requests for standing offers and supply arrangements, if appropriate.
+- collaborate with relevant teams on developing and implementing green procurement plans to ensure environmental aspects of specific product and service categories and departmental green procurement targets are considered
+- under the Commodity Management Policy , you must develop and adhere to a green procurement plan for relevant products and service categories, ensuring procurements align with environmental objectives
+
+Note: The Green Procurement Tools website offers valuable information. Including, the Completed Green Procurement Plans, related templates, a list of green standing offers (SO), supply arrangements (SA), contracts and a repertoire of existing contracting language related to green procurement.
+
+- develop clauses and conditions focused on environmental performance as needed, pending the establishment of centrally developed, standard clauses and conditions for environmental performance
+
+Note : non-standardized clauses and conditions must receive approval from Legal Services.
+
+For help incorporating environmental considerations into your procurement documents, ensuring alignment with departmental targets and leveraging experiences from other departments, PSPC buyers can contact the Green Procurement team by email .
+
+For green procurement environmental factors and evaluation indicators, refer to Socioeconomic evaluation criteria .
+
+### Accessible procurement requirements definition
+
+The Government of Canada is committed to making federal procurement in Canada barrier-free for the broadest range of end-users. It aligns with the Accessible Canada Act to create inclusive access to federally purchased goods, services, and construction through the identification and removal of accessibility barriers and the prevention of new ones. You should ensure this commitment is reflected throughout the procurement process, by working with your client to ensure accessibility is considered in every procurement decision as mandated by the Treasury Board per the accessibility requirements of the Directive on the Management of Procurement .
+
+The TB Directive states that departments must:
+
+1. Where appropriate, include accessibility considerations when specifying requirements for goods, services and construction, and ensuring that deliverables incorporate accessibility features
+2. Ensure clear justification is documented if it is determined that accessibility considerations are not consistent with modern treaties or trade agreements, or if it is not appropriate to include them as part of commodity specifications, or if it is not possible to obtain goods, services or construction that comply
+
+You should guide the client in circumstances where there is an awareness of accessibility criteria being used for solicitations with the same type of commodity. You are responsible for:
+
+- ensuring that clients have considered accessibility and included accessibility requirements, where appropriate
+- playing a challenge-function role with the client if accessibility standards apply to the procurement and accessibility has not been addressed
+- ensuring that the client provides a written justification if accessibility criteria are not appropriate or the procurement of goods or services that comply were unable to be obtained
+
+The client is responsible for:
+
+- ensuring accessibility is considered when defining the requirements of the procurement and including accessibility criteria in the specifications, if applicable
+- providing a justification when accessibility criteria are not included
+
+Key considerations in defining the requirement are:
+
+- consider using a Request for Information to understand market availability of accessible goods or services
+- engage with end-users or groups representing persons with disabilities
+- consider integrating accessibility standards into procurement requirements or leveraging universal design principles to develop accessibility criteria to be built into the requirements of the procurement to build flexibility into the design so that end-deliverables incorporate accessibility features
+- ensure that, in the absence of specific standards, products are chosen with flexible or inclusive features for the broadest usability
+- clearly identify accessibility requirements in the statement of work and solicitation of offers evaluation criteria, ensuring that these requirements are applicable and appropriate
+- utilize prototypes and product demonstrations to validate that the final deliverables meet the stipulated accessibility requirements
+
+Note : Accessibility will not be prioritized over Canada’s obligations under trade agreements and Comprehensive Land Claims Agreements (CLCAs).
+
+#### Accessible procurement resources
+
+For further guidance on accessibility factors and indicators for planning and identifying accessibility requirements, refer to:
+
+- Factors and considerations
+- the Accessible Procurement Resource Centre Accessible Procurement Resource Centre (accessible only on the Government of Canada network)
+- PSPC ’s Accessibility Office (accessible only on the Government of Canada network)
+- Treasury Board Secretariat’s Office of Public Service Accessibility (accessible only on the Government of Canada network)
+- Accessibility in the public service
+- Guide to Considering Accessibility When Procuring Goods and Services
+- Guide for Including Accessibility in Information and Communication Technology (ICT) Related Procurement
+- Digital Accessibility Toolkit
+
+### Requirements definition under Comprehensive Land Claims Agreements (CLCA)
+
+In alignment with CLCA , you must ensure the requirements definition for a procurement adhere to practices that are both practical and consistent with sound procurement management.
+
+Practices that are both practical and consistent with sound procurement management include:
+
+- avoiding artificially inflated employment skills requirements to ensure fair access to procurement opportunities
+- considering the separation of requirements into commodity or geographic groupings to facilitate greater participation by smaller and more specialized businesses
+
+For example, the Nunavut Land Claims Agreement specifies measures designed to enhance competitive participation by Inuit firms in the Nunavut Settlement Area. These measures include:
+
+- setting solicitation of offers dates, locations, and terms and conditions for submitting offers that enable Inuit firms to participate readily
+- organizing solicitation of offers by products and service categories to allow smaller and specialized firms better access
+- allowing offers for specific portions of a larger requirements to encourage participation from smaller firms
+- designing construction contracts to increase opportunities for these firms
+- avoiding artificially inflated employment skills requirements not essential to the fulfillment
+
+Other agreements with similar provisions include:
+
+- James Bay and Northern Quebec Agreement (Inuit portion)
+- Sahtu Dene and Metis Comprehensive Land Claim Agreement (Implementation Plan)
+- Labrador Inuit Land Claims Agreement
+- Nunavik Inuit Land Claims Agreement
+- Eeyou Marine Region Land Claims Agreement
+
+CLCA often include specific provisions regarding access to designated lands. Buyers and clients are advised to consult with PSPC ’s Indigenous Procurement Policy Directorate to verify if the location of a procurement activity falls under these provisions and to ascertain if any access permits are necessary. Contact PSPC ’s the Indigenous Procurement Policy Case Management Team by email.

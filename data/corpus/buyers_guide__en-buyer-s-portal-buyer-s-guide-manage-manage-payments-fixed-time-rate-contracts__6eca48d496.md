@@ -1,0 +1,22 @@
+# Buyer's Guide Manage payments - Fixed time rate contracts
+
+# Buyer's Guide
+
+- Plan
+- Approve
+- Create solicitation
+- Solicit
+- Receive and evaluate
+- Negotiate
+- Award
+- Manage
+
+## Fixed time rate contracts
+
+Time charged and the accuracy of the contractor’s time recording are subject to verification by Canada. This can occur before or after payment is made to the contractor under the terms of the contract.
+
+This verification applies to all fixed time rate contracts, except those for equipment rentals and temporary help services, whether sourced competitively or non-competitively and regardless of value.
+
+The depth of verification should be proportional to the contract's value.
+
+Upon completion of a fixed time rate contract, the contractor must provide a submission detailing the actual time spent to perform the contract. In addition, an appropriate contract clause must be included to allow for the verification of time charged and the contractor's time recording system.

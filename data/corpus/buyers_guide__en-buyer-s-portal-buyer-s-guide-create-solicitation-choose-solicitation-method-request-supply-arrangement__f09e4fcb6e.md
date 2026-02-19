@@ -1,0 +1,76 @@
+# Buyer's Guide Choose a solicitation method - Request for supply arrangement
+
+# Buyer's Guide
+
+- Plan
+- Approve
+- Create solicitation
+- Solicit
+- Receive and evaluate
+- Negotiate
+- Award
+- Manage
+
+Request for supply arrangement A Request for supply arrangements (RFSA) is a method used to solicit offers from businesses to establish supply arrangements (SA). It establishes a qualified pool of offerors who meet specified evaluation criteria. The list of qualified offerors as a result of a RFSA is considered to be a source list under international trade agreements. Key elements of an RFSA should include, as a minimum: a clear description of the requirement instructions for offerors guidelines on preparing offers clear evaluation procedures and basis of selection criteria certification requirements industrial security requirements applicable to clients of the SA conditions applicable to the arrangement, including the terms of the solicitation resulting contract clauses applicable to any contract resulting from each solicitation how offerors can request information about RFSA results and how their offer was evaluated SA authorities should note that since the statement of work or requirement cannot be adequately defined in advance, only a preliminary review of the offerors financial capability will be conducted for the sole purpose of pre-qualifying offerors for SA s. Authorized users of a SA may include government departments, agencies or Crown corporations as listed in the Financial Administration Act 's Schedule I, II, or III. You must outline in the SA document the contracting limits for identified users. For goods, services or construction arrangements, the maximum contract limit may be guided by the Directive on the Management of Procurement ’ s Appendix A: Contracting Approvals. The Directive establishes the contract entry dollar limit for goods, services, and construction, above which approval from the Treasury Board is required. A legal contract does not exist between Canada and the offeror until a contract is awarded through the completion of form PWGSC-TPSGC 9400-4 (accessible only on the Government of Canada network). You should also state reporting requirements for the offeror or client, as applicable. The SA should indicate the time frame within which each report must be submitted following the reporting period. To determine whether trade agreements apply to an RFSA or its resulting contracts, refer to Applicability of trade agreements to standing offers and supply arrangements . International trade agreements and supply arrangements RFSA s subject to international trade agreements must be published at least annually on GETS and remain continuously available on GETS . Notices for RFSA s subject to international trade agreements must include: a description of goods/services, or categories participation conditions and criteria to be satisfied by offerors for inclusion on the list the verification methods for offeror qualification the contact details for the SA authority the validity period of the list and renewal or termination procedures the applicable trade agreements Offerors may qualify at any time and must be included in the SA promptly once qualified. However, after closing of the solicitation of offers, the buyer should not delay the contract award process in order to allow an offeror to go through the qualification process. Where the estimated value of a proposed contract under the SA is below the applicable trade agreement thresholds, those agreements do not apply. Where the estimated value of a proposed contract under the SA is equal to or above the applicable trade agreement thresholds, those agreements apply to the solicitation of offers. Where one or more of the international trade agreements apply to a solicitation under a SA , a Notice of proposed procurement (NPP) must be published on GETS . Canadian Free Trade Agreement and supply arrangements The CFTA applies when the value of a proposed contract under a SA exceeds the CFTA threshold. Below this threshold, CFTA does not apply. If CFTA applies, you can use the list of qualified offerors without publishing a NPP if both of the following conditions are met: you invite all offerors on the source list to submit offers businesses can apply to qualify on the list at any time As per CFTA , you must publish the existence of a list of qualified offerors annually by an invitation to qualify on GETS or in predetermined newspapers, including conditions for offeror qualification.
+
+## Request for supply arrangement
+
+A Request for supply arrangements (RFSA) is a method used to solicit offers from businesses to establish supply arrangements (SA). It establishes a qualified pool of offerors who meet specified evaluation criteria.
+
+The list of qualified offerors as a result of a RFSA is considered to be a source list under international trade agreements.
+
+Key elements of an RFSA should include, as a minimum:
+
+- a clear description of the requirement
+- instructions for offerors
+- guidelines on preparing offers
+- clear evaluation procedures and basis of selection criteria
+- certification requirements
+- industrial security requirements applicable to clients of the SA
+- conditions applicable to the arrangement, including the terms of the solicitation
+- resulting contract clauses applicable to any contract resulting from each solicitation
+- how offerors can request information about RFSA results and how their offer was evaluated
+
+SA authorities should note that since the statement of work or requirement cannot be adequately defined in advance, only a preliminary review of the offerors financial capability will be conducted for the sole purpose of pre-qualifying offerors for SA s.
+
+Authorized users of a SA may include government departments, agencies or Crown corporations as listed in the Financial Administration Act 's Schedule I, II, or III.
+
+You must outline in the SA document the contracting limits for identified users. For goods, services or construction arrangements, the maximum contract limit may be guided by the Directive on the Management of Procurement ’ s Appendix A: Contracting Approvals. The Directive establishes the contract entry dollar limit for goods, services, and construction, above which approval from the Treasury Board is required.
+
+A legal contract does not exist between Canada and the offeror until a contract is awarded through the completion of form PWGSC-TPSGC 9400-4 (accessible only on the Government of Canada network).
+
+You should also state reporting requirements for the offeror or client, as applicable. The SA should indicate the time frame within which each report must be submitted following the reporting period.
+
+To determine whether trade agreements apply to an RFSA or its resulting contracts, refer to Applicability of trade agreements to standing offers and supply arrangements .
+
+### International trade agreements and supply arrangements
+
+RFSA s subject to international trade agreements must be published at least annually on GETS and remain continuously available on GETS .
+
+Notices for RFSA s subject to international trade agreements must include:
+
+- a description of goods/services, or categories
+- participation conditions and criteria to be satisfied by offerors for inclusion on the list
+- the verification methods for offeror qualification
+- the contact details for the SA authority
+- the validity period of the list and renewal or termination procedures
+- the applicable trade agreements
+
+Offerors may qualify at any time and must be included in the SA promptly once qualified. However, after closing of the solicitation of offers, the buyer should not delay the contract award process in order to allow an offeror to go through the qualification process.
+
+Where the estimated value of a proposed contract under the SA is below the applicable trade agreement thresholds, those agreements do not apply.
+
+Where the estimated value of a proposed contract under the SA is equal to or above the applicable trade agreement thresholds, those agreements apply to the solicitation of offers.
+
+Where one or more of the international trade agreements apply to a solicitation under a SA , a Notice of proposed procurement (NPP) must be published on GETS .
+
+### Canadian Free Trade Agreement and supply arrangements
+
+The CFTA applies when the value of a proposed contract under a SA exceeds the CFTA threshold. Below this threshold, CFTA does not apply.
+
+If CFTA applies, you can use the list of qualified offerors without publishing a NPP if both of the following conditions are met:
+
+- you invite all offerors on the source list to submit offers
+- businesses can apply to qualify on the list at any time
+
+As per CFTA , you must publish the existence of a list of qualified offerors annually by an invitation to qualify on GETS or in predetermined newspapers, including conditions for offeror qualification.

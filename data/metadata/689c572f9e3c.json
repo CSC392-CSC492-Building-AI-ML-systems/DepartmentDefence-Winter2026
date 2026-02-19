@@ -1,0 +1,577 @@
+{
+  "doc_id": "689c572f9e3c",
+  "title": "Buyer's Guide Offer evaluation - Apply the phased offer compliance process",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/apply-phased-offer-compliance-process",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/apply-phased-offer-compliance-process",
+  "doc_type": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": "2026-01-31",
+  "fetched_at": "2026-02-19T09:18:51.471836+00:00",
+  "content_hash": "6aeec4b02b84433768ea7eb58df11dbc51375dc398d6b6a9fa51d4fb05b6afc2",
+  "word_count": 1271,
+  "text_path": "data/corpus/buyers_guide__en-buyer-s-portal-buyer-s-guide-receive-and-evaluate-offer-evaluation-apply-phased-offer-compliance-process__689c572f9e.md",
+  "extraction_method": "buyers_guide_regions",
+  "breadcrumbs": [
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "https://canadabuys.canada.ca/en",
+      "canonical_url": "https://canadabuys.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "in_scope": true
+    },
+    {
+      "title": "Offer evaluation",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation",
+      "in_scope": true
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation",
+    "parent_doc_id": "312c047b7781",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/apply-phased-offer-compliance-process"
+    ],
+    "lineage_doc_ids": [
+      "1e29c7881335",
+      "312c047b7781",
+      "689c572f9e3c"
+    ],
+    "depth": 2,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review/determine-if-peer-review-required",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review/roles-and-accountabilities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/conduct-financial-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/conduct-technical-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/decision-making-and-approvals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/evaluate-offeror-s-financial-capability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/evaluation-process",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/prepare-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/special-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/handle-late-or-delayed-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/handle-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/verify-offers"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review/determine-if-peer-review-required",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review/roles-and-accountabilities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/conduct-financial-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/conduct-technical-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/decision-making-and-approvals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/evaluate-offeror-s-financial-capability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/evaluation-process",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/prepare-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/special-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/handle-late-or-delayed-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/handle-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/verify-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure": {
+    "block_count": 24,
+    "section_count": 7,
+    "heading_count": 6,
+    "paragraph_count": 14,
+    "list_count": 4,
+    "table_count": 0
+  },
+  "sections": [
+    {
+      "section_id": "689c572f9e3c::root",
+      "parent_section_id": null,
+      "level": 0,
+      "heading": "Buyer's Guide Offer evaluation - Apply the phased offer compliance process",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Apply the phased offer compliance process"
+      ],
+      "block_count": 0,
+      "word_count": 0,
+      "char_count": 0,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": null,
+      "last_block_index": null,
+      "preview": "",
+      "prev_section_id": null,
+      "next_section_id": null
+    },
+    {
+      "section_id": "689c572f9e3c::s001",
+      "parent_section_id": "689c572f9e3c::root",
+      "level": 1,
+      "heading": "Buyer's Guide Offer evaluation - Apply the phased offer compliance process",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Apply the phased offer compliance process",
+        "Buyer's Guide Offer evaluation - Apply the phased offer compliance process"
+      ],
+      "block_count": 1,
+      "word_count": 11,
+      "char_count": 74,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 0,
+      "last_block_index": 0,
+      "preview": "Buyer's Guide Offer evaluation - Apply the phased offer compliance process",
+      "prev_section_id": null,
+      "next_section_id": "689c572f9e3c::s002"
+    },
+    {
+      "section_id": "689c572f9e3c::s002",
+      "parent_section_id": "689c572f9e3c::root",
+      "level": 1,
+      "heading": "Buyer's Guide",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Apply the phased offer compliance process",
+        "Buyer's Guide"
+      ],
+      "block_count": 3,
+      "word_count": 638,
+      "char_count": 4144,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 1,
+      "last_block_index": 3,
+      "preview": "Buyer's Guide Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage Apply the phased offer compliance process The phased offer compliance process (POCP) assesses the compliance of offers against ",
+      "prev_section_id": "689c572f9e3c::s001",
+      "next_section_id": "689c572f9e3c::s003"
+    },
+    {
+      "section_id": "689c572f9e3c::s003",
+      "parent_section_id": "689c572f9e3c::s002",
+      "level": 2,
+      "heading": "Apply the phased offer compliance process",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Apply the phased offer compliance process",
+        "Buyer's Guide",
+        "Apply the phased offer compliance process"
+      ],
+      "block_count": 3,
+      "word_count": 113,
+      "char_count": 772,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 2,
+      "first_block_index": 4,
+      "last_block_index": 6,
+      "preview": "Apply the phased offer compliance process The phased offer compliance process (POCP) assesses the compliance of offers against identified solicitation requirements. This approach supports competition by allowing offerors to submit missing f",
+      "prev_section_id": "689c572f9e3c::s002",
+      "next_section_id": "689c572f9e3c::s004"
+    },
+    {
+      "section_id": "689c572f9e3c::s004",
+      "parent_section_id": "689c572f9e3c::s003",
+      "level": 3,
+      "heading": "Phase I: Financial compliance assessment",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Apply the phased offer compliance process",
+        "Buyer's Guide",
+        "Apply the phased offer compliance process",
+        "Phase I: Financial compliance assessment"
+      ],
+      "block_count": 6,
+      "word_count": 194,
+      "char_count": 1245,
+      "table_count": 0,
+      "list_count": 2,
+      "paragraph_count": 3,
+      "first_block_index": 7,
+      "last_block_index": 12,
+      "preview": "Phase I: Financial compliance assessment In Phase I, you must review the financial offers to confirm they contain all required financial information in accordance with the solicitation. Phase I is not a financial evaluation. After solicitat",
+      "prev_section_id": "689c572f9e3c::s003",
+      "next_section_id": "689c572f9e3c::s005"
+    },
+    {
+      "section_id": "689c572f9e3c::s005",
+      "parent_section_id": "689c572f9e3c::s003",
+      "level": 3,
+      "heading": "Phase II: Mandatory requirements compliance assessment",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Apply the phased offer compliance process",
+        "Buyer's Guide",
+        "Apply the phased offer compliance process",
+        "Phase II: Mandatory requirements compliance assessment"
+      ],
+      "block_count": 9,
+      "word_count": 279,
+      "char_count": 1774,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 7,
+      "first_block_index": 13,
+      "last_block_index": 21,
+      "preview": "Phase II: Mandatory requirements compliance assessment In Phase II, the evaluation team will evaluate the offers found compliant in phase I against the eligible mandatory criteria specified in the solicitation. Once the evaluation is comple",
+      "prev_section_id": "689c572f9e3c::s004",
+      "next_section_id": "689c572f9e3c::s006"
+    },
+    {
+      "section_id": "689c572f9e3c::s006",
+      "parent_section_id": "689c572f9e3c::s003",
+      "level": 3,
+      "heading": "Phase III: Evaluation completion",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Apply the phased offer compliance process",
+        "Buyer's Guide",
+        "Apply the phased offer compliance process",
+        "Phase III: Evaluation completion"
+      ],
+      "block_count": 2,
+      "word_count": 36,
+      "char_count": 231,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 22,
+      "last_block_index": 23,
+      "preview": "Phase III: Evaluation completion During Phase III, the technical and financial evaluation of offers found compliant at Phase II will be completed in accordance with the Request for Proposal (RFP) / Request for Standing Offer (RFSO).",
+      "prev_section_id": "689c572f9e3c::s005",
+      "next_section_id": null
+    }
+  ],
+  "tables": [],
+  "blocks": [
+    {
+      "block_id": "689c572f9e3c::b0001",
+      "section_id": "689c572f9e3c::s001",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Apply the phased offer compliance process",
+        "Buyer's Guide Offer evaluation - Apply the phased offer compliance process"
+      ],
+      "markdown": "# Buyer's Guide Offer evaluation - Apply the phased offer compliance process",
+      "plain_text": "Buyer's Guide Offer evaluation - Apply the phased offer compliance process"
+    },
+    {
+      "block_id": "689c572f9e3c::b0002",
+      "section_id": "689c572f9e3c::s002",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Apply the phased offer compliance process",
+        "Buyer's Guide"
+      ],
+      "markdown": "# Buyer's Guide",
+      "plain_text": "Buyer's Guide"
+    },
+    {
+      "block_id": "689c572f9e3c::b0003",
+      "section_id": "689c572f9e3c::s002",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Apply the phased offer compliance process",
+        "Buyer's Guide"
+      ],
+      "markdown": "- Plan\n- Approve\n- Create solicitation\n- Solicit\n- Receive and evaluate\n- Negotiate\n- Award\n- Manage",
+      "plain_text": "Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage"
+    },
+    {
+      "block_id": "689c572f9e3c::b0004",
+      "section_id": "689c572f9e3c::s002",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Apply the phased offer compliance process",
+        "Buyer's Guide"
+      ],
+      "markdown": "Apply the phased offer compliance process The phased offer compliance process (POCP) assesses the compliance of offers against identified solicitation requirements. This approach supports competition by allowing offerors to submit missing financial offer information and additional or different information to demonstrate compliance with identified technical evaluation criteria after the solicitation closing date and time. Note : The POCP does not affect the application of the Policy on Fairness Monitoring (accessible only on the Government of Canada network - for PSPC only) and the provisions for clarifications outlined in the Buyer\u2019s Guide. When the Canadian Content Policy is applied to the procurement process, it should be applied following phase II of the POCP . Phase I: Financial compliance assessment In Phase I, you must review the financial offers to confirm they contain all required financial information in accordance with the solicitation. Phase I is not a financial evaluation. After solicitation closing, you must: review all offers to identify any missing financial information. Specifically, you must verify that all mandatory financial fields are populated with a price, a rate or a clear indication (e.g., \u201cN/A\u201d or \u201cNo charge) where applicable notify offerors of any missing financial information as soon as possible (typically within 5 business days of solicitation closing) and give them a standard timeframe (usually 1 or 2 business days) to respond. When more than 2 business days is given, justification must be documented on file not share any details concerning the financial offers to other members of the evaluation team Non-compliance criteria: offers that do not include a financial offer, or that include a financial offer missing all the information required by the solicitation, will be deemed non-compliant and will be given no further consideration offers that remain incomplete after the notice deadline will be deemed non-compliant and will be given no further consideration Phase II: Mandatory requirements compliance assessment In Phase II, the evaluation team will evaluate the offers found compliant in phase I against the eligible mandatory criteria specified in the solicitation. Once the evaluation is completed, you must issue a compliance assessment report (CAR) to all offerors to: inform them that their offer is compliant with the eligible mandatory criteria; or identify any eligible mandatory criteria their offer has failed to meet and invite them to submit additional or different information to demonstrate compliance with the eligible mandatory criteria identified in the CAR If the offeror failed to meet the mandatory minimum threshold of point rated eligible mandatory criteria, the CAR should also include the offeror\u2019s score. Offerors will not be given any additional information concerning the compliance of their offer other than what is included in the CAR . All offerors must be provided with the same timeframe to submit additional or different information in response to a CAR (typically 5 business days). When more than 5 business days is given, justification must be documented on file. In determining this timeframe, consult with the client and the evaluation team to consider the client\u2019s operational needs and the magnitude and mix of errors and omissions among the offers. The decision to respond to the CAR is at the complete discretion of the offeror. The evaluation team will determine if the offer meets the eligible mandatory criteria identified in the CAR with the additional or different information submitted in the CAR response. Offers that fail to demonstrate compliance with all eligible mandatory criteria at the completion of phase II will be deemed non-compliant and will be given no further consideration. Phase III: Evaluation completion During Phase III, the technical and financial evaluation of offers found compliant at Phase II will be completed in accordance with the Request for Proposal (RFP) / Request for Standing Offer (RFSO).",
+      "plain_text": "Apply the phased offer compliance process The phased offer compliance process (POCP) assesses the compliance of offers against identified solicitation requirements. This approach supports competition by allowing offerors to submit missing financial offer information and additional or different information to demonstrate compliance with identified technical evaluation criteria after the solicitation closing date and time. Note : The POCP does not affect the application of the Policy on Fairness Monitoring (accessible only on the Government of Canada network - for PSPC only) and the provisions for clarifications outlined in the Buyer\u2019s Guide. When the Canadian Content Policy is applied to the procurement process, it should be applied following phase II of the POCP . Phase I: Financial compliance assessment In Phase I, you must review the financial offers to confirm they contain all required financial information in accordance with the solicitation. Phase I is not a financial evaluation. After solicitation closing, you must: review all offers to identify any missing financial information. Specifically, you must verify that all mandatory financial fields are populated with a price, a rate or a clear indication (e.g., \u201cN/A\u201d or \u201cNo charge) where applicable notify offerors of any missing financial information as soon as possible (typically within 5 business days of solicitation closing) and give them a standard timeframe (usually 1 or 2 business days) to respond. When more than 2 business days is given, justification must be documented on file not share any details concerning the financial offers to other members of the evaluation team Non-compliance criteria: offers that do not include a financial offer, or that include a financial offer missing all the information required by the solicitation, will be deemed non-compliant and will be given no further consideration offers that remain incomplete after the notice deadline will be deemed non-compliant and will be given no further consideration Phase II: Mandatory requirements compliance assessment In Phase II, the evaluation team will evaluate the offers found compliant in phase I against the eligible mandatory criteria specified in the solicitation. Once the evaluation is completed, you must issue a compliance assessment report (CAR) to all offerors to: inform them that their offer is compliant with the eligible mandatory criteria; or identify any eligible mandatory criteria their offer has failed to meet and invite them to submit additional or different information to demonstrate compliance with the eligible mandatory criteria identified in the CAR If the offeror failed to meet the mandatory minimum threshold of point rated eligible mandatory criteria, the CAR should also include the offeror\u2019s score. Offerors will not be given any additional information concerning the compliance of their offer other than what is included in the CAR . All offerors must be provided with the same timeframe to submit additional or different information in response to a CAR (typically 5 business days). When more than 5 business days is given, justification must be documented on file. In determining this timeframe, consult with the client and the evaluation team to consider the client\u2019s operational needs and the magnitude and mix of errors and omissions among the offers. The decision to respond to the CAR is at the complete discretion of the offeror. The evaluation team will determine if the offer meets the eligible mandatory criteria identified in the CAR with the additional or different information submitted in the CAR response. Offers that fail to demonstrate compliance with all eligible mandatory criteria at the completion of phase II will be deemed non-compliant and will be given no further consideration. Phase III: Evaluation completion During Phase III, the technical and financial evaluation of offers found compliant at Phase II will be completed in accordance with the Request for Proposal (RFP) / Request for Standing Offer (RFSO)."
+    },
+    {
+      "block_id": "689c572f9e3c::b0005",
+      "section_id": "689c572f9e3c::s003",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Apply the phased offer compliance process",
+        "Buyer's Guide",
+        "Apply the phased offer compliance process"
+      ],
+      "markdown": "## Apply the phased offer compliance process",
+      "plain_text": "Apply the phased offer compliance process"
+    },
+    {
+      "block_id": "689c572f9e3c::b0006",
+      "section_id": "689c572f9e3c::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Apply the phased offer compliance process",
+        "Buyer's Guide",
+        "Apply the phased offer compliance process"
+      ],
+      "markdown": "The phased offer compliance process (POCP) assesses the compliance of offers against identified solicitation requirements. This approach supports competition by allowing offerors to submit missing financial offer information and additional or different information to demonstrate compliance with identified technical evaluation criteria after the solicitation closing date and time.",
+      "plain_text": "The phased offer compliance process (POCP) assesses the compliance of offers against identified solicitation requirements. This approach supports competition by allowing offerors to submit missing financial offer information and additional or different information to demonstrate compliance with identified technical evaluation criteria after the solicitation closing date and time."
+    },
+    {
+      "block_id": "689c572f9e3c::b0007",
+      "section_id": "689c572f9e3c::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Apply the phased offer compliance process",
+        "Buyer's Guide",
+        "Apply the phased offer compliance process"
+      ],
+      "markdown": "Note : The POCP does not affect the application of the Policy on Fairness Monitoring (accessible only on the Government of Canada network - for PSPC only) and the provisions for clarifications outlined in the Buyer\u2019s Guide. When the Canadian Content Policy is applied to the procurement process, it should be applied following phase II of the POCP .",
+      "plain_text": "Note : The POCP does not affect the application of the Policy on Fairness Monitoring (accessible only on the Government of Canada network - for PSPC only) and the provisions for clarifications outlined in the Buyer\u2019s Guide. When the Canadian Content Policy is applied to the procurement process, it should be applied following phase II of the POCP ."
+    },
+    {
+      "block_id": "689c572f9e3c::b0008",
+      "section_id": "689c572f9e3c::s004",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Apply the phased offer compliance process",
+        "Buyer's Guide",
+        "Apply the phased offer compliance process",
+        "Phase I: Financial compliance assessment"
+      ],
+      "markdown": "### Phase I: Financial compliance assessment",
+      "plain_text": "Phase I: Financial compliance assessment"
+    },
+    {
+      "block_id": "689c572f9e3c::b0009",
+      "section_id": "689c572f9e3c::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Apply the phased offer compliance process",
+        "Buyer's Guide",
+        "Apply the phased offer compliance process",
+        "Phase I: Financial compliance assessment"
+      ],
+      "markdown": "In Phase I, you must review the financial offers to confirm they contain all required financial information in accordance with the solicitation. Phase I is not a financial evaluation.",
+      "plain_text": "In Phase I, you must review the financial offers to confirm they contain all required financial information in accordance with the solicitation. Phase I is not a financial evaluation."
+    },
+    {
+      "block_id": "689c572f9e3c::b0010",
+      "section_id": "689c572f9e3c::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Apply the phased offer compliance process",
+        "Buyer's Guide",
+        "Apply the phased offer compliance process",
+        "Phase I: Financial compliance assessment"
+      ],
+      "markdown": "After solicitation closing, you must:",
+      "plain_text": "After solicitation closing, you must:"
+    },
+    {
+      "block_id": "689c572f9e3c::b0011",
+      "section_id": "689c572f9e3c::s004",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Apply the phased offer compliance process",
+        "Buyer's Guide",
+        "Apply the phased offer compliance process",
+        "Phase I: Financial compliance assessment"
+      ],
+      "markdown": "- review all offers to identify any missing financial information. Specifically, you must verify that all mandatory financial fields are populated with a price, a rate or a clear indication (e.g., \u201cN/A\u201d or \u201cNo charge) where applicable\n- notify offerors of any missing financial information as soon as possible (typically within 5 business days of solicitation closing) and give them a standard timeframe (usually 1 or 2 business days) to respond. When more than 2 business days is given, justification must be documented on file\n- not share any details concerning the financial offers to other members of the evaluation team",
+      "plain_text": "review all offers to identify any missing financial information. Specifically, you must verify that all mandatory financial fields are populated with a price, a rate or a clear indication (e.g., \u201cN/A\u201d or \u201cNo charge) where applicable ; notify offerors of any missing financial information as soon as possible (typically within 5 business days of solicitation closing) and give them a standard timeframe (usually 1 or 2 business days) to respond. When more than 2 business days is given, justification must be documented on file ; not share any details concerning the financial offers to other members of the evaluation team"
+    },
+    {
+      "block_id": "689c572f9e3c::b0012",
+      "section_id": "689c572f9e3c::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Apply the phased offer compliance process",
+        "Buyer's Guide",
+        "Apply the phased offer compliance process",
+        "Phase I: Financial compliance assessment"
+      ],
+      "markdown": "Non-compliance criteria:",
+      "plain_text": "Non-compliance criteria:"
+    },
+    {
+      "block_id": "689c572f9e3c::b0013",
+      "section_id": "689c572f9e3c::s004",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Apply the phased offer compliance process",
+        "Buyer's Guide",
+        "Apply the phased offer compliance process",
+        "Phase I: Financial compliance assessment"
+      ],
+      "markdown": "- offers that do not include a financial offer, or that include a financial offer missing all the information required by the solicitation, will be deemed non-compliant and will be given no further consideration\n- offers that remain incomplete after the notice deadline will be deemed non-compliant and will be given no further consideration",
+      "plain_text": "offers that do not include a financial offer, or that include a financial offer missing all the information required by the solicitation, will be deemed non-compliant and will be given no further consideration ; offers that remain incomplete after the notice deadline will be deemed non-compliant and will be given no further consideration"
+    },
+    {
+      "block_id": "689c572f9e3c::b0014",
+      "section_id": "689c572f9e3c::s005",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Apply the phased offer compliance process",
+        "Buyer's Guide",
+        "Apply the phased offer compliance process",
+        "Phase II: Mandatory requirements compliance assessment"
+      ],
+      "markdown": "### Phase II: Mandatory requirements compliance assessment",
+      "plain_text": "Phase II: Mandatory requirements compliance assessment"
+    },
+    {
+      "block_id": "689c572f9e3c::b0015",
+      "section_id": "689c572f9e3c::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Apply the phased offer compliance process",
+        "Buyer's Guide",
+        "Apply the phased offer compliance process",
+        "Phase II: Mandatory requirements compliance assessment"
+      ],
+      "markdown": "In Phase II, the evaluation team will evaluate the offers found compliant in phase I against the eligible mandatory criteria specified in the solicitation.",
+      "plain_text": "In Phase II, the evaluation team will evaluate the offers found compliant in phase I against the eligible mandatory criteria specified in the solicitation."
+    },
+    {
+      "block_id": "689c572f9e3c::b0016",
+      "section_id": "689c572f9e3c::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Apply the phased offer compliance process",
+        "Buyer's Guide",
+        "Apply the phased offer compliance process",
+        "Phase II: Mandatory requirements compliance assessment"
+      ],
+      "markdown": "Once the evaluation is completed, you must issue a compliance assessment report (CAR) to all offerors to:",
+      "plain_text": "Once the evaluation is completed, you must issue a compliance assessment report (CAR) to all offerors to:"
+    },
+    {
+      "block_id": "689c572f9e3c::b0017",
+      "section_id": "689c572f9e3c::s005",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Apply the phased offer compliance process",
+        "Buyer's Guide",
+        "Apply the phased offer compliance process",
+        "Phase II: Mandatory requirements compliance assessment"
+      ],
+      "markdown": "- inform them that their offer is compliant with the eligible mandatory criteria; or\n- identify any eligible mandatory criteria their offer has failed to meet and invite them to submit additional or different information to demonstrate compliance with the eligible mandatory criteria identified in the CAR",
+      "plain_text": "inform them that their offer is compliant with the eligible mandatory criteria; or ; identify any eligible mandatory criteria their offer has failed to meet and invite them to submit additional or different information to demonstrate compliance with the eligible mandatory criteria identified in the CAR"
+    },
+    {
+      "block_id": "689c572f9e3c::b0018",
+      "section_id": "689c572f9e3c::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Apply the phased offer compliance process",
+        "Buyer's Guide",
+        "Apply the phased offer compliance process",
+        "Phase II: Mandatory requirements compliance assessment"
+      ],
+      "markdown": "If the offeror failed to meet the mandatory minimum threshold of point rated eligible mandatory criteria, the CAR should also include the offeror\u2019s score.",
+      "plain_text": "If the offeror failed to meet the mandatory minimum threshold of point rated eligible mandatory criteria, the CAR should also include the offeror\u2019s score."
+    },
+    {
+      "block_id": "689c572f9e3c::b0019",
+      "section_id": "689c572f9e3c::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Apply the phased offer compliance process",
+        "Buyer's Guide",
+        "Apply the phased offer compliance process",
+        "Phase II: Mandatory requirements compliance assessment"
+      ],
+      "markdown": "Offerors will not be given any additional information concerning the compliance of their offer other than what is included in the CAR .",
+      "plain_text": "Offerors will not be given any additional information concerning the compliance of their offer other than what is included in the CAR ."
+    },
+    {
+      "block_id": "689c572f9e3c::b0020",
+      "section_id": "689c572f9e3c::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Apply the phased offer compliance process",
+        "Buyer's Guide",
+        "Apply the phased offer compliance process",
+        "Phase II: Mandatory requirements compliance assessment"
+      ],
+      "markdown": "All offerors must be provided with the same timeframe to submit additional or different information in response to a CAR (typically 5 business days). When more than 5 business days is given, justification must be documented on file. In determining this timeframe, consult with the client and the evaluation team to consider the client\u2019s operational needs and the magnitude and mix of errors and omissions among the offers.",
+      "plain_text": "All offerors must be provided with the same timeframe to submit additional or different information in response to a CAR (typically 5 business days). When more than 5 business days is given, justification must be documented on file. In determining this timeframe, consult with the client and the evaluation team to consider the client\u2019s operational needs and the magnitude and mix of errors and omissions among the offers."
+    },
+    {
+      "block_id": "689c572f9e3c::b0021",
+      "section_id": "689c572f9e3c::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Apply the phased offer compliance process",
+        "Buyer's Guide",
+        "Apply the phased offer compliance process",
+        "Phase II: Mandatory requirements compliance assessment"
+      ],
+      "markdown": "The decision to respond to the CAR is at the complete discretion of the offeror.",
+      "plain_text": "The decision to respond to the CAR is at the complete discretion of the offeror."
+    },
+    {
+      "block_id": "689c572f9e3c::b0022",
+      "section_id": "689c572f9e3c::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Apply the phased offer compliance process",
+        "Buyer's Guide",
+        "Apply the phased offer compliance process",
+        "Phase II: Mandatory requirements compliance assessment"
+      ],
+      "markdown": "The evaluation team will determine if the offer meets the eligible mandatory criteria identified in the CAR with the additional or different information submitted in the CAR response. Offers that fail to demonstrate compliance with all eligible mandatory criteria at the completion of phase II will be deemed non-compliant and will be given no further consideration.",
+      "plain_text": "The evaluation team will determine if the offer meets the eligible mandatory criteria identified in the CAR with the additional or different information submitted in the CAR response. Offers that fail to demonstrate compliance with all eligible mandatory criteria at the completion of phase II will be deemed non-compliant and will be given no further consideration."
+    },
+    {
+      "block_id": "689c572f9e3c::b0023",
+      "section_id": "689c572f9e3c::s006",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Apply the phased offer compliance process",
+        "Buyer's Guide",
+        "Apply the phased offer compliance process",
+        "Phase III: Evaluation completion"
+      ],
+      "markdown": "### Phase III: Evaluation completion",
+      "plain_text": "Phase III: Evaluation completion"
+    },
+    {
+      "block_id": "689c572f9e3c::b0024",
+      "section_id": "689c572f9e3c::s006",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Apply the phased offer compliance process",
+        "Buyer's Guide",
+        "Apply the phased offer compliance process",
+        "Phase III: Evaluation completion"
+      ],
+      "markdown": "During Phase III, the technical and financial evaluation of offers found compliant at Phase II will be completed in accordance with the Request for Proposal (RFP) / Request for Standing Offer (RFSO).",
+      "plain_text": "During Phase III, the technical and financial evaluation of offers found compliant at Phase II will be completed in accordance with the Request for Proposal (RFP) / Request for Standing Offer (RFSO)."
+    }
+  ]
+}

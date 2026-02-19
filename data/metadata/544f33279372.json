@@ -1,0 +1,604 @@
+{
+  "doc_id": "544f33279372",
+  "title": "Buyer's Guide Modify a contract - Procedural elements for amending contracts",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/procedural-elements-amending-contracts",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/procedural-elements-amending-contracts",
+  "doc_type": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": "2026-01-31",
+  "fetched_at": "2026-02-19T09:20:00.186997+00:00",
+  "content_hash": "85ab44d1b4ee77cf0cf2795221fc79e8b9a520fb1faf6f0bcb2b6ba1bf109d60",
+  "word_count": 442,
+  "text_path": "data/corpus/buyers_guide__en-buyer-s-portal-buyer-s-guide-manage-modify-contract-procedural-elements-amending-contracts__544f332793.md",
+  "extraction_method": "buyers_guide_regions",
+  "breadcrumbs": [
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "https://canadabuys.canada.ca/en",
+      "canonical_url": "https://canadabuys.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "in_scope": true
+    },
+    {
+      "title": "Modify a contract",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract",
+      "in_scope": true
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract",
+    "parent_doc_id": "29b57ef37d6f",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/procedural-elements-amending-contracts"
+    ],
+    "lineage_doc_ids": [
+      "1e29c7881335",
+      "29b57ef37d6f",
+      "544f33279372"
+    ],
+    "depth": 2,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/best-practices-contract-close-out",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/contract-close-out-activities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/alternative-dispute-resolution",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/assignment-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/buyer-and-client-responsibilites",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/certifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/contract-dispute-resolution",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/employer-employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/integrity-provisions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/protecting-canada-s-interests",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/subcontracting",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/task-authorizations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/vendor-performance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/assignment-monies",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/claims-progress-payments-and-invoicing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/cost-reimbursable-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/exchange-rate-fluctuation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/final-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/financial-claims",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/fixed-time-rate-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/interest-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/overtime",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/refund-excess-profits",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/administrative-guidance-implementing-contract-modifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/considerations-when-making-amendments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/design-change-or-deviation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/exercise-options",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/revisions-standing-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/approval-authority",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/legal-services",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/public-services-and-procurement-canada-offices-outside-canada",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/source-lists",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/suspension-work-and-stop-work-orders",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-contracts-financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-convenience",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-default",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-mutual-consent"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/award-contract/elements-consider-award",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/best-practices-contract-close-out",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/contract-close-out-activities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/alternative-dispute-resolution",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/assignment-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/buyer-and-client-responsibilites",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/certifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/contract-dispute-resolution",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/employer-employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/integrity-provisions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/protecting-canada-s-interests",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/subcontracting",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/task-authorizations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/vendor-performance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/assignment-monies",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/claims-progress-payments-and-invoicing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/cost-reimbursable-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/exchange-rate-fluctuation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/final-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/financial-claims",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/fixed-time-rate-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/interest-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/overtime",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/refund-excess-profits",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/administrative-guidance-implementing-contract-modifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/considerations-when-making-amendments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/design-change-or-deviation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/exercise-options",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/revisions-standing-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/approval-authority",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/legal-services",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/public-services-and-procurement-canada-offices-outside-canada",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/source-lists",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/suspension-work-and-stop-work-orders",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-contracts-financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-convenience",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-default",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-mutual-consent",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure": {
+    "block_count": 17,
+    "section_count": 9,
+    "heading_count": 8,
+    "paragraph_count": 7,
+    "list_count": 2,
+    "table_count": 0
+  },
+  "sections": [
+    {
+      "section_id": "544f33279372::root",
+      "parent_section_id": null,
+      "level": 0,
+      "heading": "Buyer's Guide Modify a contract - Procedural elements for amending contracts",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Procedural elements for amending contracts"
+      ],
+      "block_count": 0,
+      "word_count": 0,
+      "char_count": 0,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": null,
+      "last_block_index": null,
+      "preview": "",
+      "prev_section_id": null,
+      "next_section_id": null
+    },
+    {
+      "section_id": "544f33279372::s001",
+      "parent_section_id": "544f33279372::root",
+      "level": 1,
+      "heading": "Buyer's Guide Modify a contract - Procedural elements for amending contracts",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Procedural elements for amending contracts",
+        "Buyer's Guide Modify a contract - Procedural elements for amending contracts"
+      ],
+      "block_count": 1,
+      "word_count": 11,
+      "char_count": 76,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 0,
+      "last_block_index": 0,
+      "preview": "Buyer's Guide Modify a contract - Procedural elements for amending contracts",
+      "prev_section_id": null,
+      "next_section_id": "544f33279372::s002"
+    },
+    {
+      "section_id": "544f33279372::s002",
+      "parent_section_id": "544f33279372::root",
+      "level": 1,
+      "heading": "Buyer's Guide",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Procedural elements for amending contracts",
+        "Buyer's Guide"
+      ],
+      "block_count": 2,
+      "word_count": 20,
+      "char_count": 111,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 0,
+      "first_block_index": 1,
+      "last_block_index": 2,
+      "preview": "Buyer's Guide Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage",
+      "prev_section_id": "544f33279372::s001",
+      "next_section_id": "544f33279372::s003"
+    },
+    {
+      "section_id": "544f33279372::s003",
+      "parent_section_id": "544f33279372::s002",
+      "level": 2,
+      "heading": "Procedural elements for amending contracts",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Procedural elements for amending contracts",
+        "Buyer's Guide",
+        "Procedural elements for amending contracts"
+      ],
+      "block_count": 1,
+      "word_count": 5,
+      "char_count": 42,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 3,
+      "last_block_index": 3,
+      "preview": "Procedural elements for amending contracts",
+      "prev_section_id": "544f33279372::s002",
+      "next_section_id": "544f33279372::s004"
+    },
+    {
+      "section_id": "544f33279372::s004",
+      "parent_section_id": "544f33279372::s003",
+      "level": 3,
+      "heading": "Assessment of the necessity for an amendment",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Procedural elements for amending contracts",
+        "Buyer's Guide",
+        "Procedural elements for amending contracts",
+        "Assessment of the necessity for an amendment"
+      ],
+      "block_count": 3,
+      "word_count": 82,
+      "char_count": 543,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 4,
+      "last_block_index": 6,
+      "preview": "Assessment of the necessity for an amendment You must carefully analyze the need for an amendment versus the need to issue a new contract and every effort should be made to avoid: inadequate initial funding, resulting in an amendment to inc",
+      "prev_section_id": "544f33279372::s003",
+      "next_section_id": "544f33279372::s005"
+    },
+    {
+      "section_id": "544f33279372::s005",
+      "parent_section_id": "544f33279372::s003",
+      "level": 3,
+      "heading": "Conditional amendments",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Procedural elements for amending contracts",
+        "Buyer's Guide",
+        "Procedural elements for amending contracts",
+        "Conditional amendments"
+      ],
+      "block_count": 2,
+      "word_count": 98,
+      "char_count": 653,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 7,
+      "last_block_index": 8,
+      "preview": "Conditional amendments For the purpose of the Vendor Performance Corrective Measure Policy (VPCMP), a conditional amendment is a specific type of contract amendment used for operational reasons in lieu of a full or partial termination for d",
+      "prev_section_id": "544f33279372::s004",
+      "next_section_id": "544f33279372::s006"
+    },
+    {
+      "section_id": "544f33279372::s006",
+      "parent_section_id": "544f33279372::s003",
+      "level": 3,
+      "heading": "Integrity provisions",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Procedural elements for amending contracts",
+        "Buyer's Guide",
+        "Procedural elements for amending contracts",
+        "Integrity provisions"
+      ],
+      "block_count": 3,
+      "word_count": 104,
+      "char_count": 695,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 2,
+      "first_block_index": 9,
+      "last_block_index": 11,
+      "preview": "Integrity provisions For each amendment to a contract where integrity provisions have been amended, except for administrative amendments and call-ups against a standing offer, you must follow the verification process in the section for inte",
+      "prev_section_id": "544f33279372::s005",
+      "next_section_id": "544f33279372::s007"
+    },
+    {
+      "section_id": "544f33279372::s007",
+      "parent_section_id": "544f33279372::s006",
+      "level": 4,
+      "heading": "Clarification",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Procedural elements for amending contracts",
+        "Buyer's Guide",
+        "Procedural elements for amending contracts",
+        "Integrity provisions",
+        "Clarification"
+      ],
+      "block_count": 3,
+      "word_count": 73,
+      "char_count": 480,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 2,
+      "first_block_index": 12,
+      "last_block_index": 14,
+      "preview": "Clarification Best efforts should be made to ensure that the contractor has a clear understanding of the terms of the new ineligibility and suspension policy clauses. If the contractor raises concerns, refuses to incorporate the updated cla",
+      "prev_section_id": "544f33279372::s006",
+      "next_section_id": "544f33279372::s008"
+    },
+    {
+      "section_id": "544f33279372::s008",
+      "parent_section_id": "544f33279372::s006",
+      "level": 4,
+      "heading": "Documentation and finalization",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Procedural elements for amending contracts",
+        "Buyer's Guide",
+        "Procedural elements for amending contracts",
+        "Integrity provisions",
+        "Documentation and finalization"
+      ],
+      "block_count": 2,
+      "word_count": 49,
+      "char_count": 354,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 15,
+      "last_block_index": 16,
+      "preview": "Documentation and finalization Document the agreed upon updates in the contract amendment. If the contractor still refuses to update the ineligibility and suspension policy clauses, the refusal should not prevent the continuation of busines",
+      "prev_section_id": "544f33279372::s007",
+      "next_section_id": null
+    }
+  ],
+  "tables": [],
+  "blocks": [
+    {
+      "block_id": "544f33279372::b0001",
+      "section_id": "544f33279372::s001",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Procedural elements for amending contracts",
+        "Buyer's Guide Modify a contract - Procedural elements for amending contracts"
+      ],
+      "markdown": "# Buyer's Guide Modify a contract - Procedural elements for amending contracts",
+      "plain_text": "Buyer's Guide Modify a contract - Procedural elements for amending contracts"
+    },
+    {
+      "block_id": "544f33279372::b0002",
+      "section_id": "544f33279372::s002",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Procedural elements for amending contracts",
+        "Buyer's Guide"
+      ],
+      "markdown": "# Buyer's Guide",
+      "plain_text": "Buyer's Guide"
+    },
+    {
+      "block_id": "544f33279372::b0003",
+      "section_id": "544f33279372::s002",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Procedural elements for amending contracts",
+        "Buyer's Guide"
+      ],
+      "markdown": "- Plan\n- Approve\n- Create solicitation\n- Solicit\n- Receive and evaluate\n- Negotiate\n- Award\n- Manage",
+      "plain_text": "Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage"
+    },
+    {
+      "block_id": "544f33279372::b0004",
+      "section_id": "544f33279372::s003",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Procedural elements for amending contracts",
+        "Buyer's Guide",
+        "Procedural elements for amending contracts"
+      ],
+      "markdown": "## Procedural elements for amending contracts",
+      "plain_text": "Procedural elements for amending contracts"
+    },
+    {
+      "block_id": "544f33279372::b0005",
+      "section_id": "544f33279372::s004",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Procedural elements for amending contracts",
+        "Buyer's Guide",
+        "Procedural elements for amending contracts",
+        "Assessment of the necessity for an amendment"
+      ],
+      "markdown": "### Assessment of the necessity for an amendment",
+      "plain_text": "Assessment of the necessity for an amendment"
+    },
+    {
+      "block_id": "544f33279372::b0006",
+      "section_id": "544f33279372::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Procedural elements for amending contracts",
+        "Buyer's Guide",
+        "Procedural elements for amending contracts",
+        "Assessment of the necessity for an amendment"
+      ],
+      "markdown": "You must carefully analyze the need for an amendment versus the need to issue a new contract and every effort should be made to avoid:",
+      "plain_text": "You must carefully analyze the need for an amendment versus the need to issue a new contract and every effort should be made to avoid:"
+    },
+    {
+      "block_id": "544f33279372::b0007",
+      "section_id": "544f33279372::s004",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Procedural elements for amending contracts",
+        "Buyer's Guide",
+        "Procedural elements for amending contracts",
+        "Assessment of the necessity for an amendment"
+      ],
+      "markdown": "- inadequate initial funding, resulting in an amendment to increase the contract value\n- inadequate pre-planning, resulting in an amendment to the design, specifications or quantity\n- improper administrative procedures, necessitating an amendment to the specifications and delivery or other requirement in order to protect the contractor or government agency involved",
+      "plain_text": "inadequate initial funding, resulting in an amendment to increase the contract value ; inadequate pre-planning, resulting in an amendment to the design, specifications or quantity ; improper administrative procedures, necessitating an amendment to the specifications and delivery or other requirement in order to protect the contractor or government agency involved"
+    },
+    {
+      "block_id": "544f33279372::b0008",
+      "section_id": "544f33279372::s005",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Procedural elements for amending contracts",
+        "Buyer's Guide",
+        "Procedural elements for amending contracts",
+        "Conditional amendments"
+      ],
+      "markdown": "### Conditional amendments",
+      "plain_text": "Conditional amendments"
+    },
+    {
+      "block_id": "544f33279372::b0009",
+      "section_id": "544f33279372::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Procedural elements for amending contracts",
+        "Buyer's Guide",
+        "Procedural elements for amending contracts",
+        "Conditional amendments"
+      ],
+      "markdown": "For the purpose of the Vendor Performance Corrective Measure Policy (VPCMP), a conditional amendment is a specific type of contract amendment used for operational reasons in lieu of a full or partial termination for default when there is a performance issue for which the vendor is primarily responsible. A conditional amendment is an alternative to immediate termination of the contract and allows for operational continuity while managing vendor performance concerns. If the vendor refuses the conditional amendment, then the contract must be terminated for default which will trigger a VPCMP assessment process under the VPCMP .",
+      "plain_text": "For the purpose of the Vendor Performance Corrective Measure Policy (VPCMP), a conditional amendment is a specific type of contract amendment used for operational reasons in lieu of a full or partial termination for default when there is a performance issue for which the vendor is primarily responsible. A conditional amendment is an alternative to immediate termination of the contract and allows for operational continuity while managing vendor performance concerns. If the vendor refuses the conditional amendment, then the contract must be terminated for default which will trigger a VPCMP assessment process under the VPCMP ."
+    },
+    {
+      "block_id": "544f33279372::b0010",
+      "section_id": "544f33279372::s006",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Procedural elements for amending contracts",
+        "Buyer's Guide",
+        "Procedural elements for amending contracts",
+        "Integrity provisions"
+      ],
+      "markdown": "### Integrity provisions",
+      "plain_text": "Integrity provisions"
+    },
+    {
+      "block_id": "544f33279372::b0011",
+      "section_id": "544f33279372::s006",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Procedural elements for amending contracts",
+        "Buyer's Guide",
+        "Procedural elements for amending contracts",
+        "Integrity provisions"
+      ],
+      "markdown": "For each amendment to a contract where integrity provisions have been amended, except for administrative amendments and call-ups against a standing offer, you must follow the verification process in the section for integrity compliance .",
+      "plain_text": "For each amendment to a contract where integrity provisions have been amended, except for administrative amendments and call-ups against a standing offer, you must follow the verification process in the section for integrity compliance ."
+    },
+    {
+      "block_id": "544f33279372::b0012",
+      "section_id": "544f33279372::s006",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Procedural elements for amending contracts",
+        "Buyer's Guide",
+        "Procedural elements for amending contracts",
+        "Integrity provisions"
+      ],
+      "markdown": "When making a significant amendment to an existing contract that does not contain the most recent integrity provisions, such as increasing the contract value, exercising an option, extending the contract period, modifying the requirement, or assigning the contract, you must propose to add or revise the integrity provisions of the contract. You may use the Letter template: Integrity compliance - Adding clauses to an existing contract .",
+      "plain_text": "When making a significant amendment to an existing contract that does not contain the most recent integrity provisions, such as increasing the contract value, exercising an option, extending the contract period, modifying the requirement, or assigning the contract, you must propose to add or revise the integrity provisions of the contract. You may use the Letter template: Integrity compliance - Adding clauses to an existing contract ."
+    },
+    {
+      "block_id": "544f33279372::b0013",
+      "section_id": "544f33279372::s007",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Procedural elements for amending contracts",
+        "Buyer's Guide",
+        "Procedural elements for amending contracts",
+        "Integrity provisions",
+        "Clarification"
+      ],
+      "markdown": "#### Clarification",
+      "plain_text": "Clarification"
+    },
+    {
+      "block_id": "544f33279372::b0014",
+      "section_id": "544f33279372::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Procedural elements for amending contracts",
+        "Buyer's Guide",
+        "Procedural elements for amending contracts",
+        "Integrity provisions",
+        "Clarification"
+      ],
+      "markdown": "Best efforts should be made to ensure that the contractor has a clear understanding of the terms of the new ineligibility and suspension policy clauses. If the contractor raises concerns, refuses to incorporate the updated clauses, or declines to provide the required certification, engage in discussions to explain the importance of these updates and address any issues directly.",
+      "plain_text": "Best efforts should be made to ensure that the contractor has a clear understanding of the terms of the new ineligibility and suspension policy clauses. If the contractor raises concerns, refuses to incorporate the updated clauses, or declines to provide the required certification, engage in discussions to explain the importance of these updates and address any issues directly."
+    },
+    {
+      "block_id": "544f33279372::b0015",
+      "section_id": "544f33279372::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Procedural elements for amending contracts",
+        "Buyer's Guide",
+        "Procedural elements for amending contracts",
+        "Integrity provisions",
+        "Clarification"
+      ],
+      "markdown": "In these circumstances, you may need to have a manager contact the contractor directly.",
+      "plain_text": "In these circumstances, you may need to have a manager contact the contractor directly."
+    },
+    {
+      "block_id": "544f33279372::b0016",
+      "section_id": "544f33279372::s008",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Procedural elements for amending contracts",
+        "Buyer's Guide",
+        "Procedural elements for amending contracts",
+        "Integrity provisions",
+        "Documentation and finalization"
+      ],
+      "markdown": "#### Documentation and finalization",
+      "plain_text": "Documentation and finalization"
+    },
+    {
+      "block_id": "544f33279372::b0017",
+      "section_id": "544f33279372::s008",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Procedural elements for amending contracts",
+        "Buyer's Guide",
+        "Procedural elements for amending contracts",
+        "Integrity provisions",
+        "Documentation and finalization"
+      ],
+      "markdown": "Document the agreed upon updates in the contract amendment. If the contractor still refuses to update the ineligibility and suspension policy clauses, the refusal should not prevent the continuation of business operations and the contract amendment may proceed. Consult with the Acquisitions Program for additional guidance.",
+      "plain_text": "Document the agreed upon updates in the contract amendment. If the contractor still refuses to update the ineligibility and suspension policy clauses, the refusal should not prevent the continuation of business operations and the contract amendment may proceed. Consult with the Acquisitions Program for additional guidance."
+    }
+  ]
+}

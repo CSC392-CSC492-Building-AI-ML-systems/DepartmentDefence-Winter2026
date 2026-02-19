@@ -1,0 +1,43 @@
+# Buyer's Guide Considerations for solicitations - Phased offer compliance
+
+# Buyer's Guide
+
+- Plan
+- Approve
+- Create solicitation
+- Solicit
+- Receive and evaluate
+- Negotiate
+- Award
+- Manage
+
+Phased offer compliance The phased offer compliance process (POCP) allows offerors to address specific deficiencies in their offers after the solicitation closing date and time. When to use The POCP must be included in Requests for Proposals (RFPs) and Requests for Standing Offers (RFSOs) when the estimated value exceeds $2,000,000, and one or more of the following conditions apply: four or fewer offers are anticipated the requirement is complicated the Industrial and Technological Benefits Policy (ITB) applies a socio-economic objective is a rated requirement with a mandatory minimum threshold the work involves significant innovation a mandatory requirement is unfamiliar to industry the procurement is subject to a Comprehensive Land Claim Agreement and includes a rated requirement with a mandatory minimum threshold Exceptions Any deviation from the mandatory application must be approved at the director level or above and must be documented in the procurement file using the appropriate justification form. Public Services and Procurement Canada (PSPC) directors may decide to: not apply the POCP when the above conditions are met apply the POCP when the above conditions are not met How to use In collaboration with the client, you must determine which technical evaluation criteria will be subject to the POCP and clearly identify them in the solicitation. When developing these criteria, you must consider how the POCP will be applied to ensure its strategic and effective use.
+
+## Phased offer compliance
+
+The phased offer compliance process (POCP) allows offerors to address specific deficiencies in their offers after the solicitation closing date and time.
+
+### When to use
+
+The POCP must be included in Requests for Proposals (RFPs) and Requests for Standing Offers (RFSOs) when the estimated value exceeds $2,000,000, and one or more of the following conditions apply:
+
+- four or fewer offers are anticipated
+- the requirement is complicated
+- the Industrial and Technological Benefits Policy (ITB) applies
+- a socio-economic objective is a rated requirement with a mandatory minimum threshold
+- the work involves significant innovation
+- a mandatory requirement is unfamiliar to industry
+- the procurement is subject to a Comprehensive Land Claim Agreement and includes a rated requirement with a mandatory minimum threshold
+
+### Exceptions
+
+Any deviation from the mandatory application must be approved at the director level or above and must be documented in the procurement file using the appropriate justification form.
+
+Public Services and Procurement Canada (PSPC) directors may decide to:
+
+- not apply the POCP when the above conditions are met
+- apply the POCP when the above conditions are not met
+
+### How to use
+
+In collaboration with the client, you must determine which technical evaluation criteria will be subject to the POCP and clearly identify them in the solicitation. When developing these criteria, you must consider how the POCP will be applied to ensure its strategic and effective use.

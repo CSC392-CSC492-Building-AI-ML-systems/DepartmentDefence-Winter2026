@@ -1,0 +1,60 @@
+# Buyer's Guide Manage a contract - Assignment of contracts
+
+# Buyer's Guide
+
+- Plan
+- Approve
+- Create solicitation
+- Solicit
+- Receive and evaluate
+- Negotiate
+- Award
+- Manage
+
+## Assignment of contracts
+
+Consult the guidelines below when considering a contract assignment. These guidelines include security requirements, eligibility verification and contractual obligations for the contractor.
+
+### Security requirements
+
+If the contract involves security considerations, get support from the group responsible for contract security and ensure the assignee meets all security requirements specified in the contract.
+
+### Integrity and suspension policy
+
+To comply with the Ineligibility and Suspension Policy clauses, the assignee must provide a signed certification. If applicable, the assignee must also provide a list of directors or owners as described in the integrity compliance verifications to be completed before contract award.
+
+You must then verify compliance with the Ineligibility and Suspension Policy clauses. You are to ensure that the contract contains these clauses contained in the signed certification. If the contract contains a previous version of these clauses, amending them is recommended. If the assignee needs to submit an integrity declaration form, you should direct the assignee to use the Integrity declaration form – replacement entity and completing contractor .
+
+### Eligibility verification
+
+If the assignee or its affiliates is ineligible or suspended under the Ineligibility and Suspension Policy, you may refuse the assignment or request a Public Interest Exception from their deputy head or equivalent. For Public Services and Procurement (PSPC) buyers, this is the appropriate Assistant Deputy Minister (ADM) within the Acquisitions Program.
+
+Assignees are responsible for verifying the status of first-tier subcontractors before entering into a contractual relationship with them under this contract. If there is a pre-existing contractual relationship with a first-tier subcontractor, the assignee must still verify the subcontractor's status for work conducted under this assigned contract.
+
+### Cost analyst review
+
+You must send the proposed assignment to a cost analyst for review.
+
+### Legal consultation
+
+You may consult legal services to:
+
+- determine if a contract assignment is an available option
+- determine if a contract assignment is necessary or if a contract revision will suffice (for example, if only the contractor’s name has changed, but not the entity, it is possible simply to revise the name in the contract)
+- obtain a template for “consent to assignment”
+
+### Contractual obligations
+
+When a contractor assigns a contract, the responsibility for all or part of the performance is transferred to the assignee. However, the assignment of a contract must not relieve the original contractor of their obligations or impose additional liability on Canada in relation to the assignee. Contractors must also obtain written permission from Canada before assigning a contract.
+
+### Liabilities and rights transfer
+
+To protect Canada's interest, the transfer must ensure that the original contractor remains ultimately liable for the contract's performance. If an assignee fails to perform, you should protect Canada's interest by obtaining the original contractor's guarantee of performance.
+
+### Assignment agreement
+
+You must forward the assignment agreement to the appropriate signing authority, outlining the reasons for the assignment, the number and value of contracts involved, and the financial condition of the assignee.
+
+### Special considerations for Canadian Commercial Corporation (CCC) contracts
+
+You should forward a copy of the approved assignment to the group responsible for price support, or the appropriate vice-president of the CCC , so they can maintain data on business financial status.

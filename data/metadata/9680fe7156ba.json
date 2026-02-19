@@ -1,0 +1,694 @@
+{
+  "doc_id": "9680fe7156ba",
+  "title": "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/standing-offers-and-supply-arrangements",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/standing-offers-and-supply-arrangements",
+  "doc_type": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": "2026-01-31",
+  "fetched_at": "2026-02-19T09:17:48.755699+00:00",
+  "content_hash": "22d39d013fed620984b69f12b30dcef657cd6ffce7115341454c9f93dbe37ec2",
+  "word_count": 777,
+  "text_path": "data/corpus/buyers_guide__en-buyer-s-portal-buyer-s-guide-approve-prepare-approval-documents-standing-offers-and-supply-arrangements__9680fe7156.md",
+  "extraction_method": "buyers_guide_regions",
+  "breadcrumbs": [
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "https://canadabuys.canada.ca/en",
+      "canonical_url": "https://canadabuys.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "in_scope": true
+    },
+    {
+      "title": "Prepare approval documents",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents",
+      "in_scope": true
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents",
+    "parent_doc_id": "a84e61330452",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/standing-offers-and-supply-arrangements"
+    ],
+    "lineage_doc_ids": [
+      "1e29c7881335",
+      "a84e61330452",
+      "9680fe7156ba"
+    ],
+    "depth": 2,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/additional-signing-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/approval-authorities-and-additional-signing-authorities-support-acquisitions-program-clients-programs-only-other-canadian-commercial-corporation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contract-approval-and-signing-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contracting-limits-including-exceptional-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/delegation-authority-guidelines",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/general-principles-procurement-authority",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/risk-based-procurement-delegation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/adjustments-complexity-levels",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/characteristics-procurement-complexity-levels",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/considerations-amendments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/determining-complexity",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/procurement-risk-assessment-complexity",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/additional-reviewers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/approval-processes",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-amendment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-planning-and-advanced-approval",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-request",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/procurement-plan",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/task-authorizations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/treasury-board-submission",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/forgiveness-debts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/procurement-process-initiated-client",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/retroactive-treasury-board-approval-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/trade-ins",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/waiver-interest"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/additional-signing-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/approval-authorities-and-additional-signing-authorities-support-acquisitions-program-clients-programs-only-other-canadian-commercial-corporation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contract-approval-and-signing-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contracting-limits-including-exceptional-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/delegation-authority-guidelines",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/general-principles-procurement-authority",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/risk-based-procurement-delegation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/adjustments-complexity-levels",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/characteristics-procurement-complexity-levels",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/considerations-amendments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/determining-complexity",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/procurement-risk-assessment-complexity",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/additional-reviewers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/approval-processes",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-amendment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-planning-and-advanced-approval",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-request",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/procurement-plan",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/task-authorizations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/treasury-board-submission",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/forgiveness-debts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/procurement-process-initiated-client",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/retroactive-treasury-board-approval-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/trade-ins",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/waiver-interest",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure": {
+    "block_count": 24,
+    "section_count": 11,
+    "heading_count": 10,
+    "paragraph_count": 12,
+    "list_count": 2,
+    "table_count": 0
+  },
+  "sections": [
+    {
+      "section_id": "9680fe7156ba::root",
+      "parent_section_id": null,
+      "level": 0,
+      "heading": "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements"
+      ],
+      "block_count": 0,
+      "word_count": 0,
+      "char_count": 0,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": null,
+      "last_block_index": null,
+      "preview": "",
+      "prev_section_id": null,
+      "next_section_id": null
+    },
+    {
+      "section_id": "9680fe7156ba::s001",
+      "parent_section_id": "9680fe7156ba::root",
+      "level": 1,
+      "heading": "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
+        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements"
+      ],
+      "block_count": 1,
+      "word_count": 11,
+      "char_count": 82,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 0,
+      "last_block_index": 0,
+      "preview": "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
+      "prev_section_id": null,
+      "next_section_id": "9680fe7156ba::s002"
+    },
+    {
+      "section_id": "9680fe7156ba::s002",
+      "parent_section_id": "9680fe7156ba::root",
+      "level": 1,
+      "heading": "Buyer's Guide",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
+        "Buyer's Guide"
+      ],
+      "block_count": 3,
+      "word_count": 392,
+      "char_count": 2584,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 1,
+      "last_block_index": 3,
+      "preview": "Buyer's Guide Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage Standing offers and supply arrangements The process for the creation, renewal, and extension of standing offers (SOs) and suppl",
+      "prev_section_id": "9680fe7156ba::s001",
+      "next_section_id": "9680fe7156ba::s003"
+    },
+    {
+      "section_id": "9680fe7156ba::s003",
+      "parent_section_id": "9680fe7156ba::s002",
+      "level": 2,
+      "heading": "Standing offers and supply arrangements",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
+        "Buyer's Guide",
+        "Standing offers and supply arrangements"
+      ],
+      "block_count": 2,
+      "word_count": 64,
+      "char_count": 458,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 4,
+      "last_block_index": 5,
+      "preview": "Standing offers and supply arrangements The process for the creation, renewal, and extension of standing offers (SOs) and supply arrangements (SAs) is designed to ensure transparency, fairness, and efficiency. It involves collaboration betw",
+      "prev_section_id": "9680fe7156ba::s002",
+      "next_section_id": "9680fe7156ba::s004"
+    },
+    {
+      "section_id": "9680fe7156ba::s004",
+      "parent_section_id": "9680fe7156ba::s003",
+      "level": 3,
+      "heading": "Category management team",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
+        "Buyer's Guide",
+        "Standing offers and supply arrangements",
+        "Category management team"
+      ],
+      "block_count": 4,
+      "word_count": 87,
+      "char_count": 526,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 3,
+      "first_block_index": 6,
+      "last_block_index": 9,
+      "preview": "Category management team The office of primary interest for specific goods and services is referred to as the \"category management team\". Each team has a category reviewer responsible for endorsing the creation, extension or renewal of all ",
+      "prev_section_id": "9680fe7156ba::s003",
+      "next_section_id": "9680fe7156ba::s005"
+    },
+    {
+      "section_id": "9680fe7156ba::s005",
+      "parent_section_id": "9680fe7156ba::s003",
+      "level": 3,
+      "heading": "Submission requirements",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
+        "Buyer's Guide",
+        "Standing offers and supply arrangements",
+        "Submission requirements"
+      ],
+      "block_count": 3,
+      "word_count": 74,
+      "char_count": 497,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 2,
+      "first_block_index": 10,
+      "last_block_index": 12,
+      "preview": "Submission requirements Before proceeding with the creation, renewal, or extension of an SO or SA , a Category Management Request for Category Reviewer Endorsement form (DOC, 105 KB) (accessible only on the Government of Canada network) mus",
+      "prev_section_id": "9680fe7156ba::s004",
+      "next_section_id": "9680fe7156ba::s006"
+    },
+    {
+      "section_id": "9680fe7156ba::s006",
+      "parent_section_id": "9680fe7156ba::s003",
+      "level": 3,
+      "heading": "Endorsement scenarios",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
+        "Buyer's Guide",
+        "Standing offers and supply arrangements",
+        "Endorsement scenarios"
+      ],
+      "block_count": 3,
+      "word_count": 35,
+      "char_count": 245,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 13,
+      "last_block_index": 15,
+      "preview": "Endorsement scenarios The category reviewer will evaluate the request and may subsequently: endorse it without comments, or ; endorse it, but with specific comments, recommendations, or conditions, or ; decline it and provide supporting rat",
+      "prev_section_id": "9680fe7156ba::s005",
+      "next_section_id": "9680fe7156ba::s007"
+    },
+    {
+      "section_id": "9680fe7156ba::s007",
+      "parent_section_id": "9680fe7156ba::s003",
+      "level": 3,
+      "heading": "Duplication",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
+        "Buyer's Guide",
+        "Standing offers and supply arrangements",
+        "Duplication"
+      ],
+      "block_count": 2,
+      "word_count": 23,
+      "char_count": 148,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 16,
+      "last_block_index": 17,
+      "preview": "Duplication When endorsing a request that involves the duplication of an existing SO or SA , the category reviewer must provide supporting rationale.",
+      "prev_section_id": "9680fe7156ba::s006",
+      "next_section_id": "9680fe7156ba::s008"
+    },
+    {
+      "section_id": "9680fe7156ba::s008",
+      "parent_section_id": "9680fe7156ba::s003",
+      "level": 3,
+      "heading": "Special endorsement cases",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
+        "Buyer's Guide",
+        "Standing offers and supply arrangements",
+        "Special endorsement cases"
+      ],
+      "block_count": 2,
+      "word_count": 40,
+      "char_count": 236,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 18,
+      "last_block_index": 19,
+      "preview": "Special endorsement cases If a product or service does not fall under a specific category, the endorsement must be sought from a supervisor or manager in the National Capital Region (NCR) or a regional category reviewer outside the NCR .",
+      "prev_section_id": "9680fe7156ba::s007",
+      "next_section_id": "9680fe7156ba::s009"
+    },
+    {
+      "section_id": "9680fe7156ba::s009",
+      "parent_section_id": "9680fe7156ba::s003",
+      "level": 3,
+      "heading": "Conditional endorsement or decline",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
+        "Buyer's Guide",
+        "Standing offers and supply arrangements",
+        "Conditional endorsement or decline"
+      ],
+      "block_count": 2,
+      "word_count": 23,
+      "char_count": 153,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 20,
+      "last_block_index": 21,
+      "preview": "Conditional endorsement or decline If the request receives a conditional endorsement or is declined, it can be resubmitted after revisions have been made.",
+      "prev_section_id": "9680fe7156ba::s008",
+      "next_section_id": "9680fe7156ba::s010"
+    },
+    {
+      "section_id": "9680fe7156ba::s010",
+      "parent_section_id": "9680fe7156ba::s003",
+      "level": 3,
+      "heading": "Documentation",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
+        "Buyer's Guide",
+        "Standing offers and supply arrangements",
+        "Documentation"
+      ],
+      "block_count": 2,
+      "word_count": 28,
+      "char_count": 195,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 22,
+      "last_block_index": 23,
+      "preview": "Documentation The final decision and all related evaluation documents from the category reviewer must be included in the Contract Planning and Advance Approval (CPAA) document or procurement plan.",
+      "prev_section_id": "9680fe7156ba::s009",
+      "next_section_id": null
+    }
+  ],
+  "tables": [],
+  "blocks": [
+    {
+      "block_id": "9680fe7156ba::b0001",
+      "section_id": "9680fe7156ba::s001",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
+        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements"
+      ],
+      "markdown": "# Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
+      "plain_text": "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements"
+    },
+    {
+      "block_id": "9680fe7156ba::b0002",
+      "section_id": "9680fe7156ba::s002",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
+        "Buyer's Guide"
+      ],
+      "markdown": "# Buyer's Guide",
+      "plain_text": "Buyer's Guide"
+    },
+    {
+      "block_id": "9680fe7156ba::b0003",
+      "section_id": "9680fe7156ba::s002",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
+        "Buyer's Guide"
+      ],
+      "markdown": "- Plan\n- Approve\n- Create solicitation\n- Solicit\n- Receive and evaluate\n- Negotiate\n- Award\n- Manage",
+      "plain_text": "Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage"
+    },
+    {
+      "block_id": "9680fe7156ba::b0004",
+      "section_id": "9680fe7156ba::s002",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
+        "Buyer's Guide"
+      ],
+      "markdown": "Standing offers and supply arrangements The process for the creation, renewal, and extension of standing offers (SOs) and supply arrangements (SAs) is designed to ensure transparency, fairness, and efficiency. It involves collaboration between the buying organization and the category management team, specifically the category reviewer, throughout the procurement planning phase. This collaboration aims to expedite the endorsement process for SO s and SA s. Category management team The office of primary interest for specific goods and services is referred to as the \"category management team\". Each team has a category reviewer responsible for endorsing the creation, extension or renewal of all SO s and SA s. Early engagement with a category reviewer is encouraged to gain valuable input that can streamline the endorsement process for SO s and SA s. The list of category reviewers (PDF, 50.27 KB) (accessible only on the Government of Canada network) is provided by commodity group. Submission requirements Before proceeding with the creation, renewal, or extension of an SO or SA , a Category Management Request for Category Reviewer Endorsement form (DOC, 105 KB) (accessible only on the Government of Canada network) must be submitted to the appropriate category reviewer for evaluation and endorsement. Consult the Decision Tree for Creation, Renewal and Extension of Standing Offers and Supply Arrangements (PDF, 60.45 KB) (accessible only on the Government of Canada network). Endorsement scenarios The category reviewer will evaluate the request and may subsequently: endorse it without comments, or endorse it, but with specific comments, recommendations, or conditions, or decline it and provide supporting rationale. Duplication When endorsing a request that involves the duplication of an existing SO or SA , the category reviewer must provide supporting rationale. Special endorsement cases If a product or service does not fall under a specific category, the endorsement must be sought from a supervisor or manager in the National Capital Region (NCR) or a regional category reviewer outside the NCR . Conditional endorsement or decline If the request receives a conditional endorsement or is declined, it can be resubmitted after revisions have been made. Documentation The final decision and all related evaluation documents from the category reviewer must be included in the Contract Planning and Advance Approval (CPAA) document or procurement plan.",
+      "plain_text": "Standing offers and supply arrangements The process for the creation, renewal, and extension of standing offers (SOs) and supply arrangements (SAs) is designed to ensure transparency, fairness, and efficiency. It involves collaboration between the buying organization and the category management team, specifically the category reviewer, throughout the procurement planning phase. This collaboration aims to expedite the endorsement process for SO s and SA s. Category management team The office of primary interest for specific goods and services is referred to as the \"category management team\". Each team has a category reviewer responsible for endorsing the creation, extension or renewal of all SO s and SA s. Early engagement with a category reviewer is encouraged to gain valuable input that can streamline the endorsement process for SO s and SA s. The list of category reviewers (PDF, 50.27 KB) (accessible only on the Government of Canada network) is provided by commodity group. Submission requirements Before proceeding with the creation, renewal, or extension of an SO or SA , a Category Management Request for Category Reviewer Endorsement form (DOC, 105 KB) (accessible only on the Government of Canada network) must be submitted to the appropriate category reviewer for evaluation and endorsement. Consult the Decision Tree for Creation, Renewal and Extension of Standing Offers and Supply Arrangements (PDF, 60.45 KB) (accessible only on the Government of Canada network). Endorsement scenarios The category reviewer will evaluate the request and may subsequently: endorse it without comments, or endorse it, but with specific comments, recommendations, or conditions, or decline it and provide supporting rationale. Duplication When endorsing a request that involves the duplication of an existing SO or SA , the category reviewer must provide supporting rationale. Special endorsement cases If a product or service does not fall under a specific category, the endorsement must be sought from a supervisor or manager in the National Capital Region (NCR) or a regional category reviewer outside the NCR . Conditional endorsement or decline If the request receives a conditional endorsement or is declined, it can be resubmitted after revisions have been made. Documentation The final decision and all related evaluation documents from the category reviewer must be included in the Contract Planning and Advance Approval (CPAA) document or procurement plan."
+    },
+    {
+      "block_id": "9680fe7156ba::b0005",
+      "section_id": "9680fe7156ba::s003",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
+        "Buyer's Guide",
+        "Standing offers and supply arrangements"
+      ],
+      "markdown": "## Standing offers and supply arrangements",
+      "plain_text": "Standing offers and supply arrangements"
+    },
+    {
+      "block_id": "9680fe7156ba::b0006",
+      "section_id": "9680fe7156ba::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
+        "Buyer's Guide",
+        "Standing offers and supply arrangements"
+      ],
+      "markdown": "The process for the creation, renewal, and extension of standing offers (SOs) and supply arrangements (SAs) is designed to ensure transparency, fairness, and efficiency. It involves collaboration between the buying organization and the category management team, specifically the category reviewer, throughout the procurement planning phase. This collaboration aims to expedite the endorsement process for SO s and SA s.",
+      "plain_text": "The process for the creation, renewal, and extension of standing offers (SOs) and supply arrangements (SAs) is designed to ensure transparency, fairness, and efficiency. It involves collaboration between the buying organization and the category management team, specifically the category reviewer, throughout the procurement planning phase. This collaboration aims to expedite the endorsement process for SO s and SA s."
+    },
+    {
+      "block_id": "9680fe7156ba::b0007",
+      "section_id": "9680fe7156ba::s004",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
+        "Buyer's Guide",
+        "Standing offers and supply arrangements",
+        "Category management team"
+      ],
+      "markdown": "### Category management team",
+      "plain_text": "Category management team"
+    },
+    {
+      "block_id": "9680fe7156ba::b0008",
+      "section_id": "9680fe7156ba::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
+        "Buyer's Guide",
+        "Standing offers and supply arrangements",
+        "Category management team"
+      ],
+      "markdown": "The office of primary interest for specific goods and services is referred to as the \"category management team\".",
+      "plain_text": "The office of primary interest for specific goods and services is referred to as the \"category management team\"."
+    },
+    {
+      "block_id": "9680fe7156ba::b0009",
+      "section_id": "9680fe7156ba::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
+        "Buyer's Guide",
+        "Standing offers and supply arrangements",
+        "Category management team"
+      ],
+      "markdown": "Each team has a category reviewer responsible for endorsing the creation, extension or renewal of all SO s and SA s.",
+      "plain_text": "Each team has a category reviewer responsible for endorsing the creation, extension or renewal of all SO s and SA s."
+    },
+    {
+      "block_id": "9680fe7156ba::b0010",
+      "section_id": "9680fe7156ba::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
+        "Buyer's Guide",
+        "Standing offers and supply arrangements",
+        "Category management team"
+      ],
+      "markdown": "Early engagement with a category reviewer is encouraged to gain valuable input that can streamline the endorsement process for SO s and SA s. The list of category reviewers (PDF, 50.27 KB) (accessible only on the Government of Canada network) is provided by commodity group.",
+      "plain_text": "Early engagement with a category reviewer is encouraged to gain valuable input that can streamline the endorsement process for SO s and SA s. The list of category reviewers (PDF, 50.27 KB) (accessible only on the Government of Canada network) is provided by commodity group."
+    },
+    {
+      "block_id": "9680fe7156ba::b0011",
+      "section_id": "9680fe7156ba::s005",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
+        "Buyer's Guide",
+        "Standing offers and supply arrangements",
+        "Submission requirements"
+      ],
+      "markdown": "### Submission requirements",
+      "plain_text": "Submission requirements"
+    },
+    {
+      "block_id": "9680fe7156ba::b0012",
+      "section_id": "9680fe7156ba::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
+        "Buyer's Guide",
+        "Standing offers and supply arrangements",
+        "Submission requirements"
+      ],
+      "markdown": "Before proceeding with the creation, renewal, or extension of an SO or SA , a Category Management Request for Category Reviewer Endorsement form (DOC, 105 KB) (accessible only on the Government of Canada network) must be submitted to the appropriate category reviewer for evaluation and endorsement.",
+      "plain_text": "Before proceeding with the creation, renewal, or extension of an SO or SA , a Category Management Request for Category Reviewer Endorsement form (DOC, 105 KB) (accessible only on the Government of Canada network) must be submitted to the appropriate category reviewer for evaluation and endorsement."
+    },
+    {
+      "block_id": "9680fe7156ba::b0013",
+      "section_id": "9680fe7156ba::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
+        "Buyer's Guide",
+        "Standing offers and supply arrangements",
+        "Submission requirements"
+      ],
+      "markdown": "Consult the Decision Tree for Creation, Renewal and Extension of Standing Offers and Supply Arrangements (PDF, 60.45 KB) (accessible only on the Government of Canada network).",
+      "plain_text": "Consult the Decision Tree for Creation, Renewal and Extension of Standing Offers and Supply Arrangements (PDF, 60.45 KB) (accessible only on the Government of Canada network)."
+    },
+    {
+      "block_id": "9680fe7156ba::b0014",
+      "section_id": "9680fe7156ba::s006",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
+        "Buyer's Guide",
+        "Standing offers and supply arrangements",
+        "Endorsement scenarios"
+      ],
+      "markdown": "### Endorsement scenarios",
+      "plain_text": "Endorsement scenarios"
+    },
+    {
+      "block_id": "9680fe7156ba::b0015",
+      "section_id": "9680fe7156ba::s006",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
+        "Buyer's Guide",
+        "Standing offers and supply arrangements",
+        "Endorsement scenarios"
+      ],
+      "markdown": "The category reviewer will evaluate the request and may subsequently:",
+      "plain_text": "The category reviewer will evaluate the request and may subsequently:"
+    },
+    {
+      "block_id": "9680fe7156ba::b0016",
+      "section_id": "9680fe7156ba::s006",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
+        "Buyer's Guide",
+        "Standing offers and supply arrangements",
+        "Endorsement scenarios"
+      ],
+      "markdown": "- endorse it without comments, or\n- endorse it, but with specific comments, recommendations, or conditions, or\n- decline it and provide supporting rationale.",
+      "plain_text": "endorse it without comments, or ; endorse it, but with specific comments, recommendations, or conditions, or ; decline it and provide supporting rationale."
+    },
+    {
+      "block_id": "9680fe7156ba::b0017",
+      "section_id": "9680fe7156ba::s007",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
+        "Buyer's Guide",
+        "Standing offers and supply arrangements",
+        "Duplication"
+      ],
+      "markdown": "### Duplication",
+      "plain_text": "Duplication"
+    },
+    {
+      "block_id": "9680fe7156ba::b0018",
+      "section_id": "9680fe7156ba::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
+        "Buyer's Guide",
+        "Standing offers and supply arrangements",
+        "Duplication"
+      ],
+      "markdown": "When endorsing a request that involves the duplication of an existing SO or SA , the category reviewer must provide supporting rationale.",
+      "plain_text": "When endorsing a request that involves the duplication of an existing SO or SA , the category reviewer must provide supporting rationale."
+    },
+    {
+      "block_id": "9680fe7156ba::b0019",
+      "section_id": "9680fe7156ba::s008",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
+        "Buyer's Guide",
+        "Standing offers and supply arrangements",
+        "Special endorsement cases"
+      ],
+      "markdown": "### Special endorsement cases",
+      "plain_text": "Special endorsement cases"
+    },
+    {
+      "block_id": "9680fe7156ba::b0020",
+      "section_id": "9680fe7156ba::s008",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
+        "Buyer's Guide",
+        "Standing offers and supply arrangements",
+        "Special endorsement cases"
+      ],
+      "markdown": "If a product or service does not fall under a specific category, the endorsement must be sought from a supervisor or manager in the National Capital Region (NCR) or a regional category reviewer outside the NCR .",
+      "plain_text": "If a product or service does not fall under a specific category, the endorsement must be sought from a supervisor or manager in the National Capital Region (NCR) or a regional category reviewer outside the NCR ."
+    },
+    {
+      "block_id": "9680fe7156ba::b0021",
+      "section_id": "9680fe7156ba::s009",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
+        "Buyer's Guide",
+        "Standing offers and supply arrangements",
+        "Conditional endorsement or decline"
+      ],
+      "markdown": "### Conditional endorsement or decline",
+      "plain_text": "Conditional endorsement or decline"
+    },
+    {
+      "block_id": "9680fe7156ba::b0022",
+      "section_id": "9680fe7156ba::s009",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
+        "Buyer's Guide",
+        "Standing offers and supply arrangements",
+        "Conditional endorsement or decline"
+      ],
+      "markdown": "If the request receives a conditional endorsement or is declined, it can be resubmitted after revisions have been made.",
+      "plain_text": "If the request receives a conditional endorsement or is declined, it can be resubmitted after revisions have been made."
+    },
+    {
+      "block_id": "9680fe7156ba::b0023",
+      "section_id": "9680fe7156ba::s010",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
+        "Buyer's Guide",
+        "Standing offers and supply arrangements",
+        "Documentation"
+      ],
+      "markdown": "### Documentation",
+      "plain_text": "Documentation"
+    },
+    {
+      "block_id": "9680fe7156ba::b0024",
+      "section_id": "9680fe7156ba::s010",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Standing offers and supply arrangements",
+        "Buyer's Guide",
+        "Standing offers and supply arrangements",
+        "Documentation"
+      ],
+      "markdown": "The final decision and all related evaluation documents from the category reviewer must be included in the Contract Planning and Advance Approval (CPAA) document or procurement plan.",
+      "plain_text": "The final decision and all related evaluation documents from the category reviewer must be included in the Contract Planning and Advance Approval (CPAA) document or procurement plan."
+    }
+  ]
+}

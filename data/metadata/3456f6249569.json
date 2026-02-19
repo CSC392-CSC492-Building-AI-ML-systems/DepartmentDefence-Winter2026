@@ -1,0 +1,672 @@
+{
+  "doc_id": "3456f6249569",
+  "title": "Buyer's Guide Considerations for solicitations - Audit",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/audit",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/audit",
+  "doc_type": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": "2026-01-31",
+  "fetched_at": "2026-02-19T09:18:23.977670+00:00",
+  "content_hash": "459044f1390f05a4a6022022124d28dc5bc92907853c908670739f82d5657832",
+  "word_count": 1306,
+  "text_path": "data/corpus/buyers_guide__en-buyer-s-portal-buyer-s-guide-create-solicitation-considerations-solicitations-audit__3456f62495.md",
+  "extraction_method": "buyers_guide_regions",
+  "breadcrumbs": [
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "https://canadabuys.canada.ca/en",
+      "canonical_url": "https://canadabuys.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "in_scope": true
+    },
+    {
+      "title": "Create solicitation",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation",
+      "in_scope": true
+    },
+    {
+      "title": "Considerations for solicitations",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations",
+      "in_scope": true
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations",
+    "parent_doc_id": "97810d5c4a87",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/audit"
+    ],
+    "lineage_doc_ids": [
+      "1e29c7881335",
+      "2e11d15cd64e",
+      "97810d5c4a87",
+      "3456f6249569"
+    ],
+    "depth": 3,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/invitation-tender",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/preparing-solicitation-documents",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-information",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-quotation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-standing-offer",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-supply-arrangement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/client-review",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/client-review/client-review-elements-solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/certifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/delivery-terms",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/exchange-rates",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/method-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/offer-receipt",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/phased-offer-compliance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/translation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/minimum-solicitation-periods-itqs-rfsas-and-urgent-procurements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/normal-minimum-solicitation-periods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/solicitations-following-request-expressions-interest",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/advanced-contract-award-notice",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/notice-proposed-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-procurement-strategy-indigenous-business-set-asides",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-trade-agreements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-reimbursable"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/invitation-tender",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/preparing-solicitation-documents",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-information",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-quotation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-standing-offer",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-supply-arrangement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/client-review",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/client-review/client-review-elements-solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/certifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/delivery-terms",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/exchange-rates",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/method-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/offer-receipt",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/phased-offer-compliance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/translation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/minimum-solicitation-periods-itqs-rfsas-and-urgent-procurements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/normal-minimum-solicitation-periods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/solicitations-following-request-expressions-interest",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/advanced-contract-award-notice",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/notice-proposed-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-procurement-strategy-indigenous-business-set-asides",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-trade-agreements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure": {
+    "block_count": 27,
+    "section_count": 8,
+    "heading_count": 7,
+    "paragraph_count": 16,
+    "list_count": 4,
+    "table_count": 0
+  },
+  "sections": [
+    {
+      "section_id": "3456f6249569::root",
+      "parent_section_id": null,
+      "level": 0,
+      "heading": "Buyer's Guide Considerations for solicitations - Audit",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Audit"
+      ],
+      "block_count": 0,
+      "word_count": 0,
+      "char_count": 0,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": null,
+      "last_block_index": null,
+      "preview": "",
+      "prev_section_id": null,
+      "next_section_id": null
+    },
+    {
+      "section_id": "3456f6249569::s001",
+      "parent_section_id": "3456f6249569::root",
+      "level": 1,
+      "heading": "Buyer's Guide Considerations for solicitations - Audit",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Audit",
+        "Buyer's Guide Considerations for solicitations - Audit"
+      ],
+      "block_count": 1,
+      "word_count": 7,
+      "char_count": 54,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 0,
+      "last_block_index": 0,
+      "preview": "Buyer's Guide Considerations for solicitations - Audit",
+      "prev_section_id": null,
+      "next_section_id": "3456f6249569::s002"
+    },
+    {
+      "section_id": "3456f6249569::s002",
+      "parent_section_id": "3456f6249569::root",
+      "level": 1,
+      "heading": "Buyer's Guide",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Audit",
+        "Buyer's Guide"
+      ],
+      "block_count": 3,
+      "word_count": 656,
+      "char_count": 4373,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 1,
+      "last_block_index": 3,
+      "preview": "Buyer's Guide Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage Audit The provision for audit is an integral part of the procurement planning process. This section outlines audit clauses, pro",
+      "prev_section_id": "3456f6249569::s001",
+      "next_section_id": "3456f6249569::s003"
+    },
+    {
+      "section_id": "3456f6249569::s003",
+      "parent_section_id": "3456f6249569::s002",
+      "level": 2,
+      "heading": "Audit",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Audit",
+        "Buyer's Guide",
+        "Audit"
+      ],
+      "block_count": 3,
+      "word_count": 35,
+      "char_count": 258,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 2,
+      "first_block_index": 4,
+      "last_block_index": 6,
+      "preview": "Audit The provision for audit is an integral part of the procurement planning process. This section outlines audit clauses, procedures and price certification processes applicable to various types of procurements, including those involving ",
+      "prev_section_id": "3456f6249569::s002",
+      "next_section_id": "3456f6249569::s004"
+    },
+    {
+      "section_id": "3456f6249569::s004",
+      "parent_section_id": "3456f6249569::s003",
+      "level": 3,
+      "heading": "General audit clause",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Audit",
+        "Buyer's Guide",
+        "Audit",
+        "General audit clause"
+      ],
+      "block_count": 4,
+      "word_count": 147,
+      "char_count": 916,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 2,
+      "first_block_index": 7,
+      "last_block_index": 10,
+      "preview": "General audit clause You must include a general audit clause in every contract. This clause requires the contractor to maintain complete and accurate records of the estimated and actual cost of the Work. This will allow Canada to inspect an",
+      "prev_section_id": "3456f6249569::s003",
+      "next_section_id": "3456f6249569::s005"
+    },
+    {
+      "section_id": "3456f6249569::s005",
+      "parent_section_id": "3456f6249569::s003",
+      "level": 3,
+      "heading": "Price certification clauses and discretionary audits",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Audit",
+        "Buyer's Guide",
+        "Audit",
+        "Price certification clauses and discretionary audits"
+      ],
+      "block_count": 3,
+      "word_count": 113,
+      "char_count": 763,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 2,
+      "first_block_index": 11,
+      "last_block_index": 13,
+      "preview": "Price certification clauses and discretionary audits All non-competitive firm price contracts over $50,000, whether for the acquisition of commercial or non-commercial goods and services require the submission of a price certification by th",
+      "prev_section_id": "3456f6249569::s004",
+      "next_section_id": "3456f6249569::s006"
+    },
+    {
+      "section_id": "3456f6249569::s006",
+      "parent_section_id": "3456f6249569::s003",
+      "level": 3,
+      "heading": "Cost reimbursable contracts - certification and audit",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Audit",
+        "Buyer's Guide",
+        "Audit",
+        "Cost reimbursable contracts - certification and audit"
+      ],
+      "block_count": 7,
+      "word_count": 185,
+      "char_count": 1169,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 5,
+      "first_block_index": 14,
+      "last_block_index": 20,
+      "preview": "Cost reimbursable contracts - certification and audit In the case of cost reimbursable contracts, a price is not specified but will be determined after completion of the work. In accordance with section 34 of the Financial Administration Ac",
+      "prev_section_id": "3456f6249569::s005",
+      "next_section_id": "3456f6249569::s007"
+    },
+    {
+      "section_id": "3456f6249569::s007",
+      "parent_section_id": "3456f6249569::s003",
+      "level": 3,
+      "heading": "Price certification and audits of contracts with foreign contractors",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Audit",
+        "Buyer's Guide",
+        "Audit",
+        "Price certification and audits of contracts with foreign contractors"
+      ],
+      "block_count": 6,
+      "word_count": 163,
+      "char_count": 1148,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 4,
+      "first_block_index": 21,
+      "last_block_index": 26,
+      "preview": "Price certification and audits of contracts with foreign contractors If a contract (or if a significant subcontracted portion) involves a contractor from a North Atlantic Treaty Organization (NATO)-allied country, you should consider using ",
+      "prev_section_id": "3456f6249569::s006",
+      "next_section_id": null
+    }
+  ],
+  "tables": [],
+  "blocks": [
+    {
+      "block_id": "3456f6249569::b0001",
+      "section_id": "3456f6249569::s001",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Audit",
+        "Buyer's Guide Considerations for solicitations - Audit"
+      ],
+      "markdown": "# Buyer's Guide Considerations for solicitations - Audit",
+      "plain_text": "Buyer's Guide Considerations for solicitations - Audit"
+    },
+    {
+      "block_id": "3456f6249569::b0002",
+      "section_id": "3456f6249569::s002",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Audit",
+        "Buyer's Guide"
+      ],
+      "markdown": "# Buyer's Guide",
+      "plain_text": "Buyer's Guide"
+    },
+    {
+      "block_id": "3456f6249569::b0003",
+      "section_id": "3456f6249569::s002",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Audit",
+        "Buyer's Guide"
+      ],
+      "markdown": "- Plan\n- Approve\n- Create solicitation\n- Solicit\n- Receive and evaluate\n- Negotiate\n- Award\n- Manage",
+      "plain_text": "Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage"
+    },
+    {
+      "block_id": "3456f6249569::b0004",
+      "section_id": "3456f6249569::s002",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Audit",
+        "Buyer's Guide"
+      ],
+      "markdown": "Audit The provision for audit is an integral part of the procurement planning process. This section outlines audit clauses, procedures and price certification processes applicable to various types of procurements, including those involving foreign contractors. General audit clause You must include a general audit clause in every contract. This clause requires the contractor to maintain complete and accurate records of the estimated and actual cost of the Work. This will allow Canada to inspect and examine the records upon request to determine that: the Work has been performed and the price charged for the Work are in accordance with the contract terms whether best value has been achieved for Canada There are a number of circumstances where additional, specific provisions for audit (or validation) must be included in a contract. For contracts where the price is based on estimated costs (e.g., negotiated fixed price contracts) or actual costs incurred after contract award (e.g., cost reimbursable contracts), there may be a need to mitigate price risk. Additional audit or validation provisions are necessary to verify contract price and adjust payment as required. Price certification clauses and discretionary audits All non-competitive firm price contracts over $50,000, whether for the acquisition of commercial or non-commercial goods and services require the submission of a price certification by the contractor. All such contracts must also have a discretionary audit clause in the solicitation and contract documents. This applies to all such contracts issued by Public Services and Procurement Canada (PSPC) and those issued by Canadian Commercial Corporation (CCC) on behalf of the United States Department of Defense (DoD) and the National Aeronautics and Space Administration (NASA). Except for contracts for which the price is based on tariffs fixed by public regulatory bodies and not subject to negotiation by PSPC. Cost reimbursable contracts - certification and audit In the case of cost reimbursable contracts, a price is not specified but will be determined after completion of the work. In accordance with section 34 of the Financial Administration Act , it is necessary for the appropriate authority to certify that the price, based on actual costs incurred when these are known on completion of the work, is reasonable. The purpose of the reference, in all cost reimbursable contracts valued over $50,000, to the costs incurred being determined by government audit, is to provide a basis for such certification of the reasonableness of the price. Contracts containing cost-reimbursable elements must contain an appropriate audit clause. The cost reimbursable bases of payment are: cost reimbursable with fixed time rate cost reimbursable with incentive fee cost reimbursable with fixed fee cost reimbursable with fee based on actual costs cost reimbursable with no fee Upon completion, contractors must submit a cost submission to the buyer. This must be specified as a mandatory deliverable in the contract, except in repair and overhaul contracts, where it is discretionary. Price certification and audits of contracts with foreign contractors If a contract (or if a significant subcontracted portion) involves a contractor from a North Atlantic Treaty Organization (NATO)-allied country, you should consider using the services of the foreign contractor or subcontractor's country\u2019s government to conduct the audit. This helps ensure that the prices paid, or proposed to Canada, are considered to be fair and reasonable. You, as a PSPC buyer, can request this service through the Price Support Directorate (PSD). Forms and guidance on requesting these services are available on GCDocs (accessible only on the Government of Canada network - PSPC only). Price certification services include the review of contractor proposals, subcontractor efforts and the execution of assurance engagements (cost audits). Price proposal certifications are applicable to: non-competitive proposals single responsive offers from competitive tenders amendments to competitively awarded contracts Price certifications from foreign governments, typically provided as a high-level report, may be considered as opinions of the Government of Canada.",
+      "plain_text": "Audit The provision for audit is an integral part of the procurement planning process. This section outlines audit clauses, procedures and price certification processes applicable to various types of procurements, including those involving foreign contractors. General audit clause You must include a general audit clause in every contract. This clause requires the contractor to maintain complete and accurate records of the estimated and actual cost of the Work. This will allow Canada to inspect and examine the records upon request to determine that: the Work has been performed and the price charged for the Work are in accordance with the contract terms whether best value has been achieved for Canada There are a number of circumstances where additional, specific provisions for audit (or validation) must be included in a contract. For contracts where the price is based on estimated costs (e.g., negotiated fixed price contracts) or actual costs incurred after contract award (e.g., cost reimbursable contracts), there may be a need to mitigate price risk. Additional audit or validation provisions are necessary to verify contract price and adjust payment as required. Price certification clauses and discretionary audits All non-competitive firm price contracts over $50,000, whether for the acquisition of commercial or non-commercial goods and services require the submission of a price certification by the contractor. All such contracts must also have a discretionary audit clause in the solicitation and contract documents. This applies to all such contracts issued by Public Services and Procurement Canada (PSPC) and those issued by Canadian Commercial Corporation (CCC) on behalf of the United States Department of Defense (DoD) and the National Aeronautics and Space Administration (NASA). Except for contracts for which the price is based on tariffs fixed by public regulatory bodies and not subject to negotiation by PSPC. Cost reimbursable contracts - certification and audit In the case of cost reimbursable contracts, a price is not specified but will be determined after completion of the work. In accordance with section 34 of the Financial Administration Act , it is necessary for the appropriate authority to certify that the price, based on actual costs incurred when these are known on completion of the work, is reasonable. The purpose of the reference, in all cost reimbursable contracts valued over $50,000, to the costs incurred being determined by government audit, is to provide a basis for such certification of the reasonableness of the price. Contracts containing cost-reimbursable elements must contain an appropriate audit clause. The cost reimbursable bases of payment are: cost reimbursable with fixed time rate cost reimbursable with incentive fee cost reimbursable with fixed fee cost reimbursable with fee based on actual costs cost reimbursable with no fee Upon completion, contractors must submit a cost submission to the buyer. This must be specified as a mandatory deliverable in the contract, except in repair and overhaul contracts, where it is discretionary. Price certification and audits of contracts with foreign contractors If a contract (or if a significant subcontracted portion) involves a contractor from a North Atlantic Treaty Organization (NATO)-allied country, you should consider using the services of the foreign contractor or subcontractor's country\u2019s government to conduct the audit. This helps ensure that the prices paid, or proposed to Canada, are considered to be fair and reasonable. You, as a PSPC buyer, can request this service through the Price Support Directorate (PSD). Forms and guidance on requesting these services are available on GCDocs (accessible only on the Government of Canada network - PSPC only). Price certification services include the review of contractor proposals, subcontractor efforts and the execution of assurance engagements (cost audits). Price proposal certifications are applicable to: non-competitive proposals single responsive offers from competitive tenders amendments to competitively awarded contracts Price certifications from foreign governments, typically provided as a high-level report, may be considered as opinions of the Government of Canada."
+    },
+    {
+      "block_id": "3456f6249569::b0005",
+      "section_id": "3456f6249569::s003",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Audit",
+        "Buyer's Guide",
+        "Audit"
+      ],
+      "markdown": "## Audit",
+      "plain_text": "Audit"
+    },
+    {
+      "block_id": "3456f6249569::b0006",
+      "section_id": "3456f6249569::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Audit",
+        "Buyer's Guide",
+        "Audit"
+      ],
+      "markdown": "The provision for audit is an integral part of the procurement planning process.",
+      "plain_text": "The provision for audit is an integral part of the procurement planning process."
+    },
+    {
+      "block_id": "3456f6249569::b0007",
+      "section_id": "3456f6249569::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Audit",
+        "Buyer's Guide",
+        "Audit"
+      ],
+      "markdown": "This section outlines audit clauses, procedures and price certification processes applicable to various types of procurements, including those involving foreign contractors.",
+      "plain_text": "This section outlines audit clauses, procedures and price certification processes applicable to various types of procurements, including those involving foreign contractors."
+    },
+    {
+      "block_id": "3456f6249569::b0008",
+      "section_id": "3456f6249569::s004",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Audit",
+        "Buyer's Guide",
+        "Audit",
+        "General audit clause"
+      ],
+      "markdown": "### General audit clause",
+      "plain_text": "General audit clause"
+    },
+    {
+      "block_id": "3456f6249569::b0009",
+      "section_id": "3456f6249569::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Audit",
+        "Buyer's Guide",
+        "Audit",
+        "General audit clause"
+      ],
+      "markdown": "You must include a general audit clause in every contract. This clause requires the contractor to maintain complete and accurate records of the estimated and actual cost of the Work. This will allow Canada to inspect and examine the records upon request to determine that:",
+      "plain_text": "You must include a general audit clause in every contract. This clause requires the contractor to maintain complete and accurate records of the estimated and actual cost of the Work. This will allow Canada to inspect and examine the records upon request to determine that:"
+    },
+    {
+      "block_id": "3456f6249569::b0010",
+      "section_id": "3456f6249569::s004",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Audit",
+        "Buyer's Guide",
+        "Audit",
+        "General audit clause"
+      ],
+      "markdown": "- the Work has been performed and the price charged for the Work are in accordance with the contract terms\n- whether best value has been achieved for Canada",
+      "plain_text": "the Work has been performed and the price charged for the Work are in accordance with the contract terms ; whether best value has been achieved for Canada"
+    },
+    {
+      "block_id": "3456f6249569::b0011",
+      "section_id": "3456f6249569::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Audit",
+        "Buyer's Guide",
+        "Audit",
+        "General audit clause"
+      ],
+      "markdown": "There are a number of circumstances where additional, specific provisions for audit (or validation) must be included in a contract. For contracts where the price is based on estimated costs (e.g., negotiated fixed price contracts) or actual costs incurred after contract award (e.g., cost reimbursable contracts), there may be a need to mitigate price risk. Additional audit or validation provisions are necessary to verify contract price and adjust payment as required.",
+      "plain_text": "There are a number of circumstances where additional, specific provisions for audit (or validation) must be included in a contract. For contracts where the price is based on estimated costs (e.g., negotiated fixed price contracts) or actual costs incurred after contract award (e.g., cost reimbursable contracts), there may be a need to mitigate price risk. Additional audit or validation provisions are necessary to verify contract price and adjust payment as required."
+    },
+    {
+      "block_id": "3456f6249569::b0012",
+      "section_id": "3456f6249569::s005",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Audit",
+        "Buyer's Guide",
+        "Audit",
+        "Price certification clauses and discretionary audits"
+      ],
+      "markdown": "### Price certification clauses and discretionary audits",
+      "plain_text": "Price certification clauses and discretionary audits"
+    },
+    {
+      "block_id": "3456f6249569::b0013",
+      "section_id": "3456f6249569::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Audit",
+        "Buyer's Guide",
+        "Audit",
+        "Price certification clauses and discretionary audits"
+      ],
+      "markdown": "All non-competitive firm price contracts over $50,000, whether for the acquisition of commercial or non-commercial goods and services require the submission of a price certification by the contractor. All such contracts must also have a discretionary audit clause in the solicitation and contract documents.",
+      "plain_text": "All non-competitive firm price contracts over $50,000, whether for the acquisition of commercial or non-commercial goods and services require the submission of a price certification by the contractor. All such contracts must also have a discretionary audit clause in the solicitation and contract documents."
+    },
+    {
+      "block_id": "3456f6249569::b0014",
+      "section_id": "3456f6249569::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Audit",
+        "Buyer's Guide",
+        "Audit",
+        "Price certification clauses and discretionary audits"
+      ],
+      "markdown": "This applies to all such contracts issued by Public Services and Procurement Canada (PSPC) and those issued by Canadian Commercial Corporation (CCC) on behalf of the United States Department of Defense (DoD) and the National Aeronautics and Space Administration (NASA). Except for contracts for which the price is based on tariffs fixed by public regulatory bodies and not subject to negotiation by PSPC.",
+      "plain_text": "This applies to all such contracts issued by Public Services and Procurement Canada (PSPC) and those issued by Canadian Commercial Corporation (CCC) on behalf of the United States Department of Defense (DoD) and the National Aeronautics and Space Administration (NASA). Except for contracts for which the price is based on tariffs fixed by public regulatory bodies and not subject to negotiation by PSPC."
+    },
+    {
+      "block_id": "3456f6249569::b0015",
+      "section_id": "3456f6249569::s006",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Audit",
+        "Buyer's Guide",
+        "Audit",
+        "Cost reimbursable contracts - certification and audit"
+      ],
+      "markdown": "### Cost reimbursable contracts - certification and audit",
+      "plain_text": "Cost reimbursable contracts - certification and audit"
+    },
+    {
+      "block_id": "3456f6249569::b0016",
+      "section_id": "3456f6249569::s006",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Audit",
+        "Buyer's Guide",
+        "Audit",
+        "Cost reimbursable contracts - certification and audit"
+      ],
+      "markdown": "In the case of cost reimbursable contracts, a price is not specified but will be determined after completion of the work. In accordance with section 34 of the Financial Administration Act , it is necessary for the appropriate authority to certify that the price, based on actual costs incurred when these are known on completion of the work, is reasonable.",
+      "plain_text": "In the case of cost reimbursable contracts, a price is not specified but will be determined after completion of the work. In accordance with section 34 of the Financial Administration Act , it is necessary for the appropriate authority to certify that the price, based on actual costs incurred when these are known on completion of the work, is reasonable."
+    },
+    {
+      "block_id": "3456f6249569::b0017",
+      "section_id": "3456f6249569::s006",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Audit",
+        "Buyer's Guide",
+        "Audit",
+        "Cost reimbursable contracts - certification and audit"
+      ],
+      "markdown": "The purpose of the reference, in all cost reimbursable contracts valued over $50,000, to the costs incurred being determined by government audit, is to provide a basis for such certification of the reasonableness of the price.",
+      "plain_text": "The purpose of the reference, in all cost reimbursable contracts valued over $50,000, to the costs incurred being determined by government audit, is to provide a basis for such certification of the reasonableness of the price."
+    },
+    {
+      "block_id": "3456f6249569::b0018",
+      "section_id": "3456f6249569::s006",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Audit",
+        "Buyer's Guide",
+        "Audit",
+        "Cost reimbursable contracts - certification and audit"
+      ],
+      "markdown": "Contracts containing cost-reimbursable elements must contain an appropriate audit clause.",
+      "plain_text": "Contracts containing cost-reimbursable elements must contain an appropriate audit clause."
+    },
+    {
+      "block_id": "3456f6249569::b0019",
+      "section_id": "3456f6249569::s006",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Audit",
+        "Buyer's Guide",
+        "Audit",
+        "Cost reimbursable contracts - certification and audit"
+      ],
+      "markdown": "The cost reimbursable bases of payment are:",
+      "plain_text": "The cost reimbursable bases of payment are:"
+    },
+    {
+      "block_id": "3456f6249569::b0020",
+      "section_id": "3456f6249569::s006",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Audit",
+        "Buyer's Guide",
+        "Audit",
+        "Cost reimbursable contracts - certification and audit"
+      ],
+      "markdown": "- cost reimbursable with fixed time rate\n- cost reimbursable with incentive fee\n- cost reimbursable with fixed fee\n- cost reimbursable with fee based on actual costs\n- cost reimbursable with no fee",
+      "plain_text": "cost reimbursable with fixed time rate ; cost reimbursable with incentive fee ; cost reimbursable with fixed fee ; cost reimbursable with fee based on actual costs ; cost reimbursable with no fee"
+    },
+    {
+      "block_id": "3456f6249569::b0021",
+      "section_id": "3456f6249569::s006",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Audit",
+        "Buyer's Guide",
+        "Audit",
+        "Cost reimbursable contracts - certification and audit"
+      ],
+      "markdown": "Upon completion, contractors must submit a cost submission to the buyer. This must be specified as a mandatory deliverable in the contract, except in repair and overhaul contracts, where it is discretionary.",
+      "plain_text": "Upon completion, contractors must submit a cost submission to the buyer. This must be specified as a mandatory deliverable in the contract, except in repair and overhaul contracts, where it is discretionary."
+    },
+    {
+      "block_id": "3456f6249569::b0022",
+      "section_id": "3456f6249569::s007",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Audit",
+        "Buyer's Guide",
+        "Audit",
+        "Price certification and audits of contracts with foreign contractors"
+      ],
+      "markdown": "### Price certification and audits of contracts with foreign contractors",
+      "plain_text": "Price certification and audits of contracts with foreign contractors"
+    },
+    {
+      "block_id": "3456f6249569::b0023",
+      "section_id": "3456f6249569::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Audit",
+        "Buyer's Guide",
+        "Audit",
+        "Price certification and audits of contracts with foreign contractors"
+      ],
+      "markdown": "If a contract (or if a significant subcontracted portion) involves a contractor from a North Atlantic Treaty Organization (NATO)-allied country, you should consider using the services of the foreign contractor or subcontractor's country\u2019s government to conduct the audit. This helps ensure that the prices paid, or proposed to Canada, are considered to be fair and reasonable. You, as a PSPC buyer, can request this service through the Price Support Directorate (PSD). Forms and guidance on requesting these services are available on GCDocs (accessible only on the Government of Canada network - PSPC only).",
+      "plain_text": "If a contract (or if a significant subcontracted portion) involves a contractor from a North Atlantic Treaty Organization (NATO)-allied country, you should consider using the services of the foreign contractor or subcontractor's country\u2019s government to conduct the audit. This helps ensure that the prices paid, or proposed to Canada, are considered to be fair and reasonable. You, as a PSPC buyer, can request this service through the Price Support Directorate (PSD). Forms and guidance on requesting these services are available on GCDocs (accessible only on the Government of Canada network - PSPC only)."
+    },
+    {
+      "block_id": "3456f6249569::b0024",
+      "section_id": "3456f6249569::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Audit",
+        "Buyer's Guide",
+        "Audit",
+        "Price certification and audits of contracts with foreign contractors"
+      ],
+      "markdown": "Price certification services include the review of contractor proposals, subcontractor efforts and the execution of assurance engagements (cost audits).",
+      "plain_text": "Price certification services include the review of contractor proposals, subcontractor efforts and the execution of assurance engagements (cost audits)."
+    },
+    {
+      "block_id": "3456f6249569::b0025",
+      "section_id": "3456f6249569::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Audit",
+        "Buyer's Guide",
+        "Audit",
+        "Price certification and audits of contracts with foreign contractors"
+      ],
+      "markdown": "Price proposal certifications are applicable to:",
+      "plain_text": "Price proposal certifications are applicable to:"
+    },
+    {
+      "block_id": "3456f6249569::b0026",
+      "section_id": "3456f6249569::s007",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Audit",
+        "Buyer's Guide",
+        "Audit",
+        "Price certification and audits of contracts with foreign contractors"
+      ],
+      "markdown": "- non-competitive proposals\n- single responsive offers from competitive tenders\n- amendments to competitively awarded contracts",
+      "plain_text": "non-competitive proposals ; single responsive offers from competitive tenders ; amendments to competitively awarded contracts"
+    },
+    {
+      "block_id": "3456f6249569::b0027",
+      "section_id": "3456f6249569::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Audit",
+        "Buyer's Guide",
+        "Audit",
+        "Price certification and audits of contracts with foreign contractors"
+      ],
+      "markdown": "Price certifications from foreign governments, typically provided as a high-level report, may be considered as opinions of the Government of Canada.",
+      "plain_text": "Price certifications from foreign governments, typically provided as a high-level report, may be considered as opinions of the Government of Canada."
+    }
+  ]
+}

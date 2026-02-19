@@ -1,0 +1,85 @@
+# Buyer's Guide Manage a contract - Vendor performance
+
+# Buyer's Guide
+
+- Plan
+- Approve
+- Create solicitation
+- Solicit
+- Receive and evaluate
+- Negotiate
+- Award
+- Manage
+
+## Vendor performance
+
+This section outlines how to manage vendor performance effectively to protect Canada's interests. By following these guidelines, you can ensure that contracts are fulfilled as agreed and address any issues promptly to maintain high standards of performance.
+
+### Contract performance
+
+Managing a contract involves multiple activities to ensure the contract's fulfillment. Changes in circumstances like the contractor's failure to meet obligations, disputes over contract conditions or necessary amendments after awarding the contract might disrupt contract performance.
+
+In cases where contract fulfillment is at risk, you should take the necessary steps to protect Canada's interests. This includes dealing with disputes promptly, fairly and keeping procurement records up-to-date to document the actions taken.
+
+### Timely performance
+
+If a contractor fails to deliver goods or services as scheduled, you must review the reasons for the delay in consultation with the client and legal services. Should the delay be due to uncontrollable factors and not caused by the contractor’s fault or negligence, you should extend the contract duration by a period equivalent to the delay. Otherwise, the contractor is accountable for any non-delivery.
+
+Note: Excusable delays are detailed in general conditions.
+
+In cases of default you may terminate the contract, fully or partially, after issuing a written notice to the contractor.
+
+If the contract is backed by surety bonds and requires an extension due to uncontrollable delays, you must:
+
+- obtain approval from the surety company before extending the contract's completion dates
+- seek the surety's agreement before modifying the contract price for additional work, if necessary
+
+### Contract administration
+
+Contract administration involves the requirements described below.
+
+#### Enforcement of contract terms
+
+You must enforce the terms of contracts. Performance issues can result in:
+
+- enforcement of available contractual remedies
+- documentation of the issue in the Vendor Information Management (VIM) system
+- a Vendor Performance Corrective Measure (VPCM) assessment
+
+#### Documentation requirements
+
+You must document the following in the contract file:
+
+- specific performance issues like non-compliance with contract criteria
+- evidence of communication with the contractor regarding these issues
+- proof of the VPCM policy having been sent to the contractor as part of communications
+
+#### Handling terminations and amendments
+
+When a contract is terminated for default or a conditional amendment is issued, the contractor must be formally notified in writing of the performance issue.
+
+This notification should mention that Canada may consider the poor performance for future VPCM assessments and that it will result in a note in the VIM system.
+
+For terminations for default and conditional amendments, you must consult with legal services. For a conditional amendment, include the following text in the notification:
+
+“The parties agree to this amendment on condition that Canada has the rights to consider the poor performance, which has led to this conditional amendment, for the purpose of assessing whether a VPCM will be placed against the contractor. The parties agree that this conditional amendment will result in a note in the VIM System, and will trigger a VPCM assessment process at the end of the contract or expiry date of the Standing Offer.”
+
+### Vendor Performance Corrective Measure Assessment process
+
+A contract terminated for default or with a conditional amendment triggers a mandatory assessment to determine whether a VPCM is to be applied.
+
+Upon learning of a default, the VPCM coordinator sends a reminder email to the buyers outlining the initial steps. You must respond within 5 business days and check the VPCM database for any existing assessments related to the contractor.
+
+If no ongoing assessments affect the contractor, you will receive authorization to proceed with the VPCM assessment. If there is an ongoing assessment, you will be informed that the authorization for assessment of the new case will be put on hold until the previous assessment is completed.
+
+The assessment must be completed within 3 months from the authorization date.
+
+### Recordkeeping in the VIM system
+
+Notes in the VIM system related to contract termination or conditional amendments remain for 6 years. The note may be removed sooner where the termination or conditional amendment contributed to the VPCM assessment.
+
+Canada reserves the right to include notes called “Other Performance Records” in the VIM system where other significant issues pertaining to performance are observed. These notes are subject to the approval of the appropriate ADM , Acquisitions Program, PSPC .
+
+### Provisions for stop work orders, contract suspensions, and other reasons for offer rejection
+
+The VPCM provisions do not override PSPC 's rights regarding stop work orders, contract or supply arrangement suspensions, standing offer set-asides and offer rejections.

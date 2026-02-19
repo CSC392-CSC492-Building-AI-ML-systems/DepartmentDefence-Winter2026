@@ -1,0 +1,800 @@
+{
+  "doc_id": "999d328007b4",
+  "title": "Buyer's Guide Socioeconomic considerations - Accessibility",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/accessibility",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/accessibility",
+  "doc_type": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": "2026-01-31",
+  "fetched_at": "2026-02-19T09:15:57.984104+00:00",
+  "content_hash": "e0bba06f8bbd800772cd09ea778321132a33a72ee284e44a01f24ac55f7e5815",
+  "word_count": 831,
+  "text_path": "data/corpus/buyers_guide__en-buyer-s-portal-buyer-s-guide-plan-socioeconomic-considerations-accessibility__999d328007.md",
+  "extraction_method": "buyers_guide_regions",
+  "breadcrumbs": [
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "https://canadabuys.canada.ca/en",
+      "canonical_url": "https://canadabuys.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "in_scope": true
+    },
+    {
+      "title": "Socioeconomic considerations",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations",
+      "in_scope": true
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations",
+    "parent_doc_id": "383fa74e913d",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/accessibility"
+    ],
+    "lineage_doc_ids": [
+      "1e29c7881335",
+      "383fa74e913d",
+      "999d328007b4"
+    ],
+    "depth": 2,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-accounting-and-pricing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-reimbursable",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/firm-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-time/unit-rate",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/overview-key-pricing-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/price-and-currency-adjustments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/pricing-methods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/provisional-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/types-basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/application-registration",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/completing-security-requirements-check-list",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/controlled-goods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/foreign-ownership-control-or-influence",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/privacy-and-confidentiality",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-international-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-timelines",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/importance-clear-procurement-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/requisition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/review-statement-work",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/socioeconomic-requirements-definition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/standards-and-quality-assurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/choose-method-supply",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/determine-sourcing-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/developing-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/interim-policy-reciprocal-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/trade-agreement-applicability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/early-engagement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-businesses",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-clients",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-subject-matter-experts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/invoicing-instructions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/payment-instruments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/taxes-and-duties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/withholding-non-resident-contractors",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/communicating-method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/developing-selection-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/including-basis-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/specifying-evaluation-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/canadian-general-standards-board",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/compliance-canadian-electrical-code",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/contractor-liability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/emergency-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/employer/employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/fairness-monitoring",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/insurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/intellectual-property-and-copyright",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/liability-and-risk-management",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/managing-urgent-acquisitions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/official-languages-obligation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/warranties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/holdbacks",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/incentives",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/anti-forced-labour-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/green-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/indigenous-considerations"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-accounting-and-pricing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-reimbursable",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/firm-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-time/unit-rate",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/overview-key-pricing-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/price-and-currency-adjustments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/pricing-methods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/provisional-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/types-basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/application-registration",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/completing-security-requirements-check-list",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/controlled-goods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/foreign-ownership-control-or-influence",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/privacy-and-confidentiality",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-international-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-timelines",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/importance-clear-procurement-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/requisition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/review-statement-work",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/socioeconomic-requirements-definition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/standards-and-quality-assurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/choose-method-supply",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/determine-sourcing-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/developing-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/interim-policy-reciprocal-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/trade-agreement-applicability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/early-engagement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-businesses",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-clients",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-subject-matter-experts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/invoicing-instructions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/payment-instruments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/taxes-and-duties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/withholding-non-resident-contractors",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/communicating-method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/developing-selection-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/including-basis-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/specifying-evaluation-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/canadian-general-standards-board",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/compliance-canadian-electrical-code",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/contractor-liability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/emergency-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/employer/employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/fairness-monitoring",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/insurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/intellectual-property-and-copyright",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/liability-and-risk-management",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/managing-urgent-acquisitions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/official-languages-obligation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/warranties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/holdbacks",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/incentives",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/anti-forced-labour-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/green-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/indigenous-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure": {
+    "block_count": 26,
+    "section_count": 10,
+    "heading_count": 9,
+    "paragraph_count": 13,
+    "list_count": 4,
+    "table_count": 0
+  },
+  "sections": [
+    {
+      "section_id": "999d328007b4::root",
+      "parent_section_id": null,
+      "level": 0,
+      "heading": "Buyer's Guide Socioeconomic considerations - Accessibility",
+      "heading_path": [
+        "Buyer's Guide Socioeconomic considerations - Accessibility"
+      ],
+      "block_count": 0,
+      "word_count": 0,
+      "char_count": 0,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": null,
+      "last_block_index": null,
+      "preview": "",
+      "prev_section_id": null,
+      "next_section_id": null
+    },
+    {
+      "section_id": "999d328007b4::s001",
+      "parent_section_id": "999d328007b4::root",
+      "level": 1,
+      "heading": "Buyer's Guide Socioeconomic considerations - Accessibility",
+      "heading_path": [
+        "Buyer's Guide Socioeconomic considerations - Accessibility",
+        "Buyer's Guide Socioeconomic considerations - Accessibility"
+      ],
+      "block_count": 1,
+      "word_count": 6,
+      "char_count": 58,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 0,
+      "last_block_index": 0,
+      "preview": "Buyer's Guide Socioeconomic considerations - Accessibility",
+      "prev_section_id": null,
+      "next_section_id": "999d328007b4::s002"
+    },
+    {
+      "section_id": "999d328007b4::s002",
+      "parent_section_id": "999d328007b4::root",
+      "level": 1,
+      "heading": "Buyer's Guide",
+      "heading_path": [
+        "Buyer's Guide Socioeconomic considerations - Accessibility",
+        "Buyer's Guide"
+      ],
+      "block_count": 3,
+      "word_count": 419,
+      "char_count": 3147,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 1,
+      "last_block_index": 3,
+      "preview": "Buyer's Guide Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage Accessibility Clients, with assistance from Public Services and Procurement Canada (PSPC), are responsible for all four stages ",
+      "prev_section_id": "999d328007b4::s001",
+      "next_section_id": "999d328007b4::s003"
+    },
+    {
+      "section_id": "999d328007b4::s003",
+      "parent_section_id": "999d328007b4::s002",
+      "level": 2,
+      "heading": "Accessibility",
+      "heading_path": [
+        "Buyer's Guide Socioeconomic considerations - Accessibility",
+        "Buyer's Guide",
+        "Accessibility"
+      ],
+      "block_count": 3,
+      "word_count": 135,
+      "char_count": 982,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 4,
+      "last_block_index": 6,
+      "preview": "Accessibility Clients, with assistance from Public Services and Procurement Canada (PSPC), are responsible for all four stages of the procurement process, which includes planning, acquisition, utilization, and disposal of goods and services",
+      "prev_section_id": "999d328007b4::s002",
+      "next_section_id": "999d328007b4::s004"
+    },
+    {
+      "section_id": "999d328007b4::s004",
+      "parent_section_id": "999d328007b4::s003",
+      "level": 3,
+      "heading": "Evaluation indicators for accessibility",
+      "heading_path": [
+        "Buyer's Guide Socioeconomic considerations - Accessibility",
+        "Buyer's Guide",
+        "Accessibility",
+        "Evaluation indicators for accessibility"
+      ],
+      "block_count": 2,
+      "word_count": 17,
+      "char_count": 134,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 7,
+      "last_block_index": 8,
+      "preview": "Evaluation indicators for accessibility Following are examples of indicators that should be examined in developing evaluation criteria.",
+      "prev_section_id": "999d328007b4::s003",
+      "next_section_id": "999d328007b4::s005"
+    },
+    {
+      "section_id": "999d328007b4::s005",
+      "parent_section_id": "999d328007b4::s004",
+      "level": 4,
+      "heading": "Market capacity",
+      "heading_path": [
+        "Buyer's Guide Socioeconomic considerations - Accessibility",
+        "Buyer's Guide",
+        "Accessibility",
+        "Evaluation indicators for accessibility",
+        "Market capacity"
+      ],
+      "block_count": 2,
+      "word_count": 16,
+      "char_count": 131,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 9,
+      "last_block_index": 10,
+      "preview": "Market capacity Assess whether there is sufficient market capacity to incorporate mandatory accessibility criteria in solicitations.",
+      "prev_section_id": "999d328007b4::s004",
+      "next_section_id": "999d328007b4::s006"
+    },
+    {
+      "section_id": "999d328007b4::s006",
+      "parent_section_id": "999d328007b4::s004",
+      "level": 4,
+      "heading": "Procurement instruments",
+      "heading_path": [
+        "Buyer's Guide Socioeconomic considerations - Accessibility",
+        "Buyer's Guide",
+        "Accessibility",
+        "Evaluation indicators for accessibility",
+        "Procurement instruments"
+      ],
+      "block_count": 4,
+      "word_count": 64,
+      "char_count": 510,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 2,
+      "first_block_index": 11,
+      "last_block_index": 14,
+      "preview": "Procurement instruments Ensure that procurement instruments, like standing offers and supply arrangements, include technical specifications that address accessibility. Performance testing Consider the usefulness of prototypes or product dem",
+      "prev_section_id": "999d328007b4::s005",
+      "next_section_id": "999d328007b4::s007"
+    },
+    {
+      "section_id": "999d328007b4::s007",
+      "parent_section_id": "999d328007b4::s004",
+      "level": 4,
+      "heading": "Adaptability",
+      "heading_path": [
+        "Buyer's Guide Socioeconomic considerations - Accessibility",
+        "Buyer's Guide",
+        "Accessibility",
+        "Evaluation indicators for accessibility",
+        "Adaptability"
+      ],
+      "block_count": 6,
+      "word_count": 114,
+      "char_count": 834,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 4,
+      "first_block_index": 15,
+      "last_block_index": 20,
+      "preview": "Adaptability Goods and services should be designed with built-in flexibility to ensure they can be easily adapted for different accessibility needs. Accessibility Standards Determine if the goods or services comply with standards for access",
+      "prev_section_id": "999d328007b4::s006",
+      "next_section_id": "999d328007b4::s008"
+    },
+    {
+      "section_id": "999d328007b4::s008",
+      "parent_section_id": "999d328007b4::s004",
+      "level": 4,
+      "heading": "Maintenance",
+      "heading_path": [
+        "Buyer's Guide Socioeconomic considerations - Accessibility",
+        "Buyer's Guide",
+        "Accessibility",
+        "Evaluation indicators for accessibility",
+        "Maintenance"
+      ],
+      "block_count": 2,
+      "word_count": 29,
+      "char_count": 229,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 21,
+      "last_block_index": 22,
+      "preview": "Maintenance Products should be easy to maintain and repair, especially concerning their accessibility features. Ensure that maintenance, add-ons or upgrades are cost-effective and that offerors provide accessible customer service.",
+      "prev_section_id": "999d328007b4::s007",
+      "next_section_id": "999d328007b4::s009"
+    },
+    {
+      "section_id": "999d328007b4::s009",
+      "parent_section_id": "999d328007b4::s004",
+      "level": 4,
+      "heading": "Packaging",
+      "heading_path": [
+        "Buyer's Guide Socioeconomic considerations - Accessibility",
+        "Buyer's Guide",
+        "Accessibility",
+        "Evaluation indicators for accessibility",
+        "Packaging"
+      ],
+      "block_count": 3,
+      "word_count": 31,
+      "char_count": 209,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 2,
+      "first_block_index": 23,
+      "last_block_index": 25,
+      "preview": "Packaging Consider if packaging takes into account accessibility (e.g. easy to open). Check if the instructions for using the product/technology are clear and easy to follow, and available in accessible formats.",
+      "prev_section_id": "999d328007b4::s008",
+      "next_section_id": null
+    }
+  ],
+  "tables": [],
+  "blocks": [
+    {
+      "block_id": "999d328007b4::b0001",
+      "section_id": "999d328007b4::s001",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Socioeconomic considerations - Accessibility",
+        "Buyer's Guide Socioeconomic considerations - Accessibility"
+      ],
+      "markdown": "# Buyer's Guide Socioeconomic considerations - Accessibility",
+      "plain_text": "Buyer's Guide Socioeconomic considerations - Accessibility"
+    },
+    {
+      "block_id": "999d328007b4::b0002",
+      "section_id": "999d328007b4::s002",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Socioeconomic considerations - Accessibility",
+        "Buyer's Guide"
+      ],
+      "markdown": "# Buyer's Guide",
+      "plain_text": "Buyer's Guide"
+    },
+    {
+      "block_id": "999d328007b4::b0003",
+      "section_id": "999d328007b4::s002",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Socioeconomic considerations - Accessibility",
+        "Buyer's Guide"
+      ],
+      "markdown": "- Plan\n- Approve\n- Create solicitation\n- Solicit\n- Receive and evaluate\n- Negotiate\n- Award\n- Manage",
+      "plain_text": "Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage"
+    },
+    {
+      "block_id": "999d328007b4::b0004",
+      "section_id": "999d328007b4::s002",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Socioeconomic considerations - Accessibility",
+        "Buyer's Guide"
+      ],
+      "markdown": "Accessibility Clients, with assistance from Public Services and Procurement Canada (PSPC), are responsible for all four stages of the procurement process, which includes planning, acquisition, utilization, and disposal of goods and services. Things to consider for ensuring accessibility throughout the procurement process include: investing in adaptable goods and services : it's crucial to invest up front in goods and services that are adaptable and can be easily modified to meet various end-user needs, which can lead to cost savings over time establishing performance standards : for products and service categories with a sufficient base of offerors, establishing performance standards can encourage competition. In cases with limited offeror bases, incentives should be provided for surpassing accessibility performance criteria defining contractual terms : contracts should define accessibility obligations clearly, including mandatory accessibility criteria or standards Evaluation indicators for accessibility Following are examples of indicators that should be examined in developing evaluation criteria. Market capacity Assess whether there is sufficient market capacity to incorporate mandatory accessibility criteria in solicitations. Procurement instruments Ensure that procurement instruments, like standing offers and supply arrangements, include technical specifications that address accessibility. Performance testing Consider the usefulness of prototypes or product demonstrations to validate accessibility features Check the availability of a Voluntary Product Accessibility Template to demonstrate product accessibility Evaluate the feasibility of testing the good or service before purchase and how offerors will demonstrate compliance Adaptability Goods and services should be designed with built-in flexibility to ensure they can be easily adapted for different accessibility needs. Accessibility Standards Determine if the goods or services comply with standards for accessibility and if these features are the default settings. For guidance on how to assess and integrate accessibility when defining business needs, developing requirements, issuing a solicitation process and managing deliverables, consult: Guide to Considering Accessibility When Procuring Goods and Services (accessible only on the Government of Canada network) Office of Public Service Accessibility webpage (accessible only on the Government of Canada network) Guide for Including Accessibility in Information and Communication Technology (ICT) Related Procurement Digital Accessibility Toolkit Maintenance Products should be easy to maintain and repair, especially concerning their accessibility features. Ensure that maintenance, add-ons or upgrades are cost-effective and that offerors provide accessible customer service. Packaging Consider if packaging takes into account accessibility (e.g. easy to open). Check if the instructions for using the product/technology are clear and easy to follow, and available in accessible formats.",
+      "plain_text": "Accessibility Clients, with assistance from Public Services and Procurement Canada (PSPC), are responsible for all four stages of the procurement process, which includes planning, acquisition, utilization, and disposal of goods and services. Things to consider for ensuring accessibility throughout the procurement process include: investing in adaptable goods and services : it's crucial to invest up front in goods and services that are adaptable and can be easily modified to meet various end-user needs, which can lead to cost savings over time establishing performance standards : for products and service categories with a sufficient base of offerors, establishing performance standards can encourage competition. In cases with limited offeror bases, incentives should be provided for surpassing accessibility performance criteria defining contractual terms : contracts should define accessibility obligations clearly, including mandatory accessibility criteria or standards Evaluation indicators for accessibility Following are examples of indicators that should be examined in developing evaluation criteria. Market capacity Assess whether there is sufficient market capacity to incorporate mandatory accessibility criteria in solicitations. Procurement instruments Ensure that procurement instruments, like standing offers and supply arrangements, include technical specifications that address accessibility. Performance testing Consider the usefulness of prototypes or product demonstrations to validate accessibility features Check the availability of a Voluntary Product Accessibility Template to demonstrate product accessibility Evaluate the feasibility of testing the good or service before purchase and how offerors will demonstrate compliance Adaptability Goods and services should be designed with built-in flexibility to ensure they can be easily adapted for different accessibility needs. Accessibility Standards Determine if the goods or services comply with standards for accessibility and if these features are the default settings. For guidance on how to assess and integrate accessibility when defining business needs, developing requirements, issuing a solicitation process and managing deliverables, consult: Guide to Considering Accessibility When Procuring Goods and Services (accessible only on the Government of Canada network) Office of Public Service Accessibility webpage (accessible only on the Government of Canada network) Guide for Including Accessibility in Information and Communication Technology (ICT) Related Procurement Digital Accessibility Toolkit Maintenance Products should be easy to maintain and repair, especially concerning their accessibility features. Ensure that maintenance, add-ons or upgrades are cost-effective and that offerors provide accessible customer service. Packaging Consider if packaging takes into account accessibility (e.g. easy to open). Check if the instructions for using the product/technology are clear and easy to follow, and available in accessible formats."
+    },
+    {
+      "block_id": "999d328007b4::b0005",
+      "section_id": "999d328007b4::s003",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Socioeconomic considerations - Accessibility",
+        "Buyer's Guide",
+        "Accessibility"
+      ],
+      "markdown": "## Accessibility",
+      "plain_text": "Accessibility"
+    },
+    {
+      "block_id": "999d328007b4::b0006",
+      "section_id": "999d328007b4::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Socioeconomic considerations - Accessibility",
+        "Buyer's Guide",
+        "Accessibility"
+      ],
+      "markdown": "Clients, with assistance from Public Services and Procurement Canada (PSPC), are responsible for all four stages of the procurement process, which includes planning, acquisition, utilization, and disposal of goods and services. Things to consider for ensuring accessibility throughout the procurement process include:",
+      "plain_text": "Clients, with assistance from Public Services and Procurement Canada (PSPC), are responsible for all four stages of the procurement process, which includes planning, acquisition, utilization, and disposal of goods and services. Things to consider for ensuring accessibility throughout the procurement process include:"
+    },
+    {
+      "block_id": "999d328007b4::b0007",
+      "section_id": "999d328007b4::s003",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Socioeconomic considerations - Accessibility",
+        "Buyer's Guide",
+        "Accessibility"
+      ],
+      "markdown": "- investing in adaptable goods and services : it's crucial to invest up front in goods and services that are adaptable and can be easily modified to meet various end-user needs, which can lead to cost savings over time\n- establishing performance standards : for products and service categories with a sufficient base of offerors, establishing performance standards can encourage competition. In cases with limited offeror bases, incentives should be provided for surpassing accessibility performance criteria\n- defining contractual terms : contracts should define accessibility obligations clearly, including mandatory accessibility criteria or standards",
+      "plain_text": "investing in adaptable goods and services : it's crucial to invest up front in goods and services that are adaptable and can be easily modified to meet various end-user needs, which can lead to cost savings over time ; establishing performance standards : for products and service categories with a sufficient base of offerors, establishing performance standards can encourage competition. In cases with limited offeror bases, incentives should be provided for surpassing accessibility performance criteria ; defining contractual terms : contracts should define accessibility obligations clearly, including mandatory accessibility criteria or standards"
+    },
+    {
+      "block_id": "999d328007b4::b0008",
+      "section_id": "999d328007b4::s004",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Socioeconomic considerations - Accessibility",
+        "Buyer's Guide",
+        "Accessibility",
+        "Evaluation indicators for accessibility"
+      ],
+      "markdown": "### Evaluation indicators for accessibility",
+      "plain_text": "Evaluation indicators for accessibility"
+    },
+    {
+      "block_id": "999d328007b4::b0009",
+      "section_id": "999d328007b4::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Socioeconomic considerations - Accessibility",
+        "Buyer's Guide",
+        "Accessibility",
+        "Evaluation indicators for accessibility"
+      ],
+      "markdown": "Following are examples of indicators that should be examined in developing evaluation criteria.",
+      "plain_text": "Following are examples of indicators that should be examined in developing evaluation criteria."
+    },
+    {
+      "block_id": "999d328007b4::b0010",
+      "section_id": "999d328007b4::s005",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Socioeconomic considerations - Accessibility",
+        "Buyer's Guide",
+        "Accessibility",
+        "Evaluation indicators for accessibility",
+        "Market capacity"
+      ],
+      "markdown": "#### Market capacity",
+      "plain_text": "Market capacity"
+    },
+    {
+      "block_id": "999d328007b4::b0011",
+      "section_id": "999d328007b4::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Socioeconomic considerations - Accessibility",
+        "Buyer's Guide",
+        "Accessibility",
+        "Evaluation indicators for accessibility",
+        "Market capacity"
+      ],
+      "markdown": "Assess whether there is sufficient market capacity to incorporate mandatory accessibility criteria in solicitations.",
+      "plain_text": "Assess whether there is sufficient market capacity to incorporate mandatory accessibility criteria in solicitations."
+    },
+    {
+      "block_id": "999d328007b4::b0012",
+      "section_id": "999d328007b4::s006",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Socioeconomic considerations - Accessibility",
+        "Buyer's Guide",
+        "Accessibility",
+        "Evaluation indicators for accessibility",
+        "Procurement instruments"
+      ],
+      "markdown": "#### Procurement instruments",
+      "plain_text": "Procurement instruments"
+    },
+    {
+      "block_id": "999d328007b4::b0013",
+      "section_id": "999d328007b4::s006",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Socioeconomic considerations - Accessibility",
+        "Buyer's Guide",
+        "Accessibility",
+        "Evaluation indicators for accessibility",
+        "Procurement instruments"
+      ],
+      "markdown": "Ensure that procurement instruments, like standing offers and supply arrangements, include technical specifications that address accessibility.",
+      "plain_text": "Ensure that procurement instruments, like standing offers and supply arrangements, include technical specifications that address accessibility."
+    },
+    {
+      "block_id": "999d328007b4::b0014",
+      "section_id": "999d328007b4::s006",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Socioeconomic considerations - Accessibility",
+        "Buyer's Guide",
+        "Accessibility",
+        "Evaluation indicators for accessibility",
+        "Procurement instruments"
+      ],
+      "markdown": "Performance testing",
+      "plain_text": "Performance testing"
+    },
+    {
+      "block_id": "999d328007b4::b0015",
+      "section_id": "999d328007b4::s006",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Socioeconomic considerations - Accessibility",
+        "Buyer's Guide",
+        "Accessibility",
+        "Evaluation indicators for accessibility",
+        "Procurement instruments"
+      ],
+      "markdown": "- Consider the usefulness of prototypes or product demonstrations to validate accessibility features\n- Check the availability of a Voluntary Product Accessibility Template to demonstrate product accessibility\n- Evaluate the feasibility of testing the good or service before purchase and how offerors will demonstrate compliance",
+      "plain_text": "Consider the usefulness of prototypes or product demonstrations to validate accessibility features ; Check the availability of a Voluntary Product Accessibility Template to demonstrate product accessibility ; Evaluate the feasibility of testing the good or service before purchase and how offerors will demonstrate compliance"
+    },
+    {
+      "block_id": "999d328007b4::b0016",
+      "section_id": "999d328007b4::s007",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Socioeconomic considerations - Accessibility",
+        "Buyer's Guide",
+        "Accessibility",
+        "Evaluation indicators for accessibility",
+        "Adaptability"
+      ],
+      "markdown": "#### Adaptability",
+      "plain_text": "Adaptability"
+    },
+    {
+      "block_id": "999d328007b4::b0017",
+      "section_id": "999d328007b4::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Socioeconomic considerations - Accessibility",
+        "Buyer's Guide",
+        "Accessibility",
+        "Evaluation indicators for accessibility",
+        "Adaptability"
+      ],
+      "markdown": "Goods and services should be designed with built-in flexibility to ensure they can be easily adapted for different accessibility needs.",
+      "plain_text": "Goods and services should be designed with built-in flexibility to ensure they can be easily adapted for different accessibility needs."
+    },
+    {
+      "block_id": "999d328007b4::b0018",
+      "section_id": "999d328007b4::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Socioeconomic considerations - Accessibility",
+        "Buyer's Guide",
+        "Accessibility",
+        "Evaluation indicators for accessibility",
+        "Adaptability"
+      ],
+      "markdown": "Accessibility Standards",
+      "plain_text": "Accessibility Standards"
+    },
+    {
+      "block_id": "999d328007b4::b0019",
+      "section_id": "999d328007b4::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Socioeconomic considerations - Accessibility",
+        "Buyer's Guide",
+        "Accessibility",
+        "Evaluation indicators for accessibility",
+        "Adaptability"
+      ],
+      "markdown": "Determine if the goods or services comply with standards for accessibility and if these features are the default settings.",
+      "plain_text": "Determine if the goods or services comply with standards for accessibility and if these features are the default settings."
+    },
+    {
+      "block_id": "999d328007b4::b0020",
+      "section_id": "999d328007b4::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Socioeconomic considerations - Accessibility",
+        "Buyer's Guide",
+        "Accessibility",
+        "Evaluation indicators for accessibility",
+        "Adaptability"
+      ],
+      "markdown": "For guidance on how to assess and integrate accessibility when defining business needs, developing requirements, issuing a solicitation process and managing deliverables, consult:",
+      "plain_text": "For guidance on how to assess and integrate accessibility when defining business needs, developing requirements, issuing a solicitation process and managing deliverables, consult:"
+    },
+    {
+      "block_id": "999d328007b4::b0021",
+      "section_id": "999d328007b4::s007",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Socioeconomic considerations - Accessibility",
+        "Buyer's Guide",
+        "Accessibility",
+        "Evaluation indicators for accessibility",
+        "Adaptability"
+      ],
+      "markdown": "- Guide to Considering Accessibility When Procuring Goods and Services (accessible only on the Government of Canada network)\n- Office of Public Service Accessibility webpage (accessible only on the Government of Canada network)\n- Guide for Including Accessibility in Information and Communication Technology (ICT) Related Procurement\n- Digital Accessibility Toolkit",
+      "plain_text": "Guide to Considering Accessibility When Procuring Goods and Services (accessible only on the Government of Canada network) ; Office of Public Service Accessibility webpage (accessible only on the Government of Canada network) ; Guide for Including Accessibility in Information and Communication Technology (ICT) Related Procurement ; Digital Accessibility Toolkit"
+    },
+    {
+      "block_id": "999d328007b4::b0022",
+      "section_id": "999d328007b4::s008",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Socioeconomic considerations - Accessibility",
+        "Buyer's Guide",
+        "Accessibility",
+        "Evaluation indicators for accessibility",
+        "Maintenance"
+      ],
+      "markdown": "#### Maintenance",
+      "plain_text": "Maintenance"
+    },
+    {
+      "block_id": "999d328007b4::b0023",
+      "section_id": "999d328007b4::s008",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Socioeconomic considerations - Accessibility",
+        "Buyer's Guide",
+        "Accessibility",
+        "Evaluation indicators for accessibility",
+        "Maintenance"
+      ],
+      "markdown": "Products should be easy to maintain and repair, especially concerning their accessibility features. Ensure that maintenance, add-ons or upgrades are cost-effective and that offerors provide accessible customer service.",
+      "plain_text": "Products should be easy to maintain and repair, especially concerning their accessibility features. Ensure that maintenance, add-ons or upgrades are cost-effective and that offerors provide accessible customer service."
+    },
+    {
+      "block_id": "999d328007b4::b0024",
+      "section_id": "999d328007b4::s009",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Socioeconomic considerations - Accessibility",
+        "Buyer's Guide",
+        "Accessibility",
+        "Evaluation indicators for accessibility",
+        "Packaging"
+      ],
+      "markdown": "#### Packaging",
+      "plain_text": "Packaging"
+    },
+    {
+      "block_id": "999d328007b4::b0025",
+      "section_id": "999d328007b4::s009",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Socioeconomic considerations - Accessibility",
+        "Buyer's Guide",
+        "Accessibility",
+        "Evaluation indicators for accessibility",
+        "Packaging"
+      ],
+      "markdown": "Consider if packaging takes into account accessibility (e.g. easy to open).",
+      "plain_text": "Consider if packaging takes into account accessibility (e.g. easy to open)."
+    },
+    {
+      "block_id": "999d328007b4::b0026",
+      "section_id": "999d328007b4::s009",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Socioeconomic considerations - Accessibility",
+        "Buyer's Guide",
+        "Accessibility",
+        "Evaluation indicators for accessibility",
+        "Packaging"
+      ],
+      "markdown": "Check if the instructions for using the product/technology are clear and easy to follow, and available in accessible formats.",
+      "plain_text": "Check if the instructions for using the product/technology are clear and easy to follow, and available in accessible formats."
+    }
+  ]
+}

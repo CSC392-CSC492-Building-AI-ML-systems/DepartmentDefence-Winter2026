@@ -1,0 +1,641 @@
+{
+  "doc_id": "5dffb5bd061b",
+  "title": "Buyer's Guide Basis of payment - Fixed price",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-price",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-price",
+  "doc_type": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": "2026-02-13",
+  "fetched_at": "2026-02-19T09:16:28.235348+00:00",
+  "content_hash": "6f79a01ae979d6af73bd1919cca7623b5b9553aa80c054530bbaf80fafd1dbcd",
+  "word_count": 1001,
+  "text_path": "data/corpus/buyers_guide__en-buyer-s-portal-buyer-s-guide-plan-basis-payment-fixed-price__5dffb5bd06.md",
+  "extraction_method": "buyers_guide_regions",
+  "breadcrumbs": [
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "https://canadabuys.canada.ca/en",
+      "canonical_url": "https://canadabuys.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "in_scope": true
+    },
+    {
+      "title": "Basis of payment",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment",
+      "in_scope": true
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment",
+    "parent_doc_id": "139f1033d199",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-price"
+    ],
+    "lineage_doc_ids": [
+      "1e29c7881335",
+      "139f1033d199",
+      "5dffb5bd061b"
+    ],
+    "depth": 2,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-accounting-and-pricing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-reimbursable",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/firm-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-time/unit-rate",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/overview-key-pricing-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/price-and-currency-adjustments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/pricing-methods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/provisional-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/types-basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/application-registration",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/completing-security-requirements-check-list",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/controlled-goods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/foreign-ownership-control-or-influence",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/privacy-and-confidentiality",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-international-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-timelines",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/importance-clear-procurement-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/requisition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/review-statement-work",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/socioeconomic-requirements-definition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/standards-and-quality-assurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/choose-method-supply",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/determine-sourcing-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/developing-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/interim-policy-reciprocal-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/trade-agreement-applicability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/early-engagement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-businesses",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-clients",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-subject-matter-experts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/invoicing-instructions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/payment-instruments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/taxes-and-duties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/withholding-non-resident-contractors",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/communicating-method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/developing-selection-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/including-basis-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/specifying-evaluation-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/canadian-general-standards-board",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/compliance-canadian-electrical-code",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/contractor-liability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/emergency-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/employer/employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/fairness-monitoring",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/insurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/intellectual-property-and-copyright",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/liability-and-risk-management",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/managing-urgent-acquisitions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/official-languages-obligation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/warranties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/holdbacks",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/incentives",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/accessibility",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/anti-forced-labour-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/green-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/indigenous-considerations"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-accounting-and-pricing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-reimbursable",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/firm-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-time/unit-rate",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/overview-key-pricing-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/price-and-currency-adjustments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/pricing-methods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/provisional-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/types-basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/application-registration",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/completing-security-requirements-check-list",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/controlled-goods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/foreign-ownership-control-or-influence",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/privacy-and-confidentiality",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-international-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-timelines",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/importance-clear-procurement-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/requisition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/review-statement-work",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/socioeconomic-requirements-definition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/standards-and-quality-assurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/choose-method-supply",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/determine-sourcing-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/developing-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/interim-policy-reciprocal-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/trade-agreement-applicability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/early-engagement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-businesses",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-clients",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-subject-matter-experts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/invoicing-instructions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/payment-instruments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/taxes-and-duties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/withholding-non-resident-contractors",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/communicating-method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/developing-selection-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/including-basis-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/specifying-evaluation-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/canadian-general-standards-board",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/compliance-canadian-electrical-code",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/contractor-liability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/emergency-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/employer/employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/fairness-monitoring",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/insurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/intellectual-property-and-copyright",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/liability-and-risk-management",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/managing-urgent-acquisitions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/official-languages-obligation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/warranties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/holdbacks",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/incentives",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/accessibility",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/anti-forced-labour-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/green-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/indigenous-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure": {
+    "block_count": 19,
+    "section_count": 8,
+    "heading_count": 7,
+    "paragraph_count": 7,
+    "list_count": 5,
+    "table_count": 0
+  },
+  "sections": [
+    {
+      "section_id": "5dffb5bd061b::root",
+      "parent_section_id": null,
+      "level": 0,
+      "heading": "Buyer's Guide Basis of payment - Fixed price",
+      "heading_path": [
+        "Buyer's Guide Basis of payment - Fixed price"
+      ],
+      "block_count": 0,
+      "word_count": 0,
+      "char_count": 0,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": null,
+      "last_block_index": null,
+      "preview": "",
+      "prev_section_id": null,
+      "next_section_id": null
+    },
+    {
+      "section_id": "5dffb5bd061b::s001",
+      "parent_section_id": "5dffb5bd061b::root",
+      "level": 1,
+      "heading": "Buyer's Guide Basis of payment - Fixed price",
+      "heading_path": [
+        "Buyer's Guide Basis of payment - Fixed price",
+        "Buyer's Guide Basis of payment - Fixed price"
+      ],
+      "block_count": 1,
+      "word_count": 8,
+      "char_count": 44,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 0,
+      "last_block_index": 0,
+      "preview": "Buyer's Guide Basis of payment - Fixed price",
+      "prev_section_id": null,
+      "next_section_id": "5dffb5bd061b::s002"
+    },
+    {
+      "section_id": "5dffb5bd061b::s002",
+      "parent_section_id": "5dffb5bd061b::root",
+      "level": 1,
+      "heading": "Buyer's Guide",
+      "heading_path": [
+        "Buyer's Guide Basis of payment - Fixed price",
+        "Buyer's Guide"
+      ],
+      "block_count": 3,
+      "word_count": 502,
+      "char_count": 3221,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 1,
+      "last_block_index": 3,
+      "preview": "Buyer's Guide Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage Fixed price Fixed price contracts provide price certainty for the duration of the contract, ensuring the contractor is paid a d",
+      "prev_section_id": "5dffb5bd061b::s001",
+      "next_section_id": "5dffb5bd061b::s003"
+    },
+    {
+      "section_id": "5dffb5bd061b::s003",
+      "parent_section_id": "5dffb5bd061b::s002",
+      "level": 2,
+      "heading": "Fixed price",
+      "heading_path": [
+        "Buyer's Guide Basis of payment - Fixed price",
+        "Buyer's Guide",
+        "Fixed price"
+      ],
+      "block_count": 3,
+      "word_count": 99,
+      "char_count": 624,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 2,
+      "first_block_index": 4,
+      "last_block_index": 6,
+      "preview": "Fixed price Fixed price contracts provide price certainty for the duration of the contract, ensuring the contractor is paid a definite sum of money to perform the work regardless of the costs incurred. This basis of payment incentivizes the",
+      "prev_section_id": "5dffb5bd061b::s002",
+      "next_section_id": "5dffb5bd061b::s004"
+    },
+    {
+      "section_id": "5dffb5bd061b::s004",
+      "parent_section_id": "5dffb5bd061b::s003",
+      "level": 3,
+      "heading": "Options",
+      "heading_path": [
+        "Buyer's Guide Basis of payment - Fixed price",
+        "Buyer's Guide",
+        "Fixed price",
+        "Options"
+      ],
+      "block_count": 3,
+      "word_count": 77,
+      "char_count": 515,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 7,
+      "last_block_index": 9,
+      "preview": "Options There are three options for the fixed price basis of payment: fixed price competitive, where the price is established through market competition involving more than one compliant offeror, ensuring the price reflects fair market valu",
+      "prev_section_id": "5dffb5bd061b::s003",
+      "next_section_id": "5dffb5bd061b::s005"
+    },
+    {
+      "section_id": "5dffb5bd061b::s005",
+      "parent_section_id": "5dffb5bd061b::s003",
+      "level": 3,
+      "heading": "Appropriate use",
+      "heading_path": [
+        "Buyer's Guide Basis of payment - Fixed price",
+        "Buyer's Guide",
+        "Fixed price",
+        "Appropriate use"
+      ],
+      "block_count": 5,
+      "word_count": 207,
+      "char_count": 1266,
+      "table_count": 0,
+      "list_count": 3,
+      "paragraph_count": 1,
+      "first_block_index": 10,
+      "last_block_index": 14,
+      "preview": "Appropriate use Use the fixed price basis of payment when: you have a high level of confidence that the set price is fair and will not result in unreasonable profits. This confidence can be derived from: ; a competitive process with multipl",
+      "prev_section_id": "5dffb5bd061b::s004",
+      "next_section_id": "5dffb5bd061b::s006"
+    },
+    {
+      "section_id": "5dffb5bd061b::s006",
+      "parent_section_id": "5dffb5bd061b::s003",
+      "level": 3,
+      "heading": "Limitations",
+      "heading_path": [
+        "Buyer's Guide Basis of payment - Fixed price",
+        "Buyer's Guide",
+        "Fixed price",
+        "Limitations"
+      ],
+      "block_count": 2,
+      "word_count": 31,
+      "char_count": 208,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 15,
+      "last_block_index": 16,
+      "preview": "Limitations A fixed price basis of payment may not be suitable for high risk procurements with highly uncertain or variable scopes. For example, for procurements that involve innovative or untested technology.",
+      "prev_section_id": "5dffb5bd061b::s005",
+      "next_section_id": "5dffb5bd061b::s007"
+    },
+    {
+      "section_id": "5dffb5bd061b::s007",
+      "parent_section_id": "5dffb5bd061b::s003",
+      "level": 3,
+      "heading": "Audits",
+      "heading_path": [
+        "Buyer's Guide Basis of payment - Fixed price",
+        "Buyer's Guide",
+        "Fixed price",
+        "Audits"
+      ],
+      "block_count": 2,
+      "word_count": 77,
+      "char_count": 501,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 17,
+      "last_block_index": 18,
+      "preview": "Audits Fixed price contracts do not provide for discretionary audits to reassess profits or costs during the term of the contract or upon completion. However, you must ensure that Canada retains its audit rights for information purposes for",
+      "prev_section_id": "5dffb5bd061b::s006",
+      "next_section_id": null
+    }
+  ],
+  "tables": [],
+  "blocks": [
+    {
+      "block_id": "5dffb5bd061b::b0001",
+      "section_id": "5dffb5bd061b::s001",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Basis of payment - Fixed price",
+        "Buyer's Guide Basis of payment - Fixed price"
+      ],
+      "markdown": "# Buyer's Guide Basis of payment - Fixed price",
+      "plain_text": "Buyer's Guide Basis of payment - Fixed price"
+    },
+    {
+      "block_id": "5dffb5bd061b::b0002",
+      "section_id": "5dffb5bd061b::s002",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Basis of payment - Fixed price",
+        "Buyer's Guide"
+      ],
+      "markdown": "# Buyer's Guide",
+      "plain_text": "Buyer's Guide"
+    },
+    {
+      "block_id": "5dffb5bd061b::b0003",
+      "section_id": "5dffb5bd061b::s002",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Basis of payment - Fixed price",
+        "Buyer's Guide"
+      ],
+      "markdown": "- Plan\n- Approve\n- Create solicitation\n- Solicit\n- Receive and evaluate\n- Negotiate\n- Award\n- Manage",
+      "plain_text": "Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage"
+    },
+    {
+      "block_id": "5dffb5bd061b::b0004",
+      "section_id": "5dffb5bd061b::s002",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Basis of payment - Fixed price",
+        "Buyer's Guide"
+      ],
+      "markdown": "Fixed price Fixed price contracts provide price certainty for the duration of the contract, ensuring the contractor is paid a definite sum of money to perform the work regardless of the costs incurred. This basis of payment incentivizes the contractor to control costs efficiently, as they are responsible for all costs under or over the fixed price. Furthermore, the administrative burden on both contracting parties is minimized. See the section 4.1.1 of the Practitioner\u2019s Guide for Procurement Pricing (PDF, 6.50 MB) for more guidance on the decision process, procedures and examples for use of this basis of payment type. Options There are three options for the fixed price basis of payment: fixed price competitive, where the price is established through market competition involving more than one compliant offeror, ensuring the price reflects fair market value fixed price non-competitive, where the price is negotiated before a contract or contract amendment is issued fixed price with economic price adjustment, which provides the ability to adjust for significant price fluctuations outside of Canada and the contractor\u2019s control Appropriate use Use the fixed price basis of payment when: you have a high level of confidence that the set price is fair and will not result in unreasonable profits. This confidence can be derived from: a competitive process with multiple compliant offerors benchmarking and should-cost information to validate the price robust historical data to validate prices before fixing them; for example, to establish a fixed price for a follow-on contract, assurance services can be performed on costs and profit of the previous contract the requirements, scope and outputs determine the level of effort are well-defined; stable; and are unlikely to change for example, where the technology, industry, platform or service is mature or proven the contract has a medium or short duration to ensure that: the contractor does not need to include additional profit premiums to account for long-term uncertainties in requirements or costs you have a reasonable level of assurance that the price will still be reasonable and of value to Canada in the later years of the contract given the potential for technology changes and process improvements the schedule is relatively certain and achievable it is appropriate for the contractor to bear the risk of cost uncertainty Limitations A fixed price basis of payment may not be suitable for high risk procurements with highly uncertain or variable scopes. For example, for procurements that involve innovative or untested technology. Audits Fixed price contracts do not provide for discretionary audits to reassess profits or costs during the term of the contract or upon completion. However, you must ensure that Canada retains its audit rights for information purposes for possible future negotiations on interim or follow-on contracts. This should include the right to audit the underlying costs, including production costs, to provide the necessary level of price support to determine whether the fixed price is fair and reasonable.",
+      "plain_text": "Fixed price Fixed price contracts provide price certainty for the duration of the contract, ensuring the contractor is paid a definite sum of money to perform the work regardless of the costs incurred. This basis of payment incentivizes the contractor to control costs efficiently, as they are responsible for all costs under or over the fixed price. Furthermore, the administrative burden on both contracting parties is minimized. See the section 4.1.1 of the Practitioner\u2019s Guide for Procurement Pricing (PDF, 6.50 MB) for more guidance on the decision process, procedures and examples for use of this basis of payment type. Options There are three options for the fixed price basis of payment: fixed price competitive, where the price is established through market competition involving more than one compliant offeror, ensuring the price reflects fair market value fixed price non-competitive, where the price is negotiated before a contract or contract amendment is issued fixed price with economic price adjustment, which provides the ability to adjust for significant price fluctuations outside of Canada and the contractor\u2019s control Appropriate use Use the fixed price basis of payment when: you have a high level of confidence that the set price is fair and will not result in unreasonable profits. This confidence can be derived from: a competitive process with multiple compliant offerors benchmarking and should-cost information to validate the price robust historical data to validate prices before fixing them; for example, to establish a fixed price for a follow-on contract, assurance services can be performed on costs and profit of the previous contract the requirements, scope and outputs determine the level of effort are well-defined; stable; and are unlikely to change for example, where the technology, industry, platform or service is mature or proven the contract has a medium or short duration to ensure that: the contractor does not need to include additional profit premiums to account for long-term uncertainties in requirements or costs you have a reasonable level of assurance that the price will still be reasonable and of value to Canada in the later years of the contract given the potential for technology changes and process improvements the schedule is relatively certain and achievable it is appropriate for the contractor to bear the risk of cost uncertainty Limitations A fixed price basis of payment may not be suitable for high risk procurements with highly uncertain or variable scopes. For example, for procurements that involve innovative or untested technology. Audits Fixed price contracts do not provide for discretionary audits to reassess profits or costs during the term of the contract or upon completion. However, you must ensure that Canada retains its audit rights for information purposes for possible future negotiations on interim or follow-on contracts. This should include the right to audit the underlying costs, including production costs, to provide the necessary level of price support to determine whether the fixed price is fair and reasonable."
+    },
+    {
+      "block_id": "5dffb5bd061b::b0005",
+      "section_id": "5dffb5bd061b::s003",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Basis of payment - Fixed price",
+        "Buyer's Guide",
+        "Fixed price"
+      ],
+      "markdown": "## Fixed price",
+      "plain_text": "Fixed price"
+    },
+    {
+      "block_id": "5dffb5bd061b::b0006",
+      "section_id": "5dffb5bd061b::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Basis of payment - Fixed price",
+        "Buyer's Guide",
+        "Fixed price"
+      ],
+      "markdown": "Fixed price contracts provide price certainty for the duration of the contract, ensuring the contractor is paid a definite sum of money to perform the work regardless of the costs incurred. This basis of payment incentivizes the contractor to control costs efficiently, as they are responsible for all costs under or over the fixed price. Furthermore, the administrative burden on both contracting parties is minimized.",
+      "plain_text": "Fixed price contracts provide price certainty for the duration of the contract, ensuring the contractor is paid a definite sum of money to perform the work regardless of the costs incurred. This basis of payment incentivizes the contractor to control costs efficiently, as they are responsible for all costs under or over the fixed price. Furthermore, the administrative burden on both contracting parties is minimized."
+    },
+    {
+      "block_id": "5dffb5bd061b::b0007",
+      "section_id": "5dffb5bd061b::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Basis of payment - Fixed price",
+        "Buyer's Guide",
+        "Fixed price"
+      ],
+      "markdown": "See the section 4.1.1 of the Practitioner\u2019s Guide for Procurement Pricing (PDF, 6.50 MB) for more guidance on the decision process, procedures and examples for use of this basis of payment type.",
+      "plain_text": "See the section 4.1.1 of the Practitioner\u2019s Guide for Procurement Pricing (PDF, 6.50 MB) for more guidance on the decision process, procedures and examples for use of this basis of payment type."
+    },
+    {
+      "block_id": "5dffb5bd061b::b0008",
+      "section_id": "5dffb5bd061b::s004",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Basis of payment - Fixed price",
+        "Buyer's Guide",
+        "Fixed price",
+        "Options"
+      ],
+      "markdown": "### Options",
+      "plain_text": "Options"
+    },
+    {
+      "block_id": "5dffb5bd061b::b0009",
+      "section_id": "5dffb5bd061b::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Basis of payment - Fixed price",
+        "Buyer's Guide",
+        "Fixed price",
+        "Options"
+      ],
+      "markdown": "There are three options for the fixed price basis of payment:",
+      "plain_text": "There are three options for the fixed price basis of payment:"
+    },
+    {
+      "block_id": "5dffb5bd061b::b0010",
+      "section_id": "5dffb5bd061b::s004",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Basis of payment - Fixed price",
+        "Buyer's Guide",
+        "Fixed price",
+        "Options"
+      ],
+      "markdown": "- fixed price competitive, where the price is established through market competition involving more than one compliant offeror, ensuring the price reflects fair market value\n- fixed price non-competitive, where the price is negotiated before a contract or contract amendment is issued\n- fixed price with economic price adjustment, which provides the ability to adjust for significant price fluctuations outside of Canada and the contractor\u2019s control",
+      "plain_text": "fixed price competitive, where the price is established through market competition involving more than one compliant offeror, ensuring the price reflects fair market value ; fixed price non-competitive, where the price is negotiated before a contract or contract amendment is issued ; fixed price with economic price adjustment, which provides the ability to adjust for significant price fluctuations outside of Canada and the contractor\u2019s control"
+    },
+    {
+      "block_id": "5dffb5bd061b::b0011",
+      "section_id": "5dffb5bd061b::s005",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Basis of payment - Fixed price",
+        "Buyer's Guide",
+        "Fixed price",
+        "Appropriate use"
+      ],
+      "markdown": "### Appropriate use",
+      "plain_text": "Appropriate use"
+    },
+    {
+      "block_id": "5dffb5bd061b::b0012",
+      "section_id": "5dffb5bd061b::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Basis of payment - Fixed price",
+        "Buyer's Guide",
+        "Fixed price",
+        "Appropriate use"
+      ],
+      "markdown": "Use the fixed price basis of payment when:",
+      "plain_text": "Use the fixed price basis of payment when:"
+    },
+    {
+      "block_id": "5dffb5bd061b::b0013",
+      "section_id": "5dffb5bd061b::s005",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Basis of payment - Fixed price",
+        "Buyer's Guide",
+        "Fixed price",
+        "Appropriate use"
+      ],
+      "markdown": "- you have a high level of confidence that the set price is fair and will not result in unreasonable profits. This confidence can be derived from:\n- a competitive process with multiple compliant offerors\n- benchmarking and should-cost information to validate the price\n- robust historical data to validate prices before fixing them; for example, to establish a fixed price for a follow-on contract, assurance services can be performed on costs and profit of the previous contract",
+      "plain_text": "you have a high level of confidence that the set price is fair and will not result in unreasonable profits. This confidence can be derived from: ; a competitive process with multiple compliant offerors ; benchmarking and should-cost information to validate the price ; robust historical data to validate prices before fixing them; for example, to establish a fixed price for a follow-on contract, assurance services can be performed on costs and profit of the previous contract"
+    },
+    {
+      "block_id": "5dffb5bd061b::b0014",
+      "section_id": "5dffb5bd061b::s005",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Basis of payment - Fixed price",
+        "Buyer's Guide",
+        "Fixed price",
+        "Appropriate use"
+      ],
+      "markdown": "- the requirements, scope and outputs determine the level of effort are well-defined; stable; and are unlikely to change for example, where the technology, industry, platform or service is mature or proven\n- the contract has a medium or short duration to ensure that:\n- the contractor does not need to include additional profit premiums to account for long-term uncertainties in requirements or costs\n- you have a reasonable level of assurance that the price will still be reasonable and of value to Canada in the later years of the contract given the potential for technology changes and process improvements",
+      "plain_text": "the requirements, scope and outputs determine the level of effort are well-defined; stable; and are unlikely to change for example, where the technology, industry, platform or service is mature or proven ; the contract has a medium or short duration to ensure that: ; the contractor does not need to include additional profit premiums to account for long-term uncertainties in requirements or costs ; you have a reasonable level of assurance that the price will still be reasonable and of value to Canada in the later years of the contract given the potential for technology changes and process improvements"
+    },
+    {
+      "block_id": "5dffb5bd061b::b0015",
+      "section_id": "5dffb5bd061b::s005",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Basis of payment - Fixed price",
+        "Buyer's Guide",
+        "Fixed price",
+        "Appropriate use"
+      ],
+      "markdown": "- the schedule is relatively certain and achievable\n- it is appropriate for the contractor to bear the risk of cost uncertainty",
+      "plain_text": "the schedule is relatively certain and achievable ; it is appropriate for the contractor to bear the risk of cost uncertainty"
+    },
+    {
+      "block_id": "5dffb5bd061b::b0016",
+      "section_id": "5dffb5bd061b::s006",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Basis of payment - Fixed price",
+        "Buyer's Guide",
+        "Fixed price",
+        "Limitations"
+      ],
+      "markdown": "### Limitations",
+      "plain_text": "Limitations"
+    },
+    {
+      "block_id": "5dffb5bd061b::b0017",
+      "section_id": "5dffb5bd061b::s006",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Basis of payment - Fixed price",
+        "Buyer's Guide",
+        "Fixed price",
+        "Limitations"
+      ],
+      "markdown": "A fixed price basis of payment may not be suitable for high risk procurements with highly uncertain or variable scopes. For example, for procurements that involve innovative or untested technology.",
+      "plain_text": "A fixed price basis of payment may not be suitable for high risk procurements with highly uncertain or variable scopes. For example, for procurements that involve innovative or untested technology."
+    },
+    {
+      "block_id": "5dffb5bd061b::b0018",
+      "section_id": "5dffb5bd061b::s007",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Basis of payment - Fixed price",
+        "Buyer's Guide",
+        "Fixed price",
+        "Audits"
+      ],
+      "markdown": "### Audits",
+      "plain_text": "Audits"
+    },
+    {
+      "block_id": "5dffb5bd061b::b0019",
+      "section_id": "5dffb5bd061b::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Basis of payment - Fixed price",
+        "Buyer's Guide",
+        "Fixed price",
+        "Audits"
+      ],
+      "markdown": "Fixed price contracts do not provide for discretionary audits to reassess profits or costs during the term of the contract or upon completion. However, you must ensure that Canada retains its audit rights for information purposes for possible future negotiations on interim or follow-on contracts. This should include the right to audit the underlying costs, including production costs, to provide the necessary level of price support to determine whether the fixed price is fair and reasonable.",
+      "plain_text": "Fixed price contracts do not provide for discretionary audits to reassess profits or costs during the term of the contract or upon completion. However, you must ensure that Canada retains its audit rights for information purposes for possible future negotiations on interim or follow-on contracts. This should include the right to audit the underlying costs, including production costs, to provide the necessary level of price support to determine whether the fixed price is fair and reasonable."
+    }
+  ]
+}

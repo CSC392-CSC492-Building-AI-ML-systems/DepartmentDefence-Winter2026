@@ -32,7 +32,7 @@ Policy-focused RAG CLI for procurement questions using Cohere.
 - Chatbot:
   - `python main.py`
 - Collect/update source corpus:
-  - `python collect_sources.py --max-pages 300 --verbose`
+  - `python collect_sources.py --clean --max-pages 350 --verbose`
 - Run structured eval stack:
   - `python evaluation/eval_stack_runner.py --cases-file evaluation/cases/eval_cases.jsonl --with-chat --output evaluation/runs/stack_eval_with_chat.json`
 - Run structured eval stack with judge:
@@ -40,7 +40,7 @@ Policy-focused RAG CLI for procurement questions using Cohere.
 
 ## Repo Map
 - `rag/`: core RAG package (config, corpus, embedding, retrieval, prompting)
-- `data/`: active corpus (`*.txt`) + `manifest.json`
+- `data/`: active corpus (`corpus/*.md`) + metadata sidecars (`metadata/*.json`) + `manifest.json`
 - `evaluation/`: all evaluation scripts, datasets, and run outputs
 - `main.py`: interactive CLI
 - `collect_sources.py`: policy source collector
@@ -52,7 +52,8 @@ Policy-focused RAG CLI for procurement questions using Cohere.
 - `evaluation/runs/*.json`: generated results (safe to delete and regenerate)
 
 ## Data Files (Important)
-- `data/*.txt`: active corpus documents
+- `data/corpus/*.md`: active corpus documents
+- `data/metadata/*.json`: section/table/link graph metadata for each document
 - `data/manifest.json`: crawl metadata from `collect_sources.py`
 - `rag.app_config.RAW_DIR` defaults to `data`
 

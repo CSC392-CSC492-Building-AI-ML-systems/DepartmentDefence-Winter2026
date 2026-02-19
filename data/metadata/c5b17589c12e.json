@@ -1,0 +1,622 @@
+{
+  "doc_id": "c5b17589c12e",
+  "title": "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/characteristics-procurement-complexity-levels",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/characteristics-procurement-complexity-levels",
+  "doc_type": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": "2026-01-31",
+  "fetched_at": "2026-02-19T09:17:20.879227+00:00",
+  "content_hash": "5f835eef9f3410a3574caa139f3d2a640c76cfe23c7f947cee95851f234473b8",
+  "word_count": 1042,
+  "text_path": "data/corpus/buyers_guide__en-buyer-s-portal-buyer-s-guide-approve-complexity-and-procurement-risk-assessment-characteristics-procurement-compl__c5b17589c1.md",
+  "extraction_method": "buyers_guide_regions",
+  "breadcrumbs": [
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "https://canadabuys.canada.ca/en",
+      "canonical_url": "https://canadabuys.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "in_scope": true
+    },
+    {
+      "title": "Complexity and procurement risk assessment",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "in_scope": true
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+    "parent_doc_id": "fae8c0c38feb",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/characteristics-procurement-complexity-levels"
+    ],
+    "lineage_doc_ids": [
+      "1e29c7881335",
+      "fae8c0c38feb",
+      "c5b17589c12e"
+    ],
+    "depth": 2,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/additional-signing-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/approval-authorities-and-additional-signing-authorities-support-acquisitions-program-clients-programs-only-other-canadian-commercial-corporation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contract-approval-and-signing-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contracting-limits-including-exceptional-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/delegation-authority-guidelines",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/general-principles-procurement-authority",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/risk-based-procurement-delegation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/adjustments-complexity-levels",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/considerations-amendments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/determining-complexity",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/procurement-risk-assessment-complexity",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/additional-reviewers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/approval-processes",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-amendment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-planning-and-advanced-approval",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-request",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/procurement-plan",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/task-authorizations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/treasury-board-submission",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/forgiveness-debts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/procurement-process-initiated-client",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/retroactive-treasury-board-approval-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/trade-ins",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/waiver-interest"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/additional-signing-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/approval-authorities-and-additional-signing-authorities-support-acquisitions-program-clients-programs-only-other-canadian-commercial-corporation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contract-approval-and-signing-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contracting-limits-including-exceptional-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/delegation-authority-guidelines",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/general-principles-procurement-authority",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/risk-based-procurement-delegation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/adjustments-complexity-levels",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/considerations-amendments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/determining-complexity",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/procurement-risk-assessment-complexity",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/additional-reviewers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/approval-processes",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-amendment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-planning-and-advanced-approval",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-request",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/procurement-plan",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/task-authorizations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/treasury-board-submission",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/forgiveness-debts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/procurement-process-initiated-client",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/retroactive-treasury-board-approval-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/trade-ins",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/waiver-interest",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure": {
+    "block_count": 22,
+    "section_count": 9,
+    "heading_count": 8,
+    "paragraph_count": 8,
+    "list_count": 6,
+    "table_count": 0
+  },
+  "sections": [
+    {
+      "section_id": "c5b17589c12e::root",
+      "parent_section_id": null,
+      "level": 0,
+      "heading": "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
+      "heading_path": [
+        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels"
+      ],
+      "block_count": 0,
+      "word_count": 0,
+      "char_count": 0,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": null,
+      "last_block_index": null,
+      "preview": "",
+      "prev_section_id": null,
+      "next_section_id": null
+    },
+    {
+      "section_id": "c5b17589c12e::s001",
+      "parent_section_id": "c5b17589c12e::root",
+      "level": 1,
+      "heading": "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
+      "heading_path": [
+        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
+        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels"
+      ],
+      "block_count": 1,
+      "word_count": 13,
+      "char_count": 107,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 0,
+      "last_block_index": 0,
+      "preview": "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
+      "prev_section_id": null,
+      "next_section_id": "c5b17589c12e::s002"
+    },
+    {
+      "section_id": "c5b17589c12e::s002",
+      "parent_section_id": "c5b17589c12e::root",
+      "level": 1,
+      "heading": "Buyer's Guide",
+      "heading_path": [
+        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
+        "Buyer's Guide"
+      ],
+      "block_count": 3,
+      "word_count": 514,
+      "char_count": 3682,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 1,
+      "last_block_index": 3,
+      "preview": "Buyer's Guide Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage Characteristics of procurement complexity levels There are five complexity levels, each requiring a different approach and leve",
+      "prev_section_id": "c5b17589c12e::s001",
+      "next_section_id": "c5b17589c12e::s003"
+    },
+    {
+      "section_id": "c5b17589c12e::s003",
+      "parent_section_id": "c5b17589c12e::s002",
+      "level": 2,
+      "heading": "Characteristics of procurement complexity levels",
+      "heading_path": [
+        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
+        "Buyer's Guide",
+        "Characteristics of procurement complexity levels"
+      ],
+      "block_count": 2,
+      "word_count": 19,
+      "char_count": 141,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 4,
+      "last_block_index": 5,
+      "preview": "Characteristics of procurement complexity levels There are five complexity levels, each requiring a different approach and level of expertise.",
+      "prev_section_id": "c5b17589c12e::s002",
+      "next_section_id": "c5b17589c12e::s004"
+    },
+    {
+      "section_id": "c5b17589c12e::s004",
+      "parent_section_id": "c5b17589c12e::s003",
+      "level": 3,
+      "heading": "Complexity level 1",
+      "heading_path": [
+        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
+        "Buyer's Guide",
+        "Characteristics of procurement complexity levels",
+        "Complexity level 1"
+      ],
+      "block_count": 3,
+      "word_count": 127,
+      "char_count": 889,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 6,
+      "last_block_index": 8,
+      "preview": "Complexity level 1 Complexity level 1 procurements include at least one of the following and do not include any of the criteria of the other complexity levels: a call-up against a standing offer; ; a commercially available good that is read",
+      "prev_section_id": "c5b17589c12e::s003",
+      "next_section_id": "c5b17589c12e::s005"
+    },
+    {
+      "section_id": "c5b17589c12e::s005",
+      "parent_section_id": "c5b17589c12e::s003",
+      "level": 3,
+      "heading": "Complexity level 2",
+      "heading_path": [
+        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
+        "Buyer's Guide",
+        "Characteristics of procurement complexity levels",
+        "Complexity level 2"
+      ],
+      "block_count": 3,
+      "word_count": 119,
+      "char_count": 852,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 9,
+      "last_block_index": 11,
+      "preview": "Complexity level 2 Complexity level 2 procurements include one or more of the following and do not include any of the criteria of complexity levels 3, 4 and 5: government-specified performance requirements to commercially available goods; ;",
+      "prev_section_id": "c5b17589c12e::s004",
+      "next_section_id": "c5b17589c12e::s006"
+    },
+    {
+      "section_id": "c5b17589c12e::s006",
+      "parent_section_id": "c5b17589c12e::s003",
+      "level": 3,
+      "heading": "Complexity level 3",
+      "heading_path": [
+        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
+        "Buyer's Guide",
+        "Characteristics of procurement complexity levels",
+        "Complexity level 3"
+      ],
+      "block_count": 3,
+      "word_count": 73,
+      "char_count": 444,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 12,
+      "last_block_index": 14,
+      "preview": "Complexity level 3 Complexity level 3 procurements include one or more of the following and do not include any of the criteria of complexity levels 4 and 5: a requirement which uses new, or a combination of new and existing technology/proce",
+      "prev_section_id": "c5b17589c12e::s005",
+      "next_section_id": "c5b17589c12e::s007"
+    },
+    {
+      "section_id": "c5b17589c12e::s007",
+      "parent_section_id": "c5b17589c12e::s003",
+      "level": 3,
+      "heading": "Complexity level 4",
+      "heading_path": [
+        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
+        "Buyer's Guide",
+        "Characteristics of procurement complexity levels",
+        "Complexity level 4"
+      ],
+      "block_count": 4,
+      "word_count": 94,
+      "char_count": 686,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 2,
+      "first_block_index": 15,
+      "last_block_index": 18,
+      "preview": "Complexity level 4 Complexity level 4 procurements involve transformational requirements that are enterprise-wide (across government) and include or involve one or more of the following elements: a high level of uncertainty; ; may involve p",
+      "prev_section_id": "c5b17589c12e::s006",
+      "next_section_id": "c5b17589c12e::s008"
+    },
+    {
+      "section_id": "c5b17589c12e::s008",
+      "parent_section_id": "c5b17589c12e::s003",
+      "level": 3,
+      "heading": "Complexity level 5",
+      "heading_path": [
+        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
+        "Buyer's Guide",
+        "Characteristics of procurement complexity levels",
+        "Complexity level 5"
+      ],
+      "block_count": 3,
+      "word_count": 83,
+      "char_count": 584,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 19,
+      "last_block_index": 21,
+      "preview": "Complexity level 5 Complexity level 5 procurements involve transformational requirements that affect public policy or culture (external to government) and include or involve one or more of the following elements: a high level of uncertainty",
+      "prev_section_id": "c5b17589c12e::s007",
+      "next_section_id": null
+    }
+  ],
+  "tables": [],
+  "blocks": [
+    {
+      "block_id": "c5b17589c12e::b0001",
+      "section_id": "c5b17589c12e::s001",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
+        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels"
+      ],
+      "markdown": "# Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
+      "plain_text": "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels"
+    },
+    {
+      "block_id": "c5b17589c12e::b0002",
+      "section_id": "c5b17589c12e::s002",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
+        "Buyer's Guide"
+      ],
+      "markdown": "# Buyer's Guide",
+      "plain_text": "Buyer's Guide"
+    },
+    {
+      "block_id": "c5b17589c12e::b0003",
+      "section_id": "c5b17589c12e::s002",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
+        "Buyer's Guide"
+      ],
+      "markdown": "- Plan\n- Approve\n- Create solicitation\n- Solicit\n- Receive and evaluate\n- Negotiate\n- Award\n- Manage",
+      "plain_text": "Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage"
+    },
+    {
+      "block_id": "c5b17589c12e::b0004",
+      "section_id": "c5b17589c12e::s002",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
+        "Buyer's Guide"
+      ],
+      "markdown": "Characteristics of procurement complexity levels There are five complexity levels, each requiring a different approach and level of expertise. Complexity level 1 Complexity level 1 procurements include at least one of the following and do not include any of the criteria of the other complexity levels: a call-up against a standing offer; a commercially available good that is readily available in the marketplace, which may include manufacturer-supplied customizable options (includes Commercial Off-the-Shelf [COTS] or military off-the-shelf [MOTS]); a common service that is readily available in the marketplace, which may include supplier customized options; procurement methodologies that are tried and proven using existing conventions; departmental standard procurement templates or legally approved templates; contractor selection methodology that is based on price and delivery alone, or where all criteria determining the successful offeror are objective (for example, grid) and do not require subjective judgement Complexity level 2 Complexity level 2 procurements include one or more of the following and do not include any of the criteria of complexity levels 3, 4 and 5: government-specified performance requirements to commercially available goods; a requirement which uses existing technology/processes to achieve an innovative solution; services with subjective results (for example, consultations and recommendations); departmental standard or sector procurement templates which have been modified, that introduce new custom clauses, or that use terms and conditions other than the standard; one or more evaluation criteria to determine the successful offeror and that require subjective judgment; industrial regional benefits (IRBs) or value propositions; vendor pre-qualification (includes establishment of supply arrangements); advance payments Complexity level 3 Complexity level 3 procurements include one or more of the following and do not include any of the criteria of complexity levels 4 and 5: a requirement which uses new, or a combination of new and existing technology/processes to achieve an innovative solution, and may be developmental in nature; a requirement or procurement that is highly unpredictable due to a high level of uncertainty; an untested procurement strategy Complexity level 4 Complexity level 4 procurements involve transformational requirements that are enterprise-wide (across government) and include or involve one or more of the following elements: a high level of uncertainty; may involve partnerships and shared decision-making with clients and multiple stakeholders within various federal government departments; contract administration is detailed and extensive and its success is unpredictable; more than one tier of government (federal, provincial, municipal) or multiple clients/stakeholders with decision-making authority Note: Complexity Level 4 procurements do not include or involve any of the criteria of complexity level 5. Complexity level 5 Complexity level 5 procurements involve transformational requirements that affect public policy or culture (external to government) and include or involve one or more of the following elements: a high level of uncertainty; partnerships with clients, multiple stakeholders (internal and external to the federal government) and elected officials, to reshape public policy or introduce new public policies; shared decision-making; contract administration that is detailed, extensive and highly unpredictable; ultimate success is determined by the public at large",
+      "plain_text": "Characteristics of procurement complexity levels There are five complexity levels, each requiring a different approach and level of expertise. Complexity level 1 Complexity level 1 procurements include at least one of the following and do not include any of the criteria of the other complexity levels: a call-up against a standing offer; a commercially available good that is readily available in the marketplace, which may include manufacturer-supplied customizable options (includes Commercial Off-the-Shelf [COTS] or military off-the-shelf [MOTS]); a common service that is readily available in the marketplace, which may include supplier customized options; procurement methodologies that are tried and proven using existing conventions; departmental standard procurement templates or legally approved templates; contractor selection methodology that is based on price and delivery alone, or where all criteria determining the successful offeror are objective (for example, grid) and do not require subjective judgement Complexity level 2 Complexity level 2 procurements include one or more of the following and do not include any of the criteria of complexity levels 3, 4 and 5: government-specified performance requirements to commercially available goods; a requirement which uses existing technology/processes to achieve an innovative solution; services with subjective results (for example, consultations and recommendations); departmental standard or sector procurement templates which have been modified, that introduce new custom clauses, or that use terms and conditions other than the standard; one or more evaluation criteria to determine the successful offeror and that require subjective judgment; industrial regional benefits (IRBs) or value propositions; vendor pre-qualification (includes establishment of supply arrangements); advance payments Complexity level 3 Complexity level 3 procurements include one or more of the following and do not include any of the criteria of complexity levels 4 and 5: a requirement which uses new, or a combination of new and existing technology/processes to achieve an innovative solution, and may be developmental in nature; a requirement or procurement that is highly unpredictable due to a high level of uncertainty; an untested procurement strategy Complexity level 4 Complexity level 4 procurements involve transformational requirements that are enterprise-wide (across government) and include or involve one or more of the following elements: a high level of uncertainty; may involve partnerships and shared decision-making with clients and multiple stakeholders within various federal government departments; contract administration is detailed and extensive and its success is unpredictable; more than one tier of government (federal, provincial, municipal) or multiple clients/stakeholders with decision-making authority Note: Complexity Level 4 procurements do not include or involve any of the criteria of complexity level 5. Complexity level 5 Complexity level 5 procurements involve transformational requirements that affect public policy or culture (external to government) and include or involve one or more of the following elements: a high level of uncertainty; partnerships with clients, multiple stakeholders (internal and external to the federal government) and elected officials, to reshape public policy or introduce new public policies; shared decision-making; contract administration that is detailed, extensive and highly unpredictable; ultimate success is determined by the public at large"
+    },
+    {
+      "block_id": "c5b17589c12e::b0005",
+      "section_id": "c5b17589c12e::s003",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
+        "Buyer's Guide",
+        "Characteristics of procurement complexity levels"
+      ],
+      "markdown": "## Characteristics of procurement complexity levels",
+      "plain_text": "Characteristics of procurement complexity levels"
+    },
+    {
+      "block_id": "c5b17589c12e::b0006",
+      "section_id": "c5b17589c12e::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
+        "Buyer's Guide",
+        "Characteristics of procurement complexity levels"
+      ],
+      "markdown": "There are five complexity levels, each requiring a different approach and level of expertise.",
+      "plain_text": "There are five complexity levels, each requiring a different approach and level of expertise."
+    },
+    {
+      "block_id": "c5b17589c12e::b0007",
+      "section_id": "c5b17589c12e::s004",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
+        "Buyer's Guide",
+        "Characteristics of procurement complexity levels",
+        "Complexity level 1"
+      ],
+      "markdown": "### Complexity level 1",
+      "plain_text": "Complexity level 1"
+    },
+    {
+      "block_id": "c5b17589c12e::b0008",
+      "section_id": "c5b17589c12e::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
+        "Buyer's Guide",
+        "Characteristics of procurement complexity levels",
+        "Complexity level 1"
+      ],
+      "markdown": "Complexity level 1 procurements include at least one of the following and do not include any of the criteria of the other complexity levels:",
+      "plain_text": "Complexity level 1 procurements include at least one of the following and do not include any of the criteria of the other complexity levels:"
+    },
+    {
+      "block_id": "c5b17589c12e::b0009",
+      "section_id": "c5b17589c12e::s004",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
+        "Buyer's Guide",
+        "Characteristics of procurement complexity levels",
+        "Complexity level 1"
+      ],
+      "markdown": "- a call-up against a standing offer;\n- a commercially available good that is readily available in the marketplace, which may include manufacturer-supplied customizable options (includes Commercial Off-the-Shelf [COTS] or military off-the-shelf [MOTS]);\n- a common service that is readily available in the marketplace, which may include supplier customized options;\n- procurement methodologies that are tried and proven using existing conventions;\n- departmental standard procurement templates or legally approved templates;\n- contractor selection methodology that is based on price and delivery alone, or where all criteria determining the successful offeror are objective (for example, grid) and do not require subjective judgement",
+      "plain_text": "a call-up against a standing offer; ; a commercially available good that is readily available in the marketplace, which may include manufacturer-supplied customizable options (includes Commercial Off-the-Shelf [COTS] or military off-the-shelf [MOTS]); ; a common service that is readily available in the marketplace, which may include supplier customized options; ; procurement methodologies that are tried and proven using existing conventions; ; departmental standard procurement templates or legally approved templates; ; contractor selection methodology that is based on price and delivery alone, or where all criteria determining the successful offeror are objective (for example, grid) and do not require subjective judgement"
+    },
+    {
+      "block_id": "c5b17589c12e::b0010",
+      "section_id": "c5b17589c12e::s005",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
+        "Buyer's Guide",
+        "Characteristics of procurement complexity levels",
+        "Complexity level 2"
+      ],
+      "markdown": "### Complexity level 2",
+      "plain_text": "Complexity level 2"
+    },
+    {
+      "block_id": "c5b17589c12e::b0011",
+      "section_id": "c5b17589c12e::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
+        "Buyer's Guide",
+        "Characteristics of procurement complexity levels",
+        "Complexity level 2"
+      ],
+      "markdown": "Complexity level 2 procurements include one or more of the following and do not include any of the criteria of complexity levels 3, 4 and 5:",
+      "plain_text": "Complexity level 2 procurements include one or more of the following and do not include any of the criteria of complexity levels 3, 4 and 5:"
+    },
+    {
+      "block_id": "c5b17589c12e::b0012",
+      "section_id": "c5b17589c12e::s005",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
+        "Buyer's Guide",
+        "Characteristics of procurement complexity levels",
+        "Complexity level 2"
+      ],
+      "markdown": "- government-specified performance requirements to commercially available goods;\n- a requirement which uses existing technology/processes to achieve an innovative solution;\n- services with subjective results (for example, consultations and recommendations);\n- departmental standard or sector procurement templates which have been modified, that introduce new custom clauses, or that use terms and conditions other than the standard;\n- one or more evaluation criteria to determine the successful offeror and that require subjective judgment;\n- industrial regional benefits (IRBs) or value propositions;\n- vendor pre-qualification (includes establishment of supply arrangements);\n- advance payments",
+      "plain_text": "government-specified performance requirements to commercially available goods; ; a requirement which uses existing technology/processes to achieve an innovative solution; ; services with subjective results (for example, consultations and recommendations); ; departmental standard or sector procurement templates which have been modified, that introduce new custom clauses, or that use terms and conditions other than the standard; ; one or more evaluation criteria to determine the successful offeror and that require subjective judgment; ; industrial regional benefits (IRBs) or value propositions; ; vendor pre-qualification (includes establishment of supply arrangements); ; advance payments"
+    },
+    {
+      "block_id": "c5b17589c12e::b0013",
+      "section_id": "c5b17589c12e::s006",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
+        "Buyer's Guide",
+        "Characteristics of procurement complexity levels",
+        "Complexity level 3"
+      ],
+      "markdown": "### Complexity level 3",
+      "plain_text": "Complexity level 3"
+    },
+    {
+      "block_id": "c5b17589c12e::b0014",
+      "section_id": "c5b17589c12e::s006",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
+        "Buyer's Guide",
+        "Characteristics of procurement complexity levels",
+        "Complexity level 3"
+      ],
+      "markdown": "Complexity level 3 procurements include one or more of the following and do not include any of the criteria of complexity levels 4 and 5:",
+      "plain_text": "Complexity level 3 procurements include one or more of the following and do not include any of the criteria of complexity levels 4 and 5:"
+    },
+    {
+      "block_id": "c5b17589c12e::b0015",
+      "section_id": "c5b17589c12e::s006",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
+        "Buyer's Guide",
+        "Characteristics of procurement complexity levels",
+        "Complexity level 3"
+      ],
+      "markdown": "- a requirement which uses new, or a combination of new and existing technology/processes to achieve an innovative solution, and may be developmental in nature;\n- a requirement or procurement that is highly unpredictable due to a high level of uncertainty;\n- an untested procurement strategy",
+      "plain_text": "a requirement which uses new, or a combination of new and existing technology/processes to achieve an innovative solution, and may be developmental in nature; ; a requirement or procurement that is highly unpredictable due to a high level of uncertainty; ; an untested procurement strategy"
+    },
+    {
+      "block_id": "c5b17589c12e::b0016",
+      "section_id": "c5b17589c12e::s007",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
+        "Buyer's Guide",
+        "Characteristics of procurement complexity levels",
+        "Complexity level 4"
+      ],
+      "markdown": "### Complexity level 4",
+      "plain_text": "Complexity level 4"
+    },
+    {
+      "block_id": "c5b17589c12e::b0017",
+      "section_id": "c5b17589c12e::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
+        "Buyer's Guide",
+        "Characteristics of procurement complexity levels",
+        "Complexity level 4"
+      ],
+      "markdown": "Complexity level 4 procurements involve transformational requirements that are enterprise-wide (across government) and include or involve one or more of the following elements:",
+      "plain_text": "Complexity level 4 procurements involve transformational requirements that are enterprise-wide (across government) and include or involve one or more of the following elements:"
+    },
+    {
+      "block_id": "c5b17589c12e::b0018",
+      "section_id": "c5b17589c12e::s007",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
+        "Buyer's Guide",
+        "Characteristics of procurement complexity levels",
+        "Complexity level 4"
+      ],
+      "markdown": "- a high level of uncertainty;\n- may involve partnerships and shared decision-making with clients and multiple stakeholders within various federal government departments;\n- contract administration is detailed and extensive and its success is unpredictable;\n- more than one tier of government (federal, provincial, municipal) or multiple clients/stakeholders with decision-making authority",
+      "plain_text": "a high level of uncertainty; ; may involve partnerships and shared decision-making with clients and multiple stakeholders within various federal government departments; ; contract administration is detailed and extensive and its success is unpredictable; ; more than one tier of government (federal, provincial, municipal) or multiple clients/stakeholders with decision-making authority"
+    },
+    {
+      "block_id": "c5b17589c12e::b0019",
+      "section_id": "c5b17589c12e::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
+        "Buyer's Guide",
+        "Characteristics of procurement complexity levels",
+        "Complexity level 4"
+      ],
+      "markdown": "Note: Complexity Level 4 procurements do not include or involve any of the criteria of complexity level 5.",
+      "plain_text": "Note: Complexity Level 4 procurements do not include or involve any of the criteria of complexity level 5."
+    },
+    {
+      "block_id": "c5b17589c12e::b0020",
+      "section_id": "c5b17589c12e::s008",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
+        "Buyer's Guide",
+        "Characteristics of procurement complexity levels",
+        "Complexity level 5"
+      ],
+      "markdown": "### Complexity level 5",
+      "plain_text": "Complexity level 5"
+    },
+    {
+      "block_id": "c5b17589c12e::b0021",
+      "section_id": "c5b17589c12e::s008",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
+        "Buyer's Guide",
+        "Characteristics of procurement complexity levels",
+        "Complexity level 5"
+      ],
+      "markdown": "Complexity level 5 procurements involve transformational requirements that affect public policy or culture (external to government) and include or involve one or more of the following elements:",
+      "plain_text": "Complexity level 5 procurements involve transformational requirements that affect public policy or culture (external to government) and include or involve one or more of the following elements:"
+    },
+    {
+      "block_id": "c5b17589c12e::b0022",
+      "section_id": "c5b17589c12e::s008",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Complexity and procurement risk assessment - Characteristics of procurement complexity levels",
+        "Buyer's Guide",
+        "Characteristics of procurement complexity levels",
+        "Complexity level 5"
+      ],
+      "markdown": "- a high level of uncertainty;\n- partnerships with clients, multiple stakeholders (internal and external to the federal government) and elected officials, to reshape public policy or introduce new public policies;\n- shared decision-making;\n- contract administration that is detailed, extensive and highly unpredictable;\n- ultimate success is determined by the public at large",
+      "plain_text": "a high level of uncertainty; ; partnerships with clients, multiple stakeholders (internal and external to the federal government) and elected officials, to reshape public policy or introduce new public policies; ; shared decision-making; ; contract administration that is detailed, extensive and highly unpredictable; ; ultimate success is determined by the public at large"
+    }
+  ]
+}

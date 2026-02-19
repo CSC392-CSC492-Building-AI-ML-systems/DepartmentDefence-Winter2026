@@ -1,0 +1,45 @@
+# Buyer's Guide Define the requirement - Importance of a clear procurement requirement
+
+# Buyer's Guide
+
+- Plan
+- Approve
+- Create solicitation
+- Solicit
+- Receive and evaluate
+- Negotiate
+- Award
+- Manage
+
+Importance of a clear procurement requirement A detailed understanding of what needs to be procured streamlines the process, saving significant time and money. It ensures alignment with legal requirements, environmental considerations, security requirements, and other special considerations that may impact the procurement. As a buyer, you play a crucial role in helping the client define their requirements. Key aspects of defining a clear procurement requirement include: considering the legal framework regulating the goods and services being procured stating the requirement in a way that promotes competition and ensures best value is crucial. Note: Defining requirements in terms of operational requirements rather than specifying brand names or proprietary technical specifications wherever possible encourages a broader range of proposals encouraging the client to engage early with Public Services and Procurement Canada (PSPC) to clarify needs and prepare a comprehensive requirement to help with competition and maximize value assisting in identifying any special requirements that offerors may need to address in their proposals, such as: accessibility green procurement security progress reports special packaging transportation bonding adopting a collaborative approach between you and the client from the outset, will address all concerns early on, ensuring that a clear and detailed understanding of the requirement is established writing a solicitation of offers that uses plain language is key to attracting the best possible solutions from offerors at competitive prices and avoiding disputes providing a challenge function where appropriate during the requirements definition stage of the procurement process, including: refining requirements and ensuring that the statement of work or statement of requirements provides the depth of detail and clarity needed in a solicitation or contractual document ensuring that all requirements are clear and understandable questioning a client’s use of jargon and defining terms that industry may not be familiar with ensuring, as applicable, that weights are appropriate within technical evaluation criteria as well as between the overall technical and financial criteria ensuring that the calculation is sound for all point-rated criteria You, as the buyer, offers essential support and guidance on defining requirements, including developing mandatory requirements, and determining which mandatory requirements are eligible to the phased bid compliance process. This collaboration ensures all mandatory requirements are effectively communicated and integrated into the procurement process, optimizing outcomes.
+
+## Importance of a clear procurement requirement
+
+A detailed understanding of what needs to be procured streamlines the process, saving significant time and money. It ensures alignment with legal requirements, environmental considerations, security requirements, and other special considerations that may impact the procurement.
+
+As a buyer, you play a crucial role in helping the client define their requirements. Key aspects of defining a clear procurement requirement include:
+
+- considering the legal framework regulating the goods and services being procured
+- stating the requirement in a way that promotes competition and ensures best value is crucial.
+
+Note: Defining requirements in terms of operational requirements rather than specifying brand names or proprietary technical specifications wherever possible encourages a broader range of proposals
+
+- encouraging the client to engage early with Public Services and Procurement Canada (PSPC) to clarify needs and prepare a comprehensive requirement to help with competition and maximize value
+- assisting in identifying any special requirements that offerors may need to address in their proposals, such as:
+- accessibility
+- green procurement
+- security
+- progress reports
+- special packaging
+- transportation
+- bonding
+- adopting a collaborative approach between you and the client from the outset, will address all concerns early on, ensuring that a clear and detailed understanding of the requirement is established
+- writing a solicitation of offers that uses plain language is key to attracting the best possible solutions from offerors at competitive prices and avoiding disputes
+- providing a challenge function where appropriate during the requirements definition stage of the procurement process, including:
+- refining requirements and ensuring that the statement of work or statement of requirements provides the depth of detail and clarity needed in a solicitation or contractual document
+- ensuring that all requirements are clear and understandable
+- questioning a client’s use of jargon and defining terms that industry may not be familiar with
+- ensuring, as applicable, that weights are appropriate within technical evaluation criteria as well as between the overall technical and financial criteria
+- ensuring that the calculation is sound for all point-rated criteria
+
+You, as the buyer, offers essential support and guidance on defining requirements, including developing mandatory requirements, and determining which mandatory requirements are eligible to the phased bid compliance process. This collaboration ensures all mandatory requirements are effectively communicated and integrated into the procurement process, optimizing outcomes.

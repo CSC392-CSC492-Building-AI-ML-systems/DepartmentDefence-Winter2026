@@ -1,0 +1,271 @@
+{
+  "doc_id": "cc12ff047886",
+  "title": "Buyer's Guide Cancel or reissue a solicitation",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/cancel-or-reissue-solicitation",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/cancel-or-reissue-solicitation",
+  "doc_type": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": "2026-01-31",
+  "fetched_at": "2026-02-19T09:20:54.891768+00:00",
+  "content_hash": "67763a5c63793ee2b54288dddc884eda42cbfb269d6c7de8295babba0e6b296c",
+  "word_count": 93,
+  "text_path": "data/corpus/buyers_guide__en-buyer-s-portal-buyer-s-guide-solicit-cancel-or-reissue-solicitation__cc12ff0478.md",
+  "extraction_method": "buyers_guide_regions",
+  "breadcrumbs": [
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "https://canadabuys.canada.ca/en",
+      "canonical_url": "https://canadabuys.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "in_scope": true
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+    "parent_doc_id": "1e29c7881335",
+    "child_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/cancel-or-reissue-solicitation/approval-reissue-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/cancel-or-reissue-solicitation/how-cancel-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/cancel-or-reissue-solicitation/how-reissue-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/cancel-or-reissue-solicitation/when-cancel-or-reissue"
+    ],
+    "child_doc_ids": [
+      "d649dcb59bac",
+      "8475dc1c3426",
+      "175886a740d1",
+      "409f36b50861"
+    ],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/cancel-or-reissue-solicitation"
+    ],
+    "lineage_doc_ids": [
+      "1e29c7881335",
+      "cc12ff047886"
+    ],
+    "depth": 1,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/cancel-or-reissue-solicitation/approval-reissue-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/cancel-or-reissue-solicitation/how-cancel-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/cancel-or-reissue-solicitation/how-reissue-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/cancel-or-reissue-solicitation/when-cancel-or-reissue",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/handling-questions-during-solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/manage-solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/manage-solicitation-period/communicate-offerors",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/manage-solicitation-period/contacting-businesses-directly-during-solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/manage-solicitation-period/modifying-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/manage-solicitation-period/notifying-land-claimant-groups",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document/distribution-invited-businesses",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document/posting-tender-opportunities-page",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document/technical-data"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/cancel-or-reissue-solicitation/approval-reissue-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/cancel-or-reissue-solicitation/how-cancel-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/cancel-or-reissue-solicitation/how-reissue-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/cancel-or-reissue-solicitation/when-cancel-or-reissue",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/handling-questions-during-solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/manage-solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/manage-solicitation-period/communicate-offerors",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/manage-solicitation-period/contacting-businesses-directly-during-solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/manage-solicitation-period/modifying-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/manage-solicitation-period/notifying-land-claimant-groups",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document/distribution-invited-businesses",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document/posting-tender-opportunities-page",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document/technical-data"
+    ]
+  },
+  "structure": {
+    "block_count": 6,
+    "section_count": 4,
+    "heading_count": 3,
+    "paragraph_count": 2,
+    "list_count": 1,
+    "table_count": 0
+  },
+  "sections": [
+    {
+      "section_id": "cc12ff047886::root",
+      "parent_section_id": null,
+      "level": 0,
+      "heading": "Buyer's Guide Cancel or reissue a solicitation",
+      "heading_path": [
+        "Buyer's Guide Cancel or reissue a solicitation"
+      ],
+      "block_count": 0,
+      "word_count": 0,
+      "char_count": 0,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": null,
+      "last_block_index": null,
+      "preview": "",
+      "prev_section_id": null,
+      "next_section_id": null
+    },
+    {
+      "section_id": "cc12ff047886::s001",
+      "parent_section_id": "cc12ff047886::root",
+      "level": 1,
+      "heading": "Buyer's Guide Cancel or reissue a solicitation",
+      "heading_path": [
+        "Buyer's Guide Cancel or reissue a solicitation",
+        "Buyer's Guide Cancel or reissue a solicitation"
+      ],
+      "block_count": 1,
+      "word_count": 7,
+      "char_count": 46,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 0,
+      "last_block_index": 0,
+      "preview": "Buyer's Guide Cancel or reissue a solicitation",
+      "prev_section_id": null,
+      "next_section_id": "cc12ff047886::s002"
+    },
+    {
+      "section_id": "cc12ff047886::s002",
+      "parent_section_id": "cc12ff047886::root",
+      "level": 1,
+      "heading": "Buyer's Guide",
+      "heading_path": [
+        "Buyer's Guide Cancel or reissue a solicitation",
+        "Buyer's Guide"
+      ],
+      "block_count": 3,
+      "word_count": 53,
+      "char_count": 364,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 1,
+      "last_block_index": 3,
+      "preview": "Buyer's Guide Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage Cancel or reissue a solicitation This section provides information on cancelling or reissuing a solicitation, ensuring fair tre",
+      "prev_section_id": "cc12ff047886::s001",
+      "next_section_id": "cc12ff047886::s003"
+    },
+    {
+      "section_id": "cc12ff047886::s003",
+      "parent_section_id": "cc12ff047886::s002",
+      "level": 2,
+      "heading": "Cancel or reissue a solicitation",
+      "heading_path": [
+        "Buyer's Guide Cancel or reissue a solicitation",
+        "Buyer's Guide",
+        "Cancel or reissue a solicitation"
+      ],
+      "block_count": 2,
+      "word_count": 33,
+      "char_count": 252,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 4,
+      "last_block_index": 5,
+      "preview": "Cancel or reissue a solicitation This section provides information on cancelling or reissuing a solicitation, ensuring fair treatment, obtaining proper approvals, handling the process transparently, and documenting the rationale in the proc",
+      "prev_section_id": "cc12ff047886::s002",
+      "next_section_id": null
+    }
+  ],
+  "tables": [],
+  "blocks": [
+    {
+      "block_id": "cc12ff047886::b0001",
+      "section_id": "cc12ff047886::s001",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Cancel or reissue a solicitation",
+        "Buyer's Guide Cancel or reissue a solicitation"
+      ],
+      "markdown": "# Buyer's Guide Cancel or reissue a solicitation",
+      "plain_text": "Buyer's Guide Cancel or reissue a solicitation"
+    },
+    {
+      "block_id": "cc12ff047886::b0002",
+      "section_id": "cc12ff047886::s002",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Cancel or reissue a solicitation",
+        "Buyer's Guide"
+      ],
+      "markdown": "# Buyer's Guide",
+      "plain_text": "Buyer's Guide"
+    },
+    {
+      "block_id": "cc12ff047886::b0003",
+      "section_id": "cc12ff047886::s002",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Cancel or reissue a solicitation",
+        "Buyer's Guide"
+      ],
+      "markdown": "- Plan\n- Approve\n- Create solicitation\n- Solicit\n- Receive and evaluate\n- Negotiate\n- Award\n- Manage",
+      "plain_text": "Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage"
+    },
+    {
+      "block_id": "cc12ff047886::b0004",
+      "section_id": "cc12ff047886::s002",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cancel or reissue a solicitation",
+        "Buyer's Guide"
+      ],
+      "markdown": "Cancel or reissue a solicitation This section provides information on cancelling or reissuing a solicitation, ensuring fair treatment, obtaining proper approvals, handling the process transparently, and documenting the rationale in the procurement file.",
+      "plain_text": "Cancel or reissue a solicitation This section provides information on cancelling or reissuing a solicitation, ensuring fair treatment, obtaining proper approvals, handling the process transparently, and documenting the rationale in the procurement file."
+    },
+    {
+      "block_id": "cc12ff047886::b0005",
+      "section_id": "cc12ff047886::s003",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Cancel or reissue a solicitation",
+        "Buyer's Guide",
+        "Cancel or reissue a solicitation"
+      ],
+      "markdown": "## Cancel or reissue a solicitation",
+      "plain_text": "Cancel or reissue a solicitation"
+    },
+    {
+      "block_id": "cc12ff047886::b0006",
+      "section_id": "cc12ff047886::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cancel or reissue a solicitation",
+        "Buyer's Guide",
+        "Cancel or reissue a solicitation"
+      ],
+      "markdown": "This section provides information on cancelling or reissuing a solicitation, ensuring fair treatment, obtaining proper approvals, handling the process transparently, and documenting the rationale in the procurement file.",
+      "plain_text": "This section provides information on cancelling or reissuing a solicitation, ensuring fair treatment, obtaining proper approvals, handling the process transparently, and documenting the rationale in the procurement file."
+    }
+  ]
+}

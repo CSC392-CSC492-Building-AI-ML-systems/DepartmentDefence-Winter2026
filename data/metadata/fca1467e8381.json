@@ -1,0 +1,323 @@
+{
+  "doc_id": "fca1467e8381",
+  "title": "Buyer's Guide Complexity and procurement risk assessment - Determining complexity",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/determining-complexity",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/determining-complexity",
+  "doc_type": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": "2026-01-31",
+  "fetched_at": "2026-02-19T09:17:19.544110+00:00",
+  "content_hash": "147626ad3359e91dca6e1121cbc5a4e8f1046b5385938bcfd4073fb269a211fe",
+  "word_count": 194,
+  "text_path": "data/corpus/buyers_guide__en-buyer-s-portal-buyer-s-guide-approve-complexity-and-procurement-risk-assessment-determining-complexity__fca1467e83.md",
+  "extraction_method": "buyers_guide_regions",
+  "breadcrumbs": [
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "https://canadabuys.canada.ca/en",
+      "canonical_url": "https://canadabuys.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "in_scope": true
+    },
+    {
+      "title": "Complexity and procurement risk assessment",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "in_scope": true
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+    "parent_doc_id": "fae8c0c38feb",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/determining-complexity"
+    ],
+    "lineage_doc_ids": [
+      "1e29c7881335",
+      "fae8c0c38feb",
+      "fca1467e8381"
+    ],
+    "depth": 2,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/additional-signing-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/approval-authorities-and-additional-signing-authorities-support-acquisitions-program-clients-programs-only-other-canadian-commercial-corporation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contract-approval-and-signing-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contracting-limits-including-exceptional-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/delegation-authority-guidelines",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/general-principles-procurement-authority",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/risk-based-procurement-delegation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/adjustments-complexity-levels",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/characteristics-procurement-complexity-levels",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/considerations-amendments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/procurement-risk-assessment-complexity",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/additional-reviewers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/approval-processes",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-amendment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-planning-and-advanced-approval",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-request",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/procurement-plan",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/task-authorizations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/treasury-board-submission",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/forgiveness-debts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/procurement-process-initiated-client",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/retroactive-treasury-board-approval-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/trade-ins",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/waiver-interest"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/additional-signing-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/approval-authorities-and-additional-signing-authorities-support-acquisitions-program-clients-programs-only-other-canadian-commercial-corporation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contract-approval-and-signing-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contracting-limits-including-exceptional-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/delegation-authority-guidelines",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/general-principles-procurement-authority",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/risk-based-procurement-delegation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/adjustments-complexity-levels",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/characteristics-procurement-complexity-levels",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/considerations-amendments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/procurement-risk-assessment-complexity",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/additional-reviewers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/approval-processes",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-amendment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-planning-and-advanced-approval",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-request",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/procurement-plan",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/task-authorizations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/treasury-board-submission",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/forgiveness-debts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/procurement-process-initiated-client",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/retroactive-treasury-board-approval-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/trade-ins",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/waiver-interest",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure": {
+    "block_count": 8,
+    "section_count": 4,
+    "heading_count": 3,
+    "paragraph_count": 4,
+    "list_count": 1,
+    "table_count": 0
+  },
+  "sections": [
+    {
+      "section_id": "fca1467e8381::root",
+      "parent_section_id": null,
+      "level": 0,
+      "heading": "Buyer's Guide Complexity and procurement risk assessment - Determining complexity",
+      "heading_path": [
+        "Buyer's Guide Complexity and procurement risk assessment - Determining complexity"
+      ],
+      "block_count": 0,
+      "word_count": 0,
+      "char_count": 0,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": null,
+      "last_block_index": null,
+      "preview": "",
+      "prev_section_id": null,
+      "next_section_id": null
+    },
+    {
+      "section_id": "fca1467e8381::s001",
+      "parent_section_id": "fca1467e8381::root",
+      "level": 1,
+      "heading": "Buyer's Guide Complexity and procurement risk assessment - Determining complexity",
+      "heading_path": [
+        "Buyer's Guide Complexity and procurement risk assessment - Determining complexity",
+        "Buyer's Guide Complexity and procurement risk assessment - Determining complexity"
+      ],
+      "block_count": 1,
+      "word_count": 10,
+      "char_count": 81,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 0,
+      "last_block_index": 0,
+      "preview": "Buyer's Guide Complexity and procurement risk assessment - Determining complexity",
+      "prev_section_id": null,
+      "next_section_id": "fca1467e8381::s002"
+    },
+    {
+      "section_id": "fca1467e8381::s002",
+      "parent_section_id": "fca1467e8381::root",
+      "level": 1,
+      "heading": "Buyer's Guide",
+      "heading_path": [
+        "Buyer's Guide Complexity and procurement risk assessment - Determining complexity",
+        "Buyer's Guide"
+      ],
+      "block_count": 3,
+      "word_count": 102,
+      "char_count": 659,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 1,
+      "last_block_index": 3,
+      "preview": "Buyer's Guide Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage Determining complexity Each requisition undergoes an assessment to determine the procurement's complexity level In order to dir",
+      "prev_section_id": "fca1467e8381::s001",
+      "next_section_id": "fca1467e8381::s003"
+    },
+    {
+      "section_id": "fca1467e8381::s003",
+      "parent_section_id": "fca1467e8381::s002",
+      "level": 2,
+      "heading": "Determining complexity",
+      "heading_path": [
+        "Buyer's Guide Complexity and procurement risk assessment - Determining complexity",
+        "Buyer's Guide",
+        "Determining complexity"
+      ],
+      "block_count": 4,
+      "word_count": 82,
+      "char_count": 545,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 3,
+      "first_block_index": 4,
+      "last_block_index": 7,
+      "preview": "Determining complexity Each requisition undergoes an assessment to determine the procurement's complexity level In order to direct the requirement through the appropriate process stream. Complexity levels range from 1 to 5. The manager is r",
+      "prev_section_id": "fca1467e8381::s002",
+      "next_section_id": null
+    }
+  ],
+  "tables": [],
+  "blocks": [
+    {
+      "block_id": "fca1467e8381::b0001",
+      "section_id": "fca1467e8381::s001",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Complexity and procurement risk assessment - Determining complexity",
+        "Buyer's Guide Complexity and procurement risk assessment - Determining complexity"
+      ],
+      "markdown": "# Buyer's Guide Complexity and procurement risk assessment - Determining complexity",
+      "plain_text": "Buyer's Guide Complexity and procurement risk assessment - Determining complexity"
+    },
+    {
+      "block_id": "fca1467e8381::b0002",
+      "section_id": "fca1467e8381::s002",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Complexity and procurement risk assessment - Determining complexity",
+        "Buyer's Guide"
+      ],
+      "markdown": "# Buyer's Guide",
+      "plain_text": "Buyer's Guide"
+    },
+    {
+      "block_id": "fca1467e8381::b0003",
+      "section_id": "fca1467e8381::s002",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Complexity and procurement risk assessment - Determining complexity",
+        "Buyer's Guide"
+      ],
+      "markdown": "- Plan\n- Approve\n- Create solicitation\n- Solicit\n- Receive and evaluate\n- Negotiate\n- Award\n- Manage",
+      "plain_text": "Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage"
+    },
+    {
+      "block_id": "fca1467e8381::b0004",
+      "section_id": "fca1467e8381::s002",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Complexity and procurement risk assessment - Determining complexity",
+        "Buyer's Guide"
+      ],
+      "markdown": "Determining complexity Each requisition undergoes an assessment to determine the procurement's complexity level In order to direct the requirement through the appropriate process stream. Complexity levels range from 1 to 5. The manager is responsible for determining the complexity of a requirement and the selected complexity level must be documented on file, dated and signed. Any changes to the complexity level during the course of the procurement must be discussed with the manager, documented on file, explaining why the change was necessary.",
+      "plain_text": "Determining complexity Each requisition undergoes an assessment to determine the procurement's complexity level In order to direct the requirement through the appropriate process stream. Complexity levels range from 1 to 5. The manager is responsible for determining the complexity of a requirement and the selected complexity level must be documented on file, dated and signed. Any changes to the complexity level during the course of the procurement must be discussed with the manager, documented on file, explaining why the change was necessary."
+    },
+    {
+      "block_id": "fca1467e8381::b0005",
+      "section_id": "fca1467e8381::s003",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Complexity and procurement risk assessment - Determining complexity",
+        "Buyer's Guide",
+        "Determining complexity"
+      ],
+      "markdown": "## Determining complexity",
+      "plain_text": "Determining complexity"
+    },
+    {
+      "block_id": "fca1467e8381::b0006",
+      "section_id": "fca1467e8381::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Complexity and procurement risk assessment - Determining complexity",
+        "Buyer's Guide",
+        "Determining complexity"
+      ],
+      "markdown": "Each requisition undergoes an assessment to determine the procurement's complexity level In order to direct the requirement through the appropriate process stream. Complexity levels range from 1 to 5.",
+      "plain_text": "Each requisition undergoes an assessment to determine the procurement's complexity level In order to direct the requirement through the appropriate process stream. Complexity levels range from 1 to 5."
+    },
+    {
+      "block_id": "fca1467e8381::b0007",
+      "section_id": "fca1467e8381::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Complexity and procurement risk assessment - Determining complexity",
+        "Buyer's Guide",
+        "Determining complexity"
+      ],
+      "markdown": "The manager is responsible for determining the complexity of a requirement and the selected complexity level must be documented on file, dated and signed.",
+      "plain_text": "The manager is responsible for determining the complexity of a requirement and the selected complexity level must be documented on file, dated and signed."
+    },
+    {
+      "block_id": "fca1467e8381::b0008",
+      "section_id": "fca1467e8381::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Complexity and procurement risk assessment - Determining complexity",
+        "Buyer's Guide",
+        "Determining complexity"
+      ],
+      "markdown": "Any changes to the complexity level during the course of the procurement must be discussed with the manager, documented on file, explaining why the change was necessary.",
+      "plain_text": "Any changes to the complexity level during the course of the procurement must be discussed with the manager, documented on file, explaining why the change was necessary."
+    }
+  ]
+}

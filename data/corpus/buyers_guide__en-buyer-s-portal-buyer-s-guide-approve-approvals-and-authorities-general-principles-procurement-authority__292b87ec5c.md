@@ -1,0 +1,20 @@
+# Buyer's Guide Approvals and authorities - General principles of procurement authority
+
+# Buyer's Guide
+
+- Plan
+- Approve
+- Create solicitation
+- Solicit
+- Receive and evaluate
+- Negotiate
+- Award
+- Manage
+
+General principles of procurement authority Contracts are entered into by His Majesty the King as represented by a minister. The authority to enter into contracts is generally in the legislation constituting the department and giving certain powers on the minister. The Department of Public Works and Government Services Act confers the Minister's contracting authority. The Minister’s authority is delegated to buyers to carry out the contracting process. Financial limits are established by Treasury Board (TB) pursuant to the Financial Administration Act (FAA) and are set out in the Appendix A: Contracting Approvals of the Directive on the Management of Procurement . Issued under section 10 and paragraph 41(1)(a) of the FAA , this appendix sets basic contracting limits for contracting authorities, provides specific limits for individual ministers, and outlines thresholds above which TB approval is required.
+
+## General principles of procurement authority
+
+Contracts are entered into by His Majesty the King as represented by a minister. The authority to enter into contracts is generally in the legislation constituting the department and giving certain powers on the minister. The Department of Public Works and Government Services Act confers the Minister's contracting authority. The Minister’s authority is delegated to buyers to carry out the contracting process.
+
+Financial limits are established by Treasury Board (TB) pursuant to the Financial Administration Act (FAA) and are set out in the Appendix A: Contracting Approvals of the Directive on the Management of Procurement . Issued under section 10 and paragraph 41(1)(a) of the FAA , this appendix sets basic contracting limits for contracting authorities, provides specific limits for individual ministers, and outlines thresholds above which TB approval is required.

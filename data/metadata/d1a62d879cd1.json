@@ -1,0 +1,655 @@
+{
+  "doc_id": "d1a62d879cd1",
+  "title": "Buyer's Guide Other planning considerations - Warranties",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/warranties",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/warranties",
+  "doc_type": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": "2026-01-31",
+  "fetched_at": "2026-02-19T09:17:07.628684+00:00",
+  "content_hash": "ed8452e7983d82803f85ddf1a2c87ecb40cceff43d61ebed4acdfbfbbcd093f7",
+  "word_count": 1108,
+  "text_path": "data/corpus/buyers_guide__en-buyer-s-portal-buyer-s-guide-plan-other-planning-considerations-warranties__d1a62d879c.md",
+  "extraction_method": "buyers_guide_regions",
+  "breadcrumbs": [
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "https://canadabuys.canada.ca/en",
+      "canonical_url": "https://canadabuys.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "in_scope": true
+    },
+    {
+      "title": "Other planning considerations",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations",
+      "in_scope": true
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations",
+    "parent_doc_id": "256b3c51a8fa",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/warranties"
+    ],
+    "lineage_doc_ids": [
+      "1e29c7881335",
+      "256b3c51a8fa",
+      "d1a62d879cd1"
+    ],
+    "depth": 2,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-accounting-and-pricing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-reimbursable",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/firm-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-time/unit-rate",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/overview-key-pricing-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/price-and-currency-adjustments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/pricing-methods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/provisional-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/types-basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/application-registration",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/completing-security-requirements-check-list",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/controlled-goods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/foreign-ownership-control-or-influence",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/privacy-and-confidentiality",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-international-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-timelines",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/importance-clear-procurement-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/requisition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/review-statement-work",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/socioeconomic-requirements-definition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/standards-and-quality-assurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/choose-method-supply",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/determine-sourcing-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/developing-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/interim-policy-reciprocal-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/trade-agreement-applicability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/early-engagement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-businesses",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-clients",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-subject-matter-experts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/invoicing-instructions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/payment-instruments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/taxes-and-duties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/withholding-non-resident-contractors",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/communicating-method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/developing-selection-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/including-basis-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/specifying-evaluation-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/canadian-general-standards-board",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/compliance-canadian-electrical-code",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/contractor-liability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/emergency-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/employer/employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/fairness-monitoring",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/insurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/intellectual-property-and-copyright",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/liability-and-risk-management",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/managing-urgent-acquisitions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/official-languages-obligation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/holdbacks",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/incentives",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/accessibility",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/anti-forced-labour-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/green-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/indigenous-considerations"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-accounting-and-pricing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-reimbursable",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/firm-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-time/unit-rate",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/overview-key-pricing-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/price-and-currency-adjustments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/pricing-methods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/provisional-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/types-basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/application-registration",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/completing-security-requirements-check-list",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/controlled-goods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/foreign-ownership-control-or-influence",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/privacy-and-confidentiality",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-international-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-timelines",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/importance-clear-procurement-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/requisition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/review-statement-work",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/socioeconomic-requirements-definition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/standards-and-quality-assurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/choose-method-supply",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/determine-sourcing-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/developing-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/interim-policy-reciprocal-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/trade-agreement-applicability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/early-engagement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-businesses",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-clients",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-subject-matter-experts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/invoicing-instructions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/payment-instruments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/taxes-and-duties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/withholding-non-resident-contractors",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/communicating-method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/developing-selection-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/including-basis-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/specifying-evaluation-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/canadian-general-standards-board",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/compliance-canadian-electrical-code",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/contractor-liability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/emergency-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/employer/employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/fairness-monitoring",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/insurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/intellectual-property-and-copyright",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/liability-and-risk-management",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/managing-urgent-acquisitions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/official-languages-obligation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/holdbacks",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/incentives",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/accessibility",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/anti-forced-labour-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/green-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/indigenous-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure": {
+    "block_count": 20,
+    "section_count": 8,
+    "heading_count": 7,
+    "paragraph_count": 10,
+    "list_count": 3,
+    "table_count": 0
+  },
+  "sections": [
+    {
+      "section_id": "d1a62d879cd1::root",
+      "parent_section_id": null,
+      "level": 0,
+      "heading": "Buyer's Guide Other planning considerations - Warranties",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Warranties"
+      ],
+      "block_count": 0,
+      "word_count": 0,
+      "char_count": 0,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": null,
+      "last_block_index": null,
+      "preview": "",
+      "prev_section_id": null,
+      "next_section_id": null
+    },
+    {
+      "section_id": "d1a62d879cd1::s001",
+      "parent_section_id": "d1a62d879cd1::root",
+      "level": 1,
+      "heading": "Buyer's Guide Other planning considerations - Warranties",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Warranties",
+        "Buyer's Guide Other planning considerations - Warranties"
+      ],
+      "block_count": 1,
+      "word_count": 7,
+      "char_count": 56,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 0,
+      "last_block_index": 0,
+      "preview": "Buyer's Guide Other planning considerations - Warranties",
+      "prev_section_id": null,
+      "next_section_id": "d1a62d879cd1::s002"
+    },
+    {
+      "section_id": "d1a62d879cd1::s002",
+      "parent_section_id": "d1a62d879cd1::root",
+      "level": 1,
+      "heading": "Buyer's Guide",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Warranties",
+        "Buyer's Guide"
+      ],
+      "block_count": 3,
+      "word_count": 557,
+      "char_count": 3519,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 1,
+      "last_block_index": 3,
+      "preview": "Buyer's Guide Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage Warranties In a contract for the sale of goods, any affirmation of fact or any promise by the offeror relating to the goods con",
+      "prev_section_id": "d1a62d879cd1::s001",
+      "next_section_id": "d1a62d879cd1::s003"
+    },
+    {
+      "section_id": "d1a62d879cd1::s003",
+      "parent_section_id": "d1a62d879cd1::s002",
+      "level": 2,
+      "heading": "Warranties",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Warranties",
+        "Buyer's Guide",
+        "Warranties"
+      ],
+      "block_count": 2,
+      "word_count": 57,
+      "char_count": 325,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 4,
+      "last_block_index": 5,
+      "preview": "Warranties In a contract for the sale of goods, any affirmation of fact or any promise by the offeror relating to the goods constitutes an express warranty. The provisions of the standard warranties clause are in addition to, and do not neg",
+      "prev_section_id": "d1a62d879cd1::s002",
+      "next_section_id": "d1a62d879cd1::s004"
+    },
+    {
+      "section_id": "d1a62d879cd1::s004",
+      "parent_section_id": "d1a62d879cd1::s003",
+      "level": 3,
+      "heading": "Implied warranties",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Warranties",
+        "Buyer's Guide",
+        "Warranties",
+        "Implied warranties"
+      ],
+      "block_count": 4,
+      "word_count": 76,
+      "char_count": 473,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 2,
+      "first_block_index": 6,
+      "last_block_index": 9,
+      "preview": "Implied warranties Two examples of implied warranties are: the fitness of goods for the purpose intended ; the merchantable quality of the goods These warranties are implied in most contracts for the sale of goods under the International Sa",
+      "prev_section_id": "d1a62d879cd1::s003",
+      "next_section_id": "d1a62d879cd1::s005"
+    },
+    {
+      "section_id": "d1a62d879cd1::s005",
+      "parent_section_id": "d1a62d879cd1::s003",
+      "level": 3,
+      "heading": "Modifications to the standard clause",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Warranties",
+        "Buyer's Guide",
+        "Warranties",
+        "Modifications to the standard clause"
+      ],
+      "block_count": 3,
+      "word_count": 80,
+      "char_count": 498,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 2,
+      "first_block_index": 10,
+      "last_block_index": 12,
+      "preview": "Modifications to the standard clause You may negotiate an increase to the warranty period, if the client agrees to the proposed period and the related costs. The change in warranty period should be detailed in the contract approval document",
+      "prev_section_id": "d1a62d879cd1::s004",
+      "next_section_id": "d1a62d879cd1::s006"
+    },
+    {
+      "section_id": "d1a62d879cd1::s006",
+      "parent_section_id": "d1a62d879cd1::s003",
+      "level": 3,
+      "heading": "Warranties to cover widespread defects",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Warranties",
+        "Buyer's Guide",
+        "Warranties",
+        "Warranties to cover widespread defects"
+      ],
+      "block_count": 3,
+      "word_count": 110,
+      "char_count": 698,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 2,
+      "first_block_index": 13,
+      "last_block_index": 15,
+      "preview": "Warranties to cover widespread defects For contracts involving items with the potential for symptomatic defects or epidemic failures, a broader warranty might be necessary. If several identical items have the same or similar defects, it is ",
+      "prev_section_id": "d1a62d879cd1::s005",
+      "next_section_id": "d1a62d879cd1::s007"
+    },
+    {
+      "section_id": "d1a62d879cd1::s007",
+      "parent_section_id": "d1a62d879cd1::s003",
+      "level": 3,
+      "heading": "Warranty costs",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Warranties",
+        "Buyer's Guide",
+        "Warranties",
+        "Warranty costs"
+      ],
+      "block_count": 4,
+      "word_count": 221,
+      "char_count": 1413,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 2,
+      "first_block_index": 16,
+      "last_block_index": 19,
+      "preview": "Warranty costs The financial considerations for warranties vary by contract type as follows: For firm price competitive contracts , the contractor is responsible for the costs they incur from doing warranty work ; For negotiated firm price ",
+      "prev_section_id": "d1a62d879cd1::s006",
+      "next_section_id": null
+    }
+  ],
+  "tables": [],
+  "blocks": [
+    {
+      "block_id": "d1a62d879cd1::b0001",
+      "section_id": "d1a62d879cd1::s001",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Warranties",
+        "Buyer's Guide Other planning considerations - Warranties"
+      ],
+      "markdown": "# Buyer's Guide Other planning considerations - Warranties",
+      "plain_text": "Buyer's Guide Other planning considerations - Warranties"
+    },
+    {
+      "block_id": "d1a62d879cd1::b0002",
+      "section_id": "d1a62d879cd1::s002",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Warranties",
+        "Buyer's Guide"
+      ],
+      "markdown": "# Buyer's Guide",
+      "plain_text": "Buyer's Guide"
+    },
+    {
+      "block_id": "d1a62d879cd1::b0003",
+      "section_id": "d1a62d879cd1::s002",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Warranties",
+        "Buyer's Guide"
+      ],
+      "markdown": "- Plan\n- Approve\n- Create solicitation\n- Solicit\n- Receive and evaluate\n- Negotiate\n- Award\n- Manage",
+      "plain_text": "Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage"
+    },
+    {
+      "block_id": "d1a62d879cd1::b0004",
+      "section_id": "d1a62d879cd1::s002",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Warranties",
+        "Buyer's Guide"
+      ],
+      "markdown": "Warranties In a contract for the sale of goods, any affirmation of fact or any promise by the offeror relating to the goods constitutes an express warranty. The provisions of the standard warranties clause are in addition to, and do not negate or limit, other warranties that are, as a general rule, implied or imposed by law. Implied warranties Two examples of implied warranties are: the fitness of goods for the purpose intended the merchantable quality of the goods These warranties are implied in most contracts for the sale of goods under the International Sale of Goods Contracts Convention Act . This act applies across all Canadian provinces and territories, except Quebec. In Quebec, the warranty under the Civil Code is a warranty of ownership and of quality, which includes latent defects. Modifications to the standard clause You may negotiate an increase to the warranty period, if the client agrees to the proposed period and the related costs. The change in warranty period should be detailed in the contract approval document. Any requests for lessening Canada\u2019s full rights at law, a disclaimer, limitation of the contractor\u2019s liability or decrease of the warranty period must be reviewed by Legal Services, be acceptable to the client and form part of the contract approval document. Warranties to cover widespread defects For contracts involving items with the potential for symptomatic defects or epidemic failures, a broader warranty might be necessary. If several identical items have the same or similar defects, it is prudent to assume these defects may appear across all such items, whether already delivered or pending delivery. If the client requests this type of warranty or if you deem it advisable, you must, in consultation with the client, determine the scope and nature of the warranty required and request Legal Services to draft a suitable provision. For negotiated firm price contracts, you must obtain the client's agreement on the estimated costs of this warranty. Warranty costs The financial considerations for warranties vary by contract type as follows: For firm price competitive contracts , the contractor is responsible for the costs they incur from doing warranty work For negotiated firm price contracts, you must: consider any contingency for warranty work during price negotiations ensure that the amount included in the firm price is reasonable provide supporting details as part of the cost summary within the contract approval document For negotiated firm price contracts governed by the Defence Production Act , the contractor must certify that the price is based on costs computed in accordance with Contract Cost Principles 1031-2, which do not permit any increase in reserves for guaranteed work; therefore, such warranty costs/expenses must not be included in the contract price since provision for these expenses has already been included in the certified price For cost-reimbursable contracts , a contractor cannot include a contingency for warranty as a cost element, although direct costs for labour and materials required under execution of the warranty can be reimbursed, with no overhead or profit permitted If you believe reasonable warranty costs should be allowed, include an appropriate clause approved by Legal Services in the contract. You should also include a line item for these costs, with or without a maximum estimated expenditure.",
+      "plain_text": "Warranties In a contract for the sale of goods, any affirmation of fact or any promise by the offeror relating to the goods constitutes an express warranty. The provisions of the standard warranties clause are in addition to, and do not negate or limit, other warranties that are, as a general rule, implied or imposed by law. Implied warranties Two examples of implied warranties are: the fitness of goods for the purpose intended the merchantable quality of the goods These warranties are implied in most contracts for the sale of goods under the International Sale of Goods Contracts Convention Act . This act applies across all Canadian provinces and territories, except Quebec. In Quebec, the warranty under the Civil Code is a warranty of ownership and of quality, which includes latent defects. Modifications to the standard clause You may negotiate an increase to the warranty period, if the client agrees to the proposed period and the related costs. The change in warranty period should be detailed in the contract approval document. Any requests for lessening Canada\u2019s full rights at law, a disclaimer, limitation of the contractor\u2019s liability or decrease of the warranty period must be reviewed by Legal Services, be acceptable to the client and form part of the contract approval document. Warranties to cover widespread defects For contracts involving items with the potential for symptomatic defects or epidemic failures, a broader warranty might be necessary. If several identical items have the same or similar defects, it is prudent to assume these defects may appear across all such items, whether already delivered or pending delivery. If the client requests this type of warranty or if you deem it advisable, you must, in consultation with the client, determine the scope and nature of the warranty required and request Legal Services to draft a suitable provision. For negotiated firm price contracts, you must obtain the client's agreement on the estimated costs of this warranty. Warranty costs The financial considerations for warranties vary by contract type as follows: For firm price competitive contracts , the contractor is responsible for the costs they incur from doing warranty work For negotiated firm price contracts, you must: consider any contingency for warranty work during price negotiations ensure that the amount included in the firm price is reasonable provide supporting details as part of the cost summary within the contract approval document For negotiated firm price contracts governed by the Defence Production Act , the contractor must certify that the price is based on costs computed in accordance with Contract Cost Principles 1031-2, which do not permit any increase in reserves for guaranteed work; therefore, such warranty costs/expenses must not be included in the contract price since provision for these expenses has already been included in the certified price For cost-reimbursable contracts , a contractor cannot include a contingency for warranty as a cost element, although direct costs for labour and materials required under execution of the warranty can be reimbursed, with no overhead or profit permitted If you believe reasonable warranty costs should be allowed, include an appropriate clause approved by Legal Services in the contract. You should also include a line item for these costs, with or without a maximum estimated expenditure."
+    },
+    {
+      "block_id": "d1a62d879cd1::b0005",
+      "section_id": "d1a62d879cd1::s003",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Warranties",
+        "Buyer's Guide",
+        "Warranties"
+      ],
+      "markdown": "## Warranties",
+      "plain_text": "Warranties"
+    },
+    {
+      "block_id": "d1a62d879cd1::b0006",
+      "section_id": "d1a62d879cd1::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Warranties",
+        "Buyer's Guide",
+        "Warranties"
+      ],
+      "markdown": "In a contract for the sale of goods, any affirmation of fact or any promise by the offeror relating to the goods constitutes an express warranty. The provisions of the standard warranties clause are in addition to, and do not negate or limit, other warranties that are, as a general rule, implied or imposed by law.",
+      "plain_text": "In a contract for the sale of goods, any affirmation of fact or any promise by the offeror relating to the goods constitutes an express warranty. The provisions of the standard warranties clause are in addition to, and do not negate or limit, other warranties that are, as a general rule, implied or imposed by law."
+    },
+    {
+      "block_id": "d1a62d879cd1::b0007",
+      "section_id": "d1a62d879cd1::s004",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Warranties",
+        "Buyer's Guide",
+        "Warranties",
+        "Implied warranties"
+      ],
+      "markdown": "### Implied warranties",
+      "plain_text": "Implied warranties"
+    },
+    {
+      "block_id": "d1a62d879cd1::b0008",
+      "section_id": "d1a62d879cd1::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Warranties",
+        "Buyer's Guide",
+        "Warranties",
+        "Implied warranties"
+      ],
+      "markdown": "Two examples of implied warranties are:",
+      "plain_text": "Two examples of implied warranties are:"
+    },
+    {
+      "block_id": "d1a62d879cd1::b0009",
+      "section_id": "d1a62d879cd1::s004",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Warranties",
+        "Buyer's Guide",
+        "Warranties",
+        "Implied warranties"
+      ],
+      "markdown": "- the fitness of goods for the purpose intended\n- the merchantable quality of the goods",
+      "plain_text": "the fitness of goods for the purpose intended ; the merchantable quality of the goods"
+    },
+    {
+      "block_id": "d1a62d879cd1::b0010",
+      "section_id": "d1a62d879cd1::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Warranties",
+        "Buyer's Guide",
+        "Warranties",
+        "Implied warranties"
+      ],
+      "markdown": "These warranties are implied in most contracts for the sale of goods under the International Sale of Goods Contracts Convention Act . This act applies across all Canadian provinces and territories, except Quebec. In Quebec, the warranty under the Civil Code is a warranty of ownership and of quality, which includes latent defects.",
+      "plain_text": "These warranties are implied in most contracts for the sale of goods under the International Sale of Goods Contracts Convention Act . This act applies across all Canadian provinces and territories, except Quebec. In Quebec, the warranty under the Civil Code is a warranty of ownership and of quality, which includes latent defects."
+    },
+    {
+      "block_id": "d1a62d879cd1::b0011",
+      "section_id": "d1a62d879cd1::s005",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Warranties",
+        "Buyer's Guide",
+        "Warranties",
+        "Modifications to the standard clause"
+      ],
+      "markdown": "### Modifications to the standard clause",
+      "plain_text": "Modifications to the standard clause"
+    },
+    {
+      "block_id": "d1a62d879cd1::b0012",
+      "section_id": "d1a62d879cd1::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Warranties",
+        "Buyer's Guide",
+        "Warranties",
+        "Modifications to the standard clause"
+      ],
+      "markdown": "You may negotiate an increase to the warranty period, if the client agrees to the proposed period and the related costs. The change in warranty period should be detailed in the contract approval document.",
+      "plain_text": "You may negotiate an increase to the warranty period, if the client agrees to the proposed period and the related costs. The change in warranty period should be detailed in the contract approval document."
+    },
+    {
+      "block_id": "d1a62d879cd1::b0013",
+      "section_id": "d1a62d879cd1::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Warranties",
+        "Buyer's Guide",
+        "Warranties",
+        "Modifications to the standard clause"
+      ],
+      "markdown": "Any requests for lessening Canada\u2019s full rights at law, a disclaimer, limitation of the contractor\u2019s liability or decrease of the warranty period must be reviewed by Legal Services, be acceptable to the client and form part of the contract approval document.",
+      "plain_text": "Any requests for lessening Canada\u2019s full rights at law, a disclaimer, limitation of the contractor\u2019s liability or decrease of the warranty period must be reviewed by Legal Services, be acceptable to the client and form part of the contract approval document."
+    },
+    {
+      "block_id": "d1a62d879cd1::b0014",
+      "section_id": "d1a62d879cd1::s006",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Warranties",
+        "Buyer's Guide",
+        "Warranties",
+        "Warranties to cover widespread defects"
+      ],
+      "markdown": "### Warranties to cover widespread defects",
+      "plain_text": "Warranties to cover widespread defects"
+    },
+    {
+      "block_id": "d1a62d879cd1::b0015",
+      "section_id": "d1a62d879cd1::s006",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Warranties",
+        "Buyer's Guide",
+        "Warranties",
+        "Warranties to cover widespread defects"
+      ],
+      "markdown": "For contracts involving items with the potential for symptomatic defects or epidemic failures, a broader warranty might be necessary. If several identical items have the same or similar defects, it is prudent to assume these defects may appear across all such items, whether already delivered or pending delivery.",
+      "plain_text": "For contracts involving items with the potential for symptomatic defects or epidemic failures, a broader warranty might be necessary. If several identical items have the same or similar defects, it is prudent to assume these defects may appear across all such items, whether already delivered or pending delivery."
+    },
+    {
+      "block_id": "d1a62d879cd1::b0016",
+      "section_id": "d1a62d879cd1::s006",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Warranties",
+        "Buyer's Guide",
+        "Warranties",
+        "Warranties to cover widespread defects"
+      ],
+      "markdown": "If the client requests this type of warranty or if you deem it advisable, you must, in consultation with the client, determine the scope and nature of the warranty required and request Legal Services to draft a suitable provision. For negotiated firm price contracts, you must obtain the client's agreement on the estimated costs of this warranty.",
+      "plain_text": "If the client requests this type of warranty or if you deem it advisable, you must, in consultation with the client, determine the scope and nature of the warranty required and request Legal Services to draft a suitable provision. For negotiated firm price contracts, you must obtain the client's agreement on the estimated costs of this warranty."
+    },
+    {
+      "block_id": "d1a62d879cd1::b0017",
+      "section_id": "d1a62d879cd1::s007",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Warranties",
+        "Buyer's Guide",
+        "Warranties",
+        "Warranty costs"
+      ],
+      "markdown": "### Warranty costs",
+      "plain_text": "Warranty costs"
+    },
+    {
+      "block_id": "d1a62d879cd1::b0018",
+      "section_id": "d1a62d879cd1::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Warranties",
+        "Buyer's Guide",
+        "Warranties",
+        "Warranty costs"
+      ],
+      "markdown": "The financial considerations for warranties vary by contract type as follows:",
+      "plain_text": "The financial considerations for warranties vary by contract type as follows:"
+    },
+    {
+      "block_id": "d1a62d879cd1::b0019",
+      "section_id": "d1a62d879cd1::s007",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Warranties",
+        "Buyer's Guide",
+        "Warranties",
+        "Warranty costs"
+      ],
+      "markdown": "- For firm price competitive contracts , the contractor is responsible for the costs they incur from doing warranty work\n- For negotiated firm price contracts, you must:\n- consider any contingency for warranty work during price negotiations\n- ensure that the amount included in the firm price is reasonable\n- provide supporting details as part of the cost summary within the contract approval document\n- For negotiated firm price contracts governed by the Defence Production Act , the contractor must certify that the price is based on costs computed in accordance with Contract Cost Principles 1031-2, which do not permit any increase in reserves for guaranteed work; therefore, such warranty costs/expenses must not be included in the contract price since provision for these expenses has already been included in the certified price\n- For cost-reimbursable contracts , a contractor cannot include a contingency for warranty as a cost element, although direct costs for labour and materials required under execution of the warranty can be reimbursed, with no overhead or profit permitted",
+      "plain_text": "For firm price competitive contracts , the contractor is responsible for the costs they incur from doing warranty work ; For negotiated firm price contracts, you must: ; consider any contingency for warranty work during price negotiations ; ensure that the amount included in the firm price is reasonable ; provide supporting details as part of the cost summary within the contract approval document ; For negotiated firm price contracts governed by the Defence Production Act , the contractor must certify that the price is based on costs computed in accordance with Contract Cost Principles 1031-2, which do not permit any increase in reserves for guaranteed work; therefore, such warranty costs/expenses must not be included in the contract price since provision for these expenses has already been included in the certified price ; For cost-reimbursable contracts , a contractor cannot include a contingency for warranty as a cost element, although direct costs for labour and materials required under execution of the warranty can be reimbursed, with no overhead or profit permitted"
+    },
+    {
+      "block_id": "d1a62d879cd1::b0020",
+      "section_id": "d1a62d879cd1::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Warranties",
+        "Buyer's Guide",
+        "Warranties",
+        "Warranty costs"
+      ],
+      "markdown": "If you believe reasonable warranty costs should be allowed, include an appropriate clause approved by Legal Services in the contract. You should also include a line item for these costs, with or without a maximum estimated expenditure.",
+      "plain_text": "If you believe reasonable warranty costs should be allowed, include an appropriate clause approved by Legal Services in the contract. You should also include a line item for these costs, with or without a maximum estimated expenditure."
+    }
+  ]
+}

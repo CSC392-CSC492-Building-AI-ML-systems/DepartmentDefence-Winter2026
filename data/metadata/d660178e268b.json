@@ -1,0 +1,802 @@
+{
+  "doc_id": "d660178e268b",
+  "title": "Buyer's Guide Engage - Engage with subject matter experts",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-subject-matter-experts",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-subject-matter-experts",
+  "doc_type": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": "2026-02-13",
+  "fetched_at": "2026-02-19T09:15:42.347401+00:00",
+  "content_hash": "e061706f44572a71c21c25eb90db54a51e17c955b5139619aaf6a2ea0fd45abe",
+  "word_count": 1757,
+  "text_path": "data/corpus/buyers_guide__en-buyer-s-portal-buyer-s-guide-plan-engage-engage-subject-matter-experts__d660178e26.md",
+  "extraction_method": "buyers_guide_regions",
+  "breadcrumbs": [
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "https://canadabuys.canada.ca/en",
+      "canonical_url": "https://canadabuys.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "in_scope": true
+    },
+    {
+      "title": "Engage",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage",
+      "in_scope": true
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage",
+    "parent_doc_id": "30756d1e95c9",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-subject-matter-experts"
+    ],
+    "lineage_doc_ids": [
+      "1e29c7881335",
+      "30756d1e95c9",
+      "d660178e268b"
+    ],
+    "depth": 2,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-accounting-and-pricing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-reimbursable",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/firm-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-time/unit-rate",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/overview-key-pricing-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/price-and-currency-adjustments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/pricing-methods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/provisional-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/types-basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/application-registration",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/completing-security-requirements-check-list",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/controlled-goods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/foreign-ownership-control-or-influence",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/privacy-and-confidentiality",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-international-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-timelines",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/importance-clear-procurement-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/requisition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/review-statement-work",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/socioeconomic-requirements-definition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/standards-and-quality-assurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/choose-method-supply",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/determine-sourcing-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/developing-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/interim-policy-reciprocal-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/trade-agreement-applicability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/early-engagement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-businesses",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-clients",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/invoicing-instructions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/payment-instruments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/taxes-and-duties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/withholding-non-resident-contractors",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/communicating-method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/developing-selection-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/including-basis-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/specifying-evaluation-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/canadian-general-standards-board",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/compliance-canadian-electrical-code",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/contractor-liability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/emergency-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/employer/employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/fairness-monitoring",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/insurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/intellectual-property-and-copyright",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/liability-and-risk-management",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/managing-urgent-acquisitions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/official-languages-obligation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/warranties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/holdbacks",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/incentives",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/accessibility",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/anti-forced-labour-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/green-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/indigenous-considerations"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-accounting-and-pricing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-reimbursable",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/firm-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-time/unit-rate",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/overview-key-pricing-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/price-and-currency-adjustments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/pricing-methods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/provisional-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/types-basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/application-registration",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/completing-security-requirements-check-list",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/controlled-goods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/foreign-ownership-control-or-influence",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/privacy-and-confidentiality",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-international-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-timelines",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/importance-clear-procurement-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/requisition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/review-statement-work",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/socioeconomic-requirements-definition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/standards-and-quality-assurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/choose-method-supply",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/determine-sourcing-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/developing-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/interim-policy-reciprocal-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/trade-agreement-applicability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/early-engagement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-businesses",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-clients",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/invoicing-instructions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/payment-instruments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/taxes-and-duties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/withholding-non-resident-contractors",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/communicating-method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/developing-selection-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/including-basis-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/specifying-evaluation-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/canadian-general-standards-board",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/compliance-canadian-electrical-code",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/contractor-liability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/emergency-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/employer/employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/fairness-monitoring",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/insurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/intellectual-property-and-copyright",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/liability-and-risk-management",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/managing-urgent-acquisitions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/official-languages-obligation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/warranties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/holdbacks",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/incentives",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/accessibility",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/anti-forced-labour-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/green-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/indigenous-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure": {
+    "block_count": 31,
+    "section_count": 8,
+    "heading_count": 7,
+    "paragraph_count": 17,
+    "list_count": 7,
+    "table_count": 0
+  },
+  "sections": [
+    {
+      "section_id": "d660178e268b::root",
+      "parent_section_id": null,
+      "level": 0,
+      "heading": "Buyer's Guide Engage - Engage with subject matter experts",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with subject matter experts"
+      ],
+      "block_count": 0,
+      "word_count": 0,
+      "char_count": 0,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": null,
+      "last_block_index": null,
+      "preview": "",
+      "prev_section_id": null,
+      "next_section_id": null
+    },
+    {
+      "section_id": "d660178e268b::s001",
+      "parent_section_id": "d660178e268b::root",
+      "level": 1,
+      "heading": "Buyer's Guide Engage - Engage with subject matter experts",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with subject matter experts",
+        "Buyer's Guide Engage - Engage with subject matter experts"
+      ],
+      "block_count": 1,
+      "word_count": 9,
+      "char_count": 57,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 0,
+      "last_block_index": 0,
+      "preview": "Buyer's Guide Engage - Engage with subject matter experts",
+      "prev_section_id": null,
+      "next_section_id": "d660178e268b::s002"
+    },
+    {
+      "section_id": "d660178e268b::s002",
+      "parent_section_id": "d660178e268b::root",
+      "level": 1,
+      "heading": "Buyer's Guide",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with subject matter experts",
+        "Buyer's Guide"
+      ],
+      "block_count": 3,
+      "word_count": 865,
+      "char_count": 6053,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 1,
+      "last_block_index": 3,
+      "preview": "Buyer's Guide Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage Engage with subject matter experts You should contact specialists or subject matter experts that could offer guidance in their ",
+      "prev_section_id": "d660178e268b::s001",
+      "next_section_id": "d660178e268b::s003"
+    },
+    {
+      "section_id": "d660178e268b::s003",
+      "parent_section_id": "d660178e268b::s002",
+      "level": 2,
+      "heading": "Engage with subject matter experts",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with subject matter experts",
+        "Buyer's Guide",
+        "Engage with subject matter experts"
+      ],
+      "block_count": 4,
+      "word_count": 118,
+      "char_count": 852,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 2,
+      "first_block_index": 4,
+      "last_block_index": 7,
+      "preview": "Engage with subject matter experts You should contact specialists or subject matter experts that could offer guidance in their fields of expertise. Subject matter experts that could support or clarify procurement actions and enhance the dec",
+      "prev_section_id": "d660178e268b::s002",
+      "next_section_id": "d660178e268b::s004"
+    },
+    {
+      "section_id": "d660178e268b::s004",
+      "parent_section_id": "d660178e268b::s003",
+      "level": 3,
+      "heading": "Legal Services",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with subject matter experts",
+        "Buyer's Guide",
+        "Engage with subject matter experts",
+        "Legal Services"
+      ],
+      "block_count": 10,
+      "word_count": 397,
+      "char_count": 2599,
+      "table_count": 0,
+      "list_count": 3,
+      "paragraph_count": 6,
+      "first_block_index": 8,
+      "last_block_index": 17,
+      "preview": "Legal Services All Legal Services lawyers are officers of the Department of Justice, tasked with providing legal counsel to departments. You should obtain legal advice for procurement exclusively from the department\u2019s Legal Services unit. P",
+      "prev_section_id": "d660178e268b::s003",
+      "next_section_id": "d660178e268b::s005"
+    },
+    {
+      "section_id": "d660178e268b::s005",
+      "parent_section_id": "d660178e268b::s004",
+      "level": 4,
+      "heading": "Solicitor-client privilege",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with subject matter experts",
+        "Buyer's Guide",
+        "Engage with subject matter experts",
+        "Legal Services",
+        "Solicitor-client privilege"
+      ],
+      "block_count": 5,
+      "word_count": 91,
+      "char_count": 688,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 3,
+      "first_block_index": 18,
+      "last_block_index": 22,
+      "preview": "Solicitor-client privilege Communications between legal counsel and their clients are protected under solicitor-client privilege, remaining confidential unless disclosed under specific circumstances. Solicitor-client privilege applies when:",
+      "prev_section_id": "d660178e268b::s004",
+      "next_section_id": "d660178e268b::s006"
+    },
+    {
+      "section_id": "d660178e268b::s006",
+      "parent_section_id": "d660178e268b::s003",
+      "level": 3,
+      "heading": "Quality control review",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with subject matter experts",
+        "Buyer's Guide",
+        "Engage with subject matter experts",
+        "Quality control review"
+      ],
+      "block_count": 2,
+      "word_count": 54,
+      "char_count": 351,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 23,
+      "last_block_index": 24,
+      "preview": "Quality control review As a buyer or approval authority, you may request a quality control team to review the procurement documents. Requests to the National Capital Region (NCR) quality control team must be recommended by the section manag",
+      "prev_section_id": "d660178e268b::s005",
+      "next_section_id": "d660178e268b::s007"
+    },
+    {
+      "section_id": "d660178e268b::s007",
+      "parent_section_id": "d660178e268b::s003",
+      "level": 3,
+      "heading": "Cost and price analysis services",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with subject matter experts",
+        "Buyer's Guide",
+        "Engage with subject matter experts",
+        "Cost and price analysis services"
+      ],
+      "block_count": 6,
+      "word_count": 223,
+      "char_count": 1502,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 4,
+      "first_block_index": 25,
+      "last_block_index": 30,
+      "preview": "Cost and price analysis services You must assess whether the procurement exhibits any characteristics that necessitate consultation with a price support advisor as outlined in the Directive on the Use of Cost and Price Analysis Services (ac",
+      "prev_section_id": "d660178e268b::s006",
+      "next_section_id": null
+    }
+  ],
+  "tables": [],
+  "blocks": [
+    {
+      "block_id": "d660178e268b::b0001",
+      "section_id": "d660178e268b::s001",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with subject matter experts",
+        "Buyer's Guide Engage - Engage with subject matter experts"
+      ],
+      "markdown": "# Buyer's Guide Engage - Engage with subject matter experts",
+      "plain_text": "Buyer's Guide Engage - Engage with subject matter experts"
+    },
+    {
+      "block_id": "d660178e268b::b0002",
+      "section_id": "d660178e268b::s002",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with subject matter experts",
+        "Buyer's Guide"
+      ],
+      "markdown": "# Buyer's Guide",
+      "plain_text": "Buyer's Guide"
+    },
+    {
+      "block_id": "d660178e268b::b0003",
+      "section_id": "d660178e268b::s002",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with subject matter experts",
+        "Buyer's Guide"
+      ],
+      "markdown": "- Plan\n- Approve\n- Create solicitation\n- Solicit\n- Receive and evaluate\n- Negotiate\n- Award\n- Manage",
+      "plain_text": "Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage"
+    },
+    {
+      "block_id": "d660178e268b::b0004",
+      "section_id": "d660178e268b::s002",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with subject matter experts",
+        "Buyer's Guide"
+      ],
+      "markdown": "Engage with subject matter experts You should contact specialists or subject matter experts that could offer guidance in their fields of expertise. Subject matter experts that could support or clarify procurement actions and enhance the decision-making process include: legal advisors Access to Information and Privacy (ATIP) officers contract quality control specialists cost analysts and risk management advisors auditors and policy authorities environmental procurement advisors ethics officers human resources advisors product and service category team leaders client engagement specialists experienced buyers industry and association representatives These professionals can offer essential knowledge and recommendations that can aid in making informed decisions, ensuring procurement activities are both effective and compliant. Legal Services All Legal Services lawyers are officers of the Department of Justice, tasked with providing legal counsel to departments. You should obtain legal advice for procurement exclusively from the department\u2019s Legal Services unit. Participation of Legal Services in the review of proposed contractual documents is intended to: ensure that contracts are legally binding and enforceable and precisely reflect the intended relationship between Canada and the contractor ensure that the respective obligations of the parties are expressed clearly and that the interest of Canada are protected identify the consequences of any changes to standard general conditions in terms of the additional risk and liability being assumed by Canada When legal consultation is necessary, you must ensure legal counsel has access to all pertinent documents and files. Legal Services should be given the opportunity to review procurement documents at an early stage in the procurement process. This includes before issuing solicitations of offers and requests for standing offers or supply arrangements, and prior to any binding action in contract administration. Seek legal advice when: required following a procurement risk assessment considering special conditions or deviations from standard procurement clauses needing confirmation of verbal requests from a client through a confirming order security for repayment of debt to Canada is involved, such as letters of credit considering letters of comfort, intent, or go-ahead letters conflicts of interest or post-employment concerns for public servants arise dealing with contract assignments to: a third party receivership insolvency bankruptcy of a contractor terminations for default, convenience and mutual consent handling defence contracts which invoke section 20 of the Defence Production Act preparing any memorandum of understanding and drafting of orders in council preparing conditional amendments offerors request any of the following: changes that might lessen Canada's full rights at law a disclaimer limitation of the contractor\u2019s liability a decrease of the warranty time period Note : an offerors request must be acceptable to the client and be addressed in the approval request. Legal Services can also be contacted if you deem it to be appropriate or helpful in such situations as: contracts that may create an employee-employer relationship contracts requiring the inclusion of liquidated damage provisions to cover late delivery or unsatisfactory performance of the work disputes after contract award Solicitor-client privilege Communications between legal counsel and their clients are protected under solicitor-client privilege, remaining confidential unless disclosed under specific circumstances. Solicitor-client privilege applies when: communication is with a practicing lawyer for legal advice, as opposed to policy or non legal matters advice the advice is intended to be confidential Note : disclosure of privileged communication without legal counsel's recommendation can unintentionally waive this privilege, making the information accessible under the Access to Information Act . It is important that you consult Legal Services for all questions about solicitor-client privilege. Quality control review As a buyer or approval authority, you may request a quality control team to review the procurement documents. Requests to the National Capital Region (NCR) quality control team must be recommended by the section manager and sent by email. The appropriate team will provide written feedback on the procurement documents submitted. Cost and price analysis services You must assess whether the procurement exhibits any characteristics that necessitate consultation with a price support advisor as outlined in the Directive on the Use of Cost and Price Analysis Services (accessible only on the Government of Canada network). Characteristics that necessitate consultation with a price support advisor include: any potential sole-source procurement with a total estimated value of $7,500,000 or more, including taxes, options, and amendments any competitive procurement with a total estimated value of $7,500,000 or more, including applicable taxes and options, where only 1 compliant offer is received any competitive procurement with a total estimated value of $7,500,000 or more, including taxes, with contract provisions for negotiated prices or with prices likely to be negotiated due to a contract amendment any competitive procurement with a total estimated value of $10,000,000 or more, including taxes, options, and amendments A price support advisor consultation must include a thorough discussion of the procurement and its potential pricing strategies. Following the consultation, you must document both the consultation and the pricing decisions in the procurement file. You may also consult price support advisors on any matter where financial advice is deemed helpful. For additional information, refer to the Guideline on the Use of Cost and Price Analysis Services (accessible only on the Government of Canada network).",
+      "plain_text": "Engage with subject matter experts You should contact specialists or subject matter experts that could offer guidance in their fields of expertise. Subject matter experts that could support or clarify procurement actions and enhance the decision-making process include: legal advisors Access to Information and Privacy (ATIP) officers contract quality control specialists cost analysts and risk management advisors auditors and policy authorities environmental procurement advisors ethics officers human resources advisors product and service category team leaders client engagement specialists experienced buyers industry and association representatives These professionals can offer essential knowledge and recommendations that can aid in making informed decisions, ensuring procurement activities are both effective and compliant. Legal Services All Legal Services lawyers are officers of the Department of Justice, tasked with providing legal counsel to departments. You should obtain legal advice for procurement exclusively from the department\u2019s Legal Services unit. Participation of Legal Services in the review of proposed contractual documents is intended to: ensure that contracts are legally binding and enforceable and precisely reflect the intended relationship between Canada and the contractor ensure that the respective obligations of the parties are expressed clearly and that the interest of Canada are protected identify the consequences of any changes to standard general conditions in terms of the additional risk and liability being assumed by Canada When legal consultation is necessary, you must ensure legal counsel has access to all pertinent documents and files. Legal Services should be given the opportunity to review procurement documents at an early stage in the procurement process. This includes before issuing solicitations of offers and requests for standing offers or supply arrangements, and prior to any binding action in contract administration. Seek legal advice when: required following a procurement risk assessment considering special conditions or deviations from standard procurement clauses needing confirmation of verbal requests from a client through a confirming order security for repayment of debt to Canada is involved, such as letters of credit considering letters of comfort, intent, or go-ahead letters conflicts of interest or post-employment concerns for public servants arise dealing with contract assignments to: a third party receivership insolvency bankruptcy of a contractor terminations for default, convenience and mutual consent handling defence contracts which invoke section 20 of the Defence Production Act preparing any memorandum of understanding and drafting of orders in council preparing conditional amendments offerors request any of the following: changes that might lessen Canada's full rights at law a disclaimer limitation of the contractor\u2019s liability a decrease of the warranty time period Note : an offerors request must be acceptable to the client and be addressed in the approval request. Legal Services can also be contacted if you deem it to be appropriate or helpful in such situations as: contracts that may create an employee-employer relationship contracts requiring the inclusion of liquidated damage provisions to cover late delivery or unsatisfactory performance of the work disputes after contract award Solicitor-client privilege Communications between legal counsel and their clients are protected under solicitor-client privilege, remaining confidential unless disclosed under specific circumstances. Solicitor-client privilege applies when: communication is with a practicing lawyer for legal advice, as opposed to policy or non legal matters advice the advice is intended to be confidential Note : disclosure of privileged communication without legal counsel's recommendation can unintentionally waive this privilege, making the information accessible under the Access to Information Act . It is important that you consult Legal Services for all questions about solicitor-client privilege. Quality control review As a buyer or approval authority, you may request a quality control team to review the procurement documents. Requests to the National Capital Region (NCR) quality control team must be recommended by the section manager and sent by email. The appropriate team will provide written feedback on the procurement documents submitted. Cost and price analysis services You must assess whether the procurement exhibits any characteristics that necessitate consultation with a price support advisor as outlined in the Directive on the Use of Cost and Price Analysis Services (accessible only on the Government of Canada network). Characteristics that necessitate consultation with a price support advisor include: any potential sole-source procurement with a total estimated value of $7,500,000 or more, including taxes, options, and amendments any competitive procurement with a total estimated value of $7,500,000 or more, including applicable taxes and options, where only 1 compliant offer is received any competitive procurement with a total estimated value of $7,500,000 or more, including taxes, with contract provisions for negotiated prices or with prices likely to be negotiated due to a contract amendment any competitive procurement with a total estimated value of $10,000,000 or more, including taxes, options, and amendments A price support advisor consultation must include a thorough discussion of the procurement and its potential pricing strategies. Following the consultation, you must document both the consultation and the pricing decisions in the procurement file. You may also consult price support advisors on any matter where financial advice is deemed helpful. For additional information, refer to the Guideline on the Use of Cost and Price Analysis Services (accessible only on the Government of Canada network)."
+    },
+    {
+      "block_id": "d660178e268b::b0005",
+      "section_id": "d660178e268b::s003",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with subject matter experts",
+        "Buyer's Guide",
+        "Engage with subject matter experts"
+      ],
+      "markdown": "## Engage with subject matter experts",
+      "plain_text": "Engage with subject matter experts"
+    },
+    {
+      "block_id": "d660178e268b::b0006",
+      "section_id": "d660178e268b::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with subject matter experts",
+        "Buyer's Guide",
+        "Engage with subject matter experts"
+      ],
+      "markdown": "You should contact specialists or subject matter experts that could offer guidance in their fields of expertise. Subject matter experts that could support or clarify procurement actions and enhance the decision-making process include:",
+      "plain_text": "You should contact specialists or subject matter experts that could offer guidance in their fields of expertise. Subject matter experts that could support or clarify procurement actions and enhance the decision-making process include:"
+    },
+    {
+      "block_id": "d660178e268b::b0007",
+      "section_id": "d660178e268b::s003",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with subject matter experts",
+        "Buyer's Guide",
+        "Engage with subject matter experts"
+      ],
+      "markdown": "- legal advisors\n- Access to Information and Privacy (ATIP) officers\n- contract quality control specialists\n- cost analysts and risk management advisors\n- auditors and policy authorities\n- environmental procurement advisors\n- ethics officers\n- human resources advisors\n- product and service category team leaders\n- client engagement specialists\n- experienced buyers\n- industry and association representatives",
+      "plain_text": "legal advisors ; Access to Information and Privacy (ATIP) officers ; contract quality control specialists ; cost analysts and risk management advisors ; auditors and policy authorities ; environmental procurement advisors ; ethics officers ; human resources advisors ; product and service category team leaders ; client engagement specialists ; experienced buyers ; industry and association representatives"
+    },
+    {
+      "block_id": "d660178e268b::b0008",
+      "section_id": "d660178e268b::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with subject matter experts",
+        "Buyer's Guide",
+        "Engage with subject matter experts"
+      ],
+      "markdown": "These professionals can offer essential knowledge and recommendations that can aid in making informed decisions, ensuring procurement activities are both effective and compliant.",
+      "plain_text": "These professionals can offer essential knowledge and recommendations that can aid in making informed decisions, ensuring procurement activities are both effective and compliant."
+    },
+    {
+      "block_id": "d660178e268b::b0009",
+      "section_id": "d660178e268b::s004",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with subject matter experts",
+        "Buyer's Guide",
+        "Engage with subject matter experts",
+        "Legal Services"
+      ],
+      "markdown": "### Legal Services",
+      "plain_text": "Legal Services"
+    },
+    {
+      "block_id": "d660178e268b::b0010",
+      "section_id": "d660178e268b::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with subject matter experts",
+        "Buyer's Guide",
+        "Engage with subject matter experts",
+        "Legal Services"
+      ],
+      "markdown": "All Legal Services lawyers are officers of the Department of Justice, tasked with providing legal counsel to departments. You should obtain legal advice for procurement exclusively from the department\u2019s Legal Services unit.",
+      "plain_text": "All Legal Services lawyers are officers of the Department of Justice, tasked with providing legal counsel to departments. You should obtain legal advice for procurement exclusively from the department\u2019s Legal Services unit."
+    },
+    {
+      "block_id": "d660178e268b::b0011",
+      "section_id": "d660178e268b::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with subject matter experts",
+        "Buyer's Guide",
+        "Engage with subject matter experts",
+        "Legal Services"
+      ],
+      "markdown": "Participation of Legal Services in the review of proposed contractual documents is intended to:",
+      "plain_text": "Participation of Legal Services in the review of proposed contractual documents is intended to:"
+    },
+    {
+      "block_id": "d660178e268b::b0012",
+      "section_id": "d660178e268b::s004",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with subject matter experts",
+        "Buyer's Guide",
+        "Engage with subject matter experts",
+        "Legal Services"
+      ],
+      "markdown": "- ensure that contracts are legally binding and enforceable and precisely reflect the intended relationship between Canada and the contractor\n- ensure that the respective obligations of the parties are expressed clearly and that the interest of Canada are protected\n- identify the consequences of any changes to standard general conditions in terms of the additional risk and liability being assumed by Canada",
+      "plain_text": "ensure that contracts are legally binding and enforceable and precisely reflect the intended relationship between Canada and the contractor ; ensure that the respective obligations of the parties are expressed clearly and that the interest of Canada are protected ; identify the consequences of any changes to standard general conditions in terms of the additional risk and liability being assumed by Canada"
+    },
+    {
+      "block_id": "d660178e268b::b0013",
+      "section_id": "d660178e268b::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with subject matter experts",
+        "Buyer's Guide",
+        "Engage with subject matter experts",
+        "Legal Services"
+      ],
+      "markdown": "When legal consultation is necessary, you must ensure legal counsel has access to all pertinent documents and files. Legal Services should be given the opportunity to review procurement documents at an early stage in the procurement process. This includes before issuing solicitations of offers and requests for standing offers or supply arrangements, and prior to any binding action in contract administration.",
+      "plain_text": "When legal consultation is necessary, you must ensure legal counsel has access to all pertinent documents and files. Legal Services should be given the opportunity to review procurement documents at an early stage in the procurement process. This includes before issuing solicitations of offers and requests for standing offers or supply arrangements, and prior to any binding action in contract administration."
+    },
+    {
+      "block_id": "d660178e268b::b0014",
+      "section_id": "d660178e268b::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with subject matter experts",
+        "Buyer's Guide",
+        "Engage with subject matter experts",
+        "Legal Services"
+      ],
+      "markdown": "Seek legal advice when:",
+      "plain_text": "Seek legal advice when:"
+    },
+    {
+      "block_id": "d660178e268b::b0015",
+      "section_id": "d660178e268b::s004",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with subject matter experts",
+        "Buyer's Guide",
+        "Engage with subject matter experts",
+        "Legal Services"
+      ],
+      "markdown": "- required following a procurement risk assessment\n- considering special conditions or deviations from standard procurement clauses\n- needing confirmation of verbal requests from a client through a confirming order\n- security for repayment of debt to Canada is involved, such as letters of credit\n- considering letters of comfort, intent, or go-ahead letters\n- conflicts of interest or post-employment concerns for public servants arise\n- dealing with contract assignments to:\n- a third party\n- receivership\n- insolvency\n- bankruptcy of a contractor\n- terminations for default, convenience and mutual consent\n- handling defence contracts which invoke section 20 of the Defence Production Act\n- preparing any memorandum of understanding and drafting of orders in council\n- preparing conditional amendments\n- offerors request any of the following:\n- changes that might lessen Canada's full rights at law\n- a disclaimer\n- limitation of the contractor\u2019s liability\n- a decrease of the warranty time period",
+      "plain_text": "required following a procurement risk assessment ; considering special conditions or deviations from standard procurement clauses ; needing confirmation of verbal requests from a client through a confirming order ; security for repayment of debt to Canada is involved, such as letters of credit ; considering letters of comfort, intent, or go-ahead letters ; conflicts of interest or post-employment concerns for public servants arise ; dealing with contract assignments to: ; a third party ; receivership ; insolvency ; bankruptcy of a contractor ; terminations for default, convenience and mutual consent ; handling defence contracts which invoke section 20 of the Defence Production Act ; preparing any memorandum of understanding and drafting of orders in council ; preparing conditional amendments ; offerors request any of the following: ; changes that might lessen Canada's full rights at law ; a disclaimer ; limitation of the contractor\u2019s liability ; a decrease of the warranty time period"
+    },
+    {
+      "block_id": "d660178e268b::b0016",
+      "section_id": "d660178e268b::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with subject matter experts",
+        "Buyer's Guide",
+        "Engage with subject matter experts",
+        "Legal Services"
+      ],
+      "markdown": "Note : an offerors request must be acceptable to the client and be addressed in the approval request.",
+      "plain_text": "Note : an offerors request must be acceptable to the client and be addressed in the approval request."
+    },
+    {
+      "block_id": "d660178e268b::b0017",
+      "section_id": "d660178e268b::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with subject matter experts",
+        "Buyer's Guide",
+        "Engage with subject matter experts",
+        "Legal Services"
+      ],
+      "markdown": "Legal Services can also be contacted if you deem it to be appropriate or helpful in such situations as:",
+      "plain_text": "Legal Services can also be contacted if you deem it to be appropriate or helpful in such situations as:"
+    },
+    {
+      "block_id": "d660178e268b::b0018",
+      "section_id": "d660178e268b::s004",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with subject matter experts",
+        "Buyer's Guide",
+        "Engage with subject matter experts",
+        "Legal Services"
+      ],
+      "markdown": "- contracts that may create an employee-employer relationship\n- contracts requiring the inclusion of liquidated damage provisions to cover late delivery or unsatisfactory performance of the work\n- disputes after contract award",
+      "plain_text": "contracts that may create an employee-employer relationship ; contracts requiring the inclusion of liquidated damage provisions to cover late delivery or unsatisfactory performance of the work ; disputes after contract award"
+    },
+    {
+      "block_id": "d660178e268b::b0019",
+      "section_id": "d660178e268b::s005",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with subject matter experts",
+        "Buyer's Guide",
+        "Engage with subject matter experts",
+        "Legal Services",
+        "Solicitor-client privilege"
+      ],
+      "markdown": "#### Solicitor-client privilege",
+      "plain_text": "Solicitor-client privilege"
+    },
+    {
+      "block_id": "d660178e268b::b0020",
+      "section_id": "d660178e268b::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with subject matter experts",
+        "Buyer's Guide",
+        "Engage with subject matter experts",
+        "Legal Services",
+        "Solicitor-client privilege"
+      ],
+      "markdown": "Communications between legal counsel and their clients are protected under solicitor-client privilege, remaining confidential unless disclosed under specific circumstances.",
+      "plain_text": "Communications between legal counsel and their clients are protected under solicitor-client privilege, remaining confidential unless disclosed under specific circumstances."
+    },
+    {
+      "block_id": "d660178e268b::b0021",
+      "section_id": "d660178e268b::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with subject matter experts",
+        "Buyer's Guide",
+        "Engage with subject matter experts",
+        "Legal Services",
+        "Solicitor-client privilege"
+      ],
+      "markdown": "Solicitor-client privilege applies when:",
+      "plain_text": "Solicitor-client privilege applies when:"
+    },
+    {
+      "block_id": "d660178e268b::b0022",
+      "section_id": "d660178e268b::s005",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with subject matter experts",
+        "Buyer's Guide",
+        "Engage with subject matter experts",
+        "Legal Services",
+        "Solicitor-client privilege"
+      ],
+      "markdown": "- communication is with a practicing lawyer for legal advice, as opposed to policy or non legal matters advice\n- the advice is intended to be confidential",
+      "plain_text": "communication is with a practicing lawyer for legal advice, as opposed to policy or non legal matters advice ; the advice is intended to be confidential"
+    },
+    {
+      "block_id": "d660178e268b::b0023",
+      "section_id": "d660178e268b::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with subject matter experts",
+        "Buyer's Guide",
+        "Engage with subject matter experts",
+        "Legal Services",
+        "Solicitor-client privilege"
+      ],
+      "markdown": "Note : disclosure of privileged communication without legal counsel's recommendation can unintentionally waive this privilege, making the information accessible under the Access to Information Act . It is important that you consult Legal Services for all questions about solicitor-client privilege.",
+      "plain_text": "Note : disclosure of privileged communication without legal counsel's recommendation can unintentionally waive this privilege, making the information accessible under the Access to Information Act . It is important that you consult Legal Services for all questions about solicitor-client privilege."
+    },
+    {
+      "block_id": "d660178e268b::b0024",
+      "section_id": "d660178e268b::s006",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with subject matter experts",
+        "Buyer's Guide",
+        "Engage with subject matter experts",
+        "Quality control review"
+      ],
+      "markdown": "### Quality control review",
+      "plain_text": "Quality control review"
+    },
+    {
+      "block_id": "d660178e268b::b0025",
+      "section_id": "d660178e268b::s006",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with subject matter experts",
+        "Buyer's Guide",
+        "Engage with subject matter experts",
+        "Quality control review"
+      ],
+      "markdown": "As a buyer or approval authority, you may request a quality control team to review the procurement documents. Requests to the National Capital Region (NCR) quality control team must be recommended by the section manager and sent by email. The appropriate team will provide written feedback on the procurement documents submitted.",
+      "plain_text": "As a buyer or approval authority, you may request a quality control team to review the procurement documents. Requests to the National Capital Region (NCR) quality control team must be recommended by the section manager and sent by email. The appropriate team will provide written feedback on the procurement documents submitted."
+    },
+    {
+      "block_id": "d660178e268b::b0026",
+      "section_id": "d660178e268b::s007",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with subject matter experts",
+        "Buyer's Guide",
+        "Engage with subject matter experts",
+        "Cost and price analysis services"
+      ],
+      "markdown": "### Cost and price analysis services",
+      "plain_text": "Cost and price analysis services"
+    },
+    {
+      "block_id": "d660178e268b::b0027",
+      "section_id": "d660178e268b::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with subject matter experts",
+        "Buyer's Guide",
+        "Engage with subject matter experts",
+        "Cost and price analysis services"
+      ],
+      "markdown": "You must assess whether the procurement exhibits any characteristics that necessitate consultation with a price support advisor as outlined in the Directive on the Use of Cost and Price Analysis Services (accessible only on the Government of Canada network).",
+      "plain_text": "You must assess whether the procurement exhibits any characteristics that necessitate consultation with a price support advisor as outlined in the Directive on the Use of Cost and Price Analysis Services (accessible only on the Government of Canada network)."
+    },
+    {
+      "block_id": "d660178e268b::b0028",
+      "section_id": "d660178e268b::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with subject matter experts",
+        "Buyer's Guide",
+        "Engage with subject matter experts",
+        "Cost and price analysis services"
+      ],
+      "markdown": "Characteristics that necessitate consultation with a price support advisor include:",
+      "plain_text": "Characteristics that necessitate consultation with a price support advisor include:"
+    },
+    {
+      "block_id": "d660178e268b::b0029",
+      "section_id": "d660178e268b::s007",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with subject matter experts",
+        "Buyer's Guide",
+        "Engage with subject matter experts",
+        "Cost and price analysis services"
+      ],
+      "markdown": "- any potential sole-source procurement with a total estimated value of $7,500,000 or more, including taxes, options, and amendments\n- any competitive procurement with a total estimated value of $7,500,000 or more, including applicable taxes and options, where only 1 compliant offer is received\n- any competitive procurement with a total estimated value of $7,500,000 or more, including taxes, with contract provisions for negotiated prices or with prices likely to be negotiated due to a contract amendment\n- any competitive procurement with a total estimated value of $10,000,000 or more, including taxes, options, and amendments",
+      "plain_text": "any potential sole-source procurement with a total estimated value of $7,500,000 or more, including taxes, options, and amendments ; any competitive procurement with a total estimated value of $7,500,000 or more, including applicable taxes and options, where only 1 compliant offer is received ; any competitive procurement with a total estimated value of $7,500,000 or more, including taxes, with contract provisions for negotiated prices or with prices likely to be negotiated due to a contract amendment ; any competitive procurement with a total estimated value of $10,000,000 or more, including taxes, options, and amendments"
+    },
+    {
+      "block_id": "d660178e268b::b0030",
+      "section_id": "d660178e268b::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with subject matter experts",
+        "Buyer's Guide",
+        "Engage with subject matter experts",
+        "Cost and price analysis services"
+      ],
+      "markdown": "A price support advisor consultation must include a thorough discussion of the procurement and its potential pricing strategies. Following the consultation, you must document both the consultation and the pricing decisions in the procurement file.",
+      "plain_text": "A price support advisor consultation must include a thorough discussion of the procurement and its potential pricing strategies. Following the consultation, you must document both the consultation and the pricing decisions in the procurement file."
+    },
+    {
+      "block_id": "d660178e268b::b0031",
+      "section_id": "d660178e268b::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Engage - Engage with subject matter experts",
+        "Buyer's Guide",
+        "Engage with subject matter experts",
+        "Cost and price analysis services"
+      ],
+      "markdown": "You may also consult price support advisors on any matter where financial advice is deemed helpful. For additional information, refer to the Guideline on the Use of Cost and Price Analysis Services (accessible only on the Government of Canada network).",
+      "plain_text": "You may also consult price support advisors on any matter where financial advice is deemed helpful. For additional information, refer to the Guideline on the Use of Cost and Price Analysis Services (accessible only on the Government of Canada network)."
+    }
+  ]
+}

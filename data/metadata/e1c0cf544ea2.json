@@ -1,0 +1,439 @@
+{
+  "doc_id": "e1c0cf544ea2",
+  "title": "Buyer's Guide Choose a solicitation method - Solicitation of offers",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/solicitation-offers",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/solicitation-offers",
+  "doc_type": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": "2026-01-31",
+  "fetched_at": "2026-02-19T09:18:00.227494+00:00",
+  "content_hash": "f9b192e34afa3cdd64d87003ed5789429d2a783aaf838fc7b58b61f6e1dbbcc7",
+  "word_count": 772,
+  "text_path": "data/corpus/buyers_guide__en-buyer-s-portal-buyer-s-guide-create-solicitation-choose-solicitation-method-solicitation-offers__e1c0cf544e.md",
+  "extraction_method": "buyers_guide_regions",
+  "breadcrumbs": [
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "https://canadabuys.canada.ca/en",
+      "canonical_url": "https://canadabuys.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "in_scope": true
+    },
+    {
+      "title": "Create solicitation",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation",
+      "in_scope": true
+    },
+    {
+      "title": "Choose a solicitation method",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "in_scope": true
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+    "parent_doc_id": "e24cc0f6b01d",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/solicitation-offers"
+    ],
+    "lineage_doc_ids": [
+      "1e29c7881335",
+      "2e11d15cd64e",
+      "e24cc0f6b01d",
+      "e1c0cf544ea2"
+    ],
+    "depth": 3,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/invitation-tender",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/preparing-solicitation-documents",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-information",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-quotation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-standing-offer",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-supply-arrangement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/client-review",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/client-review/client-review-elements-solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/audit",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/certifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/delivery-terms",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/exchange-rates",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/method-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/offer-receipt",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/phased-offer-compliance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/translation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/minimum-solicitation-periods-itqs-rfsas-and-urgent-procurements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/normal-minimum-solicitation-periods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/solicitations-following-request-expressions-interest",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/advanced-contract-award-notice",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/notice-proposed-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-procurement-strategy-indigenous-business-set-asides",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-trade-agreements"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/invitation-tender",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/preparing-solicitation-documents",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-information",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-quotation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-standing-offer",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-supply-arrangement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/client-review",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/client-review/client-review-elements-solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/audit",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/certifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/delivery-terms",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/exchange-rates",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/method-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/offer-receipt",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/phased-offer-compliance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/translation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/minimum-solicitation-periods-itqs-rfsas-and-urgent-procurements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/normal-minimum-solicitation-periods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/solicitations-following-request-expressions-interest",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/advanced-contract-award-notice",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/notice-proposed-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-procurement-strategy-indigenous-business-set-asides",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-trade-agreements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure": {
+    "block_count": 17,
+    "section_count": 4,
+    "heading_count": 3,
+    "paragraph_count": 12,
+    "list_count": 2,
+    "table_count": 0
+  },
+  "sections": [
+    {
+      "section_id": "e1c0cf544ea2::root",
+      "parent_section_id": null,
+      "level": 0,
+      "heading": "Buyer's Guide Choose a solicitation method - Solicitation of offers",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Solicitation of offers"
+      ],
+      "block_count": 0,
+      "word_count": 0,
+      "char_count": 0,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": null,
+      "last_block_index": null,
+      "preview": "",
+      "prev_section_id": null,
+      "next_section_id": null
+    },
+    {
+      "section_id": "e1c0cf544ea2::s001",
+      "parent_section_id": "e1c0cf544ea2::root",
+      "level": 1,
+      "heading": "Buyer's Guide Choose a solicitation method - Solicitation of offers",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Solicitation of offers",
+        "Buyer's Guide Choose a solicitation method - Solicitation of offers"
+      ],
+      "block_count": 1,
+      "word_count": 10,
+      "char_count": 67,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 0,
+      "last_block_index": 0,
+      "preview": "Buyer's Guide Choose a solicitation method - Solicitation of offers",
+      "prev_section_id": null,
+      "next_section_id": "e1c0cf544ea2::s002"
+    },
+    {
+      "section_id": "e1c0cf544ea2::s002",
+      "parent_section_id": "e1c0cf544ea2::root",
+      "level": 1,
+      "heading": "Buyer's Guide",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Solicitation of offers",
+        "Buyer's Guide"
+      ],
+      "block_count": 3,
+      "word_count": 387,
+      "char_count": 2604,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 1,
+      "last_block_index": 3,
+      "preview": "Buyer's Guide Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage Solicitation of offers Solicitation of offers is suitable for various complexities and value levels, including low dollar value",
+      "prev_section_id": "e1c0cf544ea2::s001",
+      "next_section_id": "e1c0cf544ea2::s003"
+    },
+    {
+      "section_id": "e1c0cf544ea2::s003",
+      "parent_section_id": "e1c0cf544ea2::s002",
+      "level": 2,
+      "heading": "Solicitation of offers",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Solicitation of offers",
+        "Buyer's Guide",
+        "Solicitation of offers"
+      ],
+      "block_count": 13,
+      "word_count": 375,
+      "char_count": 2497,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 11,
+      "first_block_index": 4,
+      "last_block_index": 16,
+      "preview": "Solicitation of offers Solicitation of offers is suitable for various complexities and value levels, including low dollar value, medium and high complexity requirements. It can be used when the selection of an offeror is based on price or b",
+      "prev_section_id": "e1c0cf544ea2::s002",
+      "next_section_id": null
+    }
+  ],
+  "tables": [],
+  "blocks": [
+    {
+      "block_id": "e1c0cf544ea2::b0001",
+      "section_id": "e1c0cf544ea2::s001",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Solicitation of offers",
+        "Buyer's Guide Choose a solicitation method - Solicitation of offers"
+      ],
+      "markdown": "# Buyer's Guide Choose a solicitation method - Solicitation of offers",
+      "plain_text": "Buyer's Guide Choose a solicitation method - Solicitation of offers"
+    },
+    {
+      "block_id": "e1c0cf544ea2::b0002",
+      "section_id": "e1c0cf544ea2::s002",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Solicitation of offers",
+        "Buyer's Guide"
+      ],
+      "markdown": "# Buyer's Guide",
+      "plain_text": "Buyer's Guide"
+    },
+    {
+      "block_id": "e1c0cf544ea2::b0003",
+      "section_id": "e1c0cf544ea2::s002",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Solicitation of offers",
+        "Buyer's Guide"
+      ],
+      "markdown": "- Plan\n- Approve\n- Create solicitation\n- Solicit\n- Receive and evaluate\n- Negotiate\n- Award\n- Manage",
+      "plain_text": "Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage"
+    },
+    {
+      "block_id": "e1c0cf544ea2::b0004",
+      "section_id": "e1c0cf544ea2::s002",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Solicitation of offers",
+        "Buyer's Guide"
+      ],
+      "markdown": "Solicitation of offers Solicitation of offers is suitable for various complexities and value levels, including low dollar value, medium and high complexity requirements. It can be used when the selection of an offeror is based on price or best value. A Request for proposal (RFP) is a procurement instrument used when the offer selection is based on best value rather than on price alone. It is ideal when offerors are invited to propose solutions to specific needs or objectives, with the selection based on the effectiveness of these solutions. A solicitation of offers that results in a contractual obligation requires confirmation of funding prior to publication. Offers must be evaluated and the successful offeror must be selected in accordance with specific criteria and procedures as set out in the solicitation of offers. Buyers can solicit offers through public advertisement on the Government electronic tending service (GETS) by inviting selected offerors from a source list where allowed or by inviting a single source only if conditions for a non-competitive process have been met. Responses to solicitations of offers may result in negotiations before contract award, when the solicitation of offers documents states the right to negotiate in accordance with both international trade agreements and the Canadian Free Trade Agreement (CFTA). The solicitation of offers should minimally include: a clear definition of the requirement instructions for offerors offer preparation instructions clear evaluation procedures certification requirements security and financial requirements the offer's validity period resulting contract clauses information on how offerors can inquire about the solicitation outcomes and the evaluation of their offers The preparation of offers can be costly to businesses. To reduce costs for offerors while ensuring transparency, you may consider a two-step solicitation process. During the first step, offerors submit letters of interest and qualifications, leading to the development of a shortlist. Then in the second step, shortlisted offerors are invited to provide detailed offers. Businesses not included on the shortlist are still able to request the solicitation documents and submit offers. This method may be particularly useful when numerous known potential offerors exist. You must follow the procedures required under applicable international trade agreements and the CFTA , related to selective tendering and prequalification of offerors.",
+      "plain_text": "Solicitation of offers Solicitation of offers is suitable for various complexities and value levels, including low dollar value, medium and high complexity requirements. It can be used when the selection of an offeror is based on price or best value. A Request for proposal (RFP) is a procurement instrument used when the offer selection is based on best value rather than on price alone. It is ideal when offerors are invited to propose solutions to specific needs or objectives, with the selection based on the effectiveness of these solutions. A solicitation of offers that results in a contractual obligation requires confirmation of funding prior to publication. Offers must be evaluated and the successful offeror must be selected in accordance with specific criteria and procedures as set out in the solicitation of offers. Buyers can solicit offers through public advertisement on the Government electronic tending service (GETS) by inviting selected offerors from a source list where allowed or by inviting a single source only if conditions for a non-competitive process have been met. Responses to solicitations of offers may result in negotiations before contract award, when the solicitation of offers documents states the right to negotiate in accordance with both international trade agreements and the Canadian Free Trade Agreement (CFTA). The solicitation of offers should minimally include: a clear definition of the requirement instructions for offerors offer preparation instructions clear evaluation procedures certification requirements security and financial requirements the offer's validity period resulting contract clauses information on how offerors can inquire about the solicitation outcomes and the evaluation of their offers The preparation of offers can be costly to businesses. To reduce costs for offerors while ensuring transparency, you may consider a two-step solicitation process. During the first step, offerors submit letters of interest and qualifications, leading to the development of a shortlist. Then in the second step, shortlisted offerors are invited to provide detailed offers. Businesses not included on the shortlist are still able to request the solicitation documents and submit offers. This method may be particularly useful when numerous known potential offerors exist. You must follow the procedures required under applicable international trade agreements and the CFTA , related to selective tendering and prequalification of offerors."
+    },
+    {
+      "block_id": "e1c0cf544ea2::b0005",
+      "section_id": "e1c0cf544ea2::s003",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Solicitation of offers",
+        "Buyer's Guide",
+        "Solicitation of offers"
+      ],
+      "markdown": "## Solicitation of offers",
+      "plain_text": "Solicitation of offers"
+    },
+    {
+      "block_id": "e1c0cf544ea2::b0006",
+      "section_id": "e1c0cf544ea2::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Solicitation of offers",
+        "Buyer's Guide",
+        "Solicitation of offers"
+      ],
+      "markdown": "Solicitation of offers is suitable for various complexities and value levels, including low dollar value, medium and high complexity requirements. It can be used when the selection of an offeror is based on price or best value.",
+      "plain_text": "Solicitation of offers is suitable for various complexities and value levels, including low dollar value, medium and high complexity requirements. It can be used when the selection of an offeror is based on price or best value."
+    },
+    {
+      "block_id": "e1c0cf544ea2::b0007",
+      "section_id": "e1c0cf544ea2::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Solicitation of offers",
+        "Buyer's Guide",
+        "Solicitation of offers"
+      ],
+      "markdown": "A Request for proposal (RFP) is a procurement instrument used when the offer selection is based on best value rather than on price alone. It is ideal when offerors are invited to propose solutions to specific needs or objectives, with the selection based on the effectiveness of these solutions.",
+      "plain_text": "A Request for proposal (RFP) is a procurement instrument used when the offer selection is based on best value rather than on price alone. It is ideal when offerors are invited to propose solutions to specific needs or objectives, with the selection based on the effectiveness of these solutions."
+    },
+    {
+      "block_id": "e1c0cf544ea2::b0008",
+      "section_id": "e1c0cf544ea2::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Solicitation of offers",
+        "Buyer's Guide",
+        "Solicitation of offers"
+      ],
+      "markdown": "A solicitation of offers that results in a contractual obligation requires confirmation of funding prior to publication.",
+      "plain_text": "A solicitation of offers that results in a contractual obligation requires confirmation of funding prior to publication."
+    },
+    {
+      "block_id": "e1c0cf544ea2::b0009",
+      "section_id": "e1c0cf544ea2::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Solicitation of offers",
+        "Buyer's Guide",
+        "Solicitation of offers"
+      ],
+      "markdown": "Offers must be evaluated and the successful offeror must be selected in accordance with specific criteria and procedures as set out in the solicitation of offers.",
+      "plain_text": "Offers must be evaluated and the successful offeror must be selected in accordance with specific criteria and procedures as set out in the solicitation of offers."
+    },
+    {
+      "block_id": "e1c0cf544ea2::b0010",
+      "section_id": "e1c0cf544ea2::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Solicitation of offers",
+        "Buyer's Guide",
+        "Solicitation of offers"
+      ],
+      "markdown": "Buyers can solicit offers through public advertisement on the Government electronic tending service (GETS) by inviting selected offerors from a source list where allowed or by inviting a single source only if conditions for a non-competitive process have been met.",
+      "plain_text": "Buyers can solicit offers through public advertisement on the Government electronic tending service (GETS) by inviting selected offerors from a source list where allowed or by inviting a single source only if conditions for a non-competitive process have been met."
+    },
+    {
+      "block_id": "e1c0cf544ea2::b0011",
+      "section_id": "e1c0cf544ea2::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Solicitation of offers",
+        "Buyer's Guide",
+        "Solicitation of offers"
+      ],
+      "markdown": "Responses to solicitations of offers may result in negotiations before contract award, when the solicitation of offers documents states the right to negotiate in accordance with both international trade agreements and the Canadian Free Trade Agreement (CFTA).",
+      "plain_text": "Responses to solicitations of offers may result in negotiations before contract award, when the solicitation of offers documents states the right to negotiate in accordance with both international trade agreements and the Canadian Free Trade Agreement (CFTA)."
+    },
+    {
+      "block_id": "e1c0cf544ea2::b0012",
+      "section_id": "e1c0cf544ea2::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Solicitation of offers",
+        "Buyer's Guide",
+        "Solicitation of offers"
+      ],
+      "markdown": "The solicitation of offers should minimally include:",
+      "plain_text": "The solicitation of offers should minimally include:"
+    },
+    {
+      "block_id": "e1c0cf544ea2::b0013",
+      "section_id": "e1c0cf544ea2::s003",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Solicitation of offers",
+        "Buyer's Guide",
+        "Solicitation of offers"
+      ],
+      "markdown": "- a clear definition of the requirement\n- instructions for offerors\n- offer preparation instructions\n- clear evaluation procedures\n- certification requirements\n- security and financial requirements\n- the offer's validity period\n- resulting contract clauses\n- information on how offerors can inquire about the solicitation outcomes and the evaluation of their offers",
+      "plain_text": "a clear definition of the requirement ; instructions for offerors ; offer preparation instructions ; clear evaluation procedures ; certification requirements ; security and financial requirements ; the offer's validity period ; resulting contract clauses ; information on how offerors can inquire about the solicitation outcomes and the evaluation of their offers"
+    },
+    {
+      "block_id": "e1c0cf544ea2::b0014",
+      "section_id": "e1c0cf544ea2::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Solicitation of offers",
+        "Buyer's Guide",
+        "Solicitation of offers"
+      ],
+      "markdown": "The preparation of offers can be costly to businesses. To reduce costs for offerors while ensuring transparency, you may consider a two-step solicitation process.",
+      "plain_text": "The preparation of offers can be costly to businesses. To reduce costs for offerors while ensuring transparency, you may consider a two-step solicitation process."
+    },
+    {
+      "block_id": "e1c0cf544ea2::b0015",
+      "section_id": "e1c0cf544ea2::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Solicitation of offers",
+        "Buyer's Guide",
+        "Solicitation of offers"
+      ],
+      "markdown": "During the first step, offerors submit letters of interest and qualifications, leading to the development of a shortlist. Then in the second step, shortlisted offerors are invited to provide detailed offers.",
+      "plain_text": "During the first step, offerors submit letters of interest and qualifications, leading to the development of a shortlist. Then in the second step, shortlisted offerors are invited to provide detailed offers."
+    },
+    {
+      "block_id": "e1c0cf544ea2::b0016",
+      "section_id": "e1c0cf544ea2::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Solicitation of offers",
+        "Buyer's Guide",
+        "Solicitation of offers"
+      ],
+      "markdown": "Businesses not included on the shortlist are still able to request the solicitation documents and submit offers.",
+      "plain_text": "Businesses not included on the shortlist are still able to request the solicitation documents and submit offers."
+    },
+    {
+      "block_id": "e1c0cf544ea2::b0017",
+      "section_id": "e1c0cf544ea2::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Solicitation of offers",
+        "Buyer's Guide",
+        "Solicitation of offers"
+      ],
+      "markdown": "This method may be particularly useful when numerous known potential offerors exist. You must follow the procedures required under applicable international trade agreements and the CFTA , related to selective tendering and prequalification of offerors.",
+      "plain_text": "This method may be particularly useful when numerous known potential offerors exist. You must follow the procedures required under applicable international trade agreements and the CFTA , related to selective tendering and prequalification of offerors."
+    }
+  ]
+}

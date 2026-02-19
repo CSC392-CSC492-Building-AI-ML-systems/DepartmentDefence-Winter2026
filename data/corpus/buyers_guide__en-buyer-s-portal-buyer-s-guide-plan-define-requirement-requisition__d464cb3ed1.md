@@ -1,0 +1,305 @@
+# Buyer's Guide Define the requirement - Requisition
+
+# Buyer's Guide
+
+- Plan
+- Approve
+- Create solicitation
+- Solicit
+- Receive and evaluate
+- Negotiate
+- Award
+- Manage
+
+Requisition Clients must complete the Requisition for Goods and Services and Construction form PWGSC-TPSGC 9200 (accessible only on the Government of Canada network). The Requisition Checklist ( PWGSC-TPSGC 195 ) (accessible only on the Government of Canada network) can help clients complete the requisition and determine the required supporting documents. Once the requisition is complete, it should be submitted to the PSPC Allocations Unit (AU) via email. Submission via fax or mail is also acceptable. Upon receipt, the AU will vet the requisition against the mandatory requirements and contact the client for any missing information. Acknowledgment of receipt is given by AU within 1 business day for electronic submissions and within 2 business days for hard copy submissions. Once all required information is provided, the requisition will be allocated to the appropriate contracting area. As the buyer assigned to the requisition, you must notify the client within 5 business days of receipt, providing contact information and confirming receipt. Note : if you receive a requisition directly from the client, you must forward it to the PSPC AU and inform the client of the procedures to follow. Funding Clients are responsible for submitting accurate requisitions and are accountable for funding which must be provided in accordance with Section 32 of the Financial Administration Act . Requisitions must be funded in Canadian currency, including applicable taxes. The requisition must be approved in accordance with the client's internal delegation of authority. Buyers must confirm that funding is committed prior to taking any of the following actions: Prior to the publication of any solicitation which results in a contractual commitment by Canada, such as: Request for Quotation (RFQ) Request for Proposal (RFP) Invitation to Tender (ITT) Advance Contract Award Notice (ACAN) RFPs against a Supply Arrangement Prior to entering into contract negotiations with a supplier Prior to entering a contract or issuing a call-up against a standing offer Prior to amending a contract Prior to issuing a task authorization The confirmation of funding is not required when publishing a solicitation of offers which does not directly result in a contractual commitment by Canada (e.g. Request for Standing Offer or Supply Arrangement, Letter of Interest, Request for Information, Invitation to Qualify). Some exceptions may be sought on a case-by-case basis, and subject to approval at the Assistant Deputy Minister (ADM) level. When a solicitation of offers includes non-binding option periods to be exercised at Canada's discretion, those option periods are not required to be funded at the time of publication. However, the initial contract period must be fully funded. Although the PWGSC-TPSGC 9200 form (PDF, 512 KB) (accessible only on the Government of Canada network) is the preferred method of confirming funding, other forms of documentation may be accepted. These must clearly indicate the current and revised funding amounts in Canadian currency, include applicable taxes, and contain certification under Section 32 of the Financial Administration Act . Note : requisitions under the United States (US) Foreign Military Sales (FMS) Program, may be funded in US currency. The requisition approval must be in accordance with the clients internal delegation of authority. The total equivalent estimated Canadian currency value with the applied exchange rate derived from the Bank of Canada on the day of the requisition being assigned must be included in the PWGSC-TPSGC 9200 form (PDF, 512 KB) (accessible only on the Government of Canada network). Price and availability enquiries Price and availability (P&A) enquiries are generally initiated by clients and handled in the same manner as any requisition. They are used to gather information about the approximate prices and availability of specific goods or services from businesses, assisting in budgetary or planning decision. You can send P&A enquiries directly to selected businesses or post them on the tendering services platform. You must clearly state in P&A enquiries that the request is not a solicitation of offers and implies no commitment to future purchases or contracts. Requisition review You must review all requisitions and engage in discussions with the client to ensure that they are complete and accurate before proceeding with the procurement process. Key areas of requisition review include: Accessibility If accessibility has not been considered, the business owner (client department or agency, technical authority) must be made aware of their obligation to consider accessibility and to complete a justification form if accessibility criteria are not included. The contracting authority should provide any relevant tools and guidance on accessible procurement to the business owner as needed. For more information, refer to the Office of Public Service Accessibility (accessible only on the Government of Canada network) webpage and the Digital Accessibility Toolkit . Please visit YouTube for informational videos on the Accessible Canada Act and meaningful consideration of accessibility in procurement. Allocation Ensure the requisition has been directed or allocated to the appropriate office. Authorization and signatures Ensure that the requisition is authorized properly, which means that it contains all mandatory signatures. Clients must certify that: funds are available pursuant to subsection 32(1) of the F inancial Administration Act (FAA) the requisition is approved, necessary approvals obtained, and PSPC is requested to acquire the specified goods or services or both, including construction, described therein the requisition accurately details the requirement’s security provisions, including any attached Security Requirements Check List (SRCL) form , statement of work, and security documents and security clauses provided by the Contract Security Program (CSP) requisitions received via e-Purchasing are deemed properly authorized with all signatures pursuant to the FAA Canadian specifications The nature of the work is to Canadian specifications. Consequences of late delivery Consequences resulting from a late delivery are stated, and if necessary, liquidated damages provisions or other performance incentives are included. Consignee codes The destination or consignee codes are specified. Contract option periods The option or extension periods are stated, if needed. Contractor access Contractor's access requirements to personal records are stated if necessary. Controlled goods Controlled goods are identified. Defence contracts The client department has identified the requirement as a "defence contract," as defined in the Defence Production Act if necessary. Definition of goods or services The good or service (or both) are adequately defined in the requisition. Technical documentation, or statement of work are attached. Note : you should help the client properly define their requirement , if necessary. Delivery schedules Delivery lead times and schedules are realistic, or special actions to meet delivery objectives are stated. Design changes Design change or deviation procedure is specified. Environmental considerations Environmental performance considerations have been addressed. Evaluation criteria Evaluation criteria is specified and the mandatory requirements are clear. Existing procurement instruments Good or services are available on a standing offer or a supply arrangement (or a mandatory standing offer). Financial codes Financial codes associated with the requisition are identified. Funding adequacy Estimated funding documented are adequate enough to cover costs. Funding details Funding details include the amounts listed in the "Current Funding" section and the included Goods and Services Tax or the Harmonized Sales Tax. Former public servant The documentation needs to indicate if the sole source is directed to a former public servant. Form version and security The current version of the requisition form needs to be used. If a previous version is used, proper security certification must be included. Goods and Services Identification Number (GSIN) The GSIN needs to be shown and accurate. Indigenous business strategy The procurement, if applicable, needs to state if it has been set aside under the Procurement Strategy for Indigenous Business. Inspection authority The inspection or quality assurance authority needs to be specified. Intellectual property The client department needs to include instructions concerning the treatment of any intellectual property that may result from the procurement. Invoicing Invoicing instructions are provided. Land claims agreements The requirement needs to state whether it is subject to the provisions of a Comprehensive Land Claims Agreement . Multiple items on the requisition Multiple items on the requisition need to be grouped if at all possible, or put in an extract file. Policy conflicts Does the requisition or attachments contain any clauses or conditions that conflict with any Government of Canada contracting policies and procedures? Pricing basis The requisition contains any form of predefined types of pricing basis. Product quality The extent of required product quality management and assurance needs to be stated. Radio-transmitting equipment The client obtained radio frequency equipment clearance from Industry Canada and stated whether there are other similar special considerations. Repetitive purchases The repetitive stated whether the items could be bought on an annual basis through: standing offers supply arrangements phased delivery task authorization contracts with a call-up feature being included as contract options for additional quantities Renewal and previous contracts The client states whether the procurement is a renewal of an existing contractual arrangement for the same services, or if the services been procured before. If yes, state: who is the incumbent contractor what is the previous contract number when does it expire was it procured by PSPC or the client did the previous contract have special pricing or terms and conditions Right of use The client states if there were any unrestricted rights to the use of the technical data or if royalty payments are involved. Security provisions The requisition includes security provisions and whether a Security Requirements Check List (SRCL) is required. Note : if no SRCL is required but security provisions are included, this must be explained. Sole source support The client must indicate whether there is support for a sole source or no-substitute request and they have responded to Treasury Board questions for sole source adequately. Standards and specifications The client needs to include the appropriate standards, specifications, or purchase descriptions. If not, state whether an existing one can be used; or whether: there is a need for the development of a new standard, specification, or procurement description the NATO Stock Number or the GSIN of the products shown accurately as per the published commodity codes. Note: clients must detail the GSIN in the requisition, due to trade agreement implications, you must ensure the accuracy of the GSIN s Tax exemptions Has the client department claimed and substantiated exemption from taxes or duties, by referring to a certificate of exemption, or remission or drawback order in council? Tooling and equipment Special production tooling or special test equipment, if required, needs to be included and specify if government-furnished equipment or government-supplied materiel is needed. Trade-ins The clients needs to indicate if a trade-in is required. Requisition allocation within Public Services and Procurement Canada Clients may direct requisitions, as well as P&A enquiries, to any PSPC Allocation office within Canada. Normally, the client-specified PSPC AU will handle the requisition unless it falls under specific geographical client requirements or involves: restricted commodities specific commodities like monitors or printers, major projects, or falls under specific geographical client requirements. Situations in which the client may not specify their PSPC office of choice, and the respective rules for requisition allocation are outlined in the 3 sections below. Restricted commodities Restricted commodities includes advertising, public opinion research, production of audio visual, bulk buys for fuel and vehicles, and United States Foreign Military Sales. For requisitions without a specified office preference, the following allocation rules apply: single consignee point are allocated to the PSPC office closest to that point within the same regional sector multiple consignees within the same regional sector without a specific office nearby are allocated to an office designated by their regional director multiple consignees within multiple regional sectors are allocated to the PSPC office closest to the originator of the requisition if the requisition line items have the same monetary value or their values cannot be determined, allocation is determined by the office responsible for the GSIN code of the first line item. Product and service categories managers Requisitions relating to a specific product and service category or to a specific geographical client, are allocated to the specific office that is able to satisfy their request. Major projects Requisitions part of a major project are allocated to the office responsible for that project. As the buyer, you must verify: that all requisition allocations comply with the accurate detailing of the GSIN due to trade agreement implications the necessity for special production tooling or test equipment government-furnished equipment or materials whether the requisition contains any predefined types of pricing bases necessary deviation procedures product quality management, and assurance requirements whether the requisition or attachments contain any clauses or conditions that conflict with any PSPC or government contracting policies and procedures Notification to Indigenous Services Canada Upon receipt and acceptance of a requisition for a Procurement Strategy for Indigenous Business (PSIB) set-aside procurement, you must inform the Business Development Directorate at Indigenous Services Canada (ISC). Notification to ISC must be sent via email prior to the release of the solicitation. The notification must include: estimated dollar value description of the goods, services or construction solicitation number solicitation closing date buyer's contact details (including name and phone or fax numbers) For sole source procurements, you must also include in the notification, the name and address of the potential contractor. Within 15 working days after contract award, you must advise the ISC Business Development Directorate of the name of the contractor, the contract number, and the total estimated value of the contract.
+
+## Requisition
+
+Clients must complete the Requisition for Goods and Services and Construction form PWGSC-TPSGC 9200 (accessible only on the Government of Canada network). The Requisition Checklist ( PWGSC-TPSGC 195 ) (accessible only on the Government of Canada network) can help clients complete the requisition and determine the required supporting documents. Once the requisition is complete, it should be submitted to the PSPC Allocations Unit (AU) via email. Submission via fax or mail is also acceptable. Upon receipt, the AU will vet the requisition against the mandatory requirements and contact the client for any missing information.
+
+Acknowledgment of receipt is given by AU within 1 business day for electronic submissions and within 2 business days for hard copy submissions. Once all required information is provided, the requisition will be allocated to the appropriate contracting area.
+
+As the buyer assigned to the requisition, you must notify the client within 5 business days of receipt, providing contact information and confirming receipt.
+
+Note : if you receive a requisition directly from the client, you must forward it to the PSPC AU and inform the client of the procedures to follow.
+
+### Funding
+
+Clients are responsible for submitting accurate requisitions and are accountable for funding which must be provided in accordance with Section 32 of the Financial Administration Act . Requisitions must be funded in Canadian currency, including applicable taxes. The requisition must be approved in accordance with the client's internal delegation of authority.
+
+Buyers must confirm that funding is committed prior to taking any of the following actions:
+
+- Prior to the publication of any solicitation which results in a contractual commitment by Canada, such as:
+- Request for Quotation (RFQ)
+- Request for Proposal (RFP)
+- Invitation to Tender (ITT)
+- Advance Contract Award Notice (ACAN)
+- RFPs against a Supply Arrangement
+- Prior to entering into contract negotiations with a supplier
+- Prior to entering a contract or issuing a call-up against a standing offer
+- Prior to amending a contract
+- Prior to issuing a task authorization
+
+The confirmation of funding is not required when publishing a solicitation of offers which does not directly result in a contractual commitment by Canada (e.g. Request for Standing Offer or Supply Arrangement, Letter of Interest, Request for Information, Invitation to Qualify).
+
+Some exceptions may be sought on a case-by-case basis, and subject to approval at the Assistant Deputy Minister (ADM) level.
+
+When a solicitation of offers includes non-binding option periods to be exercised at Canada's discretion, those option periods are not required to be funded at the time of publication. However, the initial contract period must be fully funded.
+
+Although the PWGSC-TPSGC 9200 form (PDF, 512 KB) (accessible only on the Government of Canada network) is the preferred method of confirming funding, other forms of documentation may be accepted. These must clearly indicate the current and revised funding amounts in Canadian currency, include applicable taxes, and contain certification under Section 32 of the Financial Administration Act .
+
+Note : requisitions under the United States (US) Foreign Military Sales (FMS) Program, may be funded in US currency. The requisition approval must be in accordance with the clients internal delegation of authority. The total equivalent estimated Canadian currency value with the applied exchange rate derived from the Bank of Canada on the day of the requisition being assigned must be included in the PWGSC-TPSGC 9200 form (PDF, 512 KB) (accessible only on the Government of Canada network).
+
+### Price and availability enquiries
+
+Price and availability (P&A) enquiries are generally initiated by clients and handled in the same manner as any requisition. They are used to gather information about the approximate prices and availability of specific goods or services from businesses, assisting in budgetary or planning decision. You can send P&A enquiries directly to selected businesses or post them on the tendering services platform. You must clearly state in P&A enquiries that the request is not a solicitation of offers and implies no commitment to future purchases or contracts.
+
+### Requisition review
+
+You must review all requisitions and engage in discussions with the client to ensure that they are complete and accurate before proceeding with the procurement process.
+
+Key areas of requisition review include:
+
+#### Accessibility
+
+If accessibility has not been considered, the business owner (client department or agency, technical authority) must be made aware of their obligation to consider accessibility and to complete a justification form if accessibility criteria are not included. The contracting authority should provide any relevant tools and guidance on accessible procurement to the business owner as needed. For more information, refer to the Office of Public Service Accessibility (accessible only on the Government of Canada network) webpage and the Digital Accessibility Toolkit . Please visit YouTube for informational videos on the Accessible Canada Act and meaningful consideration of accessibility in procurement.
+
+#### Allocation
+
+Ensure the requisition has been directed or allocated to the appropriate office.
+
+#### Authorization and signatures
+
+Ensure that the requisition is authorized properly, which means that it contains all mandatory signatures.
+
+Clients must certify that:
+
+- funds are available pursuant to subsection 32(1) of the F inancial Administration Act (FAA)
+- the requisition is approved, necessary approvals obtained, and PSPC is requested to acquire the specified goods or services or both, including construction, described therein
+- the requisition accurately details the requirement’s security provisions, including any attached Security Requirements Check List (SRCL) form , statement of work, and security documents and security clauses provided by the Contract Security Program (CSP)
+- requisitions received via e-Purchasing are deemed properly authorized with all signatures pursuant to the FAA
+
+#### Canadian specifications
+
+The nature of the work is to Canadian specifications.
+
+#### Consequences of late delivery
+
+Consequences resulting from a late delivery are stated, and if necessary, liquidated damages provisions or other performance incentives are included.
+
+#### Consignee codes
+
+The destination or consignee codes are specified.
+
+#### Contract option periods
+
+The option or extension periods are stated, if needed.
+
+#### Contractor access
+
+Contractor's access requirements to personal records are stated if necessary.
+
+#### Controlled goods
+
+Controlled goods are identified.
+
+#### Defence contracts
+
+The client department has identified the requirement as a "defence contract," as defined in the Defence Production Act if necessary.
+
+#### Definition of goods or services
+
+The good or service (or both) are adequately defined in the requisition. Technical documentation, or statement of work are attached.
+
+Note : you should help the client properly define their requirement , if necessary.
+
+#### Delivery schedules
+
+Delivery lead times and schedules are realistic, or special actions to meet delivery objectives are stated.
+
+#### Design changes
+
+Design change or deviation procedure is specified.
+
+#### Environmental considerations
+
+Environmental performance considerations have been addressed.
+
+#### Evaluation criteria
+
+Evaluation criteria is specified and the mandatory requirements are clear.
+
+#### Existing procurement instruments
+
+Good or services are available on a standing offer or a supply arrangement (or a mandatory standing offer).
+
+#### Financial codes
+
+Financial codes associated with the requisition are identified.
+
+#### Funding adequacy
+
+Estimated funding documented are adequate enough to cover costs.
+
+#### Funding details
+
+Funding details include the amounts listed in the "Current Funding" section and the included Goods and Services Tax or the Harmonized Sales Tax.
+
+#### Former public servant
+
+The documentation needs to indicate if the sole source is directed to a former public servant.
+
+#### Form version and security
+
+The current version of the requisition form needs to be used. If a previous version is used, proper security certification must be included.
+
+#### Goods and Services Identification Number (GSIN)
+
+The GSIN needs to be shown and accurate.
+
+#### Indigenous business strategy
+
+The procurement, if applicable, needs to state if it has been set aside under the Procurement Strategy for Indigenous Business.
+
+#### Inspection authority
+
+The inspection or quality assurance authority needs to be specified.
+
+#### Intellectual property
+
+The client department needs to include instructions concerning the treatment of any intellectual property that may result from the procurement.
+
+#### Invoicing
+
+Invoicing instructions are provided.
+
+#### Land claims agreements
+
+The requirement needs to state whether it is subject to the provisions of a Comprehensive Land Claims Agreement .
+
+#### Multiple items on the requisition
+
+Multiple items on the requisition need to be grouped if at all possible, or put in an extract file.
+
+#### Policy conflicts
+
+Does the requisition or attachments contain any clauses or conditions that conflict with any Government of Canada contracting policies and procedures?
+
+#### Pricing basis
+
+The requisition contains any form of predefined types of pricing basis.
+
+#### Product quality
+
+The extent of required product quality management and assurance needs to be stated.
+
+#### Radio-transmitting equipment
+
+The client obtained radio frequency equipment clearance from Industry Canada and stated whether there are other similar special considerations.
+
+#### Repetitive purchases
+
+The repetitive stated whether the items could be bought on an annual basis through:
+
+- standing offers
+- supply arrangements
+- phased delivery
+- task authorization
+- contracts with a call-up feature
+- being included as contract options for additional quantities
+
+#### Renewal and previous contracts
+
+The client states whether the procurement is a renewal of an existing contractual arrangement for the same services, or if the services been procured before.
+
+If yes, state:
+
+- who is the incumbent contractor
+- what is the previous contract number
+- when does it expire
+- was it procured by PSPC or the client
+- did the previous contract have special pricing or terms and conditions
+
+#### Right of use
+
+The client states if there were any unrestricted rights to the use of the technical data or if royalty payments are involved.
+
+#### Security provisions
+
+The requisition includes security provisions and whether a Security Requirements Check List (SRCL) is required.
+
+Note : if no SRCL is required but security provisions are included, this must be explained.
+
+#### Sole source support
+
+The client must indicate whether there is support for a sole source or no-substitute request and they have responded to Treasury Board questions for sole source adequately.
+
+#### Standards and specifications
+
+The client needs to include the appropriate standards, specifications, or purchase descriptions. If not, state whether an existing one can be used; or whether:
+
+- there is a need for the development of a new standard, specification, or procurement description
+- the NATO Stock Number or the GSIN of the products shown accurately as per the published commodity codes. Note: clients must detail the GSIN in the requisition, due to trade agreement implications, you must ensure the accuracy of the GSIN s
+
+#### Tax exemptions
+
+Has the client department claimed and substantiated exemption from taxes or duties, by referring to a certificate of exemption, or remission or drawback order in council?
+
+#### Tooling and equipment
+
+Special production tooling or special test equipment, if required, needs to be included and specify if government-furnished equipment or government-supplied materiel is needed.
+
+#### Trade-ins
+
+The clients needs to indicate if a trade-in is required.
+
+### Requisition allocation within Public Services and Procurement Canada
+
+Clients may direct requisitions, as well as P&A enquiries, to any PSPC Allocation office within Canada. Normally, the client-specified PSPC AU will handle the requisition unless it falls under specific geographical client requirements or involves:
+
+- restricted commodities
+- specific commodities like monitors or printers,
+- major projects, or falls under specific geographical client requirements.
+
+Situations in which the client may not specify their PSPC office of choice, and the respective rules for requisition allocation are outlined in the 3 sections below.
+
+#### Restricted commodities
+
+Restricted commodities includes advertising, public opinion research, production of audio visual, bulk buys for fuel and vehicles, and United States Foreign Military Sales. For requisitions without a specified office preference, the following allocation rules apply:
+
+- single consignee point are allocated to the PSPC office closest to that point within the same regional sector
+- multiple consignees within the same regional sector without a specific office nearby are allocated to an office designated by their regional director
+- multiple consignees within multiple regional sectors are allocated to the PSPC office closest to the originator of the requisition
+- if the requisition line items have the same monetary value or their values cannot be determined, allocation is determined by the office responsible for the GSIN code of the first line item.
+
+#### Product and service categories managers
+
+Requisitions relating to a specific product and service category or to a specific geographical client, are allocated to the specific office that is able to satisfy their request.
+
+#### Major projects
+
+Requisitions part of a major project are allocated to the office responsible for that project.
+
+As the buyer, you must verify:
+
+- that all requisition allocations comply with the accurate detailing of the GSIN due to trade agreement implications
+- the necessity for special production tooling or test equipment
+- government-furnished equipment or materials
+- whether the requisition contains any predefined types of pricing bases
+- necessary deviation procedures
+- product quality management, and assurance requirements
+- whether the requisition or attachments contain any clauses or conditions that conflict with any PSPC or government contracting policies and procedures
+
+### Notification to Indigenous Services Canada
+
+Upon receipt and acceptance of a requisition for a Procurement Strategy for Indigenous Business (PSIB) set-aside procurement, you must inform the Business Development Directorate at Indigenous Services Canada (ISC). Notification to ISC must be sent via email prior to the release of the solicitation. The notification must include:
+
+- estimated dollar value
+- description of the goods, services or construction
+- solicitation number
+- solicitation closing date
+- buyer's contact details (including name and phone or fax numbers)
+
+For sole source procurements, you must also include in the notification, the name and address of the potential contractor.
+
+Within 15 working days after contract award, you must advise the ISC Business Development Directorate of the name of the contractor, the contract number, and the total estimated value of the contract.

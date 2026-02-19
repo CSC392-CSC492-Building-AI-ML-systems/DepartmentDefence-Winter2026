@@ -1,0 +1,480 @@
+{
+  "doc_id": "de04b603024d",
+  "title": "Buyer's Guide Contract security and privacy requirements - Privacy and confidentiality",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/privacy-and-confidentiality",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/privacy-and-confidentiality",
+  "doc_type": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": "2026-01-31",
+  "fetched_at": "2026-02-19T09:16:15.425246+00:00",
+  "content_hash": "8c7d86936952e72369a714c42437c22ba635c5be8759d4493842e18e9ee400a5",
+  "word_count": 895,
+  "text_path": "data/corpus/buyers_guide__en-buyer-s-portal-buyer-s-guide-plan-contract-security-and-privacy-requirements-privacy-and-confidentiality__de04b60302.md",
+  "extraction_method": "buyers_guide_regions",
+  "breadcrumbs": [
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "https://canadabuys.canada.ca/en",
+      "canonical_url": "https://canadabuys.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "in_scope": true
+    },
+    {
+      "title": "Contract security and privacy requirements",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements",
+      "in_scope": true
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements",
+    "parent_doc_id": "d0c4da20ac20",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/privacy-and-confidentiality"
+    ],
+    "lineage_doc_ids": [
+      "1e29c7881335",
+      "d0c4da20ac20",
+      "de04b603024d"
+    ],
+    "depth": 2,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-accounting-and-pricing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-reimbursable",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/firm-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-time/unit-rate",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/overview-key-pricing-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/price-and-currency-adjustments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/pricing-methods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/provisional-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/types-basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/application-registration",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/completing-security-requirements-check-list",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/controlled-goods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/foreign-ownership-control-or-influence",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-international-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-timelines",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/importance-clear-procurement-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/requisition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/review-statement-work",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/socioeconomic-requirements-definition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/standards-and-quality-assurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/choose-method-supply",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/determine-sourcing-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/developing-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/interim-policy-reciprocal-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/trade-agreement-applicability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/early-engagement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-businesses",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-clients",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-subject-matter-experts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/invoicing-instructions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/payment-instruments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/taxes-and-duties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/withholding-non-resident-contractors",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/communicating-method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/developing-selection-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/including-basis-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/specifying-evaluation-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/canadian-general-standards-board",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/compliance-canadian-electrical-code",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/contractor-liability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/emergency-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/employer/employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/fairness-monitoring",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/insurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/intellectual-property-and-copyright",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/liability-and-risk-management",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/managing-urgent-acquisitions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/official-languages-obligation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/warranties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/holdbacks",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/incentives",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/accessibility",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/anti-forced-labour-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/green-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/indigenous-considerations"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-accounting-and-pricing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-reimbursable",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/firm-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-time/unit-rate",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/overview-key-pricing-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/price-and-currency-adjustments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/pricing-methods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/provisional-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/types-basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/application-registration",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/completing-security-requirements-check-list",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/controlled-goods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/foreign-ownership-control-or-influence",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-international-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-timelines",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/importance-clear-procurement-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/requisition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/review-statement-work",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/socioeconomic-requirements-definition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/standards-and-quality-assurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/choose-method-supply",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/determine-sourcing-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/developing-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/interim-policy-reciprocal-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/trade-agreement-applicability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/early-engagement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-businesses",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-clients",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-subject-matter-experts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/invoicing-instructions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/payment-instruments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/taxes-and-duties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/withholding-non-resident-contractors",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/communicating-method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/developing-selection-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/including-basis-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/specifying-evaluation-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/canadian-general-standards-board",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/compliance-canadian-electrical-code",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/contractor-liability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/emergency-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/employer/employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/fairness-monitoring",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/insurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/intellectual-property-and-copyright",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/liability-and-risk-management",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/managing-urgent-acquisitions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/official-languages-obligation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/warranties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/holdbacks",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/incentives",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/accessibility",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/anti-forced-labour-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/green-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/indigenous-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure": {
+    "block_count": 12,
+    "section_count": 5,
+    "heading_count": 4,
+    "paragraph_count": 7,
+    "list_count": 1,
+    "table_count": 0
+  },
+  "sections": [
+    {
+      "section_id": "de04b603024d::root",
+      "parent_section_id": null,
+      "level": 0,
+      "heading": "Buyer's Guide Contract security and privacy requirements - Privacy and confidentiality",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Privacy and confidentiality"
+      ],
+      "block_count": 0,
+      "word_count": 0,
+      "char_count": 0,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": null,
+      "last_block_index": null,
+      "preview": "",
+      "prev_section_id": null,
+      "next_section_id": null
+    },
+    {
+      "section_id": "de04b603024d::s001",
+      "parent_section_id": "de04b603024d::root",
+      "level": 1,
+      "heading": "Buyer's Guide Contract security and privacy requirements - Privacy and confidentiality",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Privacy and confidentiality",
+        "Buyer's Guide Contract security and privacy requirements - Privacy and confidentiality"
+      ],
+      "block_count": 1,
+      "word_count": 11,
+      "char_count": 86,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 0,
+      "last_block_index": 0,
+      "preview": "Buyer's Guide Contract security and privacy requirements - Privacy and confidentiality",
+      "prev_section_id": null,
+      "next_section_id": "de04b603024d::s002"
+    },
+    {
+      "section_id": "de04b603024d::s002",
+      "parent_section_id": "de04b603024d::root",
+      "level": 1,
+      "heading": "Buyer's Guide",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Privacy and confidentiality",
+        "Buyer's Guide"
+      ],
+      "block_count": 3,
+      "word_count": 452,
+      "char_count": 3088,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 1,
+      "last_block_index": 3,
+      "preview": "Buyer's Guide Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage Privacy and confidentiality Canada's Policy on Privacy Protection underscores the high regard Canadians hold for their privacy ",
+      "prev_section_id": "de04b603024d::s001",
+      "next_section_id": "de04b603024d::s003"
+    },
+    {
+      "section_id": "de04b603024d::s003",
+      "parent_section_id": "de04b603024d::s002",
+      "level": 2,
+      "heading": "Privacy and confidentiality",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Privacy and confidentiality",
+        "Buyer's Guide",
+        "Privacy and confidentiality"
+      ],
+      "block_count": 4,
+      "word_count": 239,
+      "char_count": 1598,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 3,
+      "first_block_index": 4,
+      "last_block_index": 7,
+      "preview": "Privacy and confidentiality Canada's Policy on Privacy Protection underscores the high regard Canadians hold for their privacy and the protection of their personal information. This expectation mandates that government institutions respect ",
+      "prev_section_id": "de04b603024d::s002",
+      "next_section_id": "de04b603024d::s004"
+    },
+    {
+      "section_id": "de04b603024d::s004",
+      "parent_section_id": "de04b603024d::s003",
+      "level": 3,
+      "heading": "Handling private information in contracts",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Privacy and confidentiality",
+        "Buyer's Guide",
+        "Privacy and confidentiality",
+        "Handling private information in contracts"
+      ],
+      "block_count": 4,
+      "word_count": 193,
+      "char_count": 1372,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 3,
+      "first_block_index": 8,
+      "last_block_index": 11,
+      "preview": "Handling private information in contracts Privacy and confidentiality are not just regulatory requirements but are central to maintaining trust and integrity in government operations. Ensuring the confidentiality of personal and corporate i",
+      "prev_section_id": "de04b603024d::s003",
+      "next_section_id": null
+    }
+  ],
+  "tables": [],
+  "blocks": [
+    {
+      "block_id": "de04b603024d::b0001",
+      "section_id": "de04b603024d::s001",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Privacy and confidentiality",
+        "Buyer's Guide Contract security and privacy requirements - Privacy and confidentiality"
+      ],
+      "markdown": "# Buyer's Guide Contract security and privacy requirements - Privacy and confidentiality",
+      "plain_text": "Buyer's Guide Contract security and privacy requirements - Privacy and confidentiality"
+    },
+    {
+      "block_id": "de04b603024d::b0002",
+      "section_id": "de04b603024d::s002",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Privacy and confidentiality",
+        "Buyer's Guide"
+      ],
+      "markdown": "# Buyer's Guide",
+      "plain_text": "Buyer's Guide"
+    },
+    {
+      "block_id": "de04b603024d::b0003",
+      "section_id": "de04b603024d::s002",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Privacy and confidentiality",
+        "Buyer's Guide"
+      ],
+      "markdown": "- Plan\n- Approve\n- Create solicitation\n- Solicit\n- Receive and evaluate\n- Negotiate\n- Award\n- Manage",
+      "plain_text": "Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage"
+    },
+    {
+      "block_id": "de04b603024d::b0004",
+      "section_id": "de04b603024d::s002",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Privacy and confidentiality",
+        "Buyer's Guide"
+      ],
+      "markdown": "Privacy and confidentiality Canada's Policy on Privacy Protection underscores the high regard Canadians hold for their privacy and the protection of their personal information. This expectation mandates that government institutions respect the Privacy Act . It is crucial to read this policy alongside the Policy on Service and Digital , the Directive on Service and Digital , the Policy on Access to Information and related directives to understand all mandatory privacy-related requirements. Government institutions, including parent Crown corporations and any wholly owned subsidiary of these corporations, as defined under section 3 of the Privacy Act , are bound by this policy, with certain exclusions such as the Bank of Canada and information that is excluded under the Act. The Supreme Court of Canada has characterized the Act as \"quasi-constitutional\" because of the role privacy plays in the preservation of a free and democratic society. The commitment of the Government of Canada to protect the privacy of individuals by safeguarding personal information under its control is paramount for maintaining public trust in government. Privacy protection means limiting government interventions into the private lives of Canadians to lawful and necessary purposes and ensuring a high standard of care for personal information under the control of government institutions. The government also has to respond to requests for access to personal information. Sound information management plays a key role in facilitating the exercise of access rights under the Act and ensuring privacy protection. Handling private information in contracts Privacy and confidentiality are not just regulatory requirements but are central to maintaining trust and integrity in government operations. Ensuring the confidentiality of personal and corporate information is essential for ethical governance and the protection of individual and corporate rights. In the context of government contracts, it is vital to handle individual and corporate private information with the utmost care. This includes personal details in resumes and sensitive corporate information, which could offer or reveal trade secrets or financial information. PSPC must implement robust safeguards to ensure the secure storage and handling of such information, restricting access and distribution strictly to what is necessary. Under no circumstances should a company\u2019s private information or an individual\u2019s personal information be shared with competitors or placed in the public domain without written authorization from the originator of the information. Refer to the Guidance Document: Taking Privacy Into Account Before Making Contracting Decisions whenever personal information is to be handled or accessed by private sector suppliers or agencies under contract. This guidance is crucial to prevent unauthorized use or disclosure of personal information and to ensure compliance with privacy laws and standards.",
+      "plain_text": "Privacy and confidentiality Canada's Policy on Privacy Protection underscores the high regard Canadians hold for their privacy and the protection of their personal information. This expectation mandates that government institutions respect the Privacy Act . It is crucial to read this policy alongside the Policy on Service and Digital , the Directive on Service and Digital , the Policy on Access to Information and related directives to understand all mandatory privacy-related requirements. Government institutions, including parent Crown corporations and any wholly owned subsidiary of these corporations, as defined under section 3 of the Privacy Act , are bound by this policy, with certain exclusions such as the Bank of Canada and information that is excluded under the Act. The Supreme Court of Canada has characterized the Act as \"quasi-constitutional\" because of the role privacy plays in the preservation of a free and democratic society. The commitment of the Government of Canada to protect the privacy of individuals by safeguarding personal information under its control is paramount for maintaining public trust in government. Privacy protection means limiting government interventions into the private lives of Canadians to lawful and necessary purposes and ensuring a high standard of care for personal information under the control of government institutions. The government also has to respond to requests for access to personal information. Sound information management plays a key role in facilitating the exercise of access rights under the Act and ensuring privacy protection. Handling private information in contracts Privacy and confidentiality are not just regulatory requirements but are central to maintaining trust and integrity in government operations. Ensuring the confidentiality of personal and corporate information is essential for ethical governance and the protection of individual and corporate rights. In the context of government contracts, it is vital to handle individual and corporate private information with the utmost care. This includes personal details in resumes and sensitive corporate information, which could offer or reveal trade secrets or financial information. PSPC must implement robust safeguards to ensure the secure storage and handling of such information, restricting access and distribution strictly to what is necessary. Under no circumstances should a company\u2019s private information or an individual\u2019s personal information be shared with competitors or placed in the public domain without written authorization from the originator of the information. Refer to the Guidance Document: Taking Privacy Into Account Before Making Contracting Decisions whenever personal information is to be handled or accessed by private sector suppliers or agencies under contract. This guidance is crucial to prevent unauthorized use or disclosure of personal information and to ensure compliance with privacy laws and standards."
+    },
+    {
+      "block_id": "de04b603024d::b0005",
+      "section_id": "de04b603024d::s003",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Privacy and confidentiality",
+        "Buyer's Guide",
+        "Privacy and confidentiality"
+      ],
+      "markdown": "## Privacy and confidentiality",
+      "plain_text": "Privacy and confidentiality"
+    },
+    {
+      "block_id": "de04b603024d::b0006",
+      "section_id": "de04b603024d::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Privacy and confidentiality",
+        "Buyer's Guide",
+        "Privacy and confidentiality"
+      ],
+      "markdown": "Canada's Policy on Privacy Protection underscores the high regard Canadians hold for their privacy and the protection of their personal information. This expectation mandates that government institutions respect the Privacy Act . It is crucial to read this policy alongside the Policy on Service and Digital , the Directive on Service and Digital , the Policy on Access to Information and related directives to understand all mandatory privacy-related requirements.",
+      "plain_text": "Canada's Policy on Privacy Protection underscores the high regard Canadians hold for their privacy and the protection of their personal information. This expectation mandates that government institutions respect the Privacy Act . It is crucial to read this policy alongside the Policy on Service and Digital , the Directive on Service and Digital , the Policy on Access to Information and related directives to understand all mandatory privacy-related requirements."
+    },
+    {
+      "block_id": "de04b603024d::b0007",
+      "section_id": "de04b603024d::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Privacy and confidentiality",
+        "Buyer's Guide",
+        "Privacy and confidentiality"
+      ],
+      "markdown": "Government institutions, including parent Crown corporations and any wholly owned subsidiary of these corporations, as defined under section 3 of the Privacy Act , are bound by this policy, with certain exclusions such as the Bank of Canada and information that is excluded under the Act. The Supreme Court of Canada has characterized the Act as \"quasi-constitutional\" because of the role privacy plays in the preservation of a free and democratic society.",
+      "plain_text": "Government institutions, including parent Crown corporations and any wholly owned subsidiary of these corporations, as defined under section 3 of the Privacy Act , are bound by this policy, with certain exclusions such as the Bank of Canada and information that is excluded under the Act. The Supreme Court of Canada has characterized the Act as \"quasi-constitutional\" because of the role privacy plays in the preservation of a free and democratic society."
+    },
+    {
+      "block_id": "de04b603024d::b0008",
+      "section_id": "de04b603024d::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Privacy and confidentiality",
+        "Buyer's Guide",
+        "Privacy and confidentiality"
+      ],
+      "markdown": "The commitment of the Government of Canada to protect the privacy of individuals by safeguarding personal information under its control is paramount for maintaining public trust in government. Privacy protection means limiting government interventions into the private lives of Canadians to lawful and necessary purposes and ensuring a high standard of care for personal information under the control of government institutions. The government also has to respond to requests for access to personal information. Sound information management plays a key role in facilitating the exercise of access rights under the Act and ensuring privacy protection.",
+      "plain_text": "The commitment of the Government of Canada to protect the privacy of individuals by safeguarding personal information under its control is paramount for maintaining public trust in government. Privacy protection means limiting government interventions into the private lives of Canadians to lawful and necessary purposes and ensuring a high standard of care for personal information under the control of government institutions. The government also has to respond to requests for access to personal information. Sound information management plays a key role in facilitating the exercise of access rights under the Act and ensuring privacy protection."
+    },
+    {
+      "block_id": "de04b603024d::b0009",
+      "section_id": "de04b603024d::s004",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Privacy and confidentiality",
+        "Buyer's Guide",
+        "Privacy and confidentiality",
+        "Handling private information in contracts"
+      ],
+      "markdown": "### Handling private information in contracts",
+      "plain_text": "Handling private information in contracts"
+    },
+    {
+      "block_id": "de04b603024d::b0010",
+      "section_id": "de04b603024d::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Privacy and confidentiality",
+        "Buyer's Guide",
+        "Privacy and confidentiality",
+        "Handling private information in contracts"
+      ],
+      "markdown": "Privacy and confidentiality are not just regulatory requirements but are central to maintaining trust and integrity in government operations. Ensuring the confidentiality of personal and corporate information is essential for ethical governance and the protection of individual and corporate rights.",
+      "plain_text": "Privacy and confidentiality are not just regulatory requirements but are central to maintaining trust and integrity in government operations. Ensuring the confidentiality of personal and corporate information is essential for ethical governance and the protection of individual and corporate rights."
+    },
+    {
+      "block_id": "de04b603024d::b0011",
+      "section_id": "de04b603024d::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Privacy and confidentiality",
+        "Buyer's Guide",
+        "Privacy and confidentiality",
+        "Handling private information in contracts"
+      ],
+      "markdown": "In the context of government contracts, it is vital to handle individual and corporate private information with the utmost care. This includes personal details in resumes and sensitive corporate information, which could offer or reveal trade secrets or financial information. PSPC must implement robust safeguards to ensure the secure storage and handling of such information, restricting access and distribution strictly to what is necessary. Under no circumstances should a company\u2019s private information or an individual\u2019s personal information be shared with competitors or placed in the public domain without written authorization from the originator of the information.",
+      "plain_text": "In the context of government contracts, it is vital to handle individual and corporate private information with the utmost care. This includes personal details in resumes and sensitive corporate information, which could offer or reveal trade secrets or financial information. PSPC must implement robust safeguards to ensure the secure storage and handling of such information, restricting access and distribution strictly to what is necessary. Under no circumstances should a company\u2019s private information or an individual\u2019s personal information be shared with competitors or placed in the public domain without written authorization from the originator of the information."
+    },
+    {
+      "block_id": "de04b603024d::b0012",
+      "section_id": "de04b603024d::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Privacy and confidentiality",
+        "Buyer's Guide",
+        "Privacy and confidentiality",
+        "Handling private information in contracts"
+      ],
+      "markdown": "Refer to the Guidance Document: Taking Privacy Into Account Before Making Contracting Decisions whenever personal information is to be handled or accessed by private sector suppliers or agencies under contract. This guidance is crucial to prevent unauthorized use or disclosure of personal information and to ensure compliance with privacy laws and standards.",
+      "plain_text": "Refer to the Guidance Document: Taking Privacy Into Account Before Making Contracting Decisions whenever personal information is to be handled or accessed by private sector suppliers or agencies under contract. This guidance is crucial to prevent unauthorized use or disclosure of personal information and to ensure compliance with privacy laws and standards."
+    }
+  ]
+}

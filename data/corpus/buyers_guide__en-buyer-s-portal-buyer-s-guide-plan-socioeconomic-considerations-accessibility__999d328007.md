@@ -1,0 +1,65 @@
+# Buyer's Guide Socioeconomic considerations - Accessibility
+
+# Buyer's Guide
+
+- Plan
+- Approve
+- Create solicitation
+- Solicit
+- Receive and evaluate
+- Negotiate
+- Award
+- Manage
+
+Accessibility Clients, with assistance from Public Services and Procurement Canada (PSPC), are responsible for all four stages of the procurement process, which includes planning, acquisition, utilization, and disposal of goods and services. Things to consider for ensuring accessibility throughout the procurement process include: investing in adaptable goods and services : it's crucial to invest up front in goods and services that are adaptable and can be easily modified to meet various end-user needs, which can lead to cost savings over time establishing performance standards : for products and service categories with a sufficient base of offerors, establishing performance standards can encourage competition. In cases with limited offeror bases, incentives should be provided for surpassing accessibility performance criteria defining contractual terms : contracts should define accessibility obligations clearly, including mandatory accessibility criteria or standards Evaluation indicators for accessibility Following are examples of indicators that should be examined in developing evaluation criteria. Market capacity Assess whether there is sufficient market capacity to incorporate mandatory accessibility criteria in solicitations. Procurement instruments Ensure that procurement instruments, like standing offers and supply arrangements, include technical specifications that address accessibility. Performance testing Consider the usefulness of prototypes or product demonstrations to validate accessibility features Check the availability of a Voluntary Product Accessibility Template to demonstrate product accessibility Evaluate the feasibility of testing the good or service before purchase and how offerors will demonstrate compliance Adaptability Goods and services should be designed with built-in flexibility to ensure they can be easily adapted for different accessibility needs. Accessibility Standards Determine if the goods or services comply with standards for accessibility and if these features are the default settings. For guidance on how to assess and integrate accessibility when defining business needs, developing requirements, issuing a solicitation process and managing deliverables, consult: Guide to Considering Accessibility When Procuring Goods and Services (accessible only on the Government of Canada network) Office of Public Service Accessibility webpage (accessible only on the Government of Canada network) Guide for Including Accessibility in Information and Communication Technology (ICT) Related Procurement Digital Accessibility Toolkit Maintenance Products should be easy to maintain and repair, especially concerning their accessibility features. Ensure that maintenance, add-ons or upgrades are cost-effective and that offerors provide accessible customer service. Packaging Consider if packaging takes into account accessibility (e.g. easy to open). Check if the instructions for using the product/technology are clear and easy to follow, and available in accessible formats.
+
+## Accessibility
+
+Clients, with assistance from Public Services and Procurement Canada (PSPC), are responsible for all four stages of the procurement process, which includes planning, acquisition, utilization, and disposal of goods and services. Things to consider for ensuring accessibility throughout the procurement process include:
+
+- investing in adaptable goods and services : it's crucial to invest up front in goods and services that are adaptable and can be easily modified to meet various end-user needs, which can lead to cost savings over time
+- establishing performance standards : for products and service categories with a sufficient base of offerors, establishing performance standards can encourage competition. In cases with limited offeror bases, incentives should be provided for surpassing accessibility performance criteria
+- defining contractual terms : contracts should define accessibility obligations clearly, including mandatory accessibility criteria or standards
+
+### Evaluation indicators for accessibility
+
+Following are examples of indicators that should be examined in developing evaluation criteria.
+
+#### Market capacity
+
+Assess whether there is sufficient market capacity to incorporate mandatory accessibility criteria in solicitations.
+
+#### Procurement instruments
+
+Ensure that procurement instruments, like standing offers and supply arrangements, include technical specifications that address accessibility.
+
+Performance testing
+
+- Consider the usefulness of prototypes or product demonstrations to validate accessibility features
+- Check the availability of a Voluntary Product Accessibility Template to demonstrate product accessibility
+- Evaluate the feasibility of testing the good or service before purchase and how offerors will demonstrate compliance
+
+#### Adaptability
+
+Goods and services should be designed with built-in flexibility to ensure they can be easily adapted for different accessibility needs.
+
+Accessibility Standards
+
+Determine if the goods or services comply with standards for accessibility and if these features are the default settings.
+
+For guidance on how to assess and integrate accessibility when defining business needs, developing requirements, issuing a solicitation process and managing deliverables, consult:
+
+- Guide to Considering Accessibility When Procuring Goods and Services (accessible only on the Government of Canada network)
+- Office of Public Service Accessibility webpage (accessible only on the Government of Canada network)
+- Guide for Including Accessibility in Information and Communication Technology (ICT) Related Procurement
+- Digital Accessibility Toolkit
+
+#### Maintenance
+
+Products should be easy to maintain and repair, especially concerning their accessibility features. Ensure that maintenance, add-ons or upgrades are cost-effective and that offerors provide accessible customer service.
+
+#### Packaging
+
+Consider if packaging takes into account accessibility (e.g. easy to open).
+
+Check if the instructions for using the product/technology are clear and easy to follow, and available in accessible formats.

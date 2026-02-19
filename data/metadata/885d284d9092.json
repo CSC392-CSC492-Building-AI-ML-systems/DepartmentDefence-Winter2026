@@ -1,0 +1,956 @@
+{
+  "doc_id": "885d284d9092",
+  "title": "Buyer's Guide Other planning considerations - Liability and risk management",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/liability-and-risk-management",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/liability-and-risk-management",
+  "doc_type": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": "2026-02-13",
+  "fetched_at": "2026-02-19T09:17:10.587945+00:00",
+  "content_hash": "560f8c5b6d9fe11761889e9346dd326939e3a5f22807524120154cc6a38f23c9",
+  "word_count": 1488,
+  "text_path": "data/corpus/buyers_guide__en-buyer-s-portal-buyer-s-guide-plan-other-planning-considerations-liability-and-risk-management__885d284d90.md",
+  "extraction_method": "buyers_guide_regions",
+  "breadcrumbs": [
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "https://canadabuys.canada.ca/en",
+      "canonical_url": "https://canadabuys.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "in_scope": true
+    },
+    {
+      "title": "Other planning considerations",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations",
+      "in_scope": true
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations",
+    "parent_doc_id": "256b3c51a8fa",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/liability-and-risk-management"
+    ],
+    "lineage_doc_ids": [
+      "1e29c7881335",
+      "256b3c51a8fa",
+      "885d284d9092"
+    ],
+    "depth": 2,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-accounting-and-pricing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-reimbursable",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/firm-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-time/unit-rate",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/overview-key-pricing-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/price-and-currency-adjustments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/pricing-methods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/provisional-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/types-basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/application-registration",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/completing-security-requirements-check-list",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/controlled-goods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/foreign-ownership-control-or-influence",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/privacy-and-confidentiality",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-international-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-timelines",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/importance-clear-procurement-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/requisition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/review-statement-work",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/socioeconomic-requirements-definition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/standards-and-quality-assurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/choose-method-supply",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/determine-sourcing-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/developing-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/interim-policy-reciprocal-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/trade-agreement-applicability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/early-engagement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-businesses",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-clients",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-subject-matter-experts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/invoicing-instructions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/payment-instruments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/taxes-and-duties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/withholding-non-resident-contractors",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/communicating-method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/developing-selection-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/including-basis-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/specifying-evaluation-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/canadian-general-standards-board",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/compliance-canadian-electrical-code",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/contractor-liability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/emergency-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/employer/employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/fairness-monitoring",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/insurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/intellectual-property-and-copyright",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/managing-urgent-acquisitions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/official-languages-obligation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/warranties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/holdbacks",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/incentives",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/accessibility",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/anti-forced-labour-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/green-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/indigenous-considerations"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-accounting-and-pricing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-reimbursable",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/firm-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-time/unit-rate",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/overview-key-pricing-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/price-and-currency-adjustments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/pricing-methods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/provisional-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/types-basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/application-registration",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/completing-security-requirements-check-list",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/controlled-goods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/foreign-ownership-control-or-influence",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/privacy-and-confidentiality",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-international-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-timelines",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/importance-clear-procurement-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/requisition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/review-statement-work",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/socioeconomic-requirements-definition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/standards-and-quality-assurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/choose-method-supply",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/determine-sourcing-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/developing-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/interim-policy-reciprocal-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/trade-agreement-applicability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/early-engagement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-businesses",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-clients",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-subject-matter-experts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/invoicing-instructions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/payment-instruments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/taxes-and-duties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/withholding-non-resident-contractors",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/communicating-method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/developing-selection-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/including-basis-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/specifying-evaluation-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/canadian-general-standards-board",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/compliance-canadian-electrical-code",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/contractor-liability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/emergency-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/employer/employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/fairness-monitoring",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/insurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/intellectual-property-and-copyright",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/managing-urgent-acquisitions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/official-languages-obligation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/warranties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/holdbacks",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/incentives",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/accessibility",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/anti-forced-labour-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/green-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/indigenous-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure": {
+    "block_count": 35,
+    "section_count": 12,
+    "heading_count": 11,
+    "paragraph_count": 21,
+    "list_count": 3,
+    "table_count": 0
+  },
+  "sections": [
+    {
+      "section_id": "885d284d9092::root",
+      "parent_section_id": null,
+      "level": 0,
+      "heading": "Buyer's Guide Other planning considerations - Liability and risk management",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Liability and risk management"
+      ],
+      "block_count": 0,
+      "word_count": 0,
+      "char_count": 0,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": null,
+      "last_block_index": null,
+      "preview": "",
+      "prev_section_id": null,
+      "next_section_id": null
+    },
+    {
+      "section_id": "885d284d9092::s001",
+      "parent_section_id": "885d284d9092::root",
+      "level": 1,
+      "heading": "Buyer's Guide Other planning considerations - Liability and risk management",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Liability and risk management",
+        "Buyer's Guide Other planning considerations - Liability and risk management"
+      ],
+      "block_count": 1,
+      "word_count": 10,
+      "char_count": 75,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 0,
+      "last_block_index": 0,
+      "preview": "Buyer's Guide Other planning considerations - Liability and risk management",
+      "prev_section_id": null,
+      "next_section_id": "885d284d9092::s002"
+    },
+    {
+      "section_id": "885d284d9092::s002",
+      "parent_section_id": "885d284d9092::root",
+      "level": 1,
+      "heading": "Buyer's Guide",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Liability and risk management",
+        "Buyer's Guide"
+      ],
+      "block_count": 3,
+      "word_count": 745,
+      "char_count": 5133,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 1,
+      "last_block_index": 3,
+      "preview": "Buyer's Guide Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage Liability and risk management The risk management process involves several of the following steps: risk identification and anal",
+      "prev_section_id": "885d284d9092::s001",
+      "next_section_id": "885d284d9092::s003"
+    },
+    {
+      "section_id": "885d284d9092::s003",
+      "parent_section_id": "885d284d9092::s002",
+      "level": 2,
+      "heading": "Liability and risk management",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Liability and risk management",
+        "Buyer's Guide",
+        "Liability and risk management"
+      ],
+      "block_count": 3,
+      "word_count": 38,
+      "char_count": 275,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 4,
+      "last_block_index": 6,
+      "preview": "Liability and risk management The risk management process involves several of the following steps: risk identification and analysis ; examination of risk management techniques ; selection of appropriate techniques ; implementation of select",
+      "prev_section_id": "885d284d9092::s002",
+      "next_section_id": "885d284d9092::s004"
+    },
+    {
+      "section_id": "885d284d9092::s004",
+      "parent_section_id": "885d284d9092::s003",
+      "level": 3,
+      "heading": "Risk assessment",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Liability and risk management",
+        "Buyer's Guide",
+        "Liability and risk management",
+        "Risk assessment"
+      ],
+      "block_count": 2,
+      "word_count": 65,
+      "char_count": 417,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 7,
+      "last_block_index": 8,
+      "preview": "Risk assessment Risk assessment is the process where risks and their potential outcomes are identified and measured according to their probability of occurrence and degree of severity. The outcome produces a report on the quantified value o",
+      "prev_section_id": "885d284d9092::s003",
+      "next_section_id": "885d284d9092::s005"
+    },
+    {
+      "section_id": "885d284d9092::s005",
+      "parent_section_id": "885d284d9092::s004",
+      "level": 4,
+      "heading": "Execution of risk assessments",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Liability and risk management",
+        "Buyer's Guide",
+        "Liability and risk management",
+        "Risk assessment",
+        "Execution of risk assessments"
+      ],
+      "block_count": 2,
+      "word_count": 38,
+      "char_count": 251,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 9,
+      "last_block_index": 10,
+      "preview": "Execution of risk assessments Risk assessments are conducted by client organizations or by a contracted firm under a standing offer (SO). The decision of who conducts the risk assessment will take into account technical capacity, resources ",
+      "prev_section_id": "885d284d9092::s004",
+      "next_section_id": "885d284d9092::s006"
+    },
+    {
+      "section_id": "885d284d9092::s006",
+      "parent_section_id": "885d284d9092::s004",
+      "level": 4,
+      "heading": "Focus",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Liability and risk management",
+        "Buyer's Guide",
+        "Liability and risk management",
+        "Risk assessment",
+        "Focus"
+      ],
+      "block_count": 3,
+      "word_count": 48,
+      "char_count": 308,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 11,
+      "last_block_index": 13,
+      "preview": "Focus The assessment will examine and measure the sources of potential loss (exposures) over which a contractor has control. It can also identify and segregate the exposures over which the client has control. Examples of general exposures i",
+      "prev_section_id": "885d284d9092::s005",
+      "next_section_id": "885d284d9092::s007"
+    },
+    {
+      "section_id": "885d284d9092::s007",
+      "parent_section_id": "885d284d9092::s004",
+      "level": 4,
+      "heading": "Information sources for risk identification",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Liability and risk management",
+        "Buyer's Guide",
+        "Liability and risk management",
+        "Risk assessment",
+        "Information sources for risk identification"
+      ],
+      "block_count": 2,
+      "word_count": 37,
+      "char_count": 259,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 14,
+      "last_block_index": 15,
+      "preview": "Information sources for risk identification The risk assessment will draw on various risks identified by the client. Information on risk can come from a variety of sources, including records, data, questionnaires, surveys, exploratory testi",
+      "prev_section_id": "885d284d9092::s006",
+      "next_section_id": "885d284d9092::s008"
+    },
+    {
+      "section_id": "885d284d9092::s008",
+      "parent_section_id": "885d284d9092::s003",
+      "level": 3,
+      "heading": "Risk control",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Liability and risk management",
+        "Buyer's Guide",
+        "Liability and risk management",
+        "Risk control"
+      ],
+      "block_count": 7,
+      "word_count": 245,
+      "char_count": 1651,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 6,
+      "first_block_index": 16,
+      "last_block_index": 22,
+      "preview": "Risk control Effective risk control requires organizations to develop, implement and maintain robust processes and procedures to avoid, prevent, reduce or transfer losses, ensuring the success and effectiveness of the risk control program. ",
+      "prev_section_id": "885d284d9092::s007",
+      "next_section_id": "885d284d9092::s009"
+    },
+    {
+      "section_id": "885d284d9092::s009",
+      "parent_section_id": "885d284d9092::s003",
+      "level": 3,
+      "heading": "Risk financing",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Liability and risk management",
+        "Buyer's Guide",
+        "Liability and risk management",
+        "Risk financing"
+      ],
+      "block_count": 4,
+      "word_count": 103,
+      "char_count": 707,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 3,
+      "first_block_index": 23,
+      "last_block_index": 26,
+      "preview": "Risk financing Risk financing is the technique through which organizations manage the financial impact of risks and includes various strategies. The most commonly known form of risk financing is insurance. Self-underwriting by Canada is a d",
+      "prev_section_id": "885d284d9092::s008",
+      "next_section_id": "885d284d9092::s010"
+    },
+    {
+      "section_id": "885d284d9092::s010",
+      "parent_section_id": "885d284d9092::s009",
+      "level": 4,
+      "heading": "Risk financing models for contractors",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Liability and risk management",
+        "Buyer's Guide",
+        "Liability and risk management",
+        "Risk financing",
+        "Risk financing models for contractors"
+      ],
+      "block_count": 4,
+      "word_count": 85,
+      "char_count": 603,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 3,
+      "first_block_index": 27,
+      "last_block_index": 30,
+      "preview": "Risk financing models for contractors Insurance transfer : Contractors purchase commercial insurance with standard deductibles, transferring most financial risks to the insurer in exchange for a premium. Self-insured retention : Contractors",
+      "prev_section_id": "885d284d9092::s009",
+      "next_section_id": "885d284d9092::s011"
+    },
+    {
+      "section_id": "885d284d9092::s011",
+      "parent_section_id": "885d284d9092::s003",
+      "level": 3,
+      "heading": "Risk financing options exercised by Canada in contracting",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Liability and risk management",
+        "Buyer's Guide",
+        "Liability and risk management",
+        "Risk financing options exercised by Canada in contracting"
+      ],
+      "block_count": 4,
+      "word_count": 74,
+      "char_count": 537,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 3,
+      "first_block_index": 31,
+      "last_block_index": 34,
+      "preview": "Risk financing options exercised by Canada in contracting Contractor controlled insurance : Canada self-underwrites its own risks and relies upon the contractors judgement to determine their insurance requirements. Government specified insu",
+      "prev_section_id": "885d284d9092::s010",
+      "next_section_id": null
+    }
+  ],
+  "tables": [],
+  "blocks": [
+    {
+      "block_id": "885d284d9092::b0001",
+      "section_id": "885d284d9092::s001",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Liability and risk management",
+        "Buyer's Guide Other planning considerations - Liability and risk management"
+      ],
+      "markdown": "# Buyer's Guide Other planning considerations - Liability and risk management",
+      "plain_text": "Buyer's Guide Other planning considerations - Liability and risk management"
+    },
+    {
+      "block_id": "885d284d9092::b0002",
+      "section_id": "885d284d9092::s002",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Liability and risk management",
+        "Buyer's Guide"
+      ],
+      "markdown": "# Buyer's Guide",
+      "plain_text": "Buyer's Guide"
+    },
+    {
+      "block_id": "885d284d9092::b0003",
+      "section_id": "885d284d9092::s002",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Liability and risk management",
+        "Buyer's Guide"
+      ],
+      "markdown": "- Plan\n- Approve\n- Create solicitation\n- Solicit\n- Receive and evaluate\n- Negotiate\n- Award\n- Manage",
+      "plain_text": "Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage"
+    },
+    {
+      "block_id": "885d284d9092::b0004",
+      "section_id": "885d284d9092::s002",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Liability and risk management",
+        "Buyer's Guide"
+      ],
+      "markdown": "Liability and risk management The risk management process involves several of the following steps: risk identification and analysis examination of risk management techniques selection of appropriate techniques implementation of selected techniques monitoring of results Risk assessment Risk assessment is the process where risks and their potential outcomes are identified and measured according to their probability of occurrence and degree of severity. The outcome produces a report on the quantified value of the risk, and it is used to guide decision-making in the contracting process. The risk assessment is an important tool because it forms the basis of risk-based decision-making. Execution of risk assessments Risk assessments are conducted by client organizations or by a contracted firm under a standing offer (SO). The decision of who conducts the risk assessment will take into account technical capacity, resources and funding. Focus The assessment will examine and measure the sources of potential loss (exposures) over which a contractor has control. It can also identify and segregate the exposures over which the client has control. Examples of general exposures include: property assets legal liabilities personnel reputation Information sources for risk identification The risk assessment will draw on various risks identified by the client. Information on risk can come from a variety of sources, including records, data, questionnaires, surveys, exploratory testing and process maps. Risk control Effective risk control requires organizations to develop, implement and maintain robust processes and procedures to avoid, prevent, reduce or transfer losses, ensuring the success and effectiveness of the risk control program. Loss avoidance involves refraining from various activities because of the severe nature of the risk. For example, a contractor might choose to exit a business line, such as a food services firm discontinuing its tobacco products due to the risk of costly class action lawsuits. Loss prevention aims to prevent losses or reduce their likelihood of occurrence through measures such as engineered or automated processes systems. Examples include intrusion detection and access control. Simpler forms of loss prevention could include using wide-angle mirrors on vehicles to prevent collisions while reversing. Loss reduction focuses on reducing the impact of a loss, after it has occurred. Examples include engineered systems such as automatic fire suppression systems, and the development of business continuity plans or crisis management programs. Transference uses contract conditions to transfer the risk of loss and/or the obligation control loss to a contractor. The most notable form is the contractual requirement for indemnification, which requires contractors to compensate for any losses they cause. Contracts may contain other conditions such as liability for loss, which can be specifically targeted to certain types of loss and the amount of financial obligation. Contractors may be required to manage, monitor and report to clients any losses incurred in the delivery of the contract. See Indemnification . Risk financing Risk financing is the technique through which organizations manage the financial impact of risks and includes various strategies. The most commonly known form of risk financing is insurance. Self-underwriting by Canada is a default approach for its own risk financing because it has the legislative authority and capacity as a sovereign entity to raise funds directly to pay for losses. Contractor responsibility requires contractors to finance risks under their control and will most often involve the commercial insurance market to obtain insurance that is underwritten and financed by insurers, with insurance brokers handling marketing and distribution; although other options are available. Risk financing models for contractors Insurance transfer : Contractors purchase commercial insurance with standard deductibles, transferring most financial risks to the insurer in exchange for a premium. Self-insured retention : Contractors assume financial responsibility to a certain level and transfers risk above that level to insurers. This differs from a deductible because the contractor will manage the retained risk through risk control and self-funding measures. Alternative risk financing : Involves other forms of risk financing sources, such as capital and bond markets or \u201ccaptive\u201d insurance. Risk financing options exercised by Canada in contracting Contractor controlled insurance : Canada self-underwrites its own risks and relies upon the contractors judgement to determine their insurance requirements. Government specified insurance : Canada self-underwrites its own risks and specifies the types and minimum coverage limits of insurance that the contractor must maintain. Government controlled insurance : Canada purchases and controls insurance as a way of obtaining economies of scale in projects involving multiple parties.",
+      "plain_text": "Liability and risk management The risk management process involves several of the following steps: risk identification and analysis examination of risk management techniques selection of appropriate techniques implementation of selected techniques monitoring of results Risk assessment Risk assessment is the process where risks and their potential outcomes are identified and measured according to their probability of occurrence and degree of severity. The outcome produces a report on the quantified value of the risk, and it is used to guide decision-making in the contracting process. The risk assessment is an important tool because it forms the basis of risk-based decision-making. Execution of risk assessments Risk assessments are conducted by client organizations or by a contracted firm under a standing offer (SO). The decision of who conducts the risk assessment will take into account technical capacity, resources and funding. Focus The assessment will examine and measure the sources of potential loss (exposures) over which a contractor has control. It can also identify and segregate the exposures over which the client has control. Examples of general exposures include: property assets legal liabilities personnel reputation Information sources for risk identification The risk assessment will draw on various risks identified by the client. Information on risk can come from a variety of sources, including records, data, questionnaires, surveys, exploratory testing and process maps. Risk control Effective risk control requires organizations to develop, implement and maintain robust processes and procedures to avoid, prevent, reduce or transfer losses, ensuring the success and effectiveness of the risk control program. Loss avoidance involves refraining from various activities because of the severe nature of the risk. For example, a contractor might choose to exit a business line, such as a food services firm discontinuing its tobacco products due to the risk of costly class action lawsuits. Loss prevention aims to prevent losses or reduce their likelihood of occurrence through measures such as engineered or automated processes systems. Examples include intrusion detection and access control. Simpler forms of loss prevention could include using wide-angle mirrors on vehicles to prevent collisions while reversing. Loss reduction focuses on reducing the impact of a loss, after it has occurred. Examples include engineered systems such as automatic fire suppression systems, and the development of business continuity plans or crisis management programs. Transference uses contract conditions to transfer the risk of loss and/or the obligation control loss to a contractor. The most notable form is the contractual requirement for indemnification, which requires contractors to compensate for any losses they cause. Contracts may contain other conditions such as liability for loss, which can be specifically targeted to certain types of loss and the amount of financial obligation. Contractors may be required to manage, monitor and report to clients any losses incurred in the delivery of the contract. See Indemnification . Risk financing Risk financing is the technique through which organizations manage the financial impact of risks and includes various strategies. The most commonly known form of risk financing is insurance. Self-underwriting by Canada is a default approach for its own risk financing because it has the legislative authority and capacity as a sovereign entity to raise funds directly to pay for losses. Contractor responsibility requires contractors to finance risks under their control and will most often involve the commercial insurance market to obtain insurance that is underwritten and financed by insurers, with insurance brokers handling marketing and distribution; although other options are available. Risk financing models for contractors Insurance transfer : Contractors purchase commercial insurance with standard deductibles, transferring most financial risks to the insurer in exchange for a premium. Self-insured retention : Contractors assume financial responsibility to a certain level and transfers risk above that level to insurers. This differs from a deductible because the contractor will manage the retained risk through risk control and self-funding measures. Alternative risk financing : Involves other forms of risk financing sources, such as capital and bond markets or \u201ccaptive\u201d insurance. Risk financing options exercised by Canada in contracting Contractor controlled insurance : Canada self-underwrites its own risks and relies upon the contractors judgement to determine their insurance requirements. Government specified insurance : Canada self-underwrites its own risks and specifies the types and minimum coverage limits of insurance that the contractor must maintain. Government controlled insurance : Canada purchases and controls insurance as a way of obtaining economies of scale in projects involving multiple parties."
+    },
+    {
+      "block_id": "885d284d9092::b0005",
+      "section_id": "885d284d9092::s003",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Liability and risk management",
+        "Buyer's Guide",
+        "Liability and risk management"
+      ],
+      "markdown": "## Liability and risk management",
+      "plain_text": "Liability and risk management"
+    },
+    {
+      "block_id": "885d284d9092::b0006",
+      "section_id": "885d284d9092::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Liability and risk management",
+        "Buyer's Guide",
+        "Liability and risk management"
+      ],
+      "markdown": "The risk management process involves several of the following steps:",
+      "plain_text": "The risk management process involves several of the following steps:"
+    },
+    {
+      "block_id": "885d284d9092::b0007",
+      "section_id": "885d284d9092::s003",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Liability and risk management",
+        "Buyer's Guide",
+        "Liability and risk management"
+      ],
+      "markdown": "- risk identification and analysis\n- examination of risk management techniques\n- selection of appropriate techniques\n- implementation of selected techniques\n- monitoring of results",
+      "plain_text": "risk identification and analysis ; examination of risk management techniques ; selection of appropriate techniques ; implementation of selected techniques ; monitoring of results"
+    },
+    {
+      "block_id": "885d284d9092::b0008",
+      "section_id": "885d284d9092::s004",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Liability and risk management",
+        "Buyer's Guide",
+        "Liability and risk management",
+        "Risk assessment"
+      ],
+      "markdown": "### Risk assessment",
+      "plain_text": "Risk assessment"
+    },
+    {
+      "block_id": "885d284d9092::b0009",
+      "section_id": "885d284d9092::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Liability and risk management",
+        "Buyer's Guide",
+        "Liability and risk management",
+        "Risk assessment"
+      ],
+      "markdown": "Risk assessment is the process where risks and their potential outcomes are identified and measured according to their probability of occurrence and degree of severity. The outcome produces a report on the quantified value of the risk, and it is used to guide decision-making in the contracting process. The risk assessment is an important tool because it forms the basis of risk-based decision-making.",
+      "plain_text": "Risk assessment is the process where risks and their potential outcomes are identified and measured according to their probability of occurrence and degree of severity. The outcome produces a report on the quantified value of the risk, and it is used to guide decision-making in the contracting process. The risk assessment is an important tool because it forms the basis of risk-based decision-making."
+    },
+    {
+      "block_id": "885d284d9092::b0010",
+      "section_id": "885d284d9092::s005",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Liability and risk management",
+        "Buyer's Guide",
+        "Liability and risk management",
+        "Risk assessment",
+        "Execution of risk assessments"
+      ],
+      "markdown": "#### Execution of risk assessments",
+      "plain_text": "Execution of risk assessments"
+    },
+    {
+      "block_id": "885d284d9092::b0011",
+      "section_id": "885d284d9092::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Liability and risk management",
+        "Buyer's Guide",
+        "Liability and risk management",
+        "Risk assessment",
+        "Execution of risk assessments"
+      ],
+      "markdown": "Risk assessments are conducted by client organizations or by a contracted firm under a standing offer (SO). The decision of who conducts the risk assessment will take into account technical capacity, resources and funding.",
+      "plain_text": "Risk assessments are conducted by client organizations or by a contracted firm under a standing offer (SO). The decision of who conducts the risk assessment will take into account technical capacity, resources and funding."
+    },
+    {
+      "block_id": "885d284d9092::b0012",
+      "section_id": "885d284d9092::s006",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Liability and risk management",
+        "Buyer's Guide",
+        "Liability and risk management",
+        "Risk assessment",
+        "Focus"
+      ],
+      "markdown": "#### Focus",
+      "plain_text": "Focus"
+    },
+    {
+      "block_id": "885d284d9092::b0013",
+      "section_id": "885d284d9092::s006",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Liability and risk management",
+        "Buyer's Guide",
+        "Liability and risk management",
+        "Risk assessment",
+        "Focus"
+      ],
+      "markdown": "The assessment will examine and measure the sources of potential loss (exposures) over which a contractor has control. It can also identify and segregate the exposures over which the client has control. Examples of general exposures include:",
+      "plain_text": "The assessment will examine and measure the sources of potential loss (exposures) over which a contractor has control. It can also identify and segregate the exposures over which the client has control. Examples of general exposures include:"
+    },
+    {
+      "block_id": "885d284d9092::b0014",
+      "section_id": "885d284d9092::s006",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Liability and risk management",
+        "Buyer's Guide",
+        "Liability and risk management",
+        "Risk assessment",
+        "Focus"
+      ],
+      "markdown": "- property\n- assets\n- legal liabilities\n- personnel\n- reputation",
+      "plain_text": "property ; assets ; legal liabilities ; personnel ; reputation"
+    },
+    {
+      "block_id": "885d284d9092::b0015",
+      "section_id": "885d284d9092::s007",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Liability and risk management",
+        "Buyer's Guide",
+        "Liability and risk management",
+        "Risk assessment",
+        "Information sources for risk identification"
+      ],
+      "markdown": "#### Information sources for risk identification",
+      "plain_text": "Information sources for risk identification"
+    },
+    {
+      "block_id": "885d284d9092::b0016",
+      "section_id": "885d284d9092::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Liability and risk management",
+        "Buyer's Guide",
+        "Liability and risk management",
+        "Risk assessment",
+        "Information sources for risk identification"
+      ],
+      "markdown": "The risk assessment will draw on various risks identified by the client. Information on risk can come from a variety of sources, including records, data, questionnaires, surveys, exploratory testing and process maps.",
+      "plain_text": "The risk assessment will draw on various risks identified by the client. Information on risk can come from a variety of sources, including records, data, questionnaires, surveys, exploratory testing and process maps."
+    },
+    {
+      "block_id": "885d284d9092::b0017",
+      "section_id": "885d284d9092::s008",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Liability and risk management",
+        "Buyer's Guide",
+        "Liability and risk management",
+        "Risk control"
+      ],
+      "markdown": "### Risk control",
+      "plain_text": "Risk control"
+    },
+    {
+      "block_id": "885d284d9092::b0018",
+      "section_id": "885d284d9092::s008",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Liability and risk management",
+        "Buyer's Guide",
+        "Liability and risk management",
+        "Risk control"
+      ],
+      "markdown": "Effective risk control requires organizations to develop, implement and maintain robust processes and procedures to avoid, prevent, reduce or transfer losses, ensuring the success and effectiveness of the risk control program.",
+      "plain_text": "Effective risk control requires organizations to develop, implement and maintain robust processes and procedures to avoid, prevent, reduce or transfer losses, ensuring the success and effectiveness of the risk control program."
+    },
+    {
+      "block_id": "885d284d9092::b0019",
+      "section_id": "885d284d9092::s008",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Liability and risk management",
+        "Buyer's Guide",
+        "Liability and risk management",
+        "Risk control"
+      ],
+      "markdown": "Loss avoidance involves refraining from various activities because of the severe nature of the risk. For example, a contractor might choose to exit a business line, such as a food services firm discontinuing its tobacco products due to the risk of costly class action lawsuits.",
+      "plain_text": "Loss avoidance involves refraining from various activities because of the severe nature of the risk. For example, a contractor might choose to exit a business line, such as a food services firm discontinuing its tobacco products due to the risk of costly class action lawsuits."
+    },
+    {
+      "block_id": "885d284d9092::b0020",
+      "section_id": "885d284d9092::s008",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Liability and risk management",
+        "Buyer's Guide",
+        "Liability and risk management",
+        "Risk control"
+      ],
+      "markdown": "Loss prevention aims to prevent losses or reduce their likelihood of occurrence through measures such as engineered or automated processes systems. Examples include intrusion detection and access control. Simpler forms of loss prevention could include using wide-angle mirrors on vehicles to prevent collisions while reversing.",
+      "plain_text": "Loss prevention aims to prevent losses or reduce their likelihood of occurrence through measures such as engineered or automated processes systems. Examples include intrusion detection and access control. Simpler forms of loss prevention could include using wide-angle mirrors on vehicles to prevent collisions while reversing."
+    },
+    {
+      "block_id": "885d284d9092::b0021",
+      "section_id": "885d284d9092::s008",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Liability and risk management",
+        "Buyer's Guide",
+        "Liability and risk management",
+        "Risk control"
+      ],
+      "markdown": "Loss reduction focuses on reducing the impact of a loss, after it has occurred. Examples include engineered systems such as automatic fire suppression systems, and the development of business continuity plans or crisis management programs.",
+      "plain_text": "Loss reduction focuses on reducing the impact of a loss, after it has occurred. Examples include engineered systems such as automatic fire suppression systems, and the development of business continuity plans or crisis management programs."
+    },
+    {
+      "block_id": "885d284d9092::b0022",
+      "section_id": "885d284d9092::s008",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Liability and risk management",
+        "Buyer's Guide",
+        "Liability and risk management",
+        "Risk control"
+      ],
+      "markdown": "Transference uses contract conditions to transfer the risk of loss and/or the obligation control loss to a contractor. The most notable form is the contractual requirement for indemnification, which requires contractors to compensate for any losses they cause. Contracts may contain other conditions such as liability for loss, which can be specifically targeted to certain types of loss and the amount of financial obligation. Contractors may be required to manage, monitor and report to clients any losses incurred in the delivery of the contract.",
+      "plain_text": "Transference uses contract conditions to transfer the risk of loss and/or the obligation control loss to a contractor. The most notable form is the contractual requirement for indemnification, which requires contractors to compensate for any losses they cause. Contracts may contain other conditions such as liability for loss, which can be specifically targeted to certain types of loss and the amount of financial obligation. Contractors may be required to manage, monitor and report to clients any losses incurred in the delivery of the contract."
+    },
+    {
+      "block_id": "885d284d9092::b0023",
+      "section_id": "885d284d9092::s008",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Liability and risk management",
+        "Buyer's Guide",
+        "Liability and risk management",
+        "Risk control"
+      ],
+      "markdown": "See Indemnification .",
+      "plain_text": "See Indemnification ."
+    },
+    {
+      "block_id": "885d284d9092::b0024",
+      "section_id": "885d284d9092::s009",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Liability and risk management",
+        "Buyer's Guide",
+        "Liability and risk management",
+        "Risk financing"
+      ],
+      "markdown": "### Risk financing",
+      "plain_text": "Risk financing"
+    },
+    {
+      "block_id": "885d284d9092::b0025",
+      "section_id": "885d284d9092::s009",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Liability and risk management",
+        "Buyer's Guide",
+        "Liability and risk management",
+        "Risk financing"
+      ],
+      "markdown": "Risk financing is the technique through which organizations manage the financial impact of risks and includes various strategies. The most commonly known form of risk financing is insurance.",
+      "plain_text": "Risk financing is the technique through which organizations manage the financial impact of risks and includes various strategies. The most commonly known form of risk financing is insurance."
+    },
+    {
+      "block_id": "885d284d9092::b0026",
+      "section_id": "885d284d9092::s009",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Liability and risk management",
+        "Buyer's Guide",
+        "Liability and risk management",
+        "Risk financing"
+      ],
+      "markdown": "Self-underwriting by Canada is a default approach for its own risk financing because it has the legislative authority and capacity as a sovereign entity to raise funds directly to pay for losses.",
+      "plain_text": "Self-underwriting by Canada is a default approach for its own risk financing because it has the legislative authority and capacity as a sovereign entity to raise funds directly to pay for losses."
+    },
+    {
+      "block_id": "885d284d9092::b0027",
+      "section_id": "885d284d9092::s009",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Liability and risk management",
+        "Buyer's Guide",
+        "Liability and risk management",
+        "Risk financing"
+      ],
+      "markdown": "Contractor responsibility requires contractors to finance risks under their control and will most often involve the commercial insurance market to obtain insurance that is underwritten and financed by insurers, with insurance brokers handling marketing and distribution; although other options are available.",
+      "plain_text": "Contractor responsibility requires contractors to finance risks under their control and will most often involve the commercial insurance market to obtain insurance that is underwritten and financed by insurers, with insurance brokers handling marketing and distribution; although other options are available."
+    },
+    {
+      "block_id": "885d284d9092::b0028",
+      "section_id": "885d284d9092::s010",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Liability and risk management",
+        "Buyer's Guide",
+        "Liability and risk management",
+        "Risk financing",
+        "Risk financing models for contractors"
+      ],
+      "markdown": "#### Risk financing models for contractors",
+      "plain_text": "Risk financing models for contractors"
+    },
+    {
+      "block_id": "885d284d9092::b0029",
+      "section_id": "885d284d9092::s010",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Liability and risk management",
+        "Buyer's Guide",
+        "Liability and risk management",
+        "Risk financing",
+        "Risk financing models for contractors"
+      ],
+      "markdown": "Insurance transfer : Contractors purchase commercial insurance with standard deductibles, transferring most financial risks to the insurer in exchange for a premium.",
+      "plain_text": "Insurance transfer : Contractors purchase commercial insurance with standard deductibles, transferring most financial risks to the insurer in exchange for a premium."
+    },
+    {
+      "block_id": "885d284d9092::b0030",
+      "section_id": "885d284d9092::s010",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Liability and risk management",
+        "Buyer's Guide",
+        "Liability and risk management",
+        "Risk financing",
+        "Risk financing models for contractors"
+      ],
+      "markdown": "Self-insured retention : Contractors assume financial responsibility to a certain level and transfers risk above that level to insurers. This differs from a deductible because the contractor will manage the retained risk through risk control and self-funding measures.",
+      "plain_text": "Self-insured retention : Contractors assume financial responsibility to a certain level and transfers risk above that level to insurers. This differs from a deductible because the contractor will manage the retained risk through risk control and self-funding measures."
+    },
+    {
+      "block_id": "885d284d9092::b0031",
+      "section_id": "885d284d9092::s010",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Liability and risk management",
+        "Buyer's Guide",
+        "Liability and risk management",
+        "Risk financing",
+        "Risk financing models for contractors"
+      ],
+      "markdown": "Alternative risk financing : Involves other forms of risk financing sources, such as capital and bond markets or \u201ccaptive\u201d insurance.",
+      "plain_text": "Alternative risk financing : Involves other forms of risk financing sources, such as capital and bond markets or \u201ccaptive\u201d insurance."
+    },
+    {
+      "block_id": "885d284d9092::b0032",
+      "section_id": "885d284d9092::s011",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Liability and risk management",
+        "Buyer's Guide",
+        "Liability and risk management",
+        "Risk financing options exercised by Canada in contracting"
+      ],
+      "markdown": "### Risk financing options exercised by Canada in contracting",
+      "plain_text": "Risk financing options exercised by Canada in contracting"
+    },
+    {
+      "block_id": "885d284d9092::b0033",
+      "section_id": "885d284d9092::s011",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Liability and risk management",
+        "Buyer's Guide",
+        "Liability and risk management",
+        "Risk financing options exercised by Canada in contracting"
+      ],
+      "markdown": "Contractor controlled insurance : Canada self-underwrites its own risks and relies upon the contractors judgement to determine their insurance requirements.",
+      "plain_text": "Contractor controlled insurance : Canada self-underwrites its own risks and relies upon the contractors judgement to determine their insurance requirements."
+    },
+    {
+      "block_id": "885d284d9092::b0034",
+      "section_id": "885d284d9092::s011",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Liability and risk management",
+        "Buyer's Guide",
+        "Liability and risk management",
+        "Risk financing options exercised by Canada in contracting"
+      ],
+      "markdown": "Government specified insurance : Canada self-underwrites its own risks and specifies the types and minimum coverage limits of insurance that the contractor must maintain.",
+      "plain_text": "Government specified insurance : Canada self-underwrites its own risks and specifies the types and minimum coverage limits of insurance that the contractor must maintain."
+    },
+    {
+      "block_id": "885d284d9092::b0035",
+      "section_id": "885d284d9092::s011",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Liability and risk management",
+        "Buyer's Guide",
+        "Liability and risk management",
+        "Risk financing options exercised by Canada in contracting"
+      ],
+      "markdown": "Government controlled insurance : Canada purchases and controls insurance as a way of obtaining economies of scale in projects involving multiple parties.",
+      "plain_text": "Government controlled insurance : Canada purchases and controls insurance as a way of obtaining economies of scale in projects involving multiple parties."
+    }
+  ]
+}

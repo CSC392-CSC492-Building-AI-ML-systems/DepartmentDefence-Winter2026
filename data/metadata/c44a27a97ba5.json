@@ -1,0 +1,2009 @@
+{
+  "doc_id": "c44a27a97ba5",
+  "title": "Buyer's Guide Considerations for solicitations - Method of payment",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/method-payment",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/method-payment",
+  "doc_type": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": "2026-01-31",
+  "fetched_at": "2026-02-19T09:18:29.827090+00:00",
+  "content_hash": "839a5db8e782e1938ab69ae17d726c6d18cf13c1426e74846435a6c0aed4f188",
+  "word_count": 5269,
+  "text_path": "data/corpus/buyers_guide__en-buyer-s-portal-buyer-s-guide-create-solicitation-considerations-solicitations-method-payment__c44a27a97b.md",
+  "extraction_method": "buyers_guide_regions",
+  "breadcrumbs": [
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "https://canadabuys.canada.ca/en",
+      "canonical_url": "https://canadabuys.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "in_scope": true
+    },
+    {
+      "title": "Create solicitation",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation",
+      "in_scope": true
+    },
+    {
+      "title": "Considerations for solicitations",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations",
+      "in_scope": true
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations",
+    "parent_doc_id": "97810d5c4a87",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/method-payment"
+    ],
+    "lineage_doc_ids": [
+      "1e29c7881335",
+      "2e11d15cd64e",
+      "97810d5c4a87",
+      "c44a27a97ba5"
+    ],
+    "depth": 3,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/invitation-tender",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/preparing-solicitation-documents",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-information",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-quotation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-standing-offer",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-supply-arrangement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/client-review",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/client-review/client-review-elements-solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/audit",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/certifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/delivery-terms",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/exchange-rates",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/offer-receipt",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/phased-offer-compliance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/translation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/minimum-solicitation-periods-itqs-rfsas-and-urgent-procurements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/normal-minimum-solicitation-periods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/solicitations-following-request-expressions-interest",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/advanced-contract-award-notice",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/notice-proposed-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-procurement-strategy-indigenous-business-set-asides",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-trade-agreements"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/invitation-tender",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/preparing-solicitation-documents",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-information",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-quotation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-standing-offer",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-supply-arrangement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/client-review",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/client-review/client-review-elements-solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/audit",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/certifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/delivery-terms",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/exchange-rates",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/offer-receipt",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/phased-offer-compliance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/translation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/minimum-solicitation-periods-itqs-rfsas-and-urgent-procurements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/normal-minimum-solicitation-periods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/solicitations-following-request-expressions-interest",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/advanced-contract-award-notice",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/notice-proposed-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-procurement-strategy-indigenous-business-set-asides",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-trade-agreements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure": {
+    "block_count": 81,
+    "section_count": 27,
+    "heading_count": 26,
+    "paragraph_count": 44,
+    "list_count": 10,
+    "table_count": 1
+  },
+  "sections": [
+    {
+      "section_id": "c44a27a97ba5::root",
+      "parent_section_id": null,
+      "level": 0,
+      "heading": "Buyer's Guide Considerations for solicitations - Method of payment",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment"
+      ],
+      "block_count": 0,
+      "word_count": 0,
+      "char_count": 0,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": null,
+      "last_block_index": null,
+      "preview": "",
+      "prev_section_id": null,
+      "next_section_id": null
+    },
+    {
+      "section_id": "c44a27a97ba5::s001",
+      "parent_section_id": "c44a27a97ba5::root",
+      "level": 1,
+      "heading": "Buyer's Guide Considerations for solicitations - Method of payment",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide Considerations for solicitations - Method of payment"
+      ],
+      "block_count": 1,
+      "word_count": 9,
+      "char_count": 66,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 0,
+      "last_block_index": 0,
+      "preview": "Buyer's Guide Considerations for solicitations - Method of payment",
+      "prev_section_id": null,
+      "next_section_id": "c44a27a97ba5::s002"
+    },
+    {
+      "section_id": "c44a27a97ba5::s002",
+      "parent_section_id": "c44a27a97ba5::root",
+      "level": 1,
+      "heading": "Buyer's Guide",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide"
+      ],
+      "block_count": 3,
+      "word_count": 2616,
+      "char_count": 17147,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 1,
+      "last_block_index": 3,
+      "preview": "Buyer's Guide Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage Method of payment The method of payment is the way Canada will pay for work performed or goods delivered, as all arrears (prefe",
+      "prev_section_id": "c44a27a97ba5::s001",
+      "next_section_id": "c44a27a97ba5::s003"
+    },
+    {
+      "section_id": "c44a27a97ba5::s003",
+      "parent_section_id": "c44a27a97ba5::s002",
+      "level": 2,
+      "heading": "Method of payment",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment"
+      ],
+      "block_count": 2,
+      "word_count": 55,
+      "char_count": 359,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 4,
+      "last_block_index": 5,
+      "preview": "Method of payment The method of payment is the way Canada will pay for work performed or goods delivered, as all arrears (preferred), in advance, as a lot delivery or as each item are delivered. This section provides guidelines for determin",
+      "prev_section_id": "c44a27a97ba5::s002",
+      "next_section_id": "c44a27a97ba5::s004"
+    },
+    {
+      "section_id": "c44a27a97ba5::s004",
+      "parent_section_id": "c44a27a97ba5::s003",
+      "level": 3,
+      "heading": "Determining method of payment",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Determining method of payment"
+      ],
+      "block_count": 3,
+      "word_count": 45,
+      "char_count": 307,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 2,
+      "first_block_index": 6,
+      "last_block_index": 8,
+      "preview": "Determining method of payment Choosing the appropriate method of payment allows you to manage finances responsibly, manage risks, and comply with Canada's financial policies. The most appropriate method of payment must be determined based o",
+      "prev_section_id": "c44a27a97ba5::s003",
+      "next_section_id": "c44a27a97ba5::s005"
+    },
+    {
+      "section_id": "c44a27a97ba5::s005",
+      "parent_section_id": "c44a27a97ba5::s004",
+      "level": 4,
+      "heading": "Risk assessment",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Determining method of payment",
+        "Risk assessment"
+      ],
+      "block_count": 2,
+      "word_count": 64,
+      "char_count": 404,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 9,
+      "last_block_index": 10,
+      "preview": "Risk assessment Evaluate the financial risks to Canada in scenarios like insolvency, or cancellation of, or default on work. Assess the marketability and potential resale value of work-in-progress against the total of progress payments made",
+      "prev_section_id": "c44a27a97ba5::s004",
+      "next_section_id": "c44a27a97ba5::s006"
+    },
+    {
+      "section_id": "c44a27a97ba5::s006",
+      "parent_section_id": "c44a27a97ba5::s004",
+      "level": 4,
+      "heading": "Financing cost estimates",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Determining method of payment",
+        "Financing cost estimates"
+      ],
+      "block_count": 2,
+      "word_count": 53,
+      "char_count": 352,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 11,
+      "last_block_index": 12,
+      "preview": "Financing cost estimates For advance or progress payments, calculate the associated financing costs by applying the chartered bank prime lending rate to the cumulative net amount to be financed (i.e. the cumulative cash payout by Canada, le",
+      "prev_section_id": "c44a27a97ba5::s005",
+      "next_section_id": "c44a27a97ba5::s007"
+    },
+    {
+      "section_id": "c44a27a97ba5::s007",
+      "parent_section_id": "c44a27a97ba5::s004",
+      "level": 4,
+      "heading": "Price reduction evaluation",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Determining method of payment",
+        "Price reduction evaluation"
+      ],
+      "block_count": 2,
+      "word_count": 36,
+      "char_count": 244,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 13,
+      "last_block_index": 14,
+      "preview": "Price reduction evaluation Consider how the method of payment could influence the overall contract price. Advance or progress payments, which reduce the contractor's need for external financing, are expected to result in cost savings for Ca",
+      "prev_section_id": "c44a27a97ba5::s006",
+      "next_section_id": "c44a27a97ba5::s008"
+    },
+    {
+      "section_id": "c44a27a97ba5::s008",
+      "parent_section_id": "c44a27a97ba5::s004",
+      "level": 4,
+      "heading": "Financial capacity assessment",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Determining method of payment",
+        "Financial capacity assessment"
+      ],
+      "block_count": 2,
+      "word_count": 17,
+      "char_count": 120,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 15,
+      "last_block_index": 16,
+      "preview": "Financial capacity assessment Confirm that the client possesses adequate funds to support the selected method of payment.",
+      "prev_section_id": "c44a27a97ba5::s007",
+      "next_section_id": "c44a27a97ba5::s009"
+    },
+    {
+      "section_id": "c44a27a97ba5::s009",
+      "parent_section_id": "c44a27a97ba5::s003",
+      "level": 3,
+      "heading": "Types of method of payment",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment"
+      ],
+      "block_count": 2,
+      "word_count": 30,
+      "char_count": 193,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 17,
+      "last_block_index": 18,
+      "preview": "Types of method of payment Various methods of payment can be applied depending on the contract's specifics and the client's financial situation. The following are examples of methods of payment.",
+      "prev_section_id": "c44a27a97ba5::s008",
+      "next_section_id": "c44a27a97ba5::s010"
+    },
+    {
+      "section_id": "c44a27a97ba5::s010",
+      "parent_section_id": "c44a27a97ba5::s009",
+      "level": 4,
+      "heading": "Acquisition card",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Acquisition card"
+      ],
+      "block_count": 3,
+      "word_count": 103,
+      "char_count": 685,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 2,
+      "first_block_index": 19,
+      "last_block_index": 21,
+      "preview": "Acquisition card The intent of acquisition cards is to provide a convenient and less burdensome method of procuring and paying for goods and services, while ensuring effective financial control. It is government policy to use acquisition ca",
+      "prev_section_id": "c44a27a97ba5::s009",
+      "next_section_id": "c44a27a97ba5::s011"
+    },
+    {
+      "section_id": "c44a27a97ba5::s011",
+      "parent_section_id": "c44a27a97ba5::s010",
+      "level": 5,
+      "heading": "Acquisition card management",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Acquisition card",
+        "Acquisition card management"
+      ],
+      "block_count": 9,
+      "word_count": 379,
+      "char_count": 2464,
+      "table_count": 0,
+      "list_count": 2,
+      "paragraph_count": 6,
+      "first_block_index": 22,
+      "last_block_index": 30,
+      "preview": "Acquisition card management The acquisition card has been in the forefront of most procurement and payment process improvements in client departments. The increasing use of acquisition cards has had an impact on the traditional paper based ",
+      "prev_section_id": "c44a27a97ba5::s010",
+      "next_section_id": "c44a27a97ba5::s012"
+    },
+    {
+      "section_id": "c44a27a97ba5::s012",
+      "parent_section_id": "c44a27a97ba5::s009",
+      "level": 4,
+      "heading": "Single payment",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Single payment"
+      ],
+      "block_count": 2,
+      "word_count": 33,
+      "char_count": 239,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 31,
+      "last_block_index": 32,
+      "preview": "Single payment Appropriate for contracts where payment is issued upon the complete fulfillment of work and deliveries. This method demands comprehensive verification to ensure all contractual obligations are met before payment is disbursed.",
+      "prev_section_id": "c44a27a97ba5::s011",
+      "next_section_id": "c44a27a97ba5::s013"
+    },
+    {
+      "section_id": "c44a27a97ba5::s013",
+      "parent_section_id": "c44a27a97ba5::s009",
+      "level": 4,
+      "heading": "Multiple payments",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Multiple payments"
+      ],
+      "block_count": 2,
+      "word_count": 27,
+      "char_count": 191,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 33,
+      "last_block_index": 34,
+      "preview": "Multiple payments Suitable for contracts with multiple delivery points, where payments are made following the completion of each delivery phase. This method helps manage cash flow effectively.",
+      "prev_section_id": "c44a27a97ba5::s012",
+      "next_section_id": "c44a27a97ba5::s014"
+    },
+    {
+      "section_id": "c44a27a97ba5::s014",
+      "parent_section_id": "c44a27a97ba5::s009",
+      "level": 4,
+      "heading": "Special considerations for foreign purchases",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Special considerations for foreign purchases"
+      ],
+      "block_count": 3,
+      "word_count": 112,
+      "char_count": 686,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 2,
+      "first_block_index": 35,
+      "last_block_index": 37,
+      "preview": "Special considerations for foreign purchases In the case of United States purchases, progress payments or other payments on account have an effect on the application of taxes, relating to the time and place of ownership being transferred to",
+      "prev_section_id": "c44a27a97ba5::s013",
+      "next_section_id": "c44a27a97ba5::s015"
+    },
+    {
+      "section_id": "c44a27a97ba5::s015",
+      "parent_section_id": "c44a27a97ba5::s009",
+      "level": 4,
+      "heading": "Progress or advanced payments",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Progress or advanced payments"
+      ],
+      "block_count": 8,
+      "word_count": 358,
+      "char_count": 2267,
+      "table_count": 0,
+      "list_count": 3,
+      "paragraph_count": 4,
+      "first_block_index": 38,
+      "last_block_index": 45,
+      "preview": "Progress or advanced payments Recommended for contracts requiring significant initial investment or those of a prolonged nature. Payments are disbursed as predetermined milestones are achieved. In all cases payments must be aligned with the",
+      "prev_section_id": "c44a27a97ba5::s014",
+      "next_section_id": "c44a27a97ba5::s016"
+    },
+    {
+      "section_id": "c44a27a97ba5::s016",
+      "parent_section_id": "c44a27a97ba5::s015",
+      "level": 5,
+      "heading": "Progress payments",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Progress or advanced payments",
+        "Progress payments"
+      ],
+      "block_count": 6,
+      "word_count": 287,
+      "char_count": 1820,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 5,
+      "first_block_index": 46,
+      "last_block_index": 51,
+      "preview": "Progress payments In the case of a progress payment, the ownership of the materials or work-in-process will be transferred to Canada upon making such payment. When a progress payment is to be used; milestones, when possible, should be speci",
+      "prev_section_id": "c44a27a97ba5::s015",
+      "next_section_id": "c44a27a97ba5::s017"
+    },
+    {
+      "section_id": "c44a27a97ba5::s017",
+      "parent_section_id": "c44a27a97ba5::s015",
+      "level": 5,
+      "heading": "Advance payments",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Progress or advanced payments",
+        "Advance payments"
+      ],
+      "block_count": 2,
+      "word_count": 46,
+      "char_count": 343,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 52,
+      "last_block_index": 53,
+      "preview": "Advance payments This section outlines the circumstances under which advance payments should be considered, aligning with Treasury Board (TB ) guidelines and specific considerations for different contract values and contexts. It also addres",
+      "prev_section_id": "c44a27a97ba5::s016",
+      "next_section_id": "c44a27a97ba5::s018"
+    },
+    {
+      "section_id": "c44a27a97ba5::s018",
+      "parent_section_id": "c44a27a97ba5::s015",
+      "level": 5,
+      "heading": "Criteria for advance payments",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Progress or advanced payments",
+        "Criteria for advance payments"
+      ],
+      "block_count": 6,
+      "word_count": 178,
+      "char_count": 1104,
+      "table_count": 0,
+      "list_count": 2,
+      "paragraph_count": 3,
+      "first_block_index": 54,
+      "last_block_index": 59,
+      "preview": "Criteria for advance payments You may consider advance payments only under extraordinary circumstances. Your decision process and requirements will vary based on the nature of the contract and it\u2019s value. For contracts for services exceedin",
+      "prev_section_id": "c44a27a97ba5::s017",
+      "next_section_id": "c44a27a97ba5::s019"
+    },
+    {
+      "section_id": "c44a27a97ba5::s019",
+      "parent_section_id": "c44a27a97ba5::s015",
+      "level": 5,
+      "heading": "Cash discount considerations",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Progress or advanced payments",
+        "Cash discount considerations"
+      ],
+      "block_count": 3,
+      "word_count": 56,
+      "char_count": 332,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 2,
+      "first_block_index": 60,
+      "last_block_index": 62,
+      "preview": "Cash discount considerations For all contracts, except those for advertising, payment may be made in advance of the due date when the contractor offers a cash discount for advance payment and the discount at least offsets the cost to Canada",
+      "prev_section_id": "c44a27a97ba5::s018",
+      "next_section_id": "c44a27a97ba5::s020"
+    },
+    {
+      "section_id": "c44a27a97ba5::s020",
+      "parent_section_id": "c44a27a97ba5::s015",
+      "level": 5,
+      "heading": "Special considerations for foreign purchases",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Progress or advanced payments",
+        "Special considerations for foreign purchases"
+      ],
+      "block_count": 2,
+      "word_count": 80,
+      "char_count": 511,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 63,
+      "last_block_index": 64,
+      "preview": "Special considerations for foreign purchases In the context of purchases from the government of the United States (US) through the Foreign Military Sales (FMS) program, advance payments are mandated by US law prior to the commencement of de",
+      "prev_section_id": "c44a27a97ba5::s019",
+      "next_section_id": "c44a27a97ba5::s021"
+    },
+    {
+      "section_id": "c44a27a97ba5::s021",
+      "parent_section_id": "c44a27a97ba5::s015",
+      "level": 5,
+      "heading": "How to use progress payments",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Progress or advanced payments",
+        "How to use progress payments"
+      ],
+      "block_count": 2,
+      "word_count": 26,
+      "char_count": 165,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 65,
+      "last_block_index": 66,
+      "preview": "How to use progress payments Progress payments play a crucial role in managing contract finances, providing a structured approach to paying for work as it progresses.",
+      "prev_section_id": "c44a27a97ba5::s020",
+      "next_section_id": "c44a27a97ba5::s022"
+    },
+    {
+      "section_id": "c44a27a97ba5::s022",
+      "parent_section_id": "c44a27a97ba5::s015",
+      "level": 5,
+      "heading": "Implementing progress payments",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Progress or advanced payments",
+        "Implementing progress payments"
+      ],
+      "block_count": 4,
+      "word_count": 281,
+      "char_count": 1963,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 2,
+      "first_block_index": 67,
+      "last_block_index": 70,
+      "preview": "Implementing progress payments The following guidance outlines the different types of progress payments. It provides information on how to use them effectively to ensure alignment with government policies and contract requirements. Key char",
+      "prev_section_id": "c44a27a97ba5::s021",
+      "next_section_id": "c44a27a97ba5::s023"
+    },
+    {
+      "section_id": "c44a27a97ba5::s023",
+      "parent_section_id": "c44a27a97ba5::s015",
+      "level": 5,
+      "heading": "Holdbacks",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Progress or advanced payments",
+        "Holdbacks"
+      ],
+      "block_count": 2,
+      "word_count": 34,
+      "char_count": 249,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 71,
+      "last_block_index": 72,
+      "preview": "Holdbacks Holdbacks are vital for mitigating risks of overpayment and encouraging contract completion. You are required to integrate holdbacks in contracts with progress payments, but you may exercise discretion for contracts with milestone",
+      "prev_section_id": "c44a27a97ba5::s022",
+      "next_section_id": "c44a27a97ba5::s024"
+    },
+    {
+      "section_id": "c44a27a97ba5::s024",
+      "parent_section_id": "c44a27a97ba5::s015",
+      "level": 5,
+      "heading": "Specifying limits on payments for contracts involving progress payments",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Progress or advanced payments",
+        "Specifying limits on payments for contracts involving progress payments"
+      ],
+      "block_count": 2,
+      "word_count": 34,
+      "char_count": 252,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 73,
+      "last_block_index": 74,
+      "preview": "Specifying limits on payments for contracts involving progress payments Contracts involving progress payments adhere to distinct limits on allowable costs, purchases of materials and profit calculations. These limits vary depending on types",
+      "prev_section_id": "c44a27a97ba5::s023",
+      "next_section_id": "c44a27a97ba5::s025"
+    },
+    {
+      "section_id": "c44a27a97ba5::s025",
+      "parent_section_id": "c44a27a97ba5::s015",
+      "level": 5,
+      "heading": "Payment limits based on contract type",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Progress or advanced payments",
+        "Payment limits based on contract type"
+      ],
+      "block_count": 3,
+      "word_count": 187,
+      "char_count": 1019,
+      "table_count": 1,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 75,
+      "last_block_index": 77,
+      "preview": "Payment limits based on contract type Column 1 | Column 2 | Column 3 | Column 4 | Column 5 ; Contract | Total allowable costs | Purchased accountable advance materials | Goods and services tax/harmonized sales tax | Profit ; Firm price with",
+      "prev_section_id": "c44a27a97ba5::s024",
+      "next_section_id": "c44a27a97ba5::s026"
+    },
+    {
+      "section_id": "c44a27a97ba5::s026",
+      "parent_section_id": "c44a27a97ba5::s003",
+      "level": 3,
+      "heading": "Deciding on a method of payment",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Deciding on a method of payment"
+      ],
+      "block_count": 3,
+      "word_count": 123,
+      "char_count": 763,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 78,
+      "last_block_index": 80,
+      "preview": "Deciding on a method of payment The timing for making decisions relating to the method of payment to be used varies with the solicitation method employed: For an Invitation to Tender (ITT) , the method of payment must be selected, before is",
+      "prev_section_id": "c44a27a97ba5::s025",
+      "next_section_id": null
+    }
+  ],
+  "tables": [
+    {
+      "table_id": "c44a27a97ba5::t001",
+      "section_id": "c44a27a97ba5::s025",
+      "row_count": 7,
+      "column_count": 5,
+      "headers": [
+        "Column 1",
+        "Column 2",
+        "Column 3",
+        "Column 4",
+        "Column 5"
+      ],
+      "sample_rows": [
+        [
+          "Contract",
+          "Total allowable costs",
+          "Purchased accountable advance materials",
+          "Goods and services tax/harmonized sales tax",
+          "Profit"
+        ],
+        [
+          "Firm price with milestone payments",
+          "Up to 100% of negotiated milestones",
+          "Nil",
+          "Nil",
+          "Nil"
+        ],
+        [
+          "Firm price with progress payment based on negotiated cost",
+          "Up to 90%",
+          "100%",
+          "If payable",
+          "Pro rata"
+        ],
+        [
+          "Cost reimbursable",
+          "Up to 90%",
+          "100%",
+          "If payable",
+          "Pro rata"
+        ],
+        [
+          "Fixed time rate",
+          "Up to 90%",
+          "100%",
+          "If payable",
+          "Pro rata"
+        ],
+        [
+          "Price to be negotiated \u2013 Based on previous year\u2019s rates/prices",
+          "Up to 100%",
+          "100%",
+          "If payable",
+          "Pro rata"
+        ]
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "block_id": "c44a27a97ba5::b0001",
+      "section_id": "c44a27a97ba5::s001",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide Considerations for solicitations - Method of payment"
+      ],
+      "markdown": "# Buyer's Guide Considerations for solicitations - Method of payment",
+      "plain_text": "Buyer's Guide Considerations for solicitations - Method of payment"
+    },
+    {
+      "block_id": "c44a27a97ba5::b0002",
+      "section_id": "c44a27a97ba5::s002",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide"
+      ],
+      "markdown": "# Buyer's Guide",
+      "plain_text": "Buyer's Guide"
+    },
+    {
+      "block_id": "c44a27a97ba5::b0003",
+      "section_id": "c44a27a97ba5::s002",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide"
+      ],
+      "markdown": "- Plan\n- Approve\n- Create solicitation\n- Solicit\n- Receive and evaluate\n- Negotiate\n- Award\n- Manage",
+      "plain_text": "Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage"
+    },
+    {
+      "block_id": "c44a27a97ba5::b0004",
+      "section_id": "c44a27a97ba5::s002",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide"
+      ],
+      "markdown": "Method of payment The method of payment is the way Canada will pay for work performed or goods delivered, as all arrears (preferred), in advance, as a lot delivery or as each item are delivered. This section provides guidelines for determining the method of payment, including special considerations for multi-fiscal year contracts and international purchases. Determining method of payment Choosing the appropriate method of payment allows you to manage finances responsibly, manage risks, and comply with Canada's financial policies. The most appropriate method of payment must be determined based on the particular procurement. Here are some key elements to consider. Risk assessment Evaluate the financial risks to Canada in scenarios like insolvency, or cancellation of, or default on work. Assess the marketability and potential resale value of work-in-progress against the total of progress payments made by Canada to measure the risk. The disparity between the amount of progress payments and the resale value of inventory is a measure of the risk exposure for Canada. Financing cost estimates For advance or progress payments, calculate the associated financing costs by applying the chartered bank prime lending rate to the cumulative net amount to be financed (i.e. the cumulative cash payout by Canada, less the cumulative value of item deliveries) based on realistic estimates of work progress and delivery timelines. Price reduction evaluation Consider how the method of payment could influence the overall contract price. Advance or progress payments, which reduce the contractor's need for external financing, are expected to result in cost savings for Canada. Financial capacity assessment Confirm that the client possesses adequate funds to support the selected method of payment. Types of method of payment Various methods of payment can be applied depending on the contract's specifics and the client's financial situation. The following are examples of methods of payment. Acquisition card The intent of acquisition cards is to provide a convenient and less burdensome method of procuring and paying for goods and services, while ensuring effective financial control. It is government policy to use acquisition cards for departmental procurement and payment of goods and services (within the levels of procurement authority delegated to departments) where it is efficient, economical and operationally feasible to do so. This policy applies to all organizations considered to be departments within the meaning of section 2 of the Financial Administration Act . See Treasury Board (TB) Directive on Payments for more information on payment by acquisition cards. Acquisition card management The acquisition card has been in the forefront of most procurement and payment process improvements in client departments. The increasing use of acquisition cards has had an impact on the traditional paper based control framework. The Office of the Auditor General conducted a government-wide review of acquisition card usage, and the report stressed the need for better controls and better monitoring by departments. \"Corporate acquisition cards\" are designed to help eliminate paper in the procurement process. These cards allow an employee to charge purchases for which full payment is made by the department to the applicable card provider. There is no fee for the cards and conditional discounts can be obtained in exchange for faster and/or electronic settlement. Like a personal credit card: the cardholder receives a monthly statement listing purchases each cardholder is assigned a credit limit, and suppliers receive 97 to 98.5 percent of the purchase price within two days of purchase Unlike a personal credit card: the department is obligated to pay either individual invoices for each card or one \"consolidated\" bill summarizing monthly purchases made by all cardholders there is a defined maximum liability of $50 to the department in the event of fraudulent use there is special application of financial authorities, and a department can obtain access to all card transactions The card is issued in the name of the employee designated to do the purchasing; however, the liability rests with the sponsoring department. Most important, the dollar amount of purchases and monthly limits associated with acquisition cards are controlled by the card-using organization. The use of acquisition cards within federal government departments and agencies offers very significant opportunities for savings in the procurement through payment process. Clients can reduce and simplify the procurement process of goods and services using acquisition cards. Local purchase orders and petty cash are eliminated and a single payment is made for multiple purchases. The ease and flexibility of using the cards provide an incentive to purchase only as the need arises rather than buying in bulk. By using an acquisition card to make the purchase and then settling these purchases electronically, departments can realize significant savings. Taken across government, this approach allows for major cost avoidance in the procurement process. Single payment Appropriate for contracts where payment is issued upon the complete fulfillment of work and deliveries. This method demands comprehensive verification to ensure all contractual obligations are met before payment is disbursed. Multiple payments Suitable for contracts with multiple delivery points, where payments are made following the completion of each delivery phase. This method helps manage cash flow effectively. Special considerations for foreign purchases In the case of United States purchases, progress payments or other payments on account have an effect on the application of taxes, relating to the time and place of ownership being transferred to Canada. Legal Services should be consulted to ensure that appropriate terms in the contract protect against unnecessary taxes. For other foreign purchases, where progress payments or other payments on account are granted, a check should be made to determine if the application of sales, use, or some other form of tax is related to the time and place of ownership being transferred to Canada. If this is the case, Legal Services must be consulted. Progress or advanced payments Recommended for contracts requiring significant initial investment or those of a prolonged nature. Payments are disbursed as predetermined milestones are achieved. In all cases payments must be aligned with the fiscal year in which goods or services are received. Additionally, the following conditions must be met: provision of adequate security for the payment assurance that the value Canada receives aligns with the payment amount, and verification that the client\u2019s budget can accommodate the financing needs And at least one of the following circumstances exists: there is economic advantage to Canada that clearly outweighs the financing cost associated with the progress payment or advance payment the contractor may face financial hardship or only secure financing with difficulty or at high, uneconomical rates compared to current bank prime lending rates the contract's value is deemed to exceed the contractor's assessed financial capabilities the contract has a long performance duration, or there is an established tradition or practice in the industry of receiving progress or advance payments from the purchaser Note: Contracts with long durations or in industries with traditions of advance payments may require tailored payment schedules to match project milestones or industry norms In the case of subscriptions or insurance premiums, which are often for a term of one full year and which may not start exactly on April 1, payments can be restricted to goods or services provided in no more than the current and next fiscal years. For instance, a publication subscription paid in February 2009 cannot cover a period beyond March 2010 For multi-year contracts, buyers can negotiate the payment of a series of separate advances covering each fiscal year. Thus, a payment can be made for a maintenance contract, for the period of a contract, from February to March 2009, and then another payment covering the period from April 2009 to March 2010 In the extremely rare and exceptional circumstance, such as armament purchases or extended warranty service, where up-front payments covering more than one fiscal year are required the buyer can determine if an advance payment is unavoidable and can be substantiated Progress payments In the case of a progress payment, the ownership of the materials or work-in-process will be transferred to Canada upon making such payment. When a progress payment is to be used; milestones, when possible, should be specified to relate payments to measurable progress on the contract. Technical or other contractual achievement yardsticks may be used as milestones. Milestone payment is a form of progress payment addressed under the policy related to progress payments. The value of each milestone should be negotiated before contract award. When progress payments against milestones are not possible because of the nature of the contract, progress payments may be made at set periods of time on a calendar basis (time payment method), or based upon the actual costs incurred for material purchases and the partial completion of work, as certified by company and government inspectors. A combination of milestone and cost incurred progress payments is also possible for different phases of the contract. The combination method can be used, for example, to pay incurred costs in the early stages of a major procurement when it would be difficult to define milestones, with payments for later and more definable stages of the production process made against specified milestone achievements. If milestone or cost incurred progress payments are not possible, the time payment method of making progress payments should be used with caution. The overriding requirement for use of this method is the existence of a project progress monitoring and control system, to provide the contracting officer with reliable indicators of the actual value of work accomplished when a payment is due. With the exception of rental and service contracts, the time payment method must be approved at the director level or above. Advance payments This section outlines the circumstances under which advance payments should be considered, aligning with Treasury Board (TB ) guidelines and specific considerations for different contract values and contexts. It also addresses the requirements for guarantees, cash discounts and special conditions related to foreign purchases. Criteria for advance payments You may consider advance payments only under extraordinary circumstances. Your decision process and requirements will vary based on the nature of the contract and it\u2019s value. For contracts for services exceeding $25,000 : a form of guarantee from a financially strong third party is necessary to protect any advance payment the guarantee usually takes the form of a surety bond from an associated or parent company or a financial institution, or an irrevocable letter of credit from a Canadian bank. It should provide for return to Canada of the unliquidated balance of the advance, plus interest, in the event of work cancellation or other contract termination for Canada\u2019s convenient. Other types of guarantees may be discussed with a cost analyst the need for guarantees can be waived only with a strong business case For contracts for services valued up to $25,000: you may waive the requirement for security, if the contractor has a positive industry reputation, and where no significant financial or performance issues have been recorded in past engagements with Canada Cash discount considerations For all contracts, except those for advertising, payment may be made in advance of the due date when the contractor offers a cash discount for advance payment and the discount at least offsets the cost to Canada for early payment. Note: Cash discounts are not to be considered in the evaluation of offers. Special considerations for foreign purchases In the context of purchases from the government of the United States (US) through the Foreign Military Sales (FMS) program, advance payments are mandated by US law prior to the commencement of delivery for goods and services to a foreign-based contractor. In this case, Treasury Board has approved the standard conditions for FMS sales from the US Government. For any deviation from standard conditions for these sales, you must seek approval from the Treasury Board. How to use progress payments Progress payments play a crucial role in managing contract finances, providing a structured approach to paying for work as it progresses. Implementing progress payments The following guidance outlines the different types of progress payments. It provides information on how to use them effectively to ensure alignment with government policies and contract requirements. Key characteristics include: Ownership transfer: Making a progress payment results in the transfer of ownership for materials or work-in-progress to Canada, according to specified general contract conditions. Milestone payments : This form of progress payments involves payments associated with clearly defined milestones, aligning them with measurable contract progress. You should establish and agree on these milestones, acting as technical or contractual benchmarks, before awarding the contract. For contracts involving milestone payments against a set schedule, you should utilize specified clauses and forms, incorporating holdback conditions as applicable. Alternative methods of payment : When milestone payments are not feasible, you should consider progress payments based on set time periods or actual costs incurred for materials and partial work completion, verified through inspections. Various clauses are available for different types of contracts, including those for goods, services and maintenance, to facilitate payments based on incurred costs or work completion over time. Combining methods of payment: It is possible to blend milestone and cost-incurred payment strategies for different phases of a contract. This approach is particularly useful for managing payments in the initial stages of procurement or when later stages are marked by clear milestones. Fixed interval payments: To be used with caution. When using progress payments based on the passage of time, you must monitor diligently to ensure payments reflect the actual value of work completed. This method must be approved at the director-level, with the exception of rental and service contracts, where monthly payments are the standard. Holdbacks Holdbacks are vital for mitigating risks of overpayment and encouraging contract completion. You are required to integrate holdbacks in contracts with progress payments, but you may exercise discretion for contracts with milestone payments. Specifying limits on payments for contracts involving progress payments Contracts involving progress payments adhere to distinct limits on allowable costs, purchases of materials and profit calculations. These limits vary depending on types of contract. Payment limits based on contract type Contract Total allowable costs Purchased accountable advance materials Goods and services tax/harmonized sales tax Profit Firm price with milestone payments Up to 100% of negotiated milestones Nil Nil Nil Firm price with progress payment based on negotiated cost Up to 90% 100% If payable Pro rata Cost reimbursable Up to 90% 100% If payable Pro rata Fixed time rate Up to 90% 100% If payable Pro rata Price to be negotiated \u2013 Based on previous year\u2019s rates/prices Up to 100% 100% If payable Pro rata Prices to be negotiated \u2013 all other contracts Up to 75% 100% If payable Pro rata You may consider exceptions to these payment ceilings under certain conditions, such as when trade practices support exceptions, for organizations not receiving profit or fee, or when alternative financial protections are employed , for example, security deposits (government guaranteed bonds, bills of exchange, irrevocable standby letters of credit) or surety bonds . Deciding on a method of payment The timing for making decisions relating to the method of payment to be used varies with the solicitation method employed: For an Invitation to Tender (ITT) , the method of payment must be selected, before issuing and included in the solicitation documents. Financing costs will not constitute an evaluation factor For competitive solicitations , the solicitation will clearly specify that any requirement on the part of the supplier for receipt of progress or advance payments will constitute an evaluation criterion. When evaluating offers, the cost to Canada of providing the progress payments or advance payments will be taken into account, as will the risk of exposure from the method of payment, and the availability of funds",
+      "plain_text": "Method of payment The method of payment is the way Canada will pay for work performed or goods delivered, as all arrears (preferred), in advance, as a lot delivery or as each item are delivered. This section provides guidelines for determining the method of payment, including special considerations for multi-fiscal year contracts and international purchases. Determining method of payment Choosing the appropriate method of payment allows you to manage finances responsibly, manage risks, and comply with Canada's financial policies. The most appropriate method of payment must be determined based on the particular procurement. Here are some key elements to consider. Risk assessment Evaluate the financial risks to Canada in scenarios like insolvency, or cancellation of, or default on work. Assess the marketability and potential resale value of work-in-progress against the total of progress payments made by Canada to measure the risk. The disparity between the amount of progress payments and the resale value of inventory is a measure of the risk exposure for Canada. Financing cost estimates For advance or progress payments, calculate the associated financing costs by applying the chartered bank prime lending rate to the cumulative net amount to be financed (i.e. the cumulative cash payout by Canada, less the cumulative value of item deliveries) based on realistic estimates of work progress and delivery timelines. Price reduction evaluation Consider how the method of payment could influence the overall contract price. Advance or progress payments, which reduce the contractor's need for external financing, are expected to result in cost savings for Canada. Financial capacity assessment Confirm that the client possesses adequate funds to support the selected method of payment. Types of method of payment Various methods of payment can be applied depending on the contract's specifics and the client's financial situation. The following are examples of methods of payment. Acquisition card The intent of acquisition cards is to provide a convenient and less burdensome method of procuring and paying for goods and services, while ensuring effective financial control. It is government policy to use acquisition cards for departmental procurement and payment of goods and services (within the levels of procurement authority delegated to departments) where it is efficient, economical and operationally feasible to do so. This policy applies to all organizations considered to be departments within the meaning of section 2 of the Financial Administration Act . See Treasury Board (TB) Directive on Payments for more information on payment by acquisition cards. Acquisition card management The acquisition card has been in the forefront of most procurement and payment process improvements in client departments. The increasing use of acquisition cards has had an impact on the traditional paper based control framework. The Office of the Auditor General conducted a government-wide review of acquisition card usage, and the report stressed the need for better controls and better monitoring by departments. \"Corporate acquisition cards\" are designed to help eliminate paper in the procurement process. These cards allow an employee to charge purchases for which full payment is made by the department to the applicable card provider. There is no fee for the cards and conditional discounts can be obtained in exchange for faster and/or electronic settlement. Like a personal credit card: the cardholder receives a monthly statement listing purchases each cardholder is assigned a credit limit, and suppliers receive 97 to 98.5 percent of the purchase price within two days of purchase Unlike a personal credit card: the department is obligated to pay either individual invoices for each card or one \"consolidated\" bill summarizing monthly purchases made by all cardholders there is a defined maximum liability of $50 to the department in the event of fraudulent use there is special application of financial authorities, and a department can obtain access to all card transactions The card is issued in the name of the employee designated to do the purchasing; however, the liability rests with the sponsoring department. Most important, the dollar amount of purchases and monthly limits associated with acquisition cards are controlled by the card-using organization. The use of acquisition cards within federal government departments and agencies offers very significant opportunities for savings in the procurement through payment process. Clients can reduce and simplify the procurement process of goods and services using acquisition cards. Local purchase orders and petty cash are eliminated and a single payment is made for multiple purchases. The ease and flexibility of using the cards provide an incentive to purchase only as the need arises rather than buying in bulk. By using an acquisition card to make the purchase and then settling these purchases electronically, departments can realize significant savings. Taken across government, this approach allows for major cost avoidance in the procurement process. Single payment Appropriate for contracts where payment is issued upon the complete fulfillment of work and deliveries. This method demands comprehensive verification to ensure all contractual obligations are met before payment is disbursed. Multiple payments Suitable for contracts with multiple delivery points, where payments are made following the completion of each delivery phase. This method helps manage cash flow effectively. Special considerations for foreign purchases In the case of United States purchases, progress payments or other payments on account have an effect on the application of taxes, relating to the time and place of ownership being transferred to Canada. Legal Services should be consulted to ensure that appropriate terms in the contract protect against unnecessary taxes. For other foreign purchases, where progress payments or other payments on account are granted, a check should be made to determine if the application of sales, use, or some other form of tax is related to the time and place of ownership being transferred to Canada. If this is the case, Legal Services must be consulted. Progress or advanced payments Recommended for contracts requiring significant initial investment or those of a prolonged nature. Payments are disbursed as predetermined milestones are achieved. In all cases payments must be aligned with the fiscal year in which goods or services are received. Additionally, the following conditions must be met: provision of adequate security for the payment assurance that the value Canada receives aligns with the payment amount, and verification that the client\u2019s budget can accommodate the financing needs And at least one of the following circumstances exists: there is economic advantage to Canada that clearly outweighs the financing cost associated with the progress payment or advance payment the contractor may face financial hardship or only secure financing with difficulty or at high, uneconomical rates compared to current bank prime lending rates the contract's value is deemed to exceed the contractor's assessed financial capabilities the contract has a long performance duration, or there is an established tradition or practice in the industry of receiving progress or advance payments from the purchaser Note: Contracts with long durations or in industries with traditions of advance payments may require tailored payment schedules to match project milestones or industry norms In the case of subscriptions or insurance premiums, which are often for a term of one full year and which may not start exactly on April 1, payments can be restricted to goods or services provided in no more than the current and next fiscal years. For instance, a publication subscription paid in February 2009 cannot cover a period beyond March 2010 For multi-year contracts, buyers can negotiate the payment of a series of separate advances covering each fiscal year. Thus, a payment can be made for a maintenance contract, for the period of a contract, from February to March 2009, and then another payment covering the period from April 2009 to March 2010 In the extremely rare and exceptional circumstance, such as armament purchases or extended warranty service, where up-front payments covering more than one fiscal year are required the buyer can determine if an advance payment is unavoidable and can be substantiated Progress payments In the case of a progress payment, the ownership of the materials or work-in-process will be transferred to Canada upon making such payment. When a progress payment is to be used; milestones, when possible, should be specified to relate payments to measurable progress on the contract. Technical or other contractual achievement yardsticks may be used as milestones. Milestone payment is a form of progress payment addressed under the policy related to progress payments. The value of each milestone should be negotiated before contract award. When progress payments against milestones are not possible because of the nature of the contract, progress payments may be made at set periods of time on a calendar basis (time payment method), or based upon the actual costs incurred for material purchases and the partial completion of work, as certified by company and government inspectors. A combination of milestone and cost incurred progress payments is also possible for different phases of the contract. The combination method can be used, for example, to pay incurred costs in the early stages of a major procurement when it would be difficult to define milestones, with payments for later and more definable stages of the production process made against specified milestone achievements. If milestone or cost incurred progress payments are not possible, the time payment method of making progress payments should be used with caution. The overriding requirement for use of this method is the existence of a project progress monitoring and control system, to provide the contracting officer with reliable indicators of the actual value of work accomplished when a payment is due. With the exception of rental and service contracts, the time payment method must be approved at the director level or above. Advance payments This section outlines the circumstances under which advance payments should be considered, aligning with Treasury Board (TB ) guidelines and specific considerations for different contract values and contexts. It also addresses the requirements for guarantees, cash discounts and special conditions related to foreign purchases. Criteria for advance payments You may consider advance payments only under extraordinary circumstances. Your decision process and requirements will vary based on the nature of the contract and it\u2019s value. For contracts for services exceeding $25,000 : a form of guarantee from a financially strong third party is necessary to protect any advance payment the guarantee usually takes the form of a surety bond from an associated or parent company or a financial institution, or an irrevocable letter of credit from a Canadian bank. It should provide for return to Canada of the unliquidated balance of the advance, plus interest, in the event of work cancellation or other contract termination for Canada\u2019s convenient. Other types of guarantees may be discussed with a cost analyst the need for guarantees can be waived only with a strong business case For contracts for services valued up to $25,000: you may waive the requirement for security, if the contractor has a positive industry reputation, and where no significant financial or performance issues have been recorded in past engagements with Canada Cash discount considerations For all contracts, except those for advertising, payment may be made in advance of the due date when the contractor offers a cash discount for advance payment and the discount at least offsets the cost to Canada for early payment. Note: Cash discounts are not to be considered in the evaluation of offers. Special considerations for foreign purchases In the context of purchases from the government of the United States (US) through the Foreign Military Sales (FMS) program, advance payments are mandated by US law prior to the commencement of delivery for goods and services to a foreign-based contractor. In this case, Treasury Board has approved the standard conditions for FMS sales from the US Government. For any deviation from standard conditions for these sales, you must seek approval from the Treasury Board. How to use progress payments Progress payments play a crucial role in managing contract finances, providing a structured approach to paying for work as it progresses. Implementing progress payments The following guidance outlines the different types of progress payments. It provides information on how to use them effectively to ensure alignment with government policies and contract requirements. Key characteristics include: Ownership transfer: Making a progress payment results in the transfer of ownership for materials or work-in-progress to Canada, according to specified general contract conditions. Milestone payments : This form of progress payments involves payments associated with clearly defined milestones, aligning them with measurable contract progress. You should establish and agree on these milestones, acting as technical or contractual benchmarks, before awarding the contract. For contracts involving milestone payments against a set schedule, you should utilize specified clauses and forms, incorporating holdback conditions as applicable. Alternative methods of payment : When milestone payments are not feasible, you should consider progress payments based on set time periods or actual costs incurred for materials and partial work completion, verified through inspections. Various clauses are available for different types of contracts, including those for goods, services and maintenance, to facilitate payments based on incurred costs or work completion over time. Combining methods of payment: It is possible to blend milestone and cost-incurred payment strategies for different phases of a contract. This approach is particularly useful for managing payments in the initial stages of procurement or when later stages are marked by clear milestones. Fixed interval payments: To be used with caution. When using progress payments based on the passage of time, you must monitor diligently to ensure payments reflect the actual value of work completed. This method must be approved at the director-level, with the exception of rental and service contracts, where monthly payments are the standard. Holdbacks Holdbacks are vital for mitigating risks of overpayment and encouraging contract completion. You are required to integrate holdbacks in contracts with progress payments, but you may exercise discretion for contracts with milestone payments. Specifying limits on payments for contracts involving progress payments Contracts involving progress payments adhere to distinct limits on allowable costs, purchases of materials and profit calculations. These limits vary depending on types of contract. Payment limits based on contract type Contract Total allowable costs Purchased accountable advance materials Goods and services tax/harmonized sales tax Profit Firm price with milestone payments Up to 100% of negotiated milestones Nil Nil Nil Firm price with progress payment based on negotiated cost Up to 90% 100% If payable Pro rata Cost reimbursable Up to 90% 100% If payable Pro rata Fixed time rate Up to 90% 100% If payable Pro rata Price to be negotiated \u2013 Based on previous year\u2019s rates/prices Up to 100% 100% If payable Pro rata Prices to be negotiated \u2013 all other contracts Up to 75% 100% If payable Pro rata You may consider exceptions to these payment ceilings under certain conditions, such as when trade practices support exceptions, for organizations not receiving profit or fee, or when alternative financial protections are employed , for example, security deposits (government guaranteed bonds, bills of exchange, irrevocable standby letters of credit) or surety bonds . Deciding on a method of payment The timing for making decisions relating to the method of payment to be used varies with the solicitation method employed: For an Invitation to Tender (ITT) , the method of payment must be selected, before issuing and included in the solicitation documents. Financing costs will not constitute an evaluation factor For competitive solicitations , the solicitation will clearly specify that any requirement on the part of the supplier for receipt of progress or advance payments will constitute an evaluation criterion. When evaluating offers, the cost to Canada of providing the progress payments or advance payments will be taken into account, as will the risk of exposure from the method of payment, and the availability of funds"
+    },
+    {
+      "block_id": "c44a27a97ba5::b0005",
+      "section_id": "c44a27a97ba5::s003",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment"
+      ],
+      "markdown": "## Method of payment",
+      "plain_text": "Method of payment"
+    },
+    {
+      "block_id": "c44a27a97ba5::b0006",
+      "section_id": "c44a27a97ba5::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment"
+      ],
+      "markdown": "The method of payment is the way Canada will pay for work performed or goods delivered, as all arrears (preferred), in advance, as a lot delivery or as each item are delivered. This section provides guidelines for determining the method of payment, including special considerations for multi-fiscal year contracts and international purchases.",
+      "plain_text": "The method of payment is the way Canada will pay for work performed or goods delivered, as all arrears (preferred), in advance, as a lot delivery or as each item are delivered. This section provides guidelines for determining the method of payment, including special considerations for multi-fiscal year contracts and international purchases."
+    },
+    {
+      "block_id": "c44a27a97ba5::b0007",
+      "section_id": "c44a27a97ba5::s004",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Determining method of payment"
+      ],
+      "markdown": "### Determining method of payment",
+      "plain_text": "Determining method of payment"
+    },
+    {
+      "block_id": "c44a27a97ba5::b0008",
+      "section_id": "c44a27a97ba5::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Determining method of payment"
+      ],
+      "markdown": "Choosing the appropriate method of payment allows you to manage finances responsibly, manage risks, and comply with Canada's financial policies.",
+      "plain_text": "Choosing the appropriate method of payment allows you to manage finances responsibly, manage risks, and comply with Canada's financial policies."
+    },
+    {
+      "block_id": "c44a27a97ba5::b0009",
+      "section_id": "c44a27a97ba5::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Determining method of payment"
+      ],
+      "markdown": "The most appropriate method of payment must be determined based on the particular procurement. Here are some key elements to consider.",
+      "plain_text": "The most appropriate method of payment must be determined based on the particular procurement. Here are some key elements to consider."
+    },
+    {
+      "block_id": "c44a27a97ba5::b0010",
+      "section_id": "c44a27a97ba5::s005",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Determining method of payment",
+        "Risk assessment"
+      ],
+      "markdown": "#### Risk assessment",
+      "plain_text": "Risk assessment"
+    },
+    {
+      "block_id": "c44a27a97ba5::b0011",
+      "section_id": "c44a27a97ba5::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Determining method of payment",
+        "Risk assessment"
+      ],
+      "markdown": "Evaluate the financial risks to Canada in scenarios like insolvency, or cancellation of, or default on work. Assess the marketability and potential resale value of work-in-progress against the total of progress payments made by Canada to measure the risk. The disparity between the amount of progress payments and the resale value of inventory is a measure of the risk exposure for Canada.",
+      "plain_text": "Evaluate the financial risks to Canada in scenarios like insolvency, or cancellation of, or default on work. Assess the marketability and potential resale value of work-in-progress against the total of progress payments made by Canada to measure the risk. The disparity between the amount of progress payments and the resale value of inventory is a measure of the risk exposure for Canada."
+    },
+    {
+      "block_id": "c44a27a97ba5::b0012",
+      "section_id": "c44a27a97ba5::s006",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Determining method of payment",
+        "Financing cost estimates"
+      ],
+      "markdown": "#### Financing cost estimates",
+      "plain_text": "Financing cost estimates"
+    },
+    {
+      "block_id": "c44a27a97ba5::b0013",
+      "section_id": "c44a27a97ba5::s006",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Determining method of payment",
+        "Financing cost estimates"
+      ],
+      "markdown": "For advance or progress payments, calculate the associated financing costs by applying the chartered bank prime lending rate to the cumulative net amount to be financed (i.e. the cumulative cash payout by Canada, less the cumulative value of item deliveries) based on realistic estimates of work progress and delivery timelines.",
+      "plain_text": "For advance or progress payments, calculate the associated financing costs by applying the chartered bank prime lending rate to the cumulative net amount to be financed (i.e. the cumulative cash payout by Canada, less the cumulative value of item deliveries) based on realistic estimates of work progress and delivery timelines."
+    },
+    {
+      "block_id": "c44a27a97ba5::b0014",
+      "section_id": "c44a27a97ba5::s007",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Determining method of payment",
+        "Price reduction evaluation"
+      ],
+      "markdown": "#### Price reduction evaluation",
+      "plain_text": "Price reduction evaluation"
+    },
+    {
+      "block_id": "c44a27a97ba5::b0015",
+      "section_id": "c44a27a97ba5::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Determining method of payment",
+        "Price reduction evaluation"
+      ],
+      "markdown": "Consider how the method of payment could influence the overall contract price. Advance or progress payments, which reduce the contractor's need for external financing, are expected to result in cost savings for Canada.",
+      "plain_text": "Consider how the method of payment could influence the overall contract price. Advance or progress payments, which reduce the contractor's need for external financing, are expected to result in cost savings for Canada."
+    },
+    {
+      "block_id": "c44a27a97ba5::b0016",
+      "section_id": "c44a27a97ba5::s008",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Determining method of payment",
+        "Financial capacity assessment"
+      ],
+      "markdown": "#### Financial capacity assessment",
+      "plain_text": "Financial capacity assessment"
+    },
+    {
+      "block_id": "c44a27a97ba5::b0017",
+      "section_id": "c44a27a97ba5::s008",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Determining method of payment",
+        "Financial capacity assessment"
+      ],
+      "markdown": "Confirm that the client possesses adequate funds to support the selected method of payment.",
+      "plain_text": "Confirm that the client possesses adequate funds to support the selected method of payment."
+    },
+    {
+      "block_id": "c44a27a97ba5::b0018",
+      "section_id": "c44a27a97ba5::s009",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment"
+      ],
+      "markdown": "### Types of method of payment",
+      "plain_text": "Types of method of payment"
+    },
+    {
+      "block_id": "c44a27a97ba5::b0019",
+      "section_id": "c44a27a97ba5::s009",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment"
+      ],
+      "markdown": "Various methods of payment can be applied depending on the contract's specifics and the client's financial situation. The following are examples of methods of payment.",
+      "plain_text": "Various methods of payment can be applied depending on the contract's specifics and the client's financial situation. The following are examples of methods of payment."
+    },
+    {
+      "block_id": "c44a27a97ba5::b0020",
+      "section_id": "c44a27a97ba5::s010",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Acquisition card"
+      ],
+      "markdown": "#### Acquisition card",
+      "plain_text": "Acquisition card"
+    },
+    {
+      "block_id": "c44a27a97ba5::b0021",
+      "section_id": "c44a27a97ba5::s010",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Acquisition card"
+      ],
+      "markdown": "The intent of acquisition cards is to provide a convenient and less burdensome method of procuring and paying for goods and services, while ensuring effective financial control. It is government policy to use acquisition cards for departmental procurement and payment of goods and services (within the levels of procurement authority delegated to departments) where it is efficient, economical and operationally feasible to do so. This policy applies to all organizations considered to be departments within the meaning of section 2 of the Financial Administration Act .",
+      "plain_text": "The intent of acquisition cards is to provide a convenient and less burdensome method of procuring and paying for goods and services, while ensuring effective financial control. It is government policy to use acquisition cards for departmental procurement and payment of goods and services (within the levels of procurement authority delegated to departments) where it is efficient, economical and operationally feasible to do so. This policy applies to all organizations considered to be departments within the meaning of section 2 of the Financial Administration Act ."
+    },
+    {
+      "block_id": "c44a27a97ba5::b0022",
+      "section_id": "c44a27a97ba5::s010",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Acquisition card"
+      ],
+      "markdown": "See Treasury Board (TB) Directive on Payments for more information on payment by acquisition cards.",
+      "plain_text": "See Treasury Board (TB) Directive on Payments for more information on payment by acquisition cards."
+    },
+    {
+      "block_id": "c44a27a97ba5::b0023",
+      "section_id": "c44a27a97ba5::s011",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Acquisition card",
+        "Acquisition card management"
+      ],
+      "markdown": "##### Acquisition card management",
+      "plain_text": "Acquisition card management"
+    },
+    {
+      "block_id": "c44a27a97ba5::b0024",
+      "section_id": "c44a27a97ba5::s011",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Acquisition card",
+        "Acquisition card management"
+      ],
+      "markdown": "The acquisition card has been in the forefront of most procurement and payment process improvements in client departments. The increasing use of acquisition cards has had an impact on the traditional paper based control framework. The Office of the Auditor General conducted a government-wide review of acquisition card usage, and the report stressed the need for better controls and better monitoring by departments.",
+      "plain_text": "The acquisition card has been in the forefront of most procurement and payment process improvements in client departments. The increasing use of acquisition cards has had an impact on the traditional paper based control framework. The Office of the Auditor General conducted a government-wide review of acquisition card usage, and the report stressed the need for better controls and better monitoring by departments."
+    },
+    {
+      "block_id": "c44a27a97ba5::b0025",
+      "section_id": "c44a27a97ba5::s011",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Acquisition card",
+        "Acquisition card management"
+      ],
+      "markdown": "\"Corporate acquisition cards\" are designed to help eliminate paper in the procurement process. These cards allow an employee to charge purchases for which full payment is made by the department to the applicable card provider. There is no fee for the cards and conditional discounts can be obtained in exchange for faster and/or electronic settlement.",
+      "plain_text": "\"Corporate acquisition cards\" are designed to help eliminate paper in the procurement process. These cards allow an employee to charge purchases for which full payment is made by the department to the applicable card provider. There is no fee for the cards and conditional discounts can be obtained in exchange for faster and/or electronic settlement."
+    },
+    {
+      "block_id": "c44a27a97ba5::b0026",
+      "section_id": "c44a27a97ba5::s011",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Acquisition card",
+        "Acquisition card management"
+      ],
+      "markdown": "Like a personal credit card:",
+      "plain_text": "Like a personal credit card:"
+    },
+    {
+      "block_id": "c44a27a97ba5::b0027",
+      "section_id": "c44a27a97ba5::s011",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Acquisition card",
+        "Acquisition card management"
+      ],
+      "markdown": "- the cardholder receives a monthly statement listing purchases\n- each cardholder is assigned a credit limit, and\n- suppliers receive 97 to 98.5 percent of the purchase price within two days of purchase",
+      "plain_text": "the cardholder receives a monthly statement listing purchases ; each cardholder is assigned a credit limit, and ; suppliers receive 97 to 98.5 percent of the purchase price within two days of purchase"
+    },
+    {
+      "block_id": "c44a27a97ba5::b0028",
+      "section_id": "c44a27a97ba5::s011",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Acquisition card",
+        "Acquisition card management"
+      ],
+      "markdown": "Unlike a personal credit card:",
+      "plain_text": "Unlike a personal credit card:"
+    },
+    {
+      "block_id": "c44a27a97ba5::b0029",
+      "section_id": "c44a27a97ba5::s011",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Acquisition card",
+        "Acquisition card management"
+      ],
+      "markdown": "- the department is obligated to pay either individual invoices for each card or one \"consolidated\" bill summarizing monthly purchases made by all cardholders\n- there is a defined maximum liability of $50 to the department in the event of fraudulent use\n- there is special application of financial authorities, and\n- a department can obtain access to all card transactions",
+      "plain_text": "the department is obligated to pay either individual invoices for each card or one \"consolidated\" bill summarizing monthly purchases made by all cardholders ; there is a defined maximum liability of $50 to the department in the event of fraudulent use ; there is special application of financial authorities, and ; a department can obtain access to all card transactions"
+    },
+    {
+      "block_id": "c44a27a97ba5::b0030",
+      "section_id": "c44a27a97ba5::s011",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Acquisition card",
+        "Acquisition card management"
+      ],
+      "markdown": "The card is issued in the name of the employee designated to do the purchasing; however, the liability rests with the sponsoring department. Most important, the dollar amount of purchases and monthly limits associated with acquisition cards are controlled by the card-using organization.",
+      "plain_text": "The card is issued in the name of the employee designated to do the purchasing; however, the liability rests with the sponsoring department. Most important, the dollar amount of purchases and monthly limits associated with acquisition cards are controlled by the card-using organization."
+    },
+    {
+      "block_id": "c44a27a97ba5::b0031",
+      "section_id": "c44a27a97ba5::s011",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Acquisition card",
+        "Acquisition card management"
+      ],
+      "markdown": "The use of acquisition cards within federal government departments and agencies offers very significant opportunities for savings in the procurement through payment process. Clients can reduce and simplify the procurement process of goods and services using acquisition cards. Local purchase orders and petty cash are eliminated and a single payment is made for multiple purchases. The ease and flexibility of using the cards provide an incentive to purchase only as the need arises rather than buying in bulk. By using an acquisition card to make the purchase and then settling these purchases electronically, departments can realize significant savings. Taken across government, this approach allows for major cost avoidance in the procurement process.",
+      "plain_text": "The use of acquisition cards within federal government departments and agencies offers very significant opportunities for savings in the procurement through payment process. Clients can reduce and simplify the procurement process of goods and services using acquisition cards. Local purchase orders and petty cash are eliminated and a single payment is made for multiple purchases. The ease and flexibility of using the cards provide an incentive to purchase only as the need arises rather than buying in bulk. By using an acquisition card to make the purchase and then settling these purchases electronically, departments can realize significant savings. Taken across government, this approach allows for major cost avoidance in the procurement process."
+    },
+    {
+      "block_id": "c44a27a97ba5::b0032",
+      "section_id": "c44a27a97ba5::s012",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Single payment"
+      ],
+      "markdown": "#### Single payment",
+      "plain_text": "Single payment"
+    },
+    {
+      "block_id": "c44a27a97ba5::b0033",
+      "section_id": "c44a27a97ba5::s012",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Single payment"
+      ],
+      "markdown": "Appropriate for contracts where payment is issued upon the complete fulfillment of work and deliveries. This method demands comprehensive verification to ensure all contractual obligations are met before payment is disbursed.",
+      "plain_text": "Appropriate for contracts where payment is issued upon the complete fulfillment of work and deliveries. This method demands comprehensive verification to ensure all contractual obligations are met before payment is disbursed."
+    },
+    {
+      "block_id": "c44a27a97ba5::b0034",
+      "section_id": "c44a27a97ba5::s013",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Multiple payments"
+      ],
+      "markdown": "#### Multiple payments",
+      "plain_text": "Multiple payments"
+    },
+    {
+      "block_id": "c44a27a97ba5::b0035",
+      "section_id": "c44a27a97ba5::s013",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Multiple payments"
+      ],
+      "markdown": "Suitable for contracts with multiple delivery points, where payments are made following the completion of each delivery phase. This method helps manage cash flow effectively.",
+      "plain_text": "Suitable for contracts with multiple delivery points, where payments are made following the completion of each delivery phase. This method helps manage cash flow effectively."
+    },
+    {
+      "block_id": "c44a27a97ba5::b0036",
+      "section_id": "c44a27a97ba5::s014",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Special considerations for foreign purchases"
+      ],
+      "markdown": "#### Special considerations for foreign purchases",
+      "plain_text": "Special considerations for foreign purchases"
+    },
+    {
+      "block_id": "c44a27a97ba5::b0037",
+      "section_id": "c44a27a97ba5::s014",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Special considerations for foreign purchases"
+      ],
+      "markdown": "In the case of United States purchases, progress payments or other payments on account have an effect on the application of taxes, relating to the time and place of ownership being transferred to Canada. Legal Services should be consulted to ensure that appropriate terms in the contract protect against unnecessary taxes.",
+      "plain_text": "In the case of United States purchases, progress payments or other payments on account have an effect on the application of taxes, relating to the time and place of ownership being transferred to Canada. Legal Services should be consulted to ensure that appropriate terms in the contract protect against unnecessary taxes."
+    },
+    {
+      "block_id": "c44a27a97ba5::b0038",
+      "section_id": "c44a27a97ba5::s014",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Special considerations for foreign purchases"
+      ],
+      "markdown": "For other foreign purchases, where progress payments or other payments on account are granted, a check should be made to determine if the application of sales, use, or some other form of tax is related to the time and place of ownership being transferred to Canada. If this is the case, Legal Services must be consulted.",
+      "plain_text": "For other foreign purchases, where progress payments or other payments on account are granted, a check should be made to determine if the application of sales, use, or some other form of tax is related to the time and place of ownership being transferred to Canada. If this is the case, Legal Services must be consulted."
+    },
+    {
+      "block_id": "c44a27a97ba5::b0039",
+      "section_id": "c44a27a97ba5::s015",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Progress or advanced payments"
+      ],
+      "markdown": "#### Progress or advanced payments",
+      "plain_text": "Progress or advanced payments"
+    },
+    {
+      "block_id": "c44a27a97ba5::b0040",
+      "section_id": "c44a27a97ba5::s015",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Progress or advanced payments"
+      ],
+      "markdown": "Recommended for contracts requiring significant initial investment or those of a prolonged nature. Payments are disbursed as predetermined milestones are achieved.",
+      "plain_text": "Recommended for contracts requiring significant initial investment or those of a prolonged nature. Payments are disbursed as predetermined milestones are achieved."
+    },
+    {
+      "block_id": "c44a27a97ba5::b0041",
+      "section_id": "c44a27a97ba5::s015",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Progress or advanced payments"
+      ],
+      "markdown": "In all cases payments must be aligned with the fiscal year in which goods or services are received. Additionally, the following conditions must be met:",
+      "plain_text": "In all cases payments must be aligned with the fiscal year in which goods or services are received. Additionally, the following conditions must be met:"
+    },
+    {
+      "block_id": "c44a27a97ba5::b0042",
+      "section_id": "c44a27a97ba5::s015",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Progress or advanced payments"
+      ],
+      "markdown": "- provision of adequate security for the payment\n- assurance that the value Canada receives aligns with the payment amount, and\n- verification that the client\u2019s budget can accommodate the financing needs",
+      "plain_text": "provision of adequate security for the payment ; assurance that the value Canada receives aligns with the payment amount, and ; verification that the client\u2019s budget can accommodate the financing needs"
+    },
+    {
+      "block_id": "c44a27a97ba5::b0043",
+      "section_id": "c44a27a97ba5::s015",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Progress or advanced payments"
+      ],
+      "markdown": "And at least one of the following circumstances exists:",
+      "plain_text": "And at least one of the following circumstances exists:"
+    },
+    {
+      "block_id": "c44a27a97ba5::b0044",
+      "section_id": "c44a27a97ba5::s015",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Progress or advanced payments"
+      ],
+      "markdown": "- there is economic advantage to Canada that clearly outweighs the financing cost associated with the progress payment or advance payment\n- the contractor may face financial hardship or only secure financing with difficulty or at high, uneconomical rates compared to current bank prime lending rates\n- the contract's value is deemed to exceed the contractor's assessed financial capabilities\n- the contract has a long performance duration, or there is an established tradition or practice in the industry of receiving progress or advance payments from the purchaser",
+      "plain_text": "there is economic advantage to Canada that clearly outweighs the financing cost associated with the progress payment or advance payment ; the contractor may face financial hardship or only secure financing with difficulty or at high, uneconomical rates compared to current bank prime lending rates ; the contract's value is deemed to exceed the contractor's assessed financial capabilities ; the contract has a long performance duration, or there is an established tradition or practice in the industry of receiving progress or advance payments from the purchaser"
+    },
+    {
+      "block_id": "c44a27a97ba5::b0045",
+      "section_id": "c44a27a97ba5::s015",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Progress or advanced payments"
+      ],
+      "markdown": "Note:",
+      "plain_text": "Note:"
+    },
+    {
+      "block_id": "c44a27a97ba5::b0046",
+      "section_id": "c44a27a97ba5::s015",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Progress or advanced payments"
+      ],
+      "markdown": "- Contracts with long durations or in industries with traditions of advance payments may require tailored payment schedules to match project milestones or industry norms\n- In the case of subscriptions or insurance premiums, which are often for a term of one full year and which may not start exactly on April 1, payments can be restricted to goods or services provided in no more than the current and next fiscal years. For instance, a publication subscription paid in February 2009 cannot cover a period beyond March 2010\n- For multi-year contracts, buyers can negotiate the payment of a series of separate advances covering each fiscal year. Thus, a payment can be made for a maintenance contract, for the period of a contract, from February to March 2009, and then another payment covering the period from April 2009 to March 2010\n- In the extremely rare and exceptional circumstance, such as armament purchases or extended warranty service, where up-front payments covering more than one fiscal year are required the buyer can determine if an advance payment is unavoidable and can be substantiated",
+      "plain_text": "Contracts with long durations or in industries with traditions of advance payments may require tailored payment schedules to match project milestones or industry norms ; In the case of subscriptions or insurance premiums, which are often for a term of one full year and which may not start exactly on April 1, payments can be restricted to goods or services provided in no more than the current and next fiscal years. For instance, a publication subscription paid in February 2009 cannot cover a period beyond March 2010 ; For multi-year contracts, buyers can negotiate the payment of a series of separate advances covering each fiscal year. Thus, a payment can be made for a maintenance contract, for the period of a contract, from February to March 2009, and then another payment covering the period from April 2009 to March 2010 ; In the extremely rare and exceptional circumstance, such as armament purchases or extended warranty service, where up-front payments covering more than one fiscal year are required the buyer can determine if an advance payment is unavoidable and can be substantiated"
+    },
+    {
+      "block_id": "c44a27a97ba5::b0047",
+      "section_id": "c44a27a97ba5::s016",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Progress or advanced payments",
+        "Progress payments"
+      ],
+      "markdown": "##### Progress payments",
+      "plain_text": "Progress payments"
+    },
+    {
+      "block_id": "c44a27a97ba5::b0048",
+      "section_id": "c44a27a97ba5::s016",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Progress or advanced payments",
+        "Progress payments"
+      ],
+      "markdown": "In the case of a progress payment, the ownership of the materials or work-in-process will be transferred to Canada upon making such payment.",
+      "plain_text": "In the case of a progress payment, the ownership of the materials or work-in-process will be transferred to Canada upon making such payment."
+    },
+    {
+      "block_id": "c44a27a97ba5::b0049",
+      "section_id": "c44a27a97ba5::s016",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Progress or advanced payments",
+        "Progress payments"
+      ],
+      "markdown": "When a progress payment is to be used; milestones, when possible, should be specified to relate payments to measurable progress on the contract. Technical or other contractual achievement yardsticks may be used as milestones. Milestone payment is a form of progress payment addressed under the policy related to progress payments. The value of each milestone should be negotiated before contract award.",
+      "plain_text": "When a progress payment is to be used; milestones, when possible, should be specified to relate payments to measurable progress on the contract. Technical or other contractual achievement yardsticks may be used as milestones. Milestone payment is a form of progress payment addressed under the policy related to progress payments. The value of each milestone should be negotiated before contract award."
+    },
+    {
+      "block_id": "c44a27a97ba5::b0050",
+      "section_id": "c44a27a97ba5::s016",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Progress or advanced payments",
+        "Progress payments"
+      ],
+      "markdown": "When progress payments against milestones are not possible because of the nature of the contract, progress payments may be made at set periods of time on a calendar basis (time payment method), or based upon the actual costs incurred for material purchases and the partial completion of work, as certified by company and government inspectors.",
+      "plain_text": "When progress payments against milestones are not possible because of the nature of the contract, progress payments may be made at set periods of time on a calendar basis (time payment method), or based upon the actual costs incurred for material purchases and the partial completion of work, as certified by company and government inspectors."
+    },
+    {
+      "block_id": "c44a27a97ba5::b0051",
+      "section_id": "c44a27a97ba5::s016",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Progress or advanced payments",
+        "Progress payments"
+      ],
+      "markdown": "A combination of milestone and cost incurred progress payments is also possible for different phases of the contract. The combination method can be used, for example, to pay incurred costs in the early stages of a major procurement when it would be difficult to define milestones, with payments for later and more definable stages of the production process made against specified milestone achievements.",
+      "plain_text": "A combination of milestone and cost incurred progress payments is also possible for different phases of the contract. The combination method can be used, for example, to pay incurred costs in the early stages of a major procurement when it would be difficult to define milestones, with payments for later and more definable stages of the production process made against specified milestone achievements."
+    },
+    {
+      "block_id": "c44a27a97ba5::b0052",
+      "section_id": "c44a27a97ba5::s016",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Progress or advanced payments",
+        "Progress payments"
+      ],
+      "markdown": "If milestone or cost incurred progress payments are not possible, the time payment method of making progress payments should be used with caution. The overriding requirement for use of this method is the existence of a project progress monitoring and control system, to provide the contracting officer with reliable indicators of the actual value of work accomplished when a payment is due. With the exception of rental and service contracts, the time payment method must be approved at the director level or above.",
+      "plain_text": "If milestone or cost incurred progress payments are not possible, the time payment method of making progress payments should be used with caution. The overriding requirement for use of this method is the existence of a project progress monitoring and control system, to provide the contracting officer with reliable indicators of the actual value of work accomplished when a payment is due. With the exception of rental and service contracts, the time payment method must be approved at the director level or above."
+    },
+    {
+      "block_id": "c44a27a97ba5::b0053",
+      "section_id": "c44a27a97ba5::s017",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Progress or advanced payments",
+        "Advance payments"
+      ],
+      "markdown": "##### Advance payments",
+      "plain_text": "Advance payments"
+    },
+    {
+      "block_id": "c44a27a97ba5::b0054",
+      "section_id": "c44a27a97ba5::s017",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Progress or advanced payments",
+        "Advance payments"
+      ],
+      "markdown": "This section outlines the circumstances under which advance payments should be considered, aligning with Treasury Board (TB ) guidelines and specific considerations for different contract values and contexts. It also addresses the requirements for guarantees, cash discounts and special conditions related to foreign purchases.",
+      "plain_text": "This section outlines the circumstances under which advance payments should be considered, aligning with Treasury Board (TB ) guidelines and specific considerations for different contract values and contexts. It also addresses the requirements for guarantees, cash discounts and special conditions related to foreign purchases."
+    },
+    {
+      "block_id": "c44a27a97ba5::b0055",
+      "section_id": "c44a27a97ba5::s018",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Progress or advanced payments",
+        "Criteria for advance payments"
+      ],
+      "markdown": "##### Criteria for advance payments",
+      "plain_text": "Criteria for advance payments"
+    },
+    {
+      "block_id": "c44a27a97ba5::b0056",
+      "section_id": "c44a27a97ba5::s018",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Progress or advanced payments",
+        "Criteria for advance payments"
+      ],
+      "markdown": "You may consider advance payments only under extraordinary circumstances. Your decision process and requirements will vary based on the nature of the contract and it\u2019s value.",
+      "plain_text": "You may consider advance payments only under extraordinary circumstances. Your decision process and requirements will vary based on the nature of the contract and it\u2019s value."
+    },
+    {
+      "block_id": "c44a27a97ba5::b0057",
+      "section_id": "c44a27a97ba5::s018",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Progress or advanced payments",
+        "Criteria for advance payments"
+      ],
+      "markdown": "For contracts for services exceeding $25,000 :",
+      "plain_text": "For contracts for services exceeding $25,000 :"
+    },
+    {
+      "block_id": "c44a27a97ba5::b0058",
+      "section_id": "c44a27a97ba5::s018",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Progress or advanced payments",
+        "Criteria for advance payments"
+      ],
+      "markdown": "- a form of guarantee from a financially strong third party is necessary to protect any advance payment\n- the guarantee usually takes the form of a surety bond from an associated or parent company or a financial institution, or an irrevocable letter of credit from a Canadian bank. It should provide for return to Canada of the unliquidated balance of the advance, plus interest, in the event of work cancellation or other contract termination for Canada\u2019s convenient. Other types of guarantees may be discussed with a cost analyst\n- the need for guarantees can be waived only with a strong business case",
+      "plain_text": "a form of guarantee from a financially strong third party is necessary to protect any advance payment ; the guarantee usually takes the form of a surety bond from an associated or parent company or a financial institution, or an irrevocable letter of credit from a Canadian bank. It should provide for return to Canada of the unliquidated balance of the advance, plus interest, in the event of work cancellation or other contract termination for Canada\u2019s convenient. Other types of guarantees may be discussed with a cost analyst ; the need for guarantees can be waived only with a strong business case"
+    },
+    {
+      "block_id": "c44a27a97ba5::b0059",
+      "section_id": "c44a27a97ba5::s018",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Progress or advanced payments",
+        "Criteria for advance payments"
+      ],
+      "markdown": "For contracts for services valued up to $25,000:",
+      "plain_text": "For contracts for services valued up to $25,000:"
+    },
+    {
+      "block_id": "c44a27a97ba5::b0060",
+      "section_id": "c44a27a97ba5::s018",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Progress or advanced payments",
+        "Criteria for advance payments"
+      ],
+      "markdown": "- you may waive the requirement for security, if the contractor has a positive industry reputation, and where no significant financial or performance issues have been recorded in past engagements with Canada",
+      "plain_text": "you may waive the requirement for security, if the contractor has a positive industry reputation, and where no significant financial or performance issues have been recorded in past engagements with Canada"
+    },
+    {
+      "block_id": "c44a27a97ba5::b0061",
+      "section_id": "c44a27a97ba5::s019",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Progress or advanced payments",
+        "Cash discount considerations"
+      ],
+      "markdown": "##### Cash discount considerations",
+      "plain_text": "Cash discount considerations"
+    },
+    {
+      "block_id": "c44a27a97ba5::b0062",
+      "section_id": "c44a27a97ba5::s019",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Progress or advanced payments",
+        "Cash discount considerations"
+      ],
+      "markdown": "For all contracts, except those for advertising, payment may be made in advance of the due date when the contractor offers a cash discount for advance payment and the discount at least offsets the cost to Canada for early payment.",
+      "plain_text": "For all contracts, except those for advertising, payment may be made in advance of the due date when the contractor offers a cash discount for advance payment and the discount at least offsets the cost to Canada for early payment."
+    },
+    {
+      "block_id": "c44a27a97ba5::b0063",
+      "section_id": "c44a27a97ba5::s019",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Progress or advanced payments",
+        "Cash discount considerations"
+      ],
+      "markdown": "Note: Cash discounts are not to be considered in the evaluation of offers.",
+      "plain_text": "Note: Cash discounts are not to be considered in the evaluation of offers."
+    },
+    {
+      "block_id": "c44a27a97ba5::b0064",
+      "section_id": "c44a27a97ba5::s020",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Progress or advanced payments",
+        "Special considerations for foreign purchases"
+      ],
+      "markdown": "##### Special considerations for foreign purchases",
+      "plain_text": "Special considerations for foreign purchases"
+    },
+    {
+      "block_id": "c44a27a97ba5::b0065",
+      "section_id": "c44a27a97ba5::s020",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Progress or advanced payments",
+        "Special considerations for foreign purchases"
+      ],
+      "markdown": "In the context of purchases from the government of the United States (US) through the Foreign Military Sales (FMS) program, advance payments are mandated by US law prior to the commencement of delivery for goods and services to a foreign-based contractor. In this case, Treasury Board has approved the standard conditions for FMS sales from the US Government. For any deviation from standard conditions for these sales, you must seek approval from the Treasury Board.",
+      "plain_text": "In the context of purchases from the government of the United States (US) through the Foreign Military Sales (FMS) program, advance payments are mandated by US law prior to the commencement of delivery for goods and services to a foreign-based contractor. In this case, Treasury Board has approved the standard conditions for FMS sales from the US Government. For any deviation from standard conditions for these sales, you must seek approval from the Treasury Board."
+    },
+    {
+      "block_id": "c44a27a97ba5::b0066",
+      "section_id": "c44a27a97ba5::s021",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Progress or advanced payments",
+        "How to use progress payments"
+      ],
+      "markdown": "##### How to use progress payments",
+      "plain_text": "How to use progress payments"
+    },
+    {
+      "block_id": "c44a27a97ba5::b0067",
+      "section_id": "c44a27a97ba5::s021",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Progress or advanced payments",
+        "How to use progress payments"
+      ],
+      "markdown": "Progress payments play a crucial role in managing contract finances, providing a structured approach to paying for work as it progresses.",
+      "plain_text": "Progress payments play a crucial role in managing contract finances, providing a structured approach to paying for work as it progresses."
+    },
+    {
+      "block_id": "c44a27a97ba5::b0068",
+      "section_id": "c44a27a97ba5::s022",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Progress or advanced payments",
+        "Implementing progress payments"
+      ],
+      "markdown": "##### Implementing progress payments",
+      "plain_text": "Implementing progress payments"
+    },
+    {
+      "block_id": "c44a27a97ba5::b0069",
+      "section_id": "c44a27a97ba5::s022",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Progress or advanced payments",
+        "Implementing progress payments"
+      ],
+      "markdown": "The following guidance outlines the different types of progress payments. It provides information on how to use them effectively to ensure alignment with government policies and contract requirements.",
+      "plain_text": "The following guidance outlines the different types of progress payments. It provides information on how to use them effectively to ensure alignment with government policies and contract requirements."
+    },
+    {
+      "block_id": "c44a27a97ba5::b0070",
+      "section_id": "c44a27a97ba5::s022",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Progress or advanced payments",
+        "Implementing progress payments"
+      ],
+      "markdown": "Key characteristics include:",
+      "plain_text": "Key characteristics include:"
+    },
+    {
+      "block_id": "c44a27a97ba5::b0071",
+      "section_id": "c44a27a97ba5::s022",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Progress or advanced payments",
+        "Implementing progress payments"
+      ],
+      "markdown": "- Ownership transfer: Making a progress payment results in the transfer of ownership for materials or work-in-progress to Canada, according to specified general contract conditions.\n- Milestone payments : This form of progress payments involves payments associated with clearly defined milestones, aligning them with measurable contract progress. You should establish and agree on these milestones, acting as technical or contractual benchmarks, before awarding the contract. For contracts involving milestone payments against a set schedule, you should utilize specified clauses and forms, incorporating holdback conditions as applicable.\n- Alternative methods of payment : When milestone payments are not feasible, you should consider progress payments based on set time periods or actual costs incurred for materials and partial work completion, verified through inspections. Various clauses are available for different types of contracts, including those for goods, services and maintenance, to facilitate payments based on incurred costs or work completion over time.\n- Combining methods of payment: It is possible to blend milestone and cost-incurred payment strategies for different phases of a contract. This approach is particularly useful for managing payments in the initial stages of procurement or when later stages are marked by clear milestones.\n- Fixed interval payments: To be used with caution. When using progress payments based on the passage of time, you must monitor diligently to ensure payments reflect the actual value of work completed. This method must be approved at the director-level, with the exception of rental and service contracts, where monthly payments are the standard.",
+      "plain_text": "Ownership transfer: Making a progress payment results in the transfer of ownership for materials or work-in-progress to Canada, according to specified general contract conditions. ; Milestone payments : This form of progress payments involves payments associated with clearly defined milestones, aligning them with measurable contract progress. You should establish and agree on these milestones, acting as technical or contractual benchmarks, before awarding the contract. For contracts involving milestone payments against a set schedule, you should utilize specified clauses and forms, incorporating holdback conditions as applicable. ; Alternative methods of payment : When milestone payments are not feasible, you should consider progress payments based on set time periods or actual costs incurred for materials and partial work completion, verified through inspections. Various clauses are available for different types of contracts, including those for goods, services and maintenance, to facilitate payments based on incurred costs or work completion over time. ; Combining methods of payment: It is possible to blend milestone and cost-incurred payment strategies for different phases of a contract. This approach is particularly useful for managing payments in the initial stages of procurement or when later stages are marked by clear milestones. ; Fixed interval payments: To be used with caution. When using progress payments based on the passage of time, you must monitor diligently to ensure payments reflect the actual value of work completed. This method must be approved at the director-level, with the exception of rental and service contracts, where monthly payments are the standard."
+    },
+    {
+      "block_id": "c44a27a97ba5::b0072",
+      "section_id": "c44a27a97ba5::s023",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Progress or advanced payments",
+        "Holdbacks"
+      ],
+      "markdown": "##### Holdbacks",
+      "plain_text": "Holdbacks"
+    },
+    {
+      "block_id": "c44a27a97ba5::b0073",
+      "section_id": "c44a27a97ba5::s023",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Progress or advanced payments",
+        "Holdbacks"
+      ],
+      "markdown": "Holdbacks are vital for mitigating risks of overpayment and encouraging contract completion. You are required to integrate holdbacks in contracts with progress payments, but you may exercise discretion for contracts with milestone payments.",
+      "plain_text": "Holdbacks are vital for mitigating risks of overpayment and encouraging contract completion. You are required to integrate holdbacks in contracts with progress payments, but you may exercise discretion for contracts with milestone payments."
+    },
+    {
+      "block_id": "c44a27a97ba5::b0074",
+      "section_id": "c44a27a97ba5::s024",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Progress or advanced payments",
+        "Specifying limits on payments for contracts involving progress payments"
+      ],
+      "markdown": "##### Specifying limits on payments for contracts involving progress payments",
+      "plain_text": "Specifying limits on payments for contracts involving progress payments"
+    },
+    {
+      "block_id": "c44a27a97ba5::b0075",
+      "section_id": "c44a27a97ba5::s024",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Progress or advanced payments",
+        "Specifying limits on payments for contracts involving progress payments"
+      ],
+      "markdown": "Contracts involving progress payments adhere to distinct limits on allowable costs, purchases of materials and profit calculations. These limits vary depending on types of contract.",
+      "plain_text": "Contracts involving progress payments adhere to distinct limits on allowable costs, purchases of materials and profit calculations. These limits vary depending on types of contract."
+    },
+    {
+      "block_id": "c44a27a97ba5::b0076",
+      "section_id": "c44a27a97ba5::s025",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Progress or advanced payments",
+        "Payment limits based on contract type"
+      ],
+      "markdown": "##### Payment limits based on contract type",
+      "plain_text": "Payment limits based on contract type"
+    },
+    {
+      "block_id": "c44a27a97ba5::b0077",
+      "section_id": "c44a27a97ba5::s025",
+      "type": "table",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Progress or advanced payments",
+        "Payment limits based on contract type"
+      ],
+      "markdown": "| Column 1 | Column 2 | Column 3 | Column 4 | Column 5 |\n| --- | --- | --- | --- | --- |\n| Contract | Total allowable costs | Purchased accountable advance materials | Goods and services tax/harmonized sales tax | Profit |\n| Firm price with milestone payments | Up to 100% of negotiated milestones | Nil | Nil | Nil |\n| Firm price with progress payment based on negotiated cost | Up to 90% | 100% | If payable | Pro rata |\n| Cost reimbursable | Up to 90% | 100% | If payable | Pro rata |\n| Fixed time rate | Up to 90% | 100% | If payable | Pro rata |\n| Price to be negotiated \u2013 Based on previous year\u2019s rates/prices | Up to 100% | 100% | If payable | Pro rata |\n| Prices to be negotiated \u2013 all other contracts | Up to 75% | 100% | If payable | Pro rata |",
+      "plain_text": "Column 1 | Column 2 | Column 3 | Column 4 | Column 5 ; Contract | Total allowable costs | Purchased accountable advance materials | Goods and services tax/harmonized sales tax | Profit ; Firm price with milestone payments | Up to 100% of negotiated milestones | Nil | Nil | Nil ; Firm price with progress payment based on negotiated cost | Up to 90% | 100% | If payable | Pro rata ; Cost reimbursable | Up to 90% | 100% | If payable | Pro rata ; Fixed time rate | Up to 90% | 100% | If payable | Pro rata ; Price to be negotiated \u2013 Based on previous year\u2019s rates/prices | Up to 100% | 100% | If payable | Pro rata",
+      "table_id": "c44a27a97ba5::t001"
+    },
+    {
+      "block_id": "c44a27a97ba5::b0078",
+      "section_id": "c44a27a97ba5::s025",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Types of method of payment",
+        "Progress or advanced payments",
+        "Payment limits based on contract type"
+      ],
+      "markdown": "You may consider exceptions to these payment ceilings under certain conditions, such as when trade practices support exceptions, for organizations not receiving profit or fee, or when alternative financial protections are employed , for example, security deposits (government guaranteed bonds, bills of exchange, irrevocable standby letters of credit) or surety bonds .",
+      "plain_text": "You may consider exceptions to these payment ceilings under certain conditions, such as when trade practices support exceptions, for organizations not receiving profit or fee, or when alternative financial protections are employed , for example, security deposits (government guaranteed bonds, bills of exchange, irrevocable standby letters of credit) or surety bonds ."
+    },
+    {
+      "block_id": "c44a27a97ba5::b0079",
+      "section_id": "c44a27a97ba5::s026",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Deciding on a method of payment"
+      ],
+      "markdown": "### Deciding on a method of payment",
+      "plain_text": "Deciding on a method of payment"
+    },
+    {
+      "block_id": "c44a27a97ba5::b0080",
+      "section_id": "c44a27a97ba5::s026",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Deciding on a method of payment"
+      ],
+      "markdown": "The timing for making decisions relating to the method of payment to be used varies with the solicitation method employed:",
+      "plain_text": "The timing for making decisions relating to the method of payment to be used varies with the solicitation method employed:"
+    },
+    {
+      "block_id": "c44a27a97ba5::b0081",
+      "section_id": "c44a27a97ba5::s026",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Method of payment",
+        "Buyer's Guide",
+        "Method of payment",
+        "Deciding on a method of payment"
+      ],
+      "markdown": "- For an Invitation to Tender (ITT) , the method of payment must be selected, before issuing and included in the solicitation documents. Financing costs will not constitute an evaluation factor\n- For competitive solicitations , the solicitation will clearly specify that any requirement on the part of the supplier for receipt of progress or advance payments will constitute an evaluation criterion. When evaluating offers, the cost to Canada of providing the progress payments or advance payments will be taken into account, as will the risk of exposure from the method of payment, and the availability of funds",
+      "plain_text": "For an Invitation to Tender (ITT) , the method of payment must be selected, before issuing and included in the solicitation documents. Financing costs will not constitute an evaluation factor ; For competitive solicitations , the solicitation will clearly specify that any requirement on the part of the supplier for receipt of progress or advance payments will constitute an evaluation criterion. When evaluating offers, the cost to Canada of providing the progress payments or advance payments will be taken into account, as will the risk of exposure from the method of payment, and the availability of funds"
+    }
+  ]
+}

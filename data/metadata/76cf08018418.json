@@ -1,0 +1,687 @@
+{
+  "doc_id": "76cf08018418",
+  "title": "Buyer's Guide Offer evaluation - Evaluate an offeror\u2019s financial capability",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/evaluate-offeror-s-financial-capability",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/evaluate-offeror-s-financial-capability",
+  "doc_type": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": "2026-01-31",
+  "fetched_at": "2026-02-19T09:18:48.084153+00:00",
+  "content_hash": "c84e3fcce8ae50199fa2a34343a2e8536dcb79bb68ab7c2e0417be9a9357ac99",
+  "word_count": 2166,
+  "text_path": "data/corpus/buyers_guide__en-buyer-s-portal-buyer-s-guide-receive-and-evaluate-offer-evaluation-evaluate-offeror-s-financial-capability__76cf080184.md",
+  "extraction_method": "buyers_guide_regions",
+  "breadcrumbs": [
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "https://canadabuys.canada.ca/en",
+      "canonical_url": "https://canadabuys.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "in_scope": true
+    },
+    {
+      "title": "Offer evaluation",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation",
+      "in_scope": true
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation",
+    "parent_doc_id": "312c047b7781",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/evaluate-offeror-s-financial-capability"
+    ],
+    "lineage_doc_ids": [
+      "1e29c7881335",
+      "312c047b7781",
+      "76cf08018418"
+    ],
+    "depth": 2,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review/determine-if-peer-review-required",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review/roles-and-accountabilities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/apply-phased-offer-compliance-process",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/conduct-financial-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/conduct-technical-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/decision-making-and-approvals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/evaluation-process",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/prepare-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/special-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/handle-late-or-delayed-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/handle-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/verify-offers"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review/determine-if-peer-review-required",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review/roles-and-accountabilities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/apply-phased-offer-compliance-process",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/conduct-financial-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/conduct-technical-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/decision-making-and-approvals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/evaluation-process",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/prepare-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/special-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/handle-late-or-delayed-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/handle-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/verify-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure": {
+    "block_count": 33,
+    "section_count": 7,
+    "heading_count": 6,
+    "paragraph_count": 24,
+    "list_count": 3,
+    "table_count": 0
+  },
+  "sections": [
+    {
+      "section_id": "76cf08018418::root",
+      "parent_section_id": null,
+      "level": 0,
+      "heading": "Buyer's Guide Offer evaluation - Evaluate an offeror\u2019s financial capability",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Evaluate an offeror\u2019s financial capability"
+      ],
+      "block_count": 0,
+      "word_count": 0,
+      "char_count": 0,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": null,
+      "last_block_index": null,
+      "preview": "",
+      "prev_section_id": null,
+      "next_section_id": null
+    },
+    {
+      "section_id": "76cf08018418::s001",
+      "parent_section_id": "76cf08018418::root",
+      "level": 1,
+      "heading": "Buyer's Guide Offer evaluation - Evaluate an offeror\u2019s financial capability",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Evaluate an offeror\u2019s financial capability",
+        "Buyer's Guide Offer evaluation - Evaluate an offeror\u2019s financial capability"
+      ],
+      "block_count": 1,
+      "word_count": 10,
+      "char_count": 75,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 0,
+      "last_block_index": 0,
+      "preview": "Buyer's Guide Offer evaluation - Evaluate an offeror\u2019s financial capability",
+      "prev_section_id": null,
+      "next_section_id": "76cf08018418::s002"
+    },
+    {
+      "section_id": "76cf08018418::s002",
+      "parent_section_id": "76cf08018418::root",
+      "level": 1,
+      "heading": "Buyer's Guide",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Evaluate an offeror\u2019s financial capability",
+        "Buyer's Guide"
+      ],
+      "block_count": 3,
+      "word_count": 1084,
+      "char_count": 7117,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 1,
+      "last_block_index": 3,
+      "preview": "Buyer's Guide Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage Evaluate an offeror\u2019s financial capability Evaluating an offeror's financial capability is an important step in the procurement",
+      "prev_section_id": "76cf08018418::s001",
+      "next_section_id": "76cf08018418::s003"
+    },
+    {
+      "section_id": "76cf08018418::s003",
+      "parent_section_id": "76cf08018418::s002",
+      "level": 2,
+      "heading": "Evaluate an offeror\u2019s financial capability",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Evaluate an offeror\u2019s financial capability",
+        "Buyer's Guide",
+        "Evaluate an offeror\u2019s financial capability"
+      ],
+      "block_count": 10,
+      "word_count": 397,
+      "char_count": 2617,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 8,
+      "first_block_index": 4,
+      "last_block_index": 13,
+      "preview": "Evaluate an offeror\u2019s financial capability Evaluating an offeror's financial capability is an important step in the procurement process that verifies the offeror possesses the financial resources to fulfill the requirement. Requirement for ",
+      "prev_section_id": "76cf08018418::s002",
+      "next_section_id": "76cf08018418::s004"
+    },
+    {
+      "section_id": "76cf08018418::s004",
+      "parent_section_id": "76cf08018418::s003",
+      "level": 3,
+      "heading": "Verify offer financial security",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Evaluate an offeror\u2019s financial capability",
+        "Buyer's Guide",
+        "Evaluate an offeror\u2019s financial capability",
+        "Verify offer financial security"
+      ],
+      "block_count": 11,
+      "word_count": 482,
+      "char_count": 3044,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 10,
+      "first_block_index": 14,
+      "last_block_index": 24,
+      "preview": "Verify offer financial security Verifying offer security intends to guarantee compliance with the terms of the offer, including the award of the contract and the expiration of the offer\u2019s validity period. Retention of offer security : If of",
+      "prev_section_id": "76cf08018418::s003",
+      "next_section_id": "76cf08018418::s005"
+    },
+    {
+      "section_id": "76cf08018418::s005",
+      "parent_section_id": "76cf08018418::s003",
+      "level": 3,
+      "heading": "Business credit services",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Evaluate an offeror\u2019s financial capability",
+        "Buyer's Guide",
+        "Evaluate an offeror\u2019s financial capability",
+        "Business credit services"
+      ],
+      "block_count": 6,
+      "word_count": 144,
+      "char_count": 1005,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 4,
+      "first_block_index": 25,
+      "last_block_index": 30,
+      "preview": "Business credit services Business credit services companies provide insights into a business\u2019 financial stability through general credit ratings and detailed credit reports. Their comprehensive reports generally include: simplified financia",
+      "prev_section_id": "76cf08018418::s004",
+      "next_section_id": "76cf08018418::s006"
+    },
+    {
+      "section_id": "76cf08018418::s006",
+      "parent_section_id": "76cf08018418::s003",
+      "level": 3,
+      "heading": "Contractual terms and conditions evaluation",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Evaluate an offeror\u2019s financial capability",
+        "Buyer's Guide",
+        "Evaluate an offeror\u2019s financial capability",
+        "Contractual terms and conditions evaluation"
+      ],
+      "block_count": 2,
+      "word_count": 49,
+      "char_count": 328,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 31,
+      "last_block_index": 32,
+      "preview": "Contractual terms and conditions evaluation You are responsible for reviewing the offers to ensure compliance with the contractual terms and conditions set forth in the solicitation document. This includes an assessment of the terms of the ",
+      "prev_section_id": "76cf08018418::s005",
+      "next_section_id": null
+    }
+  ],
+  "tables": [],
+  "blocks": [
+    {
+      "block_id": "76cf08018418::b0001",
+      "section_id": "76cf08018418::s001",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Evaluate an offeror\u2019s financial capability",
+        "Buyer's Guide Offer evaluation - Evaluate an offeror\u2019s financial capability"
+      ],
+      "markdown": "# Buyer's Guide Offer evaluation - Evaluate an offeror\u2019s financial capability",
+      "plain_text": "Buyer's Guide Offer evaluation - Evaluate an offeror\u2019s financial capability"
+    },
+    {
+      "block_id": "76cf08018418::b0002",
+      "section_id": "76cf08018418::s002",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Evaluate an offeror\u2019s financial capability",
+        "Buyer's Guide"
+      ],
+      "markdown": "# Buyer's Guide",
+      "plain_text": "Buyer's Guide"
+    },
+    {
+      "block_id": "76cf08018418::b0003",
+      "section_id": "76cf08018418::s002",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Evaluate an offeror\u2019s financial capability",
+        "Buyer's Guide"
+      ],
+      "markdown": "- Plan\n- Approve\n- Create solicitation\n- Solicit\n- Receive and evaluate\n- Negotiate\n- Award\n- Manage",
+      "plain_text": "Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage"
+    },
+    {
+      "block_id": "76cf08018418::b0004",
+      "section_id": "76cf08018418::s002",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Evaluate an offeror\u2019s financial capability",
+        "Buyer's Guide"
+      ],
+      "markdown": "Evaluate an offeror\u2019s financial capability Evaluating an offeror's financial capability is an important step in the procurement process that verifies the offeror possesses the financial resources to fulfill the requirement. Requirement for financial capability : Offerors must have the financial capacity to meet contract requirements. A financial analysis of a potential supplier may be warranted at the time of sourcing. Consultation with cost and price analysts : You must consult with the cost analysts group during the evaluation of offers to determine what financial information may be required from offerors. When a financial opinion is required, the applicable clauses should be included in the solicitation of offers. SA authorities should note that since the statement of work or requirement cannot be adequately defined in advance, only a preliminary review of the offeror's financial viability will be conducted for the purpose of pre-qualifying offerors for SA . A complete review of the offeror's financial capability may be required for subsequent requirements issued under the SA . Risk mitigation in competitive selection : If the selection of the offeror is competitive and the contract is for commercially available goods or services, the risks of financial loss to Canada are minimized because of the ability to find alternate sourcing. However, under any other circumstance re-sourcing can be costly both in terms of performance delays and monetary risk. Exceptions : Assessing the financial capability of potential and existing offerors is not normally required for: assistance contracts on behalf of Industry Canada (IC) (determination of an offeror's financial capability in these cases is the responsibility of IC ) contracts involving educational institutions, Crown corporations, government departments and agencies contracts for the services of individuals contracts for generally available commercial goods or services from offerors selected by competition Dealing with financially weak offerors : When Canada must deal with a financially weak supplier, the risk to Canada must be reduced as much as possible through contract financial security, based on recommendations from a cost analyst. Formal financial review requests : A financial review of an offeror can be initiated at any stage of the contracting process when you consider it necessary. You must submit a request for financial review form to the cost and price analysis group. For contracts that require Director General approval, the cost analyst and legal counsel must be given the opportunity to review the contract documents. Verify offer financial security Verifying offer security intends to guarantee compliance with the terms of the offer, including the award of the contract and the expiration of the offer\u2019s validity period. Retention of offer security : If offer security is obtained it must be retained until the terms of the security are fulfilled, including contract award and/or expiration of the offer validity period. Insufficient offer security : Offers submitted with insufficient offer security, either lower than required or entirely absent, will cause the offer to be considered non-responsive. Government guaranteed bonds : Security deposits in the form of government guaranteed bonds with coupons are not acceptable unless all coupons that are not matured at the time the security deposit is provided are attached to the bonds. Surety bonds : You must examine surety bonds provided by offerors using advice from legal services, as necessary, to ensure that they are correct, original, and legally enforceable in all respects. This includes the offerors legal name and address, the date of the contract, the contract serial number, and the description of the \"Obligee,\" which is \"His Majesty the King in right of Canada.\" Surety bonds requiring correction are returned to the offeror, not to the surety company. Handling and safekeeping of bonds : Public Services and Procurement Canada (PSPC) will hold any bid bond, payment bond, or performance bond non-negotiable security deposit (such as government guaranteed bond) until the terms of the security are fulfilled. Instructions for maturing coupons : You must request written instructions from the offeror concerning the action to be taken with respect to any coupons attached to the bonds that will mature while the bond is pledged as security. These instructions must be forwarded to the group managing financial operations for action. Examination of letters of credit : You must examine the letters of credit submitted by offerors and obtain advice from legal services as necessary to ensure their completeness and compliance. This includes the face amount that may be drawn against them, expiry date, and provisions for sight payment to the Receiver General for Canada, by way of the financial institution's draft, against presentation of a written demand for payment signed by the authorized departmental representative and identified in the letter of credit by their office. Provision that more than one written demand for payment may be presented subject to the sum of those demands, but not to exceed the face amount of the letter of credit. Letters of credit are subject to, and must be irrevocable or deemed to be irrevocable pursuant to, the International Chamber of Commerce , Uniform Customs and Practice for Documentary Credits. Issuance or confirmation, in either official language, must come from a financial institution that is a member of the Canadian Payments Association and must be presented on the letterhead of the Issuer or Confirmer in a format designated by the Issuer or Confirmer. Business credit services Business credit services companies provide insights into a business\u2019 financial stability through general credit ratings and detailed credit reports. Their comprehensive reports generally include: simplified financial statements details of maximum credit obtained from the business promptness of payments made banking information business\u2019 history information on the business\u2019 operations Obtaining credit services : You must route all requests for business credit services through the group responsible for price support, avoiding direct contact with business credit service companies. Confidentiality of reports : The content of business credit service reports is deemed commercially confidential. The information must not be disclosed outside the government, and is only disclosed within the government on a \"need to know\" basis. Access and retention : Access to these reports is restricted to PSPC employees, with all reports securely maintained by the price support group. Contractual terms and conditions evaluation You are responsible for reviewing the offers to ensure compliance with the contractual terms and conditions set forth in the solicitation document. This includes an assessment of the terms of the offer to ensure they align with the expectations and requirements for contract execution.",
+      "plain_text": "Evaluate an offeror\u2019s financial capability Evaluating an offeror's financial capability is an important step in the procurement process that verifies the offeror possesses the financial resources to fulfill the requirement. Requirement for financial capability : Offerors must have the financial capacity to meet contract requirements. A financial analysis of a potential supplier may be warranted at the time of sourcing. Consultation with cost and price analysts : You must consult with the cost analysts group during the evaluation of offers to determine what financial information may be required from offerors. When a financial opinion is required, the applicable clauses should be included in the solicitation of offers. SA authorities should note that since the statement of work or requirement cannot be adequately defined in advance, only a preliminary review of the offeror's financial viability will be conducted for the purpose of pre-qualifying offerors for SA . A complete review of the offeror's financial capability may be required for subsequent requirements issued under the SA . Risk mitigation in competitive selection : If the selection of the offeror is competitive and the contract is for commercially available goods or services, the risks of financial loss to Canada are minimized because of the ability to find alternate sourcing. However, under any other circumstance re-sourcing can be costly both in terms of performance delays and monetary risk. Exceptions : Assessing the financial capability of potential and existing offerors is not normally required for: assistance contracts on behalf of Industry Canada (IC) (determination of an offeror's financial capability in these cases is the responsibility of IC ) contracts involving educational institutions, Crown corporations, government departments and agencies contracts for the services of individuals contracts for generally available commercial goods or services from offerors selected by competition Dealing with financially weak offerors : When Canada must deal with a financially weak supplier, the risk to Canada must be reduced as much as possible through contract financial security, based on recommendations from a cost analyst. Formal financial review requests : A financial review of an offeror can be initiated at any stage of the contracting process when you consider it necessary. You must submit a request for financial review form to the cost and price analysis group. For contracts that require Director General approval, the cost analyst and legal counsel must be given the opportunity to review the contract documents. Verify offer financial security Verifying offer security intends to guarantee compliance with the terms of the offer, including the award of the contract and the expiration of the offer\u2019s validity period. Retention of offer security : If offer security is obtained it must be retained until the terms of the security are fulfilled, including contract award and/or expiration of the offer validity period. Insufficient offer security : Offers submitted with insufficient offer security, either lower than required or entirely absent, will cause the offer to be considered non-responsive. Government guaranteed bonds : Security deposits in the form of government guaranteed bonds with coupons are not acceptable unless all coupons that are not matured at the time the security deposit is provided are attached to the bonds. Surety bonds : You must examine surety bonds provided by offerors using advice from legal services, as necessary, to ensure that they are correct, original, and legally enforceable in all respects. This includes the offerors legal name and address, the date of the contract, the contract serial number, and the description of the \"Obligee,\" which is \"His Majesty the King in right of Canada.\" Surety bonds requiring correction are returned to the offeror, not to the surety company. Handling and safekeeping of bonds : Public Services and Procurement Canada (PSPC) will hold any bid bond, payment bond, or performance bond non-negotiable security deposit (such as government guaranteed bond) until the terms of the security are fulfilled. Instructions for maturing coupons : You must request written instructions from the offeror concerning the action to be taken with respect to any coupons attached to the bonds that will mature while the bond is pledged as security. These instructions must be forwarded to the group managing financial operations for action. Examination of letters of credit : You must examine the letters of credit submitted by offerors and obtain advice from legal services as necessary to ensure their completeness and compliance. This includes the face amount that may be drawn against them, expiry date, and provisions for sight payment to the Receiver General for Canada, by way of the financial institution's draft, against presentation of a written demand for payment signed by the authorized departmental representative and identified in the letter of credit by their office. Provision that more than one written demand for payment may be presented subject to the sum of those demands, but not to exceed the face amount of the letter of credit. Letters of credit are subject to, and must be irrevocable or deemed to be irrevocable pursuant to, the International Chamber of Commerce , Uniform Customs and Practice for Documentary Credits. Issuance or confirmation, in either official language, must come from a financial institution that is a member of the Canadian Payments Association and must be presented on the letterhead of the Issuer or Confirmer in a format designated by the Issuer or Confirmer. Business credit services Business credit services companies provide insights into a business\u2019 financial stability through general credit ratings and detailed credit reports. Their comprehensive reports generally include: simplified financial statements details of maximum credit obtained from the business promptness of payments made banking information business\u2019 history information on the business\u2019 operations Obtaining credit services : You must route all requests for business credit services through the group responsible for price support, avoiding direct contact with business credit service companies. Confidentiality of reports : The content of business credit service reports is deemed commercially confidential. The information must not be disclosed outside the government, and is only disclosed within the government on a \"need to know\" basis. Access and retention : Access to these reports is restricted to PSPC employees, with all reports securely maintained by the price support group. Contractual terms and conditions evaluation You are responsible for reviewing the offers to ensure compliance with the contractual terms and conditions set forth in the solicitation document. This includes an assessment of the terms of the offer to ensure they align with the expectations and requirements for contract execution."
+    },
+    {
+      "block_id": "76cf08018418::b0005",
+      "section_id": "76cf08018418::s003",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Evaluate an offeror\u2019s financial capability",
+        "Buyer's Guide",
+        "Evaluate an offeror\u2019s financial capability"
+      ],
+      "markdown": "## Evaluate an offeror\u2019s financial capability",
+      "plain_text": "Evaluate an offeror\u2019s financial capability"
+    },
+    {
+      "block_id": "76cf08018418::b0006",
+      "section_id": "76cf08018418::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Evaluate an offeror\u2019s financial capability",
+        "Buyer's Guide",
+        "Evaluate an offeror\u2019s financial capability"
+      ],
+      "markdown": "Evaluating an offeror's financial capability is an important step in the procurement process that verifies the offeror possesses the financial resources to fulfill the requirement.",
+      "plain_text": "Evaluating an offeror's financial capability is an important step in the procurement process that verifies the offeror possesses the financial resources to fulfill the requirement."
+    },
+    {
+      "block_id": "76cf08018418::b0007",
+      "section_id": "76cf08018418::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Evaluate an offeror\u2019s financial capability",
+        "Buyer's Guide",
+        "Evaluate an offeror\u2019s financial capability"
+      ],
+      "markdown": "Requirement for financial capability : Offerors must have the financial capacity to meet contract requirements. A financial analysis of a potential supplier may be warranted at the time of sourcing.",
+      "plain_text": "Requirement for financial capability : Offerors must have the financial capacity to meet contract requirements. A financial analysis of a potential supplier may be warranted at the time of sourcing."
+    },
+    {
+      "block_id": "76cf08018418::b0008",
+      "section_id": "76cf08018418::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Evaluate an offeror\u2019s financial capability",
+        "Buyer's Guide",
+        "Evaluate an offeror\u2019s financial capability"
+      ],
+      "markdown": "Consultation with cost and price analysts : You must consult with the cost analysts group during the evaluation of offers to determine what financial information may be required from offerors. When a financial opinion is required, the applicable clauses should be included in the solicitation of offers.",
+      "plain_text": "Consultation with cost and price analysts : You must consult with the cost analysts group during the evaluation of offers to determine what financial information may be required from offerors. When a financial opinion is required, the applicable clauses should be included in the solicitation of offers."
+    },
+    {
+      "block_id": "76cf08018418::b0009",
+      "section_id": "76cf08018418::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Evaluate an offeror\u2019s financial capability",
+        "Buyer's Guide",
+        "Evaluate an offeror\u2019s financial capability"
+      ],
+      "markdown": "SA authorities should note that since the statement of work or requirement cannot be adequately defined in advance, only a preliminary review of the offeror's financial viability will be conducted for the purpose of pre-qualifying offerors for SA . A complete review of the offeror's financial capability may be required for subsequent requirements issued under the SA .",
+      "plain_text": "SA authorities should note that since the statement of work or requirement cannot be adequately defined in advance, only a preliminary review of the offeror's financial viability will be conducted for the purpose of pre-qualifying offerors for SA . A complete review of the offeror's financial capability may be required for subsequent requirements issued under the SA ."
+    },
+    {
+      "block_id": "76cf08018418::b0010",
+      "section_id": "76cf08018418::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Evaluate an offeror\u2019s financial capability",
+        "Buyer's Guide",
+        "Evaluate an offeror\u2019s financial capability"
+      ],
+      "markdown": "Risk mitigation in competitive selection : If the selection of the offeror is competitive and the contract is for commercially available goods or services, the risks of financial loss to Canada are minimized because of the ability to find alternate sourcing. However, under any other circumstance re-sourcing can be costly both in terms of performance delays and monetary risk.",
+      "plain_text": "Risk mitigation in competitive selection : If the selection of the offeror is competitive and the contract is for commercially available goods or services, the risks of financial loss to Canada are minimized because of the ability to find alternate sourcing. However, under any other circumstance re-sourcing can be costly both in terms of performance delays and monetary risk."
+    },
+    {
+      "block_id": "76cf08018418::b0011",
+      "section_id": "76cf08018418::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Evaluate an offeror\u2019s financial capability",
+        "Buyer's Guide",
+        "Evaluate an offeror\u2019s financial capability"
+      ],
+      "markdown": "Exceptions : Assessing the financial capability of potential and existing offerors is not normally required for:",
+      "plain_text": "Exceptions : Assessing the financial capability of potential and existing offerors is not normally required for:"
+    },
+    {
+      "block_id": "76cf08018418::b0012",
+      "section_id": "76cf08018418::s003",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Evaluate an offeror\u2019s financial capability",
+        "Buyer's Guide",
+        "Evaluate an offeror\u2019s financial capability"
+      ],
+      "markdown": "- assistance contracts on behalf of Industry Canada (IC) (determination of an offeror's financial capability in these cases is the responsibility of IC )\n- contracts involving educational institutions, Crown corporations, government departments and agencies\n- contracts for the services of individuals\n- contracts for generally available commercial goods or services from offerors selected by competition",
+      "plain_text": "assistance contracts on behalf of Industry Canada (IC) (determination of an offeror's financial capability in these cases is the responsibility of IC ) ; contracts involving educational institutions, Crown corporations, government departments and agencies ; contracts for the services of individuals ; contracts for generally available commercial goods or services from offerors selected by competition"
+    },
+    {
+      "block_id": "76cf08018418::b0013",
+      "section_id": "76cf08018418::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Evaluate an offeror\u2019s financial capability",
+        "Buyer's Guide",
+        "Evaluate an offeror\u2019s financial capability"
+      ],
+      "markdown": "Dealing with financially weak offerors : When Canada must deal with a financially weak supplier, the risk to Canada must be reduced as much as possible through contract financial security, based on recommendations from a cost analyst.",
+      "plain_text": "Dealing with financially weak offerors : When Canada must deal with a financially weak supplier, the risk to Canada must be reduced as much as possible through contract financial security, based on recommendations from a cost analyst."
+    },
+    {
+      "block_id": "76cf08018418::b0014",
+      "section_id": "76cf08018418::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Evaluate an offeror\u2019s financial capability",
+        "Buyer's Guide",
+        "Evaluate an offeror\u2019s financial capability"
+      ],
+      "markdown": "Formal financial review requests : A financial review of an offeror can be initiated at any stage of the contracting process when you consider it necessary. You must submit a request for financial review form to the cost and price analysis group. For contracts that require Director General approval, the cost analyst and legal counsel must be given the opportunity to review the contract documents.",
+      "plain_text": "Formal financial review requests : A financial review of an offeror can be initiated at any stage of the contracting process when you consider it necessary. You must submit a request for financial review form to the cost and price analysis group. For contracts that require Director General approval, the cost analyst and legal counsel must be given the opportunity to review the contract documents."
+    },
+    {
+      "block_id": "76cf08018418::b0015",
+      "section_id": "76cf08018418::s004",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Evaluate an offeror\u2019s financial capability",
+        "Buyer's Guide",
+        "Evaluate an offeror\u2019s financial capability",
+        "Verify offer financial security"
+      ],
+      "markdown": "### Verify offer financial security",
+      "plain_text": "Verify offer financial security"
+    },
+    {
+      "block_id": "76cf08018418::b0016",
+      "section_id": "76cf08018418::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Evaluate an offeror\u2019s financial capability",
+        "Buyer's Guide",
+        "Evaluate an offeror\u2019s financial capability",
+        "Verify offer financial security"
+      ],
+      "markdown": "Verifying offer security intends to guarantee compliance with the terms of the offer, including the award of the contract and the expiration of the offer\u2019s validity period.",
+      "plain_text": "Verifying offer security intends to guarantee compliance with the terms of the offer, including the award of the contract and the expiration of the offer\u2019s validity period."
+    },
+    {
+      "block_id": "76cf08018418::b0017",
+      "section_id": "76cf08018418::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Evaluate an offeror\u2019s financial capability",
+        "Buyer's Guide",
+        "Evaluate an offeror\u2019s financial capability",
+        "Verify offer financial security"
+      ],
+      "markdown": "Retention of offer security : If offer security is obtained it must be retained until the terms of the security are fulfilled, including contract award and/or expiration of the offer validity period.",
+      "plain_text": "Retention of offer security : If offer security is obtained it must be retained until the terms of the security are fulfilled, including contract award and/or expiration of the offer validity period."
+    },
+    {
+      "block_id": "76cf08018418::b0018",
+      "section_id": "76cf08018418::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Evaluate an offeror\u2019s financial capability",
+        "Buyer's Guide",
+        "Evaluate an offeror\u2019s financial capability",
+        "Verify offer financial security"
+      ],
+      "markdown": "Insufficient offer security : Offers submitted with insufficient offer security, either lower than required or entirely absent, will cause the offer to be considered non-responsive.",
+      "plain_text": "Insufficient offer security : Offers submitted with insufficient offer security, either lower than required or entirely absent, will cause the offer to be considered non-responsive."
+    },
+    {
+      "block_id": "76cf08018418::b0019",
+      "section_id": "76cf08018418::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Evaluate an offeror\u2019s financial capability",
+        "Buyer's Guide",
+        "Evaluate an offeror\u2019s financial capability",
+        "Verify offer financial security"
+      ],
+      "markdown": "Government guaranteed bonds : Security deposits in the form of government guaranteed bonds with coupons are not acceptable unless all coupons that are not matured at the time the security deposit is provided are attached to the bonds.",
+      "plain_text": "Government guaranteed bonds : Security deposits in the form of government guaranteed bonds with coupons are not acceptable unless all coupons that are not matured at the time the security deposit is provided are attached to the bonds."
+    },
+    {
+      "block_id": "76cf08018418::b0020",
+      "section_id": "76cf08018418::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Evaluate an offeror\u2019s financial capability",
+        "Buyer's Guide",
+        "Evaluate an offeror\u2019s financial capability",
+        "Verify offer financial security"
+      ],
+      "markdown": "Surety bonds : You must examine surety bonds provided by offerors using advice from legal services, as necessary, to ensure that they are correct, original, and legally enforceable in all respects. This includes the offerors legal name and address, the date of the contract, the contract serial number, and the description of the \"Obligee,\" which is \"His Majesty the King in right of Canada.\" Surety bonds requiring correction are returned to the offeror, not to the surety company.",
+      "plain_text": "Surety bonds : You must examine surety bonds provided by offerors using advice from legal services, as necessary, to ensure that they are correct, original, and legally enforceable in all respects. This includes the offerors legal name and address, the date of the contract, the contract serial number, and the description of the \"Obligee,\" which is \"His Majesty the King in right of Canada.\" Surety bonds requiring correction are returned to the offeror, not to the surety company."
+    },
+    {
+      "block_id": "76cf08018418::b0021",
+      "section_id": "76cf08018418::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Evaluate an offeror\u2019s financial capability",
+        "Buyer's Guide",
+        "Evaluate an offeror\u2019s financial capability",
+        "Verify offer financial security"
+      ],
+      "markdown": "Handling and safekeeping of bonds : Public Services and Procurement Canada (PSPC) will hold any bid bond, payment bond, or performance bond non-negotiable security deposit (such as government guaranteed bond) until the terms of the security are fulfilled.",
+      "plain_text": "Handling and safekeeping of bonds : Public Services and Procurement Canada (PSPC) will hold any bid bond, payment bond, or performance bond non-negotiable security deposit (such as government guaranteed bond) until the terms of the security are fulfilled."
+    },
+    {
+      "block_id": "76cf08018418::b0022",
+      "section_id": "76cf08018418::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Evaluate an offeror\u2019s financial capability",
+        "Buyer's Guide",
+        "Evaluate an offeror\u2019s financial capability",
+        "Verify offer financial security"
+      ],
+      "markdown": "Instructions for maturing coupons : You must request written instructions from the offeror concerning the action to be taken with respect to any coupons attached to the bonds that will mature while the bond is pledged as security. These instructions must be forwarded to the group managing financial operations for action.",
+      "plain_text": "Instructions for maturing coupons : You must request written instructions from the offeror concerning the action to be taken with respect to any coupons attached to the bonds that will mature while the bond is pledged as security. These instructions must be forwarded to the group managing financial operations for action."
+    },
+    {
+      "block_id": "76cf08018418::b0023",
+      "section_id": "76cf08018418::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Evaluate an offeror\u2019s financial capability",
+        "Buyer's Guide",
+        "Evaluate an offeror\u2019s financial capability",
+        "Verify offer financial security"
+      ],
+      "markdown": "Examination of letters of credit : You must examine the letters of credit submitted by offerors and obtain advice from legal services as necessary to ensure their completeness and compliance. This includes the face amount that may be drawn against them, expiry date, and provisions for sight payment to the Receiver General for Canada, by way of the financial institution's draft, against presentation of a written demand for payment signed by the authorized departmental representative and identified in the letter of credit by their office.",
+      "plain_text": "Examination of letters of credit : You must examine the letters of credit submitted by offerors and obtain advice from legal services as necessary to ensure their completeness and compliance. This includes the face amount that may be drawn against them, expiry date, and provisions for sight payment to the Receiver General for Canada, by way of the financial institution's draft, against presentation of a written demand for payment signed by the authorized departmental representative and identified in the letter of credit by their office."
+    },
+    {
+      "block_id": "76cf08018418::b0024",
+      "section_id": "76cf08018418::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Evaluate an offeror\u2019s financial capability",
+        "Buyer's Guide",
+        "Evaluate an offeror\u2019s financial capability",
+        "Verify offer financial security"
+      ],
+      "markdown": "Provision that more than one written demand for payment may be presented subject to the sum of those demands, but not to exceed the face amount of the letter of credit.",
+      "plain_text": "Provision that more than one written demand for payment may be presented subject to the sum of those demands, but not to exceed the face amount of the letter of credit."
+    },
+    {
+      "block_id": "76cf08018418::b0025",
+      "section_id": "76cf08018418::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Evaluate an offeror\u2019s financial capability",
+        "Buyer's Guide",
+        "Evaluate an offeror\u2019s financial capability",
+        "Verify offer financial security"
+      ],
+      "markdown": "Letters of credit are subject to, and must be irrevocable or deemed to be irrevocable pursuant to, the International Chamber of Commerce , Uniform Customs and Practice for Documentary Credits. Issuance or confirmation, in either official language, must come from a financial institution that is a member of the Canadian Payments Association and must be presented on the letterhead of the Issuer or Confirmer in a format designated by the Issuer or Confirmer.",
+      "plain_text": "Letters of credit are subject to, and must be irrevocable or deemed to be irrevocable pursuant to, the International Chamber of Commerce , Uniform Customs and Practice for Documentary Credits. Issuance or confirmation, in either official language, must come from a financial institution that is a member of the Canadian Payments Association and must be presented on the letterhead of the Issuer or Confirmer in a format designated by the Issuer or Confirmer."
+    },
+    {
+      "block_id": "76cf08018418::b0026",
+      "section_id": "76cf08018418::s005",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Evaluate an offeror\u2019s financial capability",
+        "Buyer's Guide",
+        "Evaluate an offeror\u2019s financial capability",
+        "Business credit services"
+      ],
+      "markdown": "### Business credit services",
+      "plain_text": "Business credit services"
+    },
+    {
+      "block_id": "76cf08018418::b0027",
+      "section_id": "76cf08018418::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Evaluate an offeror\u2019s financial capability",
+        "Buyer's Guide",
+        "Evaluate an offeror\u2019s financial capability",
+        "Business credit services"
+      ],
+      "markdown": "Business credit services companies provide insights into a business\u2019 financial stability through general credit ratings and detailed credit reports. Their comprehensive reports generally include:",
+      "plain_text": "Business credit services companies provide insights into a business\u2019 financial stability through general credit ratings and detailed credit reports. Their comprehensive reports generally include:"
+    },
+    {
+      "block_id": "76cf08018418::b0028",
+      "section_id": "76cf08018418::s005",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Evaluate an offeror\u2019s financial capability",
+        "Buyer's Guide",
+        "Evaluate an offeror\u2019s financial capability",
+        "Business credit services"
+      ],
+      "markdown": "- simplified financial statements\n- details of maximum credit obtained from the business\n- promptness of payments made\n- banking information\n- business\u2019 history\n- information on the business\u2019 operations",
+      "plain_text": "simplified financial statements ; details of maximum credit obtained from the business ; promptness of payments made ; banking information ; business\u2019 history ; information on the business\u2019 operations"
+    },
+    {
+      "block_id": "76cf08018418::b0029",
+      "section_id": "76cf08018418::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Evaluate an offeror\u2019s financial capability",
+        "Buyer's Guide",
+        "Evaluate an offeror\u2019s financial capability",
+        "Business credit services"
+      ],
+      "markdown": "Obtaining credit services : You must route all requests for business credit services through the group responsible for price support, avoiding direct contact with business credit service companies.",
+      "plain_text": "Obtaining credit services : You must route all requests for business credit services through the group responsible for price support, avoiding direct contact with business credit service companies."
+    },
+    {
+      "block_id": "76cf08018418::b0030",
+      "section_id": "76cf08018418::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Evaluate an offeror\u2019s financial capability",
+        "Buyer's Guide",
+        "Evaluate an offeror\u2019s financial capability",
+        "Business credit services"
+      ],
+      "markdown": "Confidentiality of reports : The content of business credit service reports is deemed commercially confidential. The information must not be disclosed outside the government, and is only disclosed within the government on a \"need to know\" basis.",
+      "plain_text": "Confidentiality of reports : The content of business credit service reports is deemed commercially confidential. The information must not be disclosed outside the government, and is only disclosed within the government on a \"need to know\" basis."
+    },
+    {
+      "block_id": "76cf08018418::b0031",
+      "section_id": "76cf08018418::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Evaluate an offeror\u2019s financial capability",
+        "Buyer's Guide",
+        "Evaluate an offeror\u2019s financial capability",
+        "Business credit services"
+      ],
+      "markdown": "Access and retention : Access to these reports is restricted to PSPC employees, with all reports securely maintained by the price support group.",
+      "plain_text": "Access and retention : Access to these reports is restricted to PSPC employees, with all reports securely maintained by the price support group."
+    },
+    {
+      "block_id": "76cf08018418::b0032",
+      "section_id": "76cf08018418::s006",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Evaluate an offeror\u2019s financial capability",
+        "Buyer's Guide",
+        "Evaluate an offeror\u2019s financial capability",
+        "Contractual terms and conditions evaluation"
+      ],
+      "markdown": "### Contractual terms and conditions evaluation",
+      "plain_text": "Contractual terms and conditions evaluation"
+    },
+    {
+      "block_id": "76cf08018418::b0033",
+      "section_id": "76cf08018418::s006",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Evaluate an offeror\u2019s financial capability",
+        "Buyer's Guide",
+        "Evaluate an offeror\u2019s financial capability",
+        "Contractual terms and conditions evaluation"
+      ],
+      "markdown": "You are responsible for reviewing the offers to ensure compliance with the contractual terms and conditions set forth in the solicitation document. This includes an assessment of the terms of the offer to ensure they align with the expectations and requirements for contract execution.",
+      "plain_text": "You are responsible for reviewing the offers to ensure compliance with the contractual terms and conditions set forth in the solicitation document. This includes an assessment of the terms of the offer to ensure they align with the expectations and requirements for contract execution."
+    }
+  ]
+}

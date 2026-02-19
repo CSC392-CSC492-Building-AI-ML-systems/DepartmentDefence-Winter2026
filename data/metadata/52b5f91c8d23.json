@@ -1,0 +1,361 @@
+{
+  "doc_id": "52b5f91c8d23",
+  "title": "Buyer's Guide Prepare approval documents - Task authorizations",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/task-authorizations",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/task-authorizations",
+  "doc_type": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": "2026-01-31",
+  "fetched_at": "2026-02-19T09:17:49.960509+00:00",
+  "content_hash": "9b27a7c796ad7ae630e1994dd98afa5684cae5bb76289c8bb8f65d6c384ad473",
+  "word_count": 425,
+  "text_path": "data/corpus/buyers_guide__en-buyer-s-portal-buyer-s-guide-approve-prepare-approval-documents-task-authorizations__52b5f91c8d.md",
+  "extraction_method": "buyers_guide_regions",
+  "breadcrumbs": [
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "https://canadabuys.canada.ca/en",
+      "canonical_url": "https://canadabuys.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "in_scope": true
+    },
+    {
+      "title": "Prepare approval documents",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents",
+      "in_scope": true
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents",
+    "parent_doc_id": "a84e61330452",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/task-authorizations"
+    ],
+    "lineage_doc_ids": [
+      "1e29c7881335",
+      "a84e61330452",
+      "52b5f91c8d23"
+    ],
+    "depth": 2,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/additional-signing-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/approval-authorities-and-additional-signing-authorities-support-acquisitions-program-clients-programs-only-other-canadian-commercial-corporation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contract-approval-and-signing-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contracting-limits-including-exceptional-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/delegation-authority-guidelines",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/general-principles-procurement-authority",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/risk-based-procurement-delegation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/adjustments-complexity-levels",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/characteristics-procurement-complexity-levels",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/considerations-amendments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/determining-complexity",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/procurement-risk-assessment-complexity",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/additional-reviewers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/approval-processes",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-amendment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-planning-and-advanced-approval",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-request",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/procurement-plan",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/treasury-board-submission",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/forgiveness-debts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/procurement-process-initiated-client",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/retroactive-treasury-board-approval-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/trade-ins",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/waiver-interest"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/additional-signing-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/approval-authorities-and-additional-signing-authorities-support-acquisitions-program-clients-programs-only-other-canadian-commercial-corporation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contract-approval-and-signing-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contracting-limits-including-exceptional-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/delegation-authority-guidelines",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/general-principles-procurement-authority",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/risk-based-procurement-delegation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/adjustments-complexity-levels",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/characteristics-procurement-complexity-levels",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/considerations-amendments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/determining-complexity",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/procurement-risk-assessment-complexity",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/additional-reviewers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/approval-processes",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-amendment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-planning-and-advanced-approval",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-request",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/procurement-plan",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/treasury-board-submission",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/forgiveness-debts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/procurement-process-initiated-client",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/retroactive-treasury-board-approval-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/trade-ins",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/waiver-interest",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/task-authorizations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure": {
+    "block_count": 9,
+    "section_count": 5,
+    "heading_count": 4,
+    "paragraph_count": 3,
+    "list_count": 2,
+    "table_count": 0
+  },
+  "sections": [
+    {
+      "section_id": "52b5f91c8d23::root",
+      "parent_section_id": null,
+      "level": 0,
+      "heading": "Buyer's Guide Prepare approval documents - Task authorizations",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Task authorizations"
+      ],
+      "block_count": 0,
+      "word_count": 0,
+      "char_count": 0,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": null,
+      "last_block_index": null,
+      "preview": "",
+      "prev_section_id": null,
+      "next_section_id": null
+    },
+    {
+      "section_id": "52b5f91c8d23::s001",
+      "parent_section_id": "52b5f91c8d23::root",
+      "level": 1,
+      "heading": "Buyer's Guide Prepare approval documents - Task authorizations",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Task authorizations",
+        "Buyer's Guide Prepare approval documents - Task authorizations"
+      ],
+      "block_count": 1,
+      "word_count": 8,
+      "char_count": 62,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 0,
+      "last_block_index": 0,
+      "preview": "Buyer's Guide Prepare approval documents - Task authorizations",
+      "prev_section_id": null,
+      "next_section_id": "52b5f91c8d23::s002"
+    },
+    {
+      "section_id": "52b5f91c8d23::s002",
+      "parent_section_id": "52b5f91c8d23::root",
+      "level": 1,
+      "heading": "Buyer's Guide",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Task authorizations",
+        "Buyer's Guide"
+      ],
+      "block_count": 3,
+      "word_count": 216,
+      "char_count": 1380,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 1,
+      "last_block_index": 3,
+      "preview": "Buyer's Guide Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage Task authorizations For contracts with task authorizations (TAs), the Contract Planning and Advance Approval (CPAA) document or",
+      "prev_section_id": "52b5f91c8d23::s001",
+      "next_section_id": "52b5f91c8d23::s003"
+    },
+    {
+      "section_id": "52b5f91c8d23::s003",
+      "parent_section_id": "52b5f91c8d23::s002",
+      "level": 2,
+      "heading": "Task authorizations",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Task authorizations",
+        "Buyer's Guide",
+        "Task authorizations"
+      ],
+      "block_count": 3,
+      "word_count": 149,
+      "char_count": 957,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 4,
+      "last_block_index": 6,
+      "preview": "Task authorizations For contracts with task authorizations (TAs), the Contract Planning and Advance Approval (CPAA) document or formal procurement plan must include the following points, as applicable: the reasons why the services are suita",
+      "prev_section_id": "52b5f91c8d23::s002",
+      "next_section_id": "52b5f91c8d23::s004"
+    },
+    {
+      "section_id": "52b5f91c8d23::s004",
+      "parent_section_id": "52b5f91c8d23::s003",
+      "level": 3,
+      "heading": "Authority for approval",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Task authorizations",
+        "Buyer's Guide",
+        "Task authorizations",
+        "Authority for approval"
+      ],
+      "block_count": 2,
+      "word_count": 52,
+      "char_count": 318,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 7,
+      "last_block_index": 8,
+      "preview": "Authority for approval The Public Services and Procurement Canada (PSPC) approval authority for contracts with TA s, and for amendments which will amend the provisions of a contract with TA s, is based on the PSPC Delegation of authority in",
+      "prev_section_id": "52b5f91c8d23::s003",
+      "next_section_id": null
+    }
+  ],
+  "tables": [],
+  "blocks": [
+    {
+      "block_id": "52b5f91c8d23::b0001",
+      "section_id": "52b5f91c8d23::s001",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Task authorizations",
+        "Buyer's Guide Prepare approval documents - Task authorizations"
+      ],
+      "markdown": "# Buyer's Guide Prepare approval documents - Task authorizations",
+      "plain_text": "Buyer's Guide Prepare approval documents - Task authorizations"
+    },
+    {
+      "block_id": "52b5f91c8d23::b0002",
+      "section_id": "52b5f91c8d23::s002",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Task authorizations",
+        "Buyer's Guide"
+      ],
+      "markdown": "# Buyer's Guide",
+      "plain_text": "Buyer's Guide"
+    },
+    {
+      "block_id": "52b5f91c8d23::b0003",
+      "section_id": "52b5f91c8d23::s002",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Task authorizations",
+        "Buyer's Guide"
+      ],
+      "markdown": "- Plan\n- Approve\n- Create solicitation\n- Solicit\n- Receive and evaluate\n- Negotiate\n- Award\n- Manage",
+      "plain_text": "Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage"
+    },
+    {
+      "block_id": "52b5f91c8d23::b0004",
+      "section_id": "52b5f91c8d23::s002",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Task authorizations",
+        "Buyer's Guide"
+      ],
+      "markdown": "Task authorizations For contracts with task authorizations (TAs), the Contract Planning and Advance Approval (CPAA) document or formal procurement plan must include the following points, as applicable: the reasons why the services are suitable for this method of supply the justification for the proposed financial limits for issuing TA s by clients a statement confirming that guidance on preparing and managing TA s, as detailed in Task authorizations , was provided and discussed with the client a statement confirming an agreement was reached with the client concerning the roles and responsibilities of both organizations through the Task authorization record of agreement, before the solicitation of offers is issued a statement confirming that discussions regarding the use of contracts with TA s took place with the client before they authorize the first task a description of the contract monitoring process and activities to be implemented Authority for approval The Public Services and Procurement Canada (PSPC) approval authority for contracts with TA s, and for amendments which will amend the provisions of a contract with TA s, is based on the PSPC Delegation of authority instrument (accessible only on the Government of Canada network - for PSPC only).",
+      "plain_text": "Task authorizations For contracts with task authorizations (TAs), the Contract Planning and Advance Approval (CPAA) document or formal procurement plan must include the following points, as applicable: the reasons why the services are suitable for this method of supply the justification for the proposed financial limits for issuing TA s by clients a statement confirming that guidance on preparing and managing TA s, as detailed in Task authorizations , was provided and discussed with the client a statement confirming an agreement was reached with the client concerning the roles and responsibilities of both organizations through the Task authorization record of agreement, before the solicitation of offers is issued a statement confirming that discussions regarding the use of contracts with TA s took place with the client before they authorize the first task a description of the contract monitoring process and activities to be implemented Authority for approval The Public Services and Procurement Canada (PSPC) approval authority for contracts with TA s, and for amendments which will amend the provisions of a contract with TA s, is based on the PSPC Delegation of authority instrument (accessible only on the Government of Canada network - for PSPC only)."
+    },
+    {
+      "block_id": "52b5f91c8d23::b0005",
+      "section_id": "52b5f91c8d23::s003",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Task authorizations",
+        "Buyer's Guide",
+        "Task authorizations"
+      ],
+      "markdown": "## Task authorizations",
+      "plain_text": "Task authorizations"
+    },
+    {
+      "block_id": "52b5f91c8d23::b0006",
+      "section_id": "52b5f91c8d23::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Task authorizations",
+        "Buyer's Guide",
+        "Task authorizations"
+      ],
+      "markdown": "For contracts with task authorizations (TAs), the Contract Planning and Advance Approval (CPAA) document or formal procurement plan must include the following points, as applicable:",
+      "plain_text": "For contracts with task authorizations (TAs), the Contract Planning and Advance Approval (CPAA) document or formal procurement plan must include the following points, as applicable:"
+    },
+    {
+      "block_id": "52b5f91c8d23::b0007",
+      "section_id": "52b5f91c8d23::s003",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Task authorizations",
+        "Buyer's Guide",
+        "Task authorizations"
+      ],
+      "markdown": "- the reasons why the services are suitable for this method of supply\n- the justification for the proposed financial limits for issuing TA s by clients\n- a statement confirming that guidance on preparing and managing TA s, as detailed in Task authorizations , was provided and discussed with the client\n- a statement confirming an agreement was reached with the client concerning the roles and responsibilities of both organizations through the Task authorization record of agreement, before the solicitation of offers is issued\n- a statement confirming that discussions regarding the use of contracts with TA s took place with the client before they authorize the first task\n- a description of the contract monitoring process and activities to be implemented",
+      "plain_text": "the reasons why the services are suitable for this method of supply ; the justification for the proposed financial limits for issuing TA s by clients ; a statement confirming that guidance on preparing and managing TA s, as detailed in Task authorizations , was provided and discussed with the client ; a statement confirming an agreement was reached with the client concerning the roles and responsibilities of both organizations through the Task authorization record of agreement, before the solicitation of offers is issued ; a statement confirming that discussions regarding the use of contracts with TA s took place with the client before they authorize the first task ; a description of the contract monitoring process and activities to be implemented"
+    },
+    {
+      "block_id": "52b5f91c8d23::b0008",
+      "section_id": "52b5f91c8d23::s004",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Task authorizations",
+        "Buyer's Guide",
+        "Task authorizations",
+        "Authority for approval"
+      ],
+      "markdown": "### Authority for approval",
+      "plain_text": "Authority for approval"
+    },
+    {
+      "block_id": "52b5f91c8d23::b0009",
+      "section_id": "52b5f91c8d23::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Task authorizations",
+        "Buyer's Guide",
+        "Task authorizations",
+        "Authority for approval"
+      ],
+      "markdown": "The Public Services and Procurement Canada (PSPC) approval authority for contracts with TA s, and for amendments which will amend the provisions of a contract with TA s, is based on the PSPC Delegation of authority instrument (accessible only on the Government of Canada network - for PSPC only).",
+      "plain_text": "The Public Services and Procurement Canada (PSPC) approval authority for contracts with TA s, and for amendments which will amend the provisions of a contract with TA s, is based on the PSPC Delegation of authority instrument (accessible only on the Government of Canada network - for PSPC only)."
+    }
+  ]
+}

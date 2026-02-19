@@ -1,0 +1,708 @@
+{
+  "doc_id": "fd4f00989be2",
+  "title": "Buyer's Guide Financial considerations - Financial security",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/financial-security",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/financial-security",
+  "doc_type": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": "2026-01-31",
+  "fetched_at": "2026-02-19T09:16:37.328625+00:00",
+  "content_hash": "7370a81f0cd6de1a7f4ebe981c44d958fd5e2d74e88c588e1325a489b7a36955",
+  "word_count": 1300,
+  "text_path": "data/corpus/buyers_guide__en-buyer-s-portal-buyer-s-guide-plan-financial-considerations-financial-security__fd4f00989b.md",
+  "extraction_method": "buyers_guide_regions",
+  "breadcrumbs": [
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "https://canadabuys.canada.ca/en",
+      "canonical_url": "https://canadabuys.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "in_scope": true
+    },
+    {
+      "title": "Financial considerations",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations",
+      "in_scope": true
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations",
+    "parent_doc_id": "f500a07e1ced",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/financial-security"
+    ],
+    "lineage_doc_ids": [
+      "1e29c7881335",
+      "f500a07e1ced",
+      "fd4f00989be2"
+    ],
+    "depth": 2,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-accounting-and-pricing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-reimbursable",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/firm-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-time/unit-rate",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/overview-key-pricing-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/price-and-currency-adjustments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/pricing-methods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/provisional-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/types-basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/application-registration",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/completing-security-requirements-check-list",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/controlled-goods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/foreign-ownership-control-or-influence",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/privacy-and-confidentiality",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-international-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-timelines",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/importance-clear-procurement-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/requisition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/review-statement-work",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/socioeconomic-requirements-definition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/standards-and-quality-assurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/choose-method-supply",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/determine-sourcing-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/developing-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/interim-policy-reciprocal-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/trade-agreement-applicability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/early-engagement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-businesses",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-clients",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-subject-matter-experts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/invoicing-instructions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/payment-instruments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/taxes-and-duties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/withholding-non-resident-contractors",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/communicating-method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/developing-selection-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/including-basis-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/specifying-evaluation-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/canadian-general-standards-board",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/compliance-canadian-electrical-code",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/contractor-liability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/emergency-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/employer/employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/fairness-monitoring",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/insurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/intellectual-property-and-copyright",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/liability-and-risk-management",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/managing-urgent-acquisitions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/official-languages-obligation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/warranties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/holdbacks",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/incentives",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/accessibility",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/anti-forced-labour-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/green-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/indigenous-considerations"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/award-contract/elements-consider-award",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-accounting-and-pricing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-reimbursable",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/firm-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-time/unit-rate",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/overview-key-pricing-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/price-and-currency-adjustments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/pricing-methods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/provisional-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/types-basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/application-registration",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/completing-security-requirements-check-list",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/controlled-goods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/foreign-ownership-control-or-influence",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/privacy-and-confidentiality",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-international-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-timelines",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/importance-clear-procurement-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/requisition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/review-statement-work",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/socioeconomic-requirements-definition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/standards-and-quality-assurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/choose-method-supply",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/determine-sourcing-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/developing-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/interim-policy-reciprocal-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/trade-agreement-applicability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/early-engagement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-businesses",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-clients",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-subject-matter-experts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/invoicing-instructions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/payment-instruments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/taxes-and-duties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/withholding-non-resident-contractors",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/communicating-method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/developing-selection-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/including-basis-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/specifying-evaluation-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/canadian-general-standards-board",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/compliance-canadian-electrical-code",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/contractor-liability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/emergency-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/employer/employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/fairness-monitoring",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/insurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/intellectual-property-and-copyright",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/liability-and-risk-management",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/managing-urgent-acquisitions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/official-languages-obligation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/warranties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/holdbacks",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/incentives",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/accessibility",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/anti-forced-labour-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/green-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/indigenous-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document",
+      "https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32692"
+    ]
+  },
+  "structure": {
+    "block_count": 28,
+    "section_count": 6,
+    "heading_count": 5,
+    "paragraph_count": 15,
+    "list_count": 8,
+    "table_count": 0
+  },
+  "sections": [
+    {
+      "section_id": "fd4f00989be2::root",
+      "parent_section_id": null,
+      "level": 0,
+      "heading": "Buyer's Guide Financial considerations - Financial security",
+      "heading_path": [
+        "Buyer's Guide Financial considerations - Financial security"
+      ],
+      "block_count": 0,
+      "word_count": 0,
+      "char_count": 0,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": null,
+      "last_block_index": null,
+      "preview": "",
+      "prev_section_id": null,
+      "next_section_id": null
+    },
+    {
+      "section_id": "fd4f00989be2::s001",
+      "parent_section_id": "fd4f00989be2::root",
+      "level": 1,
+      "heading": "Buyer's Guide Financial considerations - Financial security",
+      "heading_path": [
+        "Buyer's Guide Financial considerations - Financial security",
+        "Buyer's Guide Financial considerations - Financial security"
+      ],
+      "block_count": 1,
+      "word_count": 7,
+      "char_count": 59,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 0,
+      "last_block_index": 0,
+      "preview": "Buyer's Guide Financial considerations - Financial security",
+      "prev_section_id": null,
+      "next_section_id": "fd4f00989be2::s002"
+    },
+    {
+      "section_id": "fd4f00989be2::s002",
+      "parent_section_id": "fd4f00989be2::root",
+      "level": 1,
+      "heading": "Buyer's Guide",
+      "heading_path": [
+        "Buyer's Guide Financial considerations - Financial security",
+        "Buyer's Guide"
+      ],
+      "block_count": 3,
+      "word_count": 652,
+      "char_count": 4288,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 1,
+      "last_block_index": 3,
+      "preview": "Buyer's Guide Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage Financial security There are three types of financial security that can be required from an offeror, including: offer financial",
+      "prev_section_id": "fd4f00989be2::s001",
+      "next_section_id": "fd4f00989be2::s003"
+    },
+    {
+      "section_id": "fd4f00989be2::s003",
+      "parent_section_id": "fd4f00989be2::s002",
+      "level": 2,
+      "heading": "Financial security",
+      "heading_path": [
+        "Buyer's Guide Financial considerations - Financial security",
+        "Buyer's Guide",
+        "Financial security"
+      ],
+      "block_count": 10,
+      "word_count": 300,
+      "char_count": 1988,
+      "table_count": 0,
+      "list_count": 3,
+      "paragraph_count": 6,
+      "first_block_index": 4,
+      "last_block_index": 13,
+      "preview": "Financial security There are three types of financial security that can be required from an offeror, including: offer financial security to protect Canada against loss if an offeror fails to enter into a contract ; contract financial securi",
+      "prev_section_id": "fd4f00989be2::s002",
+      "next_section_id": "fd4f00989be2::s004"
+    },
+    {
+      "section_id": "fd4f00989be2::s004",
+      "parent_section_id": "fd4f00989be2::s003",
+      "level": 3,
+      "heading": "Offer financial security",
+      "heading_path": [
+        "Buyer's Guide Financial considerations - Financial security",
+        "Buyer's Guide",
+        "Financial security",
+        "Offer financial security"
+      ],
+      "block_count": 9,
+      "word_count": 209,
+      "char_count": 1307,
+      "table_count": 0,
+      "list_count": 3,
+      "paragraph_count": 5,
+      "first_block_index": 14,
+      "last_block_index": 22,
+      "preview": "Offer financial security When deciding to obtain financial security for an offer, consider: the potential for prequalifying offerors the type of work and custom of the trade ; the likelihood that offerors will try to withdraw their offers ;",
+      "prev_section_id": "fd4f00989be2::s003",
+      "next_section_id": "fd4f00989be2::s005"
+    },
+    {
+      "section_id": "fd4f00989be2::s005",
+      "parent_section_id": "fd4f00989be2::s003",
+      "level": 3,
+      "heading": "Contract financial security",
+      "heading_path": [
+        "Buyer's Guide Financial considerations - Financial security",
+        "Buyer's Guide",
+        "Financial security",
+        "Contract financial security"
+      ],
+      "block_count": 5,
+      "word_count": 132,
+      "char_count": 877,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 3,
+      "first_block_index": 23,
+      "last_block_index": 27,
+      "preview": "Contract financial security For the successful offeror, you must ensure that offer financial security is not released until the contractor provides the required contract financial security. Decisions on the necessity and the amount of contr",
+      "prev_section_id": "fd4f00989be2::s004",
+      "next_section_id": null
+    }
+  ],
+  "tables": [],
+  "blocks": [
+    {
+      "block_id": "fd4f00989be2::b0001",
+      "section_id": "fd4f00989be2::s001",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Financial considerations - Financial security",
+        "Buyer's Guide Financial considerations - Financial security"
+      ],
+      "markdown": "# Buyer's Guide Financial considerations - Financial security",
+      "plain_text": "Buyer's Guide Financial considerations - Financial security"
+    },
+    {
+      "block_id": "fd4f00989be2::b0002",
+      "section_id": "fd4f00989be2::s002",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Financial considerations - Financial security",
+        "Buyer's Guide"
+      ],
+      "markdown": "# Buyer's Guide",
+      "plain_text": "Buyer's Guide"
+    },
+    {
+      "block_id": "fd4f00989be2::b0003",
+      "section_id": "fd4f00989be2::s002",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Financial considerations - Financial security",
+        "Buyer's Guide"
+      ],
+      "markdown": "- Plan\n- Approve\n- Create solicitation\n- Solicit\n- Receive and evaluate\n- Negotiate\n- Award\n- Manage",
+      "plain_text": "Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage"
+    },
+    {
+      "block_id": "fd4f00989be2::b0004",
+      "section_id": "fd4f00989be2::s002",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Financial considerations - Financial security",
+        "Buyer's Guide"
+      ],
+      "markdown": "Financial security There are three types of financial security that can be required from an offeror, including: offer financial security to protect Canada against loss if an offeror fails to enter into a contract contract financial security to ensure that a contractor fulfills its obligations payment bond to protect subcontractors and material suppliers Decisions regarding a requirement for financial security for a competitive procurement must be made before you issue the solicitation. Include the appropriate clauses in the solicitation document and resulting contract, and ensure that any mandatory requirements are clearly specified. Offerors have the right to choose the form of financial security they will provide. Acceptable forms of financial security include security deposits such as government guaranteed bonds, bills of exchange, irrevocable standby letters of credit, or surety bonds. Government guaranteed bonds will be valued at their current value. Letters of credit received by Canada must state an appropriate expiry date which should extend beyond the anticipated risk period. Therefore, for offer financial security, the expiry date must go beyond the expected contract award date. For contract financial security, the expiry date should go beyond the expected contract completion date. The period before the expiry date should allow you sufficient time to: confirm the offeror/contractor has discharged the obligations for which the letter of credit was provided if the offeror/contractor fails to meet these obligations, to prepare and present the required demand for payment under the letter of credit You must verify that any entity chosen to provide financial security is licensed to do so in the jurisdiction of the contract, as detailed in the Treasury Board Directive on the Management of Procurement . See the following sections of the Buyer\u2019s guide for more information on financial security: Award: Contract financial security Manage: Financial security Offer financial security When deciding to obtain financial security for an offer, consider: the potential for prequalifying offerors the type of work and custom of the trade the likelihood that offerors will try to withdraw their offers the consequences if an offeror fails or is unable to enter a contract The amount of financial security for an offer must be the minimum required to ensure that the offeror enters into contract. Buyers must not require offer financial security for procurements valued at or below $500,000 CAD To prevent problems in securing any contract financial security, the solicitations must state that failure to provide the contract financial security within the specified timeframe, will result in forfeiture of the offer financial security or a demand for payment under the letter of credit for the offer. The forfeited amount must not exceed the difference between the offer price and the value of the contract with Canada. The solicitation document must include: a list of licensed insurance companies capable of providing financial security in the jurisdiction of the contract the applicable surety bond. Any deviation must be approved in advance by Legal Services. You must instruct the designated offer receiving unit on how to handle the offer financial securities received. Contract financial security For the successful offeror, you must ensure that offer financial security is not released until the contractor provides the required contract financial security. Decisions on the necessity and the amount of contract financial security should be based on the unique circumstances of the procurement. This should take into account: the type of work and custom of the trade the potential consequences of a contractor\u2019s default the costs versus the risks of providing such security As some businesses may have difficulties obtaining certain forms of security, you should avoid including unreasonable requirements. In some instances, an advance form of security may not be necessary, and instead contract payment holdbacks may be sufficient. Contract financial security must be sought for construction contracts with an estimated value over $500,000 CAD.",
+      "plain_text": "Financial security There are three types of financial security that can be required from an offeror, including: offer financial security to protect Canada against loss if an offeror fails to enter into a contract contract financial security to ensure that a contractor fulfills its obligations payment bond to protect subcontractors and material suppliers Decisions regarding a requirement for financial security for a competitive procurement must be made before you issue the solicitation. Include the appropriate clauses in the solicitation document and resulting contract, and ensure that any mandatory requirements are clearly specified. Offerors have the right to choose the form of financial security they will provide. Acceptable forms of financial security include security deposits such as government guaranteed bonds, bills of exchange, irrevocable standby letters of credit, or surety bonds. Government guaranteed bonds will be valued at their current value. Letters of credit received by Canada must state an appropriate expiry date which should extend beyond the anticipated risk period. Therefore, for offer financial security, the expiry date must go beyond the expected contract award date. For contract financial security, the expiry date should go beyond the expected contract completion date. The period before the expiry date should allow you sufficient time to: confirm the offeror/contractor has discharged the obligations for which the letter of credit was provided if the offeror/contractor fails to meet these obligations, to prepare and present the required demand for payment under the letter of credit You must verify that any entity chosen to provide financial security is licensed to do so in the jurisdiction of the contract, as detailed in the Treasury Board Directive on the Management of Procurement . See the following sections of the Buyer\u2019s guide for more information on financial security: Award: Contract financial security Manage: Financial security Offer financial security When deciding to obtain financial security for an offer, consider: the potential for prequalifying offerors the type of work and custom of the trade the likelihood that offerors will try to withdraw their offers the consequences if an offeror fails or is unable to enter a contract The amount of financial security for an offer must be the minimum required to ensure that the offeror enters into contract. Buyers must not require offer financial security for procurements valued at or below $500,000 CAD To prevent problems in securing any contract financial security, the solicitations must state that failure to provide the contract financial security within the specified timeframe, will result in forfeiture of the offer financial security or a demand for payment under the letter of credit for the offer. The forfeited amount must not exceed the difference between the offer price and the value of the contract with Canada. The solicitation document must include: a list of licensed insurance companies capable of providing financial security in the jurisdiction of the contract the applicable surety bond. Any deviation must be approved in advance by Legal Services. You must instruct the designated offer receiving unit on how to handle the offer financial securities received. Contract financial security For the successful offeror, you must ensure that offer financial security is not released until the contractor provides the required contract financial security. Decisions on the necessity and the amount of contract financial security should be based on the unique circumstances of the procurement. This should take into account: the type of work and custom of the trade the potential consequences of a contractor\u2019s default the costs versus the risks of providing such security As some businesses may have difficulties obtaining certain forms of security, you should avoid including unreasonable requirements. In some instances, an advance form of security may not be necessary, and instead contract payment holdbacks may be sufficient. Contract financial security must be sought for construction contracts with an estimated value over $500,000 CAD."
+    },
+    {
+      "block_id": "fd4f00989be2::b0005",
+      "section_id": "fd4f00989be2::s003",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Financial considerations - Financial security",
+        "Buyer's Guide",
+        "Financial security"
+      ],
+      "markdown": "## Financial security",
+      "plain_text": "Financial security"
+    },
+    {
+      "block_id": "fd4f00989be2::b0006",
+      "section_id": "fd4f00989be2::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Financial considerations - Financial security",
+        "Buyer's Guide",
+        "Financial security"
+      ],
+      "markdown": "There are three types of financial security that can be required from an offeror, including:",
+      "plain_text": "There are three types of financial security that can be required from an offeror, including:"
+    },
+    {
+      "block_id": "fd4f00989be2::b0007",
+      "section_id": "fd4f00989be2::s003",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Financial considerations - Financial security",
+        "Buyer's Guide",
+        "Financial security"
+      ],
+      "markdown": "- offer financial security to protect Canada against loss if an offeror fails to enter into a contract\n- contract financial security to ensure that a contractor fulfills its obligations\n- payment bond to protect subcontractors and material suppliers",
+      "plain_text": "offer financial security to protect Canada against loss if an offeror fails to enter into a contract ; contract financial security to ensure that a contractor fulfills its obligations ; payment bond to protect subcontractors and material suppliers"
+    },
+    {
+      "block_id": "fd4f00989be2::b0008",
+      "section_id": "fd4f00989be2::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Financial considerations - Financial security",
+        "Buyer's Guide",
+        "Financial security"
+      ],
+      "markdown": "Decisions regarding a requirement for financial security for a competitive procurement must be made before you issue the solicitation. Include the appropriate clauses in the solicitation document and resulting contract, and ensure that any mandatory requirements are clearly specified.",
+      "plain_text": "Decisions regarding a requirement for financial security for a competitive procurement must be made before you issue the solicitation. Include the appropriate clauses in the solicitation document and resulting contract, and ensure that any mandatory requirements are clearly specified."
+    },
+    {
+      "block_id": "fd4f00989be2::b0009",
+      "section_id": "fd4f00989be2::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Financial considerations - Financial security",
+        "Buyer's Guide",
+        "Financial security"
+      ],
+      "markdown": "Offerors have the right to choose the form of financial security they will provide. Acceptable forms of financial security include security deposits such as government guaranteed bonds, bills of exchange, irrevocable standby letters of credit, or surety bonds. Government guaranteed bonds will be valued at their current value.",
+      "plain_text": "Offerors have the right to choose the form of financial security they will provide. Acceptable forms of financial security include security deposits such as government guaranteed bonds, bills of exchange, irrevocable standby letters of credit, or surety bonds. Government guaranteed bonds will be valued at their current value."
+    },
+    {
+      "block_id": "fd4f00989be2::b0010",
+      "section_id": "fd4f00989be2::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Financial considerations - Financial security",
+        "Buyer's Guide",
+        "Financial security"
+      ],
+      "markdown": "Letters of credit received by Canada must state an appropriate expiry date which should extend beyond the anticipated risk period. Therefore, for offer financial security, the expiry date must go beyond the expected contract award date. For contract financial security, the expiry date should go beyond the expected contract completion date. The period before the expiry date should allow you sufficient time to:",
+      "plain_text": "Letters of credit received by Canada must state an appropriate expiry date which should extend beyond the anticipated risk period. Therefore, for offer financial security, the expiry date must go beyond the expected contract award date. For contract financial security, the expiry date should go beyond the expected contract completion date. The period before the expiry date should allow you sufficient time to:"
+    },
+    {
+      "block_id": "fd4f00989be2::b0011",
+      "section_id": "fd4f00989be2::s003",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Financial considerations - Financial security",
+        "Buyer's Guide",
+        "Financial security"
+      ],
+      "markdown": "- confirm the offeror/contractor has discharged the obligations for which the letter of credit was provided\n- if the offeror/contractor fails to meet these obligations, to prepare and present the required demand for payment under the letter of credit",
+      "plain_text": "confirm the offeror/contractor has discharged the obligations for which the letter of credit was provided ; if the offeror/contractor fails to meet these obligations, to prepare and present the required demand for payment under the letter of credit"
+    },
+    {
+      "block_id": "fd4f00989be2::b0012",
+      "section_id": "fd4f00989be2::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Financial considerations - Financial security",
+        "Buyer's Guide",
+        "Financial security"
+      ],
+      "markdown": "You must verify that any entity chosen to provide financial security is licensed to do so in the jurisdiction of the contract, as detailed in the Treasury Board Directive on the Management of Procurement .",
+      "plain_text": "You must verify that any entity chosen to provide financial security is licensed to do so in the jurisdiction of the contract, as detailed in the Treasury Board Directive on the Management of Procurement ."
+    },
+    {
+      "block_id": "fd4f00989be2::b0013",
+      "section_id": "fd4f00989be2::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Financial considerations - Financial security",
+        "Buyer's Guide",
+        "Financial security"
+      ],
+      "markdown": "See the following sections of the Buyer\u2019s guide for more information on financial security:",
+      "plain_text": "See the following sections of the Buyer\u2019s guide for more information on financial security:"
+    },
+    {
+      "block_id": "fd4f00989be2::b0014",
+      "section_id": "fd4f00989be2::s003",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Financial considerations - Financial security",
+        "Buyer's Guide",
+        "Financial security"
+      ],
+      "markdown": "- Award: Contract financial security\n- Manage: Financial security",
+      "plain_text": "Award: Contract financial security ; Manage: Financial security"
+    },
+    {
+      "block_id": "fd4f00989be2::b0015",
+      "section_id": "fd4f00989be2::s004",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Financial considerations - Financial security",
+        "Buyer's Guide",
+        "Financial security",
+        "Offer financial security"
+      ],
+      "markdown": "### Offer financial security",
+      "plain_text": "Offer financial security"
+    },
+    {
+      "block_id": "fd4f00989be2::b0016",
+      "section_id": "fd4f00989be2::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Financial considerations - Financial security",
+        "Buyer's Guide",
+        "Financial security",
+        "Offer financial security"
+      ],
+      "markdown": "When deciding to obtain financial security for an offer, consider:",
+      "plain_text": "When deciding to obtain financial security for an offer, consider:"
+    },
+    {
+      "block_id": "fd4f00989be2::b0017",
+      "section_id": "fd4f00989be2::s004",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Financial considerations - Financial security",
+        "Buyer's Guide",
+        "Financial security",
+        "Offer financial security"
+      ],
+      "markdown": "- the potential for prequalifying offerors",
+      "plain_text": "the potential for prequalifying offerors"
+    },
+    {
+      "block_id": "fd4f00989be2::b0018",
+      "section_id": "fd4f00989be2::s004",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Financial considerations - Financial security",
+        "Buyer's Guide",
+        "Financial security",
+        "Offer financial security"
+      ],
+      "markdown": "- the type of work and custom of the trade\n- the likelihood that offerors will try to withdraw their offers\n- the consequences if an offeror fails or is unable to enter a contract",
+      "plain_text": "the type of work and custom of the trade ; the likelihood that offerors will try to withdraw their offers ; the consequences if an offeror fails or is unable to enter a contract"
+    },
+    {
+      "block_id": "fd4f00989be2::b0019",
+      "section_id": "fd4f00989be2::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Financial considerations - Financial security",
+        "Buyer's Guide",
+        "Financial security",
+        "Offer financial security"
+      ],
+      "markdown": "The amount of financial security for an offer must be the minimum required to ensure that the offeror enters into contract. Buyers must not require offer financial security for procurements valued at or below $500,000 CAD",
+      "plain_text": "The amount of financial security for an offer must be the minimum required to ensure that the offeror enters into contract. Buyers must not require offer financial security for procurements valued at or below $500,000 CAD"
+    },
+    {
+      "block_id": "fd4f00989be2::b0020",
+      "section_id": "fd4f00989be2::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Financial considerations - Financial security",
+        "Buyer's Guide",
+        "Financial security",
+        "Offer financial security"
+      ],
+      "markdown": "To prevent problems in securing any contract financial security, the solicitations must state that failure to provide the contract financial security within the specified timeframe, will result in forfeiture of the offer financial security or a demand for payment under the letter of credit for the offer. The forfeited amount must not exceed the difference between the offer price and the value of the contract with Canada.",
+      "plain_text": "To prevent problems in securing any contract financial security, the solicitations must state that failure to provide the contract financial security within the specified timeframe, will result in forfeiture of the offer financial security or a demand for payment under the letter of credit for the offer. The forfeited amount must not exceed the difference between the offer price and the value of the contract with Canada."
+    },
+    {
+      "block_id": "fd4f00989be2::b0021",
+      "section_id": "fd4f00989be2::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Financial considerations - Financial security",
+        "Buyer's Guide",
+        "Financial security",
+        "Offer financial security"
+      ],
+      "markdown": "The solicitation document must include:",
+      "plain_text": "The solicitation document must include:"
+    },
+    {
+      "block_id": "fd4f00989be2::b0022",
+      "section_id": "fd4f00989be2::s004",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Financial considerations - Financial security",
+        "Buyer's Guide",
+        "Financial security",
+        "Offer financial security"
+      ],
+      "markdown": "- a list of licensed insurance companies capable of providing financial security in the jurisdiction of the contract\n- the applicable surety bond. Any deviation must be approved in advance by Legal Services.",
+      "plain_text": "a list of licensed insurance companies capable of providing financial security in the jurisdiction of the contract ; the applicable surety bond. Any deviation must be approved in advance by Legal Services."
+    },
+    {
+      "block_id": "fd4f00989be2::b0023",
+      "section_id": "fd4f00989be2::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Financial considerations - Financial security",
+        "Buyer's Guide",
+        "Financial security",
+        "Offer financial security"
+      ],
+      "markdown": "You must instruct the designated offer receiving unit on how to handle the offer financial securities received.",
+      "plain_text": "You must instruct the designated offer receiving unit on how to handle the offer financial securities received."
+    },
+    {
+      "block_id": "fd4f00989be2::b0024",
+      "section_id": "fd4f00989be2::s005",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Financial considerations - Financial security",
+        "Buyer's Guide",
+        "Financial security",
+        "Contract financial security"
+      ],
+      "markdown": "### Contract financial security",
+      "plain_text": "Contract financial security"
+    },
+    {
+      "block_id": "fd4f00989be2::b0025",
+      "section_id": "fd4f00989be2::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Financial considerations - Financial security",
+        "Buyer's Guide",
+        "Financial security",
+        "Contract financial security"
+      ],
+      "markdown": "For the successful offeror, you must ensure that offer financial security is not released until the contractor provides the required contract financial security. Decisions on the necessity and the amount of contract financial security should be based on the unique circumstances of the procurement. This should take into account:",
+      "plain_text": "For the successful offeror, you must ensure that offer financial security is not released until the contractor provides the required contract financial security. Decisions on the necessity and the amount of contract financial security should be based on the unique circumstances of the procurement. This should take into account:"
+    },
+    {
+      "block_id": "fd4f00989be2::b0026",
+      "section_id": "fd4f00989be2::s005",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Financial considerations - Financial security",
+        "Buyer's Guide",
+        "Financial security",
+        "Contract financial security"
+      ],
+      "markdown": "- the type of work and custom of the trade\n- the potential consequences of a contractor\u2019s default\n- the costs versus the risks of providing such security",
+      "plain_text": "the type of work and custom of the trade ; the potential consequences of a contractor\u2019s default ; the costs versus the risks of providing such security"
+    },
+    {
+      "block_id": "fd4f00989be2::b0027",
+      "section_id": "fd4f00989be2::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Financial considerations - Financial security",
+        "Buyer's Guide",
+        "Financial security",
+        "Contract financial security"
+      ],
+      "markdown": "As some businesses may have difficulties obtaining certain forms of security, you should avoid including unreasonable requirements. In some instances, an advance form of security may not be necessary, and instead contract payment holdbacks may be sufficient.",
+      "plain_text": "As some businesses may have difficulties obtaining certain forms of security, you should avoid including unreasonable requirements. In some instances, an advance form of security may not be necessary, and instead contract payment holdbacks may be sufficient."
+    },
+    {
+      "block_id": "fd4f00989be2::b0028",
+      "section_id": "fd4f00989be2::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Financial considerations - Financial security",
+        "Buyer's Guide",
+        "Financial security",
+        "Contract financial security"
+      ],
+      "markdown": "Contract financial security must be sought for construction contracts with an estimated value over $500,000 CAD.",
+      "plain_text": "Contract financial security must be sought for construction contracts with an estimated value over $500,000 CAD."
+    }
+  ]
+}

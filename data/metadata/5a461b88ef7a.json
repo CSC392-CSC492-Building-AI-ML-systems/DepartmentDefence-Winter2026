@@ -1,0 +1,493 @@
+{
+  "doc_id": "5a461b88ef7a",
+  "title": "Buyer's Guide Considerations for solicitations - Phased offer compliance",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/phased-offer-compliance",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/phased-offer-compliance",
+  "doc_type": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": "2026-01-31",
+  "fetched_at": "2026-02-19T09:18:33.831787+00:00",
+  "content_hash": "429392c3e45c134c0a5a1b14e429527cd0c7eeacceaa5c3649bef0dff8782405",
+  "word_count": 492,
+  "text_path": "data/corpus/buyers_guide__en-buyer-s-portal-buyer-s-guide-create-solicitation-considerations-solicitations-phased-offer-compliance__5a461b88ef.md",
+  "extraction_method": "buyers_guide_regions",
+  "breadcrumbs": [
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "https://canadabuys.canada.ca/en",
+      "canonical_url": "https://canadabuys.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "in_scope": true
+    },
+    {
+      "title": "Create solicitation",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation",
+      "in_scope": true
+    },
+    {
+      "title": "Considerations for solicitations",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations",
+      "in_scope": true
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations",
+    "parent_doc_id": "97810d5c4a87",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/phased-offer-compliance"
+    ],
+    "lineage_doc_ids": [
+      "1e29c7881335",
+      "2e11d15cd64e",
+      "97810d5c4a87",
+      "5a461b88ef7a"
+    ],
+    "depth": 3,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/invitation-tender",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/preparing-solicitation-documents",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-information",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-quotation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-standing-offer",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-supply-arrangement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/client-review",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/client-review/client-review-elements-solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/audit",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/certifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/delivery-terms",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/exchange-rates",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/method-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/offer-receipt",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/translation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/minimum-solicitation-periods-itqs-rfsas-and-urgent-procurements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/normal-minimum-solicitation-periods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/solicitations-following-request-expressions-interest",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/advanced-contract-award-notice",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/notice-proposed-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-procurement-strategy-indigenous-business-set-asides",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-trade-agreements"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/invitation-tender",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/preparing-solicitation-documents",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-information",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-quotation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-standing-offer",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-supply-arrangement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/client-review",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/client-review/client-review-elements-solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/audit",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/certifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/delivery-terms",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/exchange-rates",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/method-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/offer-receipt",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/translation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/minimum-solicitation-periods-itqs-rfsas-and-urgent-procurements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/normal-minimum-solicitation-periods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/solicitations-following-request-expressions-interest",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/advanced-contract-award-notice",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/notice-proposed-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-procurement-strategy-indigenous-business-set-asides",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-trade-agreements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure": {
+    "block_count": 15,
+    "section_count": 7,
+    "heading_count": 6,
+    "paragraph_count": 6,
+    "list_count": 3,
+    "table_count": 0
+  },
+  "sections": [
+    {
+      "section_id": "5a461b88ef7a::root",
+      "parent_section_id": null,
+      "level": 0,
+      "heading": "Buyer's Guide Considerations for solicitations - Phased offer compliance",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Phased offer compliance"
+      ],
+      "block_count": 0,
+      "word_count": 0,
+      "char_count": 0,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": null,
+      "last_block_index": null,
+      "preview": "",
+      "prev_section_id": null,
+      "next_section_id": null
+    },
+    {
+      "section_id": "5a461b88ef7a::s001",
+      "parent_section_id": "5a461b88ef7a::root",
+      "level": 1,
+      "heading": "Buyer's Guide Considerations for solicitations - Phased offer compliance",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Phased offer compliance",
+        "Buyer's Guide Considerations for solicitations - Phased offer compliance"
+      ],
+      "block_count": 1,
+      "word_count": 9,
+      "char_count": 72,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 0,
+      "last_block_index": 0,
+      "preview": "Buyer's Guide Considerations for solicitations - Phased offer compliance",
+      "prev_section_id": null,
+      "next_section_id": "5a461b88ef7a::s002"
+    },
+    {
+      "section_id": "5a461b88ef7a::s002",
+      "parent_section_id": "5a461b88ef7a::root",
+      "level": 1,
+      "heading": "Buyer's Guide",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Phased offer compliance",
+        "Buyer's Guide"
+      ],
+      "block_count": 3,
+      "word_count": 248,
+      "char_count": 1605,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 1,
+      "last_block_index": 3,
+      "preview": "Buyer's Guide Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage Phased offer compliance The phased offer compliance process (POCP) allows offerors to address specific deficiencies in their of",
+      "prev_section_id": "5a461b88ef7a::s001",
+      "next_section_id": "5a461b88ef7a::s003"
+    },
+    {
+      "section_id": "5a461b88ef7a::s003",
+      "parent_section_id": "5a461b88ef7a::s002",
+      "level": 2,
+      "heading": "Phased offer compliance",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Phased offer compliance",
+        "Buyer's Guide",
+        "Phased offer compliance"
+      ],
+      "block_count": 2,
+      "word_count": 25,
+      "char_count": 176,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 4,
+      "last_block_index": 5,
+      "preview": "Phased offer compliance The phased offer compliance process (POCP) allows offerors to address specific deficiencies in their offers after the solicitation closing date and time.",
+      "prev_section_id": "5a461b88ef7a::s002",
+      "next_section_id": "5a461b88ef7a::s004"
+    },
+    {
+      "section_id": "5a461b88ef7a::s004",
+      "parent_section_id": "5a461b88ef7a::s003",
+      "level": 3,
+      "heading": "When to use",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Phased offer compliance",
+        "Buyer's Guide",
+        "Phased offer compliance",
+        "When to use"
+      ],
+      "block_count": 3,
+      "word_count": 102,
+      "char_count": 659,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 6,
+      "last_block_index": 8,
+      "preview": "When to use The POCP must be included in Requests for Proposals (RFPs) and Requests for Standing Offers (RFSOs) when the estimated value exceeds $2,000,000, and one or more of the following conditions apply: four or fewer offers are anticip",
+      "prev_section_id": "5a461b88ef7a::s003",
+      "next_section_id": "5a461b88ef7a::s005"
+    },
+    {
+      "section_id": "5a461b88ef7a::s005",
+      "parent_section_id": "5a461b88ef7a::s003",
+      "level": 3,
+      "heading": "Exceptions",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Phased offer compliance",
+        "Buyer's Guide",
+        "Phased offer compliance",
+        "Exceptions"
+      ],
+      "block_count": 4,
+      "word_count": 60,
+      "char_count": 368,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 2,
+      "first_block_index": 9,
+      "last_block_index": 12,
+      "preview": "Exceptions Any deviation from the mandatory application must be approved at the director level or above and must be documented in the procurement file using the appropriate justification form. Public Services and Procurement Canada (PSPC) d",
+      "prev_section_id": "5a461b88ef7a::s004",
+      "next_section_id": "5a461b88ef7a::s006"
+    },
+    {
+      "section_id": "5a461b88ef7a::s006",
+      "parent_section_id": "5a461b88ef7a::s003",
+      "level": 3,
+      "heading": "How to use",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Phased offer compliance",
+        "Buyer's Guide",
+        "Phased offer compliance",
+        "How to use"
+      ],
+      "block_count": 2,
+      "word_count": 48,
+      "char_count": 295,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 13,
+      "last_block_index": 14,
+      "preview": "How to use In collaboration with the client, you must determine which technical evaluation criteria will be subject to the POCP and clearly identify them in the solicitation. When developing these criteria, you must consider how the POCP wi",
+      "prev_section_id": "5a461b88ef7a::s005",
+      "next_section_id": null
+    }
+  ],
+  "tables": [],
+  "blocks": [
+    {
+      "block_id": "5a461b88ef7a::b0001",
+      "section_id": "5a461b88ef7a::s001",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Phased offer compliance",
+        "Buyer's Guide Considerations for solicitations - Phased offer compliance"
+      ],
+      "markdown": "# Buyer's Guide Considerations for solicitations - Phased offer compliance",
+      "plain_text": "Buyer's Guide Considerations for solicitations - Phased offer compliance"
+    },
+    {
+      "block_id": "5a461b88ef7a::b0002",
+      "section_id": "5a461b88ef7a::s002",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Phased offer compliance",
+        "Buyer's Guide"
+      ],
+      "markdown": "# Buyer's Guide",
+      "plain_text": "Buyer's Guide"
+    },
+    {
+      "block_id": "5a461b88ef7a::b0003",
+      "section_id": "5a461b88ef7a::s002",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Phased offer compliance",
+        "Buyer's Guide"
+      ],
+      "markdown": "- Plan\n- Approve\n- Create solicitation\n- Solicit\n- Receive and evaluate\n- Negotiate\n- Award\n- Manage",
+      "plain_text": "Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage"
+    },
+    {
+      "block_id": "5a461b88ef7a::b0004",
+      "section_id": "5a461b88ef7a::s002",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Phased offer compliance",
+        "Buyer's Guide"
+      ],
+      "markdown": "Phased offer compliance The phased offer compliance process (POCP) allows offerors to address specific deficiencies in their offers after the solicitation closing date and time. When to use The POCP must be included in Requests for Proposals (RFPs) and Requests for Standing Offers (RFSOs) when the estimated value exceeds $2,000,000, and one or more of the following conditions apply: four or fewer offers are anticipated the requirement is complicated the Industrial and Technological Benefits Policy (ITB) applies a socio-economic objective is a rated requirement with a mandatory minimum threshold the work involves significant innovation a mandatory requirement is unfamiliar to industry the procurement is subject to a Comprehensive Land Claim Agreement and includes a rated requirement with a mandatory minimum threshold Exceptions Any deviation from the mandatory application must be approved at the director level or above and must be documented in the procurement file using the appropriate justification form. Public Services and Procurement Canada (PSPC) directors may decide to: not apply the POCP when the above conditions are met apply the POCP when the above conditions are not met How to use In collaboration with the client, you must determine which technical evaluation criteria will be subject to the POCP and clearly identify them in the solicitation. When developing these criteria, you must consider how the POCP will be applied to ensure its strategic and effective use.",
+      "plain_text": "Phased offer compliance The phased offer compliance process (POCP) allows offerors to address specific deficiencies in their offers after the solicitation closing date and time. When to use The POCP must be included in Requests for Proposals (RFPs) and Requests for Standing Offers (RFSOs) when the estimated value exceeds $2,000,000, and one or more of the following conditions apply: four or fewer offers are anticipated the requirement is complicated the Industrial and Technological Benefits Policy (ITB) applies a socio-economic objective is a rated requirement with a mandatory minimum threshold the work involves significant innovation a mandatory requirement is unfamiliar to industry the procurement is subject to a Comprehensive Land Claim Agreement and includes a rated requirement with a mandatory minimum threshold Exceptions Any deviation from the mandatory application must be approved at the director level or above and must be documented in the procurement file using the appropriate justification form. Public Services and Procurement Canada (PSPC) directors may decide to: not apply the POCP when the above conditions are met apply the POCP when the above conditions are not met How to use In collaboration with the client, you must determine which technical evaluation criteria will be subject to the POCP and clearly identify them in the solicitation. When developing these criteria, you must consider how the POCP will be applied to ensure its strategic and effective use."
+    },
+    {
+      "block_id": "5a461b88ef7a::b0005",
+      "section_id": "5a461b88ef7a::s003",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Phased offer compliance",
+        "Buyer's Guide",
+        "Phased offer compliance"
+      ],
+      "markdown": "## Phased offer compliance",
+      "plain_text": "Phased offer compliance"
+    },
+    {
+      "block_id": "5a461b88ef7a::b0006",
+      "section_id": "5a461b88ef7a::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Phased offer compliance",
+        "Buyer's Guide",
+        "Phased offer compliance"
+      ],
+      "markdown": "The phased offer compliance process (POCP) allows offerors to address specific deficiencies in their offers after the solicitation closing date and time.",
+      "plain_text": "The phased offer compliance process (POCP) allows offerors to address specific deficiencies in their offers after the solicitation closing date and time."
+    },
+    {
+      "block_id": "5a461b88ef7a::b0007",
+      "section_id": "5a461b88ef7a::s004",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Phased offer compliance",
+        "Buyer's Guide",
+        "Phased offer compliance",
+        "When to use"
+      ],
+      "markdown": "### When to use",
+      "plain_text": "When to use"
+    },
+    {
+      "block_id": "5a461b88ef7a::b0008",
+      "section_id": "5a461b88ef7a::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Phased offer compliance",
+        "Buyer's Guide",
+        "Phased offer compliance",
+        "When to use"
+      ],
+      "markdown": "The POCP must be included in Requests for Proposals (RFPs) and Requests for Standing Offers (RFSOs) when the estimated value exceeds $2,000,000, and one or more of the following conditions apply:",
+      "plain_text": "The POCP must be included in Requests for Proposals (RFPs) and Requests for Standing Offers (RFSOs) when the estimated value exceeds $2,000,000, and one or more of the following conditions apply:"
+    },
+    {
+      "block_id": "5a461b88ef7a::b0009",
+      "section_id": "5a461b88ef7a::s004",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Phased offer compliance",
+        "Buyer's Guide",
+        "Phased offer compliance",
+        "When to use"
+      ],
+      "markdown": "- four or fewer offers are anticipated\n- the requirement is complicated\n- the Industrial and Technological Benefits Policy (ITB) applies\n- a socio-economic objective is a rated requirement with a mandatory minimum threshold\n- the work involves significant innovation\n- a mandatory requirement is unfamiliar to industry\n- the procurement is subject to a Comprehensive Land Claim Agreement and includes a rated requirement with a mandatory minimum threshold",
+      "plain_text": "four or fewer offers are anticipated ; the requirement is complicated ; the Industrial and Technological Benefits Policy (ITB) applies ; a socio-economic objective is a rated requirement with a mandatory minimum threshold ; the work involves significant innovation ; a mandatory requirement is unfamiliar to industry ; the procurement is subject to a Comprehensive Land Claim Agreement and includes a rated requirement with a mandatory minimum threshold"
+    },
+    {
+      "block_id": "5a461b88ef7a::b0010",
+      "section_id": "5a461b88ef7a::s005",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Phased offer compliance",
+        "Buyer's Guide",
+        "Phased offer compliance",
+        "Exceptions"
+      ],
+      "markdown": "### Exceptions",
+      "plain_text": "Exceptions"
+    },
+    {
+      "block_id": "5a461b88ef7a::b0011",
+      "section_id": "5a461b88ef7a::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Phased offer compliance",
+        "Buyer's Guide",
+        "Phased offer compliance",
+        "Exceptions"
+      ],
+      "markdown": "Any deviation from the mandatory application must be approved at the director level or above and must be documented in the procurement file using the appropriate justification form.",
+      "plain_text": "Any deviation from the mandatory application must be approved at the director level or above and must be documented in the procurement file using the appropriate justification form."
+    },
+    {
+      "block_id": "5a461b88ef7a::b0012",
+      "section_id": "5a461b88ef7a::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Phased offer compliance",
+        "Buyer's Guide",
+        "Phased offer compliance",
+        "Exceptions"
+      ],
+      "markdown": "Public Services and Procurement Canada (PSPC) directors may decide to:",
+      "plain_text": "Public Services and Procurement Canada (PSPC) directors may decide to:"
+    },
+    {
+      "block_id": "5a461b88ef7a::b0013",
+      "section_id": "5a461b88ef7a::s005",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Phased offer compliance",
+        "Buyer's Guide",
+        "Phased offer compliance",
+        "Exceptions"
+      ],
+      "markdown": "- not apply the POCP when the above conditions are met\n- apply the POCP when the above conditions are not met",
+      "plain_text": "not apply the POCP when the above conditions are met ; apply the POCP when the above conditions are not met"
+    },
+    {
+      "block_id": "5a461b88ef7a::b0014",
+      "section_id": "5a461b88ef7a::s006",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Phased offer compliance",
+        "Buyer's Guide",
+        "Phased offer compliance",
+        "How to use"
+      ],
+      "markdown": "### How to use",
+      "plain_text": "How to use"
+    },
+    {
+      "block_id": "5a461b88ef7a::b0015",
+      "section_id": "5a461b88ef7a::s006",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Phased offer compliance",
+        "Buyer's Guide",
+        "Phased offer compliance",
+        "How to use"
+      ],
+      "markdown": "In collaboration with the client, you must determine which technical evaluation criteria will be subject to the POCP and clearly identify them in the solicitation. When developing these criteria, you must consider how the POCP will be applied to ensure its strategic and effective use.",
+      "plain_text": "In collaboration with the client, you must determine which technical evaluation criteria will be subject to the POCP and clearly identify them in the solicitation. When developing these criteria, you must consider how the POCP will be applied to ensure its strategic and effective use."
+    }
+  ]
+}

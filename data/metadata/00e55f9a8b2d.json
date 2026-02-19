@@ -1,0 +1,671 @@
+{
+  "doc_id": "00e55f9a8b2d",
+  "title": "Buyer's Guide Basis of payment - Price and currency adjustments",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/price-and-currency-adjustments",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/price-and-currency-adjustments",
+  "doc_type": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": "2026-02-13",
+  "fetched_at": "2026-02-19T09:16:30.094616+00:00",
+  "content_hash": "26350fba814e5c6d7f7ab4d2e66be938797e76981e24e0d0812ca9d8a6f3ba7f",
+  "word_count": 1062,
+  "text_path": "data/corpus/buyers_guide__en-buyer-s-portal-buyer-s-guide-plan-basis-payment-price-and-currency-adjustments__00e55f9a8b.md",
+  "extraction_method": "buyers_guide_regions",
+  "breadcrumbs": [
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "https://canadabuys.canada.ca/en",
+      "canonical_url": "https://canadabuys.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "in_scope": true
+    },
+    {
+      "title": "Basis of payment",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment",
+      "in_scope": true
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment",
+    "parent_doc_id": "139f1033d199",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/price-and-currency-adjustments"
+    ],
+    "lineage_doc_ids": [
+      "1e29c7881335",
+      "139f1033d199",
+      "00e55f9a8b2d"
+    ],
+    "depth": 2,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-accounting-and-pricing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-reimbursable",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/firm-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-time/unit-rate",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/overview-key-pricing-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/pricing-methods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/provisional-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/types-basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/application-registration",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/completing-security-requirements-check-list",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/controlled-goods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/foreign-ownership-control-or-influence",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/privacy-and-confidentiality",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-international-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-timelines",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/importance-clear-procurement-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/requisition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/review-statement-work",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/socioeconomic-requirements-definition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/standards-and-quality-assurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/choose-method-supply",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/determine-sourcing-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/developing-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/interim-policy-reciprocal-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/trade-agreement-applicability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/early-engagement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-businesses",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-clients",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-subject-matter-experts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/invoicing-instructions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/payment-instruments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/taxes-and-duties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/withholding-non-resident-contractors",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/communicating-method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/developing-selection-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/including-basis-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/specifying-evaluation-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/canadian-general-standards-board",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/compliance-canadian-electrical-code",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/contractor-liability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/emergency-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/employer/employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/fairness-monitoring",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/insurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/intellectual-property-and-copyright",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/liability-and-risk-management",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/managing-urgent-acquisitions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/official-languages-obligation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/warranties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/holdbacks",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/incentives",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/accessibility",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/anti-forced-labour-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/green-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/indigenous-considerations"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-accounting-and-pricing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-reimbursable",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/firm-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-time/unit-rate",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/overview-key-pricing-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/pricing-methods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/provisional-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/types-basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/application-registration",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/completing-security-requirements-check-list",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/controlled-goods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/foreign-ownership-control-or-influence",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/privacy-and-confidentiality",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-international-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-timelines",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/importance-clear-procurement-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/requisition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/review-statement-work",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/socioeconomic-requirements-definition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/standards-and-quality-assurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/choose-method-supply",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/determine-sourcing-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/developing-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/interim-policy-reciprocal-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/trade-agreement-applicability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/early-engagement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-businesses",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-clients",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-subject-matter-experts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/invoicing-instructions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/payment-instruments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/taxes-and-duties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/withholding-non-resident-contractors",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/communicating-method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/developing-selection-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/including-basis-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/specifying-evaluation-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/canadian-general-standards-board",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/compliance-canadian-electrical-code",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/contractor-liability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/emergency-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/employer/employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/fairness-monitoring",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/insurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/intellectual-property-and-copyright",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/liability-and-risk-management",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/managing-urgent-acquisitions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/official-languages-obligation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/warranties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/holdbacks",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/incentives",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/accessibility",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/anti-forced-labour-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/green-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/indigenous-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure": {
+    "block_count": 23,
+    "section_count": 7,
+    "heading_count": 6,
+    "paragraph_count": 14,
+    "list_count": 3,
+    "table_count": 0
+  },
+  "sections": [
+    {
+      "section_id": "00e55f9a8b2d::root",
+      "parent_section_id": null,
+      "level": 0,
+      "heading": "Buyer's Guide Basis of payment - Price and currency adjustments",
+      "heading_path": [
+        "Buyer's Guide Basis of payment - Price and currency adjustments"
+      ],
+      "block_count": 0,
+      "word_count": 0,
+      "char_count": 0,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": null,
+      "last_block_index": null,
+      "preview": "",
+      "prev_section_id": null,
+      "next_section_id": null
+    },
+    {
+      "section_id": "00e55f9a8b2d::s001",
+      "parent_section_id": "00e55f9a8b2d::root",
+      "level": 1,
+      "heading": "Buyer's Guide Basis of payment - Price and currency adjustments",
+      "heading_path": [
+        "Buyer's Guide Basis of payment - Price and currency adjustments",
+        "Buyer's Guide Basis of payment - Price and currency adjustments"
+      ],
+      "block_count": 1,
+      "word_count": 10,
+      "char_count": 63,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 0,
+      "last_block_index": 0,
+      "preview": "Buyer's Guide Basis of payment - Price and currency adjustments",
+      "prev_section_id": null,
+      "next_section_id": "00e55f9a8b2d::s002"
+    },
+    {
+      "section_id": "00e55f9a8b2d::s002",
+      "parent_section_id": "00e55f9a8b2d::root",
+      "level": 1,
+      "heading": "Buyer's Guide",
+      "heading_path": [
+        "Buyer's Guide Basis of payment - Price and currency adjustments",
+        "Buyer's Guide"
+      ],
+      "block_count": 3,
+      "word_count": 534,
+      "char_count": 3456,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 1,
+      "last_block_index": 3,
+      "preview": "Buyer's Guide Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage Price and currency adjustments Economic price adjustments (EPAs) and foreign currency adjustments (FCAs) are tools that help ma",
+      "prev_section_id": "00e55f9a8b2d::s001",
+      "next_section_id": "00e55f9a8b2d::s003"
+    },
+    {
+      "section_id": "00e55f9a8b2d::s003",
+      "parent_section_id": "00e55f9a8b2d::s002",
+      "level": 2,
+      "heading": "Price and currency adjustments",
+      "heading_path": [
+        "Buyer's Guide Basis of payment - Price and currency adjustments",
+        "Buyer's Guide",
+        "Price and currency adjustments"
+      ],
+      "block_count": 2,
+      "word_count": 46,
+      "char_count": 328,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 4,
+      "last_block_index": 5,
+      "preview": "Price and currency adjustments Economic price adjustments (EPAs) and foreign currency adjustments (FCAs) are tools that help manage pricing risks from market fluctuations beyond the control of Canada and the contractor. This includes change",
+      "prev_section_id": "00e55f9a8b2d::s002",
+      "next_section_id": "00e55f9a8b2d::s004"
+    },
+    {
+      "section_id": "00e55f9a8b2d::s004",
+      "parent_section_id": "00e55f9a8b2d::s003",
+      "level": 3,
+      "heading": "Usage guidelines",
+      "heading_path": [
+        "Buyer's Guide Basis of payment - Price and currency adjustments",
+        "Buyer's Guide",
+        "Price and currency adjustments",
+        "Usage guidelines"
+      ],
+      "block_count": 3,
+      "word_count": 80,
+      "char_count": 503,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 2,
+      "first_block_index": 6,
+      "last_block_index": 8,
+      "preview": "Usage guidelines These tools are used when Canada and the contractor cannot estimate future costs of materials, labour or overhead accurately, and where these costs could change significantly. You can use them for both competitive and non-c",
+      "prev_section_id": "00e55f9a8b2d::s003",
+      "next_section_id": "00e55f9a8b2d::s005"
+    },
+    {
+      "section_id": "00e55f9a8b2d::s005",
+      "parent_section_id": "00e55f9a8b2d::s003",
+      "level": 3,
+      "heading": "Economic price adjustments",
+      "heading_path": [
+        "Buyer's Guide Basis of payment - Price and currency adjustments",
+        "Buyer's Guide",
+        "Price and currency adjustments",
+        "Economic price adjustments"
+      ],
+      "block_count": 12,
+      "word_count": 363,
+      "char_count": 2331,
+      "table_count": 0,
+      "list_count": 2,
+      "paragraph_count": 9,
+      "first_block_index": 9,
+      "last_block_index": 20,
+      "preview": "Economic price adjustments EPAs should not normally be included in contracts with delivery schedules under 12 months or in contracts valued below $100,000. Any price adjustment formula within a contract must accommodate both increases and d",
+      "prev_section_id": "00e55f9a8b2d::s004",
+      "next_section_id": "00e55f9a8b2d::s006"
+    },
+    {
+      "section_id": "00e55f9a8b2d::s006",
+      "parent_section_id": "00e55f9a8b2d::s003",
+      "level": 3,
+      "heading": "Alternatives",
+      "heading_path": [
+        "Buyer's Guide Basis of payment - Price and currency adjustments",
+        "Buyer's Guide",
+        "Price and currency adjustments",
+        "Alternatives"
+      ],
+      "block_count": 2,
+      "word_count": 29,
+      "char_count": 173,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 21,
+      "last_block_index": 22,
+      "preview": "Alternatives There are alternatives to using EPAs and FCAs . For more information refer to the EPAs and FCAs section 4.2 of the Practitioner\u2019s Guide for Procurement Pricing .",
+      "prev_section_id": "00e55f9a8b2d::s005",
+      "next_section_id": null
+    }
+  ],
+  "tables": [],
+  "blocks": [
+    {
+      "block_id": "00e55f9a8b2d::b0001",
+      "section_id": "00e55f9a8b2d::s001",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Basis of payment - Price and currency adjustments",
+        "Buyer's Guide Basis of payment - Price and currency adjustments"
+      ],
+      "markdown": "# Buyer's Guide Basis of payment - Price and currency adjustments",
+      "plain_text": "Buyer's Guide Basis of payment - Price and currency adjustments"
+    },
+    {
+      "block_id": "00e55f9a8b2d::b0002",
+      "section_id": "00e55f9a8b2d::s002",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Basis of payment - Price and currency adjustments",
+        "Buyer's Guide"
+      ],
+      "markdown": "# Buyer's Guide",
+      "plain_text": "Buyer's Guide"
+    },
+    {
+      "block_id": "00e55f9a8b2d::b0003",
+      "section_id": "00e55f9a8b2d::s002",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Basis of payment - Price and currency adjustments",
+        "Buyer's Guide"
+      ],
+      "markdown": "- Plan\n- Approve\n- Create solicitation\n- Solicit\n- Receive and evaluate\n- Negotiate\n- Award\n- Manage",
+      "plain_text": "Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage"
+    },
+    {
+      "block_id": "00e55f9a8b2d::b0004",
+      "section_id": "00e55f9a8b2d::s002",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Basis of payment - Price and currency adjustments",
+        "Buyer's Guide"
+      ],
+      "markdown": "Price and currency adjustments Economic price adjustments (EPAs) and foreign currency adjustments (FCAs) are tools that help manage pricing risks from market fluctuations beyond the control of Canada and the contractor. This includes changes in commodity prices, foreign exchange or labour rates subject to collective bargaining. Usage guidelines These tools are used when Canada and the contractor cannot estimate future costs of materials, labour or overhead accurately, and where these costs could change significantly. You can use them for both competitive and non-competitive contracts with a fixed price or fixed time/unit rate basis of payment. Adjustments to fixed prices or fixed time/unit prices in a contract are only allowed if provided for in the contract. Include the appropriate clauses for EPAs or FCAs in the contract. Economic price adjustments EPAs should not normally be included in contracts with delivery schedules under 12 months or in contracts valued below $100,000. Any price adjustment formula within a contract must accommodate both increases and decreases in the established firm base price. The formula for adjustments must detail: any economic wage or price index to be used the firm price element the base period for which adjustments will be made either a ceiling price or a limitation of expenditure The calculation of any adjustment formula should be consistent with the cost or price accounting treatment used to set the firm base price. This consistency ensures that variations from the firm base price are accurately measured. The price adjustment formula should be the simplest, most suitable method that minimizes administrative burdens while protecting the interests of both contracting parties. You should consult a cost analyst to: develop significant EPA provisions implement an EPA provision using an accounting type formula For a competitive solicitation of offers, the proposed EPA provisions must be considered in the evaluation of the offers. In all other situations, you must negotiate these provisions during the initial or base year contract price discussions. For commercial goods and services, adjustment provisions should be based on changes from an agreed posted reference or firm base price. If the original contract or firm base price includes a discount factor, the same discount factor should be applied to the adjusted price, unless the contract specifies otherwise. Statistics Canada and similar entities such as the United States Department of Labor publish data on changes in price indices, and material and labour costs. Private sector surveys may also be used. Adjustments to actual rates for labour or actual costs for material are based on the increases or decreases in firm base price elements experienced by the contractor. The use of this adjustment method is limited to contingencies beyond the contractor\u2019s control, and where the contractor's accounting system permits timely gathering and processing of relevant, supporting cost data. A company's union agreement with its employees may serve as a valid index for labour rate adjustments if it reflects comparable wage trends within that industry. Alternatives There are alternatives to using EPAs and FCAs . For more information refer to the EPAs and FCAs section 4.2 of the Practitioner\u2019s Guide for Procurement Pricing .",
+      "plain_text": "Price and currency adjustments Economic price adjustments (EPAs) and foreign currency adjustments (FCAs) are tools that help manage pricing risks from market fluctuations beyond the control of Canada and the contractor. This includes changes in commodity prices, foreign exchange or labour rates subject to collective bargaining. Usage guidelines These tools are used when Canada and the contractor cannot estimate future costs of materials, labour or overhead accurately, and where these costs could change significantly. You can use them for both competitive and non-competitive contracts with a fixed price or fixed time/unit rate basis of payment. Adjustments to fixed prices or fixed time/unit prices in a contract are only allowed if provided for in the contract. Include the appropriate clauses for EPAs or FCAs in the contract. Economic price adjustments EPAs should not normally be included in contracts with delivery schedules under 12 months or in contracts valued below $100,000. Any price adjustment formula within a contract must accommodate both increases and decreases in the established firm base price. The formula for adjustments must detail: any economic wage or price index to be used the firm price element the base period for which adjustments will be made either a ceiling price or a limitation of expenditure The calculation of any adjustment formula should be consistent with the cost or price accounting treatment used to set the firm base price. This consistency ensures that variations from the firm base price are accurately measured. The price adjustment formula should be the simplest, most suitable method that minimizes administrative burdens while protecting the interests of both contracting parties. You should consult a cost analyst to: develop significant EPA provisions implement an EPA provision using an accounting type formula For a competitive solicitation of offers, the proposed EPA provisions must be considered in the evaluation of the offers. In all other situations, you must negotiate these provisions during the initial or base year contract price discussions. For commercial goods and services, adjustment provisions should be based on changes from an agreed posted reference or firm base price. If the original contract or firm base price includes a discount factor, the same discount factor should be applied to the adjusted price, unless the contract specifies otherwise. Statistics Canada and similar entities such as the United States Department of Labor publish data on changes in price indices, and material and labour costs. Private sector surveys may also be used. Adjustments to actual rates for labour or actual costs for material are based on the increases or decreases in firm base price elements experienced by the contractor. The use of this adjustment method is limited to contingencies beyond the contractor\u2019s control, and where the contractor's accounting system permits timely gathering and processing of relevant, supporting cost data. A company's union agreement with its employees may serve as a valid index for labour rate adjustments if it reflects comparable wage trends within that industry. Alternatives There are alternatives to using EPAs and FCAs . For more information refer to the EPAs and FCAs section 4.2 of the Practitioner\u2019s Guide for Procurement Pricing ."
+    },
+    {
+      "block_id": "00e55f9a8b2d::b0005",
+      "section_id": "00e55f9a8b2d::s003",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Basis of payment - Price and currency adjustments",
+        "Buyer's Guide",
+        "Price and currency adjustments"
+      ],
+      "markdown": "## Price and currency adjustments",
+      "plain_text": "Price and currency adjustments"
+    },
+    {
+      "block_id": "00e55f9a8b2d::b0006",
+      "section_id": "00e55f9a8b2d::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Basis of payment - Price and currency adjustments",
+        "Buyer's Guide",
+        "Price and currency adjustments"
+      ],
+      "markdown": "Economic price adjustments (EPAs) and foreign currency adjustments (FCAs) are tools that help manage pricing risks from market fluctuations beyond the control of Canada and the contractor. This includes changes in commodity prices, foreign exchange or labour rates subject to collective bargaining.",
+      "plain_text": "Economic price adjustments (EPAs) and foreign currency adjustments (FCAs) are tools that help manage pricing risks from market fluctuations beyond the control of Canada and the contractor. This includes changes in commodity prices, foreign exchange or labour rates subject to collective bargaining."
+    },
+    {
+      "block_id": "00e55f9a8b2d::b0007",
+      "section_id": "00e55f9a8b2d::s004",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Basis of payment - Price and currency adjustments",
+        "Buyer's Guide",
+        "Price and currency adjustments",
+        "Usage guidelines"
+      ],
+      "markdown": "### Usage guidelines",
+      "plain_text": "Usage guidelines"
+    },
+    {
+      "block_id": "00e55f9a8b2d::b0008",
+      "section_id": "00e55f9a8b2d::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Basis of payment - Price and currency adjustments",
+        "Buyer's Guide",
+        "Price and currency adjustments",
+        "Usage guidelines"
+      ],
+      "markdown": "These tools are used when Canada and the contractor cannot estimate future costs of materials, labour or overhead accurately, and where these costs could change significantly. You can use them for both competitive and non-competitive contracts with a fixed price or fixed time/unit rate basis of payment.",
+      "plain_text": "These tools are used when Canada and the contractor cannot estimate future costs of materials, labour or overhead accurately, and where these costs could change significantly. You can use them for both competitive and non-competitive contracts with a fixed price or fixed time/unit rate basis of payment."
+    },
+    {
+      "block_id": "00e55f9a8b2d::b0009",
+      "section_id": "00e55f9a8b2d::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Basis of payment - Price and currency adjustments",
+        "Buyer's Guide",
+        "Price and currency adjustments",
+        "Usage guidelines"
+      ],
+      "markdown": "Adjustments to fixed prices or fixed time/unit prices in a contract are only allowed if provided for in the contract. Include the appropriate clauses for EPAs or FCAs in the contract.",
+      "plain_text": "Adjustments to fixed prices or fixed time/unit prices in a contract are only allowed if provided for in the contract. Include the appropriate clauses for EPAs or FCAs in the contract."
+    },
+    {
+      "block_id": "00e55f9a8b2d::b0010",
+      "section_id": "00e55f9a8b2d::s005",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Basis of payment - Price and currency adjustments",
+        "Buyer's Guide",
+        "Price and currency adjustments",
+        "Economic price adjustments"
+      ],
+      "markdown": "### Economic price adjustments",
+      "plain_text": "Economic price adjustments"
+    },
+    {
+      "block_id": "00e55f9a8b2d::b0011",
+      "section_id": "00e55f9a8b2d::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Basis of payment - Price and currency adjustments",
+        "Buyer's Guide",
+        "Price and currency adjustments",
+        "Economic price adjustments"
+      ],
+      "markdown": "EPAs should not normally be included in contracts with delivery schedules under 12 months or in contracts valued below $100,000. Any price adjustment formula within a contract must accommodate both increases and decreases in the established firm base price.",
+      "plain_text": "EPAs should not normally be included in contracts with delivery schedules under 12 months or in contracts valued below $100,000. Any price adjustment formula within a contract must accommodate both increases and decreases in the established firm base price."
+    },
+    {
+      "block_id": "00e55f9a8b2d::b0012",
+      "section_id": "00e55f9a8b2d::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Basis of payment - Price and currency adjustments",
+        "Buyer's Guide",
+        "Price and currency adjustments",
+        "Economic price adjustments"
+      ],
+      "markdown": "The formula for adjustments must detail:",
+      "plain_text": "The formula for adjustments must detail:"
+    },
+    {
+      "block_id": "00e55f9a8b2d::b0013",
+      "section_id": "00e55f9a8b2d::s005",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Basis of payment - Price and currency adjustments",
+        "Buyer's Guide",
+        "Price and currency adjustments",
+        "Economic price adjustments"
+      ],
+      "markdown": "- any economic wage or price index to be used\n- the firm price element\n- the base period for which adjustments will be made\n- either a ceiling price or a limitation of expenditure",
+      "plain_text": "any economic wage or price index to be used ; the firm price element ; the base period for which adjustments will be made ; either a ceiling price or a limitation of expenditure"
+    },
+    {
+      "block_id": "00e55f9a8b2d::b0014",
+      "section_id": "00e55f9a8b2d::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Basis of payment - Price and currency adjustments",
+        "Buyer's Guide",
+        "Price and currency adjustments",
+        "Economic price adjustments"
+      ],
+      "markdown": "The calculation of any adjustment formula should be consistent with the cost or price accounting treatment used to set the firm base price. This consistency ensures that variations from the firm base price are accurately measured. The price adjustment formula should be the simplest, most suitable method that minimizes administrative burdens while protecting the interests of both contracting parties.",
+      "plain_text": "The calculation of any adjustment formula should be consistent with the cost or price accounting treatment used to set the firm base price. This consistency ensures that variations from the firm base price are accurately measured. The price adjustment formula should be the simplest, most suitable method that minimizes administrative burdens while protecting the interests of both contracting parties."
+    },
+    {
+      "block_id": "00e55f9a8b2d::b0015",
+      "section_id": "00e55f9a8b2d::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Basis of payment - Price and currency adjustments",
+        "Buyer's Guide",
+        "Price and currency adjustments",
+        "Economic price adjustments"
+      ],
+      "markdown": "You should consult a cost analyst to:",
+      "plain_text": "You should consult a cost analyst to:"
+    },
+    {
+      "block_id": "00e55f9a8b2d::b0016",
+      "section_id": "00e55f9a8b2d::s005",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Basis of payment - Price and currency adjustments",
+        "Buyer's Guide",
+        "Price and currency adjustments",
+        "Economic price adjustments"
+      ],
+      "markdown": "- develop significant EPA provisions\n- implement an EPA provision using an accounting type formula",
+      "plain_text": "develop significant EPA provisions ; implement an EPA provision using an accounting type formula"
+    },
+    {
+      "block_id": "00e55f9a8b2d::b0017",
+      "section_id": "00e55f9a8b2d::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Basis of payment - Price and currency adjustments",
+        "Buyer's Guide",
+        "Price and currency adjustments",
+        "Economic price adjustments"
+      ],
+      "markdown": "For a competitive solicitation of offers, the proposed EPA provisions must be considered in the evaluation of the offers. In all other situations, you must negotiate these provisions during the initial or base year contract price discussions.",
+      "plain_text": "For a competitive solicitation of offers, the proposed EPA provisions must be considered in the evaluation of the offers. In all other situations, you must negotiate these provisions during the initial or base year contract price discussions."
+    },
+    {
+      "block_id": "00e55f9a8b2d::b0018",
+      "section_id": "00e55f9a8b2d::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Basis of payment - Price and currency adjustments",
+        "Buyer's Guide",
+        "Price and currency adjustments",
+        "Economic price adjustments"
+      ],
+      "markdown": "For commercial goods and services, adjustment provisions should be based on changes from an agreed posted reference or firm base price. If the original contract or firm base price includes a discount factor, the same discount factor should be applied to the adjusted price, unless the contract specifies otherwise.",
+      "plain_text": "For commercial goods and services, adjustment provisions should be based on changes from an agreed posted reference or firm base price. If the original contract or firm base price includes a discount factor, the same discount factor should be applied to the adjusted price, unless the contract specifies otherwise."
+    },
+    {
+      "block_id": "00e55f9a8b2d::b0019",
+      "section_id": "00e55f9a8b2d::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Basis of payment - Price and currency adjustments",
+        "Buyer's Guide",
+        "Price and currency adjustments",
+        "Economic price adjustments"
+      ],
+      "markdown": "Statistics Canada and similar entities such as the United States Department of Labor publish data on changes in price indices, and material and labour costs. Private sector surveys may also be used.",
+      "plain_text": "Statistics Canada and similar entities such as the United States Department of Labor publish data on changes in price indices, and material and labour costs. Private sector surveys may also be used."
+    },
+    {
+      "block_id": "00e55f9a8b2d::b0020",
+      "section_id": "00e55f9a8b2d::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Basis of payment - Price and currency adjustments",
+        "Buyer's Guide",
+        "Price and currency adjustments",
+        "Economic price adjustments"
+      ],
+      "markdown": "Adjustments to actual rates for labour or actual costs for material are based on the increases or decreases in firm base price elements experienced by the contractor. The use of this adjustment method is limited to contingencies beyond the contractor\u2019s control, and where the contractor's accounting system permits timely gathering and processing of relevant, supporting cost data.",
+      "plain_text": "Adjustments to actual rates for labour or actual costs for material are based on the increases or decreases in firm base price elements experienced by the contractor. The use of this adjustment method is limited to contingencies beyond the contractor\u2019s control, and where the contractor's accounting system permits timely gathering and processing of relevant, supporting cost data."
+    },
+    {
+      "block_id": "00e55f9a8b2d::b0021",
+      "section_id": "00e55f9a8b2d::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Basis of payment - Price and currency adjustments",
+        "Buyer's Guide",
+        "Price and currency adjustments",
+        "Economic price adjustments"
+      ],
+      "markdown": "A company's union agreement with its employees may serve as a valid index for labour rate adjustments if it reflects comparable wage trends within that industry.",
+      "plain_text": "A company's union agreement with its employees may serve as a valid index for labour rate adjustments if it reflects comparable wage trends within that industry."
+    },
+    {
+      "block_id": "00e55f9a8b2d::b0022",
+      "section_id": "00e55f9a8b2d::s006",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Basis of payment - Price and currency adjustments",
+        "Buyer's Guide",
+        "Price and currency adjustments",
+        "Alternatives"
+      ],
+      "markdown": "### Alternatives",
+      "plain_text": "Alternatives"
+    },
+    {
+      "block_id": "00e55f9a8b2d::b0023",
+      "section_id": "00e55f9a8b2d::s006",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Basis of payment - Price and currency adjustments",
+        "Buyer's Guide",
+        "Price and currency adjustments",
+        "Alternatives"
+      ],
+      "markdown": "There are alternatives to using EPAs and FCAs . For more information refer to the EPAs and FCAs section 4.2 of the Practitioner\u2019s Guide for Procurement Pricing .",
+      "plain_text": "There are alternatives to using EPAs and FCAs . For more information refer to the EPAs and FCAs section 4.2 of the Practitioner\u2019s Guide for Procurement Pricing ."
+    }
+  ]
+}

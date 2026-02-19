@@ -1,0 +1,419 @@
+{
+  "doc_id": "d649dcb59bac",
+  "title": "Buyer's Guide Cancel or reissue a solicitation - Approval to reissue a solicitation",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/cancel-or-reissue-solicitation/approval-reissue-solicitation",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/cancel-or-reissue-solicitation/approval-reissue-solicitation",
+  "doc_type": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": "2026-01-31",
+  "fetched_at": "2026-02-19T09:20:58.835966+00:00",
+  "content_hash": "7ed5454b316df4d77ba3ec3c8699acc072ec35ba493ced035af9048bb6a0e8a5",
+  "word_count": 574,
+  "text_path": "data/corpus/buyers_guide__en-buyer-s-portal-buyer-s-guide-solicit-cancel-or-reissue-solicitation-approval-reissue-solicitation__d649dcb59b.md",
+  "extraction_method": "buyers_guide_regions",
+  "breadcrumbs": [
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "https://canadabuys.canada.ca/en",
+      "canonical_url": "https://canadabuys.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "in_scope": true
+    },
+    {
+      "title": "Cancel or reissue a solicitation",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/cancel-or-reissue-solicitation",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/cancel-or-reissue-solicitation",
+      "in_scope": true
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/cancel-or-reissue-solicitation",
+    "parent_doc_id": "cc12ff047886",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/cancel-or-reissue-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/cancel-or-reissue-solicitation/approval-reissue-solicitation"
+    ],
+    "lineage_doc_ids": [
+      "1e29c7881335",
+      "cc12ff047886",
+      "d649dcb59bac"
+    ],
+    "depth": 2,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/cancel-or-reissue-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/cancel-or-reissue-solicitation/how-cancel-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/cancel-or-reissue-solicitation/how-reissue-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/cancel-or-reissue-solicitation/when-cancel-or-reissue",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/handling-questions-during-solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/manage-solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/manage-solicitation-period/communicate-offerors",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/manage-solicitation-period/contacting-businesses-directly-during-solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/manage-solicitation-period/modifying-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/manage-solicitation-period/notifying-land-claimant-groups",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document/distribution-invited-businesses",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document/posting-tender-opportunities-page",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document/technical-data"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/cancel-or-reissue-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/cancel-or-reissue-solicitation/how-cancel-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/cancel-or-reissue-solicitation/how-reissue-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/cancel-or-reissue-solicitation/when-cancel-or-reissue",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/handling-questions-during-solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/manage-solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/manage-solicitation-period/communicate-offerors",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/manage-solicitation-period/contacting-businesses-directly-during-solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/manage-solicitation-period/modifying-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/manage-solicitation-period/notifying-land-claimant-groups",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document/distribution-invited-businesses",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document/posting-tender-opportunities-page",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document/technical-data"
+    ]
+  },
+  "structure": {
+    "block_count": 14,
+    "section_count": 6,
+    "heading_count": 5,
+    "paragraph_count": 6,
+    "list_count": 3,
+    "table_count": 0
+  },
+  "sections": [
+    {
+      "section_id": "d649dcb59bac::root",
+      "parent_section_id": null,
+      "level": 0,
+      "heading": "Buyer's Guide Cancel or reissue a solicitation - Approval to reissue a solicitation",
+      "heading_path": [
+        "Buyer's Guide Cancel or reissue a solicitation - Approval to reissue a solicitation"
+      ],
+      "block_count": 0,
+      "word_count": 0,
+      "char_count": 0,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": null,
+      "last_block_index": null,
+      "preview": "",
+      "prev_section_id": null,
+      "next_section_id": null
+    },
+    {
+      "section_id": "d649dcb59bac::s001",
+      "parent_section_id": "d649dcb59bac::root",
+      "level": 1,
+      "heading": "Buyer's Guide Cancel or reissue a solicitation - Approval to reissue a solicitation",
+      "heading_path": [
+        "Buyer's Guide Cancel or reissue a solicitation - Approval to reissue a solicitation",
+        "Buyer's Guide Cancel or reissue a solicitation - Approval to reissue a solicitation"
+      ],
+      "block_count": 1,
+      "word_count": 13,
+      "char_count": 83,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 0,
+      "last_block_index": 0,
+      "preview": "Buyer's Guide Cancel or reissue a solicitation - Approval to reissue a solicitation",
+      "prev_section_id": null,
+      "next_section_id": "d649dcb59bac::s002"
+    },
+    {
+      "section_id": "d649dcb59bac::s002",
+      "parent_section_id": "d649dcb59bac::root",
+      "level": 1,
+      "heading": "Buyer's Guide",
+      "heading_path": [
+        "Buyer's Guide Cancel or reissue a solicitation - Approval to reissue a solicitation",
+        "Buyer's Guide"
+      ],
+      "block_count": 3,
+      "word_count": 288,
+      "char_count": 1862,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 1,
+      "last_block_index": 3,
+      "preview": "Buyer's Guide Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage Approval to reissue a solicitation You will need to obtain approval from the appropriate authority before reissuing a solicitat",
+      "prev_section_id": "d649dcb59bac::s001",
+      "next_section_id": "d649dcb59bac::s003"
+    },
+    {
+      "section_id": "d649dcb59bac::s003",
+      "parent_section_id": "d649dcb59bac::s002",
+      "level": 2,
+      "heading": "Approval to reissue a solicitation",
+      "heading_path": [
+        "Buyer's Guide Cancel or reissue a solicitation - Approval to reissue a solicitation",
+        "Buyer's Guide",
+        "Approval to reissue a solicitation"
+      ],
+      "block_count": 2,
+      "word_count": 43,
+      "char_count": 298,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 4,
+      "last_block_index": 5,
+      "preview": "Approval to reissue a solicitation You will need to obtain approval from the appropriate authority before reissuing a solicitation. To determine the appropriate approval authority, buyers must first assess whether there is a significant cha",
+      "prev_section_id": "d649dcb59bac::s002",
+      "next_section_id": "d649dcb59bac::s004"
+    },
+    {
+      "section_id": "d649dcb59bac::s004",
+      "parent_section_id": "d649dcb59bac::s003",
+      "level": 3,
+      "heading": "Significant change to the requirement, strategy or risk level",
+      "heading_path": [
+        "Buyer's Guide Cancel or reissue a solicitation - Approval to reissue a solicitation",
+        "Buyer's Guide",
+        "Approval to reissue a solicitation",
+        "Significant change to the requirement, strategy or risk level"
+      ],
+      "block_count": 5,
+      "word_count": 159,
+      "char_count": 1004,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 3,
+      "first_block_index": 6,
+      "last_block_index": 10,
+      "preview": "Significant change to the requirement, strategy or risk level If you plan to reissue a solicitation because of a significant change to the requirement, you must assess whether the change will affect the procurement strategy or risk level. I",
+      "prev_section_id": "d649dcb59bac::s003",
+      "next_section_id": "d649dcb59bac::s005"
+    },
+    {
+      "section_id": "d649dcb59bac::s005",
+      "parent_section_id": "d649dcb59bac::s003",
+      "level": 3,
+      "heading": "No change to the requirement or strategy",
+      "heading_path": [
+        "Buyer's Guide Cancel or reissue a solicitation - Approval to reissue a solicitation",
+        "Buyer's Guide",
+        "Approval to reissue a solicitation",
+        "No change to the requirement or strategy"
+      ],
+      "block_count": 3,
+      "word_count": 71,
+      "char_count": 450,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 11,
+      "last_block_index": 13,
+      "preview": "No change to the requirement or strategy Before reissuing a solicitation with no change to the requirement or procurement strategy, if you are a PSPC buyer you must obtain approval from the appropriate approval authority. They are detailed ",
+      "prev_section_id": "d649dcb59bac::s004",
+      "next_section_id": null
+    }
+  ],
+  "tables": [],
+  "blocks": [
+    {
+      "block_id": "d649dcb59bac::b0001",
+      "section_id": "d649dcb59bac::s001",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Cancel or reissue a solicitation - Approval to reissue a solicitation",
+        "Buyer's Guide Cancel or reissue a solicitation - Approval to reissue a solicitation"
+      ],
+      "markdown": "# Buyer's Guide Cancel or reissue a solicitation - Approval to reissue a solicitation",
+      "plain_text": "Buyer's Guide Cancel or reissue a solicitation - Approval to reissue a solicitation"
+    },
+    {
+      "block_id": "d649dcb59bac::b0002",
+      "section_id": "d649dcb59bac::s002",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Cancel or reissue a solicitation - Approval to reissue a solicitation",
+        "Buyer's Guide"
+      ],
+      "markdown": "# Buyer's Guide",
+      "plain_text": "Buyer's Guide"
+    },
+    {
+      "block_id": "d649dcb59bac::b0003",
+      "section_id": "d649dcb59bac::s002",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Cancel or reissue a solicitation - Approval to reissue a solicitation",
+        "Buyer's Guide"
+      ],
+      "markdown": "- Plan\n- Approve\n- Create solicitation\n- Solicit\n- Receive and evaluate\n- Negotiate\n- Award\n- Manage",
+      "plain_text": "Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage"
+    },
+    {
+      "block_id": "d649dcb59bac::b0004",
+      "section_id": "d649dcb59bac::s002",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cancel or reissue a solicitation - Approval to reissue a solicitation",
+        "Buyer's Guide"
+      ],
+      "markdown": "Approval to reissue a solicitation You will need to obtain approval from the appropriate authority before reissuing a solicitation. To determine the appropriate approval authority, buyers must first assess whether there is a significant change to the requirement, procurement strategy or risk level. Significant change to the requirement, strategy or risk level If you plan to reissue a solicitation because of a significant change to the requirement, you must assess whether the change will affect the procurement strategy or risk level. If the procurement strategy or risk level will change, a Public Services and Procurement Canada (PSPC) buyer must conduct a new procurement risk assessment. For example, if the original strategy was to compete and the revised strategy is to sole source, then you, as a PSPC buyer, must perform a new procurement risk assessment to determine if the strategy change impacts the risks already identified. The procurement risk assessment will also identify the appropriate level of contract entry approval based on the revised identified risks. A PSPC buyer must: include details about the new solicitation in the approval document obtain approval for the revised procurement strategy even if the risk assessment indicates the same approval level as was originally sought No change to the requirement or strategy Before reissuing a solicitation with no change to the requirement or procurement strategy, if you are a PSPC buyer you must obtain approval from the appropriate approval authority. They are detailed below: complexity level 1: buyer complexity level 2: manager complexity level 3: manager complexity level 4: director or regional director complexity level 5: director general or regional director general",
+      "plain_text": "Approval to reissue a solicitation You will need to obtain approval from the appropriate authority before reissuing a solicitation. To determine the appropriate approval authority, buyers must first assess whether there is a significant change to the requirement, procurement strategy or risk level. Significant change to the requirement, strategy or risk level If you plan to reissue a solicitation because of a significant change to the requirement, you must assess whether the change will affect the procurement strategy or risk level. If the procurement strategy or risk level will change, a Public Services and Procurement Canada (PSPC) buyer must conduct a new procurement risk assessment. For example, if the original strategy was to compete and the revised strategy is to sole source, then you, as a PSPC buyer, must perform a new procurement risk assessment to determine if the strategy change impacts the risks already identified. The procurement risk assessment will also identify the appropriate level of contract entry approval based on the revised identified risks. A PSPC buyer must: include details about the new solicitation in the approval document obtain approval for the revised procurement strategy even if the risk assessment indicates the same approval level as was originally sought No change to the requirement or strategy Before reissuing a solicitation with no change to the requirement or procurement strategy, if you are a PSPC buyer you must obtain approval from the appropriate approval authority. They are detailed below: complexity level 1: buyer complexity level 2: manager complexity level 3: manager complexity level 4: director or regional director complexity level 5: director general or regional director general"
+    },
+    {
+      "block_id": "d649dcb59bac::b0005",
+      "section_id": "d649dcb59bac::s003",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Cancel or reissue a solicitation - Approval to reissue a solicitation",
+        "Buyer's Guide",
+        "Approval to reissue a solicitation"
+      ],
+      "markdown": "## Approval to reissue a solicitation",
+      "plain_text": "Approval to reissue a solicitation"
+    },
+    {
+      "block_id": "d649dcb59bac::b0006",
+      "section_id": "d649dcb59bac::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cancel or reissue a solicitation - Approval to reissue a solicitation",
+        "Buyer's Guide",
+        "Approval to reissue a solicitation"
+      ],
+      "markdown": "You will need to obtain approval from the appropriate authority before reissuing a solicitation. To determine the appropriate approval authority, buyers must first assess whether there is a significant change to the requirement, procurement strategy or risk level.",
+      "plain_text": "You will need to obtain approval from the appropriate authority before reissuing a solicitation. To determine the appropriate approval authority, buyers must first assess whether there is a significant change to the requirement, procurement strategy or risk level."
+    },
+    {
+      "block_id": "d649dcb59bac::b0007",
+      "section_id": "d649dcb59bac::s004",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Cancel or reissue a solicitation - Approval to reissue a solicitation",
+        "Buyer's Guide",
+        "Approval to reissue a solicitation",
+        "Significant change to the requirement, strategy or risk level"
+      ],
+      "markdown": "### Significant change to the requirement, strategy or risk level",
+      "plain_text": "Significant change to the requirement, strategy or risk level"
+    },
+    {
+      "block_id": "d649dcb59bac::b0008",
+      "section_id": "d649dcb59bac::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cancel or reissue a solicitation - Approval to reissue a solicitation",
+        "Buyer's Guide",
+        "Approval to reissue a solicitation",
+        "Significant change to the requirement, strategy or risk level"
+      ],
+      "markdown": "If you plan to reissue a solicitation because of a significant change to the requirement, you must assess whether the change will affect the procurement strategy or risk level.",
+      "plain_text": "If you plan to reissue a solicitation because of a significant change to the requirement, you must assess whether the change will affect the procurement strategy or risk level."
+    },
+    {
+      "block_id": "d649dcb59bac::b0009",
+      "section_id": "d649dcb59bac::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cancel or reissue a solicitation - Approval to reissue a solicitation",
+        "Buyer's Guide",
+        "Approval to reissue a solicitation",
+        "Significant change to the requirement, strategy or risk level"
+      ],
+      "markdown": "If the procurement strategy or risk level will change, a Public Services and Procurement Canada (PSPC) buyer must conduct a new procurement risk assessment. For example, if the original strategy was to compete and the revised strategy is to sole source, then you, as a PSPC buyer, must perform a new procurement risk assessment to determine if the strategy change impacts the risks already identified. The procurement risk assessment will also identify the appropriate level of contract entry approval based on the revised identified risks.",
+      "plain_text": "If the procurement strategy or risk level will change, a Public Services and Procurement Canada (PSPC) buyer must conduct a new procurement risk assessment. For example, if the original strategy was to compete and the revised strategy is to sole source, then you, as a PSPC buyer, must perform a new procurement risk assessment to determine if the strategy change impacts the risks already identified. The procurement risk assessment will also identify the appropriate level of contract entry approval based on the revised identified risks."
+    },
+    {
+      "block_id": "d649dcb59bac::b0010",
+      "section_id": "d649dcb59bac::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cancel or reissue a solicitation - Approval to reissue a solicitation",
+        "Buyer's Guide",
+        "Approval to reissue a solicitation",
+        "Significant change to the requirement, strategy or risk level"
+      ],
+      "markdown": "A PSPC buyer must:",
+      "plain_text": "A PSPC buyer must:"
+    },
+    {
+      "block_id": "d649dcb59bac::b0011",
+      "section_id": "d649dcb59bac::s004",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Cancel or reissue a solicitation - Approval to reissue a solicitation",
+        "Buyer's Guide",
+        "Approval to reissue a solicitation",
+        "Significant change to the requirement, strategy or risk level"
+      ],
+      "markdown": "- include details about the new solicitation in the approval document\n- obtain approval for the revised procurement strategy even if the risk assessment indicates the same approval level as was originally sought",
+      "plain_text": "include details about the new solicitation in the approval document ; obtain approval for the revised procurement strategy even if the risk assessment indicates the same approval level as was originally sought"
+    },
+    {
+      "block_id": "d649dcb59bac::b0012",
+      "section_id": "d649dcb59bac::s005",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Cancel or reissue a solicitation - Approval to reissue a solicitation",
+        "Buyer's Guide",
+        "Approval to reissue a solicitation",
+        "No change to the requirement or strategy"
+      ],
+      "markdown": "### No change to the requirement or strategy",
+      "plain_text": "No change to the requirement or strategy"
+    },
+    {
+      "block_id": "d649dcb59bac::b0013",
+      "section_id": "d649dcb59bac::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cancel or reissue a solicitation - Approval to reissue a solicitation",
+        "Buyer's Guide",
+        "Approval to reissue a solicitation",
+        "No change to the requirement or strategy"
+      ],
+      "markdown": "Before reissuing a solicitation with no change to the requirement or procurement strategy, if you are a PSPC buyer you must obtain approval from the appropriate approval authority. They are detailed below:",
+      "plain_text": "Before reissuing a solicitation with no change to the requirement or procurement strategy, if you are a PSPC buyer you must obtain approval from the appropriate approval authority. They are detailed below:"
+    },
+    {
+      "block_id": "d649dcb59bac::b0014",
+      "section_id": "d649dcb59bac::s005",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Cancel or reissue a solicitation - Approval to reissue a solicitation",
+        "Buyer's Guide",
+        "Approval to reissue a solicitation",
+        "No change to the requirement or strategy"
+      ],
+      "markdown": "- complexity level 1: buyer\n- complexity level 2: manager\n- complexity level 3: manager\n- complexity level 4: director or regional director\n- complexity level 5: director general or regional director general",
+      "plain_text": "complexity level 1: buyer ; complexity level 2: manager ; complexity level 3: manager ; complexity level 4: director or regional director ; complexity level 5: director general or regional director general"
+    }
+  ]
+}

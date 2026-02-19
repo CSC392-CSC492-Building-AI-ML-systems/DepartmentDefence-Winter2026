@@ -1,0 +1,961 @@
+{
+  "doc_id": "19bacdab5f54",
+  "title": "Buyer's Guide Manage a contract - Vendor performance",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/vendor-performance",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/vendor-performance",
+  "doc_type": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": "2026-01-31",
+  "fetched_at": "2026-02-19T09:19:37.684800+00:00",
+  "content_hash": "c6e6b1cad60fdbc7ddd87e2037e07697b40746dc5c9ceb227460891009096d3c",
+  "word_count": 772,
+  "text_path": "data/corpus/buyers_guide__en-buyer-s-portal-buyer-s-guide-manage-manage-contract-vendor-performance__19bacdab5f.md",
+  "extraction_method": "buyers_guide_regions",
+  "breadcrumbs": [
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "https://canadabuys.canada.ca/en",
+      "canonical_url": "https://canadabuys.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "in_scope": true
+    },
+    {
+      "title": "Manage a contract",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "in_scope": true
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+    "parent_doc_id": "195daba76ab3",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/vendor-performance"
+    ],
+    "lineage_doc_ids": [
+      "1e29c7881335",
+      "195daba76ab3",
+      "19bacdab5f54"
+    ],
+    "depth": 2,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/best-practices-contract-close-out",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/contract-close-out-activities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/alternative-dispute-resolution",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/assignment-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/buyer-and-client-responsibilites",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/certifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/contract-dispute-resolution",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/employer-employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/integrity-provisions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/protecting-canada-s-interests",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/subcontracting",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/task-authorizations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/assignment-monies",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/claims-progress-payments-and-invoicing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/cost-reimbursable-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/exchange-rate-fluctuation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/final-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/financial-claims",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/fixed-time-rate-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/interest-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/overtime",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/refund-excess-profits",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/administrative-guidance-implementing-contract-modifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/considerations-when-making-amendments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/design-change-or-deviation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/exercise-options",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/procedural-elements-amending-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/revisions-standing-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/approval-authority",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/legal-services",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/public-services-and-procurement-canada-offices-outside-canada",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/source-lists",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/suspension-work-and-stop-work-orders",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-contracts-financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-convenience",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-default",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-mutual-consent"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/best-practices-contract-close-out",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/contract-close-out-activities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/alternative-dispute-resolution",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/assignment-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/buyer-and-client-responsibilites",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/certifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/contract-dispute-resolution",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/employer-employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/integrity-provisions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/protecting-canada-s-interests",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/subcontracting",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/task-authorizations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/assignment-monies",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/claims-progress-payments-and-invoicing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/cost-reimbursable-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/exchange-rate-fluctuation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/final-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/financial-claims",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/fixed-time-rate-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/interest-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/overtime",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/refund-excess-profits",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/administrative-guidance-implementing-contract-modifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/considerations-when-making-amendments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/design-change-or-deviation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/exercise-options",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/procedural-elements-amending-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/revisions-standing-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/approval-authority",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/legal-services",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/public-services-and-procurement-canada-offices-outside-canada",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/source-lists",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/suspension-work-and-stop-work-orders",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-contracts-financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-convenience",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-default",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-mutual-consent",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure": {
+    "block_count": 37,
+    "section_count": 13,
+    "heading_count": 12,
+    "paragraph_count": 21,
+    "list_count": 4,
+    "table_count": 0
+  },
+  "sections": [
+    {
+      "section_id": "19bacdab5f54::root",
+      "parent_section_id": null,
+      "level": 0,
+      "heading": "Buyer's Guide Manage a contract - Vendor performance",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Vendor performance"
+      ],
+      "block_count": 0,
+      "word_count": 0,
+      "char_count": 0,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": null,
+      "last_block_index": null,
+      "preview": "",
+      "prev_section_id": null,
+      "next_section_id": null
+    },
+    {
+      "section_id": "19bacdab5f54::s001",
+      "parent_section_id": "19bacdab5f54::root",
+      "level": 1,
+      "heading": "Buyer's Guide Manage a contract - Vendor performance",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Vendor performance",
+        "Buyer's Guide Manage a contract - Vendor performance"
+      ],
+      "block_count": 1,
+      "word_count": 8,
+      "char_count": 52,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 0,
+      "last_block_index": 0,
+      "preview": "Buyer's Guide Manage a contract - Vendor performance",
+      "prev_section_id": null,
+      "next_section_id": "19bacdab5f54::s002"
+    },
+    {
+      "section_id": "19bacdab5f54::s002",
+      "parent_section_id": "19bacdab5f54::root",
+      "level": 1,
+      "heading": "Buyer's Guide",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Vendor performance",
+        "Buyer's Guide"
+      ],
+      "block_count": 2,
+      "word_count": 20,
+      "char_count": 111,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 0,
+      "first_block_index": 1,
+      "last_block_index": 2,
+      "preview": "Buyer's Guide Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage",
+      "prev_section_id": "19bacdab5f54::s001",
+      "next_section_id": "19bacdab5f54::s003"
+    },
+    {
+      "section_id": "19bacdab5f54::s003",
+      "parent_section_id": "19bacdab5f54::s002",
+      "level": 2,
+      "heading": "Vendor performance",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Vendor performance",
+        "Buyer's Guide",
+        "Vendor performance"
+      ],
+      "block_count": 2,
+      "word_count": 39,
+      "char_count": 275,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 3,
+      "last_block_index": 4,
+      "preview": "Vendor performance This section outlines how to manage vendor performance effectively to protect Canada's interests. By following these guidelines, you can ensure that contracts are fulfilled as agreed and address any issues promptly to mai",
+      "prev_section_id": "19bacdab5f54::s002",
+      "next_section_id": "19bacdab5f54::s004"
+    },
+    {
+      "section_id": "19bacdab5f54::s004",
+      "parent_section_id": "19bacdab5f54::s003",
+      "level": 3,
+      "heading": "Contract performance",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Vendor performance",
+        "Buyer's Guide",
+        "Vendor performance",
+        "Contract performance"
+      ],
+      "block_count": 3,
+      "word_count": 73,
+      "char_count": 545,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 2,
+      "first_block_index": 5,
+      "last_block_index": 7,
+      "preview": "Contract performance Managing a contract involves multiple activities to ensure the contract's fulfillment. Changes in circumstances like the contractor's failure to meet obligations, disputes over contract conditions or necessary amendment",
+      "prev_section_id": "19bacdab5f54::s003",
+      "next_section_id": "19bacdab5f54::s005"
+    },
+    {
+      "section_id": "19bacdab5f54::s005",
+      "parent_section_id": "19bacdab5f54::s003",
+      "level": 3,
+      "heading": "Timely performance",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Vendor performance",
+        "Buyer's Guide",
+        "Vendor performance",
+        "Timely performance"
+      ],
+      "block_count": 6,
+      "word_count": 140,
+      "char_count": 896,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 4,
+      "first_block_index": 8,
+      "last_block_index": 13,
+      "preview": "Timely performance If a contractor fails to deliver goods or services as scheduled, you must review the reasons for the delay in consultation with the client and legal services. Should the delay be due to uncontrollable factors and not caus",
+      "prev_section_id": "19bacdab5f54::s004",
+      "next_section_id": "19bacdab5f54::s006"
+    },
+    {
+      "section_id": "19bacdab5f54::s006",
+      "parent_section_id": "19bacdab5f54::s003",
+      "level": 3,
+      "heading": "Contract administration",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Vendor performance",
+        "Buyer's Guide",
+        "Vendor performance",
+        "Contract administration"
+      ],
+      "block_count": 2,
+      "word_count": 9,
+      "char_count": 89,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 14,
+      "last_block_index": 15,
+      "preview": "Contract administration Contract administration involves the requirements described below.",
+      "prev_section_id": "19bacdab5f54::s005",
+      "next_section_id": "19bacdab5f54::s007"
+    },
+    {
+      "section_id": "19bacdab5f54::s007",
+      "parent_section_id": "19bacdab5f54::s006",
+      "level": 4,
+      "heading": "Enforcement of contract terms",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Vendor performance",
+        "Buyer's Guide",
+        "Vendor performance",
+        "Contract administration",
+        "Enforcement of contract terms"
+      ],
+      "block_count": 3,
+      "word_count": 41,
+      "char_count": 287,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 16,
+      "last_block_index": 18,
+      "preview": "Enforcement of contract terms You must enforce the terms of contracts. Performance issues can result in: enforcement of available contractual remedies ; documentation of the issue in the Vendor Information Management (VIM) system ; a Vendor",
+      "prev_section_id": "19bacdab5f54::s006",
+      "next_section_id": "19bacdab5f54::s008"
+    },
+    {
+      "section_id": "19bacdab5f54::s008",
+      "parent_section_id": "19bacdab5f54::s006",
+      "level": 4,
+      "heading": "Documentation requirements",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Vendor performance",
+        "Buyer's Guide",
+        "Vendor performance",
+        "Contract administration",
+        "Documentation requirements"
+      ],
+      "block_count": 3,
+      "word_count": 45,
+      "char_count": 308,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 19,
+      "last_block_index": 21,
+      "preview": "Documentation requirements You must document the following in the contract file: specific performance issues like non-compliance with contract criteria ; evidence of communication with the contractor regarding these issues ; proof of the VP",
+      "prev_section_id": "19bacdab5f54::s007",
+      "next_section_id": "19bacdab5f54::s009"
+    },
+    {
+      "section_id": "19bacdab5f54::s009",
+      "parent_section_id": "19bacdab5f54::s006",
+      "level": 4,
+      "heading": "Handling terminations and amendments",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Vendor performance",
+        "Buyer's Guide",
+        "Vendor performance",
+        "Contract administration",
+        "Handling terminations and amendments"
+      ],
+      "block_count": 5,
+      "word_count": 155,
+      "char_count": 961,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 4,
+      "first_block_index": 22,
+      "last_block_index": 26,
+      "preview": "Handling terminations and amendments When a contract is terminated for default or a conditional amendment is issued, the contractor must be formally notified in writing of the performance issue. This notification should mention that Canada ",
+      "prev_section_id": "19bacdab5f54::s008",
+      "next_section_id": "19bacdab5f54::s010"
+    },
+    {
+      "section_id": "19bacdab5f54::s010",
+      "parent_section_id": "19bacdab5f54::s003",
+      "level": 3,
+      "heading": "Vendor Performance Corrective Measure Assessment process",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Vendor performance",
+        "Buyer's Guide",
+        "Vendor performance",
+        "Vendor Performance Corrective Measure Assessment process"
+      ],
+      "block_count": 5,
+      "word_count": 127,
+      "char_count": 804,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 4,
+      "first_block_index": 27,
+      "last_block_index": 31,
+      "preview": "Vendor Performance Corrective Measure Assessment process A contract terminated for default or with a conditional amendment triggers a mandatory assessment to determine whether a VPCM is to be applied. Upon learning of a default, the VPCM co",
+      "prev_section_id": "19bacdab5f54::s009",
+      "next_section_id": "19bacdab5f54::s011"
+    },
+    {
+      "section_id": "19bacdab5f54::s011",
+      "parent_section_id": "19bacdab5f54::s003",
+      "level": 3,
+      "heading": "Recordkeeping in the VIM system",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Vendor performance",
+        "Buyer's Guide",
+        "Vendor performance",
+        "Recordkeeping in the VIM system"
+      ],
+      "block_count": 3,
+      "word_count": 78,
+      "char_count": 506,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 2,
+      "first_block_index": 32,
+      "last_block_index": 34,
+      "preview": "Recordkeeping in the VIM system Notes in the VIM system related to contract termination or conditional amendments remain for 6 years. The note may be removed sooner where the termination or conditional amendment contributed to the VPCM asse",
+      "prev_section_id": "19bacdab5f54::s010",
+      "next_section_id": "19bacdab5f54::s012"
+    },
+    {
+      "section_id": "19bacdab5f54::s012",
+      "parent_section_id": "19bacdab5f54::s003",
+      "level": 3,
+      "heading": "Provisions for stop work orders, contract suspensions, and other reasons for offer rejection",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Vendor performance",
+        "Buyer's Guide",
+        "Vendor performance",
+        "Provisions for stop work orders, contract suspensions, and other reasons for offer rejection"
+      ],
+      "block_count": 2,
+      "word_count": 37,
+      "char_count": 262,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 35,
+      "last_block_index": 36,
+      "preview": "Provisions for stop work orders, contract suspensions, and other reasons for offer rejection The VPCM provisions do not override PSPC 's rights regarding stop work orders, contract or supply arrangement suspensions, standing offer set-aside",
+      "prev_section_id": "19bacdab5f54::s011",
+      "next_section_id": null
+    }
+  ],
+  "tables": [],
+  "blocks": [
+    {
+      "block_id": "19bacdab5f54::b0001",
+      "section_id": "19bacdab5f54::s001",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Vendor performance",
+        "Buyer's Guide Manage a contract - Vendor performance"
+      ],
+      "markdown": "# Buyer's Guide Manage a contract - Vendor performance",
+      "plain_text": "Buyer's Guide Manage a contract - Vendor performance"
+    },
+    {
+      "block_id": "19bacdab5f54::b0002",
+      "section_id": "19bacdab5f54::s002",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Vendor performance",
+        "Buyer's Guide"
+      ],
+      "markdown": "# Buyer's Guide",
+      "plain_text": "Buyer's Guide"
+    },
+    {
+      "block_id": "19bacdab5f54::b0003",
+      "section_id": "19bacdab5f54::s002",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Vendor performance",
+        "Buyer's Guide"
+      ],
+      "markdown": "- Plan\n- Approve\n- Create solicitation\n- Solicit\n- Receive and evaluate\n- Negotiate\n- Award\n- Manage",
+      "plain_text": "Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage"
+    },
+    {
+      "block_id": "19bacdab5f54::b0004",
+      "section_id": "19bacdab5f54::s003",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Vendor performance",
+        "Buyer's Guide",
+        "Vendor performance"
+      ],
+      "markdown": "## Vendor performance",
+      "plain_text": "Vendor performance"
+    },
+    {
+      "block_id": "19bacdab5f54::b0005",
+      "section_id": "19bacdab5f54::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Vendor performance",
+        "Buyer's Guide",
+        "Vendor performance"
+      ],
+      "markdown": "This section outlines how to manage vendor performance effectively to protect Canada's interests. By following these guidelines, you can ensure that contracts are fulfilled as agreed and address any issues promptly to maintain high standards of performance.",
+      "plain_text": "This section outlines how to manage vendor performance effectively to protect Canada's interests. By following these guidelines, you can ensure that contracts are fulfilled as agreed and address any issues promptly to maintain high standards of performance."
+    },
+    {
+      "block_id": "19bacdab5f54::b0006",
+      "section_id": "19bacdab5f54::s004",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Vendor performance",
+        "Buyer's Guide",
+        "Vendor performance",
+        "Contract performance"
+      ],
+      "markdown": "### Contract performance",
+      "plain_text": "Contract performance"
+    },
+    {
+      "block_id": "19bacdab5f54::b0007",
+      "section_id": "19bacdab5f54::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Vendor performance",
+        "Buyer's Guide",
+        "Vendor performance",
+        "Contract performance"
+      ],
+      "markdown": "Managing a contract involves multiple activities to ensure the contract's fulfillment. Changes in circumstances like the contractor's failure to meet obligations, disputes over contract conditions or necessary amendments after awarding the contract might disrupt contract performance.",
+      "plain_text": "Managing a contract involves multiple activities to ensure the contract's fulfillment. Changes in circumstances like the contractor's failure to meet obligations, disputes over contract conditions or necessary amendments after awarding the contract might disrupt contract performance."
+    },
+    {
+      "block_id": "19bacdab5f54::b0008",
+      "section_id": "19bacdab5f54::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Vendor performance",
+        "Buyer's Guide",
+        "Vendor performance",
+        "Contract performance"
+      ],
+      "markdown": "In cases where contract fulfillment is at risk, you should take the necessary steps to protect Canada's interests. This includes dealing with disputes promptly, fairly and keeping procurement records up-to-date to document the actions taken.",
+      "plain_text": "In cases where contract fulfillment is at risk, you should take the necessary steps to protect Canada's interests. This includes dealing with disputes promptly, fairly and keeping procurement records up-to-date to document the actions taken."
+    },
+    {
+      "block_id": "19bacdab5f54::b0009",
+      "section_id": "19bacdab5f54::s005",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Vendor performance",
+        "Buyer's Guide",
+        "Vendor performance",
+        "Timely performance"
+      ],
+      "markdown": "### Timely performance",
+      "plain_text": "Timely performance"
+    },
+    {
+      "block_id": "19bacdab5f54::b0010",
+      "section_id": "19bacdab5f54::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Vendor performance",
+        "Buyer's Guide",
+        "Vendor performance",
+        "Timely performance"
+      ],
+      "markdown": "If a contractor fails to deliver goods or services as scheduled, you must review the reasons for the delay in consultation with the client and legal services. Should the delay be due to uncontrollable factors and not caused by the contractor\u2019s fault or negligence, you should extend the contract duration by a period equivalent to the delay. Otherwise, the contractor is accountable for any non-delivery.",
+      "plain_text": "If a contractor fails to deliver goods or services as scheduled, you must review the reasons for the delay in consultation with the client and legal services. Should the delay be due to uncontrollable factors and not caused by the contractor\u2019s fault or negligence, you should extend the contract duration by a period equivalent to the delay. Otherwise, the contractor is accountable for any non-delivery."
+    },
+    {
+      "block_id": "19bacdab5f54::b0011",
+      "section_id": "19bacdab5f54::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Vendor performance",
+        "Buyer's Guide",
+        "Vendor performance",
+        "Timely performance"
+      ],
+      "markdown": "Note: Excusable delays are detailed in general conditions.",
+      "plain_text": "Note: Excusable delays are detailed in general conditions."
+    },
+    {
+      "block_id": "19bacdab5f54::b0012",
+      "section_id": "19bacdab5f54::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Vendor performance",
+        "Buyer's Guide",
+        "Vendor performance",
+        "Timely performance"
+      ],
+      "markdown": "In cases of default you may terminate the contract, fully or partially, after issuing a written notice to the contractor.",
+      "plain_text": "In cases of default you may terminate the contract, fully or partially, after issuing a written notice to the contractor."
+    },
+    {
+      "block_id": "19bacdab5f54::b0013",
+      "section_id": "19bacdab5f54::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Vendor performance",
+        "Buyer's Guide",
+        "Vendor performance",
+        "Timely performance"
+      ],
+      "markdown": "If the contract is backed by surety bonds and requires an extension due to uncontrollable delays, you must:",
+      "plain_text": "If the contract is backed by surety bonds and requires an extension due to uncontrollable delays, you must:"
+    },
+    {
+      "block_id": "19bacdab5f54::b0014",
+      "section_id": "19bacdab5f54::s005",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Vendor performance",
+        "Buyer's Guide",
+        "Vendor performance",
+        "Timely performance"
+      ],
+      "markdown": "- obtain approval from the surety company before extending the contract's completion dates\n- seek the surety's agreement before modifying the contract price for additional work, if necessary",
+      "plain_text": "obtain approval from the surety company before extending the contract's completion dates ; seek the surety's agreement before modifying the contract price for additional work, if necessary"
+    },
+    {
+      "block_id": "19bacdab5f54::b0015",
+      "section_id": "19bacdab5f54::s006",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Vendor performance",
+        "Buyer's Guide",
+        "Vendor performance",
+        "Contract administration"
+      ],
+      "markdown": "### Contract administration",
+      "plain_text": "Contract administration"
+    },
+    {
+      "block_id": "19bacdab5f54::b0016",
+      "section_id": "19bacdab5f54::s006",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Vendor performance",
+        "Buyer's Guide",
+        "Vendor performance",
+        "Contract administration"
+      ],
+      "markdown": "Contract administration involves the requirements described below.",
+      "plain_text": "Contract administration involves the requirements described below."
+    },
+    {
+      "block_id": "19bacdab5f54::b0017",
+      "section_id": "19bacdab5f54::s007",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Vendor performance",
+        "Buyer's Guide",
+        "Vendor performance",
+        "Contract administration",
+        "Enforcement of contract terms"
+      ],
+      "markdown": "#### Enforcement of contract terms",
+      "plain_text": "Enforcement of contract terms"
+    },
+    {
+      "block_id": "19bacdab5f54::b0018",
+      "section_id": "19bacdab5f54::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Vendor performance",
+        "Buyer's Guide",
+        "Vendor performance",
+        "Contract administration",
+        "Enforcement of contract terms"
+      ],
+      "markdown": "You must enforce the terms of contracts. Performance issues can result in:",
+      "plain_text": "You must enforce the terms of contracts. Performance issues can result in:"
+    },
+    {
+      "block_id": "19bacdab5f54::b0019",
+      "section_id": "19bacdab5f54::s007",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Vendor performance",
+        "Buyer's Guide",
+        "Vendor performance",
+        "Contract administration",
+        "Enforcement of contract terms"
+      ],
+      "markdown": "- enforcement of available contractual remedies\n- documentation of the issue in the Vendor Information Management (VIM) system\n- a Vendor Performance Corrective Measure (VPCM) assessment",
+      "plain_text": "enforcement of available contractual remedies ; documentation of the issue in the Vendor Information Management (VIM) system ; a Vendor Performance Corrective Measure (VPCM) assessment"
+    },
+    {
+      "block_id": "19bacdab5f54::b0020",
+      "section_id": "19bacdab5f54::s008",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Vendor performance",
+        "Buyer's Guide",
+        "Vendor performance",
+        "Contract administration",
+        "Documentation requirements"
+      ],
+      "markdown": "#### Documentation requirements",
+      "plain_text": "Documentation requirements"
+    },
+    {
+      "block_id": "19bacdab5f54::b0021",
+      "section_id": "19bacdab5f54::s008",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Vendor performance",
+        "Buyer's Guide",
+        "Vendor performance",
+        "Contract administration",
+        "Documentation requirements"
+      ],
+      "markdown": "You must document the following in the contract file:",
+      "plain_text": "You must document the following in the contract file:"
+    },
+    {
+      "block_id": "19bacdab5f54::b0022",
+      "section_id": "19bacdab5f54::s008",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Vendor performance",
+        "Buyer's Guide",
+        "Vendor performance",
+        "Contract administration",
+        "Documentation requirements"
+      ],
+      "markdown": "- specific performance issues like non-compliance with contract criteria\n- evidence of communication with the contractor regarding these issues\n- proof of the VPCM policy having been sent to the contractor as part of communications",
+      "plain_text": "specific performance issues like non-compliance with contract criteria ; evidence of communication with the contractor regarding these issues ; proof of the VPCM policy having been sent to the contractor as part of communications"
+    },
+    {
+      "block_id": "19bacdab5f54::b0023",
+      "section_id": "19bacdab5f54::s009",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Vendor performance",
+        "Buyer's Guide",
+        "Vendor performance",
+        "Contract administration",
+        "Handling terminations and amendments"
+      ],
+      "markdown": "#### Handling terminations and amendments",
+      "plain_text": "Handling terminations and amendments"
+    },
+    {
+      "block_id": "19bacdab5f54::b0024",
+      "section_id": "19bacdab5f54::s009",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Vendor performance",
+        "Buyer's Guide",
+        "Vendor performance",
+        "Contract administration",
+        "Handling terminations and amendments"
+      ],
+      "markdown": "When a contract is terminated for default or a conditional amendment is issued, the contractor must be formally notified in writing of the performance issue.",
+      "plain_text": "When a contract is terminated for default or a conditional amendment is issued, the contractor must be formally notified in writing of the performance issue."
+    },
+    {
+      "block_id": "19bacdab5f54::b0025",
+      "section_id": "19bacdab5f54::s009",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Vendor performance",
+        "Buyer's Guide",
+        "Vendor performance",
+        "Contract administration",
+        "Handling terminations and amendments"
+      ],
+      "markdown": "This notification should mention that Canada may consider the poor performance for future VPCM assessments and that it will result in a note in the VIM system.",
+      "plain_text": "This notification should mention that Canada may consider the poor performance for future VPCM assessments and that it will result in a note in the VIM system."
+    },
+    {
+      "block_id": "19bacdab5f54::b0026",
+      "section_id": "19bacdab5f54::s009",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Vendor performance",
+        "Buyer's Guide",
+        "Vendor performance",
+        "Contract administration",
+        "Handling terminations and amendments"
+      ],
+      "markdown": "For terminations for default and conditional amendments, you must consult with legal services. For a conditional amendment, include the following text in the notification:",
+      "plain_text": "For terminations for default and conditional amendments, you must consult with legal services. For a conditional amendment, include the following text in the notification:"
+    },
+    {
+      "block_id": "19bacdab5f54::b0027",
+      "section_id": "19bacdab5f54::s009",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Vendor performance",
+        "Buyer's Guide",
+        "Vendor performance",
+        "Contract administration",
+        "Handling terminations and amendments"
+      ],
+      "markdown": "\u201cThe parties agree to this amendment on condition that Canada has the rights to consider the poor performance, which has led to this conditional amendment, for the purpose of assessing whether a VPCM will be placed against the contractor. The parties agree that this conditional amendment will result in a note in the VIM System, and will trigger a VPCM assessment process at the end of the contract or expiry date of the Standing Offer.\u201d",
+      "plain_text": "\u201cThe parties agree to this amendment on condition that Canada has the rights to consider the poor performance, which has led to this conditional amendment, for the purpose of assessing whether a VPCM will be placed against the contractor. The parties agree that this conditional amendment will result in a note in the VIM System, and will trigger a VPCM assessment process at the end of the contract or expiry date of the Standing Offer.\u201d"
+    },
+    {
+      "block_id": "19bacdab5f54::b0028",
+      "section_id": "19bacdab5f54::s010",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Vendor performance",
+        "Buyer's Guide",
+        "Vendor performance",
+        "Vendor Performance Corrective Measure Assessment process"
+      ],
+      "markdown": "### Vendor Performance Corrective Measure Assessment process",
+      "plain_text": "Vendor Performance Corrective Measure Assessment process"
+    },
+    {
+      "block_id": "19bacdab5f54::b0029",
+      "section_id": "19bacdab5f54::s010",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Vendor performance",
+        "Buyer's Guide",
+        "Vendor performance",
+        "Vendor Performance Corrective Measure Assessment process"
+      ],
+      "markdown": "A contract terminated for default or with a conditional amendment triggers a mandatory assessment to determine whether a VPCM is to be applied.",
+      "plain_text": "A contract terminated for default or with a conditional amendment triggers a mandatory assessment to determine whether a VPCM is to be applied."
+    },
+    {
+      "block_id": "19bacdab5f54::b0030",
+      "section_id": "19bacdab5f54::s010",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Vendor performance",
+        "Buyer's Guide",
+        "Vendor performance",
+        "Vendor Performance Corrective Measure Assessment process"
+      ],
+      "markdown": "Upon learning of a default, the VPCM coordinator sends a reminder email to the buyers outlining the initial steps. You must respond within 5 business days and check the VPCM database for any existing assessments related to the contractor.",
+      "plain_text": "Upon learning of a default, the VPCM coordinator sends a reminder email to the buyers outlining the initial steps. You must respond within 5 business days and check the VPCM database for any existing assessments related to the contractor."
+    },
+    {
+      "block_id": "19bacdab5f54::b0031",
+      "section_id": "19bacdab5f54::s010",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Vendor performance",
+        "Buyer's Guide",
+        "Vendor performance",
+        "Vendor Performance Corrective Measure Assessment process"
+      ],
+      "markdown": "If no ongoing assessments affect the contractor, you will receive authorization to proceed with the VPCM assessment. If there is an ongoing assessment, you will be informed that the authorization for assessment of the new case will be put on hold until the previous assessment is completed.",
+      "plain_text": "If no ongoing assessments affect the contractor, you will receive authorization to proceed with the VPCM assessment. If there is an ongoing assessment, you will be informed that the authorization for assessment of the new case will be put on hold until the previous assessment is completed."
+    },
+    {
+      "block_id": "19bacdab5f54::b0032",
+      "section_id": "19bacdab5f54::s010",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Vendor performance",
+        "Buyer's Guide",
+        "Vendor performance",
+        "Vendor Performance Corrective Measure Assessment process"
+      ],
+      "markdown": "The assessment must be completed within 3 months from the authorization date.",
+      "plain_text": "The assessment must be completed within 3 months from the authorization date."
+    },
+    {
+      "block_id": "19bacdab5f54::b0033",
+      "section_id": "19bacdab5f54::s011",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Vendor performance",
+        "Buyer's Guide",
+        "Vendor performance",
+        "Recordkeeping in the VIM system"
+      ],
+      "markdown": "### Recordkeeping in the VIM system",
+      "plain_text": "Recordkeeping in the VIM system"
+    },
+    {
+      "block_id": "19bacdab5f54::b0034",
+      "section_id": "19bacdab5f54::s011",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Vendor performance",
+        "Buyer's Guide",
+        "Vendor performance",
+        "Recordkeeping in the VIM system"
+      ],
+      "markdown": "Notes in the VIM system related to contract termination or conditional amendments remain for 6 years. The note may be removed sooner where the termination or conditional amendment contributed to the VPCM assessment.",
+      "plain_text": "Notes in the VIM system related to contract termination or conditional amendments remain for 6 years. The note may be removed sooner where the termination or conditional amendment contributed to the VPCM assessment."
+    },
+    {
+      "block_id": "19bacdab5f54::b0035",
+      "section_id": "19bacdab5f54::s011",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Vendor performance",
+        "Buyer's Guide",
+        "Vendor performance",
+        "Recordkeeping in the VIM system"
+      ],
+      "markdown": "Canada reserves the right to include notes called \u201cOther Performance Records\u201d in the VIM system where other significant issues pertaining to performance are observed. These notes are subject to the approval of the appropriate ADM , Acquisitions Program, PSPC .",
+      "plain_text": "Canada reserves the right to include notes called \u201cOther Performance Records\u201d in the VIM system where other significant issues pertaining to performance are observed. These notes are subject to the approval of the appropriate ADM , Acquisitions Program, PSPC ."
+    },
+    {
+      "block_id": "19bacdab5f54::b0036",
+      "section_id": "19bacdab5f54::s012",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Vendor performance",
+        "Buyer's Guide",
+        "Vendor performance",
+        "Provisions for stop work orders, contract suspensions, and other reasons for offer rejection"
+      ],
+      "markdown": "### Provisions for stop work orders, contract suspensions, and other reasons for offer rejection",
+      "plain_text": "Provisions for stop work orders, contract suspensions, and other reasons for offer rejection"
+    },
+    {
+      "block_id": "19bacdab5f54::b0037",
+      "section_id": "19bacdab5f54::s012",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Vendor performance",
+        "Buyer's Guide",
+        "Vendor performance",
+        "Provisions for stop work orders, contract suspensions, and other reasons for offer rejection"
+      ],
+      "markdown": "The VPCM provisions do not override PSPC 's rights regarding stop work orders, contract or supply arrangement suspensions, standing offer set-asides and offer rejections.",
+      "plain_text": "The VPCM provisions do not override PSPC 's rights regarding stop work orders, contract or supply arrangement suspensions, standing offer set-asides and offer rejections."
+    }
+  ]
+}

@@ -1,0 +1,456 @@
+{
+  "doc_id": "8b0bdc4b5573",
+  "title": "Buyer's Guide Approvals and authorities - Contract approval and signing authorities",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contract-approval-and-signing-authorities",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contract-approval-and-signing-authorities",
+  "doc_type": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": "2026-01-31",
+  "fetched_at": "2026-02-19T09:17:28.848639+00:00",
+  "content_hash": "a3b6cf10d2001af010b617f22df1fdad8e43591efceb24961e53d8153d5c424f",
+  "word_count": 1156,
+  "text_path": "data/corpus/buyers_guide__en-buyer-s-portal-buyer-s-guide-approve-approvals-and-authorities-contract-approval-and-signing-authorities__8b0bdc4b55.md",
+  "extraction_method": "buyers_guide_regions",
+  "breadcrumbs": [
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "https://canadabuys.canada.ca/en",
+      "canonical_url": "https://canadabuys.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "in_scope": true
+    },
+    {
+      "title": "Approvals and authorities",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities",
+      "in_scope": true
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities",
+    "parent_doc_id": "6ab9a87ceb0c",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contract-approval-and-signing-authorities"
+    ],
+    "lineage_doc_ids": [
+      "1e29c7881335",
+      "6ab9a87ceb0c",
+      "8b0bdc4b5573"
+    ],
+    "depth": 2,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/additional-signing-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/approval-authorities-and-additional-signing-authorities-support-acquisitions-program-clients-programs-only-other-canadian-commercial-corporation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contracting-limits-including-exceptional-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/delegation-authority-guidelines",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/general-principles-procurement-authority",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/risk-based-procurement-delegation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/adjustments-complexity-levels",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/characteristics-procurement-complexity-levels",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/considerations-amendments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/determining-complexity",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/procurement-risk-assessment-complexity",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/additional-reviewers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/approval-processes",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-amendment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-planning-and-advanced-approval",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-request",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/procurement-plan",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/task-authorizations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/treasury-board-submission",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/forgiveness-debts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/procurement-process-initiated-client",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/retroactive-treasury-board-approval-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/trade-ins",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/waiver-interest"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/additional-signing-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/approval-authorities-and-additional-signing-authorities-support-acquisitions-program-clients-programs-only-other-canadian-commercial-corporation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contracting-limits-including-exceptional-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/delegation-authority-guidelines",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/general-principles-procurement-authority",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/risk-based-procurement-delegation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/adjustments-complexity-levels",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/characteristics-procurement-complexity-levels",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/considerations-amendments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/determining-complexity",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/procurement-risk-assessment-complexity",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/additional-reviewers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/approval-processes",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-amendment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-planning-and-advanced-approval",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-request",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/procurement-plan",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/task-authorizations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/treasury-board-submission",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/forgiveness-debts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/procurement-process-initiated-client",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/retroactive-treasury-board-approval-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/trade-ins",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/waiver-interest",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document",
+      "https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32692"
+    ]
+  },
+  "structure": {
+    "block_count": 19,
+    "section_count": 4,
+    "heading_count": 3,
+    "paragraph_count": 12,
+    "list_count": 4,
+    "table_count": 0
+  },
+  "sections": [
+    {
+      "section_id": "8b0bdc4b5573::root",
+      "parent_section_id": null,
+      "level": 0,
+      "heading": "Buyer's Guide Approvals and authorities - Contract approval and signing authorities",
+      "heading_path": [
+        "Buyer's Guide Approvals and authorities - Contract approval and signing authorities"
+      ],
+      "block_count": 0,
+      "word_count": 0,
+      "char_count": 0,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": null,
+      "last_block_index": null,
+      "preview": "",
+      "prev_section_id": null,
+      "next_section_id": null
+    },
+    {
+      "section_id": "8b0bdc4b5573::s001",
+      "parent_section_id": "8b0bdc4b5573::root",
+      "level": 1,
+      "heading": "Buyer's Guide Approvals and authorities - Contract approval and signing authorities",
+      "heading_path": [
+        "Buyer's Guide Approvals and authorities - Contract approval and signing authorities",
+        "Buyer's Guide Approvals and authorities - Contract approval and signing authorities"
+      ],
+      "block_count": 1,
+      "word_count": 11,
+      "char_count": 83,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 0,
+      "last_block_index": 0,
+      "preview": "Buyer's Guide Approvals and authorities - Contract approval and signing authorities",
+      "prev_section_id": null,
+      "next_section_id": "8b0bdc4b5573::s002"
+    },
+    {
+      "section_id": "8b0bdc4b5573::s002",
+      "parent_section_id": "8b0bdc4b5573::root",
+      "level": 1,
+      "heading": "Buyer's Guide",
+      "heading_path": [
+        "Buyer's Guide Approvals and authorities - Contract approval and signing authorities",
+        "Buyer's Guide"
+      ],
+      "block_count": 3,
+      "word_count": 575,
+      "char_count": 3856,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 1,
+      "last_block_index": 3,
+      "preview": "Buyer's Guide Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage Contract approval and signing authorities Buyers are delegated authority to enter into contracts and to sign and amend contract",
+      "prev_section_id": "8b0bdc4b5573::s001",
+      "next_section_id": "8b0bdc4b5573::s003"
+    },
+    {
+      "section_id": "8b0bdc4b5573::s003",
+      "parent_section_id": "8b0bdc4b5573::s002",
+      "level": 2,
+      "heading": "Contract approval and signing authorities",
+      "heading_path": [
+        "Buyer's Guide Approvals and authorities - Contract approval and signing authorities",
+        "Buyer's Guide",
+        "Contract approval and signing authorities"
+      ],
+      "block_count": 15,
+      "word_count": 570,
+      "char_count": 3761,
+      "table_count": 0,
+      "list_count": 3,
+      "paragraph_count": 11,
+      "first_block_index": 4,
+      "last_block_index": 18,
+      "preview": "Contract approval and signing authorities Buyers are delegated authority to enter into contracts and to sign and amend contracts in accordance with the level of responsibility of the position they occupy. Contract approval and signing autho",
+      "prev_section_id": "8b0bdc4b5573::s002",
+      "next_section_id": null
+    }
+  ],
+  "tables": [],
+  "blocks": [
+    {
+      "block_id": "8b0bdc4b5573::b0001",
+      "section_id": "8b0bdc4b5573::s001",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Approvals and authorities - Contract approval and signing authorities",
+        "Buyer's Guide Approvals and authorities - Contract approval and signing authorities"
+      ],
+      "markdown": "# Buyer's Guide Approvals and authorities - Contract approval and signing authorities",
+      "plain_text": "Buyer's Guide Approvals and authorities - Contract approval and signing authorities"
+    },
+    {
+      "block_id": "8b0bdc4b5573::b0002",
+      "section_id": "8b0bdc4b5573::s002",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Approvals and authorities - Contract approval and signing authorities",
+        "Buyer's Guide"
+      ],
+      "markdown": "# Buyer's Guide",
+      "plain_text": "Buyer's Guide"
+    },
+    {
+      "block_id": "8b0bdc4b5573::b0003",
+      "section_id": "8b0bdc4b5573::s002",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Approvals and authorities - Contract approval and signing authorities",
+        "Buyer's Guide"
+      ],
+      "markdown": "- Plan\n- Approve\n- Create solicitation\n- Solicit\n- Receive and evaluate\n- Negotiate\n- Award\n- Manage",
+      "plain_text": "Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage"
+    },
+    {
+      "block_id": "8b0bdc4b5573::b0004",
+      "section_id": "8b0bdc4b5573::s002",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Approvals and authorities - Contract approval and signing authorities",
+        "Buyer's Guide"
+      ],
+      "markdown": "Contract approval and signing authorities Buyers are delegated authority to enter into contracts and to sign and amend contracts in accordance with the level of responsibility of the position they occupy. Contract approval and signing authorities in support of clients\u2019 programs must be done in accordance with the relevant legislation and regulations, and within PSPC policies and guidelines. These authorities apply to all contractual documents and arrangements, including: purchase orders contracts formal agreements and arrangements (for example, an interdepartmental memorandum of understanding) standing offers and supply arrangements letters of intent go-ahead letters and go-ahead messages stores transfer orders supply transfer orders written direction to the agency of record (for example, a work authorization) assignments consents to subcontract termination for convenience notices amendments to any of the above Approval authority limits for PSPC buyers are subject to the following conditions: for requirements or amendments requiring approval, buyers must ensure the terms and conditions of the contract are consistent with the representations made to them as to the substantive nature of the transaction. Legal Services must be consulted when the buyer is considering a deviation from standard contracting clauses, standard templates, or legally approved commodity or sector-based templates. Buyers may also consult Legal Services on sensitive requirements. Conditions and limits imposed on the approval authority limits for PSPC buyers will apply to the approval and signing of all contractual documents and arrangements. This includes arrangements that are not subject to the Government Contracts Regulations and the TB Directive on the Management of Procurement . The exception is if approval and signing limits are set out within an existing memorandum of understanding. The Deputy Minister's approval is required when the value of transfer agreements between departments (for example, transfer orders with CORCAN) exceeds the approval limits of PSPC Acquisitions Program (AP). TB approval is required when the value of contractual arrangements with provincial or municipal governments, or provincial or federal Crown corporations exceeds PSPC AP approval limits. Approval of contracts that include options must be sought in accordance with the total estimated cost including any options for which funds are available or expected to be provided in the future. More than one contractual document must not be issued, under any circumstance, in order to circumvent the necessity of obtaining the proper approval authority If an Advance Contract Award Notice (ACAN) is published directing a requirement to a specific business for the purposes of contract approval authority, it is classified under the \u201ccompetitive\u201d category. Competitive approval authority levels apply, whenever an ACAN has been posted and no valid statement of capabilities was submitted. Exceptional contracting limits permit PSPC to enter into: any form of agreement used by a railway company for permission to construct or maintain a private crossing, a pipe or cable crossing over or under the property of the company at a rate or in an amount no greater than those normally charged for each permission any agreement with a railway, telegraph, telephone or power company for permission to attach wire to poles belonging to the company at a rate or in an amount no greater than those normally charged for each permission amend contracts with the United States government containing that government's usual terms dealing with indemnity and liability, subject to the limits of TB Directive on the Management of Procurement , Appendix A (Contracting Approvals)",
+      "plain_text": "Contract approval and signing authorities Buyers are delegated authority to enter into contracts and to sign and amend contracts in accordance with the level of responsibility of the position they occupy. Contract approval and signing authorities in support of clients\u2019 programs must be done in accordance with the relevant legislation and regulations, and within PSPC policies and guidelines. These authorities apply to all contractual documents and arrangements, including: purchase orders contracts formal agreements and arrangements (for example, an interdepartmental memorandum of understanding) standing offers and supply arrangements letters of intent go-ahead letters and go-ahead messages stores transfer orders supply transfer orders written direction to the agency of record (for example, a work authorization) assignments consents to subcontract termination for convenience notices amendments to any of the above Approval authority limits for PSPC buyers are subject to the following conditions: for requirements or amendments requiring approval, buyers must ensure the terms and conditions of the contract are consistent with the representations made to them as to the substantive nature of the transaction. Legal Services must be consulted when the buyer is considering a deviation from standard contracting clauses, standard templates, or legally approved commodity or sector-based templates. Buyers may also consult Legal Services on sensitive requirements. Conditions and limits imposed on the approval authority limits for PSPC buyers will apply to the approval and signing of all contractual documents and arrangements. This includes arrangements that are not subject to the Government Contracts Regulations and the TB Directive on the Management of Procurement . The exception is if approval and signing limits are set out within an existing memorandum of understanding. The Deputy Minister's approval is required when the value of transfer agreements between departments (for example, transfer orders with CORCAN) exceeds the approval limits of PSPC Acquisitions Program (AP). TB approval is required when the value of contractual arrangements with provincial or municipal governments, or provincial or federal Crown corporations exceeds PSPC AP approval limits. Approval of contracts that include options must be sought in accordance with the total estimated cost including any options for which funds are available or expected to be provided in the future. More than one contractual document must not be issued, under any circumstance, in order to circumvent the necessity of obtaining the proper approval authority If an Advance Contract Award Notice (ACAN) is published directing a requirement to a specific business for the purposes of contract approval authority, it is classified under the \u201ccompetitive\u201d category. Competitive approval authority levels apply, whenever an ACAN has been posted and no valid statement of capabilities was submitted. Exceptional contracting limits permit PSPC to enter into: any form of agreement used by a railway company for permission to construct or maintain a private crossing, a pipe or cable crossing over or under the property of the company at a rate or in an amount no greater than those normally charged for each permission any agreement with a railway, telegraph, telephone or power company for permission to attach wire to poles belonging to the company at a rate or in an amount no greater than those normally charged for each permission amend contracts with the United States government containing that government's usual terms dealing with indemnity and liability, subject to the limits of TB Directive on the Management of Procurement , Appendix A (Contracting Approvals)"
+    },
+    {
+      "block_id": "8b0bdc4b5573::b0005",
+      "section_id": "8b0bdc4b5573::s003",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Approvals and authorities - Contract approval and signing authorities",
+        "Buyer's Guide",
+        "Contract approval and signing authorities"
+      ],
+      "markdown": "## Contract approval and signing authorities",
+      "plain_text": "Contract approval and signing authorities"
+    },
+    {
+      "block_id": "8b0bdc4b5573::b0006",
+      "section_id": "8b0bdc4b5573::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Approvals and authorities - Contract approval and signing authorities",
+        "Buyer's Guide",
+        "Contract approval and signing authorities"
+      ],
+      "markdown": "Buyers are delegated authority to enter into contracts and to sign and amend contracts in accordance with the level of responsibility of the position they occupy.",
+      "plain_text": "Buyers are delegated authority to enter into contracts and to sign and amend contracts in accordance with the level of responsibility of the position they occupy."
+    },
+    {
+      "block_id": "8b0bdc4b5573::b0007",
+      "section_id": "8b0bdc4b5573::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Approvals and authorities - Contract approval and signing authorities",
+        "Buyer's Guide",
+        "Contract approval and signing authorities"
+      ],
+      "markdown": "Contract approval and signing authorities in support of clients\u2019 programs must be done in accordance with the relevant legislation and regulations, and within PSPC policies and guidelines.",
+      "plain_text": "Contract approval and signing authorities in support of clients\u2019 programs must be done in accordance with the relevant legislation and regulations, and within PSPC policies and guidelines."
+    },
+    {
+      "block_id": "8b0bdc4b5573::b0008",
+      "section_id": "8b0bdc4b5573::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Approvals and authorities - Contract approval and signing authorities",
+        "Buyer's Guide",
+        "Contract approval and signing authorities"
+      ],
+      "markdown": "These authorities apply to all contractual documents and arrangements, including:",
+      "plain_text": "These authorities apply to all contractual documents and arrangements, including:"
+    },
+    {
+      "block_id": "8b0bdc4b5573::b0009",
+      "section_id": "8b0bdc4b5573::s003",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Approvals and authorities - Contract approval and signing authorities",
+        "Buyer's Guide",
+        "Contract approval and signing authorities"
+      ],
+      "markdown": "- purchase orders\n- contracts\n- formal agreements and arrangements (for example, an interdepartmental memorandum of understanding)\n- standing offers and supply arrangements\n- letters of intent\n- go-ahead letters and go-ahead messages\n- stores transfer orders\n- supply transfer orders\n- written direction to the agency of record (for example, a work authorization)\n- assignments\n- consents to subcontract\n- termination for convenience notices\n- amendments to any of the above",
+      "plain_text": "purchase orders ; contracts ; formal agreements and arrangements (for example, an interdepartmental memorandum of understanding) ; standing offers and supply arrangements ; letters of intent ; go-ahead letters and go-ahead messages ; stores transfer orders ; supply transfer orders ; written direction to the agency of record (for example, a work authorization) ; assignments ; consents to subcontract ; termination for convenience notices ; amendments to any of the above"
+    },
+    {
+      "block_id": "8b0bdc4b5573::b0010",
+      "section_id": "8b0bdc4b5573::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Approvals and authorities - Contract approval and signing authorities",
+        "Buyer's Guide",
+        "Contract approval and signing authorities"
+      ],
+      "markdown": "Approval authority limits for PSPC buyers are subject to the following conditions:",
+      "plain_text": "Approval authority limits for PSPC buyers are subject to the following conditions:"
+    },
+    {
+      "block_id": "8b0bdc4b5573::b0011",
+      "section_id": "8b0bdc4b5573::s003",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Approvals and authorities - Contract approval and signing authorities",
+        "Buyer's Guide",
+        "Contract approval and signing authorities"
+      ],
+      "markdown": "- for requirements or amendments requiring approval, buyers must ensure the terms and conditions of the contract are consistent with the representations made to them as to the substantive nature of the transaction.\n- Legal Services must be consulted when the buyer is considering a deviation from standard contracting clauses, standard templates, or legally approved commodity or sector-based templates. Buyers may also consult Legal Services on sensitive requirements.",
+      "plain_text": "for requirements or amendments requiring approval, buyers must ensure the terms and conditions of the contract are consistent with the representations made to them as to the substantive nature of the transaction. ; Legal Services must be consulted when the buyer is considering a deviation from standard contracting clauses, standard templates, or legally approved commodity or sector-based templates. Buyers may also consult Legal Services on sensitive requirements."
+    },
+    {
+      "block_id": "8b0bdc4b5573::b0012",
+      "section_id": "8b0bdc4b5573::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Approvals and authorities - Contract approval and signing authorities",
+        "Buyer's Guide",
+        "Contract approval and signing authorities"
+      ],
+      "markdown": "Conditions and limits imposed on the approval authority limits for PSPC buyers will apply to the approval and signing of all contractual documents and arrangements. This includes arrangements that are not subject to the Government Contracts Regulations and the TB Directive on the Management of Procurement . The exception is if approval and signing limits are set out within an existing memorandum of understanding.",
+      "plain_text": "Conditions and limits imposed on the approval authority limits for PSPC buyers will apply to the approval and signing of all contractual documents and arrangements. This includes arrangements that are not subject to the Government Contracts Regulations and the TB Directive on the Management of Procurement . The exception is if approval and signing limits are set out within an existing memorandum of understanding."
+    },
+    {
+      "block_id": "8b0bdc4b5573::b0013",
+      "section_id": "8b0bdc4b5573::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Approvals and authorities - Contract approval and signing authorities",
+        "Buyer's Guide",
+        "Contract approval and signing authorities"
+      ],
+      "markdown": "The Deputy Minister's approval is required when the value of transfer agreements between departments (for example, transfer orders with CORCAN) exceeds the approval limits of PSPC Acquisitions Program (AP).",
+      "plain_text": "The Deputy Minister's approval is required when the value of transfer agreements between departments (for example, transfer orders with CORCAN) exceeds the approval limits of PSPC Acquisitions Program (AP)."
+    },
+    {
+      "block_id": "8b0bdc4b5573::b0014",
+      "section_id": "8b0bdc4b5573::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Approvals and authorities - Contract approval and signing authorities",
+        "Buyer's Guide",
+        "Contract approval and signing authorities"
+      ],
+      "markdown": "TB approval is required when the value of contractual arrangements with provincial or municipal governments, or provincial or federal Crown corporations exceeds PSPC AP approval limits.",
+      "plain_text": "TB approval is required when the value of contractual arrangements with provincial or municipal governments, or provincial or federal Crown corporations exceeds PSPC AP approval limits."
+    },
+    {
+      "block_id": "8b0bdc4b5573::b0015",
+      "section_id": "8b0bdc4b5573::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Approvals and authorities - Contract approval and signing authorities",
+        "Buyer's Guide",
+        "Contract approval and signing authorities"
+      ],
+      "markdown": "Approval of contracts that include options must be sought in accordance with the total estimated cost including any options for which funds are available or expected to be provided in the future.",
+      "plain_text": "Approval of contracts that include options must be sought in accordance with the total estimated cost including any options for which funds are available or expected to be provided in the future."
+    },
+    {
+      "block_id": "8b0bdc4b5573::b0016",
+      "section_id": "8b0bdc4b5573::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Approvals and authorities - Contract approval and signing authorities",
+        "Buyer's Guide",
+        "Contract approval and signing authorities"
+      ],
+      "markdown": "More than one contractual document must not be issued, under any circumstance, in order to circumvent the necessity of obtaining the proper approval authority",
+      "plain_text": "More than one contractual document must not be issued, under any circumstance, in order to circumvent the necessity of obtaining the proper approval authority"
+    },
+    {
+      "block_id": "8b0bdc4b5573::b0017",
+      "section_id": "8b0bdc4b5573::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Approvals and authorities - Contract approval and signing authorities",
+        "Buyer's Guide",
+        "Contract approval and signing authorities"
+      ],
+      "markdown": "If an Advance Contract Award Notice (ACAN) is published directing a requirement to a specific business for the purposes of contract approval authority, it is classified under the \u201ccompetitive\u201d category. Competitive approval authority levels apply, whenever an ACAN has been posted and no valid statement of capabilities was submitted.",
+      "plain_text": "If an Advance Contract Award Notice (ACAN) is published directing a requirement to a specific business for the purposes of contract approval authority, it is classified under the \u201ccompetitive\u201d category. Competitive approval authority levels apply, whenever an ACAN has been posted and no valid statement of capabilities was submitted."
+    },
+    {
+      "block_id": "8b0bdc4b5573::b0018",
+      "section_id": "8b0bdc4b5573::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Approvals and authorities - Contract approval and signing authorities",
+        "Buyer's Guide",
+        "Contract approval and signing authorities"
+      ],
+      "markdown": "Exceptional contracting limits permit PSPC to enter into:",
+      "plain_text": "Exceptional contracting limits permit PSPC to enter into:"
+    },
+    {
+      "block_id": "8b0bdc4b5573::b0019",
+      "section_id": "8b0bdc4b5573::s003",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Approvals and authorities - Contract approval and signing authorities",
+        "Buyer's Guide",
+        "Contract approval and signing authorities"
+      ],
+      "markdown": "- any form of agreement used by a railway company for permission to construct or maintain a private crossing, a pipe or cable crossing over or under the property of the company at a rate or in an amount no greater than those normally charged for each permission\n- any agreement with a railway, telegraph, telephone or power company for permission to attach wire to poles belonging to the company at a rate or in an amount no greater than those normally charged for each permission\n- amend contracts with the United States government containing that government's usual terms dealing with indemnity and liability, subject to the limits of TB Directive on the Management of Procurement , Appendix A (Contracting Approvals)",
+      "plain_text": "any form of agreement used by a railway company for permission to construct or maintain a private crossing, a pipe or cable crossing over or under the property of the company at a rate or in an amount no greater than those normally charged for each permission ; any agreement with a railway, telegraph, telephone or power company for permission to attach wire to poles belonging to the company at a rate or in an amount no greater than those normally charged for each permission ; amend contracts with the United States government containing that government's usual terms dealing with indemnity and liability, subject to the limits of TB Directive on the Management of Procurement , Appendix A (Contracting Approvals)"
+    }
+  ]
+}

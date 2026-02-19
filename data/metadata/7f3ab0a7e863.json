@@ -1,0 +1,1123 @@
+{
+  "doc_id": "7f3ab0a7e863",
+  "title": "Buyer's Guide Manage a contract - Protecting Canada's interests",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/protecting-canada-s-interests",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/protecting-canada-s-interests",
+  "doc_type": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": "2026-01-31",
+  "fetched_at": "2026-02-19T09:19:27.848095+00:00",
+  "content_hash": "4b3039faa0266f9b50ba18d7221a49def3a90c31fb0c4cd0c7681d263d025948",
+  "word_count": 834,
+  "text_path": "data/corpus/buyers_guide__en-buyer-s-portal-buyer-s-guide-manage-manage-contract-protecting-canada-s-interests__7f3ab0a7e8.md",
+  "extraction_method": "buyers_guide_regions",
+  "breadcrumbs": [
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "https://canadabuys.canada.ca/en",
+      "canonical_url": "https://canadabuys.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "in_scope": true
+    },
+    {
+      "title": "Manage a contract",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "in_scope": true
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+    "parent_doc_id": "195daba76ab3",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/protecting-canada-s-interests"
+    ],
+    "lineage_doc_ids": [
+      "1e29c7881335",
+      "195daba76ab3",
+      "7f3ab0a7e863"
+    ],
+    "depth": 2,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/best-practices-contract-close-out",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/contract-close-out-activities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/alternative-dispute-resolution",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/assignment-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/buyer-and-client-responsibilites",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/certifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/contract-dispute-resolution",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/employer-employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/integrity-provisions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/subcontracting",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/task-authorizations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/vendor-performance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/assignment-monies",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/claims-progress-payments-and-invoicing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/cost-reimbursable-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/exchange-rate-fluctuation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/final-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/financial-claims",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/fixed-time-rate-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/interest-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/overtime",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/refund-excess-profits",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/administrative-guidance-implementing-contract-modifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/considerations-when-making-amendments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/design-change-or-deviation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/exercise-options",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/procedural-elements-amending-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/revisions-standing-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/approval-authority",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/legal-services",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/public-services-and-procurement-canada-offices-outside-canada",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/source-lists",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/suspension-work-and-stop-work-orders",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-contracts-financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-convenience",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-default",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-mutual-consent"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/best-practices-contract-close-out",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/contract-close-out-activities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/alternative-dispute-resolution",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/assignment-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/buyer-and-client-responsibilites",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/certifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/contract-dispute-resolution",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/employer-employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/integrity-provisions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/subcontracting",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/task-authorizations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/vendor-performance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/assignment-monies",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/claims-progress-payments-and-invoicing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/cost-reimbursable-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/exchange-rate-fluctuation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/final-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/financial-claims",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/fixed-time-rate-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/interest-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/overtime",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/refund-excess-profits",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/administrative-guidance-implementing-contract-modifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/considerations-when-making-amendments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/design-change-or-deviation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/exercise-options",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/procedural-elements-amending-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/revisions-standing-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/approval-authority",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/legal-services",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/public-services-and-procurement-canada-offices-outside-canada",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/source-lists",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/suspension-work-and-stop-work-orders",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-contracts-financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-convenience",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-default",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-mutual-consent",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure": {
+    "block_count": 39,
+    "section_count": 18,
+    "heading_count": 17,
+    "paragraph_count": 18,
+    "list_count": 4,
+    "table_count": 0
+  },
+  "sections": [
+    {
+      "section_id": "7f3ab0a7e863::root",
+      "parent_section_id": null,
+      "level": 0,
+      "heading": "Buyer's Guide Manage a contract - Protecting Canada's interests",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Protecting Canada's interests"
+      ],
+      "block_count": 0,
+      "word_count": 0,
+      "char_count": 0,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": null,
+      "last_block_index": null,
+      "preview": "",
+      "prev_section_id": null,
+      "next_section_id": null
+    },
+    {
+      "section_id": "7f3ab0a7e863::s001",
+      "parent_section_id": "7f3ab0a7e863::root",
+      "level": 1,
+      "heading": "Buyer's Guide Manage a contract - Protecting Canada's interests",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Protecting Canada's interests",
+        "Buyer's Guide Manage a contract - Protecting Canada's interests"
+      ],
+      "block_count": 1,
+      "word_count": 9,
+      "char_count": 63,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 0,
+      "last_block_index": 0,
+      "preview": "Buyer's Guide Manage a contract - Protecting Canada's interests",
+      "prev_section_id": null,
+      "next_section_id": "7f3ab0a7e863::s002"
+    },
+    {
+      "section_id": "7f3ab0a7e863::s002",
+      "parent_section_id": "7f3ab0a7e863::root",
+      "level": 1,
+      "heading": "Buyer's Guide",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Protecting Canada's interests",
+        "Buyer's Guide"
+      ],
+      "block_count": 2,
+      "word_count": 20,
+      "char_count": 111,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 0,
+      "first_block_index": 1,
+      "last_block_index": 2,
+      "preview": "Buyer's Guide Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage",
+      "prev_section_id": "7f3ab0a7e863::s001",
+      "next_section_id": "7f3ab0a7e863::s003"
+    },
+    {
+      "section_id": "7f3ab0a7e863::s003",
+      "parent_section_id": "7f3ab0a7e863::s002",
+      "level": 2,
+      "heading": "Protecting Canada's interests",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Protecting Canada's interests",
+        "Buyer's Guide",
+        "Protecting Canada's interests"
+      ],
+      "block_count": 2,
+      "word_count": 32,
+      "char_count": 253,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 3,
+      "last_block_index": 4,
+      "preview": "Protecting Canada's interests This section provides essential guidelines to help you safeguard Canada's interests when managing contracts. By understanding these measures, you can ensure compliance, mitigate risks and protect Canada's asset",
+      "prev_section_id": "7f3ab0a7e863::s002",
+      "next_section_id": "7f3ab0a7e863::s004"
+    },
+    {
+      "section_id": "7f3ab0a7e863::s004",
+      "parent_section_id": "7f3ab0a7e863::s003",
+      "level": 3,
+      "heading": "Bonding companies",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Protecting Canada's interests",
+        "Buyer's Guide",
+        "Protecting Canada's interests",
+        "Bonding companies"
+      ],
+      "block_count": 2,
+      "word_count": 38,
+      "char_count": 240,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 5,
+      "last_block_index": 6,
+      "preview": "Bonding companies When a bonding company fails to honor its commitments the issue must be escalated to Legal Services for appropriate action and to the Corporate Secretary who is responsible for informing the Treasury Board of the situation",
+      "prev_section_id": "7f3ab0a7e863::s003",
+      "next_section_id": "7f3ab0a7e863::s005"
+    },
+    {
+      "section_id": "7f3ab0a7e863::s005",
+      "parent_section_id": "7f3ab0a7e863::s003",
+      "level": 3,
+      "heading": "Protecting Canada's goods",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Protecting Canada's interests",
+        "Buyer's Guide",
+        "Protecting Canada's interests",
+        "Protecting Canada's goods"
+      ],
+      "block_count": 2,
+      "word_count": 30,
+      "char_count": 220,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 7,
+      "last_block_index": 8,
+      "preview": "Protecting Canada's goods To protect Canada's goods, you must implement measures to address any potential financial delinquency of contractors. This helps safeguard Canada's interests and ensures that goods remain secure.",
+      "prev_section_id": "7f3ab0a7e863::s004",
+      "next_section_id": "7f3ab0a7e863::s006"
+    },
+    {
+      "section_id": "7f3ab0a7e863::s006",
+      "parent_section_id": "7f3ab0a7e863::s005",
+      "level": 4,
+      "heading": "Lien attachments",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Protecting Canada's interests",
+        "Buyer's Guide",
+        "Protecting Canada's interests",
+        "Protecting Canada's goods",
+        "Lien attachments"
+      ],
+      "block_count": 2,
+      "word_count": 68,
+      "char_count": 421,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 9,
+      "last_block_index": 10,
+      "preview": "Lien attachments If a contractor fails to discharge accrued liabilities, liens may be placed on goods owned by Canada. It is essential to safeguard Canada's title to these goods unless the contract is for a service or for goods valued under",
+      "prev_section_id": "7f3ab0a7e863::s005",
+      "next_section_id": "7f3ab0a7e863::s007"
+    },
+    {
+      "section_id": "7f3ab0a7e863::s007",
+      "parent_section_id": "7f3ab0a7e863::s005",
+      "level": 4,
+      "heading": "Security provided under the Bank Act",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Protecting Canada's interests",
+        "Buyer's Guide",
+        "Protecting Canada's interests",
+        "Protecting Canada's goods",
+        "Security provided under the Bank Act"
+      ],
+      "block_count": 2,
+      "word_count": 70,
+      "char_count": 400,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 11,
+      "last_block_index": 12,
+      "preview": "Security provided under the Bank Act Where a contractor has given security under section 427 of the Bank Act , a waiver must be obtained for the bank\u2019s priority over Canada's title to the goods. The buyer must consult with Legal Services. C",
+      "prev_section_id": "7f3ab0a7e863::s006",
+      "next_section_id": "7f3ab0a7e863::s008"
+    },
+    {
+      "section_id": "7f3ab0a7e863::s008",
+      "parent_section_id": "7f3ab0a7e863::s005",
+      "level": 4,
+      "heading": "Bankruptcy or insolvency risks",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Protecting Canada's interests",
+        "Buyer's Guide",
+        "Protecting Canada's interests",
+        "Protecting Canada's goods",
+        "Bankruptcy or insolvency risks"
+      ],
+      "block_count": 2,
+      "word_count": 63,
+      "char_count": 423,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 13,
+      "last_block_index": 14,
+      "preview": "Bankruptcy or insolvency risks In cases of potential insolvency or bankruptcy, a waiver from any bank or financial institution with a prior lien on the contractor's assets must be secured. If this waiver cannot be obtained, Legal Services, ",
+      "prev_section_id": "7f3ab0a7e863::s007",
+      "next_section_id": "7f3ab0a7e863::s009"
+    },
+    {
+      "section_id": "7f3ab0a7e863::s009",
+      "parent_section_id": "7f3ab0a7e863::s005",
+      "level": 4,
+      "heading": "Ensuring contractor compliance through monitoring and verification",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Protecting Canada's interests",
+        "Buyer's Guide",
+        "Protecting Canada's interests",
+        "Protecting Canada's goods",
+        "Ensuring contractor compliance through monitoring and verification"
+      ],
+      "block_count": 4,
+      "word_count": 122,
+      "char_count": 850,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 3,
+      "first_block_index": 15,
+      "last_block_index": 18,
+      "preview": "Ensuring contractor compliance through monitoring and verification Any indications of unpaid invoices or wages or significant payment delays should be promptly investigated. Regular checks must be conducted to ensure the contractor fulfills",
+      "prev_section_id": "7f3ab0a7e863::s008",
+      "next_section_id": "7f3ab0a7e863::s010"
+    },
+    {
+      "section_id": "7f3ab0a7e863::s010",
+      "parent_section_id": "7f3ab0a7e863::s005",
+      "level": 4,
+      "heading": "Discretionary verifications",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Protecting Canada's interests",
+        "Buyer's Guide",
+        "Protecting Canada's interests",
+        "Protecting Canada's goods",
+        "Discretionary verifications"
+      ],
+      "block_count": 2,
+      "word_count": 52,
+      "char_count": 382,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 19,
+      "last_block_index": 20,
+      "preview": "Discretionary verifications When the total risk exposure exceeds $2,000,000, a discretionary verification is typically warranted to assess the adequacy of security deposits like government-guaranteed bonds or irrevocable standby letters of ",
+      "prev_section_id": "7f3ab0a7e863::s009",
+      "next_section_id": "7f3ab0a7e863::s011"
+    },
+    {
+      "section_id": "7f3ab0a7e863::s011",
+      "parent_section_id": "7f3ab0a7e863::s005",
+      "level": 4,
+      "heading": "Response to breaches",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Protecting Canada's interests",
+        "Buyer's Guide",
+        "Protecting Canada's interests",
+        "Protecting Canada's goods",
+        "Response to breaches"
+      ],
+      "block_count": 2,
+      "word_count": 38,
+      "char_count": 269,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 21,
+      "last_block_index": 22,
+      "preview": "Response to breaches Should verifications reveal any breach in the contractor's obligation to ensure prompt payment to its workforce and suppliers, CPAG will advise the relevant sectors, regions and senior financial officers of the client(s",
+      "prev_section_id": "7f3ab0a7e863::s010",
+      "next_section_id": "7f3ab0a7e863::s012"
+    },
+    {
+      "section_id": "7f3ab0a7e863::s012",
+      "parent_section_id": "7f3ab0a7e863::s003",
+      "level": 3,
+      "heading": "Registering notice of interest in goods",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Protecting Canada's interests",
+        "Buyer's Guide",
+        "Protecting Canada's interests",
+        "Registering notice of interest in goods"
+      ],
+      "block_count": 3,
+      "word_count": 60,
+      "char_count": 444,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 2,
+      "first_block_index": 23,
+      "last_block_index": 25,
+      "preview": "Registering notice of interest in goods In provinces excluding Quebec, a notice of Canada's interest in goods can be registered. This process varies across provinces and requires consultation with Legal Services to navigate the differing pr",
+      "prev_section_id": "7f3ab0a7e863::s011",
+      "next_section_id": "7f3ab0a7e863::s013"
+    },
+    {
+      "section_id": "7f3ab0a7e863::s013",
+      "parent_section_id": "7f3ab0a7e863::s003",
+      "level": 3,
+      "heading": "Bankruptcy, receivership or insolvency",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Protecting Canada's interests",
+        "Buyer's Guide",
+        "Protecting Canada's interests",
+        "Bankruptcy, receivership or insolvency"
+      ],
+      "block_count": 2,
+      "word_count": 22,
+      "char_count": 166,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 26,
+      "last_block_index": 27,
+      "preview": "Bankruptcy, receivership or insolvency Follow the guidelines below to protect Canada's interests in the event of a contractor's bankruptcy, receivership or insolvency.",
+      "prev_section_id": "7f3ab0a7e863::s012",
+      "next_section_id": "7f3ab0a7e863::s014"
+    },
+    {
+      "section_id": "7f3ab0a7e863::s014",
+      "parent_section_id": "7f3ab0a7e863::s013",
+      "level": 4,
+      "heading": "Consultation with Legal Services",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Protecting Canada's interests",
+        "Buyer's Guide",
+        "Protecting Canada's interests",
+        "Bankruptcy, receivership or insolvency",
+        "Consultation with Legal Services"
+      ],
+      "block_count": 3,
+      "word_count": 54,
+      "char_count": 361,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 28,
+      "last_block_index": 30,
+      "preview": "Consultation with Legal Services The buyer must consult Legal Services under the following circumstances: a contractor proposes a settlement while facing impending or actual bankruptcy, receivership, or insolvency ; the contract involves su",
+      "prev_section_id": "7f3ab0a7e863::s013",
+      "next_section_id": "7f3ab0a7e863::s015"
+    },
+    {
+      "section_id": "7f3ab0a7e863::s015",
+      "parent_section_id": "7f3ab0a7e863::s013",
+      "level": 4,
+      "heading": "Initial actions upon notification",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Protecting Canada's interests",
+        "Buyer's Guide",
+        "Protecting Canada's interests",
+        "Bankruptcy, receivership or insolvency",
+        "Initial actions upon notification"
+      ],
+      "block_count": 3,
+      "word_count": 51,
+      "char_count": 348,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 31,
+      "last_block_index": 33,
+      "preview": "Initial actions upon notification When notified of a contractor\u2019s bankruptcy, receivership, or insolvency, or when any signs indicate such conditions, you must: notify the relevant director immediately ; collaborate with the client to devel",
+      "prev_section_id": "7f3ab0a7e863::s014",
+      "next_section_id": "7f3ab0a7e863::s016"
+    },
+    {
+      "section_id": "7f3ab0a7e863::s016",
+      "parent_section_id": "7f3ab0a7e863::s013",
+      "level": 4,
+      "heading": "Pursuing Canada's rights in the event of contractor\u2019s bankruptcy",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Protecting Canada's interests",
+        "Buyer's Guide",
+        "Protecting Canada's interests",
+        "Bankruptcy, receivership or insolvency",
+        "Pursuing Canada's rights in the event of contractor\u2019s bankruptcy"
+      ],
+      "block_count": 3,
+      "word_count": 74,
+      "char_count": 465,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 34,
+      "last_block_index": 36,
+      "preview": "Pursuing Canada's rights in the event of contractor\u2019s bankruptcy In cases of formal bankruptcy, you must consult with Legal Services and take actions to: realize any contractual securities ; establish proof of Canada's title to any properti",
+      "prev_section_id": "7f3ab0a7e863::s015",
+      "next_section_id": "7f3ab0a7e863::s017"
+    },
+    {
+      "section_id": "7f3ab0a7e863::s017",
+      "parent_section_id": "7f3ab0a7e863::s013",
+      "level": 4,
+      "heading": "Handling of funds post-bankruptcy or receivership",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Protecting Canada's interests",
+        "Buyer's Guide",
+        "Protecting Canada's interests",
+        "Bankruptcy, receivership or insolvency",
+        "Handling of funds post-bankruptcy or receivership"
+      ],
+      "block_count": 2,
+      "word_count": 31,
+      "char_count": 220,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 37,
+      "last_block_index": 38,
+      "preview": "Handling of funds post-bankruptcy or receivership Following a declaration of bankruptcy or receivership, any payments owed to the contractor must be directed to the appointed trustee in bankruptcy or the receiver-manager.",
+      "prev_section_id": "7f3ab0a7e863::s016",
+      "next_section_id": null
+    }
+  ],
+  "tables": [],
+  "blocks": [
+    {
+      "block_id": "7f3ab0a7e863::b0001",
+      "section_id": "7f3ab0a7e863::s001",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Protecting Canada's interests",
+        "Buyer's Guide Manage a contract - Protecting Canada's interests"
+      ],
+      "markdown": "# Buyer's Guide Manage a contract - Protecting Canada's interests",
+      "plain_text": "Buyer's Guide Manage a contract - Protecting Canada's interests"
+    },
+    {
+      "block_id": "7f3ab0a7e863::b0002",
+      "section_id": "7f3ab0a7e863::s002",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Protecting Canada's interests",
+        "Buyer's Guide"
+      ],
+      "markdown": "# Buyer's Guide",
+      "plain_text": "Buyer's Guide"
+    },
+    {
+      "block_id": "7f3ab0a7e863::b0003",
+      "section_id": "7f3ab0a7e863::s002",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Protecting Canada's interests",
+        "Buyer's Guide"
+      ],
+      "markdown": "- Plan\n- Approve\n- Create solicitation\n- Solicit\n- Receive and evaluate\n- Negotiate\n- Award\n- Manage",
+      "plain_text": "Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage"
+    },
+    {
+      "block_id": "7f3ab0a7e863::b0004",
+      "section_id": "7f3ab0a7e863::s003",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Protecting Canada's interests",
+        "Buyer's Guide",
+        "Protecting Canada's interests"
+      ],
+      "markdown": "## Protecting Canada's interests",
+      "plain_text": "Protecting Canada's interests"
+    },
+    {
+      "block_id": "7f3ab0a7e863::b0005",
+      "section_id": "7f3ab0a7e863::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Protecting Canada's interests",
+        "Buyer's Guide",
+        "Protecting Canada's interests"
+      ],
+      "markdown": "This section provides essential guidelines to help you safeguard Canada's interests when managing contracts. By understanding these measures, you can ensure compliance, mitigate risks and protect Canada's assets effectively.",
+      "plain_text": "This section provides essential guidelines to help you safeguard Canada's interests when managing contracts. By understanding these measures, you can ensure compliance, mitigate risks and protect Canada's assets effectively."
+    },
+    {
+      "block_id": "7f3ab0a7e863::b0006",
+      "section_id": "7f3ab0a7e863::s004",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Protecting Canada's interests",
+        "Buyer's Guide",
+        "Protecting Canada's interests",
+        "Bonding companies"
+      ],
+      "markdown": "### Bonding companies",
+      "plain_text": "Bonding companies"
+    },
+    {
+      "block_id": "7f3ab0a7e863::b0007",
+      "section_id": "7f3ab0a7e863::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Protecting Canada's interests",
+        "Buyer's Guide",
+        "Protecting Canada's interests",
+        "Bonding companies"
+      ],
+      "markdown": "When a bonding company fails to honor its commitments the issue must be escalated to Legal Services for appropriate action and to the Corporate Secretary who is responsible for informing the Treasury Board of the situation.",
+      "plain_text": "When a bonding company fails to honor its commitments the issue must be escalated to Legal Services for appropriate action and to the Corporate Secretary who is responsible for informing the Treasury Board of the situation."
+    },
+    {
+      "block_id": "7f3ab0a7e863::b0008",
+      "section_id": "7f3ab0a7e863::s005",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Protecting Canada's interests",
+        "Buyer's Guide",
+        "Protecting Canada's interests",
+        "Protecting Canada's goods"
+      ],
+      "markdown": "### Protecting Canada's goods",
+      "plain_text": "Protecting Canada's goods"
+    },
+    {
+      "block_id": "7f3ab0a7e863::b0009",
+      "section_id": "7f3ab0a7e863::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Protecting Canada's interests",
+        "Buyer's Guide",
+        "Protecting Canada's interests",
+        "Protecting Canada's goods"
+      ],
+      "markdown": "To protect Canada's goods, you must implement measures to address any potential financial delinquency of contractors. This helps safeguard Canada's interests and ensures that goods remain secure.",
+      "plain_text": "To protect Canada's goods, you must implement measures to address any potential financial delinquency of contractors. This helps safeguard Canada's interests and ensures that goods remain secure."
+    },
+    {
+      "block_id": "7f3ab0a7e863::b0010",
+      "section_id": "7f3ab0a7e863::s006",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Protecting Canada's interests",
+        "Buyer's Guide",
+        "Protecting Canada's interests",
+        "Protecting Canada's goods",
+        "Lien attachments"
+      ],
+      "markdown": "#### Lien attachments",
+      "plain_text": "Lien attachments"
+    },
+    {
+      "block_id": "7f3ab0a7e863::b0011",
+      "section_id": "7f3ab0a7e863::s006",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Protecting Canada's interests",
+        "Buyer's Guide",
+        "Protecting Canada's interests",
+        "Protecting Canada's goods",
+        "Lien attachments"
+      ],
+      "markdown": "If a contractor fails to discharge accrued liabilities, liens may be placed on goods owned by Canada. It is essential to safeguard Canada's title to these goods unless the contract is for a service or for goods valued under $25,000. To preclude the attachment of liens, the buyer should check that the contractor has met payment obligations under the contract to its workmen, subcontractors and suppliers.",
+      "plain_text": "If a contractor fails to discharge accrued liabilities, liens may be placed on goods owned by Canada. It is essential to safeguard Canada's title to these goods unless the contract is for a service or for goods valued under $25,000. To preclude the attachment of liens, the buyer should check that the contractor has met payment obligations under the contract to its workmen, subcontractors and suppliers."
+    },
+    {
+      "block_id": "7f3ab0a7e863::b0012",
+      "section_id": "7f3ab0a7e863::s007",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Protecting Canada's interests",
+        "Buyer's Guide",
+        "Protecting Canada's interests",
+        "Protecting Canada's goods",
+        "Security provided under the Bank Act"
+      ],
+      "markdown": "#### Security provided under the Bank Act",
+      "plain_text": "Security provided under the Bank Act"
+    },
+    {
+      "block_id": "7f3ab0a7e863::b0013",
+      "section_id": "7f3ab0a7e863::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Protecting Canada's interests",
+        "Buyer's Guide",
+        "Protecting Canada's interests",
+        "Protecting Canada's goods",
+        "Security provided under the Bank Act"
+      ],
+      "markdown": "Where a contractor has given security under section 427 of the Bank Act , a waiver must be obtained for the bank\u2019s priority over Canada's title to the goods. The buyer must consult with Legal Services. Canada's title could be affected if the contractor changes banks and a new waiver is not obtained, or if the contractor fails to disclose that security was given.",
+      "plain_text": "Where a contractor has given security under section 427 of the Bank Act , a waiver must be obtained for the bank\u2019s priority over Canada's title to the goods. The buyer must consult with Legal Services. Canada's title could be affected if the contractor changes banks and a new waiver is not obtained, or if the contractor fails to disclose that security was given."
+    },
+    {
+      "block_id": "7f3ab0a7e863::b0014",
+      "section_id": "7f3ab0a7e863::s008",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Protecting Canada's interests",
+        "Buyer's Guide",
+        "Protecting Canada's interests",
+        "Protecting Canada's goods",
+        "Bankruptcy or insolvency risks"
+      ],
+      "markdown": "#### Bankruptcy or insolvency risks",
+      "plain_text": "Bankruptcy or insolvency risks"
+    },
+    {
+      "block_id": "7f3ab0a7e863::b0015",
+      "section_id": "7f3ab0a7e863::s008",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Protecting Canada's interests",
+        "Buyer's Guide",
+        "Protecting Canada's interests",
+        "Protecting Canada's goods",
+        "Bankruptcy or insolvency risks"
+      ],
+      "markdown": "In cases of potential insolvency or bankruptcy, a waiver from any bank or financial institution with a prior lien on the contractor's assets must be secured. If this waiver cannot be obtained, Legal Services, the cost analyst, and the Cost and Profit Assurance Group (CPAG) should assess whether the contractor's financial status justifies releasing them from specific contractual obligations.",
+      "plain_text": "In cases of potential insolvency or bankruptcy, a waiver from any bank or financial institution with a prior lien on the contractor's assets must be secured. If this waiver cannot be obtained, Legal Services, the cost analyst, and the Cost and Profit Assurance Group (CPAG) should assess whether the contractor's financial status justifies releasing them from specific contractual obligations."
+    },
+    {
+      "block_id": "7f3ab0a7e863::b0016",
+      "section_id": "7f3ab0a7e863::s009",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Protecting Canada's interests",
+        "Buyer's Guide",
+        "Protecting Canada's interests",
+        "Protecting Canada's goods",
+        "Ensuring contractor compliance through monitoring and verification"
+      ],
+      "markdown": "#### Ensuring contractor compliance through monitoring and verification",
+      "plain_text": "Ensuring contractor compliance through monitoring and verification"
+    },
+    {
+      "block_id": "7f3ab0a7e863::b0017",
+      "section_id": "7f3ab0a7e863::s009",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Protecting Canada's interests",
+        "Buyer's Guide",
+        "Protecting Canada's interests",
+        "Protecting Canada's goods",
+        "Ensuring contractor compliance through monitoring and verification"
+      ],
+      "markdown": "Any indications of unpaid invoices or wages or significant payment delays should be promptly investigated. Regular checks must be conducted to ensure the contractor fulfills payment obligations to employees, subcontractors and suppliers.",
+      "plain_text": "Any indications of unpaid invoices or wages or significant payment delays should be promptly investigated. Regular checks must be conducted to ensure the contractor fulfills payment obligations to employees, subcontractors and suppliers."
+    },
+    {
+      "block_id": "7f3ab0a7e863::b0018",
+      "section_id": "7f3ab0a7e863::s009",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Protecting Canada's interests",
+        "Buyer's Guide",
+        "Protecting Canada's interests",
+        "Protecting Canada's goods",
+        "Ensuring contractor compliance through monitoring and verification"
+      ],
+      "markdown": "The frequency, scope and extent of these checks should be determined based on the contractor\u2019s payment record, credit rating and financial strength. Undertaking a cost analysis to evaluate the financial health of the contractor may be appropriate.",
+      "plain_text": "The frequency, scope and extent of these checks should be determined based on the contractor\u2019s payment record, credit rating and financial strength. Undertaking a cost analysis to evaluate the financial health of the contractor may be appropriate."
+    },
+    {
+      "block_id": "7f3ab0a7e863::b0019",
+      "section_id": "7f3ab0a7e863::s009",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Protecting Canada's interests",
+        "Buyer's Guide",
+        "Protecting Canada's interests",
+        "Protecting Canada's goods",
+        "Ensuring contractor compliance through monitoring and verification"
+      ],
+      "markdown": "If financial analysis reveals serious issues, a detailed report of all open contracts with the contractor should be submitted to CPAG . The directorate will then decide if further verification is necessary by considering the total risk exposure and any financial security provisions or actions taken.",
+      "plain_text": "If financial analysis reveals serious issues, a detailed report of all open contracts with the contractor should be submitted to CPAG . The directorate will then decide if further verification is necessary by considering the total risk exposure and any financial security provisions or actions taken."
+    },
+    {
+      "block_id": "7f3ab0a7e863::b0020",
+      "section_id": "7f3ab0a7e863::s010",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Protecting Canada's interests",
+        "Buyer's Guide",
+        "Protecting Canada's interests",
+        "Protecting Canada's goods",
+        "Discretionary verifications"
+      ],
+      "markdown": "#### Discretionary verifications",
+      "plain_text": "Discretionary verifications"
+    },
+    {
+      "block_id": "7f3ab0a7e863::b0021",
+      "section_id": "7f3ab0a7e863::s010",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Protecting Canada's interests",
+        "Buyer's Guide",
+        "Protecting Canada's interests",
+        "Protecting Canada's goods",
+        "Discretionary verifications"
+      ],
+      "markdown": "When the total risk exposure exceeds $2,000,000, a discretionary verification is typically warranted to assess the adequacy of security deposits like government-guaranteed bonds or irrevocable standby letters of credit. For risks under $2,000,000, the necessity of verification will be evaluated by CPAG in consultation with the relevant sector or region.",
+      "plain_text": "When the total risk exposure exceeds $2,000,000, a discretionary verification is typically warranted to assess the adequacy of security deposits like government-guaranteed bonds or irrevocable standby letters of credit. For risks under $2,000,000, the necessity of verification will be evaluated by CPAG in consultation with the relevant sector or region."
+    },
+    {
+      "block_id": "7f3ab0a7e863::b0022",
+      "section_id": "7f3ab0a7e863::s011",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Protecting Canada's interests",
+        "Buyer's Guide",
+        "Protecting Canada's interests",
+        "Protecting Canada's goods",
+        "Response to breaches"
+      ],
+      "markdown": "#### Response to breaches",
+      "plain_text": "Response to breaches"
+    },
+    {
+      "block_id": "7f3ab0a7e863::b0023",
+      "section_id": "7f3ab0a7e863::s011",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Protecting Canada's interests",
+        "Buyer's Guide",
+        "Protecting Canada's interests",
+        "Protecting Canada's goods",
+        "Response to breaches"
+      ],
+      "markdown": "Should verifications reveal any breach in the contractor's obligation to ensure prompt payment to its workforce and suppliers, CPAG will advise the relevant sectors, regions and senior financial officers of the client(s) holding defaulted contracts.",
+      "plain_text": "Should verifications reveal any breach in the contractor's obligation to ensure prompt payment to its workforce and suppliers, CPAG will advise the relevant sectors, regions and senior financial officers of the client(s) holding defaulted contracts."
+    },
+    {
+      "block_id": "7f3ab0a7e863::b0024",
+      "section_id": "7f3ab0a7e863::s012",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Protecting Canada's interests",
+        "Buyer's Guide",
+        "Protecting Canada's interests",
+        "Registering notice of interest in goods"
+      ],
+      "markdown": "### Registering notice of interest in goods",
+      "plain_text": "Registering notice of interest in goods"
+    },
+    {
+      "block_id": "7f3ab0a7e863::b0025",
+      "section_id": "7f3ab0a7e863::s012",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Protecting Canada's interests",
+        "Buyer's Guide",
+        "Protecting Canada's interests",
+        "Registering notice of interest in goods"
+      ],
+      "markdown": "In provinces excluding Quebec, a notice of Canada's interest in goods can be registered. This process varies across provinces and requires consultation with Legal Services to navigate the differing provincial requirements effectively.",
+      "plain_text": "In provinces excluding Quebec, a notice of Canada's interest in goods can be registered. This process varies across provinces and requires consultation with Legal Services to navigate the differing provincial requirements effectively."
+    },
+    {
+      "block_id": "7f3ab0a7e863::b0026",
+      "section_id": "7f3ab0a7e863::s012",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Protecting Canada's interests",
+        "Buyer's Guide",
+        "Protecting Canada's interests",
+        "Registering notice of interest in goods"
+      ],
+      "markdown": "Due to the complexities involved, registering Canada's interest is generally reserved for high-value contracts where the potential risks justify the administrative effort.",
+      "plain_text": "Due to the complexities involved, registering Canada's interest is generally reserved for high-value contracts where the potential risks justify the administrative effort."
+    },
+    {
+      "block_id": "7f3ab0a7e863::b0027",
+      "section_id": "7f3ab0a7e863::s013",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Protecting Canada's interests",
+        "Buyer's Guide",
+        "Protecting Canada's interests",
+        "Bankruptcy, receivership or insolvency"
+      ],
+      "markdown": "### Bankruptcy, receivership or insolvency",
+      "plain_text": "Bankruptcy, receivership or insolvency"
+    },
+    {
+      "block_id": "7f3ab0a7e863::b0028",
+      "section_id": "7f3ab0a7e863::s013",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Protecting Canada's interests",
+        "Buyer's Guide",
+        "Protecting Canada's interests",
+        "Bankruptcy, receivership or insolvency"
+      ],
+      "markdown": "Follow the guidelines below to protect Canada's interests in the event of a contractor's bankruptcy, receivership or insolvency.",
+      "plain_text": "Follow the guidelines below to protect Canada's interests in the event of a contractor's bankruptcy, receivership or insolvency."
+    },
+    {
+      "block_id": "7f3ab0a7e863::b0029",
+      "section_id": "7f3ab0a7e863::s014",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Protecting Canada's interests",
+        "Buyer's Guide",
+        "Protecting Canada's interests",
+        "Bankruptcy, receivership or insolvency",
+        "Consultation with Legal Services"
+      ],
+      "markdown": "#### Consultation with Legal Services",
+      "plain_text": "Consultation with Legal Services"
+    },
+    {
+      "block_id": "7f3ab0a7e863::b0030",
+      "section_id": "7f3ab0a7e863::s014",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Protecting Canada's interests",
+        "Buyer's Guide",
+        "Protecting Canada's interests",
+        "Bankruptcy, receivership or insolvency",
+        "Consultation with Legal Services"
+      ],
+      "markdown": "The buyer must consult Legal Services under the following circumstances:",
+      "plain_text": "The buyer must consult Legal Services under the following circumstances:"
+    },
+    {
+      "block_id": "7f3ab0a7e863::b0031",
+      "section_id": "7f3ab0a7e863::s014",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Protecting Canada's interests",
+        "Buyer's Guide",
+        "Protecting Canada's interests",
+        "Bankruptcy, receivership or insolvency",
+        "Consultation with Legal Services"
+      ],
+      "markdown": "- a contractor proposes a settlement while facing impending or actual bankruptcy, receivership, or insolvency\n- the contract involves surety bond guarantees or other securities\n- the contractor has provided security to a bank under section 427 of the Bank Act",
+      "plain_text": "a contractor proposes a settlement while facing impending or actual bankruptcy, receivership, or insolvency ; the contract involves surety bond guarantees or other securities ; the contractor has provided security to a bank under section 427 of the Bank Act"
+    },
+    {
+      "block_id": "7f3ab0a7e863::b0032",
+      "section_id": "7f3ab0a7e863::s015",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Protecting Canada's interests",
+        "Buyer's Guide",
+        "Protecting Canada's interests",
+        "Bankruptcy, receivership or insolvency",
+        "Initial actions upon notification"
+      ],
+      "markdown": "#### Initial actions upon notification",
+      "plain_text": "Initial actions upon notification"
+    },
+    {
+      "block_id": "7f3ab0a7e863::b0033",
+      "section_id": "7f3ab0a7e863::s015",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Protecting Canada's interests",
+        "Buyer's Guide",
+        "Protecting Canada's interests",
+        "Bankruptcy, receivership or insolvency",
+        "Initial actions upon notification"
+      ],
+      "markdown": "When notified of a contractor\u2019s bankruptcy, receivership, or insolvency, or when any signs indicate such conditions, you must:",
+      "plain_text": "When notified of a contractor\u2019s bankruptcy, receivership, or insolvency, or when any signs indicate such conditions, you must:"
+    },
+    {
+      "block_id": "7f3ab0a7e863::b0034",
+      "section_id": "7f3ab0a7e863::s015",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Protecting Canada's interests",
+        "Buyer's Guide",
+        "Protecting Canada's interests",
+        "Bankruptcy, receivership or insolvency",
+        "Initial actions upon notification"
+      ],
+      "markdown": "- notify the relevant director immediately\n- collaborate with the client to develop a strategy for completing the contract\u2019s outstanding work\n- inform CPAG and Legal Services of the situation",
+      "plain_text": "notify the relevant director immediately ; collaborate with the client to develop a strategy for completing the contract\u2019s outstanding work ; inform CPAG and Legal Services of the situation"
+    },
+    {
+      "block_id": "7f3ab0a7e863::b0035",
+      "section_id": "7f3ab0a7e863::s016",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Protecting Canada's interests",
+        "Buyer's Guide",
+        "Protecting Canada's interests",
+        "Bankruptcy, receivership or insolvency",
+        "Pursuing Canada's rights in the event of contractor\u2019s bankruptcy"
+      ],
+      "markdown": "#### Pursuing Canada's rights in the event of contractor\u2019s bankruptcy",
+      "plain_text": "Pursuing Canada's rights in the event of contractor\u2019s bankruptcy"
+    },
+    {
+      "block_id": "7f3ab0a7e863::b0036",
+      "section_id": "7f3ab0a7e863::s016",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Protecting Canada's interests",
+        "Buyer's Guide",
+        "Protecting Canada's interests",
+        "Bankruptcy, receivership or insolvency",
+        "Pursuing Canada's rights in the event of contractor\u2019s bankruptcy"
+      ],
+      "markdown": "In cases of formal bankruptcy, you must consult with Legal Services and take actions to:",
+      "plain_text": "In cases of formal bankruptcy, you must consult with Legal Services and take actions to:"
+    },
+    {
+      "block_id": "7f3ab0a7e863::b0037",
+      "section_id": "7f3ab0a7e863::s016",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Protecting Canada's interests",
+        "Buyer's Guide",
+        "Protecting Canada's interests",
+        "Bankruptcy, receivership or insolvency",
+        "Pursuing Canada's rights in the event of contractor\u2019s bankruptcy"
+      ],
+      "markdown": "- realize any contractual securities\n- establish proof of Canada's title to any properties in possession of the contractor\n- ensure that if Canada is an unsecured creditor, payments to Canada are prioritized over other unsecured creditors\n- offset any payments due to the contractor against any debts owed to Canada",
+      "plain_text": "realize any contractual securities ; establish proof of Canada's title to any properties in possession of the contractor ; ensure that if Canada is an unsecured creditor, payments to Canada are prioritized over other unsecured creditors ; offset any payments due to the contractor against any debts owed to Canada"
+    },
+    {
+      "block_id": "7f3ab0a7e863::b0038",
+      "section_id": "7f3ab0a7e863::s017",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Protecting Canada's interests",
+        "Buyer's Guide",
+        "Protecting Canada's interests",
+        "Bankruptcy, receivership or insolvency",
+        "Handling of funds post-bankruptcy or receivership"
+      ],
+      "markdown": "#### Handling of funds post-bankruptcy or receivership",
+      "plain_text": "Handling of funds post-bankruptcy or receivership"
+    },
+    {
+      "block_id": "7f3ab0a7e863::b0039",
+      "section_id": "7f3ab0a7e863::s017",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Protecting Canada's interests",
+        "Buyer's Guide",
+        "Protecting Canada's interests",
+        "Bankruptcy, receivership or insolvency",
+        "Handling of funds post-bankruptcy or receivership"
+      ],
+      "markdown": "Following a declaration of bankruptcy or receivership, any payments owed to the contractor must be directed to the appointed trustee in bankruptcy or the receiver-manager.",
+      "plain_text": "Following a declaration of bankruptcy or receivership, any payments owed to the contractor must be directed to the appointed trustee in bankruptcy or the receiver-manager."
+    }
+  ]
+}

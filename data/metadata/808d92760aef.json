@@ -1,0 +1,546 @@
+{
+  "doc_id": "808d92760aef",
+  "title": "Buyer's Guide Other planning considerations - Intellectual property and copyright",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/intellectual-property-and-copyright",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/intellectual-property-and-copyright",
+  "doc_type": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": "2026-01-31",
+  "fetched_at": "2026-02-19T09:17:08.967827+00:00",
+  "content_hash": "cfc7b96c430628e851589ec0f96ff37573d609bad4f7a3be00440d07a48095b3",
+  "word_count": 1075,
+  "text_path": "data/corpus/buyers_guide__en-buyer-s-portal-buyer-s-guide-plan-other-planning-considerations-intellectual-property-and-copyright__808d92760a.md",
+  "extraction_method": "buyers_guide_regions",
+  "breadcrumbs": [
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "https://canadabuys.canada.ca/en",
+      "canonical_url": "https://canadabuys.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "in_scope": true
+    },
+    {
+      "title": "Other planning considerations",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations",
+      "in_scope": true
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations",
+    "parent_doc_id": "256b3c51a8fa",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/intellectual-property-and-copyright"
+    ],
+    "lineage_doc_ids": [
+      "1e29c7881335",
+      "256b3c51a8fa",
+      "808d92760aef"
+    ],
+    "depth": 2,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-accounting-and-pricing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-reimbursable",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/firm-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-time/unit-rate",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/overview-key-pricing-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/price-and-currency-adjustments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/pricing-methods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/provisional-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/types-basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/application-registration",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/completing-security-requirements-check-list",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/controlled-goods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/foreign-ownership-control-or-influence",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/privacy-and-confidentiality",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-international-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-timelines",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/importance-clear-procurement-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/requisition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/review-statement-work",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/socioeconomic-requirements-definition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/standards-and-quality-assurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/choose-method-supply",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/determine-sourcing-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/developing-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/interim-policy-reciprocal-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/trade-agreement-applicability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/early-engagement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-businesses",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-clients",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-subject-matter-experts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/invoicing-instructions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/payment-instruments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/taxes-and-duties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/withholding-non-resident-contractors",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/communicating-method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/developing-selection-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/including-basis-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/specifying-evaluation-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/canadian-general-standards-board",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/compliance-canadian-electrical-code",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/contractor-liability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/emergency-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/employer/employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/fairness-monitoring",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/insurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/liability-and-risk-management",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/managing-urgent-acquisitions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/official-languages-obligation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/warranties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/holdbacks",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/incentives",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/accessibility",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/anti-forced-labour-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/green-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/indigenous-considerations"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-accounting-and-pricing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-reimbursable",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/firm-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-time/unit-rate",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/overview-key-pricing-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/price-and-currency-adjustments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/pricing-methods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/provisional-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/types-basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/application-registration",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/completing-security-requirements-check-list",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/controlled-goods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/foreign-ownership-control-or-influence",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/privacy-and-confidentiality",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-international-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-timelines",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/importance-clear-procurement-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/requisition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/review-statement-work",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/socioeconomic-requirements-definition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/standards-and-quality-assurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/choose-method-supply",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/determine-sourcing-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/developing-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/interim-policy-reciprocal-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/trade-agreement-applicability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/early-engagement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-businesses",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-clients",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-subject-matter-experts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/invoicing-instructions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/payment-instruments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/taxes-and-duties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/withholding-non-resident-contractors",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/communicating-method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/developing-selection-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/including-basis-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/specifying-evaluation-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/canadian-general-standards-board",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/compliance-canadian-electrical-code",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/contractor-liability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/emergency-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/employer/employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/fairness-monitoring",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/insurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/liability-and-risk-management",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/managing-urgent-acquisitions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/official-languages-obligation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/warranties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/holdbacks",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/incentives",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/accessibility",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/anti-forced-labour-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/green-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/indigenous-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure": {
+    "block_count": 16,
+    "section_count": 4,
+    "heading_count": 3,
+    "paragraph_count": 10,
+    "list_count": 2,
+    "table_count": 1
+  },
+  "sections": [
+    {
+      "section_id": "808d92760aef::root",
+      "parent_section_id": null,
+      "level": 0,
+      "heading": "Buyer's Guide Other planning considerations - Intellectual property and copyright",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Intellectual property and copyright"
+      ],
+      "block_count": 0,
+      "word_count": 0,
+      "char_count": 0,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": null,
+      "last_block_index": null,
+      "preview": "",
+      "prev_section_id": null,
+      "next_section_id": null
+    },
+    {
+      "section_id": "808d92760aef::s001",
+      "parent_section_id": "808d92760aef::root",
+      "level": 1,
+      "heading": "Buyer's Guide Other planning considerations - Intellectual property and copyright",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Intellectual property and copyright",
+        "Buyer's Guide Other planning considerations - Intellectual property and copyright"
+      ],
+      "block_count": 1,
+      "word_count": 10,
+      "char_count": 81,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 0,
+      "last_block_index": 0,
+      "preview": "Buyer's Guide Other planning considerations - Intellectual property and copyright",
+      "prev_section_id": null,
+      "next_section_id": "808d92760aef::s002"
+    },
+    {
+      "section_id": "808d92760aef::s002",
+      "parent_section_id": "808d92760aef::root",
+      "level": 1,
+      "heading": "Buyer's Guide",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Intellectual property and copyright",
+        "Buyer's Guide"
+      ],
+      "block_count": 3,
+      "word_count": 525,
+      "char_count": 3211,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 1,
+      "last_block_index": 3,
+      "preview": "Buyer's Guide Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage Intellectual property and copyright Before issuing a solicitation or awarding a contract, you must identify any intellectual pr",
+      "prev_section_id": "808d92760aef::s001",
+      "next_section_id": "808d92760aef::s003"
+    },
+    {
+      "section_id": "808d92760aef::s003",
+      "parent_section_id": "808d92760aef::s002",
+      "level": 2,
+      "heading": "Intellectual property and copyright",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Intellectual property and copyright",
+        "Buyer's Guide",
+        "Intellectual property and copyright"
+      ],
+      "block_count": 12,
+      "word_count": 540,
+      "char_count": 3184,
+      "table_count": 1,
+      "list_count": 1,
+      "paragraph_count": 9,
+      "first_block_index": 4,
+      "last_block_index": 15,
+      "preview": "Intellectual property and copyright Before issuing a solicitation or awarding a contract, you must identify any intellectual property (IP) that exists before contract award and any IP that will be generated as a result of the contract. This",
+      "prev_section_id": "808d92760aef::s002",
+      "next_section_id": null
+    }
+  ],
+  "tables": [
+    {
+      "table_id": "808d92760aef::t001",
+      "section_id": "808d92760aef::s003",
+      "row_count": 4,
+      "column_count": 5,
+      "headers": [
+        "Column 1",
+        "Column 2",
+        "Column 3",
+        "Column 4",
+        "Column 5"
+      ],
+      "sample_rows": [
+        [
+          "IP options",
+          "R&D",
+          "Goods with associated R&D",
+          "Goods with no R&D expected",
+          "Services with no R&D expected"
+        ],
+        [
+          "Default",
+          "Contractor to own IP",
+          "Contractor to own IP",
+          "Canada to own copyright",
+          "Canada to own copyright"
+        ],
+        [
+          "Option",
+          "Canada to own IP",
+          "Canada to own IP",
+          "Contractor to own IP , including copyright",
+          "Contractor to own IP , including copyright"
+        ],
+        [
+          "Client says no IP",
+          "Not applicable",
+          "Not applicable",
+          "No IP terms in the contract",
+          "No IP terms in the contract"
+        ]
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "block_id": "808d92760aef::b0001",
+      "section_id": "808d92760aef::s001",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Intellectual property and copyright",
+        "Buyer's Guide Other planning considerations - Intellectual property and copyright"
+      ],
+      "markdown": "# Buyer's Guide Other planning considerations - Intellectual property and copyright",
+      "plain_text": "Buyer's Guide Other planning considerations - Intellectual property and copyright"
+    },
+    {
+      "block_id": "808d92760aef::b0002",
+      "section_id": "808d92760aef::s002",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Intellectual property and copyright",
+        "Buyer's Guide"
+      ],
+      "markdown": "# Buyer's Guide",
+      "plain_text": "Buyer's Guide"
+    },
+    {
+      "block_id": "808d92760aef::b0003",
+      "section_id": "808d92760aef::s002",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Intellectual property and copyright",
+        "Buyer's Guide"
+      ],
+      "markdown": "- Plan\n- Approve\n- Create solicitation\n- Solicit\n- Receive and evaluate\n- Negotiate\n- Award\n- Manage",
+      "plain_text": "Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage"
+    },
+    {
+      "block_id": "808d92760aef::b0004",
+      "section_id": "808d92760aef::s002",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Intellectual property and copyright",
+        "Buyer's Guide"
+      ],
+      "markdown": "Intellectual property and copyright Before issuing a solicitation or awarding a contract, you must identify any intellectual property (IP) that exists before contract award and any IP that will be generated as a result of the contract. This will help reduce future costs and avoid disputes. IP is anything resulting from a contract that can be copyrighted, trademarked, patented, licensed, etc. Although any contract could have IP , the likelihood is much greater if the contract will aim for something new or might incorporate new processes. IP considerations are most relevant to contracts for research and development (R&D), for software development or where new written material will be produced. Refer to the following policy and guide for the complete details on IP in procurement: Policy on Title to Intellectual Property Arising Under Crown Procurement Contract Implementation Guide: Policy on the Title to Intellectual Property Arising Under Crown Procurement Contracts Canada\u2019s default position is to allow contractors to retain the rights to IP generated under government contracts, to promote the commercialization of new ideas given the private sector\u2019s greater capacity for commercialization. Allowable exceptions to the default position are described in the policy and guide referenced above. At the planning stage, you must determine what IP is anticipated, how IP will be handled and how it will be identified and secured for the use of the client and Canada. This process can have very long timeframes and extremely complex processes. Identifying the foreground and background information early is crucial, as delays can disadvantage Canada severely. The client must decide the extent to which IP rights are to be retained by Canada. You should discuss with the client their needs to ensure they are aware of the extent to which you can obtain the rights they need to use the IP created under the contract, whether Canada or the contractor owns the IP . Depending on industry practice, Canada may not be able to obtain IP ownership even if desired. In such cases, PSPC contract clauses allow clients to use contractor-owned IP , although Canada could not commercialize the IP . The client should be requested to fully justify any request to retain ownership of IP , except for the case of non-software copyright, where for PSPC buyers the norm is for Canada to retain ownership. Ensure that the solicitation document is clear on the ownership of any IP rights. The table below summarizes PSPC \u2019s contractual options for IP ownership. Contractual options for IP ownership IP options R&D Goods with associated R&D Goods with no R&D expected Services with no R&D expected Default Contractor to own IP Contractor to own IP Canada to own copyright Canada to own copyright Option Canada to own IP Canada to own IP Contractor to own IP , including copyright Contractor to own IP , including copyright Client says no IP Not applicable Not applicable No IP terms in the contract No IP terms in the contract For additional guidance, PSPC buyers may contact their subject matter expert on IP .",
+      "plain_text": "Intellectual property and copyright Before issuing a solicitation or awarding a contract, you must identify any intellectual property (IP) that exists before contract award and any IP that will be generated as a result of the contract. This will help reduce future costs and avoid disputes. IP is anything resulting from a contract that can be copyrighted, trademarked, patented, licensed, etc. Although any contract could have IP , the likelihood is much greater if the contract will aim for something new or might incorporate new processes. IP considerations are most relevant to contracts for research and development (R&D), for software development or where new written material will be produced. Refer to the following policy and guide for the complete details on IP in procurement: Policy on Title to Intellectual Property Arising Under Crown Procurement Contract Implementation Guide: Policy on the Title to Intellectual Property Arising Under Crown Procurement Contracts Canada\u2019s default position is to allow contractors to retain the rights to IP generated under government contracts, to promote the commercialization of new ideas given the private sector\u2019s greater capacity for commercialization. Allowable exceptions to the default position are described in the policy and guide referenced above. At the planning stage, you must determine what IP is anticipated, how IP will be handled and how it will be identified and secured for the use of the client and Canada. This process can have very long timeframes and extremely complex processes. Identifying the foreground and background information early is crucial, as delays can disadvantage Canada severely. The client must decide the extent to which IP rights are to be retained by Canada. You should discuss with the client their needs to ensure they are aware of the extent to which you can obtain the rights they need to use the IP created under the contract, whether Canada or the contractor owns the IP . Depending on industry practice, Canada may not be able to obtain IP ownership even if desired. In such cases, PSPC contract clauses allow clients to use contractor-owned IP , although Canada could not commercialize the IP . The client should be requested to fully justify any request to retain ownership of IP , except for the case of non-software copyright, where for PSPC buyers the norm is for Canada to retain ownership. Ensure that the solicitation document is clear on the ownership of any IP rights. The table below summarizes PSPC \u2019s contractual options for IP ownership. Contractual options for IP ownership IP options R&D Goods with associated R&D Goods with no R&D expected Services with no R&D expected Default Contractor to own IP Contractor to own IP Canada to own copyright Canada to own copyright Option Canada to own IP Canada to own IP Contractor to own IP , including copyright Contractor to own IP , including copyright Client says no IP Not applicable Not applicable No IP terms in the contract No IP terms in the contract For additional guidance, PSPC buyers may contact their subject matter expert on IP ."
+    },
+    {
+      "block_id": "808d92760aef::b0005",
+      "section_id": "808d92760aef::s003",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Intellectual property and copyright",
+        "Buyer's Guide",
+        "Intellectual property and copyright"
+      ],
+      "markdown": "## Intellectual property and copyright",
+      "plain_text": "Intellectual property and copyright"
+    },
+    {
+      "block_id": "808d92760aef::b0006",
+      "section_id": "808d92760aef::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Intellectual property and copyright",
+        "Buyer's Guide",
+        "Intellectual property and copyright"
+      ],
+      "markdown": "Before issuing a solicitation or awarding a contract, you must identify any intellectual property (IP) that exists before contract award and any IP that will be generated as a result of the contract. This will help reduce future costs and avoid disputes.",
+      "plain_text": "Before issuing a solicitation or awarding a contract, you must identify any intellectual property (IP) that exists before contract award and any IP that will be generated as a result of the contract. This will help reduce future costs and avoid disputes."
+    },
+    {
+      "block_id": "808d92760aef::b0007",
+      "section_id": "808d92760aef::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Intellectual property and copyright",
+        "Buyer's Guide",
+        "Intellectual property and copyright"
+      ],
+      "markdown": "IP is anything resulting from a contract that can be copyrighted, trademarked, patented, licensed, etc. Although any contract could have IP , the likelihood is much greater if the contract will aim for something new or might incorporate new processes. IP considerations are most relevant to contracts for research and development (R&D), for software development or where new written material will be produced.",
+      "plain_text": "IP is anything resulting from a contract that can be copyrighted, trademarked, patented, licensed, etc. Although any contract could have IP , the likelihood is much greater if the contract will aim for something new or might incorporate new processes. IP considerations are most relevant to contracts for research and development (R&D), for software development or where new written material will be produced."
+    },
+    {
+      "block_id": "808d92760aef::b0008",
+      "section_id": "808d92760aef::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Intellectual property and copyright",
+        "Buyer's Guide",
+        "Intellectual property and copyright"
+      ],
+      "markdown": "Refer to the following policy and guide for the complete details on IP in procurement:",
+      "plain_text": "Refer to the following policy and guide for the complete details on IP in procurement:"
+    },
+    {
+      "block_id": "808d92760aef::b0009",
+      "section_id": "808d92760aef::s003",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Intellectual property and copyright",
+        "Buyer's Guide",
+        "Intellectual property and copyright"
+      ],
+      "markdown": "- Policy on Title to Intellectual Property Arising Under Crown Procurement Contract\n- Implementation Guide: Policy on the Title to Intellectual Property Arising Under Crown Procurement Contracts",
+      "plain_text": "Policy on Title to Intellectual Property Arising Under Crown Procurement Contract ; Implementation Guide: Policy on the Title to Intellectual Property Arising Under Crown Procurement Contracts"
+    },
+    {
+      "block_id": "808d92760aef::b0010",
+      "section_id": "808d92760aef::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Intellectual property and copyright",
+        "Buyer's Guide",
+        "Intellectual property and copyright"
+      ],
+      "markdown": "Canada\u2019s default position is to allow contractors to retain the rights to IP generated under government contracts, to promote the commercialization of new ideas given the private sector\u2019s greater capacity for commercialization. Allowable exceptions to the default position are described in the policy and guide referenced above.",
+      "plain_text": "Canada\u2019s default position is to allow contractors to retain the rights to IP generated under government contracts, to promote the commercialization of new ideas given the private sector\u2019s greater capacity for commercialization. Allowable exceptions to the default position are described in the policy and guide referenced above."
+    },
+    {
+      "block_id": "808d92760aef::b0011",
+      "section_id": "808d92760aef::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Intellectual property and copyright",
+        "Buyer's Guide",
+        "Intellectual property and copyright"
+      ],
+      "markdown": "At the planning stage, you must determine what IP is anticipated, how IP will be handled and how it will be identified and secured for the use of the client and Canada. This process can have very long timeframes and extremely complex processes. Identifying the foreground and background information early is crucial, as delays can disadvantage Canada severely.",
+      "plain_text": "At the planning stage, you must determine what IP is anticipated, how IP will be handled and how it will be identified and secured for the use of the client and Canada. This process can have very long timeframes and extremely complex processes. Identifying the foreground and background information early is crucial, as delays can disadvantage Canada severely."
+    },
+    {
+      "block_id": "808d92760aef::b0012",
+      "section_id": "808d92760aef::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Intellectual property and copyright",
+        "Buyer's Guide",
+        "Intellectual property and copyright"
+      ],
+      "markdown": "The client must decide the extent to which IP rights are to be retained by Canada. You should discuss with the client their needs to ensure they are aware of the extent to which you can obtain the rights they need to use the IP created under the contract, whether Canada or the contractor owns the IP . Depending on industry practice, Canada may not be able to obtain IP ownership even if desired. In such cases, PSPC contract clauses allow clients to use contractor-owned IP , although Canada could not commercialize the IP .",
+      "plain_text": "The client must decide the extent to which IP rights are to be retained by Canada. You should discuss with the client their needs to ensure they are aware of the extent to which you can obtain the rights they need to use the IP created under the contract, whether Canada or the contractor owns the IP . Depending on industry practice, Canada may not be able to obtain IP ownership even if desired. In such cases, PSPC contract clauses allow clients to use contractor-owned IP , although Canada could not commercialize the IP ."
+    },
+    {
+      "block_id": "808d92760aef::b0013",
+      "section_id": "808d92760aef::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Intellectual property and copyright",
+        "Buyer's Guide",
+        "Intellectual property and copyright"
+      ],
+      "markdown": "The client should be requested to fully justify any request to retain ownership of IP , except for the case of non-software copyright, where for PSPC buyers the norm is for Canada to retain ownership. Ensure that the solicitation document is clear on the ownership of any IP rights. The table below summarizes PSPC \u2019s contractual options for IP ownership.",
+      "plain_text": "The client should be requested to fully justify any request to retain ownership of IP , except for the case of non-software copyright, where for PSPC buyers the norm is for Canada to retain ownership. Ensure that the solicitation document is clear on the ownership of any IP rights. The table below summarizes PSPC \u2019s contractual options for IP ownership."
+    },
+    {
+      "block_id": "808d92760aef::b0014",
+      "section_id": "808d92760aef::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Intellectual property and copyright",
+        "Buyer's Guide",
+        "Intellectual property and copyright"
+      ],
+      "markdown": "Contractual options for IP ownership",
+      "plain_text": "Contractual options for IP ownership"
+    },
+    {
+      "block_id": "808d92760aef::b0015",
+      "section_id": "808d92760aef::s003",
+      "type": "table",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Intellectual property and copyright",
+        "Buyer's Guide",
+        "Intellectual property and copyright"
+      ],
+      "markdown": "| Column 1 | Column 2 | Column 3 | Column 4 | Column 5 |\n| --- | --- | --- | --- | --- |\n| IP options | R&D | Goods with associated R&D | Goods with no R&D expected | Services with no R&D expected |\n| Default | Contractor to own IP | Contractor to own IP | Canada to own copyright | Canada to own copyright |\n| Option | Canada to own IP | Canada to own IP | Contractor to own IP , including copyright | Contractor to own IP , including copyright |\n| Client says no IP | Not applicable | Not applicable | No IP terms in the contract | No IP terms in the contract |",
+      "plain_text": "Column 1 | Column 2 | Column 3 | Column 4 | Column 5 ; IP options | R&D | Goods with associated R&D | Goods with no R&D expected | Services with no R&D expected ; Default | Contractor to own IP | Contractor to own IP | Canada to own copyright | Canada to own copyright ; Option | Canada to own IP | Canada to own IP | Contractor to own IP , including copyright | Contractor to own IP , including copyright ; Client says no IP | Not applicable | Not applicable | No IP terms in the contract | No IP terms in the contract",
+      "table_id": "808d92760aef::t001"
+    },
+    {
+      "block_id": "808d92760aef::b0016",
+      "section_id": "808d92760aef::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Intellectual property and copyright",
+        "Buyer's Guide",
+        "Intellectual property and copyright"
+      ],
+      "markdown": "For additional guidance, PSPC buyers may contact their subject matter expert on IP .",
+      "plain_text": "For additional guidance, PSPC buyers may contact their subject matter expert on IP ."
+    }
+  ]
+}

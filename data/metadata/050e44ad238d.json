@@ -1,0 +1,618 @@
+{
+  "doc_id": "050e44ad238d",
+  "title": "Buyer's Guide Manage the solicitation period - Notification of procurement to land claimant groups",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/manage-solicitation-period/notifying-land-claimant-groups",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/manage-solicitation-period/notifying-land-claimant-groups",
+  "doc_type": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": "2026-01-31",
+  "fetched_at": "2026-02-19T09:20:53.697134+00:00",
+  "content_hash": "9b192611c6d7151f933fd41b075f246fb02be01343fedc16dcccdf36c01ba71a",
+  "word_count": 1514,
+  "text_path": "data/corpus/buyers_guide__en-buyer-s-portal-buyer-s-guide-solicit-manage-solicitation-period-notifying-land-claimant-groups__050e44ad23.md",
+  "extraction_method": "buyers_guide_regions",
+  "breadcrumbs": [
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "https://canadabuys.canada.ca/en",
+      "canonical_url": "https://canadabuys.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "in_scope": true
+    },
+    {
+      "title": "Manage the solicitation period",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/manage-solicitation-period",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/manage-solicitation-period",
+      "in_scope": true
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/manage-solicitation-period",
+    "parent_doc_id": "735596cd572a",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/manage-solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/manage-solicitation-period/notifying-land-claimant-groups"
+    ],
+    "lineage_doc_ids": [
+      "1e29c7881335",
+      "735596cd572a",
+      "050e44ad238d"
+    ],
+    "depth": 2,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/cancel-or-reissue-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/cancel-or-reissue-solicitation/approval-reissue-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/cancel-or-reissue-solicitation/how-cancel-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/cancel-or-reissue-solicitation/how-reissue-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/cancel-or-reissue-solicitation/when-cancel-or-reissue",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/handling-questions-during-solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/manage-solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/manage-solicitation-period/communicate-offerors",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/manage-solicitation-period/contacting-businesses-directly-during-solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/manage-solicitation-period/modifying-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document/distribution-invited-businesses",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document/posting-tender-opportunities-page",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document/technical-data"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/cancel-or-reissue-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/cancel-or-reissue-solicitation/approval-reissue-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/cancel-or-reissue-solicitation/how-cancel-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/cancel-or-reissue-solicitation/how-reissue-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/cancel-or-reissue-solicitation/when-cancel-or-reissue",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/handling-questions-during-solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/manage-solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/manage-solicitation-period/communicate-offerors",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/manage-solicitation-period/contacting-businesses-directly-during-solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/manage-solicitation-period/modifying-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document/distribution-invited-businesses",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document/posting-tender-opportunities-page",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document/technical-data"
+    ]
+  },
+  "structure": {
+    "block_count": 24,
+    "section_count": 9,
+    "heading_count": 8,
+    "paragraph_count": 12,
+    "list_count": 4,
+    "table_count": 0
+  },
+  "sections": [
+    {
+      "section_id": "050e44ad238d::root",
+      "parent_section_id": null,
+      "level": 0,
+      "heading": "Buyer's Guide Manage the solicitation period - Notification of procurement to land claimant groups",
+      "heading_path": [
+        "Buyer's Guide Manage the solicitation period - Notification of procurement to land claimant groups"
+      ],
+      "block_count": 0,
+      "word_count": 0,
+      "char_count": 0,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": null,
+      "last_block_index": null,
+      "preview": "",
+      "prev_section_id": null,
+      "next_section_id": null
+    },
+    {
+      "section_id": "050e44ad238d::s001",
+      "parent_section_id": "050e44ad238d::root",
+      "level": 1,
+      "heading": "Buyer's Guide Manage the solicitation period - Notification of procurement to land claimant groups",
+      "heading_path": [
+        "Buyer's Guide Manage the solicitation period - Notification of procurement to land claimant groups",
+        "Buyer's Guide Manage the solicitation period - Notification of procurement to land claimant groups"
+      ],
+      "block_count": 1,
+      "word_count": 14,
+      "char_count": 98,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 0,
+      "last_block_index": 0,
+      "preview": "Buyer's Guide Manage the solicitation period - Notification of procurement to land claimant groups",
+      "prev_section_id": null,
+      "next_section_id": "050e44ad238d::s002"
+    },
+    {
+      "section_id": "050e44ad238d::s002",
+      "parent_section_id": "050e44ad238d::root",
+      "level": 1,
+      "heading": "Buyer's Guide",
+      "heading_path": [
+        "Buyer's Guide Manage the solicitation period - Notification of procurement to land claimant groups",
+        "Buyer's Guide"
+      ],
+      "block_count": 3,
+      "word_count": 749,
+      "char_count": 4937,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 1,
+      "last_block_index": 3,
+      "preview": "Buyer's Guide Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage Notification of procurement to land claimant groups Notifying land claimant group(s) about procurements is a common obligation ",
+      "prev_section_id": "050e44ad238d::s001",
+      "next_section_id": "050e44ad238d::s003"
+    },
+    {
+      "section_id": "050e44ad238d::s003",
+      "parent_section_id": "050e44ad238d::s002",
+      "level": 2,
+      "heading": "Notification of procurement to land claimant groups",
+      "heading_path": [
+        "Buyer's Guide Manage the solicitation period - Notification of procurement to land claimant groups",
+        "Buyer's Guide",
+        "Notification of procurement to land claimant groups"
+      ],
+      "block_count": 2,
+      "word_count": 46,
+      "char_count": 315,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 4,
+      "last_block_index": 5,
+      "preview": "Notification of procurement to land claimant groups Notifying land claimant group(s) about procurements is a common obligation of the Comprehensive Land Claims Agreements (CLCAs). If you are a Public Service and Procurement Canada (PSPC) bu",
+      "prev_section_id": "050e44ad238d::s002",
+      "next_section_id": "050e44ad238d::s004"
+    },
+    {
+      "section_id": "050e44ad238d::s004",
+      "parent_section_id": "050e44ad238d::s003",
+      "level": 3,
+      "heading": "Business directories or lists",
+      "heading_path": [
+        "Buyer's Guide Manage the solicitation period - Notification of procurement to land claimant groups",
+        "Buyer's Guide",
+        "Notification of procurement to land claimant groups",
+        "Business directories or lists"
+      ],
+      "block_count": 5,
+      "word_count": 358,
+      "char_count": 2343,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 3,
+      "first_block_index": 6,
+      "last_block_index": 10,
+      "preview": "Business directories or lists Under several modern treaties/ CLCA s, the land claimant groups have to prepare and maintain lists of modern treaty/ CLCA beneficiary businesses. The business directories/lists identify the types of goods and s",
+      "prev_section_id": "050e44ad238d::s003",
+      "next_section_id": "050e44ad238d::s005"
+    },
+    {
+      "section_id": "050e44ad238d::s005",
+      "parent_section_id": "050e44ad238d::s003",
+      "level": 3,
+      "heading": "Other business directories",
+      "heading_path": [
+        "Buyer's Guide Manage the solicitation period - Notification of procurement to land claimant groups",
+        "Buyer's Guide",
+        "Notification of procurement to land claimant groups",
+        "Other business directories"
+      ],
+      "block_count": 3,
+      "word_count": 87,
+      "char_count": 605,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 2,
+      "first_block_index": 11,
+      "last_block_index": 13,
+      "preview": "Other business directories Since the above is not an exhaustive list of Modern Treaty/ CLCA land claimant business lists, in certain circumstances, you may consider using other unidentified Modern Treaty/ CLCA beneficiary business directori",
+      "prev_section_id": "050e44ad238d::s004",
+      "next_section_id": "050e44ad238d::s006"
+    },
+    {
+      "section_id": "050e44ad238d::s006",
+      "parent_section_id": "050e44ad238d::s003",
+      "level": 3,
+      "heading": "Method of notification",
+      "heading_path": [
+        "Buyer's Guide Manage the solicitation period - Notification of procurement to land claimant groups",
+        "Buyer's Guide",
+        "Notification of procurement to land claimant groups",
+        "Method of notification"
+      ],
+      "block_count": 2,
+      "word_count": 52,
+      "char_count": 306,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 14,
+      "last_block_index": 15,
+      "preview": "Method of notification As a PSPC buyer, you must fax or email a copy of a notice describing the procurement to the land claimant group(s) of each of the CLCA s that apply to the procurement, as detailed in Notification of procurement to Mod",
+      "prev_section_id": "050e44ad238d::s005",
+      "next_section_id": "050e44ad238d::s007"
+    },
+    {
+      "section_id": "050e44ad238d::s007",
+      "parent_section_id": "050e44ad238d::s003",
+      "level": 3,
+      "heading": "Timing and content of notices",
+      "heading_path": [
+        "Buyer's Guide Manage the solicitation period - Notification of procurement to land claimant groups",
+        "Buyer's Guide",
+        "Notification of procurement to land claimant groups",
+        "Timing and content of notices"
+      ],
+      "block_count": 4,
+      "word_count": 136,
+      "char_count": 786,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 2,
+      "first_block_index": 16,
+      "last_block_index": 19,
+      "preview": "Timing and content of notices For procurements to be posted on the GETS , as a PSPC buyer, you must send the notice to the applicable land claimant group(s) on the date of posting, indicating that CLCA s apply. This procedure applies to: No",
+      "prev_section_id": "050e44ad238d::s006",
+      "next_section_id": "050e44ad238d::s008"
+    },
+    {
+      "section_id": "050e44ad238d::s008",
+      "parent_section_id": "050e44ad238d::s003",
+      "level": 3,
+      "heading": "Scope of notification",
+      "heading_path": [
+        "Buyer's Guide Manage the solicitation period - Notification of procurement to land claimant groups",
+        "Buyer's Guide",
+        "Notification of procurement to land claimant groups",
+        "Scope of notification"
+      ],
+      "block_count": 4,
+      "word_count": 72,
+      "char_count": 496,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 2,
+      "first_block_index": 20,
+      "last_block_index": 23,
+      "preview": "Scope of notification As a PSPC buyer, you must notify land claimant group(s) about all procurements, regardless of the procurement instrument used, including: request for quotations (RFQs) ; requests for proposals (RFPs) ; requests for sta",
+      "prev_section_id": "050e44ad238d::s007",
+      "next_section_id": null
+    }
+  ],
+  "tables": [],
+  "blocks": [
+    {
+      "block_id": "050e44ad238d::b0001",
+      "section_id": "050e44ad238d::s001",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage the solicitation period - Notification of procurement to land claimant groups",
+        "Buyer's Guide Manage the solicitation period - Notification of procurement to land claimant groups"
+      ],
+      "markdown": "# Buyer's Guide Manage the solicitation period - Notification of procurement to land claimant groups",
+      "plain_text": "Buyer's Guide Manage the solicitation period - Notification of procurement to land claimant groups"
+    },
+    {
+      "block_id": "050e44ad238d::b0002",
+      "section_id": "050e44ad238d::s002",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage the solicitation period - Notification of procurement to land claimant groups",
+        "Buyer's Guide"
+      ],
+      "markdown": "# Buyer's Guide",
+      "plain_text": "Buyer's Guide"
+    },
+    {
+      "block_id": "050e44ad238d::b0003",
+      "section_id": "050e44ad238d::s002",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Manage the solicitation period - Notification of procurement to land claimant groups",
+        "Buyer's Guide"
+      ],
+      "markdown": "- Plan\n- Approve\n- Create solicitation\n- Solicit\n- Receive and evaluate\n- Negotiate\n- Award\n- Manage",
+      "plain_text": "Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage"
+    },
+    {
+      "block_id": "050e44ad238d::b0004",
+      "section_id": "050e44ad238d::s002",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage the solicitation period - Notification of procurement to land claimant groups",
+        "Buyer's Guide"
+      ],
+      "markdown": "Notification of procurement to land claimant groups Notifying land claimant group(s) about procurements is a common obligation of the Comprehensive Land Claims Agreements (CLCAs). If you are a Public Service and Procurement Canada (PSPC) buyer, follow the procedures for CLCA s notification outlined in this section. Business directories or lists Under several modern treaties/ CLCA s, the land claimant groups have to prepare and maintain lists of modern treaty/ CLCA beneficiary businesses. The business directories/lists identify the types of goods and services that the businesses can supply. For a procurement posted on the Government Electronic Tendering Service (GETS), you should use the business directories of the applicable modern treaties/ CLCA s to notify the modern treaty/ CLCA beneficiary firms listed for the applicable commodities, in accordance with Contacting businesses directly during the solicitation period . For a procurement not posted on GETS , you should use the directories to invite modern treaty/ CLCA beneficiary businesses to submit an offer. This by itself must not prevent unlisted businesses from participating in the opportunity. For a list of Inuit businesses for the James Bay and Northern Quebec Agreement and for the Nunavik Inuit Land Claims Agreement, consult the Makivvik Business website For a list of Cree businesses for the James Bay and Northern Quebec Agreement, consult the Grand Council of the Crees business directory For a list of Naskapi businesses in the Northeastern Quebec Settlement Area, consult the Naskapi Business Directory For a list of Inuvialuit businesses in the Inuvialuit Settlement Region, consult the Inuvialuit Business List For a list of Gwich'in businesses in the Gwich'in Settlement Area, consult the Gwich'in Business Directory For a list of Inuit businesses in the Nunavut Settlement Area, consult the Inuit Firm Registry For more information on Tlicho businesses, visit the Tlicho Business website For a list of Inuit businesses in the Labrador Inuit Settlement Area, consult the Nunatsiavut Government's Business Directory page For a list of Kwanlin Dun First Nation businesses, consult the Kwanlin Dun Business Listings website For a list of Na-Cho Nyak Dun businesses, consult the Na-Cho Nyak Dun Development Corporation Businesses and Partnerships website For a list of Tsawwassen First Nations businesses, consult the Tsawwassen Business Directory website For a list of Maa-nulth First Nations businesses, consult the following Maa-nulth First Nations business websites Huu-ay-aht First Nations Ka:\u2019yu:\u2019k\u2019t\u2019h\u2019/Che:k\u2019tles7et\u2019h First Nations Toquaht Nation Other business directories Since the above is not an exhaustive list of Modern Treaty/ CLCA land claimant business lists, in certain circumstances, you may consider using other unidentified Modern Treaty/ CLCA beneficiary business directories to ensure that beneficiary businesses are eligible to participate in a federal procurement. Buyers are advised to contact the Indigenous Procurement Policy Directorate or Indigenous Services Canada for assistance. If any links included within this section are found to be non-functional or out of date, please notify the Indigenous Procurement Policy Directorate . Method of notification As a PSPC buyer, you must fax or email a copy of a notice describing the procurement to the land claimant group(s) of each of the CLCA s that apply to the procurement, as detailed in Notification of procurement to Modern Treaty (Comprehensive Land Claims Agreements) claimant groups . Timing and content of notices For procurements to be posted on the GETS , as a PSPC buyer, you must send the notice to the applicable land claimant group(s) on the date of posting, indicating that CLCA s apply. This procedure applies to: Notices of Proposed Procurement (NPPs) Advance Contract Award Notices (ACAN) Letters of Interest (LOI) price and availability (P&A) enquiries For procurements that will not be posted on the GETS , you must send the applicable land claimant group(s) a notice about the procurement, containing the same information that an NPP , ACAN , LOI , or a P&A enquiry would have contained. In such cases, you should allow land claimant group(s) at least 15 calendar days for inquiries before contract award, although CLCA s do not specify a waiting period. Scope of notification As a PSPC buyer, you must notify land claimant group(s) about all procurements, regardless of the procurement instrument used, including: request for quotations (RFQs) requests for proposals (RFPs) requests for standing offers (RFSOs) requests for supply arrangements (RFSAs) solicitations under supply arrangements calls for proposals Individual call-ups against a standing offer do not require separate notification, as notification at the RFSO stage is sufficient.",
+      "plain_text": "Notification of procurement to land claimant groups Notifying land claimant group(s) about procurements is a common obligation of the Comprehensive Land Claims Agreements (CLCAs). If you are a Public Service and Procurement Canada (PSPC) buyer, follow the procedures for CLCA s notification outlined in this section. Business directories or lists Under several modern treaties/ CLCA s, the land claimant groups have to prepare and maintain lists of modern treaty/ CLCA beneficiary businesses. The business directories/lists identify the types of goods and services that the businesses can supply. For a procurement posted on the Government Electronic Tendering Service (GETS), you should use the business directories of the applicable modern treaties/ CLCA s to notify the modern treaty/ CLCA beneficiary firms listed for the applicable commodities, in accordance with Contacting businesses directly during the solicitation period . For a procurement not posted on GETS , you should use the directories to invite modern treaty/ CLCA beneficiary businesses to submit an offer. This by itself must not prevent unlisted businesses from participating in the opportunity. For a list of Inuit businesses for the James Bay and Northern Quebec Agreement and for the Nunavik Inuit Land Claims Agreement, consult the Makivvik Business website For a list of Cree businesses for the James Bay and Northern Quebec Agreement, consult the Grand Council of the Crees business directory For a list of Naskapi businesses in the Northeastern Quebec Settlement Area, consult the Naskapi Business Directory For a list of Inuvialuit businesses in the Inuvialuit Settlement Region, consult the Inuvialuit Business List For a list of Gwich'in businesses in the Gwich'in Settlement Area, consult the Gwich'in Business Directory For a list of Inuit businesses in the Nunavut Settlement Area, consult the Inuit Firm Registry For more information on Tlicho businesses, visit the Tlicho Business website For a list of Inuit businesses in the Labrador Inuit Settlement Area, consult the Nunatsiavut Government's Business Directory page For a list of Kwanlin Dun First Nation businesses, consult the Kwanlin Dun Business Listings website For a list of Na-Cho Nyak Dun businesses, consult the Na-Cho Nyak Dun Development Corporation Businesses and Partnerships website For a list of Tsawwassen First Nations businesses, consult the Tsawwassen Business Directory website For a list of Maa-nulth First Nations businesses, consult the following Maa-nulth First Nations business websites Huu-ay-aht First Nations Ka:\u2019yu:\u2019k\u2019t\u2019h\u2019/Che:k\u2019tles7et\u2019h First Nations Toquaht Nation Other business directories Since the above is not an exhaustive list of Modern Treaty/ CLCA land claimant business lists, in certain circumstances, you may consider using other unidentified Modern Treaty/ CLCA beneficiary business directories to ensure that beneficiary businesses are eligible to participate in a federal procurement. Buyers are advised to contact the Indigenous Procurement Policy Directorate or Indigenous Services Canada for assistance. If any links included within this section are found to be non-functional or out of date, please notify the Indigenous Procurement Policy Directorate . Method of notification As a PSPC buyer, you must fax or email a copy of a notice describing the procurement to the land claimant group(s) of each of the CLCA s that apply to the procurement, as detailed in Notification of procurement to Modern Treaty (Comprehensive Land Claims Agreements) claimant groups . Timing and content of notices For procurements to be posted on the GETS , as a PSPC buyer, you must send the notice to the applicable land claimant group(s) on the date of posting, indicating that CLCA s apply. This procedure applies to: Notices of Proposed Procurement (NPPs) Advance Contract Award Notices (ACAN) Letters of Interest (LOI) price and availability (P&A) enquiries For procurements that will not be posted on the GETS , you must send the applicable land claimant group(s) a notice about the procurement, containing the same information that an NPP , ACAN , LOI , or a P&A enquiry would have contained. In such cases, you should allow land claimant group(s) at least 15 calendar days for inquiries before contract award, although CLCA s do not specify a waiting period. Scope of notification As a PSPC buyer, you must notify land claimant group(s) about all procurements, regardless of the procurement instrument used, including: request for quotations (RFQs) requests for proposals (RFPs) requests for standing offers (RFSOs) requests for supply arrangements (RFSAs) solicitations under supply arrangements calls for proposals Individual call-ups against a standing offer do not require separate notification, as notification at the RFSO stage is sufficient."
+    },
+    {
+      "block_id": "050e44ad238d::b0005",
+      "section_id": "050e44ad238d::s003",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage the solicitation period - Notification of procurement to land claimant groups",
+        "Buyer's Guide",
+        "Notification of procurement to land claimant groups"
+      ],
+      "markdown": "## Notification of procurement to land claimant groups",
+      "plain_text": "Notification of procurement to land claimant groups"
+    },
+    {
+      "block_id": "050e44ad238d::b0006",
+      "section_id": "050e44ad238d::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage the solicitation period - Notification of procurement to land claimant groups",
+        "Buyer's Guide",
+        "Notification of procurement to land claimant groups"
+      ],
+      "markdown": "Notifying land claimant group(s) about procurements is a common obligation of the Comprehensive Land Claims Agreements (CLCAs). If you are a Public Service and Procurement Canada (PSPC) buyer, follow the procedures for CLCA s notification outlined in this section.",
+      "plain_text": "Notifying land claimant group(s) about procurements is a common obligation of the Comprehensive Land Claims Agreements (CLCAs). If you are a Public Service and Procurement Canada (PSPC) buyer, follow the procedures for CLCA s notification outlined in this section."
+    },
+    {
+      "block_id": "050e44ad238d::b0007",
+      "section_id": "050e44ad238d::s004",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage the solicitation period - Notification of procurement to land claimant groups",
+        "Buyer's Guide",
+        "Notification of procurement to land claimant groups",
+        "Business directories or lists"
+      ],
+      "markdown": "### Business directories or lists",
+      "plain_text": "Business directories or lists"
+    },
+    {
+      "block_id": "050e44ad238d::b0008",
+      "section_id": "050e44ad238d::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage the solicitation period - Notification of procurement to land claimant groups",
+        "Buyer's Guide",
+        "Notification of procurement to land claimant groups",
+        "Business directories or lists"
+      ],
+      "markdown": "Under several modern treaties/ CLCA s, the land claimant groups have to prepare and maintain lists of modern treaty/ CLCA beneficiary businesses. The business directories/lists identify the types of goods and services that the businesses can supply.",
+      "plain_text": "Under several modern treaties/ CLCA s, the land claimant groups have to prepare and maintain lists of modern treaty/ CLCA beneficiary businesses. The business directories/lists identify the types of goods and services that the businesses can supply."
+    },
+    {
+      "block_id": "050e44ad238d::b0009",
+      "section_id": "050e44ad238d::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage the solicitation period - Notification of procurement to land claimant groups",
+        "Buyer's Guide",
+        "Notification of procurement to land claimant groups",
+        "Business directories or lists"
+      ],
+      "markdown": "For a procurement posted on the Government Electronic Tendering Service (GETS), you should use the business directories of the applicable modern treaties/ CLCA s to notify the modern treaty/ CLCA beneficiary firms listed for the applicable commodities, in accordance with Contacting businesses directly during the solicitation period .",
+      "plain_text": "For a procurement posted on the Government Electronic Tendering Service (GETS), you should use the business directories of the applicable modern treaties/ CLCA s to notify the modern treaty/ CLCA beneficiary firms listed for the applicable commodities, in accordance with Contacting businesses directly during the solicitation period ."
+    },
+    {
+      "block_id": "050e44ad238d::b0010",
+      "section_id": "050e44ad238d::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage the solicitation period - Notification of procurement to land claimant groups",
+        "Buyer's Guide",
+        "Notification of procurement to land claimant groups",
+        "Business directories or lists"
+      ],
+      "markdown": "For a procurement not posted on GETS , you should use the directories to invite modern treaty/ CLCA beneficiary businesses to submit an offer. This by itself must not prevent unlisted businesses from participating in the opportunity.",
+      "plain_text": "For a procurement not posted on GETS , you should use the directories to invite modern treaty/ CLCA beneficiary businesses to submit an offer. This by itself must not prevent unlisted businesses from participating in the opportunity."
+    },
+    {
+      "block_id": "050e44ad238d::b0011",
+      "section_id": "050e44ad238d::s004",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Manage the solicitation period - Notification of procurement to land claimant groups",
+        "Buyer's Guide",
+        "Notification of procurement to land claimant groups",
+        "Business directories or lists"
+      ],
+      "markdown": "- For a list of Inuit businesses for the James Bay and Northern Quebec Agreement and for the Nunavik Inuit Land Claims Agreement, consult the Makivvik Business website\n- For a list of Cree businesses for the James Bay and Northern Quebec Agreement, consult the Grand Council of the Crees business directory\n- For a list of Naskapi businesses in the Northeastern Quebec Settlement Area, consult the Naskapi Business Directory\n- For a list of Inuvialuit businesses in the Inuvialuit Settlement Region, consult the Inuvialuit Business List\n- For a list of Gwich'in businesses in the Gwich'in Settlement Area, consult the Gwich'in Business Directory\n- For a list of Inuit businesses in the Nunavut Settlement Area, consult the Inuit Firm Registry\n- For more information on Tlicho businesses, visit the Tlicho Business website\n- For a list of Inuit businesses in the Labrador Inuit Settlement Area, consult the Nunatsiavut Government's Business Directory page\n- For a list of Kwanlin Dun First Nation businesses, consult the Kwanlin Dun Business Listings website\n- For a list of Na-Cho Nyak Dun businesses, consult the Na-Cho Nyak Dun Development Corporation Businesses and Partnerships website\n- For a list of Tsawwassen First Nations businesses, consult the Tsawwassen Business Directory website\n- For a list of Maa-nulth First Nations businesses, consult the following Maa-nulth First Nations business websites\n- Huu-ay-aht First Nations\n- Ka:\u2019yu:\u2019k\u2019t\u2019h\u2019/Che:k\u2019tles7et\u2019h First Nations\n- Toquaht Nation",
+      "plain_text": "For a list of Inuit businesses for the James Bay and Northern Quebec Agreement and for the Nunavik Inuit Land Claims Agreement, consult the Makivvik Business website ; For a list of Cree businesses for the James Bay and Northern Quebec Agreement, consult the Grand Council of the Crees business directory ; For a list of Naskapi businesses in the Northeastern Quebec Settlement Area, consult the Naskapi Business Directory ; For a list of Inuvialuit businesses in the Inuvialuit Settlement Region, consult the Inuvialuit Business List ; For a list of Gwich'in businesses in the Gwich'in Settlement Area, consult the Gwich'in Business Directory ; For a list of Inuit businesses in the Nunavut Settlement Area, consult the Inuit Firm Registry ; For more information on Tlicho businesses, visit the Tlicho Business website ; For a list of Inuit businesses in the Labrador Inuit Settlement Area, consult the Nunatsiavut Government's Business Directory page ; For a list of Kwanlin Dun First Nation businesses, consult the Kwanlin Dun Business Listings website ; For a list of Na-Cho Nyak Dun businesses, consult the Na-Cho Nyak Dun Development Corporation Businesses and Partnerships website ; For a list of Tsawwassen First Nations businesses, consult the Tsawwassen Business Directory website ; For a list of Maa-nulth First Nations businesses, consult the following Maa-nulth First Nations business websites ; Huu-ay-aht First Nations ; Ka:\u2019yu:\u2019k\u2019t\u2019h\u2019/Che:k\u2019tles7et\u2019h First Nations ; Toquaht Nation"
+    },
+    {
+      "block_id": "050e44ad238d::b0012",
+      "section_id": "050e44ad238d::s005",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage the solicitation period - Notification of procurement to land claimant groups",
+        "Buyer's Guide",
+        "Notification of procurement to land claimant groups",
+        "Other business directories"
+      ],
+      "markdown": "### Other business directories",
+      "plain_text": "Other business directories"
+    },
+    {
+      "block_id": "050e44ad238d::b0013",
+      "section_id": "050e44ad238d::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage the solicitation period - Notification of procurement to land claimant groups",
+        "Buyer's Guide",
+        "Notification of procurement to land claimant groups",
+        "Other business directories"
+      ],
+      "markdown": "Since the above is not an exhaustive list of Modern Treaty/ CLCA land claimant business lists, in certain circumstances, you may consider using other unidentified Modern Treaty/ CLCA beneficiary business directories to ensure that beneficiary businesses are eligible to participate in a federal procurement. Buyers are advised to contact the Indigenous Procurement Policy Directorate or Indigenous Services Canada for assistance.",
+      "plain_text": "Since the above is not an exhaustive list of Modern Treaty/ CLCA land claimant business lists, in certain circumstances, you may consider using other unidentified Modern Treaty/ CLCA beneficiary business directories to ensure that beneficiary businesses are eligible to participate in a federal procurement. Buyers are advised to contact the Indigenous Procurement Policy Directorate or Indigenous Services Canada for assistance."
+    },
+    {
+      "block_id": "050e44ad238d::b0014",
+      "section_id": "050e44ad238d::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage the solicitation period - Notification of procurement to land claimant groups",
+        "Buyer's Guide",
+        "Notification of procurement to land claimant groups",
+        "Other business directories"
+      ],
+      "markdown": "If any links included within this section are found to be non-functional or out of date, please notify the Indigenous Procurement Policy Directorate .",
+      "plain_text": "If any links included within this section are found to be non-functional or out of date, please notify the Indigenous Procurement Policy Directorate ."
+    },
+    {
+      "block_id": "050e44ad238d::b0015",
+      "section_id": "050e44ad238d::s006",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage the solicitation period - Notification of procurement to land claimant groups",
+        "Buyer's Guide",
+        "Notification of procurement to land claimant groups",
+        "Method of notification"
+      ],
+      "markdown": "### Method of notification",
+      "plain_text": "Method of notification"
+    },
+    {
+      "block_id": "050e44ad238d::b0016",
+      "section_id": "050e44ad238d::s006",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage the solicitation period - Notification of procurement to land claimant groups",
+        "Buyer's Guide",
+        "Notification of procurement to land claimant groups",
+        "Method of notification"
+      ],
+      "markdown": "As a PSPC buyer, you must fax or email a copy of a notice describing the procurement to the land claimant group(s) of each of the CLCA s that apply to the procurement, as detailed in Notification of procurement to Modern Treaty (Comprehensive Land Claims Agreements) claimant groups .",
+      "plain_text": "As a PSPC buyer, you must fax or email a copy of a notice describing the procurement to the land claimant group(s) of each of the CLCA s that apply to the procurement, as detailed in Notification of procurement to Modern Treaty (Comprehensive Land Claims Agreements) claimant groups ."
+    },
+    {
+      "block_id": "050e44ad238d::b0017",
+      "section_id": "050e44ad238d::s007",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage the solicitation period - Notification of procurement to land claimant groups",
+        "Buyer's Guide",
+        "Notification of procurement to land claimant groups",
+        "Timing and content of notices"
+      ],
+      "markdown": "### Timing and content of notices",
+      "plain_text": "Timing and content of notices"
+    },
+    {
+      "block_id": "050e44ad238d::b0018",
+      "section_id": "050e44ad238d::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage the solicitation period - Notification of procurement to land claimant groups",
+        "Buyer's Guide",
+        "Notification of procurement to land claimant groups",
+        "Timing and content of notices"
+      ],
+      "markdown": "For procurements to be posted on the GETS , as a PSPC buyer, you must send the notice to the applicable land claimant group(s) on the date of posting, indicating that CLCA s apply. This procedure applies to:",
+      "plain_text": "For procurements to be posted on the GETS , as a PSPC buyer, you must send the notice to the applicable land claimant group(s) on the date of posting, indicating that CLCA s apply. This procedure applies to:"
+    },
+    {
+      "block_id": "050e44ad238d::b0019",
+      "section_id": "050e44ad238d::s007",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Manage the solicitation period - Notification of procurement to land claimant groups",
+        "Buyer's Guide",
+        "Notification of procurement to land claimant groups",
+        "Timing and content of notices"
+      ],
+      "markdown": "- Notices of Proposed Procurement (NPPs)\n- Advance Contract Award Notices (ACAN)\n- Letters of Interest (LOI)\n- price and availability (P&A) enquiries",
+      "plain_text": "Notices of Proposed Procurement (NPPs) ; Advance Contract Award Notices (ACAN) ; Letters of Interest (LOI) ; price and availability (P&A) enquiries"
+    },
+    {
+      "block_id": "050e44ad238d::b0020",
+      "section_id": "050e44ad238d::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage the solicitation period - Notification of procurement to land claimant groups",
+        "Buyer's Guide",
+        "Notification of procurement to land claimant groups",
+        "Timing and content of notices"
+      ],
+      "markdown": "For procurements that will not be posted on the GETS , you must send the applicable land claimant group(s) a notice about the procurement, containing the same information that an NPP , ACAN , LOI , or a P&A enquiry would have contained. In such cases, you should allow land claimant group(s) at least 15 calendar days for inquiries before contract award, although CLCA s do not specify a waiting period.",
+      "plain_text": "For procurements that will not be posted on the GETS , you must send the applicable land claimant group(s) a notice about the procurement, containing the same information that an NPP , ACAN , LOI , or a P&A enquiry would have contained. In such cases, you should allow land claimant group(s) at least 15 calendar days for inquiries before contract award, although CLCA s do not specify a waiting period."
+    },
+    {
+      "block_id": "050e44ad238d::b0021",
+      "section_id": "050e44ad238d::s008",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage the solicitation period - Notification of procurement to land claimant groups",
+        "Buyer's Guide",
+        "Notification of procurement to land claimant groups",
+        "Scope of notification"
+      ],
+      "markdown": "### Scope of notification",
+      "plain_text": "Scope of notification"
+    },
+    {
+      "block_id": "050e44ad238d::b0022",
+      "section_id": "050e44ad238d::s008",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage the solicitation period - Notification of procurement to land claimant groups",
+        "Buyer's Guide",
+        "Notification of procurement to land claimant groups",
+        "Scope of notification"
+      ],
+      "markdown": "As a PSPC buyer, you must notify land claimant group(s) about all procurements, regardless of the procurement instrument used, including:",
+      "plain_text": "As a PSPC buyer, you must notify land claimant group(s) about all procurements, regardless of the procurement instrument used, including:"
+    },
+    {
+      "block_id": "050e44ad238d::b0023",
+      "section_id": "050e44ad238d::s008",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Manage the solicitation period - Notification of procurement to land claimant groups",
+        "Buyer's Guide",
+        "Notification of procurement to land claimant groups",
+        "Scope of notification"
+      ],
+      "markdown": "- request for quotations (RFQs)\n- requests for proposals (RFPs)\n- requests for standing offers (RFSOs)\n- requests for supply arrangements (RFSAs)\n- solicitations under supply arrangements\n- calls for proposals",
+      "plain_text": "request for quotations (RFQs) ; requests for proposals (RFPs) ; requests for standing offers (RFSOs) ; requests for supply arrangements (RFSAs) ; solicitations under supply arrangements ; calls for proposals"
+    },
+    {
+      "block_id": "050e44ad238d::b0024",
+      "section_id": "050e44ad238d::s008",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage the solicitation period - Notification of procurement to land claimant groups",
+        "Buyer's Guide",
+        "Notification of procurement to land claimant groups",
+        "Scope of notification"
+      ],
+      "markdown": "Individual call-ups against a standing offer do not require separate notification, as notification at the RFSO stage is sufficient.",
+      "plain_text": "Individual call-ups against a standing offer do not require separate notification, as notification at the RFSO stage is sufficient."
+    }
+  ]
+}

@@ -1,0 +1,776 @@
+{
+  "doc_id": "1449412a00f3",
+  "title": "Buyer's Guide Define the requirement - Review a statement of work",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/review-statement-work",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/review-statement-work",
+  "doc_type": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": "2026-01-31",
+  "fetched_at": "2026-02-19T09:15:34.138147+00:00",
+  "content_hash": "cfe54b2165e99bbf1f6467629dc08546a743dbe89ef08ea57d7fe70fbd941584",
+  "word_count": 1217,
+  "text_path": "data/corpus/buyers_guide__en-buyer-s-portal-buyer-s-guide-plan-define-requirement-review-statement-work__1449412a00.md",
+  "extraction_method": "buyers_guide_regions",
+  "breadcrumbs": [
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "https://canadabuys.canada.ca/en",
+      "canonical_url": "https://canadabuys.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "in_scope": true
+    },
+    {
+      "title": "Define the requirement",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "in_scope": true
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+    "parent_doc_id": "c1f4df5dec74",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/review-statement-work"
+    ],
+    "lineage_doc_ids": [
+      "1e29c7881335",
+      "c1f4df5dec74",
+      "1449412a00f3"
+    ],
+    "depth": 2,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-accounting-and-pricing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-reimbursable",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/firm-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-time/unit-rate",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/overview-key-pricing-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/price-and-currency-adjustments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/pricing-methods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/provisional-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/types-basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/application-registration",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/completing-security-requirements-check-list",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/controlled-goods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/foreign-ownership-control-or-influence",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/privacy-and-confidentiality",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-international-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-timelines",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/importance-clear-procurement-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/requisition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/socioeconomic-requirements-definition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/standards-and-quality-assurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/choose-method-supply",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/determine-sourcing-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/developing-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/interim-policy-reciprocal-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/trade-agreement-applicability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/early-engagement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-businesses",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-clients",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-subject-matter-experts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/invoicing-instructions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/payment-instruments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/taxes-and-duties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/withholding-non-resident-contractors",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/communicating-method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/developing-selection-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/including-basis-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/specifying-evaluation-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/canadian-general-standards-board",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/compliance-canadian-electrical-code",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/contractor-liability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/emergency-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/employer/employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/fairness-monitoring",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/insurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/intellectual-property-and-copyright",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/liability-and-risk-management",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/managing-urgent-acquisitions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/official-languages-obligation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/warranties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/holdbacks",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/incentives",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/accessibility",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/anti-forced-labour-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/green-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/indigenous-considerations"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-accounting-and-pricing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-reimbursable",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/firm-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-time/unit-rate",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/overview-key-pricing-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/price-and-currency-adjustments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/pricing-methods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/provisional-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/types-basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/application-registration",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/completing-security-requirements-check-list",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/controlled-goods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/foreign-ownership-control-or-influence",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/privacy-and-confidentiality",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-international-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-timelines",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/importance-clear-procurement-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/requisition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/socioeconomic-requirements-definition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/standards-and-quality-assurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/choose-method-supply",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/determine-sourcing-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/developing-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/interim-policy-reciprocal-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/trade-agreement-applicability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/early-engagement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-businesses",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-clients",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-subject-matter-experts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/invoicing-instructions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/payment-instruments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/taxes-and-duties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/withholding-non-resident-contractors",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/communicating-method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/developing-selection-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/including-basis-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/specifying-evaluation-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/canadian-general-standards-board",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/compliance-canadian-electrical-code",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/contractor-liability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/emergency-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/employer/employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/fairness-monitoring",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/insurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/intellectual-property-and-copyright",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/liability-and-risk-management",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/managing-urgent-acquisitions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/official-languages-obligation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/warranties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/holdbacks",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/incentives",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/accessibility",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/anti-forced-labour-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/green-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/indigenous-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure": {
+    "block_count": 27,
+    "section_count": 9,
+    "heading_count": 8,
+    "paragraph_count": 14,
+    "list_count": 5,
+    "table_count": 0
+  },
+  "sections": [
+    {
+      "section_id": "1449412a00f3::root",
+      "parent_section_id": null,
+      "level": 0,
+      "heading": "Buyer's Guide Define the requirement - Review a statement of work",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Review a statement of work"
+      ],
+      "block_count": 0,
+      "word_count": 0,
+      "char_count": 0,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": null,
+      "last_block_index": null,
+      "preview": "",
+      "prev_section_id": null,
+      "next_section_id": null
+    },
+    {
+      "section_id": "1449412a00f3::s001",
+      "parent_section_id": "1449412a00f3::root",
+      "level": 1,
+      "heading": "Buyer's Guide Define the requirement - Review a statement of work",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Review a statement of work",
+        "Buyer's Guide Define the requirement - Review a statement of work"
+      ],
+      "block_count": 1,
+      "word_count": 11,
+      "char_count": 65,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 0,
+      "last_block_index": 0,
+      "preview": "Buyer's Guide Define the requirement - Review a statement of work",
+      "prev_section_id": null,
+      "next_section_id": "1449412a00f3::s002"
+    },
+    {
+      "section_id": "1449412a00f3::s002",
+      "parent_section_id": "1449412a00f3::root",
+      "level": 1,
+      "heading": "Buyer's Guide",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Review a statement of work",
+        "Buyer's Guide"
+      ],
+      "block_count": 3,
+      "word_count": 609,
+      "char_count": 4207,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 1,
+      "last_block_index": 3,
+      "preview": "Buyer's Guide Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage Review a statement of work Before soliciting offers and awarding contracts, you must review the client's statement of work (SOW",
+      "prev_section_id": "1449412a00f3::s001",
+      "next_section_id": "1449412a00f3::s003"
+    },
+    {
+      "section_id": "1449412a00f3::s003",
+      "parent_section_id": "1449412a00f3::s002",
+      "level": 2,
+      "heading": "Review a statement of work",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Review a statement of work",
+        "Buyer's Guide",
+        "Review a statement of work"
+      ],
+      "block_count": 6,
+      "word_count": 163,
+      "char_count": 1075,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 4,
+      "first_block_index": 4,
+      "last_block_index": 9,
+      "preview": "Review a statement of work Before soliciting offers and awarding contracts, you must review the client's statement of work (SOW) to ensure that the requirements are clearly defined. As a buyer, it's your responsibility to verify that the SO",
+      "prev_section_id": "1449412a00f3::s002",
+      "next_section_id": "1449412a00f3::s004"
+    },
+    {
+      "section_id": "1449412a00f3::s004",
+      "parent_section_id": "1449412a00f3::s003",
+      "level": 3,
+      "heading": "Equivalent products",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Review a statement of work",
+        "Buyer's Guide",
+        "Review a statement of work",
+        "Equivalent products"
+      ],
+      "block_count": 3,
+      "word_count": 158,
+      "char_count": 1088,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 2,
+      "first_block_index": 10,
+      "last_block_index": 12,
+      "preview": "Equivalent products When there is no alternative to specifying a particular manufactured product, you should include appropriate procurement clauses for equivalent products in the solicitation document, if possible. This indicates that prod",
+      "prev_section_id": "1449412a00f3::s003",
+      "next_section_id": "1449412a00f3::s005"
+    },
+    {
+      "section_id": "1449412a00f3::s005",
+      "parent_section_id": "1449412a00f3::s003",
+      "level": 3,
+      "heading": "No substitute products",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Review a statement of work",
+        "Buyer's Guide",
+        "Review a statement of work",
+        "No substitute products"
+      ],
+      "block_count": 2,
+      "word_count": 57,
+      "char_count": 368,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 13,
+      "last_block_index": 14,
+      "preview": "No substitute products You must clearly state in the solicitation document that substitute products will not be considered when a manufacturer\u2019s brand name, model and/or part number are used in the item description. The no substitute produc",
+      "prev_section_id": "1449412a00f3::s004",
+      "next_section_id": "1449412a00f3::s006"
+    },
+    {
+      "section_id": "1449412a00f3::s006",
+      "parent_section_id": "1449412a00f3::s003",
+      "level": 3,
+      "heading": "Multi-item offers",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Review a statement of work",
+        "Buyer's Guide",
+        "Review a statement of work",
+        "Multi-item offers"
+      ],
+      "block_count": 3,
+      "word_count": 53,
+      "char_count": 354,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 15,
+      "last_block_index": 17,
+      "preview": "Multi-item offers Multi-item requirements can be structured using one or a combination of the following basis: aggregate basis: where the entire requirement is awarded to one offeror ; item-by-item basis: used to potentially secure better p",
+      "prev_section_id": "1449412a00f3::s005",
+      "next_section_id": "1449412a00f3::s007"
+    },
+    {
+      "section_id": "1449412a00f3::s007",
+      "parent_section_id": "1449412a00f3::s006",
+      "level": 4,
+      "heading": "Cost-benefit analysis of multi-item offers",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Review a statement of work",
+        "Buyer's Guide",
+        "Review a statement of work",
+        "Multi-item offers",
+        "Cost-benefit analysis of multi-item offers"
+      ],
+      "block_count": 5,
+      "word_count": 86,
+      "char_count": 640,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 3,
+      "first_block_index": 18,
+      "last_block_index": 22,
+      "preview": "Cost-benefit analysis of multi-item offers In the evaluation of multi-item offers you must consider cost-benefit factors. This involves assessing the savings from dividing a requirement across multiple contracts against the additional costs",
+      "prev_section_id": "1449412a00f3::s006",
+      "next_section_id": "1449412a00f3::s008"
+    },
+    {
+      "section_id": "1449412a00f3::s008",
+      "parent_section_id": "1449412a00f3::s006",
+      "level": 4,
+      "heading": "Challenges with multiple contracts",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Review a statement of work",
+        "Buyer's Guide",
+        "Review a statement of work",
+        "Multi-item offers",
+        "Challenges with multiple contracts"
+      ],
+      "block_count": 4,
+      "word_count": 80,
+      "char_count": 565,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 2,
+      "first_block_index": 23,
+      "last_block_index": 26,
+      "preview": "Challenges with multiple contracts You must balance the benefits from awarding more than one contract against potential drawbacks, which may include: variations in delivery times from different offerors ; issues with interoperability or com",
+      "prev_section_id": "1449412a00f3::s007",
+      "next_section_id": null
+    }
+  ],
+  "tables": [],
+  "blocks": [
+    {
+      "block_id": "1449412a00f3::b0001",
+      "section_id": "1449412a00f3::s001",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Review a statement of work",
+        "Buyer's Guide Define the requirement - Review a statement of work"
+      ],
+      "markdown": "# Buyer's Guide Define the requirement - Review a statement of work",
+      "plain_text": "Buyer's Guide Define the requirement - Review a statement of work"
+    },
+    {
+      "block_id": "1449412a00f3::b0002",
+      "section_id": "1449412a00f3::s002",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Review a statement of work",
+        "Buyer's Guide"
+      ],
+      "markdown": "# Buyer's Guide",
+      "plain_text": "Buyer's Guide"
+    },
+    {
+      "block_id": "1449412a00f3::b0003",
+      "section_id": "1449412a00f3::s002",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Review a statement of work",
+        "Buyer's Guide"
+      ],
+      "markdown": "- Plan\n- Approve\n- Create solicitation\n- Solicit\n- Receive and evaluate\n- Negotiate\n- Award\n- Manage",
+      "plain_text": "Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage"
+    },
+    {
+      "block_id": "1449412a00f3::b0004",
+      "section_id": "1449412a00f3::s002",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Review a statement of work",
+        "Buyer's Guide"
+      ],
+      "markdown": "Review a statement of work Before soliciting offers and awarding contracts, you must review the client's statement of work (SOW) to ensure that the requirements are clearly defined. As a buyer, it's your responsibility to verify that the SOW contains all necessary details to support a successful procurement process. When reviewing an SOW , ensure that: the client's requirements are clearly identified and articulated the deliverables are precisely defined, including any specific products, services, or outcomes the delivery schedule is realistic and clearly outlined all tasks and responsibilities are thoroughly described The SOW should provide enough detail to ensure that all potential offerors have a clear understanding of the requirements, allowing them to submit competitive and compliant offers. This level of clarity also ensures that all offerors are treated equally throughout the procurement process. For more guidance on preparing and reviewing a statement of work, refer to the Statement of Work Guide (accessible only on the Government of Canada network). Equivalent products When there is no alternative to specifying a particular manufactured product, you should include appropriate procurement clauses for equivalent products in the solicitation document, if possible. This indicates that products that are equivalent in form, fit, function and quality may be considered. Before issuing the solicitation of offers, you should discuss with the client the potential for equivalent products, and any mandatory performance criteria related to the specified item. These criteria must be included in the solicitation document to ensure proper evaluation of a substitute product\u2019s equivalency. All references to a manufacturer\u2019s brand name, model and/or part number contained in the solicitation must be followed by the words \"or equivalent.\u201d For procurements subject to the Canadian Free Trade Agreement (CFTA), or to any of Canada\u2019s international trade agreements, provisions for equivalent products must be made. You must give consideration to offerors\u2019 claims of equivalence and have some way to determine if the proposed products are equivalent. No substitute products You must clearly state in the solicitation document that substitute products will not be considered when a manufacturer\u2019s brand name, model and/or part number are used in the item description. The no substitute products stipulation must not be used in solicitations of offers subject to the CFTA or any of Canada\u2019s international trade agreements. Multi-item offers Multi-item requirements can be structured using one or a combination of the following basis: aggregate basis: where the entire requirement is awarded to one offeror item-by-item basis: used to potentially secure better prices for specific products or to ensure complete coverage if a single offeror cannot fulfill the entire requirement Cost-benefit analysis of multi-item offers In the evaluation of multi-item offers you must consider cost-benefit factors. This involves assessing the savings from dividing a requirement across multiple contracts against the additional costs typically associated with multiple awards or the issuance of multiple standing offers. You should consider costs to: PSPC (awarding, managing, and closing out contracts) the client (extra billing, inspection, and other administrative expenses) the contractor (transportation costs, price per unit) Sectors/regions should determine their own administrative premiums based on the above considerations. Challenges with multiple contracts You must balance the benefits from awarding more than one contract against potential drawbacks, which may include: variations in delivery times from different offerors issues with interoperability or compatibility of items from different offerors challenges related to the service or maintenance of delivered items While the solicitation of offers typically allows for partial or complete acceptance, consciously incorporating an aggregate or item-by-item award basis into the procurement strategy may offer best value to Canada.",
+      "plain_text": "Review a statement of work Before soliciting offers and awarding contracts, you must review the client's statement of work (SOW) to ensure that the requirements are clearly defined. As a buyer, it's your responsibility to verify that the SOW contains all necessary details to support a successful procurement process. When reviewing an SOW , ensure that: the client's requirements are clearly identified and articulated the deliverables are precisely defined, including any specific products, services, or outcomes the delivery schedule is realistic and clearly outlined all tasks and responsibilities are thoroughly described The SOW should provide enough detail to ensure that all potential offerors have a clear understanding of the requirements, allowing them to submit competitive and compliant offers. This level of clarity also ensures that all offerors are treated equally throughout the procurement process. For more guidance on preparing and reviewing a statement of work, refer to the Statement of Work Guide (accessible only on the Government of Canada network). Equivalent products When there is no alternative to specifying a particular manufactured product, you should include appropriate procurement clauses for equivalent products in the solicitation document, if possible. This indicates that products that are equivalent in form, fit, function and quality may be considered. Before issuing the solicitation of offers, you should discuss with the client the potential for equivalent products, and any mandatory performance criteria related to the specified item. These criteria must be included in the solicitation document to ensure proper evaluation of a substitute product\u2019s equivalency. All references to a manufacturer\u2019s brand name, model and/or part number contained in the solicitation must be followed by the words \"or equivalent.\u201d For procurements subject to the Canadian Free Trade Agreement (CFTA), or to any of Canada\u2019s international trade agreements, provisions for equivalent products must be made. You must give consideration to offerors\u2019 claims of equivalence and have some way to determine if the proposed products are equivalent. No substitute products You must clearly state in the solicitation document that substitute products will not be considered when a manufacturer\u2019s brand name, model and/or part number are used in the item description. The no substitute products stipulation must not be used in solicitations of offers subject to the CFTA or any of Canada\u2019s international trade agreements. Multi-item offers Multi-item requirements can be structured using one or a combination of the following basis: aggregate basis: where the entire requirement is awarded to one offeror item-by-item basis: used to potentially secure better prices for specific products or to ensure complete coverage if a single offeror cannot fulfill the entire requirement Cost-benefit analysis of multi-item offers In the evaluation of multi-item offers you must consider cost-benefit factors. This involves assessing the savings from dividing a requirement across multiple contracts against the additional costs typically associated with multiple awards or the issuance of multiple standing offers. You should consider costs to: PSPC (awarding, managing, and closing out contracts) the client (extra billing, inspection, and other administrative expenses) the contractor (transportation costs, price per unit) Sectors/regions should determine their own administrative premiums based on the above considerations. Challenges with multiple contracts You must balance the benefits from awarding more than one contract against potential drawbacks, which may include: variations in delivery times from different offerors issues with interoperability or compatibility of items from different offerors challenges related to the service or maintenance of delivered items While the solicitation of offers typically allows for partial or complete acceptance, consciously incorporating an aggregate or item-by-item award basis into the procurement strategy may offer best value to Canada."
+    },
+    {
+      "block_id": "1449412a00f3::b0005",
+      "section_id": "1449412a00f3::s003",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Review a statement of work",
+        "Buyer's Guide",
+        "Review a statement of work"
+      ],
+      "markdown": "## Review a statement of work",
+      "plain_text": "Review a statement of work"
+    },
+    {
+      "block_id": "1449412a00f3::b0006",
+      "section_id": "1449412a00f3::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Review a statement of work",
+        "Buyer's Guide",
+        "Review a statement of work"
+      ],
+      "markdown": "Before soliciting offers and awarding contracts, you must review the client's statement of work (SOW) to ensure that the requirements are clearly defined. As a buyer, it's your responsibility to verify that the SOW contains all necessary details to support a successful procurement process.",
+      "plain_text": "Before soliciting offers and awarding contracts, you must review the client's statement of work (SOW) to ensure that the requirements are clearly defined. As a buyer, it's your responsibility to verify that the SOW contains all necessary details to support a successful procurement process."
+    },
+    {
+      "block_id": "1449412a00f3::b0007",
+      "section_id": "1449412a00f3::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Review a statement of work",
+        "Buyer's Guide",
+        "Review a statement of work"
+      ],
+      "markdown": "When reviewing an SOW , ensure that:",
+      "plain_text": "When reviewing an SOW , ensure that:"
+    },
+    {
+      "block_id": "1449412a00f3::b0008",
+      "section_id": "1449412a00f3::s003",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Review a statement of work",
+        "Buyer's Guide",
+        "Review a statement of work"
+      ],
+      "markdown": "- the client's requirements are clearly identified and articulated\n- the deliverables are precisely defined, including any specific products, services, or outcomes\n- the delivery schedule is realistic and clearly outlined\n- all tasks and responsibilities are thoroughly described",
+      "plain_text": "the client's requirements are clearly identified and articulated ; the deliverables are precisely defined, including any specific products, services, or outcomes ; the delivery schedule is realistic and clearly outlined ; all tasks and responsibilities are thoroughly described"
+    },
+    {
+      "block_id": "1449412a00f3::b0009",
+      "section_id": "1449412a00f3::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Review a statement of work",
+        "Buyer's Guide",
+        "Review a statement of work"
+      ],
+      "markdown": "The SOW should provide enough detail to ensure that all potential offerors have a clear understanding of the requirements, allowing them to submit competitive and compliant offers. This level of clarity also ensures that all offerors are treated equally throughout the procurement process.",
+      "plain_text": "The SOW should provide enough detail to ensure that all potential offerors have a clear understanding of the requirements, allowing them to submit competitive and compliant offers. This level of clarity also ensures that all offerors are treated equally throughout the procurement process."
+    },
+    {
+      "block_id": "1449412a00f3::b0010",
+      "section_id": "1449412a00f3::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Review a statement of work",
+        "Buyer's Guide",
+        "Review a statement of work"
+      ],
+      "markdown": "For more guidance on preparing and reviewing a statement of work, refer to the Statement of Work Guide (accessible only on the Government of Canada network).",
+      "plain_text": "For more guidance on preparing and reviewing a statement of work, refer to the Statement of Work Guide (accessible only on the Government of Canada network)."
+    },
+    {
+      "block_id": "1449412a00f3::b0011",
+      "section_id": "1449412a00f3::s004",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Review a statement of work",
+        "Buyer's Guide",
+        "Review a statement of work",
+        "Equivalent products"
+      ],
+      "markdown": "### Equivalent products",
+      "plain_text": "Equivalent products"
+    },
+    {
+      "block_id": "1449412a00f3::b0012",
+      "section_id": "1449412a00f3::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Review a statement of work",
+        "Buyer's Guide",
+        "Review a statement of work",
+        "Equivalent products"
+      ],
+      "markdown": "When there is no alternative to specifying a particular manufactured product, you should include appropriate procurement clauses for equivalent products in the solicitation document, if possible. This indicates that products that are equivalent in form, fit, function and quality may be considered. Before issuing the solicitation of offers, you should discuss with the client the potential for equivalent products, and any mandatory performance criteria related to the specified item. These criteria must be included in the solicitation document to ensure proper evaluation of a substitute product\u2019s equivalency. All references to a manufacturer\u2019s brand name, model and/or part number contained in the solicitation must be followed by the words \"or equivalent.\u201d",
+      "plain_text": "When there is no alternative to specifying a particular manufactured product, you should include appropriate procurement clauses for equivalent products in the solicitation document, if possible. This indicates that products that are equivalent in form, fit, function and quality may be considered. Before issuing the solicitation of offers, you should discuss with the client the potential for equivalent products, and any mandatory performance criteria related to the specified item. These criteria must be included in the solicitation document to ensure proper evaluation of a substitute product\u2019s equivalency. All references to a manufacturer\u2019s brand name, model and/or part number contained in the solicitation must be followed by the words \"or equivalent.\u201d"
+    },
+    {
+      "block_id": "1449412a00f3::b0013",
+      "section_id": "1449412a00f3::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Review a statement of work",
+        "Buyer's Guide",
+        "Review a statement of work",
+        "Equivalent products"
+      ],
+      "markdown": "For procurements subject to the Canadian Free Trade Agreement (CFTA), or to any of Canada\u2019s international trade agreements, provisions for equivalent products must be made. You must give consideration to offerors\u2019 claims of equivalence and have some way to determine if the proposed products are equivalent.",
+      "plain_text": "For procurements subject to the Canadian Free Trade Agreement (CFTA), or to any of Canada\u2019s international trade agreements, provisions for equivalent products must be made. You must give consideration to offerors\u2019 claims of equivalence and have some way to determine if the proposed products are equivalent."
+    },
+    {
+      "block_id": "1449412a00f3::b0014",
+      "section_id": "1449412a00f3::s005",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Review a statement of work",
+        "Buyer's Guide",
+        "Review a statement of work",
+        "No substitute products"
+      ],
+      "markdown": "### No substitute products",
+      "plain_text": "No substitute products"
+    },
+    {
+      "block_id": "1449412a00f3::b0015",
+      "section_id": "1449412a00f3::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Review a statement of work",
+        "Buyer's Guide",
+        "Review a statement of work",
+        "No substitute products"
+      ],
+      "markdown": "You must clearly state in the solicitation document that substitute products will not be considered when a manufacturer\u2019s brand name, model and/or part number are used in the item description. The no substitute products stipulation must not be used in solicitations of offers subject to the CFTA or any of Canada\u2019s international trade agreements.",
+      "plain_text": "You must clearly state in the solicitation document that substitute products will not be considered when a manufacturer\u2019s brand name, model and/or part number are used in the item description. The no substitute products stipulation must not be used in solicitations of offers subject to the CFTA or any of Canada\u2019s international trade agreements."
+    },
+    {
+      "block_id": "1449412a00f3::b0016",
+      "section_id": "1449412a00f3::s006",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Review a statement of work",
+        "Buyer's Guide",
+        "Review a statement of work",
+        "Multi-item offers"
+      ],
+      "markdown": "### Multi-item offers",
+      "plain_text": "Multi-item offers"
+    },
+    {
+      "block_id": "1449412a00f3::b0017",
+      "section_id": "1449412a00f3::s006",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Review a statement of work",
+        "Buyer's Guide",
+        "Review a statement of work",
+        "Multi-item offers"
+      ],
+      "markdown": "Multi-item requirements can be structured using one or a combination of the following basis:",
+      "plain_text": "Multi-item requirements can be structured using one or a combination of the following basis:"
+    },
+    {
+      "block_id": "1449412a00f3::b0018",
+      "section_id": "1449412a00f3::s006",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Review a statement of work",
+        "Buyer's Guide",
+        "Review a statement of work",
+        "Multi-item offers"
+      ],
+      "markdown": "- aggregate basis: where the entire requirement is awarded to one offeror\n- item-by-item basis: used to potentially secure better prices for specific products or to ensure complete coverage if a single offeror cannot fulfill the entire requirement",
+      "plain_text": "aggregate basis: where the entire requirement is awarded to one offeror ; item-by-item basis: used to potentially secure better prices for specific products or to ensure complete coverage if a single offeror cannot fulfill the entire requirement"
+    },
+    {
+      "block_id": "1449412a00f3::b0019",
+      "section_id": "1449412a00f3::s007",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Review a statement of work",
+        "Buyer's Guide",
+        "Review a statement of work",
+        "Multi-item offers",
+        "Cost-benefit analysis of multi-item offers"
+      ],
+      "markdown": "#### Cost-benefit analysis of multi-item offers",
+      "plain_text": "Cost-benefit analysis of multi-item offers"
+    },
+    {
+      "block_id": "1449412a00f3::b0020",
+      "section_id": "1449412a00f3::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Review a statement of work",
+        "Buyer's Guide",
+        "Review a statement of work",
+        "Multi-item offers",
+        "Cost-benefit analysis of multi-item offers"
+      ],
+      "markdown": "In the evaluation of multi-item offers you must consider cost-benefit factors. This involves assessing the savings from dividing a requirement across multiple contracts against the additional costs typically associated with multiple awards or the issuance of multiple standing offers.",
+      "plain_text": "In the evaluation of multi-item offers you must consider cost-benefit factors. This involves assessing the savings from dividing a requirement across multiple contracts against the additional costs typically associated with multiple awards or the issuance of multiple standing offers."
+    },
+    {
+      "block_id": "1449412a00f3::b0021",
+      "section_id": "1449412a00f3::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Review a statement of work",
+        "Buyer's Guide",
+        "Review a statement of work",
+        "Multi-item offers",
+        "Cost-benefit analysis of multi-item offers"
+      ],
+      "markdown": "You should consider costs to:",
+      "plain_text": "You should consider costs to:"
+    },
+    {
+      "block_id": "1449412a00f3::b0022",
+      "section_id": "1449412a00f3::s007",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Review a statement of work",
+        "Buyer's Guide",
+        "Review a statement of work",
+        "Multi-item offers",
+        "Cost-benefit analysis of multi-item offers"
+      ],
+      "markdown": "- PSPC (awarding, managing, and closing out contracts)\n- the client (extra billing, inspection, and other administrative expenses)\n- the contractor (transportation costs, price per unit)",
+      "plain_text": "PSPC (awarding, managing, and closing out contracts) ; the client (extra billing, inspection, and other administrative expenses) ; the contractor (transportation costs, price per unit)"
+    },
+    {
+      "block_id": "1449412a00f3::b0023",
+      "section_id": "1449412a00f3::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Review a statement of work",
+        "Buyer's Guide",
+        "Review a statement of work",
+        "Multi-item offers",
+        "Cost-benefit analysis of multi-item offers"
+      ],
+      "markdown": "Sectors/regions should determine their own administrative premiums based on the above considerations.",
+      "plain_text": "Sectors/regions should determine their own administrative premiums based on the above considerations."
+    },
+    {
+      "block_id": "1449412a00f3::b0024",
+      "section_id": "1449412a00f3::s008",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Review a statement of work",
+        "Buyer's Guide",
+        "Review a statement of work",
+        "Multi-item offers",
+        "Challenges with multiple contracts"
+      ],
+      "markdown": "#### Challenges with multiple contracts",
+      "plain_text": "Challenges with multiple contracts"
+    },
+    {
+      "block_id": "1449412a00f3::b0025",
+      "section_id": "1449412a00f3::s008",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Review a statement of work",
+        "Buyer's Guide",
+        "Review a statement of work",
+        "Multi-item offers",
+        "Challenges with multiple contracts"
+      ],
+      "markdown": "You must balance the benefits from awarding more than one contract against potential drawbacks, which may include:",
+      "plain_text": "You must balance the benefits from awarding more than one contract against potential drawbacks, which may include:"
+    },
+    {
+      "block_id": "1449412a00f3::b0026",
+      "section_id": "1449412a00f3::s008",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Review a statement of work",
+        "Buyer's Guide",
+        "Review a statement of work",
+        "Multi-item offers",
+        "Challenges with multiple contracts"
+      ],
+      "markdown": "- variations in delivery times from different offerors\n- issues with interoperability or compatibility of items from different offerors\n- challenges related to the service or maintenance of delivered items",
+      "plain_text": "variations in delivery times from different offerors ; issues with interoperability or compatibility of items from different offerors ; challenges related to the service or maintenance of delivered items"
+    },
+    {
+      "block_id": "1449412a00f3::b0027",
+      "section_id": "1449412a00f3::s008",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Review a statement of work",
+        "Buyer's Guide",
+        "Review a statement of work",
+        "Multi-item offers",
+        "Challenges with multiple contracts"
+      ],
+      "markdown": "While the solicitation of offers typically allows for partial or complete acceptance, consciously incorporating an aggregate or item-by-item award basis into the procurement strategy may offer best value to Canada.",
+      "plain_text": "While the solicitation of offers typically allows for partial or complete acceptance, consciously incorporating an aggregate or item-by-item award basis into the procurement strategy may offer best value to Canada."
+    }
+  ]
+}

@@ -1,0 +1,355 @@
+{
+  "doc_id": "efa7992aee71",
+  "title": "Buyer's Guide Choose a solicitation method - Invitation to tender",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/invitation-tender",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/invitation-tender",
+  "doc_type": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": "2026-01-31",
+  "fetched_at": "2026-02-19T09:18:01.556940+00:00",
+  "content_hash": "7fd0fe5e6ebdf114e0ddf25b74db66b4bfa5563c8a13e546c9cc096202f24ac0",
+  "word_count": 474,
+  "text_path": "data/corpus/buyers_guide__en-buyer-s-portal-buyer-s-guide-create-solicitation-choose-solicitation-method-invitation-tender__efa7992aee.md",
+  "extraction_method": "buyers_guide_regions",
+  "breadcrumbs": [
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "https://canadabuys.canada.ca/en",
+      "canonical_url": "https://canadabuys.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "in_scope": true
+    },
+    {
+      "title": "Create solicitation",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation",
+      "in_scope": true
+    },
+    {
+      "title": "Choose a solicitation method",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "in_scope": true
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+    "parent_doc_id": "e24cc0f6b01d",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/invitation-tender"
+    ],
+    "lineage_doc_ids": [
+      "1e29c7881335",
+      "2e11d15cd64e",
+      "e24cc0f6b01d",
+      "efa7992aee71"
+    ],
+    "depth": 3,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/preparing-solicitation-documents",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-information",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-quotation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-standing-offer",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-supply-arrangement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/client-review",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/client-review/client-review-elements-solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/audit",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/certifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/delivery-terms",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/exchange-rates",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/method-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/offer-receipt",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/phased-offer-compliance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/translation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/minimum-solicitation-periods-itqs-rfsas-and-urgent-procurements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/normal-minimum-solicitation-periods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/solicitations-following-request-expressions-interest",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/advanced-contract-award-notice",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/notice-proposed-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-procurement-strategy-indigenous-business-set-asides",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-trade-agreements"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/preparing-solicitation-documents",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-information",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-quotation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-standing-offer",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-supply-arrangement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/client-review",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/client-review/client-review-elements-solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/audit",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/certifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/delivery-terms",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/exchange-rates",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/method-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/offer-receipt",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/phased-offer-compliance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/translation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/minimum-solicitation-periods-itqs-rfsas-and-urgent-procurements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/normal-minimum-solicitation-periods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/solicitations-following-request-expressions-interest",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/advanced-contract-award-notice",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/notice-proposed-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-procurement-strategy-indigenous-business-set-asides",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-trade-agreements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure": {
+    "block_count": 10,
+    "section_count": 4,
+    "heading_count": 3,
+    "paragraph_count": 4,
+    "list_count": 3,
+    "table_count": 0
+  },
+  "sections": [
+    {
+      "section_id": "efa7992aee71::root",
+      "parent_section_id": null,
+      "level": 0,
+      "heading": "Buyer's Guide Choose a solicitation method - Invitation to tender",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Invitation to tender"
+      ],
+      "block_count": 0,
+      "word_count": 0,
+      "char_count": 0,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": null,
+      "last_block_index": null,
+      "preview": "",
+      "prev_section_id": null,
+      "next_section_id": null
+    },
+    {
+      "section_id": "efa7992aee71::s001",
+      "parent_section_id": "efa7992aee71::root",
+      "level": 1,
+      "heading": "Buyer's Guide Choose a solicitation method - Invitation to tender",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Invitation to tender",
+        "Buyer's Guide Choose a solicitation method - Invitation to tender"
+      ],
+      "block_count": 1,
+      "word_count": 10,
+      "char_count": 65,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 0,
+      "last_block_index": 0,
+      "preview": "Buyer's Guide Choose a solicitation method - Invitation to tender",
+      "prev_section_id": null,
+      "next_section_id": "efa7992aee71::s002"
+    },
+    {
+      "section_id": "efa7992aee71::s002",
+      "parent_section_id": "efa7992aee71::root",
+      "level": 1,
+      "heading": "Buyer's Guide",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Invitation to tender",
+        "Buyer's Guide"
+      ],
+      "block_count": 3,
+      "word_count": 239,
+      "char_count": 1520,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 1,
+      "last_block_index": 3,
+      "preview": "Buyer's Guide Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage Invitation to tender Use an Invitation to tender (ITT) when selection is based on the lowest price. In addition, all the follow",
+      "prev_section_id": "efa7992aee71::s001",
+      "next_section_id": "efa7992aee71::s003"
+    },
+    {
+      "section_id": "efa7992aee71::s003",
+      "parent_section_id": "efa7992aee71::s002",
+      "level": 2,
+      "heading": "Invitation to tender",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Invitation to tender",
+        "Buyer's Guide",
+        "Invitation to tender"
+      ],
+      "block_count": 6,
+      "word_count": 225,
+      "char_count": 1416,
+      "table_count": 0,
+      "list_count": 2,
+      "paragraph_count": 3,
+      "first_block_index": 4,
+      "last_block_index": 9,
+      "preview": "Invitation to tender Use an Invitation to tender (ITT) when selection is based on the lowest price. In addition, all the following criteria must apply: two or more sources are capable of carrying out the requirement ; the requirement is ade",
+      "prev_section_id": "efa7992aee71::s002",
+      "next_section_id": null
+    }
+  ],
+  "tables": [],
+  "blocks": [
+    {
+      "block_id": "efa7992aee71::b0001",
+      "section_id": "efa7992aee71::s001",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Invitation to tender",
+        "Buyer's Guide Choose a solicitation method - Invitation to tender"
+      ],
+      "markdown": "# Buyer's Guide Choose a solicitation method - Invitation to tender",
+      "plain_text": "Buyer's Guide Choose a solicitation method - Invitation to tender"
+    },
+    {
+      "block_id": "efa7992aee71::b0002",
+      "section_id": "efa7992aee71::s002",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Invitation to tender",
+        "Buyer's Guide"
+      ],
+      "markdown": "# Buyer's Guide",
+      "plain_text": "Buyer's Guide"
+    },
+    {
+      "block_id": "efa7992aee71::b0003",
+      "section_id": "efa7992aee71::s002",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Invitation to tender",
+        "Buyer's Guide"
+      ],
+      "markdown": "- Plan\n- Approve\n- Create solicitation\n- Solicit\n- Receive and evaluate\n- Negotiate\n- Award\n- Manage",
+      "plain_text": "Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage"
+    },
+    {
+      "block_id": "efa7992aee71::b0004",
+      "section_id": "efa7992aee71::s002",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Invitation to tender",
+        "Buyer's Guide"
+      ],
+      "markdown": "Invitation to tender Use an Invitation to tender (ITT) when selection is based on the lowest price. In addition, all the following criteria must apply: two or more sources are capable of carrying out the requirement the requirement is adequately defined to permit an evaluation of offers against clearly stated criteria the market conditions are such that offers can be submitted on a common pricing basis the intention is to accept the lowest-priced responsive offer without negotiations the evaluation of offers will exclude any product, resource, operating and contingency costs or socio-economic considerations, other than the employment equity provisions Before issuing an ITT , you must verify the Ineligibility and Suspension List to ensure that the invited offerors are not ineligible, if they have not been selected from a prequalified list. The ITT must include the Ineligibility and Suspension Policy Clauses. You can announce an ITT : through public advertisement on GETS through direct invitation through a source list by invitation to one source only if conditions for a non-competitive process have been met An ITT can be opened publicly and is recommended for requirements estimated to exceed $25,000. For ITT s below $25,000, public opening may be held if circumstances warrant. You should consider public openings for any bid where the contract award will have significant public visibility.",
+      "plain_text": "Invitation to tender Use an Invitation to tender (ITT) when selection is based on the lowest price. In addition, all the following criteria must apply: two or more sources are capable of carrying out the requirement the requirement is adequately defined to permit an evaluation of offers against clearly stated criteria the market conditions are such that offers can be submitted on a common pricing basis the intention is to accept the lowest-priced responsive offer without negotiations the evaluation of offers will exclude any product, resource, operating and contingency costs or socio-economic considerations, other than the employment equity provisions Before issuing an ITT , you must verify the Ineligibility and Suspension List to ensure that the invited offerors are not ineligible, if they have not been selected from a prequalified list. The ITT must include the Ineligibility and Suspension Policy Clauses. You can announce an ITT : through public advertisement on GETS through direct invitation through a source list by invitation to one source only if conditions for a non-competitive process have been met An ITT can be opened publicly and is recommended for requirements estimated to exceed $25,000. For ITT s below $25,000, public opening may be held if circumstances warrant. You should consider public openings for any bid where the contract award will have significant public visibility."
+    },
+    {
+      "block_id": "efa7992aee71::b0005",
+      "section_id": "efa7992aee71::s003",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Invitation to tender",
+        "Buyer's Guide",
+        "Invitation to tender"
+      ],
+      "markdown": "## Invitation to tender",
+      "plain_text": "Invitation to tender"
+    },
+    {
+      "block_id": "efa7992aee71::b0006",
+      "section_id": "efa7992aee71::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Invitation to tender",
+        "Buyer's Guide",
+        "Invitation to tender"
+      ],
+      "markdown": "Use an Invitation to tender (ITT) when selection is based on the lowest price. In addition, all the following criteria must apply:",
+      "plain_text": "Use an Invitation to tender (ITT) when selection is based on the lowest price. In addition, all the following criteria must apply:"
+    },
+    {
+      "block_id": "efa7992aee71::b0007",
+      "section_id": "efa7992aee71::s003",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Invitation to tender",
+        "Buyer's Guide",
+        "Invitation to tender"
+      ],
+      "markdown": "- two or more sources are capable of carrying out the requirement\n- the requirement is adequately defined to permit an evaluation of offers against clearly stated criteria\n- the market conditions are such that offers can be submitted on a common pricing basis\n- the intention is to accept the lowest-priced responsive offer without negotiations\n- the evaluation of offers will exclude any product, resource, operating and contingency costs or socio-economic considerations, other than the employment equity provisions",
+      "plain_text": "two or more sources are capable of carrying out the requirement ; the requirement is adequately defined to permit an evaluation of offers against clearly stated criteria ; the market conditions are such that offers can be submitted on a common pricing basis ; the intention is to accept the lowest-priced responsive offer without negotiations ; the evaluation of offers will exclude any product, resource, operating and contingency costs or socio-economic considerations, other than the employment equity provisions"
+    },
+    {
+      "block_id": "efa7992aee71::b0008",
+      "section_id": "efa7992aee71::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Invitation to tender",
+        "Buyer's Guide",
+        "Invitation to tender"
+      ],
+      "markdown": "Before issuing an ITT , you must verify the Ineligibility and Suspension List to ensure that the invited offerors are not ineligible, if they have not been selected from a prequalified list. The ITT must include the Ineligibility and Suspension Policy Clauses. You can announce an ITT :",
+      "plain_text": "Before issuing an ITT , you must verify the Ineligibility and Suspension List to ensure that the invited offerors are not ineligible, if they have not been selected from a prequalified list. The ITT must include the Ineligibility and Suspension Policy Clauses. You can announce an ITT :"
+    },
+    {
+      "block_id": "efa7992aee71::b0009",
+      "section_id": "efa7992aee71::s003",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Invitation to tender",
+        "Buyer's Guide",
+        "Invitation to tender"
+      ],
+      "markdown": "- through public advertisement on GETS\n- through direct invitation through a source list\n- by invitation to one source only if conditions for a non-competitive process have been met",
+      "plain_text": "through public advertisement on GETS ; through direct invitation through a source list ; by invitation to one source only if conditions for a non-competitive process have been met"
+    },
+    {
+      "block_id": "efa7992aee71::b0010",
+      "section_id": "efa7992aee71::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Invitation to tender",
+        "Buyer's Guide",
+        "Invitation to tender"
+      ],
+      "markdown": "An ITT can be opened publicly and is recommended for requirements estimated to exceed $25,000. For ITT s below $25,000, public opening may be held if circumstances warrant. You should consider public openings for any bid where the contract award will have significant public visibility.",
+      "plain_text": "An ITT can be opened publicly and is recommended for requirements estimated to exceed $25,000. For ITT s below $25,000, public opening may be held if circumstances warrant. You should consider public openings for any bid where the contract award will have significant public visibility."
+    }
+  ]
+}

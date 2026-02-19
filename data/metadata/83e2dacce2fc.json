@@ -1,0 +1,756 @@
+{
+  "doc_id": "83e2dacce2fc",
+  "title": "Buyer's Guide Manage payments - Cost reimbursable contracts",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/cost-reimbursable-contracts",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/cost-reimbursable-contracts",
+  "doc_type": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": "2026-01-31",
+  "fetched_at": "2026-02-19T09:19:45.318077+00:00",
+  "content_hash": "846adb62affb2ae493eb8785196ece9a21f7a7eec66d9cbc34673cad17d151d9",
+  "word_count": 529,
+  "text_path": "data/corpus/buyers_guide__en-buyer-s-portal-buyer-s-guide-manage-manage-payments-cost-reimbursable-contracts__83e2dacce2.md",
+  "extraction_method": "buyers_guide_regions",
+  "breadcrumbs": [
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "https://canadabuys.canada.ca/en",
+      "canonical_url": "https://canadabuys.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "in_scope": true
+    },
+    {
+      "title": "Manage payments",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments",
+      "in_scope": true
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments",
+    "parent_doc_id": "50e41986f614",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/cost-reimbursable-contracts"
+    ],
+    "lineage_doc_ids": [
+      "1e29c7881335",
+      "50e41986f614",
+      "83e2dacce2fc"
+    ],
+    "depth": 2,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/best-practices-contract-close-out",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/contract-close-out-activities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/alternative-dispute-resolution",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/assignment-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/buyer-and-client-responsibilites",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/certifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/contract-dispute-resolution",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/employer-employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/integrity-provisions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/protecting-canada-s-interests",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/subcontracting",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/task-authorizations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/vendor-performance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/assignment-monies",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/claims-progress-payments-and-invoicing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/exchange-rate-fluctuation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/final-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/financial-claims",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/fixed-time-rate-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/interest-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/overtime",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/refund-excess-profits",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/administrative-guidance-implementing-contract-modifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/considerations-when-making-amendments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/design-change-or-deviation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/exercise-options",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/procedural-elements-amending-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/revisions-standing-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/approval-authority",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/legal-services",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/public-services-and-procurement-canada-offices-outside-canada",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/source-lists",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/suspension-work-and-stop-work-orders",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-contracts-financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-convenience",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-default",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-mutual-consent"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/best-practices-contract-close-out",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/contract-close-out-activities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/alternative-dispute-resolution",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/assignment-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/buyer-and-client-responsibilites",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/certifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/contract-dispute-resolution",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/employer-employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/integrity-provisions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/protecting-canada-s-interests",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/subcontracting",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/task-authorizations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/vendor-performance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/assignment-monies",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/claims-progress-payments-and-invoicing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/exchange-rate-fluctuation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/final-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/financial-claims",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/fixed-time-rate-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/interest-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/overtime",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/refund-excess-profits",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/administrative-guidance-implementing-contract-modifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/considerations-when-making-amendments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/design-change-or-deviation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/exercise-options",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/procedural-elements-amending-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/revisions-standing-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/approval-authority",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/legal-services",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/public-services-and-procurement-canada-offices-outside-canada",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/source-lists",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/suspension-work-and-stop-work-orders",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-contracts-financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-convenience",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-default",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-mutual-consent",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure": {
+    "block_count": 25,
+    "section_count": 11,
+    "heading_count": 10,
+    "paragraph_count": 14,
+    "list_count": 1,
+    "table_count": 0
+  },
+  "sections": [
+    {
+      "section_id": "83e2dacce2fc::root",
+      "parent_section_id": null,
+      "level": 0,
+      "heading": "Buyer's Guide Manage payments - Cost reimbursable contracts",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Cost reimbursable contracts"
+      ],
+      "block_count": 0,
+      "word_count": 0,
+      "char_count": 0,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": null,
+      "last_block_index": null,
+      "preview": "",
+      "prev_section_id": null,
+      "next_section_id": null
+    },
+    {
+      "section_id": "83e2dacce2fc::s001",
+      "parent_section_id": "83e2dacce2fc::root",
+      "level": 1,
+      "heading": "Buyer's Guide Manage payments - Cost reimbursable contracts",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Cost reimbursable contracts",
+        "Buyer's Guide Manage payments - Cost reimbursable contracts"
+      ],
+      "block_count": 1,
+      "word_count": 8,
+      "char_count": 59,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 0,
+      "last_block_index": 0,
+      "preview": "Buyer's Guide Manage payments - Cost reimbursable contracts",
+      "prev_section_id": null,
+      "next_section_id": "83e2dacce2fc::s002"
+    },
+    {
+      "section_id": "83e2dacce2fc::s002",
+      "parent_section_id": "83e2dacce2fc::root",
+      "level": 1,
+      "heading": "Buyer's Guide",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Cost reimbursable contracts",
+        "Buyer's Guide"
+      ],
+      "block_count": 2,
+      "word_count": 20,
+      "char_count": 111,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 0,
+      "first_block_index": 1,
+      "last_block_index": 2,
+      "preview": "Buyer's Guide Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage",
+      "prev_section_id": "83e2dacce2fc::s001",
+      "next_section_id": "83e2dacce2fc::s003"
+    },
+    {
+      "section_id": "83e2dacce2fc::s003",
+      "parent_section_id": "83e2dacce2fc::s002",
+      "level": 2,
+      "heading": "Cost reimbursable contracts",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Cost reimbursable contracts",
+        "Buyer's Guide",
+        "Cost reimbursable contracts"
+      ],
+      "block_count": 6,
+      "word_count": 206,
+      "char_count": 1342,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 5,
+      "first_block_index": 3,
+      "last_block_index": 8,
+      "preview": "Cost reimbursable contracts In cost reimbursable contracts, contractors are compensated for costs that are both reasonable and properly incurred in the performance of the work. Upon completion of the work, on all cost reimbursable contracts",
+      "prev_section_id": "83e2dacce2fc::s002",
+      "next_section_id": "83e2dacce2fc::s004"
+    },
+    {
+      "section_id": "83e2dacce2fc::s004",
+      "parent_section_id": "83e2dacce2fc::s003",
+      "level": 3,
+      "heading": "Cost audit",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Cost reimbursable contracts",
+        "Buyer's Guide",
+        "Cost reimbursable contracts",
+        "Cost audit"
+      ],
+      "block_count": 2,
+      "word_count": 17,
+      "char_count": 119,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 9,
+      "last_block_index": 10,
+      "preview": "Cost audit The process for selecting cost reimbursable contracts for audit involves several key aspects described below.",
+      "prev_section_id": "83e2dacce2fc::s003",
+      "next_section_id": "83e2dacce2fc::s005"
+    },
+    {
+      "section_id": "83e2dacce2fc::s005",
+      "parent_section_id": "83e2dacce2fc::s004",
+      "level": 4,
+      "heading": "Audit selection",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Cost reimbursable contracts",
+        "Buyer's Guide",
+        "Cost reimbursable contracts",
+        "Cost audit",
+        "Audit selection"
+      ],
+      "block_count": 2,
+      "word_count": 41,
+      "char_count": 272,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 11,
+      "last_block_index": 12,
+      "preview": "Audit selection You, as the buyer, will select contracts for a cost audit after consultation with the Cost and Profit Assurance Group (CPAG). Selection criteria include all contracts associated with Major Crown projects and if risks of sign",
+      "prev_section_id": "83e2dacce2fc::s004",
+      "next_section_id": "83e2dacce2fc::s006"
+    },
+    {
+      "section_id": "83e2dacce2fc::s006",
+      "parent_section_id": "83e2dacce2fc::s004",
+      "level": 4,
+      "heading": "Documentation submission",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Cost reimbursable contracts",
+        "Buyer's Guide",
+        "Cost reimbursable contracts",
+        "Cost audit",
+        "Documentation submission"
+      ],
+      "block_count": 2,
+      "word_count": 27,
+      "char_count": 167,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 13,
+      "last_block_index": 14,
+      "preview": "Documentation submission You must provide CPAG with a copy of the contract documents and a copy of all cost submissions received for those contracts selected for audit.",
+      "prev_section_id": "83e2dacce2fc::s005",
+      "next_section_id": "83e2dacce2fc::s007"
+    },
+    {
+      "section_id": "83e2dacce2fc::s007",
+      "parent_section_id": "83e2dacce2fc::s004",
+      "level": 4,
+      "heading": "Audit report",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Cost reimbursable contracts",
+        "Buyer's Guide",
+        "Cost reimbursable contracts",
+        "Cost audit",
+        "Audit report"
+      ],
+      "block_count": 2,
+      "word_count": 26,
+      "char_count": 160,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 15,
+      "last_block_index": 16,
+      "preview": "Audit report CPAG will forward to you a copy of the audit report along with an audit notification form outlining any overpayments or comments requiring approval.",
+      "prev_section_id": "83e2dacce2fc::s006",
+      "next_section_id": "83e2dacce2fc::s008"
+    },
+    {
+      "section_id": "83e2dacce2fc::s008",
+      "parent_section_id": "83e2dacce2fc::s004",
+      "level": 4,
+      "heading": "Final price determination",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Cost reimbursable contracts",
+        "Buyer's Guide",
+        "Cost reimbursable contracts",
+        "Cost audit",
+        "Final price determination"
+      ],
+      "block_count": 2,
+      "word_count": 47,
+      "char_count": 276,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 17,
+      "last_block_index": 18,
+      "preview": "Final price determination You will establish a final price with the contractor based on the audit findings. The goal is to finalize this within 90 days of receiving the audit report. You must also inform CPAG of the settlement terms and how",
+      "prev_section_id": "83e2dacce2fc::s007",
+      "next_section_id": "83e2dacce2fc::s009"
+    },
+    {
+      "section_id": "83e2dacce2fc::s009",
+      "parent_section_id": "83e2dacce2fc::s004",
+      "level": 4,
+      "heading": "Certification of final price",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Cost reimbursable contracts",
+        "Buyer's Guide",
+        "Cost reimbursable contracts",
+        "Cost audit",
+        "Certification of final price"
+      ],
+      "block_count": 2,
+      "word_count": 26,
+      "char_count": 160,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 19,
+      "last_block_index": 20,
+      "preview": "Certification of final price Once the contractor agrees with the final price, you must certify that the charged price is reasonable and aligns with the contract.",
+      "prev_section_id": "83e2dacce2fc::s008",
+      "next_section_id": "83e2dacce2fc::s010"
+    },
+    {
+      "section_id": "83e2dacce2fc::s010",
+      "parent_section_id": "83e2dacce2fc::s003",
+      "level": 3,
+      "heading": "Receipt and deposit of monies",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Cost reimbursable contracts",
+        "Buyer's Guide",
+        "Cost reimbursable contracts",
+        "Receipt and deposit of monies"
+      ],
+      "block_count": 4,
+      "word_count": 111,
+      "char_count": 691,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 3,
+      "first_block_index": 21,
+      "last_block_index": 24,
+      "preview": "Receipt and deposit of monies When you receive monies directly from contractors related to claim by Canada, they must be forwarded to the Finance Branch accompanied by a detailed memorandum as outlined in the Directive on Public Money and R",
+      "prev_section_id": "83e2dacce2fc::s009",
+      "next_section_id": null
+    }
+  ],
+  "tables": [],
+  "blocks": [
+    {
+      "block_id": "83e2dacce2fc::b0001",
+      "section_id": "83e2dacce2fc::s001",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Cost reimbursable contracts",
+        "Buyer's Guide Manage payments - Cost reimbursable contracts"
+      ],
+      "markdown": "# Buyer's Guide Manage payments - Cost reimbursable contracts",
+      "plain_text": "Buyer's Guide Manage payments - Cost reimbursable contracts"
+    },
+    {
+      "block_id": "83e2dacce2fc::b0002",
+      "section_id": "83e2dacce2fc::s002",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Cost reimbursable contracts",
+        "Buyer's Guide"
+      ],
+      "markdown": "# Buyer's Guide",
+      "plain_text": "Buyer's Guide"
+    },
+    {
+      "block_id": "83e2dacce2fc::b0003",
+      "section_id": "83e2dacce2fc::s002",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Cost reimbursable contracts",
+        "Buyer's Guide"
+      ],
+      "markdown": "- Plan\n- Approve\n- Create solicitation\n- Solicit\n- Receive and evaluate\n- Negotiate\n- Award\n- Manage",
+      "plain_text": "Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage"
+    },
+    {
+      "block_id": "83e2dacce2fc::b0004",
+      "section_id": "83e2dacce2fc::s003",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Cost reimbursable contracts",
+        "Buyer's Guide",
+        "Cost reimbursable contracts"
+      ],
+      "markdown": "## Cost reimbursable contracts",
+      "plain_text": "Cost reimbursable contracts"
+    },
+    {
+      "block_id": "83e2dacce2fc::b0005",
+      "section_id": "83e2dacce2fc::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Cost reimbursable contracts",
+        "Buyer's Guide",
+        "Cost reimbursable contracts"
+      ],
+      "markdown": "In cost reimbursable contracts, contractors are compensated for costs that are both reasonable and properly incurred in the performance of the work.",
+      "plain_text": "In cost reimbursable contracts, contractors are compensated for costs that are both reasonable and properly incurred in the performance of the work."
+    },
+    {
+      "block_id": "83e2dacce2fc::b0006",
+      "section_id": "83e2dacce2fc::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Cost reimbursable contracts",
+        "Buyer's Guide",
+        "Cost reimbursable contracts"
+      ],
+      "markdown": "Upon completion of the work, on all cost reimbursable contracts meeting the cost threshold, you must place on the procurement file a certification to the effect that the final amount paid represents a reasonable price. This certification should be based on the findings of a cost audit, if one was done.",
+      "plain_text": "Upon completion of the work, on all cost reimbursable contracts meeting the cost threshold, you must place on the procurement file a certification to the effect that the final amount paid represents a reasonable price. This certification should be based on the findings of a cost audit, if one was done."
+    },
+    {
+      "block_id": "83e2dacce2fc::b0007",
+      "section_id": "83e2dacce2fc::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Cost reimbursable contracts",
+        "Buyer's Guide",
+        "Cost reimbursable contracts"
+      ],
+      "markdown": "The agreed final price, after all reconciliations, is then formalized through a contract amendment known as the \"finalization of cost amendment\", which adjusts the total contract price to reflect the final price and specifies that no further claims may be submitted.",
+      "plain_text": "The agreed final price, after all reconciliations, is then formalized through a contract amendment known as the \"finalization of cost amendment\", which adjusts the total contract price to reflect the final price and specifies that no further claims may be submitted."
+    },
+    {
+      "block_id": "83e2dacce2fc::b0008",
+      "section_id": "83e2dacce2fc::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Cost reimbursable contracts",
+        "Buyer's Guide",
+        "Cost reimbursable contracts"
+      ],
+      "markdown": "The audit provision in contracts exceeding $50,000 with Canadian businesses, allows for the determination of the actual costs incurred to determine the final contract cost of cost reimbursable contracts, and if it is reasonable.",
+      "plain_text": "The audit provision in contracts exceeding $50,000 with Canadian businesses, allows for the determination of the actual costs incurred to determine the final contract cost of cost reimbursable contracts, and if it is reasonable."
+    },
+    {
+      "block_id": "83e2dacce2fc::b0009",
+      "section_id": "83e2dacce2fc::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Cost reimbursable contracts",
+        "Buyer's Guide",
+        "Cost reimbursable contracts"
+      ],
+      "markdown": "All cost reimbursable contract require a cost submission at the completion of the contract. All multi-year cost reimbursable contracts, except repair and overhaul services, will include a provision for an annual cost submission as a mandatory deliverable. For repair and overhaul service contracts, an annual cost submission is at your discretion and the audit agency\u2019s.",
+      "plain_text": "All cost reimbursable contract require a cost submission at the completion of the contract. All multi-year cost reimbursable contracts, except repair and overhaul services, will include a provision for an annual cost submission as a mandatory deliverable. For repair and overhaul service contracts, an annual cost submission is at your discretion and the audit agency\u2019s."
+    },
+    {
+      "block_id": "83e2dacce2fc::b0010",
+      "section_id": "83e2dacce2fc::s004",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Cost reimbursable contracts",
+        "Buyer's Guide",
+        "Cost reimbursable contracts",
+        "Cost audit"
+      ],
+      "markdown": "### Cost audit",
+      "plain_text": "Cost audit"
+    },
+    {
+      "block_id": "83e2dacce2fc::b0011",
+      "section_id": "83e2dacce2fc::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Cost reimbursable contracts",
+        "Buyer's Guide",
+        "Cost reimbursable contracts",
+        "Cost audit"
+      ],
+      "markdown": "The process for selecting cost reimbursable contracts for audit involves several key aspects described below.",
+      "plain_text": "The process for selecting cost reimbursable contracts for audit involves several key aspects described below."
+    },
+    {
+      "block_id": "83e2dacce2fc::b0012",
+      "section_id": "83e2dacce2fc::s005",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Cost reimbursable contracts",
+        "Buyer's Guide",
+        "Cost reimbursable contracts",
+        "Cost audit",
+        "Audit selection"
+      ],
+      "markdown": "#### Audit selection",
+      "plain_text": "Audit selection"
+    },
+    {
+      "block_id": "83e2dacce2fc::b0013",
+      "section_id": "83e2dacce2fc::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Cost reimbursable contracts",
+        "Buyer's Guide",
+        "Cost reimbursable contracts",
+        "Cost audit",
+        "Audit selection"
+      ],
+      "markdown": "You, as the buyer, will select contracts for a cost audit after consultation with the Cost and Profit Assurance Group (CPAG). Selection criteria include all contracts associated with Major Crown projects and if risks of significant overpayment are apparent.",
+      "plain_text": "You, as the buyer, will select contracts for a cost audit after consultation with the Cost and Profit Assurance Group (CPAG). Selection criteria include all contracts associated with Major Crown projects and if risks of significant overpayment are apparent."
+    },
+    {
+      "block_id": "83e2dacce2fc::b0014",
+      "section_id": "83e2dacce2fc::s006",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Cost reimbursable contracts",
+        "Buyer's Guide",
+        "Cost reimbursable contracts",
+        "Cost audit",
+        "Documentation submission"
+      ],
+      "markdown": "#### Documentation submission",
+      "plain_text": "Documentation submission"
+    },
+    {
+      "block_id": "83e2dacce2fc::b0015",
+      "section_id": "83e2dacce2fc::s006",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Cost reimbursable contracts",
+        "Buyer's Guide",
+        "Cost reimbursable contracts",
+        "Cost audit",
+        "Documentation submission"
+      ],
+      "markdown": "You must provide CPAG with a copy of the contract documents and a copy of all cost submissions received for those contracts selected for audit.",
+      "plain_text": "You must provide CPAG with a copy of the contract documents and a copy of all cost submissions received for those contracts selected for audit."
+    },
+    {
+      "block_id": "83e2dacce2fc::b0016",
+      "section_id": "83e2dacce2fc::s007",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Cost reimbursable contracts",
+        "Buyer's Guide",
+        "Cost reimbursable contracts",
+        "Cost audit",
+        "Audit report"
+      ],
+      "markdown": "#### Audit report",
+      "plain_text": "Audit report"
+    },
+    {
+      "block_id": "83e2dacce2fc::b0017",
+      "section_id": "83e2dacce2fc::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Cost reimbursable contracts",
+        "Buyer's Guide",
+        "Cost reimbursable contracts",
+        "Cost audit",
+        "Audit report"
+      ],
+      "markdown": "CPAG will forward to you a copy of the audit report along with an audit notification form outlining any overpayments or comments requiring approval.",
+      "plain_text": "CPAG will forward to you a copy of the audit report along with an audit notification form outlining any overpayments or comments requiring approval."
+    },
+    {
+      "block_id": "83e2dacce2fc::b0018",
+      "section_id": "83e2dacce2fc::s008",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Cost reimbursable contracts",
+        "Buyer's Guide",
+        "Cost reimbursable contracts",
+        "Cost audit",
+        "Final price determination"
+      ],
+      "markdown": "#### Final price determination",
+      "plain_text": "Final price determination"
+    },
+    {
+      "block_id": "83e2dacce2fc::b0019",
+      "section_id": "83e2dacce2fc::s008",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Cost reimbursable contracts",
+        "Buyer's Guide",
+        "Cost reimbursable contracts",
+        "Cost audit",
+        "Final price determination"
+      ],
+      "markdown": "You will establish a final price with the contractor based on the audit findings. The goal is to finalize this within 90 days of receiving the audit report. You must also inform CPAG of the settlement terms and how the audit's concerns were addressed.",
+      "plain_text": "You will establish a final price with the contractor based on the audit findings. The goal is to finalize this within 90 days of receiving the audit report. You must also inform CPAG of the settlement terms and how the audit's concerns were addressed."
+    },
+    {
+      "block_id": "83e2dacce2fc::b0020",
+      "section_id": "83e2dacce2fc::s009",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Cost reimbursable contracts",
+        "Buyer's Guide",
+        "Cost reimbursable contracts",
+        "Cost audit",
+        "Certification of final price"
+      ],
+      "markdown": "#### Certification of final price",
+      "plain_text": "Certification of final price"
+    },
+    {
+      "block_id": "83e2dacce2fc::b0021",
+      "section_id": "83e2dacce2fc::s009",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Cost reimbursable contracts",
+        "Buyer's Guide",
+        "Cost reimbursable contracts",
+        "Cost audit",
+        "Certification of final price"
+      ],
+      "markdown": "Once the contractor agrees with the final price, you must certify that the charged price is reasonable and aligns with the contract.",
+      "plain_text": "Once the contractor agrees with the final price, you must certify that the charged price is reasonable and aligns with the contract."
+    },
+    {
+      "block_id": "83e2dacce2fc::b0022",
+      "section_id": "83e2dacce2fc::s010",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Cost reimbursable contracts",
+        "Buyer's Guide",
+        "Cost reimbursable contracts",
+        "Receipt and deposit of monies"
+      ],
+      "markdown": "### Receipt and deposit of monies",
+      "plain_text": "Receipt and deposit of monies"
+    },
+    {
+      "block_id": "83e2dacce2fc::b0023",
+      "section_id": "83e2dacce2fc::s010",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Cost reimbursable contracts",
+        "Buyer's Guide",
+        "Cost reimbursable contracts",
+        "Receipt and deposit of monies"
+      ],
+      "markdown": "When you receive monies directly from contractors related to claim by Canada, they must be forwarded to the Finance Branch accompanied by a detailed memorandum as outlined in the Directive on Public Money and Receivables as noted in section 7 an subsection 9(3) of the Financial Administration Act .",
+      "plain_text": "When you receive monies directly from contractors related to claim by Canada, they must be forwarded to the Finance Branch accompanied by a detailed memorandum as outlined in the Directive on Public Money and Receivables as noted in section 7 an subsection 9(3) of the Financial Administration Act ."
+    },
+    {
+      "block_id": "83e2dacce2fc::b0024",
+      "section_id": "83e2dacce2fc::s010",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Cost reimbursable contracts",
+        "Buyer's Guide",
+        "Cost reimbursable contracts",
+        "Receipt and deposit of monies"
+      ],
+      "markdown": "This memorandum should outline the reason for the payment, include the name of the client, the contract number, and contact details of the responsible buyer with a copy to the client and CPAG .",
+      "plain_text": "This memorandum should outline the reason for the payment, include the name of the client, the contract number, and contact details of the responsible buyer with a copy to the client and CPAG ."
+    },
+    {
+      "block_id": "83e2dacce2fc::b0025",
+      "section_id": "83e2dacce2fc::s010",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage payments - Cost reimbursable contracts",
+        "Buyer's Guide",
+        "Cost reimbursable contracts",
+        "Receipt and deposit of monies"
+      ],
+      "markdown": "Outside the national capital region, the destination for these monies is to the appropriate Procurement Services and Procurement Canada (PSPC) regional director's office.",
+      "plain_text": "Outside the national capital region, the destination for these monies is to the appropriate Procurement Services and Procurement Canada (PSPC) regional director's office."
+    }
+  ]
+}

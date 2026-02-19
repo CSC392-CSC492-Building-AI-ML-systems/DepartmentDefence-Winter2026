@@ -1,0 +1,895 @@
+{
+  "doc_id": "6d3a7c07bb0e",
+  "title": "Buyer's Guide Offer evaluation - Conduct a financial evaluation",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/conduct-financial-evaluation",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/conduct-financial-evaluation",
+  "doc_type": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": "2026-01-31",
+  "fetched_at": "2026-02-19T09:18:46.873254+00:00",
+  "content_hash": "cbcc71b8c0c4c785e259d0381beda4da48b5f21fed0bd4485d8ab7af5871fea5",
+  "word_count": 1836,
+  "text_path": "data/corpus/buyers_guide__en-buyer-s-portal-buyer-s-guide-receive-and-evaluate-offer-evaluation-conduct-financial-evaluation__6d3a7c07bb.md",
+  "extraction_method": "buyers_guide_regions",
+  "breadcrumbs": [
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "https://canadabuys.canada.ca/en",
+      "canonical_url": "https://canadabuys.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "in_scope": true
+    },
+    {
+      "title": "Offer evaluation",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation",
+      "in_scope": true
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation",
+    "parent_doc_id": "312c047b7781",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/conduct-financial-evaluation"
+    ],
+    "lineage_doc_ids": [
+      "1e29c7881335",
+      "312c047b7781",
+      "6d3a7c07bb0e"
+    ],
+    "depth": 2,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-supply-arrangement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review/determine-if-peer-review-required",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review/roles-and-accountabilities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/apply-phased-offer-compliance-process",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/conduct-technical-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/decision-making-and-approvals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/evaluate-offeror-s-financial-capability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/evaluation-process",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/prepare-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/special-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/handle-late-or-delayed-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/handle-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/verify-offers"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review/determine-if-peer-review-required",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review/roles-and-accountabilities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/apply-phased-offer-compliance-process",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/conduct-technical-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/decision-making-and-approvals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/evaluate-offeror-s-financial-capability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/evaluation-process",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/prepare-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/special-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/handle-late-or-delayed-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/handle-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/verify-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure": {
+    "block_count": 37,
+    "section_count": 13,
+    "heading_count": 12,
+    "paragraph_count": 21,
+    "list_count": 4,
+    "table_count": 0
+  },
+  "sections": [
+    {
+      "section_id": "6d3a7c07bb0e::root",
+      "parent_section_id": null,
+      "level": 0,
+      "heading": "Buyer's Guide Offer evaluation - Conduct a financial evaluation",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct a financial evaluation"
+      ],
+      "block_count": 0,
+      "word_count": 0,
+      "char_count": 0,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": null,
+      "last_block_index": null,
+      "preview": "",
+      "prev_section_id": null,
+      "next_section_id": null
+    },
+    {
+      "section_id": "6d3a7c07bb0e::s001",
+      "parent_section_id": "6d3a7c07bb0e::root",
+      "level": 1,
+      "heading": "Buyer's Guide Offer evaluation - Conduct a financial evaluation",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct a financial evaluation",
+        "Buyer's Guide Offer evaluation - Conduct a financial evaluation"
+      ],
+      "block_count": 1,
+      "word_count": 9,
+      "char_count": 63,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 0,
+      "last_block_index": 0,
+      "preview": "Buyer's Guide Offer evaluation - Conduct a financial evaluation",
+      "prev_section_id": null,
+      "next_section_id": "6d3a7c07bb0e::s002"
+    },
+    {
+      "section_id": "6d3a7c07bb0e::s002",
+      "parent_section_id": "6d3a7c07bb0e::root",
+      "level": 1,
+      "heading": "Buyer's Guide",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct a financial evaluation",
+        "Buyer's Guide"
+      ],
+      "block_count": 3,
+      "word_count": 922,
+      "char_count": 5721,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 1,
+      "last_block_index": 3,
+      "preview": "Buyer's Guide Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage Conduct a financial evaluation As a buyer you are responsible for conducting the financial evaluation of the offer. The pricing",
+      "prev_section_id": "6d3a7c07bb0e::s001",
+      "next_section_id": "6d3a7c07bb0e::s003"
+    },
+    {
+      "section_id": "6d3a7c07bb0e::s003",
+      "parent_section_id": "6d3a7c07bb0e::s002",
+      "level": 2,
+      "heading": "Conduct a financial evaluation",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct a financial evaluation",
+        "Buyer's Guide",
+        "Conduct a financial evaluation"
+      ],
+      "block_count": 8,
+      "word_count": 205,
+      "char_count": 1353,
+      "table_count": 0,
+      "list_count": 2,
+      "paragraph_count": 5,
+      "first_block_index": 4,
+      "last_block_index": 11,
+      "preview": "Conduct a financial evaluation As a buyer you are responsible for conducting the financial evaluation of the offer. The pricing information must not be provided to the client until after the technical evaluation has been completed to ensure",
+      "prev_section_id": "6d3a7c07bb0e::s002",
+      "next_section_id": "6d3a7c07bb0e::s004"
+    },
+    {
+      "section_id": "6d3a7c07bb0e::s004",
+      "parent_section_id": "6d3a7c07bb0e::s003",
+      "level": 3,
+      "heading": "Identical low offers: best value",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct a financial evaluation",
+        "Buyer's Guide",
+        "Conduct a financial evaluation",
+        "Identical low offers: best value"
+      ],
+      "block_count": 3,
+      "word_count": 92,
+      "char_count": 558,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 2,
+      "first_block_index": 12,
+      "last_block_index": 14,
+      "preview": "Identical low offers: best value If identical low offers are received, the contract should be awarded on the basis of best value. The factors below should be used subject to directives on national policies and objectives that may be issued.",
+      "prev_section_id": "6d3a7c07bb0e::s003",
+      "next_section_id": "6d3a7c07bb0e::s005"
+    },
+    {
+      "section_id": "6d3a7c07bb0e::s005",
+      "parent_section_id": "6d3a7c07bb0e::s004",
+      "level": 4,
+      "heading": "Performance record",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct a financial evaluation",
+        "Buyer's Guide",
+        "Conduct a financial evaluation",
+        "Identical low offers: best value",
+        "Performance record"
+      ],
+      "block_count": 2,
+      "word_count": 20,
+      "char_count": 141,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 15,
+      "last_block_index": 16,
+      "preview": "Performance record Preference is given to the offeror with a proven satisfactory performance record over those with less satisfactory records.",
+      "prev_section_id": "6d3a7c07bb0e::s004",
+      "next_section_id": "6d3a7c07bb0e::s006"
+    },
+    {
+      "section_id": "6d3a7c07bb0e::s006",
+      "parent_section_id": "6d3a7c07bb0e::s004",
+      "level": 4,
+      "heading": "After-sales service",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct a financial evaluation",
+        "Buyer's Guide",
+        "Conduct a financial evaluation",
+        "Identical low offers: best value",
+        "After-sales service"
+      ],
+      "block_count": 2,
+      "word_count": 21,
+      "char_count": 162,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 17,
+      "last_block_index": 18,
+      "preview": "After-sales service Offerors capable of providing adequate after-sales service are favored over those with inadequate service capabilities or poor service records.",
+      "prev_section_id": "6d3a7c07bb0e::s005",
+      "next_section_id": "6d3a7c07bb0e::s007"
+    },
+    {
+      "section_id": "6d3a7c07bb0e::s007",
+      "parent_section_id": "6d3a7c07bb0e::s004",
+      "level": 4,
+      "heading": "Delivery timeliness",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct a financial evaluation",
+        "Buyer's Guide",
+        "Conduct a financial evaluation",
+        "Identical low offers: best value",
+        "Delivery timeliness"
+      ],
+      "block_count": 2,
+      "word_count": 20,
+      "char_count": 125,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 19,
+      "last_block_index": 20,
+      "preview": "Delivery timeliness When delivery is an important factor, preference should be given to the offer with the best delivery date.",
+      "prev_section_id": "6d3a7c07bb0e::s006",
+      "next_section_id": "6d3a7c07bb0e::s008"
+    },
+    {
+      "section_id": "6d3a7c07bb0e::s008",
+      "parent_section_id": "6d3a7c07bb0e::s004",
+      "level": 4,
+      "heading": "Value of offers on multiple items",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct a financial evaluation",
+        "Buyer's Guide",
+        "Conduct a financial evaluation",
+        "Identical low offers: best value",
+        "Value of offers on multiple items"
+      ],
+      "block_count": 2,
+      "word_count": 84,
+      "char_count": 469,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 21,
+      "last_block_index": 22,
+      "preview": "Value of offers on multiple items When there are several items included in the offer and only some items are priced identically, the offer with the best value should be given preference. When multiple items are included in the offer and one",
+      "prev_section_id": "6d3a7c07bb0e::s007",
+      "next_section_id": "6d3a7c07bb0e::s009"
+    },
+    {
+      "section_id": "6d3a7c07bb0e::s009",
+      "parent_section_id": "6d3a7c07bb0e::s004",
+      "level": 4,
+      "heading": "Exchange rate risk",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct a financial evaluation",
+        "Buyer's Guide",
+        "Conduct a financial evaluation",
+        "Identical low offers: best value",
+        "Exchange rate risk"
+      ],
+      "block_count": 2,
+      "word_count": 80,
+      "char_count": 458,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 23,
+      "last_block_index": 24,
+      "preview": "Exchange rate risk If there are two (or more) identical offers and the offer selected would still be considered the most advantageous to Canada, preference should be given to an offeror who assumes all or part of the exchange rate adjustmen",
+      "prev_section_id": "6d3a7c07bb0e::s008",
+      "next_section_id": "6d3a7c07bb0e::s010"
+    },
+    {
+      "section_id": "6d3a7c07bb0e::s010",
+      "parent_section_id": "6d3a7c07bb0e::s003",
+      "level": 3,
+      "heading": "Provincial taxes",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct a financial evaluation",
+        "Buyer's Guide",
+        "Conduct a financial evaluation",
+        "Provincial taxes"
+      ],
+      "block_count": 3,
+      "word_count": 70,
+      "char_count": 435,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 2,
+      "first_block_index": 25,
+      "last_block_index": 27,
+      "preview": "Provincial taxes Except as provided by law, departments and agencies are not required to pay any provincial sales tax (PST) payable to the province in which the taxable goods or services are delivered, except for reimbursement of actual cos",
+      "prev_section_id": "6d3a7c07bb0e::s009",
+      "next_section_id": "6d3a7c07bb0e::s011"
+    },
+    {
+      "section_id": "6d3a7c07bb0e::s011",
+      "parent_section_id": "6d3a7c07bb0e::s003",
+      "level": 3,
+      "heading": "Foreign taxes and Canadian customs duties",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct a financial evaluation",
+        "Buyer's Guide",
+        "Conduct a financial evaluation",
+        "Foreign taxes and Canadian customs duties"
+      ],
+      "block_count": 6,
+      "word_count": 244,
+      "char_count": 1446,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 4,
+      "first_block_index": 28,
+      "last_block_index": 33,
+      "preview": "Foreign taxes and Canadian customs duties Customs duties must be considered in the evaluation of offers when offers are received from both Canadian-based and foreign-based offerors, since foreign-based offerors exclude duties in their offer",
+      "prev_section_id": "6d3a7c07bb0e::s010",
+      "next_section_id": "6d3a7c07bb0e::s012"
+    },
+    {
+      "section_id": "6d3a7c07bb0e::s012",
+      "parent_section_id": "6d3a7c07bb0e::s003",
+      "level": 3,
+      "heading": "Offers in foreign currency",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct a financial evaluation",
+        "Buyer's Guide",
+        "Conduct a financial evaluation",
+        "Offers in foreign currency"
+      ],
+      "block_count": 3,
+      "word_count": 69,
+      "char_count": 437,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 2,
+      "first_block_index": 34,
+      "last_block_index": 36,
+      "preview": "Offers in foreign currency Unless the solicitation of offers specifically requires offers be made in Canadian currency, offers submitted in foreign currency must be converted to Canadian currency for evaluation. The Bank of Canada rate publ",
+      "prev_section_id": "6d3a7c07bb0e::s011",
+      "next_section_id": null
+    }
+  ],
+  "tables": [],
+  "blocks": [
+    {
+      "block_id": "6d3a7c07bb0e::b0001",
+      "section_id": "6d3a7c07bb0e::s001",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct a financial evaluation",
+        "Buyer's Guide Offer evaluation - Conduct a financial evaluation"
+      ],
+      "markdown": "# Buyer's Guide Offer evaluation - Conduct a financial evaluation",
+      "plain_text": "Buyer's Guide Offer evaluation - Conduct a financial evaluation"
+    },
+    {
+      "block_id": "6d3a7c07bb0e::b0002",
+      "section_id": "6d3a7c07bb0e::s002",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct a financial evaluation",
+        "Buyer's Guide"
+      ],
+      "markdown": "# Buyer's Guide",
+      "plain_text": "Buyer's Guide"
+    },
+    {
+      "block_id": "6d3a7c07bb0e::b0003",
+      "section_id": "6d3a7c07bb0e::s002",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct a financial evaluation",
+        "Buyer's Guide"
+      ],
+      "markdown": "- Plan\n- Approve\n- Create solicitation\n- Solicit\n- Receive and evaluate\n- Negotiate\n- Award\n- Manage",
+      "plain_text": "Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage"
+    },
+    {
+      "block_id": "6d3a7c07bb0e::b0004",
+      "section_id": "6d3a7c07bb0e::s002",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct a financial evaluation",
+        "Buyer's Guide"
+      ],
+      "markdown": "Conduct a financial evaluation As a buyer you are responsible for conducting the financial evaluation of the offer. The pricing information must not be provided to the client until after the technical evaluation has been completed to ensure the integrity of the procurement process. You conduct the financial evaluation of the offer after the technical evaluation, focusing on the cost implications of the offers remaining under consideration. This stage tries to identify the offer that presents the best value, considering the price and the technical merits evaluated in the previous step. To ensure an appropriate level of checks and balances and that offers are properly ranked in terms of price and in accordance with the solicitation of offers, more than one buyer must be involved in the financial evaluation of offers in the following circumstances: competitive procurements requiring contract entry approval of the Minister, the Assistant Deputy Minister (ADM) or Treasury Board procurements consider sensitive or high-risk You should also consider having more than one buyer involved in the financial evaluation of offers when: complex calculations or extensive computation are required Standing Offers (SO) and Supply Arrangements (SA) require ADM approval Everyone involved in evaluating offer pricing must sign the financial evaluation report. Identical low offers: best value If identical low offers are received, the contract should be awarded on the basis of best value. The factors below should be used subject to directives on national policies and objectives that may be issued. The criteria may be weighted as considered appropriate. Alternatively, if none of the criteria below apply, a method of tie-breaking that is mutually acceptable to Canada and the offerors can be used. As an example, a simple coin toss could be agreed upon. The mutually agreed upon solution should involve legal advice. Performance record Preference is given to the offeror with a proven satisfactory performance record over those with less satisfactory records. After-sales service Offerors capable of providing adequate after-sales service are favored over those with inadequate service capabilities or poor service records. Delivery timeliness When delivery is an important factor, preference should be given to the offer with the best delivery date. Value of offers on multiple items When there are several items included in the offer and only some items are priced identically, the offer with the best value should be given preference. When multiple items are included in the offer and one or more offerors provide a lower price on one or more of the items, preference should be given to the lowest offeror with the best value. This applies to both items where prices are equal and items where lower prices are offered. Exchange rate risk If there are two (or more) identical offers and the offer selected would still be considered the most advantageous to Canada, preference should be given to an offeror who assumes all or part of the exchange rate adjustment risk over an offeror who does not assume any of this risk. Furthermore, preference should be given to an offeror who assumes all of the exchange rate adjustment risk over an offeror who assumes only part of this risk. Provincial taxes Except as provided by law, departments and agencies are not required to pay any provincial sales tax (PST) payable to the province in which the taxable goods or services are delivered, except for reimbursement of actual costs which include PST . For example, PST on actual travel and living expenses incurred during the performance of the contract. Federal departments are required to pay the Harmonized Sales Tax (HST). Foreign taxes and Canadian customs duties Customs duties must be considered in the evaluation of offers when offers are received from both Canadian-based and foreign-based offerors, since foreign-based offerors exclude duties in their offer. When rates of duties or exemption status need to be verified, you may: obtain from the client the information on the rate of duty applicable to the goods being imported and add the estimated amount of duties to the price quoted by the foreign-based offeror verify with the Canada Border Services Agency (CBSA) the application of customs duty to the goods being imported The tariff and value administrator at CBSA will provide a written ruling on any request for rate of duty, tariff classification, or customs value. Importers or their agents who want a written ruling must send their request to the nearest CBSA office. You are responsible for verifying the application of excise taxes and the amount and specific rate(s) set out in the offer. You must evaluate offers exclusive of the Goods and Services Tax (GST) or the HST as applicable. For the list of goods on which excise tax is payable, you may refer to the section in this guide on Excise tax . Clients may be entitled to exemption from taxes or duties. In these cases, clients should refer to a certificate of exemption or remission or drawback Order in Council. Issues relating to such remissions should be resolved between the client and CBSA . Offers in foreign currency Unless the solicitation of offers specifically requires offers be made in Canadian currency, offers submitted in foreign currency must be converted to Canadian currency for evaluation. The Bank of Canada rate published by 16:30hrs ET on the solicitation of offers closing date, or on another date specified in the solicitation of offers, must be applied as a conversion factor to offers made in foreign currency.",
+      "plain_text": "Conduct a financial evaluation As a buyer you are responsible for conducting the financial evaluation of the offer. The pricing information must not be provided to the client until after the technical evaluation has been completed to ensure the integrity of the procurement process. You conduct the financial evaluation of the offer after the technical evaluation, focusing on the cost implications of the offers remaining under consideration. This stage tries to identify the offer that presents the best value, considering the price and the technical merits evaluated in the previous step. To ensure an appropriate level of checks and balances and that offers are properly ranked in terms of price and in accordance with the solicitation of offers, more than one buyer must be involved in the financial evaluation of offers in the following circumstances: competitive procurements requiring contract entry approval of the Minister, the Assistant Deputy Minister (ADM) or Treasury Board procurements consider sensitive or high-risk You should also consider having more than one buyer involved in the financial evaluation of offers when: complex calculations or extensive computation are required Standing Offers (SO) and Supply Arrangements (SA) require ADM approval Everyone involved in evaluating offer pricing must sign the financial evaluation report. Identical low offers: best value If identical low offers are received, the contract should be awarded on the basis of best value. The factors below should be used subject to directives on national policies and objectives that may be issued. The criteria may be weighted as considered appropriate. Alternatively, if none of the criteria below apply, a method of tie-breaking that is mutually acceptable to Canada and the offerors can be used. As an example, a simple coin toss could be agreed upon. The mutually agreed upon solution should involve legal advice. Performance record Preference is given to the offeror with a proven satisfactory performance record over those with less satisfactory records. After-sales service Offerors capable of providing adequate after-sales service are favored over those with inadequate service capabilities or poor service records. Delivery timeliness When delivery is an important factor, preference should be given to the offer with the best delivery date. Value of offers on multiple items When there are several items included in the offer and only some items are priced identically, the offer with the best value should be given preference. When multiple items are included in the offer and one or more offerors provide a lower price on one or more of the items, preference should be given to the lowest offeror with the best value. This applies to both items where prices are equal and items where lower prices are offered. Exchange rate risk If there are two (or more) identical offers and the offer selected would still be considered the most advantageous to Canada, preference should be given to an offeror who assumes all or part of the exchange rate adjustment risk over an offeror who does not assume any of this risk. Furthermore, preference should be given to an offeror who assumes all of the exchange rate adjustment risk over an offeror who assumes only part of this risk. Provincial taxes Except as provided by law, departments and agencies are not required to pay any provincial sales tax (PST) payable to the province in which the taxable goods or services are delivered, except for reimbursement of actual costs which include PST . For example, PST on actual travel and living expenses incurred during the performance of the contract. Federal departments are required to pay the Harmonized Sales Tax (HST). Foreign taxes and Canadian customs duties Customs duties must be considered in the evaluation of offers when offers are received from both Canadian-based and foreign-based offerors, since foreign-based offerors exclude duties in their offer. When rates of duties or exemption status need to be verified, you may: obtain from the client the information on the rate of duty applicable to the goods being imported and add the estimated amount of duties to the price quoted by the foreign-based offeror verify with the Canada Border Services Agency (CBSA) the application of customs duty to the goods being imported The tariff and value administrator at CBSA will provide a written ruling on any request for rate of duty, tariff classification, or customs value. Importers or their agents who want a written ruling must send their request to the nearest CBSA office. You are responsible for verifying the application of excise taxes and the amount and specific rate(s) set out in the offer. You must evaluate offers exclusive of the Goods and Services Tax (GST) or the HST as applicable. For the list of goods on which excise tax is payable, you may refer to the section in this guide on Excise tax . Clients may be entitled to exemption from taxes or duties. In these cases, clients should refer to a certificate of exemption or remission or drawback Order in Council. Issues relating to such remissions should be resolved between the client and CBSA . Offers in foreign currency Unless the solicitation of offers specifically requires offers be made in Canadian currency, offers submitted in foreign currency must be converted to Canadian currency for evaluation. The Bank of Canada rate published by 16:30hrs ET on the solicitation of offers closing date, or on another date specified in the solicitation of offers, must be applied as a conversion factor to offers made in foreign currency."
+    },
+    {
+      "block_id": "6d3a7c07bb0e::b0005",
+      "section_id": "6d3a7c07bb0e::s003",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct a financial evaluation",
+        "Buyer's Guide",
+        "Conduct a financial evaluation"
+      ],
+      "markdown": "## Conduct a financial evaluation",
+      "plain_text": "Conduct a financial evaluation"
+    },
+    {
+      "block_id": "6d3a7c07bb0e::b0006",
+      "section_id": "6d3a7c07bb0e::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct a financial evaluation",
+        "Buyer's Guide",
+        "Conduct a financial evaluation"
+      ],
+      "markdown": "As a buyer you are responsible for conducting the financial evaluation of the offer. The pricing information must not be provided to the client until after the technical evaluation has been completed to ensure the integrity of the procurement process.",
+      "plain_text": "As a buyer you are responsible for conducting the financial evaluation of the offer. The pricing information must not be provided to the client until after the technical evaluation has been completed to ensure the integrity of the procurement process."
+    },
+    {
+      "block_id": "6d3a7c07bb0e::b0007",
+      "section_id": "6d3a7c07bb0e::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct a financial evaluation",
+        "Buyer's Guide",
+        "Conduct a financial evaluation"
+      ],
+      "markdown": "You conduct the financial evaluation of the offer after the technical evaluation, focusing on the cost implications of the offers remaining under consideration. This stage tries to identify the offer that presents the best value, considering the price and the technical merits evaluated in the previous step.",
+      "plain_text": "You conduct the financial evaluation of the offer after the technical evaluation, focusing on the cost implications of the offers remaining under consideration. This stage tries to identify the offer that presents the best value, considering the price and the technical merits evaluated in the previous step."
+    },
+    {
+      "block_id": "6d3a7c07bb0e::b0008",
+      "section_id": "6d3a7c07bb0e::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct a financial evaluation",
+        "Buyer's Guide",
+        "Conduct a financial evaluation"
+      ],
+      "markdown": "To ensure an appropriate level of checks and balances and that offers are properly ranked in terms of price and in accordance with the solicitation of offers, more than one buyer must be involved in the financial evaluation of offers in the following circumstances:",
+      "plain_text": "To ensure an appropriate level of checks and balances and that offers are properly ranked in terms of price and in accordance with the solicitation of offers, more than one buyer must be involved in the financial evaluation of offers in the following circumstances:"
+    },
+    {
+      "block_id": "6d3a7c07bb0e::b0009",
+      "section_id": "6d3a7c07bb0e::s003",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct a financial evaluation",
+        "Buyer's Guide",
+        "Conduct a financial evaluation"
+      ],
+      "markdown": "- competitive procurements requiring contract entry approval of the Minister, the Assistant Deputy Minister (ADM) or Treasury Board\n- procurements consider sensitive or high-risk",
+      "plain_text": "competitive procurements requiring contract entry approval of the Minister, the Assistant Deputy Minister (ADM) or Treasury Board ; procurements consider sensitive or high-risk"
+    },
+    {
+      "block_id": "6d3a7c07bb0e::b0010",
+      "section_id": "6d3a7c07bb0e::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct a financial evaluation",
+        "Buyer's Guide",
+        "Conduct a financial evaluation"
+      ],
+      "markdown": "You should also consider having more than one buyer involved in the financial evaluation of offers when:",
+      "plain_text": "You should also consider having more than one buyer involved in the financial evaluation of offers when:"
+    },
+    {
+      "block_id": "6d3a7c07bb0e::b0011",
+      "section_id": "6d3a7c07bb0e::s003",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct a financial evaluation",
+        "Buyer's Guide",
+        "Conduct a financial evaluation"
+      ],
+      "markdown": "- complex calculations or extensive computation are required\n- Standing Offers (SO) and Supply Arrangements (SA) require ADM approval",
+      "plain_text": "complex calculations or extensive computation are required ; Standing Offers (SO) and Supply Arrangements (SA) require ADM approval"
+    },
+    {
+      "block_id": "6d3a7c07bb0e::b0012",
+      "section_id": "6d3a7c07bb0e::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct a financial evaluation",
+        "Buyer's Guide",
+        "Conduct a financial evaluation"
+      ],
+      "markdown": "Everyone involved in evaluating offer pricing must sign the financial evaluation report.",
+      "plain_text": "Everyone involved in evaluating offer pricing must sign the financial evaluation report."
+    },
+    {
+      "block_id": "6d3a7c07bb0e::b0013",
+      "section_id": "6d3a7c07bb0e::s004",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct a financial evaluation",
+        "Buyer's Guide",
+        "Conduct a financial evaluation",
+        "Identical low offers: best value"
+      ],
+      "markdown": "### Identical low offers: best value",
+      "plain_text": "Identical low offers: best value"
+    },
+    {
+      "block_id": "6d3a7c07bb0e::b0014",
+      "section_id": "6d3a7c07bb0e::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct a financial evaluation",
+        "Buyer's Guide",
+        "Conduct a financial evaluation",
+        "Identical low offers: best value"
+      ],
+      "markdown": "If identical low offers are received, the contract should be awarded on the basis of best value. The factors below should be used subject to directives on national policies and objectives that may be issued. The criteria may be weighted as considered appropriate.",
+      "plain_text": "If identical low offers are received, the contract should be awarded on the basis of best value. The factors below should be used subject to directives on national policies and objectives that may be issued. The criteria may be weighted as considered appropriate."
+    },
+    {
+      "block_id": "6d3a7c07bb0e::b0015",
+      "section_id": "6d3a7c07bb0e::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct a financial evaluation",
+        "Buyer's Guide",
+        "Conduct a financial evaluation",
+        "Identical low offers: best value"
+      ],
+      "markdown": "Alternatively, if none of the criteria below apply, a method of tie-breaking that is mutually acceptable to Canada and the offerors can be used. As an example, a simple coin toss could be agreed upon. The mutually agreed upon solution should involve legal advice.",
+      "plain_text": "Alternatively, if none of the criteria below apply, a method of tie-breaking that is mutually acceptable to Canada and the offerors can be used. As an example, a simple coin toss could be agreed upon. The mutually agreed upon solution should involve legal advice."
+    },
+    {
+      "block_id": "6d3a7c07bb0e::b0016",
+      "section_id": "6d3a7c07bb0e::s005",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct a financial evaluation",
+        "Buyer's Guide",
+        "Conduct a financial evaluation",
+        "Identical low offers: best value",
+        "Performance record"
+      ],
+      "markdown": "#### Performance record",
+      "plain_text": "Performance record"
+    },
+    {
+      "block_id": "6d3a7c07bb0e::b0017",
+      "section_id": "6d3a7c07bb0e::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct a financial evaluation",
+        "Buyer's Guide",
+        "Conduct a financial evaluation",
+        "Identical low offers: best value",
+        "Performance record"
+      ],
+      "markdown": "Preference is given to the offeror with a proven satisfactory performance record over those with less satisfactory records.",
+      "plain_text": "Preference is given to the offeror with a proven satisfactory performance record over those with less satisfactory records."
+    },
+    {
+      "block_id": "6d3a7c07bb0e::b0018",
+      "section_id": "6d3a7c07bb0e::s006",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct a financial evaluation",
+        "Buyer's Guide",
+        "Conduct a financial evaluation",
+        "Identical low offers: best value",
+        "After-sales service"
+      ],
+      "markdown": "#### After-sales service",
+      "plain_text": "After-sales service"
+    },
+    {
+      "block_id": "6d3a7c07bb0e::b0019",
+      "section_id": "6d3a7c07bb0e::s006",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct a financial evaluation",
+        "Buyer's Guide",
+        "Conduct a financial evaluation",
+        "Identical low offers: best value",
+        "After-sales service"
+      ],
+      "markdown": "Offerors capable of providing adequate after-sales service are favored over those with inadequate service capabilities or poor service records.",
+      "plain_text": "Offerors capable of providing adequate after-sales service are favored over those with inadequate service capabilities or poor service records."
+    },
+    {
+      "block_id": "6d3a7c07bb0e::b0020",
+      "section_id": "6d3a7c07bb0e::s007",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct a financial evaluation",
+        "Buyer's Guide",
+        "Conduct a financial evaluation",
+        "Identical low offers: best value",
+        "Delivery timeliness"
+      ],
+      "markdown": "#### Delivery timeliness",
+      "plain_text": "Delivery timeliness"
+    },
+    {
+      "block_id": "6d3a7c07bb0e::b0021",
+      "section_id": "6d3a7c07bb0e::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct a financial evaluation",
+        "Buyer's Guide",
+        "Conduct a financial evaluation",
+        "Identical low offers: best value",
+        "Delivery timeliness"
+      ],
+      "markdown": "When delivery is an important factor, preference should be given to the offer with the best delivery date.",
+      "plain_text": "When delivery is an important factor, preference should be given to the offer with the best delivery date."
+    },
+    {
+      "block_id": "6d3a7c07bb0e::b0022",
+      "section_id": "6d3a7c07bb0e::s008",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct a financial evaluation",
+        "Buyer's Guide",
+        "Conduct a financial evaluation",
+        "Identical low offers: best value",
+        "Value of offers on multiple items"
+      ],
+      "markdown": "#### Value of offers on multiple items",
+      "plain_text": "Value of offers on multiple items"
+    },
+    {
+      "block_id": "6d3a7c07bb0e::b0023",
+      "section_id": "6d3a7c07bb0e::s008",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct a financial evaluation",
+        "Buyer's Guide",
+        "Conduct a financial evaluation",
+        "Identical low offers: best value",
+        "Value of offers on multiple items"
+      ],
+      "markdown": "When there are several items included in the offer and only some items are priced identically, the offer with the best value should be given preference. When multiple items are included in the offer and one or more offerors provide a lower price on one or more of the items, preference should be given to the lowest offeror with the best value. This applies to both items where prices are equal and items where lower prices are offered.",
+      "plain_text": "When there are several items included in the offer and only some items are priced identically, the offer with the best value should be given preference. When multiple items are included in the offer and one or more offerors provide a lower price on one or more of the items, preference should be given to the lowest offeror with the best value. This applies to both items where prices are equal and items where lower prices are offered."
+    },
+    {
+      "block_id": "6d3a7c07bb0e::b0024",
+      "section_id": "6d3a7c07bb0e::s009",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct a financial evaluation",
+        "Buyer's Guide",
+        "Conduct a financial evaluation",
+        "Identical low offers: best value",
+        "Exchange rate risk"
+      ],
+      "markdown": "#### Exchange rate risk",
+      "plain_text": "Exchange rate risk"
+    },
+    {
+      "block_id": "6d3a7c07bb0e::b0025",
+      "section_id": "6d3a7c07bb0e::s009",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct a financial evaluation",
+        "Buyer's Guide",
+        "Conduct a financial evaluation",
+        "Identical low offers: best value",
+        "Exchange rate risk"
+      ],
+      "markdown": "If there are two (or more) identical offers and the offer selected would still be considered the most advantageous to Canada, preference should be given to an offeror who assumes all or part of the exchange rate adjustment risk over an offeror who does not assume any of this risk. Furthermore, preference should be given to an offeror who assumes all of the exchange rate adjustment risk over an offeror who assumes only part of this risk.",
+      "plain_text": "If there are two (or more) identical offers and the offer selected would still be considered the most advantageous to Canada, preference should be given to an offeror who assumes all or part of the exchange rate adjustment risk over an offeror who does not assume any of this risk. Furthermore, preference should be given to an offeror who assumes all of the exchange rate adjustment risk over an offeror who assumes only part of this risk."
+    },
+    {
+      "block_id": "6d3a7c07bb0e::b0026",
+      "section_id": "6d3a7c07bb0e::s010",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct a financial evaluation",
+        "Buyer's Guide",
+        "Conduct a financial evaluation",
+        "Provincial taxes"
+      ],
+      "markdown": "### Provincial taxes",
+      "plain_text": "Provincial taxes"
+    },
+    {
+      "block_id": "6d3a7c07bb0e::b0027",
+      "section_id": "6d3a7c07bb0e::s010",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct a financial evaluation",
+        "Buyer's Guide",
+        "Conduct a financial evaluation",
+        "Provincial taxes"
+      ],
+      "markdown": "Except as provided by law, departments and agencies are not required to pay any provincial sales tax (PST) payable to the province in which the taxable goods or services are delivered, except for reimbursement of actual costs which include PST . For example, PST on actual travel and living expenses incurred during the performance of the contract.",
+      "plain_text": "Except as provided by law, departments and agencies are not required to pay any provincial sales tax (PST) payable to the province in which the taxable goods or services are delivered, except for reimbursement of actual costs which include PST . For example, PST on actual travel and living expenses incurred during the performance of the contract."
+    },
+    {
+      "block_id": "6d3a7c07bb0e::b0028",
+      "section_id": "6d3a7c07bb0e::s010",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct a financial evaluation",
+        "Buyer's Guide",
+        "Conduct a financial evaluation",
+        "Provincial taxes"
+      ],
+      "markdown": "Federal departments are required to pay the Harmonized Sales Tax (HST).",
+      "plain_text": "Federal departments are required to pay the Harmonized Sales Tax (HST)."
+    },
+    {
+      "block_id": "6d3a7c07bb0e::b0029",
+      "section_id": "6d3a7c07bb0e::s011",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct a financial evaluation",
+        "Buyer's Guide",
+        "Conduct a financial evaluation",
+        "Foreign taxes and Canadian customs duties"
+      ],
+      "markdown": "### Foreign taxes and Canadian customs duties",
+      "plain_text": "Foreign taxes and Canadian customs duties"
+    },
+    {
+      "block_id": "6d3a7c07bb0e::b0030",
+      "section_id": "6d3a7c07bb0e::s011",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct a financial evaluation",
+        "Buyer's Guide",
+        "Conduct a financial evaluation",
+        "Foreign taxes and Canadian customs duties"
+      ],
+      "markdown": "Customs duties must be considered in the evaluation of offers when offers are received from both Canadian-based and foreign-based offerors, since foreign-based offerors exclude duties in their offer. When rates of duties or exemption status need to be verified, you may:",
+      "plain_text": "Customs duties must be considered in the evaluation of offers when offers are received from both Canadian-based and foreign-based offerors, since foreign-based offerors exclude duties in their offer. When rates of duties or exemption status need to be verified, you may:"
+    },
+    {
+      "block_id": "6d3a7c07bb0e::b0031",
+      "section_id": "6d3a7c07bb0e::s011",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct a financial evaluation",
+        "Buyer's Guide",
+        "Conduct a financial evaluation",
+        "Foreign taxes and Canadian customs duties"
+      ],
+      "markdown": "- obtain from the client the information on the rate of duty applicable to the goods being imported and add the estimated amount of duties to the price quoted by the foreign-based offeror\n- verify with the Canada Border Services Agency (CBSA) the application of customs duty to the goods being imported",
+      "plain_text": "obtain from the client the information on the rate of duty applicable to the goods being imported and add the estimated amount of duties to the price quoted by the foreign-based offeror ; verify with the Canada Border Services Agency (CBSA) the application of customs duty to the goods being imported"
+    },
+    {
+      "block_id": "6d3a7c07bb0e::b0032",
+      "section_id": "6d3a7c07bb0e::s011",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct a financial evaluation",
+        "Buyer's Guide",
+        "Conduct a financial evaluation",
+        "Foreign taxes and Canadian customs duties"
+      ],
+      "markdown": "The tariff and value administrator at CBSA will provide a written ruling on any request for rate of duty, tariff classification, or customs value. Importers or their agents who want a written ruling must send their request to the nearest CBSA office.",
+      "plain_text": "The tariff and value administrator at CBSA will provide a written ruling on any request for rate of duty, tariff classification, or customs value. Importers or their agents who want a written ruling must send their request to the nearest CBSA office."
+    },
+    {
+      "block_id": "6d3a7c07bb0e::b0033",
+      "section_id": "6d3a7c07bb0e::s011",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct a financial evaluation",
+        "Buyer's Guide",
+        "Conduct a financial evaluation",
+        "Foreign taxes and Canadian customs duties"
+      ],
+      "markdown": "You are responsible for verifying the application of excise taxes and the amount and specific rate(s) set out in the offer. You must evaluate offers exclusive of the Goods and Services Tax (GST) or the HST as applicable. For the list of goods on which excise tax is payable, you may refer to the section in this guide on Excise tax .",
+      "plain_text": "You are responsible for verifying the application of excise taxes and the amount and specific rate(s) set out in the offer. You must evaluate offers exclusive of the Goods and Services Tax (GST) or the HST as applicable. For the list of goods on which excise tax is payable, you may refer to the section in this guide on Excise tax ."
+    },
+    {
+      "block_id": "6d3a7c07bb0e::b0034",
+      "section_id": "6d3a7c07bb0e::s011",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct a financial evaluation",
+        "Buyer's Guide",
+        "Conduct a financial evaluation",
+        "Foreign taxes and Canadian customs duties"
+      ],
+      "markdown": "Clients may be entitled to exemption from taxes or duties. In these cases, clients should refer to a certificate of exemption or remission or drawback Order in Council. Issues relating to such remissions should be resolved between the client and CBSA .",
+      "plain_text": "Clients may be entitled to exemption from taxes or duties. In these cases, clients should refer to a certificate of exemption or remission or drawback Order in Council. Issues relating to such remissions should be resolved between the client and CBSA ."
+    },
+    {
+      "block_id": "6d3a7c07bb0e::b0035",
+      "section_id": "6d3a7c07bb0e::s012",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct a financial evaluation",
+        "Buyer's Guide",
+        "Conduct a financial evaluation",
+        "Offers in foreign currency"
+      ],
+      "markdown": "### Offers in foreign currency",
+      "plain_text": "Offers in foreign currency"
+    },
+    {
+      "block_id": "6d3a7c07bb0e::b0036",
+      "section_id": "6d3a7c07bb0e::s012",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct a financial evaluation",
+        "Buyer's Guide",
+        "Conduct a financial evaluation",
+        "Offers in foreign currency"
+      ],
+      "markdown": "Unless the solicitation of offers specifically requires offers be made in Canadian currency, offers submitted in foreign currency must be converted to Canadian currency for evaluation.",
+      "plain_text": "Unless the solicitation of offers specifically requires offers be made in Canadian currency, offers submitted in foreign currency must be converted to Canadian currency for evaluation."
+    },
+    {
+      "block_id": "6d3a7c07bb0e::b0037",
+      "section_id": "6d3a7c07bb0e::s012",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Conduct a financial evaluation",
+        "Buyer's Guide",
+        "Conduct a financial evaluation",
+        "Offers in foreign currency"
+      ],
+      "markdown": "The Bank of Canada rate published by 16:30hrs ET on the solicitation of offers closing date, or on another date specified in the solicitation of offers, must be applied as a conversion factor to offers made in foreign currency.",
+      "plain_text": "The Bank of Canada rate published by 16:30hrs ET on the solicitation of offers closing date, or on another date specified in the solicitation of offers, must be applied as a conversion factor to offers made in foreign currency."
+    }
+  ]
+}

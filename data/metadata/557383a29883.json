@@ -1,0 +1,827 @@
+{
+  "doc_id": "557383a29883",
+  "title": "Buyer's Guide Modify a contract - Design change or deviation",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/design-change-or-deviation",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/design-change-or-deviation",
+  "doc_type": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": "2026-01-31",
+  "fetched_at": "2026-02-19T09:20:04.443349+00:00",
+  "content_hash": "46ff77357b80a6f65324dcca2d8af0c61a9e5731bc0ae3bb128b9bca571935ea",
+  "word_count": 618,
+  "text_path": "data/corpus/buyers_guide__en-buyer-s-portal-buyer-s-guide-manage-modify-contract-design-change-or-deviation__557383a298.md",
+  "extraction_method": "buyers_guide_regions",
+  "breadcrumbs": [
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "https://canadabuys.canada.ca/en",
+      "canonical_url": "https://canadabuys.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "in_scope": true
+    },
+    {
+      "title": "Modify a contract",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract",
+      "in_scope": true
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract",
+    "parent_doc_id": "29b57ef37d6f",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/design-change-or-deviation"
+    ],
+    "lineage_doc_ids": [
+      "1e29c7881335",
+      "29b57ef37d6f",
+      "557383a29883"
+    ],
+    "depth": 2,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/best-practices-contract-close-out",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/contract-close-out-activities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/alternative-dispute-resolution",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/assignment-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/buyer-and-client-responsibilites",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/certifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/contract-dispute-resolution",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/employer-employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/integrity-provisions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/protecting-canada-s-interests",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/subcontracting",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/task-authorizations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/vendor-performance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/assignment-monies",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/claims-progress-payments-and-invoicing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/cost-reimbursable-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/exchange-rate-fluctuation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/final-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/financial-claims",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/fixed-time-rate-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/interest-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/overtime",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/refund-excess-profits",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/administrative-guidance-implementing-contract-modifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/considerations-when-making-amendments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/exercise-options",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/procedural-elements-amending-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/revisions-standing-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/approval-authority",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/legal-services",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/public-services-and-procurement-canada-offices-outside-canada",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/source-lists",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/suspension-work-and-stop-work-orders",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-contracts-financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-convenience",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-default",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-mutual-consent"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/best-practices-contract-close-out",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/contract-close-out-activities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/alternative-dispute-resolution",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/assignment-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/buyer-and-client-responsibilites",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/certifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/contract-dispute-resolution",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/employer-employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/integrity-provisions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/protecting-canada-s-interests",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/subcontracting",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/task-authorizations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/vendor-performance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/assignment-monies",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/claims-progress-payments-and-invoicing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/cost-reimbursable-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/exchange-rate-fluctuation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/final-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/financial-claims",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/fixed-time-rate-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/interest-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/overtime",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/refund-excess-profits",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/administrative-guidance-implementing-contract-modifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/considerations-when-making-amendments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/exercise-options",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/procedural-elements-amending-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/revisions-standing-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/approval-authority",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/legal-services",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/public-services-and-procurement-canada-offices-outside-canada",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/source-lists",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/suspension-work-and-stop-work-orders",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-contracts-financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-convenience",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-default",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-mutual-consent",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure": {
+    "block_count": 26,
+    "section_count": 13,
+    "heading_count": 12,
+    "paragraph_count": 11,
+    "list_count": 3,
+    "table_count": 0
+  },
+  "sections": [
+    {
+      "section_id": "557383a29883::root",
+      "parent_section_id": null,
+      "level": 0,
+      "heading": "Buyer's Guide Modify a contract - Design change or deviation",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Design change or deviation"
+      ],
+      "block_count": 0,
+      "word_count": 0,
+      "char_count": 0,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": null,
+      "last_block_index": null,
+      "preview": "",
+      "prev_section_id": null,
+      "next_section_id": null
+    },
+    {
+      "section_id": "557383a29883::s001",
+      "parent_section_id": "557383a29883::root",
+      "level": 1,
+      "heading": "Buyer's Guide Modify a contract - Design change or deviation",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Design change or deviation",
+        "Buyer's Guide Modify a contract - Design change or deviation"
+      ],
+      "block_count": 1,
+      "word_count": 10,
+      "char_count": 60,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 0,
+      "last_block_index": 0,
+      "preview": "Buyer's Guide Modify a contract - Design change or deviation",
+      "prev_section_id": null,
+      "next_section_id": "557383a29883::s002"
+    },
+    {
+      "section_id": "557383a29883::s002",
+      "parent_section_id": "557383a29883::root",
+      "level": 1,
+      "heading": "Buyer's Guide",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Design change or deviation",
+        "Buyer's Guide"
+      ],
+      "block_count": 2,
+      "word_count": 20,
+      "char_count": 111,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 0,
+      "first_block_index": 1,
+      "last_block_index": 2,
+      "preview": "Buyer's Guide Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage",
+      "prev_section_id": "557383a29883::s001",
+      "next_section_id": "557383a29883::s003"
+    },
+    {
+      "section_id": "557383a29883::s003",
+      "parent_section_id": "557383a29883::s002",
+      "level": 2,
+      "heading": "Design change or deviation",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Design change or deviation",
+        "Buyer's Guide",
+        "Design change or deviation"
+      ],
+      "block_count": 4,
+      "word_count": 183,
+      "char_count": 1173,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 2,
+      "first_block_index": 3,
+      "last_block_index": 6,
+      "preview": "Design change or deviation If there is no provision in the contract for design changes or deviations, the procedure may be initiated upon receipt of an authorization document from the client. The authorization must be incorporated into the ",
+      "prev_section_id": "557383a29883::s002",
+      "next_section_id": "557383a29883::s004"
+    },
+    {
+      "section_id": "557383a29883::s004",
+      "parent_section_id": "557383a29883::s003",
+      "level": 3,
+      "heading": "Design change or deviation procedure",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Design change or deviation",
+        "Buyer's Guide",
+        "Design change or deviation",
+        "Design change or deviation procedure"
+      ],
+      "block_count": 2,
+      "word_count": 17,
+      "char_count": 106,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 7,
+      "last_block_index": 8,
+      "preview": "Design change or deviation procedure The following is an example of a design change or deviation procedure:",
+      "prev_section_id": "557383a29883::s003",
+      "next_section_id": "557383a29883::s005"
+    },
+    {
+      "section_id": "557383a29883::s005",
+      "parent_section_id": "557383a29883::s004",
+      "level": 4,
+      "heading": "Initiation",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Design change or deviation",
+        "Buyer's Guide",
+        "Design change or deviation",
+        "Design change or deviation procedure",
+        "Initiation"
+      ],
+      "block_count": 2,
+      "word_count": 39,
+      "char_count": 245,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 9,
+      "last_block_index": 10,
+      "preview": "Initiation A request for a design change or deviation can be made by the technical authority, project authority, or the contractor when it is necessary to depart, either temporarily or permanently, from the governing technical data in a con",
+      "prev_section_id": "557383a29883::s004",
+      "next_section_id": "557383a29883::s006"
+    },
+    {
+      "section_id": "557383a29883::s006",
+      "parent_section_id": "557383a29883::s004",
+      "level": 4,
+      "heading": "Contractor's role",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Design change or deviation",
+        "Buyer's Guide",
+        "Design change or deviation",
+        "Design change or deviation procedure",
+        "Contractor's role"
+      ],
+      "block_count": 2,
+      "word_count": 68,
+      "char_count": 448,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 11,
+      "last_block_index": 12,
+      "preview": "Contractor's role The contractor may initiate the design change or deviation process by completing section 1 of form PWGSC-TPSGC 9038 Design Change/Deviation (PDF, 241 KB) (accessible only on the Government of Canada network) and submitting",
+      "prev_section_id": "557383a29883::s005",
+      "next_section_id": "557383a29883::s007"
+    },
+    {
+      "section_id": "557383a29883::s007",
+      "parent_section_id": "557383a29883::s004",
+      "level": 4,
+      "heading": "Subcontractor submission",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Design change or deviation",
+        "Buyer's Guide",
+        "Design change or deviation",
+        "Design change or deviation procedure",
+        "Subcontractor submission"
+      ],
+      "block_count": 2,
+      "word_count": 19,
+      "char_count": 153,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 13,
+      "last_block_index": 14,
+      "preview": "Subcontractor submission Subcontractors must submit their requests through the contractor and ensure all necessary details are included before submission.",
+      "prev_section_id": "557383a29883::s006",
+      "next_section_id": "557383a29883::s008"
+    },
+    {
+      "section_id": "557383a29883::s008",
+      "parent_section_id": "557383a29883::s004",
+      "level": 4,
+      "heading": "Approval process",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Design change or deviation",
+        "Buyer's Guide",
+        "Design change or deviation",
+        "Design change or deviation procedure",
+        "Approval process"
+      ],
+      "block_count": 2,
+      "word_count": 42,
+      "char_count": 254,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 15,
+      "last_block_index": 16,
+      "preview": "Approval process The technical authority or project authority, with the sole right to deny approval, will review the design change or deviation request, and either approves it, and forwards it to the buyer, or rejects it, and returns it to ",
+      "prev_section_id": "557383a29883::s007",
+      "next_section_id": "557383a29883::s009"
+    },
+    {
+      "section_id": "557383a29883::s009",
+      "parent_section_id": "557383a29883::s004",
+      "level": 4,
+      "heading": "Authority initiated changes",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Design change or deviation",
+        "Buyer's Guide",
+        "Design change or deviation",
+        "Design change or deviation procedure",
+        "Authority initiated changes"
+      ],
+      "block_count": 2,
+      "word_count": 44,
+      "char_count": 266,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 17,
+      "last_block_index": 18,
+      "preview": "Authority initiated changes The technical or project authority may initiate the process by sending copies of the form to the contractor. The contractor then fills in the required details and returns copies of the form to the technical or pr",
+      "prev_section_id": "557383a29883::s008",
+      "next_section_id": "557383a29883::s010"
+    },
+    {
+      "section_id": "557383a29883::s010",
+      "parent_section_id": "557383a29883::s004",
+      "level": 4,
+      "heading": "Multiple contracts",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Design change or deviation",
+        "Buyer's Guide",
+        "Design change or deviation",
+        "Design change or deviation procedure",
+        "Multiple contracts"
+      ],
+      "block_count": 2,
+      "word_count": 59,
+      "char_count": 369,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 19,
+      "last_block_index": 20,
+      "preview": "Multiple contracts Where equipment or stores affected by the change are being procured under more than one contract, a separate form for each contract is needed unless the technical authority or project authority has specifically authorized",
+      "prev_section_id": "557383a29883::s009",
+      "next_section_id": "557383a29883::s011"
+    },
+    {
+      "section_id": "557383a29883::s011",
+      "parent_section_id": "557383a29883::s004",
+      "level": 4,
+      "heading": "Buyer's responsibilities",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Design change or deviation",
+        "Buyer's Guide",
+        "Design change or deviation",
+        "Design change or deviation procedure",
+        "Buyer's responsibilities"
+      ],
+      "block_count": 3,
+      "word_count": 97,
+      "char_count": 620,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 21,
+      "last_block_index": 23,
+      "preview": "Buyer's responsibilities You are responsible for several key tasks when managing design changes or deviations: negotiate a firm price if possible, or another pricing basis that is consistent with the existing basis of payment in the contrac",
+      "prev_section_id": "557383a29883::s010",
+      "next_section_id": "557383a29883::s012"
+    },
+    {
+      "section_id": "557383a29883::s012",
+      "parent_section_id": "557383a29883::s004",
+      "level": 4,
+      "heading": "Contractor inquiries",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Design change or deviation",
+        "Buyer's Guide",
+        "Design change or deviation",
+        "Design change or deviation procedure",
+        "Contractor inquiries"
+      ],
+      "block_count": 2,
+      "word_count": 20,
+      "char_count": 141,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 24,
+      "last_block_index": 25,
+      "preview": "Contractor inquiries The contractor should direct enquiries on the design change or deviation procedure to the technical or project authority.",
+      "prev_section_id": "557383a29883::s011",
+      "next_section_id": null
+    }
+  ],
+  "tables": [],
+  "blocks": [
+    {
+      "block_id": "557383a29883::b0001",
+      "section_id": "557383a29883::s001",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Design change or deviation",
+        "Buyer's Guide Modify a contract - Design change or deviation"
+      ],
+      "markdown": "# Buyer's Guide Modify a contract - Design change or deviation",
+      "plain_text": "Buyer's Guide Modify a contract - Design change or deviation"
+    },
+    {
+      "block_id": "557383a29883::b0002",
+      "section_id": "557383a29883::s002",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Design change or deviation",
+        "Buyer's Guide"
+      ],
+      "markdown": "# Buyer's Guide",
+      "plain_text": "Buyer's Guide"
+    },
+    {
+      "block_id": "557383a29883::b0003",
+      "section_id": "557383a29883::s002",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Design change or deviation",
+        "Buyer's Guide"
+      ],
+      "markdown": "- Plan\n- Approve\n- Create solicitation\n- Solicit\n- Receive and evaluate\n- Negotiate\n- Award\n- Manage",
+      "plain_text": "Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage"
+    },
+    {
+      "block_id": "557383a29883::b0004",
+      "section_id": "557383a29883::s003",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Design change or deviation",
+        "Buyer's Guide",
+        "Design change or deviation"
+      ],
+      "markdown": "## Design change or deviation",
+      "plain_text": "Design change or deviation"
+    },
+    {
+      "block_id": "557383a29883::b0005",
+      "section_id": "557383a29883::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Design change or deviation",
+        "Buyer's Guide",
+        "Design change or deviation"
+      ],
+      "markdown": "If there is no provision in the contract for design changes or deviations, the procedure may be initiated upon receipt of an authorization document from the client. The authorization must be incorporated into the contract through an amendment. Adequate funding must be authorized and set aside for changes. If additional funds are required, a requisition amendment must be submitted.",
+      "plain_text": "If there is no provision in the contract for design changes or deviations, the procedure may be initiated upon receipt of an authorization document from the client. The authorization must be incorporated into the contract through an amendment. Adequate funding must be authorized and set aside for changes. If additional funds are required, a requisition amendment must be submitted."
+    },
+    {
+      "block_id": "557383a29883::b0006",
+      "section_id": "557383a29883::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Design change or deviation",
+        "Buyer's Guide",
+        "Design change or deviation"
+      ],
+      "markdown": "The responsibilities and considerations involved in managing changes or deviations are listed below:",
+      "plain_text": "The responsibilities and considerations involved in managing changes or deviations are listed below:"
+    },
+    {
+      "block_id": "557383a29883::b0007",
+      "section_id": "557383a29883::s003",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Design change or deviation",
+        "Buyer's Guide",
+        "Design change or deviation"
+      ],
+      "markdown": "- each design change must have technical approval by the technical authority or project authority as specified in the contract and be approved by the buyer\n- a design change requiring a price adjustment, should be negotiated before the change in work is made\n- after approval by the client, you are responsible for prompt negotiation of price adjustments and updating the total contract price\n- The form PWGSC-TPSGC 9038 Design Change/Deviation (PDF, 241 KB) (accessible only on the Government of Canada network) support all deviations and changes\n- surplus materials from an authorized design change or deviation must be accounted for and reported to you, the buyer",
+      "plain_text": "each design change must have technical approval by the technical authority or project authority as specified in the contract and be approved by the buyer ; a design change requiring a price adjustment, should be negotiated before the change in work is made ; after approval by the client, you are responsible for prompt negotiation of price adjustments and updating the total contract price ; The form PWGSC-TPSGC 9038 Design Change/Deviation (PDF, 241 KB) (accessible only on the Government of Canada network) support all deviations and changes ; surplus materials from an authorized design change or deviation must be accounted for and reported to you, the buyer"
+    },
+    {
+      "block_id": "557383a29883::b0008",
+      "section_id": "557383a29883::s004",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Design change or deviation",
+        "Buyer's Guide",
+        "Design change or deviation",
+        "Design change or deviation procedure"
+      ],
+      "markdown": "### Design change or deviation procedure",
+      "plain_text": "Design change or deviation procedure"
+    },
+    {
+      "block_id": "557383a29883::b0009",
+      "section_id": "557383a29883::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Design change or deviation",
+        "Buyer's Guide",
+        "Design change or deviation",
+        "Design change or deviation procedure"
+      ],
+      "markdown": "The following is an example of a design change or deviation procedure:",
+      "plain_text": "The following is an example of a design change or deviation procedure:"
+    },
+    {
+      "block_id": "557383a29883::b0010",
+      "section_id": "557383a29883::s005",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Design change or deviation",
+        "Buyer's Guide",
+        "Design change or deviation",
+        "Design change or deviation procedure",
+        "Initiation"
+      ],
+      "markdown": "#### Initiation",
+      "plain_text": "Initiation"
+    },
+    {
+      "block_id": "557383a29883::b0011",
+      "section_id": "557383a29883::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Design change or deviation",
+        "Buyer's Guide",
+        "Design change or deviation",
+        "Design change or deviation procedure",
+        "Initiation"
+      ],
+      "markdown": "A request for a design change or deviation can be made by the technical authority, project authority, or the contractor when it is necessary to depart, either temporarily or permanently, from the governing technical data in a contract.",
+      "plain_text": "A request for a design change or deviation can be made by the technical authority, project authority, or the contractor when it is necessary to depart, either temporarily or permanently, from the governing technical data in a contract."
+    },
+    {
+      "block_id": "557383a29883::b0012",
+      "section_id": "557383a29883::s006",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Design change or deviation",
+        "Buyer's Guide",
+        "Design change or deviation",
+        "Design change or deviation procedure",
+        "Contractor's role"
+      ],
+      "markdown": "#### Contractor's role",
+      "plain_text": "Contractor's role"
+    },
+    {
+      "block_id": "557383a29883::b0013",
+      "section_id": "557383a29883::s006",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Design change or deviation",
+        "Buyer's Guide",
+        "Design change or deviation",
+        "Design change or deviation procedure",
+        "Contractor's role"
+      ],
+      "markdown": "The contractor may initiate the design change or deviation process by completing section 1 of form PWGSC-TPSGC 9038 Design Change/Deviation (PDF, 241 KB) (accessible only on the Government of Canada network) and submitting it along with a ceiling price for the proposed change, subject to negotiation, to both the technical or project authority and you, the buyer. Supporting technical data should accompany the form, if necessary.",
+      "plain_text": "The contractor may initiate the design change or deviation process by completing section 1 of form PWGSC-TPSGC 9038 Design Change/Deviation (PDF, 241 KB) (accessible only on the Government of Canada network) and submitting it along with a ceiling price for the proposed change, subject to negotiation, to both the technical or project authority and you, the buyer. Supporting technical data should accompany the form, if necessary."
+    },
+    {
+      "block_id": "557383a29883::b0014",
+      "section_id": "557383a29883::s007",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Design change or deviation",
+        "Buyer's Guide",
+        "Design change or deviation",
+        "Design change or deviation procedure",
+        "Subcontractor submission"
+      ],
+      "markdown": "#### Subcontractor submission",
+      "plain_text": "Subcontractor submission"
+    },
+    {
+      "block_id": "557383a29883::b0015",
+      "section_id": "557383a29883::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Design change or deviation",
+        "Buyer's Guide",
+        "Design change or deviation",
+        "Design change or deviation procedure",
+        "Subcontractor submission"
+      ],
+      "markdown": "Subcontractors must submit their requests through the contractor and ensure all necessary details are included before submission.",
+      "plain_text": "Subcontractors must submit their requests through the contractor and ensure all necessary details are included before submission."
+    },
+    {
+      "block_id": "557383a29883::b0016",
+      "section_id": "557383a29883::s008",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Design change or deviation",
+        "Buyer's Guide",
+        "Design change or deviation",
+        "Design change or deviation procedure",
+        "Approval process"
+      ],
+      "markdown": "#### Approval process",
+      "plain_text": "Approval process"
+    },
+    {
+      "block_id": "557383a29883::b0017",
+      "section_id": "557383a29883::s008",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Design change or deviation",
+        "Buyer's Guide",
+        "Design change or deviation",
+        "Design change or deviation procedure",
+        "Approval process"
+      ],
+      "markdown": "The technical authority or project authority, with the sole right to deny approval, will review the design change or deviation request, and either approves it, and forwards it to the buyer, or rejects it, and returns it to the contractor.",
+      "plain_text": "The technical authority or project authority, with the sole right to deny approval, will review the design change or deviation request, and either approves it, and forwards it to the buyer, or rejects it, and returns it to the contractor."
+    },
+    {
+      "block_id": "557383a29883::b0018",
+      "section_id": "557383a29883::s009",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Design change or deviation",
+        "Buyer's Guide",
+        "Design change or deviation",
+        "Design change or deviation procedure",
+        "Authority initiated changes"
+      ],
+      "markdown": "#### Authority initiated changes",
+      "plain_text": "Authority initiated changes"
+    },
+    {
+      "block_id": "557383a29883::b0019",
+      "section_id": "557383a29883::s009",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Design change or deviation",
+        "Buyer's Guide",
+        "Design change or deviation",
+        "Design change or deviation procedure",
+        "Authority initiated changes"
+      ],
+      "markdown": "The technical or project authority may initiate the process by sending copies of the form to the contractor. The contractor then fills in the required details and returns copies of the form to the technical or project authority and to you.",
+      "plain_text": "The technical or project authority may initiate the process by sending copies of the form to the contractor. The contractor then fills in the required details and returns copies of the form to the technical or project authority and to you."
+    },
+    {
+      "block_id": "557383a29883::b0020",
+      "section_id": "557383a29883::s010",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Design change or deviation",
+        "Buyer's Guide",
+        "Design change or deviation",
+        "Design change or deviation procedure",
+        "Multiple contracts"
+      ],
+      "markdown": "#### Multiple contracts",
+      "plain_text": "Multiple contracts"
+    },
+    {
+      "block_id": "557383a29883::b0021",
+      "section_id": "557383a29883::s010",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Design change or deviation",
+        "Buyer's Guide",
+        "Design change or deviation",
+        "Design change or deviation procedure",
+        "Multiple contracts"
+      ],
+      "markdown": "Where equipment or stores affected by the change are being procured under more than one contract, a separate form for each contract is needed unless the technical authority or project authority has specifically authorized the use of one form for all contracts held by a single contractor. All relevant contract references must be included on the form.",
+      "plain_text": "Where equipment or stores affected by the change are being procured under more than one contract, a separate form for each contract is needed unless the technical authority or project authority has specifically authorized the use of one form for all contracts held by a single contractor. All relevant contract references must be included on the form."
+    },
+    {
+      "block_id": "557383a29883::b0022",
+      "section_id": "557383a29883::s011",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Design change or deviation",
+        "Buyer's Guide",
+        "Design change or deviation",
+        "Design change or deviation procedure",
+        "Buyer's responsibilities"
+      ],
+      "markdown": "#### Buyer's responsibilities",
+      "plain_text": "Buyer's responsibilities"
+    },
+    {
+      "block_id": "557383a29883::b0023",
+      "section_id": "557383a29883::s011",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Design change or deviation",
+        "Buyer's Guide",
+        "Design change or deviation",
+        "Design change or deviation procedure",
+        "Buyer's responsibilities"
+      ],
+      "markdown": "You are responsible for several key tasks when managing design changes or deviations:",
+      "plain_text": "You are responsible for several key tasks when managing design changes or deviations:"
+    },
+    {
+      "block_id": "557383a29883::b0024",
+      "section_id": "557383a29883::s011",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Design change or deviation",
+        "Buyer's Guide",
+        "Design change or deviation",
+        "Design change or deviation procedure",
+        "Buyer's responsibilities"
+      ],
+      "markdown": "- negotiate a firm price if possible, or another pricing basis that is consistent with the existing basis of payment in the contract\n- provide contractual authority for the design change or deviation\n- sign and distribute the design change form and send a copy to the contract and the technical authority or project authority\n- prompting the contractor to implement the change\n- ensuring that all relevant parties are informed of the amendment and that the contract's documentation remains up-to-date and accurate",
+      "plain_text": "negotiate a firm price if possible, or another pricing basis that is consistent with the existing basis of payment in the contract ; provide contractual authority for the design change or deviation ; sign and distribute the design change form and send a copy to the contract and the technical authority or project authority ; prompting the contractor to implement the change ; ensuring that all relevant parties are informed of the amendment and that the contract's documentation remains up-to-date and accurate"
+    },
+    {
+      "block_id": "557383a29883::b0025",
+      "section_id": "557383a29883::s012",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Design change or deviation",
+        "Buyer's Guide",
+        "Design change or deviation",
+        "Design change or deviation procedure",
+        "Contractor inquiries"
+      ],
+      "markdown": "#### Contractor inquiries",
+      "plain_text": "Contractor inquiries"
+    },
+    {
+      "block_id": "557383a29883::b0026",
+      "section_id": "557383a29883::s012",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Design change or deviation",
+        "Buyer's Guide",
+        "Design change or deviation",
+        "Design change or deviation procedure",
+        "Contractor inquiries"
+      ],
+      "markdown": "The contractor should direct enquiries on the design change or deviation procedure to the technical or project authority.",
+      "plain_text": "The contractor should direct enquiries on the design change or deviation procedure to the technical or project authority."
+    }
+  ]
+}

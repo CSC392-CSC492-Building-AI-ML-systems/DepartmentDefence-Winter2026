@@ -1,0 +1,2264 @@
+{
+  "doc_id": "1a6137428bd2",
+  "title": "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+  "source_url": "https://canadabuys.canada.ca/en/how-procurement-works/policies-and-guidelines/policies-directives-and-regulations/policy-prioritizing-canadian-suppliers-and-canadian-content-strategic-federal-procurements",
+  "canonical_url": "https://canadabuys.canada.ca/en/how-procurement-works/policies-and-guidelines/policies-directives-and-regulations/policy-prioritizing-canadian-suppliers-and-canadian-content-strategic-federal-procurements",
+  "doc_type": "buy_canadian_policy",
+  "authority_rank": 2,
+  "date_modified": "2026-02-17",
+  "fetched_at": "2026-02-19T09:15:25.278996+00:00",
+  "content_hash": "09747281fd470431f16c440f42a51d0db8deb4d80a6f4a8b7848e8e4f77b443e",
+  "word_count": 5241,
+  "text_path": "data/corpus/buy_canadian_policy__en-how-procurement-works-policies-and-guidelines-policies-directives-and-regulations-policy-prioritizing-cana__1a6137428b.md",
+  "extraction_method": "canadabuys_region_content",
+  "breadcrumbs": [
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "https://canadabuys.canada.ca/en",
+      "canonical_url": "https://canadabuys.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "How procurement works",
+      "url": "https://canadabuys.canada.ca/en/how-procurement-works",
+      "canonical_url": "https://canadabuys.canada.ca/en/how-procurement-works",
+      "in_scope": false
+    },
+    {
+      "title": "Policies and guidelines",
+      "url": "https://canadabuys.canada.ca/en/how-procurement-works/policies-and-guidelines",
+      "canonical_url": "https://canadabuys.canada.ca/en/how-procurement-works/policies-and-guidelines",
+      "in_scope": false
+    },
+    {
+      "title": "Key policies, directives and regulations",
+      "url": "https://canadabuys.canada.ca/en/how-procurement-works/policies-and-guidelines/policies-directives-and-regulations",
+      "canonical_url": "https://canadabuys.canada.ca/en/how-procurement-works/policies-and-guidelines/policies-directives-and-regulations",
+      "in_scope": true
+    }
+  ],
+  "graph": {
+    "parent_url": null,
+    "parent_doc_id": null,
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/how-procurement-works/policies-and-guidelines/policies-directives-and-regulations/policy-prioritizing-canadian-suppliers-and-canadian-content-strategic-federal-procurements"
+    ],
+    "lineage_doc_ids": [
+      "1a6137428bd2"
+    ],
+    "depth": 0,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy"
+    ]
+  },
+  "structure": {
+    "block_count": 112,
+    "section_count": 24,
+    "heading_count": 23,
+    "paragraph_count": 68,
+    "list_count": 12,
+    "table_count": 9
+  },
+  "sections": [
+    {
+      "section_id": "1a6137428bd2::root",
+      "parent_section_id": null,
+      "level": 0,
+      "heading": "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements"
+      ],
+      "block_count": 0,
+      "word_count": 0,
+      "char_count": 0,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": null,
+      "last_block_index": null,
+      "preview": "",
+      "prev_section_id": null,
+      "next_section_id": null
+    },
+    {
+      "section_id": "1a6137428bd2::s001",
+      "parent_section_id": "1a6137428bd2::root",
+      "level": 1,
+      "heading": "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements"
+      ],
+      "block_count": 2,
+      "word_count": 2359,
+      "char_count": 15808,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 0,
+      "first_block_index": 0,
+      "last_block_index": 1,
+      "preview": "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements 1. Effective date ; The Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements (hereafter, \u201cthe Polic",
+      "prev_section_id": null,
+      "next_section_id": "1a6137428bd2::s002"
+    },
+    {
+      "section_id": "1a6137428bd2::s002",
+      "parent_section_id": "1a6137428bd2::s001",
+      "level": 2,
+      "heading": "Appendix A: Strategic Procurement \u2013 List of Sectors and Commodities",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix A: Strategic Procurement \u2013 List of Sectors and Commodities"
+      ],
+      "block_count": 1,
+      "word_count": 10,
+      "char_count": 67,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 2,
+      "last_block_index": 2,
+      "preview": "Appendix A: Strategic Procurement \u2013 List of Sectors and Commodities",
+      "prev_section_id": "1a6137428bd2::s001",
+      "next_section_id": "1a6137428bd2::s003"
+    },
+    {
+      "section_id": "1a6137428bd2::s003",
+      "parent_section_id": "1a6137428bd2::s002",
+      "level": 3,
+      "heading": "1. Defence and Security",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix A: Strategic Procurement \u2013 List of Sectors and Commodities",
+        "1. Defence and Security"
+      ],
+      "block_count": 3,
+      "word_count": 45,
+      "char_count": 354,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 2,
+      "first_block_index": 3,
+      "last_block_index": 5,
+      "preview": "1. Defence and Security Goods and services that support Canada\u2019s national defence, military readiness, and security operations, including systems and capabilities essential for sovereignty and protection. Examples include, but are not limit",
+      "prev_section_id": "1a6137428bd2::s002",
+      "next_section_id": "1a6137428bd2::s004"
+    },
+    {
+      "section_id": "1a6137428bd2::s004",
+      "parent_section_id": "1a6137428bd2::s002",
+      "level": 3,
+      "heading": "2. Health and Pharmaceutical",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix A: Strategic Procurement \u2013 List of Sectors and Commodities",
+        "2. Health and Pharmaceutical"
+      ],
+      "block_count": 3,
+      "word_count": 45,
+      "char_count": 332,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 2,
+      "first_block_index": 6,
+      "last_block_index": 8,
+      "preview": "2. Health and Pharmaceutical Goods and services related to healthcare delivery, medical treatment, and to ensure public health resilience and emergency preparedness and response. Examples include, but are not limited to: medical and surgica",
+      "prev_section_id": "1a6137428bd2::s003",
+      "next_section_id": "1a6137428bd2::s005"
+    },
+    {
+      "section_id": "1a6137428bd2::s005",
+      "parent_section_id": "1a6137428bd2::s002",
+      "level": 3,
+      "heading": "3. Infrastructure, Construction, and Transportation",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix A: Strategic Procurement \u2013 List of Sectors and Commodities",
+        "3. Infrastructure, Construction, and Transportation"
+      ],
+      "block_count": 3,
+      "word_count": 58,
+      "char_count": 483,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 2,
+      "first_block_index": 9,
+      "last_block_index": 11,
+      "preview": "3. Infrastructure, Construction, and Transportation Physical assets and systems essential for public and economic activity; services and materials involved in constructing, renovating, or demolishing buildings and structures; and goods and ",
+      "prev_section_id": "1a6137428bd2::s004",
+      "next_section_id": "1a6137428bd2::s006"
+    },
+    {
+      "section_id": "1a6137428bd2::s006",
+      "parent_section_id": "1a6137428bd2::s002",
+      "level": 3,
+      "heading": "4. Information and Communications Technology (ICT)",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix A: Strategic Procurement \u2013 List of Sectors and Commodities",
+        "4. Information and Communications Technology (ICT)"
+      ],
+      "block_count": 3,
+      "word_count": 38,
+      "char_count": 321,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 2,
+      "first_block_index": 12,
+      "last_block_index": 14,
+      "preview": "4. Information and Communications Technology (ICT) Digital systems, hardware, software, network infrastructure, and related services that enable government functions. Examples include, but are not limited to: digital infrastructure, data ce",
+      "prev_section_id": "1a6137428bd2::s005",
+      "next_section_id": "1a6137428bd2::s007"
+    },
+    {
+      "section_id": "1a6137428bd2::s007",
+      "parent_section_id": "1a6137428bd2::s002",
+      "level": 3,
+      "heading": "5. Consumer and Industrial Goods and Materials",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix A: Strategic Procurement \u2013 List of Sectors and Commodities",
+        "5. Consumer and Industrial Goods and Materials"
+      ],
+      "block_count": 4,
+      "word_count": 55,
+      "char_count": 428,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 3,
+      "first_block_index": 15,
+      "last_block_index": 18,
+      "preview": "5. Consumer and Industrial Goods and Materials Commercial products and materials intended for personal use and consumption or industrial production and operations. Examples include, but are not limited to: clothing, textiles, furniture, fue",
+      "prev_section_id": "1a6137428bd2::s006",
+      "next_section_id": "1a6137428bd2::s008"
+    },
+    {
+      "section_id": "1a6137428bd2::s008",
+      "parent_section_id": "1a6137428bd2::s001",
+      "level": 2,
+      "heading": "Appendix B: Supplier Eligibility Attestation Form",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix B: Supplier Eligibility Attestation Form"
+      ],
+      "block_count": 1,
+      "word_count": 6,
+      "char_count": 49,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 19,
+      "last_block_index": 19,
+      "preview": "Appendix B: Supplier Eligibility Attestation Form",
+      "prev_section_id": "1a6137428bd2::s007",
+      "next_section_id": "1a6137428bd2::s009"
+    },
+    {
+      "section_id": "1a6137428bd2::s009",
+      "parent_section_id": "1a6137428bd2::s008",
+      "level": 3,
+      "heading": "Part I - Submission Eligibility - Solicitation of Offer",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix B: Supplier Eligibility Attestation Form",
+        "Part I - Submission Eligibility - Solicitation of Offer"
+      ],
+      "block_count": 3,
+      "word_count": 53,
+      "char_count": 372,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 2,
+      "first_block_index": 20,
+      "last_block_index": 22,
+      "preview": "Part I - Submission Eligibility - Solicitation of Offer This solicitation of offers is open to Canadian suppliers and, if any international trade agreements apply to the solicitation, Suppliers of an applicable trading partner. Submissions ",
+      "prev_section_id": "1a6137428bd2::s008",
+      "next_section_id": "1a6137428bd2::s010"
+    },
+    {
+      "section_id": "1a6137428bd2::s010",
+      "parent_section_id": "1a6137428bd2::s008",
+      "level": 3,
+      "heading": "Instructions to Buyers:",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix B: Supplier Eligibility Attestation Form",
+        "Instructions to Buyers:"
+      ],
+      "block_count": 3,
+      "word_count": 84,
+      "char_count": 573,
+      "table_count": 1,
+      "list_count": 1,
+      "paragraph_count": 0,
+      "first_block_index": 23,
+      "last_block_index": 25,
+      "preview": "Instructions to Buyers: Include only the rows for the trade agreements that apply to the solicitation of offers and delete rows for any trade agreements that do not apply. ; If no trade agreements apply to the requirement, do not include th",
+      "prev_section_id": "1a6137428bd2::s009",
+      "next_section_id": "1a6137428bd2::s011"
+    },
+    {
+      "section_id": "1a6137428bd2::s011",
+      "parent_section_id": "1a6137428bd2::s008",
+      "level": 3,
+      "heading": "Part II - Eligibility - Canadian Supplier",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix B: Supplier Eligibility Attestation Form",
+        "Part II - Eligibility - Canadian Supplier"
+      ],
+      "block_count": 10,
+      "word_count": 344,
+      "char_count": 2171,
+      "table_count": 0,
+      "list_count": 3,
+      "paragraph_count": 6,
+      "first_block_index": 26,
+      "last_block_index": 35,
+      "preview": "Part II - Eligibility - Canadian Supplier The Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements (the Policy) seeks to support Canadian industries and ensure that Canadian suppliers are prioriti",
+      "prev_section_id": "1a6137428bd2::s010",
+      "next_section_id": "1a6137428bd2::s012"
+    },
+    {
+      "section_id": "1a6137428bd2::s012",
+      "parent_section_id": "1a6137428bd2::s008",
+      "level": 3,
+      "heading": "Part III - Instructions",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix B: Supplier Eligibility Attestation Form",
+        "Part III - Instructions"
+      ],
+      "block_count": 2,
+      "word_count": 29,
+      "char_count": 181,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 36,
+      "last_block_index": 37,
+      "preview": "Part III - Instructions To confirm and attest your eligibility as a Canadian supplier or as a supplier of applicable trading partners, please carefully review and complete this form.",
+      "prev_section_id": "1a6137428bd2::s011",
+      "next_section_id": "1a6137428bd2::s013"
+    },
+    {
+      "section_id": "1a6137428bd2::s013",
+      "parent_section_id": "1a6137428bd2::s001",
+      "level": 2,
+      "heading": "Supplier Eligibility Attestation Form",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Supplier Eligibility Attestation Form"
+      ],
+      "block_count": 14,
+      "word_count": 459,
+      "char_count": 3053,
+      "table_count": 3,
+      "list_count": 3,
+      "paragraph_count": 7,
+      "first_block_index": 38,
+      "last_block_index": 51,
+      "preview": "Supplier Eligibility Attestation Form The Offeror, Enter Legal Name of Offeror , is a Canadian supplier, as defined in the Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements. The address, as pro",
+      "prev_section_id": "1a6137428bd2::s012",
+      "next_section_id": "1a6137428bd2::s014"
+    },
+    {
+      "section_id": "1a6137428bd2::s014",
+      "parent_section_id": "1a6137428bd2::s001",
+      "level": 2,
+      "heading": "Appendix C: Canadian Content Attestation Form",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix C: Canadian Content Attestation Form"
+      ],
+      "block_count": 13,
+      "word_count": 372,
+      "char_count": 2500,
+      "table_count": 0,
+      "list_count": 3,
+      "paragraph_count": 9,
+      "first_block_index": 52,
+      "last_block_index": 64,
+      "preview": "Appendix C: Canadian Content Attestation Form The Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements (the Policy) seeks to support Canadian industries and ensure that Canadian content is priorit",
+      "prev_section_id": "1a6137428bd2::s013",
+      "next_section_id": "1a6137428bd2::s015"
+    },
+    {
+      "section_id": "1a6137428bd2::s015",
+      "parent_section_id": "1a6137428bd2::s001",
+      "level": 2,
+      "heading": "Canadian Content Attestation Form",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Canadian Content Attestation Form"
+      ],
+      "block_count": 9,
+      "word_count": 292,
+      "char_count": 1973,
+      "table_count": 2,
+      "list_count": 1,
+      "paragraph_count": 5,
+      "first_block_index": 65,
+      "last_block_index": 73,
+      "preview": "Canadian Content Attestation Form (For example purposes \u2013 can be adjusted based on the nature of the procurement) By completing and submitting this form to the contracting authority, the offeror Enter Legal Name of Offeror attests that all ",
+      "prev_section_id": "1a6137428bd2::s014",
+      "next_section_id": "1a6137428bd2::s016"
+    },
+    {
+      "section_id": "1a6137428bd2::s016",
+      "parent_section_id": "1a6137428bd2::s001",
+      "level": 2,
+      "heading": "Appendix D: Canadian Supplier Priority \u2013 Financial Evaluation",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix D: Canadian Supplier Priority \u2013 Financial Evaluation"
+      ],
+      "block_count": 3,
+      "word_count": 39,
+      "char_count": 261,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 2,
+      "first_block_index": 74,
+      "last_block_index": 76,
+      "preview": "Appendix D: Canadian Supplier Priority \u2013 Financial Evaluation When compliant offers are received from Canadian suppliers, a 10 percent reduction to the total value of each Canadian Supplier\u2019s financial proposal will be applied. The followin",
+      "prev_section_id": "1a6137428bd2::s015",
+      "next_section_id": "1a6137428bd2::s017"
+    },
+    {
+      "section_id": "1a6137428bd2::s017",
+      "parent_section_id": "1a6137428bd2::s016",
+      "level": 3,
+      "heading": "FORMULA:",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix D: Canadian Supplier Priority \u2013 Financial Evaluation",
+        "FORMULA:"
+      ],
+      "block_count": 4,
+      "word_count": 42,
+      "char_count": 263,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 3,
+      "first_block_index": 77,
+      "last_block_index": 80,
+      "preview": "FORMULA: The Offer Price is the total value of the financial proposal submitted by the Canadian Supplier. 0.10 is the 10 percent notional evaluation reduction factor. The Evaluated Price will be used for evaluation purposes only (does not a",
+      "prev_section_id": "1a6137428bd2::s016",
+      "next_section_id": "1a6137428bd2::s018"
+    },
+    {
+      "section_id": "1a6137428bd2::s018",
+      "parent_section_id": "1a6137428bd2::s016",
+      "level": 3,
+      "heading": "EXAMPLE",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix D: Canadian Supplier Priority \u2013 Financial Evaluation",
+        "EXAMPLE"
+      ],
+      "block_count": 3,
+      "word_count": 59,
+      "char_count": 304,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 2,
+      "first_block_index": 81,
+      "last_block_index": 83,
+      "preview": "EXAMPLE An offeror submitted an offer with a total value of $100,000 Evaluated Price = $ 100 000 \u2219 ( 1 - 0.10 ) Evaluated Price = $ 100 000 \u2219 0.90 = 90 000 For evaluation purposes, the offer price would be considered, for purposes of evalua",
+      "prev_section_id": "1a6137428bd2::s017",
+      "next_section_id": "1a6137428bd2::s019"
+    },
+    {
+      "section_id": "1a6137428bd2::s019",
+      "parent_section_id": "1a6137428bd2::s001",
+      "level": 2,
+      "heading": "Appendix E: Canadian Value-Added Evaluation Methodology and Scoring",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix E: Canadian Value-Added Evaluation Methodology and Scoring"
+      ],
+      "block_count": 6,
+      "word_count": 158,
+      "char_count": 990,
+      "table_count": 1,
+      "list_count": 0,
+      "paragraph_count": 4,
+      "first_block_index": 84,
+      "last_block_index": 89,
+      "preview": "Appendix E: Canadian Value-Added Evaluation Methodology and Scoring In cases where point-rated criteria methodology is exercised, the following calculation should be used. Typically, solicitation of offers include, among other things, techn",
+      "prev_section_id": "1a6137428bd2::s018",
+      "next_section_id": "1a6137428bd2::s020"
+    },
+    {
+      "section_id": "1a6137428bd2::s020",
+      "parent_section_id": "1a6137428bd2::s019",
+      "level": 3,
+      "heading": "FORMULA:",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix E: Canadian Value-Added Evaluation Methodology and Scoring",
+        "FORMULA:"
+      ],
+      "block_count": 9,
+      "word_count": 344,
+      "char_count": 1851,
+      "table_count": 2,
+      "list_count": 0,
+      "paragraph_count": 6,
+      "first_block_index": 90,
+      "last_block_index": 98,
+      "preview": "FORMULA: To calculate a CVA score in an offer, the total dollar value of the Canadian value-added submitted by the offeror is divided by the total dollar value of the submitted offer, then multiplied by the CVA Weighting. Canadian Value Add",
+      "prev_section_id": "1a6137428bd2::s019",
+      "next_section_id": "1a6137428bd2::s021"
+    },
+    {
+      "section_id": "1a6137428bd2::s021",
+      "parent_section_id": "1a6137428bd2::s001",
+      "level": 2,
+      "heading": "Appendix F: Canadian Value-Added Price-Based Evaluation Methodology and Scoring",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix F: Canadian Value-Added Price-Based Evaluation Methodology and Scoring"
+      ],
+      "block_count": 4,
+      "word_count": 98,
+      "char_count": 673,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 3,
+      "first_block_index": 99,
+      "last_block_index": 102,
+      "preview": "Appendix F: Canadian Value-Added Price-Based Evaluation Methodology and Scoring Where point-rated criteria methodology may not be suitable, the following formula will be used: First, determine the Canadian Value-Added Weighting, which is th",
+      "prev_section_id": "1a6137428bd2::s020",
+      "next_section_id": "1a6137428bd2::s022"
+    },
+    {
+      "section_id": "1a6137428bd2::s022",
+      "parent_section_id": "1a6137428bd2::s021",
+      "level": 3,
+      "heading": "FORMULAS:",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix F: Canadian Value-Added Price-Based Evaluation Methodology and Scoring",
+        "FORMULAS:"
+      ],
+      "block_count": 5,
+      "word_count": 93,
+      "char_count": 546,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 4,
+      "first_block_index": 103,
+      "last_block_index": 107,
+      "preview": "FORMULAS: Adjusted Financial Score = $ Value of the offer - ( $ Value of the offer \u2219 ( Canadian Value Factor / 100 ) ) Canadian Value Added in the Offer represents the total dollar value of all items that meet the definition of Canadian Val",
+      "prev_section_id": "1a6137428bd2::s021",
+      "next_section_id": "1a6137428bd2::s023"
+    },
+    {
+      "section_id": "1a6137428bd2::s023",
+      "parent_section_id": "1a6137428bd2::s021",
+      "level": 3,
+      "heading": "EXAMPLE",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix F: Canadian Value-Added Price-Based Evaluation Methodology and Scoring",
+        "EXAMPLE"
+      ],
+      "block_count": 4,
+      "word_count": 159,
+      "char_count": 901,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 3,
+      "first_block_index": 108,
+      "last_block_index": 111,
+      "preview": "EXAMPLE An offeror submitted an offer with a total value of $50,000, and their offer contained a mix of goods and services of which $30,000 met the definition of Canadian Value-Added. The contracting authority used the default Canadian Valu",
+      "prev_section_id": "1a6137428bd2::s022",
+      "next_section_id": null
+    }
+  ],
+  "tables": [
+    {
+      "table_id": "1a6137428bd2::t001",
+      "section_id": "1a6137428bd2::s010",
+      "row_count": 13,
+      "column_count": 1,
+      "headers": [
+        "Applicable Trade Agreement(s)"
+      ],
+      "sample_rows": [
+        [
+          "World Trade Organization Agreement on Government Procurement (WTO-GPA)"
+        ],
+        [
+          "Canada-Chile Free Trade Agreement"
+        ],
+        [
+          "Canada-Colombia Free Trade Agreement"
+        ],
+        [
+          "Canada-European Union Comprehensive and Economic Agreement (CETA)"
+        ],
+        [
+          "Canada-Honduras Free Trade Agreement"
+        ],
+        [
+          "Canada-Korea Free Trade Agreement"
+        ]
+      ]
+    },
+    {
+      "table_id": "1a6137428bd2::t002",
+      "section_id": "1a6137428bd2::s013",
+      "row_count": 4,
+      "column_count": 2,
+      "headers": [
+        "Column 1",
+        "Column 2"
+      ],
+      "sample_rows": [
+        [
+          "Address(es) of Place of Business",
+          "Normal Business Hours"
+        ],
+        [
+          "_____________________________",
+          "_____________________________"
+        ],
+        [
+          "Operating Business Name",
+          "Legal Business Name"
+        ],
+        [
+          "_____________________________",
+          "_____________________________"
+        ]
+      ]
+    },
+    {
+      "table_id": "1a6137428bd2::t003",
+      "section_id": "1a6137428bd2::s013",
+      "row_count": 2,
+      "column_count": 1,
+      "headers": [
+        "Column 1"
+      ],
+      "sample_rows": [
+        [
+          "Insert /Address(es) of Places of Business"
+        ],
+        [
+          "_____________________________"
+        ]
+      ]
+    },
+    {
+      "table_id": "1a6137428bd2::t004",
+      "section_id": "1a6137428bd2::s013",
+      "row_count": 2,
+      "column_count": 2,
+      "headers": [
+        "Column 1",
+        "Column 2"
+      ],
+      "sample_rows": [
+        [
+          "Offeror\u2019s Signature",
+          "Date"
+        ],
+        [
+          "_____________________________",
+          "_____________________________"
+        ]
+      ]
+    },
+    {
+      "table_id": "1a6137428bd2::t005",
+      "section_id": "1a6137428bd2::s015",
+      "row_count": 2,
+      "column_count": 2,
+      "headers": [
+        "Line Item of goods and/or services",
+        "Canadian Value-Added (CAD)"
+      ],
+      "sample_rows": [
+        [
+          "Total Canadian Value-Added in the offer",
+          ""
+        ]
+      ]
+    },
+    {
+      "table_id": "1a6137428bd2::t006",
+      "section_id": "1a6137428bd2::s015",
+      "row_count": 2,
+      "column_count": 2,
+      "headers": [
+        "Column 1",
+        "Column 2"
+      ],
+      "sample_rows": [
+        [
+          "Offeror\u2019s Signature",
+          "Date"
+        ],
+        [
+          "_____________________________",
+          "_____________________________"
+        ]
+      ]
+    },
+    {
+      "table_id": "1a6137428bd2::t007",
+      "section_id": "1a6137428bd2::s019",
+      "row_count": 4,
+      "column_count": 2,
+      "headers": [
+        "Column 1",
+        "Column 2"
+      ],
+      "sample_rows": [
+        [
+          "CVA evaluation weighting:",
+          "25%"
+        ],
+        [
+          "Technical evaluation weighting:",
+          "35%"
+        ],
+        [
+          "Financial evaluation weighting:",
+          "40%"
+        ],
+        [
+          "TOTAL:",
+          "100%"
+        ]
+      ]
+    },
+    {
+      "table_id": "1a6137428bd2::t008",
+      "section_id": "1a6137428bd2::s020",
+      "row_count": 4,
+      "column_count": 2,
+      "headers": [
+        "Column 1",
+        "Column 2"
+      ],
+      "sample_rows": [
+        [
+          "CVA evaluation weighting:",
+          "25%"
+        ],
+        [
+          "Technical merit weighting:",
+          "30%"
+        ],
+        [
+          "Pricing weighting:",
+          "45%"
+        ],
+        [
+          "TOTAL:",
+          "100%"
+        ]
+      ]
+    },
+    {
+      "table_id": "1a6137428bd2::t009",
+      "section_id": "1a6137428bd2::s020",
+      "row_count": 8,
+      "column_count": 4,
+      "headers": [
+        "",
+        "Offer A (Canadian Supplier)",
+        "Offer B (Canadian Supplier)",
+        "Offer C (Canadian Supplier)"
+      ],
+      "sample_rows": [
+        [
+          "Offer Price",
+          "$49M",
+          "$47M",
+          "$45M"
+        ],
+        [
+          "Canadian Value-Added (portion of the Offer Price)",
+          "$40M",
+          "$25M",
+          "$30M"
+        ],
+        [
+          "Pricing Score (45%)",
+          "($45 M/$49 M) * 45 = 41.33",
+          "($45 M /$47 M) * 45 = 43.09",
+          "($45 M /$45 M) * 45 = 45"
+        ],
+        [
+          "Technical Merit Score (30%)",
+          "(175/200) * 30 = 26.25",
+          "(165/200) * 30 = 24.75",
+          "(150/200) * 30 = 22.5"
+        ],
+        [
+          "Canadian Value-Added (CVA) Score (25%)",
+          "($40 M/$49 M) * 25 = 20.41",
+          "($25 M/$47 M) * 25 = 13.30",
+          "($30 M/$45 M) * 25 = 16.67"
+        ],
+        [
+          "Combined Ratings",
+          "87.99",
+          "81.14",
+          "84.17"
+        ]
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "block_id": "1a6137428bd2::b0001",
+      "section_id": "1a6137428bd2::s001",
+      "type": "heading",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements"
+      ],
+      "markdown": "# Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+      "plain_text": "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements"
+    },
+    {
+      "block_id": "1a6137428bd2::b0002",
+      "section_id": "1a6137428bd2::s001",
+      "type": "list",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements"
+      ],
+      "markdown": "1. 1. Effective date\n1. The Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements (hereafter, \u201cthe Policy\u201d), issued pursuant to the Buy Canadian Procurement Policy Framework, takes effect on December 16, 2025.\n2. The Policy does not apply to solicitations published or contracts awarded prior to the effective date.\n3. For existing Supply Arrangements (SAs), including any solicitations issued from an existing SA , the Policy applies at the time of the next renewal. Departments may choose to incorporate Canadian suppliers and Canadian content requirements earlier, provided these elements are reflected in the updated Request for Supply Arrangement (RFSA). For existing Standing Offers (SOs), the Policy applies at their next renewal.\n2. 2. Purpose\n1. The Policy advances the Government of Canada\u2019s mission to build a strong and diversified Canadian economy. It encourages the participation of Canadian suppliers and incentivizes the use of Canadian content in strategic procurement.\n2. The Policy utilizes federal purchasing to advance Canada's economic, industrial, and innovation priorities. This includes strengthening domestic supply chains, supporting Canadian businesses, and enhancing national resilience.\n3. The Policy encourages the participation of Canadian suppliers by giving them a price-based evaluation credit during the offer evaluation process.\n4. The Policy incentivizes the use of Canadian content by evaluating offers based on the inclusion of Canadian goods and/or Canadian services and/or Canadian value-added, as defined in the Policy.\n3. 3. Definitions\n1. Strategic Procurement means:\n- procurement above the financial threshold set out in section 4.4 and that falls within one of the sectors and commodities listed in Appendix A . These sectors are prioritized because they contribute to risk mitigation, drive innovation, strengthen national security and reinforce Canada\u2019s strong and resilient economy.\n2. Canadian Supplier means:\n- a supplier that has a place of business in Canada where it conducts activities on a permanent basis that is clearly identified by name and accessible during normal business hours; or, a joint venture where each member of the joint venture has a place of business in Canada where it conducts activities on a permanent basis that is clearly identified by name and accessible during normal business hours; and\n- is registered and files taxes in Canada (e.g., GST / HST , corporate income tax);\n- maintains a registered address in Canada and employs personnel and/or conducts day-to-day business activities in Canada; and\n- will not subcontract work to non-Canadian suppliers or individuals located outside Canada, in a manner that results in minimal value-added activities being performed within Canada.\n- In assessing whether a supplier is Canadian, the contracting authority:\n- may consider the nature of the industry or sector, the geographical location of the supplier, and the level of activity typically performed by other suppliers competing in the same sector;\n- must provide the supplier with an opportunity to submit relevant evidence; and,\n- must clearly document the rationale and supporting evidence for their decision.\n3. Canadian Good means:\n- a good wholly manufactured or originating in Canada; or, a product containing imported components that has undergone sufficient change in Canada in a manner that satisfies the definition specified under the Canada-United-States-Mexico Agreement (CUSMA) Rules of Origin. For the purposes of this definition, the reference to \"territory of the Parties\" in the CUSMA Rules of Origin is to be replaced with \"Canada\".\n4. Canadian Service means:\n- a service wholly provided by (natural persons/individuals) based in Canada.\n- services include construction services.\n5. Canadian Value-Added means:\n- in relation to services, a Canadian Service or the proportion of the service contract performed by natural persons based in Canada; and\n- in relation to goods, a Canadian Good or the value of the portion of the good produced in Canada or the difference between the dutiable value of the imported goods and the selling price, taking into account any value added by manufacturers and distributors, and including any costs incurred in Canada related to:\n- research and development,\n- sales and marketing,\n- communications and manuals,\n- customization, modifications, installation, and support,\n- warehousing, distribution, and logistics,\n- training and after-sales service.\n6. Canadian Content means Canadian Value-Added\n7. Applicable trading partner means:\n- a country or customs territory listed in the schedule to the Canadian International Trade Tribunal Procurement Inquiry Regulations as a party to one or more of the trade agreements that applies to the procurement process.\n8. Supplier of an applicable trading partner means:\n- a supplier that has a place of business in an Applicable trading partner where it conducts activities on a permanent basis that is clearly identified by name and accessible during normal business hours; or,\n- a joint venture where at least one member of the joint venture has a place of business in an Applicable trading partner where it conducts activities on a permanent basis that is clearly identified by name and accessible during normal business hours, and all other members of the joint venture either meet this requirement or are a Canadian supplier.\n4. 4. Application\n1. The Policy is issued pursuant to the Buy Canadian Procurement Policy Framework .\n2. The Policy supersedes the Interim Policy on Reciprocal Procurement in cases where both apply.\n3. The Policy supersedes the Canadian Content Policy in cases where both apply.\n4. Financial thresholds are introduced in a phased approach and reflect the total estimated value of the procurement inclusive of all applicable taxes. The Policy applies to all competitive Strategic Procurement where the financial threshold is met:\n1. Effective December 16, 2025 : all Strategic Procurement $25M and up published after that date; and\n2. Effective June 15, 2026 : all Strategic Procurement $5M and up published after that date.\n5. Canada reserves the right to apply the requirements of the Policy to procurements that are otherwise excluded from application, at its sole discretion. Departments and agencies are strongly encouraged to apply the requirements of the Policy to excluded procurements wherever feasible, even below applicable thresholds, to support domestic industry.\n6. On a case-by-case basis where strictly necessary, departments and agencies may exclude procurements otherwise subject to the Policy where one or more of the following exceptions applies:\n1. Best value \u2013 where application of the Policy is expected to result in a cost increase of 25% or more above current market rates, such pricing may be deemed unreasonable or inconsistent with sound stewardship, and may not represent best value for Canada;\n2. Public Interest \u2013 where the application of the Policy would otherwise be inconsistent with the public interest;\n3. No capacity or availability \u2013 where the Canadian good is not produced in Canada in sufficient and reasonably available quantities and/or of a satisfactory quality;\n4. Undue Delay \u2013 where the application of the Policy would result in delays to the procurement of critical defence or national security equipment, which could negatively impact Canadian defence or national security operations;\n5. Commercial Off-The-Shelf (COTS) and Military Off-The-Shelf (MOTS) Products.\n7. Use of the exceptions listed at section 4.6 must be approved by the minister, of the department or agency for which the procurement is being undertaken.\n1. Where the procurement is conducted by a common service provider (e.g., Public Services and Procurement Canada, Shared Services Canada), the minister responsible for the common service provider must also approve the invocation of any exception prior to solicitation. This requirement applies regardless of whether the exception is initiated by the client department.\n2. For procurements that are issued by a common service provider on behalf of multiple departments or as part of a government-wide procurement instrument (e.g., National Master Standing Offers), the minister responsible for the common service provider may approve the use of the exceptions under section 4.6 without requiring approval from individual client departments. In such cases, the common service provider must ensure that the rationale and supporting documentation reflect the scope and impact of the exception across all affected departments.\n5. 5. Policy Requirements\n1. Departments and agencies of the Government of Canada are to implement the requirements of the Policy in their procurement processes. To do so, contracting authorities in collaboration with the business owners are required to:\n1. Determine if the Policy applies to the procurement in question, pursuant to sections 4.4 to 4.7; and,\n2. Prior to issuing the tender documents, the contracting authority must, if the procurement is subject to the Policy, incorporate the defined terms and associated Canadian Content requirements, outlined in the Policy.\n2. Canadian Supplier\n3. This requirement seeks to support Canadian industries and ensure that Canadian suppliers are prioritized in procurement processes.\n1. When the Policy applies and no exception is applicable, competition is open to Canadian suppliers and, if any international trade agreements apply to the solicitation, Suppliers of an applicable trading partner;\n2. Offers from eligible Canadian suppliers, as defined in section 3.2, will receive a 10 percent reduction to the total value of their financial proposal only for the purpose of the evaluation and it will not impact the actual offer price (see Appendix D ).\n3. Supplier Eligibility Attestation\n4. In order to be considered for the purposes of section 5.2.1, offerors must complete an attestation confirming that they meet the requirements of either definition as part of their offer as outlined in Appendix B .\n4. Canadian Content\n5. This requirement seeks to support Canadian industries and ensure that Canadian content is prioritized in the procurement process.\n1. Selection Methodologies\n2. When establishing the requirement of the solicitation, the contracting authority must determine which of the two following methodologies shall be applied for offer evaluation:\n1. Point-Rated Methodology\n2. Allocate 25 percent of the total evaluation score to the Canadian Value-Added requirement criterion (see Appendix E ).\n3. Mandatory Canadian Materials (as defined under the Policy on Prioritizing Canadian Materials) must be excluded from this calculation.\n4. Price-Based Methodology\n5. Where point-rated criteria methodology may not be suitable, use a price-based evaluation credit 25 percent applied to financial proposal at evaluation. This is only for the purpose of the evaluation and will not impact the actual offer price (see Appendix F ).\n6. Mandatory Canadian Materials (as defined under the Policy on Prioritizing Canadian Materials in Federal Procurements) must be excluded from this calculation.\n3. Mandatory Minimum\n4. The contracting authority in collaboration with the business owner can set a minimum mandatory Canadian Value-Added requirement as part of the evaluation criteria only where justified by procurement objectives and approved as per section 5.7.\n5. Applicable Canadian Content Attestation\n6. When applicable, offerors must complete an attestation confirming their commitment to use Canadian goods and/or Canadian services and/or Canadian value-added in the performance of the contract requirements as outlined in Appendix C .\n6. Contracting authorities must evaluate all offers in accordance with the requirements set forth in sections 5.2 and 5.3.\n7. If during the performance of the contract, due to changes in market availability or other substantiated factors, the contractor determines that it is no longer feasible to meet its Canadian content requirement, they may submit a written request to the contracting authority. The request must include detailed justification and supporting documentation.\n1. Approval of any such request is subject to the authorization of the client department\u2019s minister, and, where the procurement is conducted by a common service provider (e.g., Public Services and Procurement Canada, Shared Services Canada), the minister responsible for the common service provider, as stipulated in section 4.7 of this Policy.\n2. Departments must ensure that contractors continue to meet all contractual obligations including delivery, quality, and performance requirements, while approval is pending. Approval delays do not relieve the contractor of these obligations. If the request is approved, departments must honour valid claims for payment in accordance with the amended terms.\n3. The contracting authority may determine that a price adjustment is warranted to offset the difference in Canadian content value. Any such adjustment must be reasonable and informed by sufficient documentation. In the absence of sufficient documentation provided by the contractor, the decision to adjust pricing or contract terms will be at the sole discretion of the contracting authority.\n8. Ensure that accurate and complete procurement records are created and maintained in the procurement file.\n9. Conditions for Revised Evaluation Criteria, and Selection Methodologies\n10. Any changes or revisions to requirements as set forth in sections 5.2 and 5.3 are subject to approvals at the Assistant Deputy Minister level. This includes any adjustments to the reduction to the total value of the financial proposal for Canadian Supplier and modifications to point-rated or price-based methodologies for Canadian Content.\n11. Documented Exceptions\n12. Approved exceptions must be fully documented by the contracting authority in the procurement file, including the rationale, supporting evidence, and required approvals.\n6. 6. Roles and Responsibilities\n1. Public Services and Procurement Canada ( PSPC ) is responsible for:\n1. Developing and issuing supporting policy instruments, guidance materials, and tools to ensure consistent interpretation and application of the various Canadian priority measures.\n2. Common Service Providers ( PSPC and Shared Services Canada) are responsible for:\n1. For procurements managed as a common service provider, implementing mechanisms to monitor compliance, tracking performance, and assessing the effectiveness of Canadian priority requirements of procurements under its responsibility.\n3. Departments and Agencies are responsible for:\n1. Determining applicability of the Policy to each procurement;\n2. Ensuring Statements of Work and specifications support Canadian suppliers and Canadian content; and\n3. Obtaining and validating (when required) offeror declarations and attestations.\n7. 7. Monitoring and Reporting\n1. Departments and agencies must:\n1. Monitor contractor compliance throughout the procurement lifecycle;\n2. Ensure that accurate and complete procurement records are created and maintained to support verification of compliance, including offeror declarations and attestations, and any exceptions where applicable;\n3. Support any government-wide data reporting obligations under the Buy Canadian Procurement Framework; and\n4. Maintain records of offeror declarations and attestations, and any deviations from contractual obligations.\n8. 8. Enquiries\n1. Please direct enquiries about the Policy to the organizational unit in your department responsible for this subject matter. For interpretation of the Policy, the responsible organizational unit should contact: spac.paachetezcanadien-apbuycanadian.pspc@tpsgc-pwgsc.gc.ca .",
+      "plain_text": "1. Effective date ; The Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements (hereafter, \u201cthe Policy\u201d), issued pursuant to the Buy Canadian Procurement Policy Framework, takes effect on December 16, 2025. ; The Policy does not apply to solicitations published or contracts awarded prior to the effective date. ; For existing Supply Arrangements (SAs), including any solicitations issued from an existing SA , the Policy applies at the time of the next renewal. Departments may choose to incorporate Canadian suppliers and Canadian content requirements earlier, provided these elements are reflected in the updated Request for Supply Arrangement (RFSA). For existing Standing Offers (SOs), the Policy applies at their next renewal. ; 2. Purpose ; The Policy advances the Government of Canada\u2019s mission to build a strong and diversified Canadian economy. It encourages the participation of Canadian suppliers and incentivizes the use of Canadian content in strategic procurement. ; The Policy utilizes federal purchasing to advance Canada's economic, industrial, and innovation priorities. This includes strengthening domestic supply chains, supporting Canadian businesses, and enhancing national resilience. ; The Policy encourages the participation of Canadian suppliers by giving them a price-based evaluation credit during the offer evaluation process. ; The Policy incentivizes the use of Canadian content by evaluating offers based on the inclusion of Canadian goods and/or Canadian services and/or Canadian value-added, as defined in the Policy. ; 3. Definitions ; Strategic Procurement means: ; procurement above the financial threshold set out in section 4.4 and that falls within one of the sectors and commodities listed in Appendix A . These sectors are prioritized because they contribute to risk mitigation, drive innovation, strengthen national security and reinforce Canada\u2019s strong and resilient economy. ; Canadian Supplier means: ; a supplier that has a place of business in Canada where it conducts activities on a permanent basis that is clearly identified by name and accessible during normal business hours; or, a joint venture where each member of the joint venture has a place of business in Canada where it conducts activities on a permanent basis that is clearly identified by name and accessible during normal business hours; and ; is registered and files taxes in Canada (e.g., GST / HST , corporate income tax); ; maintains a registered address in Canada and employs personnel and/or conducts day-to-day business activities in Canada; and ; will not subcontract work to non-Canadian suppliers or individuals located outside Canada, in a manner that results in minimal value-added activities being performed within Canada. ; In assessing whether a supplier is Canadian, the contracting authority: ; may consider the nature of the industry or sector, the geographical location of the supplier, and the level of activity typically performed by other suppliers competing in the same sector; ; must provide the supplier with an opportunity to submit relevant evidence; and, ; must clearly document the rationale and supporting evidence for their decision. ; Canadian Good means: ; a good wholly manufactured or originating in Canada; or, a product containing imported components that has undergone sufficient change in Canada in a manner that satisfies the definition specified under the Canada-United-States-Mexico Agreement (CUSMA) Rules of Origin. For the purposes of this definition, the reference to \"territory of the Parties\" in the CUSMA Rules of Origin is to be replaced with \"Canada\". ; Canadian Service means: ; a service wholly provided by (natural persons/individuals) based in Canada. ; services include construction services. ; Canadian Value-Added means: ; in relation to services, a Canadian Service or the proportion of the service contract performed by natural persons based in Canada; and ; in relation to goods, a Canadian Good or the value of the portion of the good produced in Canada or the difference between the dutiable value of the imported goods and the selling price, taking into account any value added by manufacturers and distributors, and including any costs incurred in Canada related to: ; research and development, ; sales and marketing, ; communications and manuals, ; customization, modifications, installation, and support, ; warehousing, distribution, and logistics, ; training and after-sales service. ; Canadian Content means Canadian Value-Added ; Applicable trading partner means: ; a country or customs territory listed in the schedule to the Canadian International Trade Tribunal Procurement Inquiry Regulations as a party to one or more of the trade agreements that applies to the procurement process. ; Supplier of an applicable trading partner means: ; a supplier that has a place of business in an Applicable trading partner where it conducts activities on a permanent basis that is clearly identified by name and accessible during normal business hours; or, ; a joint venture where at least one member of the joint venture has a place of business in an Applicable trading partner where it conducts activities on a permanent basis that is clearly identified by name and accessible during normal business hours, and all other members of the joint venture either meet this requirement or are a Canadian supplier. ; 4. Application ; The Policy is issued pursuant to the Buy Canadian Procurement Policy Framework . ; The Policy supersedes the Interim Policy on Reciprocal Procurement in cases where both apply. ; The Policy supersedes the Canadian Content Policy in cases where both apply. ; Financial thresholds are introduced in a phased approach and reflect the total estimated value of the procurement inclusive of all applicable taxes. The Policy applies to all competitive Strategic Procurement where the financial threshold is met: ; Effective December 16, 2025 : all Strategic Procurement $25M and up published after that date; and ; Effective June 15, 2026 : all Strategic Procurement $5M and up published after that date. ; Canada reserves the right to apply the requirements of the Policy to procurements that are otherwise excluded from application, at its sole discretion. Departments and agencies are strongly encouraged to apply the requirements of the Policy to excluded procurements wherever feasible, even below applicable thresholds, to support domestic industry. ; On a case-by-case basis where strictly necessary, departments and agencies may exclude procurements otherwise subject to the Policy where one or more of the following exceptions applies: ; Best value \u2013 where application of the Policy is expected to result in a cost increase of 25% or more above current market rates, such pricing may be deemed unreasonable or inconsistent with sound stewardship, and may not represent best value for Canada; ; Public Interest \u2013 where the application of the Policy would otherwise be inconsistent with the public interest; ; No capacity or availability \u2013 where the Canadian good is not produced in Canada in sufficient and reasonably available quantities and/or of a satisfactory quality; ; Undue Delay \u2013 where the application of the Policy would result in delays to the procurement of critical defence or national security equipment, which could negatively impact Canadian defence or national security operations; ; Commercial Off-The-Shelf (COTS) and Military Off-The-Shelf (MOTS) Products. ; Use of the exceptions listed at section 4.6 must be approved by the minister, of the department or agency for which the procurement is being undertaken. ; Where the procurement is conducted by a common service provider (e.g., Public Services and Procurement Canada, Shared Services Canada), the minister responsible for the common service provider must also approve the invocation of any exception prior to solicitation. This requirement applies regardless of whether the exception is initiated by the client department. ; For procurements that are issued by a common service provider on behalf of multiple departments or as part of a government-wide procurement instrument (e.g., National Master Standing Offers), the minister responsible for the common service provider may approve the use of the exceptions under section 4.6 without requiring approval from individual client departments. In such cases, the common service provider must ensure that the rationale and supporting documentation reflect the scope and impact of the exception across all affected departments. ; 5. Policy Requirements ; Departments and agencies of the Government of Canada are to implement the requirements of the Policy in their procurement processes. To do so, contracting authorities in collaboration with the business owners are required to: ; Determine if the Policy applies to the procurement in question, pursuant to sections 4.4 to 4.7; and, ; Prior to issuing the tender documents, the contracting authority must, if the procurement is subject to the Policy, incorporate the defined terms and associated Canadian Content requirements, outlined in the Policy. ; Canadian Supplier ; This requirement seeks to support Canadian industries and ensure that Canadian suppliers are prioritized in procurement processes. ; When the Policy applies and no exception is applicable, competition is open to Canadian suppliers and, if any international trade agreements apply to the solicitation, Suppliers of an applicable trading partner; ; Offers from eligible Canadian suppliers, as defined in section 3.2, will receive a 10 percent reduction to the total value of their financial proposal only for the purpose of the evaluation and it will not impact the actual offer price (see Appendix D ). ; Supplier Eligibility Attestation ; In order to be considered for the purposes of section 5.2.1, offerors must complete an attestation confirming that they meet the requirements of either definition as part of their offer as outlined in Appendix B . ; Canadian Content ; This requirement seeks to support Canadian industries and ensure that Canadian content is prioritized in the procurement process. ; Selection Methodologies ; When establishing the requirement of the solicitation, the contracting authority must determine which of the two following methodologies shall be applied for offer evaluation: ; Point-Rated Methodology ; Allocate 25 percent of the total evaluation score to the Canadian Value-Added requirement criterion (see Appendix E ). ; Mandatory Canadian Materials (as defined under the Policy on Prioritizing Canadian Materials) must be excluded from this calculation. ; Price-Based Methodology ; Where point-rated criteria methodology may not be suitable, use a price-based evaluation credit 25 percent applied to financial proposal at evaluation. This is only for the purpose of the evaluation and will not impact the actual offer price (see Appendix F ). ; Mandatory Canadian Materials (as defined under the Policy on Prioritizing Canadian Materials in Federal Procurements) must be excluded from this calculation. ; Mandatory Minimum ; The contracting authority in collaboration with the business owner can set a minimum mandatory Canadian Value-Added requirement as part of the evaluation criteria only where justified by procurement objectives and approved as per section 5.7. ; Applicable Canadian Content Attestation ; When applicable, offerors must complete an attestation confirming their commitment to use Canadian goods and/or Canadian services and/or Canadian value-added in the performance of the contract requirements as outlined in Appendix C . ; Contracting authorities must evaluate all offers in accordance with the requirements set forth in sections 5.2 and 5.3. ; If during the performance of the contract, due to changes in market availability or other substantiated factors, the contractor determines that it is no longer feasible to meet its Canadian content requirement, they may submit a written request to the contracting authority. The request must include detailed justification and supporting documentation. ; Approval of any such request is subject to the authorization of the client department\u2019s minister, and, where the procurement is conducted by a common service provider (e.g., Public Services and Procurement Canada, Shared Services Canada), the minister responsible for the common service provider, as stipulated in section 4.7 of this Policy. ; Departments must ensure that contractors continue to meet all contractual obligations including delivery, quality, and performance requirements, while approval is pending. Approval delays do not relieve the contractor of these obligations. If the request is approved, departments must honour valid claims for payment in accordance with the amended terms. ; The contracting authority may determine that a price adjustment is warranted to offset the difference in Canadian content value. Any such adjustment must be reasonable and informed by sufficient documentation. In the absence of sufficient documentation provided by the contractor, the decision to adjust pricing or contract terms will be at the sole discretion of the contracting authority. ; Ensure that accurate and complete procurement records are created and maintained in the procurement file. ; Conditions for Revised Evaluation Criteria, and Selection Methodologies ; Any changes or revisions to requirements as set forth in sections 5.2 and 5.3 are subject to approvals at the Assistant Deputy Minister level. This includes any adjustments to the reduction to the total value of the financial proposal for Canadian Supplier and modifications to point-rated or price-based methodologies for Canadian Content. ; Documented Exceptions ; Approved exceptions must be fully documented by the contracting authority in the procurement file, including the rationale, supporting evidence, and required approvals. ; 6. Roles and Responsibilities ; Public Services and Procurement Canada ( PSPC ) is responsible for: ; Developing and issuing supporting policy instruments, guidance materials, and tools to ensure consistent interpretation and application of the various Canadian priority measures. ; Common Service Providers ( PSPC and Shared Services Canada) are responsible for: ; For procurements managed as a common service provider, implementing mechanisms to monitor compliance, tracking performance, and assessing the effectiveness of Canadian priority requirements of procurements under its responsibility. ; Departments and Agencies are responsible for: ; Determining applicability of the Policy to each procurement; ; Ensuring Statements of Work and specifications support Canadian suppliers and Canadian content; and ; Obtaining and validating (when required) offeror declarations and attestations. ; 7. Monitoring and Reporting ; Departments and agencies must: ; Monitor contractor compliance throughout the procurement lifecycle; ; Ensure that accurate and complete procurement records are created and maintained to support verification of compliance, including offeror declarations and attestations, and any exceptions where applicable; ; Support any government-wide data reporting obligations under the Buy Canadian Procurement Framework; and ; Maintain records of offeror declarations and attestations, and any deviations from contractual obligations. ; 8. Enquiries ; Please direct enquiries about the Policy to the organizational unit in your department responsible for this subject matter. For interpretation of the Policy, the responsible organizational unit should contact: spac.paachetezcanadien-apbuycanadian.pspc@tpsgc-pwgsc.gc.ca ."
+    },
+    {
+      "block_id": "1a6137428bd2::b0003",
+      "section_id": "1a6137428bd2::s002",
+      "type": "heading",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix A: Strategic Procurement \u2013 List of Sectors and Commodities"
+      ],
+      "markdown": "## Appendix A: Strategic Procurement \u2013 List of Sectors and Commodities",
+      "plain_text": "Appendix A: Strategic Procurement \u2013 List of Sectors and Commodities"
+    },
+    {
+      "block_id": "1a6137428bd2::b0004",
+      "section_id": "1a6137428bd2::s003",
+      "type": "heading",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix A: Strategic Procurement \u2013 List of Sectors and Commodities",
+        "1. Defence and Security"
+      ],
+      "markdown": "### 1. Defence and Security",
+      "plain_text": "1. Defence and Security"
+    },
+    {
+      "block_id": "1a6137428bd2::b0005",
+      "section_id": "1a6137428bd2::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix A: Strategic Procurement \u2013 List of Sectors and Commodities",
+        "1. Defence and Security"
+      ],
+      "markdown": "Goods and services that support Canada\u2019s national defence, military readiness, and security operations, including systems and capabilities essential for sovereignty and protection.",
+      "plain_text": "Goods and services that support Canada\u2019s national defence, military readiness, and security operations, including systems and capabilities essential for sovereignty and protection."
+    },
+    {
+      "block_id": "1a6137428bd2::b0006",
+      "section_id": "1a6137428bd2::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix A: Strategic Procurement \u2013 List of Sectors and Commodities",
+        "1. Defence and Security"
+      ],
+      "markdown": "Examples include, but are not limited to: weapons, vehicles, aircraft, ships, naval systems, electronic warfare, logistics, training, security services",
+      "plain_text": "Examples include, but are not limited to: weapons, vehicles, aircraft, ships, naval systems, electronic warfare, logistics, training, security services"
+    },
+    {
+      "block_id": "1a6137428bd2::b0007",
+      "section_id": "1a6137428bd2::s004",
+      "type": "heading",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix A: Strategic Procurement \u2013 List of Sectors and Commodities",
+        "2. Health and Pharmaceutical"
+      ],
+      "markdown": "### 2. Health and Pharmaceutical",
+      "plain_text": "2. Health and Pharmaceutical"
+    },
+    {
+      "block_id": "1a6137428bd2::b0008",
+      "section_id": "1a6137428bd2::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix A: Strategic Procurement \u2013 List of Sectors and Commodities",
+        "2. Health and Pharmaceutical"
+      ],
+      "markdown": "Goods and services related to healthcare delivery, medical treatment, and to ensure public health resilience and emergency preparedness and response.",
+      "plain_text": "Goods and services related to healthcare delivery, medical treatment, and to ensure public health resilience and emergency preparedness and response."
+    },
+    {
+      "block_id": "1a6137428bd2::b0009",
+      "section_id": "1a6137428bd2::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix A: Strategic Procurement \u2013 List of Sectors and Commodities",
+        "2. Health and Pharmaceutical"
+      ],
+      "markdown": "Examples include, but are not limited to: medical and surgical equipment, healthcare services, nursing care, medical waste, drugs, vaccines and biologicals",
+      "plain_text": "Examples include, but are not limited to: medical and surgical equipment, healthcare services, nursing care, medical waste, drugs, vaccines and biologicals"
+    },
+    {
+      "block_id": "1a6137428bd2::b0010",
+      "section_id": "1a6137428bd2::s005",
+      "type": "heading",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix A: Strategic Procurement \u2013 List of Sectors and Commodities",
+        "3. Infrastructure, Construction, and Transportation"
+      ],
+      "markdown": "### 3. Infrastructure, Construction, and Transportation",
+      "plain_text": "3. Infrastructure, Construction, and Transportation"
+    },
+    {
+      "block_id": "1a6137428bd2::b0011",
+      "section_id": "1a6137428bd2::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix A: Strategic Procurement \u2013 List of Sectors and Commodities",
+        "3. Infrastructure, Construction, and Transportation"
+      ],
+      "markdown": "Physical assets and systems essential for public and economic activity; services and materials involved in constructing, renovating, or demolishing buildings and structures; and goods and services enabling the movement of people and property.",
+      "plain_text": "Physical assets and systems essential for public and economic activity; services and materials involved in constructing, renovating, or demolishing buildings and structures; and goods and services enabling the movement of people and property."
+    },
+    {
+      "block_id": "1a6137428bd2::b0012",
+      "section_id": "1a6137428bd2::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix A: Strategic Procurement \u2013 List of Sectors and Commodities",
+        "3. Infrastructure, Construction, and Transportation"
+      ],
+      "markdown": "Examples include, but are not limited to: buildings, transportation infrastructure, mobility, utilities, environmental cleanup, facilities management, aerospace, shipbuilding, motor vehicles",
+      "plain_text": "Examples include, but are not limited to: buildings, transportation infrastructure, mobility, utilities, environmental cleanup, facilities management, aerospace, shipbuilding, motor vehicles"
+    },
+    {
+      "block_id": "1a6137428bd2::b0013",
+      "section_id": "1a6137428bd2::s006",
+      "type": "heading",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix A: Strategic Procurement \u2013 List of Sectors and Commodities",
+        "4. Information and Communications Technology (ICT)"
+      ],
+      "markdown": "### 4. Information and Communications Technology (ICT)",
+      "plain_text": "4. Information and Communications Technology (ICT)"
+    },
+    {
+      "block_id": "1a6137428bd2::b0014",
+      "section_id": "1a6137428bd2::s006",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix A: Strategic Procurement \u2013 List of Sectors and Commodities",
+        "4. Information and Communications Technology (ICT)"
+      ],
+      "markdown": "Digital systems, hardware, software, network infrastructure, and related services that enable government functions.",
+      "plain_text": "Digital systems, hardware, software, network infrastructure, and related services that enable government functions."
+    },
+    {
+      "block_id": "1a6137428bd2::b0015",
+      "section_id": "1a6137428bd2::s006",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix A: Strategic Procurement \u2013 List of Sectors and Commodities",
+        "4. Information and Communications Technology (ICT)"
+      ],
+      "markdown": "Examples include, but are not limited to: digital infrastructure, data centers, cloud, networks, telecommunications, 5G, connectivity, software and hardware",
+      "plain_text": "Examples include, but are not limited to: digital infrastructure, data centers, cloud, networks, telecommunications, 5G, connectivity, software and hardware"
+    },
+    {
+      "block_id": "1a6137428bd2::b0016",
+      "section_id": "1a6137428bd2::s007",
+      "type": "heading",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix A: Strategic Procurement \u2013 List of Sectors and Commodities",
+        "5. Consumer and Industrial Goods and Materials"
+      ],
+      "markdown": "### 5. Consumer and Industrial Goods and Materials",
+      "plain_text": "5. Consumer and Industrial Goods and Materials"
+    },
+    {
+      "block_id": "1a6137428bd2::b0017",
+      "section_id": "1a6137428bd2::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix A: Strategic Procurement \u2013 List of Sectors and Commodities",
+        "5. Consumer and Industrial Goods and Materials"
+      ],
+      "markdown": "Commercial products and materials intended for personal use and consumption or industrial production and operations.",
+      "plain_text": "Commercial products and materials intended for personal use and consumption or industrial production and operations."
+    },
+    {
+      "block_id": "1a6137428bd2::b0018",
+      "section_id": "1a6137428bd2::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix A: Strategic Procurement \u2013 List of Sectors and Commodities",
+        "5. Consumer and Industrial Goods and Materials"
+      ],
+      "markdown": "Examples include, but are not limited to: clothing, textiles, furniture, fuel, chemicals and plastics, scientific and testing equipment, fire suppression, machinery.",
+      "plain_text": "Examples include, but are not limited to: clothing, textiles, furniture, fuel, chemicals and plastics, scientific and testing equipment, fire suppression, machinery."
+    },
+    {
+      "block_id": "1a6137428bd2::b0019",
+      "section_id": "1a6137428bd2::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix A: Strategic Procurement \u2013 List of Sectors and Commodities",
+        "5. Consumer and Industrial Goods and Materials"
+      ],
+      "markdown": "Professional services directly supporting the above-listed sectors and commodities are also included.",
+      "plain_text": "Professional services directly supporting the above-listed sectors and commodities are also included."
+    },
+    {
+      "block_id": "1a6137428bd2::b0020",
+      "section_id": "1a6137428bd2::s008",
+      "type": "heading",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix B: Supplier Eligibility Attestation Form"
+      ],
+      "markdown": "## Appendix B: Supplier Eligibility Attestation Form",
+      "plain_text": "Appendix B: Supplier Eligibility Attestation Form"
+    },
+    {
+      "block_id": "1a6137428bd2::b0021",
+      "section_id": "1a6137428bd2::s009",
+      "type": "heading",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix B: Supplier Eligibility Attestation Form",
+        "Part I - Submission Eligibility - Solicitation of Offer"
+      ],
+      "markdown": "### Part I - Submission Eligibility - Solicitation of Offer",
+      "plain_text": "Part I - Submission Eligibility - Solicitation of Offer"
+    },
+    {
+      "block_id": "1a6137428bd2::b0022",
+      "section_id": "1a6137428bd2::s009",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix B: Supplier Eligibility Attestation Form",
+        "Part I - Submission Eligibility - Solicitation of Offer"
+      ],
+      "markdown": "This solicitation of offers is open to Canadian suppliers and, if any international trade agreements apply to the solicitation, Suppliers of an applicable trading partner.",
+      "plain_text": "This solicitation of offers is open to Canadian suppliers and, if any international trade agreements apply to the solicitation, Suppliers of an applicable trading partner."
+    },
+    {
+      "block_id": "1a6137428bd2::b0023",
+      "section_id": "1a6137428bd2::s009",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix B: Supplier Eligibility Attestation Form",
+        "Part I - Submission Eligibility - Solicitation of Offer"
+      ],
+      "markdown": "Submissions received from suppliers of non-trading partner countries will be deemed ineligible and will be rejected without further consideration.",
+      "plain_text": "Submissions received from suppliers of non-trading partner countries will be deemed ineligible and will be rejected without further consideration."
+    },
+    {
+      "block_id": "1a6137428bd2::b0024",
+      "section_id": "1a6137428bd2::s010",
+      "type": "heading",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix B: Supplier Eligibility Attestation Form",
+        "Instructions to Buyers:"
+      ],
+      "markdown": "### Instructions to Buyers:",
+      "plain_text": "Instructions to Buyers:"
+    },
+    {
+      "block_id": "1a6137428bd2::b0025",
+      "section_id": "1a6137428bd2::s010",
+      "type": "list",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix B: Supplier Eligibility Attestation Form",
+        "Instructions to Buyers:"
+      ],
+      "markdown": "- Include only the rows for the trade agreements that apply to the solicitation of offers and delete rows for any trade agreements that do not apply.\n- If no trade agreements apply to the requirement, do not include the table below.",
+      "plain_text": "Include only the rows for the trade agreements that apply to the solicitation of offers and delete rows for any trade agreements that do not apply. ; If no trade agreements apply to the requirement, do not include the table below."
+    },
+    {
+      "block_id": "1a6137428bd2::b0026",
+      "section_id": "1a6137428bd2::s010",
+      "type": "table",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix B: Supplier Eligibility Attestation Form",
+        "Instructions to Buyers:"
+      ],
+      "markdown": "| Applicable Trade Agreement(s) |\n| --- |\n| World Trade Organization Agreement on Government Procurement (WTO-GPA) |\n| Canada-Chile Free Trade Agreement |\n| Canada-Colombia Free Trade Agreement |\n| Canada-European Union Comprehensive and Economic Agreement (CETA) |\n| Canada-Honduras Free Trade Agreement |\n| Canada-Korea Free Trade Agreement |\n| Canada-Panama Free Trade Agreement |\n| Canada-Peru Free Trade Agreement |\n| Canada-Ukraine Free Trade Agreement |\n| Canada-United Kingdom Trade Continuity Agreement (CUKTCA) |\n| Canadian Free Trade Agreement (CFTA) |\n| Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP) |",
+      "plain_text": "Applicable Trade Agreement(s) ; World Trade Organization Agreement on Government Procurement (WTO-GPA) ; Canada-Chile Free Trade Agreement ; Canada-Colombia Free Trade Agreement ; Canada-European Union Comprehensive and Economic Agreement (CETA) ; Canada-Honduras Free Trade Agreement ; Canada-Korea Free Trade Agreement",
+      "table_id": "1a6137428bd2::t001"
+    },
+    {
+      "block_id": "1a6137428bd2::b0027",
+      "section_id": "1a6137428bd2::s011",
+      "type": "heading",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix B: Supplier Eligibility Attestation Form",
+        "Part II - Eligibility - Canadian Supplier"
+      ],
+      "markdown": "### Part II - Eligibility - Canadian Supplier",
+      "plain_text": "Part II - Eligibility - Canadian Supplier"
+    },
+    {
+      "block_id": "1a6137428bd2::b0028",
+      "section_id": "1a6137428bd2::s011",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix B: Supplier Eligibility Attestation Form",
+        "Part II - Eligibility - Canadian Supplier"
+      ],
+      "markdown": "The Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements (the Policy) seeks to support Canadian industries and ensure that Canadian suppliers are prioritized in procurement processes.",
+      "plain_text": "The Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements (the Policy) seeks to support Canadian industries and ensure that Canadian suppliers are prioritized in procurement processes."
+    },
+    {
+      "block_id": "1a6137428bd2::b0029",
+      "section_id": "1a6137428bd2::s011",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix B: Supplier Eligibility Attestation Form",
+        "Part II - Eligibility - Canadian Supplier"
+      ],
+      "markdown": "To receive priority treatment as a Canadian supplier, offerors must meet the definition of Canadian supplier as set out under the Policy.",
+      "plain_text": "To receive priority treatment as a Canadian supplier, offerors must meet the definition of Canadian supplier as set out under the Policy."
+    },
+    {
+      "block_id": "1a6137428bd2::b0030",
+      "section_id": "1a6137428bd2::s011",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix B: Supplier Eligibility Attestation Form",
+        "Part II - Eligibility - Canadian Supplier"
+      ],
+      "markdown": "Applicable trading partner means :",
+      "plain_text": "Applicable trading partner means :"
+    },
+    {
+      "block_id": "1a6137428bd2::b0031",
+      "section_id": "1a6137428bd2::s011",
+      "type": "list",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix B: Supplier Eligibility Attestation Form",
+        "Part II - Eligibility - Canadian Supplier"
+      ],
+      "markdown": "- a country or customs territory listed in the schedule to the Canadian International Trade Tribunal Procurement Inquiry Regulations as a party to one or more of the trade agreements that applies to the procurement process.",
+      "plain_text": "a country or customs territory listed in the schedule to the Canadian International Trade Tribunal Procurement Inquiry Regulations as a party to one or more of the trade agreements that applies to the procurement process."
+    },
+    {
+      "block_id": "1a6137428bd2::b0032",
+      "section_id": "1a6137428bd2::s011",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix B: Supplier Eligibility Attestation Form",
+        "Part II - Eligibility - Canadian Supplier"
+      ],
+      "markdown": "Canadian supplier means :",
+      "plain_text": "Canadian supplier means :"
+    },
+    {
+      "block_id": "1a6137428bd2::b0033",
+      "section_id": "1a6137428bd2::s011",
+      "type": "list",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix B: Supplier Eligibility Attestation Form",
+        "Part II - Eligibility - Canadian Supplier"
+      ],
+      "markdown": "- a supplier that has a place of business in Canada where it conducts activities on a permanent basis which is clearly identified by name and accessible during normal business hours; or, a joint venture where each member of the joint venture has a place of business in Canada where it conducts activities on a permanent basis that is clearly identified by name and accessible during normal business hours; and\n- is registered and files taxes in Canada (e.g., GST / HST , corporate income tax);\n- maintains a registered address in Canada and employs personnel and/or conducts day-to-day business activities in Canada; and will not subcontract work to non-Canadian suppliers or individuals located outside Canada, in a manner that results in minimal value-added activities being performed within Canada.",
+      "plain_text": "a supplier that has a place of business in Canada where it conducts activities on a permanent basis which is clearly identified by name and accessible during normal business hours; or, a joint venture where each member of the joint venture has a place of business in Canada where it conducts activities on a permanent basis that is clearly identified by name and accessible during normal business hours; and ; is registered and files taxes in Canada (e.g., GST / HST , corporate income tax); ; maintains a registered address in Canada and employs personnel and/or conducts day-to-day business activities in Canada; and will not subcontract work to non-Canadian suppliers or individuals located outside Canada, in a manner that results in minimal value-added activities being performed within Canada."
+    },
+    {
+      "block_id": "1a6137428bd2::b0034",
+      "section_id": "1a6137428bd2::s011",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix B: Supplier Eligibility Attestation Form",
+        "Part II - Eligibility - Canadian Supplier"
+      ],
+      "markdown": "Supplier of an applicable trading partner means :",
+      "plain_text": "Supplier of an applicable trading partner means :"
+    },
+    {
+      "block_id": "1a6137428bd2::b0035",
+      "section_id": "1a6137428bd2::s011",
+      "type": "list",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix B: Supplier Eligibility Attestation Form",
+        "Part II - Eligibility - Canadian Supplier"
+      ],
+      "markdown": "- a supplier that has a place of business in an Applicable trading partner where it conducts activities on a permanent basis that is clearly identified by name and accessible during normal business hours; or\n- a joint venture where at least one member of the joint venture has a place of business in an Applicable trading partner where it conducts activities on a permanent basis that is clearly identified by name and accessible during normal business hours, and all other members of the joint venture either meet this requirement or are a Canadian supplier.",
+      "plain_text": "a supplier that has a place of business in an Applicable trading partner where it conducts activities on a permanent basis that is clearly identified by name and accessible during normal business hours; or ; a joint venture where at least one member of the joint venture has a place of business in an Applicable trading partner where it conducts activities on a permanent basis that is clearly identified by name and accessible during normal business hours, and all other members of the joint venture either meet this requirement or are a Canadian supplier."
+    },
+    {
+      "block_id": "1a6137428bd2::b0036",
+      "section_id": "1a6137428bd2::s011",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix B: Supplier Eligibility Attestation Form",
+        "Part II - Eligibility - Canadian Supplier"
+      ],
+      "markdown": "Offerors must submit this Supplier Eligibility Attestation Form at offer closing.",
+      "plain_text": "Offerors must submit this Supplier Eligibility Attestation Form at offer closing."
+    },
+    {
+      "block_id": "1a6137428bd2::b0037",
+      "section_id": "1a6137428bd2::s012",
+      "type": "heading",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix B: Supplier Eligibility Attestation Form",
+        "Part III - Instructions"
+      ],
+      "markdown": "### Part III - Instructions",
+      "plain_text": "Part III - Instructions"
+    },
+    {
+      "block_id": "1a6137428bd2::b0038",
+      "section_id": "1a6137428bd2::s012",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix B: Supplier Eligibility Attestation Form",
+        "Part III - Instructions"
+      ],
+      "markdown": "To confirm and attest your eligibility as a Canadian supplier or as a supplier of applicable trading partners, please carefully review and complete this form.",
+      "plain_text": "To confirm and attest your eligibility as a Canadian supplier or as a supplier of applicable trading partners, please carefully review and complete this form."
+    },
+    {
+      "block_id": "1a6137428bd2::b0039",
+      "section_id": "1a6137428bd2::s013",
+      "type": "heading",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Supplier Eligibility Attestation Form"
+      ],
+      "markdown": "## Supplier Eligibility Attestation Form",
+      "plain_text": "Supplier Eligibility Attestation Form"
+    },
+    {
+      "block_id": "1a6137428bd2::b0040",
+      "section_id": "1a6137428bd2::s013",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Supplier Eligibility Attestation Form"
+      ],
+      "markdown": "The Offeror, Enter Legal Name of Offeror , is a Canadian supplier, as defined in the Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements.",
+      "plain_text": "The Offeror, Enter Legal Name of Offeror , is a Canadian supplier, as defined in the Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements."
+    },
+    {
+      "block_id": "1a6137428bd2::b0041",
+      "section_id": "1a6137428bd2::s013",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Supplier Eligibility Attestation Form"
+      ],
+      "markdown": "The address, as provided below, is the Offeror\u2019s place of business in Canada where:",
+      "plain_text": "The address, as provided below, is the Offeror\u2019s place of business in Canada where:"
+    },
+    {
+      "block_id": "1a6137428bd2::b0042",
+      "section_id": "1a6137428bd2::s013",
+      "type": "list",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Supplier Eligibility Attestation Form"
+      ],
+      "markdown": "- business activities are conducted on a permanent basis,\n- can be accessed during normal business hours,\n- can be clearly identified by business name,\n- is registered and files taxes in Canada (e.g., GST / HST , corporate income tax),\n- employs personnel and/or conducts day-to-day business activities in Canada.",
+      "plain_text": "business activities are conducted on a permanent basis, ; can be accessed during normal business hours, ; can be clearly identified by business name, ; is registered and files taxes in Canada (e.g., GST / HST , corporate income tax), ; employs personnel and/or conducts day-to-day business activities in Canada."
+    },
+    {
+      "block_id": "1a6137428bd2::b0043",
+      "section_id": "1a6137428bd2::s013",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Supplier Eligibility Attestation Form"
+      ],
+      "markdown": "In the case of a joint venture, where each member of the joint venture has a place of business in Canada where it conducts activities on a permanent basis that is clearly identified by name and accessible during normal business hours.",
+      "plain_text": "In the case of a joint venture, where each member of the joint venture has a place of business in Canada where it conducts activities on a permanent basis that is clearly identified by name and accessible during normal business hours."
+    },
+    {
+      "block_id": "1a6137428bd2::b0044",
+      "section_id": "1a6137428bd2::s013",
+      "type": "table",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Supplier Eligibility Attestation Form"
+      ],
+      "markdown": "| Column 1 | Column 2 |\n| --- | --- |\n| Address(es) of Place of Business | Normal Business Hours |\n| _____________________________ | _____________________________ |\n| Operating Business Name | Legal Business Name |\n| _____________________________ | _____________________________ |",
+      "plain_text": "Column 1 | Column 2 ; Address(es) of Place of Business | Normal Business Hours ; _____________________________ | _____________________________ ; Operating Business Name | Legal Business Name ; _____________________________ | _____________________________",
+      "table_id": "1a6137428bd2::t002"
+    },
+    {
+      "block_id": "1a6137428bd2::b0045",
+      "section_id": "1a6137428bd2::s013",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Supplier Eligibility Attestation Form"
+      ],
+      "markdown": "For the purpose of determining eligibility for priority treatment under the Policy, Canada will only use the address(es) provided in this attestation.",
+      "plain_text": "For the purpose of determining eligibility for priority treatment under the Policy, Canada will only use the address(es) provided in this attestation."
+    },
+    {
+      "block_id": "1a6137428bd2::b0046",
+      "section_id": "1a6137428bd2::s013",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Supplier Eligibility Attestation Form"
+      ],
+      "markdown": "OR",
+      "plain_text": "OR"
+    },
+    {
+      "block_id": "1a6137428bd2::b0047",
+      "section_id": "1a6137428bd2::s013",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Supplier Eligibility Attestation Form"
+      ],
+      "markdown": "The Offeror, Enter Legal Name of Offeror , is a supplier of an applicable trading partner, as defined in Part I. The address provided below is the Offeror\u2019s permanent place of business, or in the case of a joint venture, the address(es) provided below are the places of business of each member of the joint venture.",
+      "plain_text": "The Offeror, Enter Legal Name of Offeror , is a supplier of an applicable trading partner, as defined in Part I. The address provided below is the Offeror\u2019s permanent place of business, or in the case of a joint venture, the address(es) provided below are the places of business of each member of the joint venture."
+    },
+    {
+      "block_id": "1a6137428bd2::b0048",
+      "section_id": "1a6137428bd2::s013",
+      "type": "table",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Supplier Eligibility Attestation Form"
+      ],
+      "markdown": "| Column 1 |\n| --- |\n| Insert /Address(es) of Places of Business |\n| _____________________________ |",
+      "plain_text": "Column 1 ; Insert /Address(es) of Places of Business ; _____________________________",
+      "table_id": "1a6137428bd2::t003"
+    },
+    {
+      "block_id": "1a6137428bd2::b0049",
+      "section_id": "1a6137428bd2::s013",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Supplier Eligibility Attestation Form"
+      ],
+      "markdown": "By signing this attestation, the Offeror acknowledges, agrees, and attests to the following:",
+      "plain_text": "By signing this attestation, the Offeror acknowledges, agrees, and attests to the following:"
+    },
+    {
+      "block_id": "1a6137428bd2::b0050",
+      "section_id": "1a6137428bd2::s013",
+      "type": "list",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Supplier Eligibility Attestation Form"
+      ],
+      "markdown": "- The Offeror attests that they will remain in full compliance with the statements made in this attestation throughout the offer period and throughout the duration of any resulting contract.\n- The Offeror attests that evidence supporting their eligibility is available and agrees to provide any supporting documentation requested for verification purposes, at any time, including during reviews, in response to complaints, or after contract award.",
+      "plain_text": "The Offeror attests that they will remain in full compliance with the statements made in this attestation throughout the offer period and throughout the duration of any resulting contract. ; The Offeror attests that evidence supporting their eligibility is available and agrees to provide any supporting documentation requested for verification purposes, at any time, including during reviews, in response to complaints, or after contract award."
+    },
+    {
+      "block_id": "1a6137428bd2::b0051",
+      "section_id": "1a6137428bd2::s013",
+      "type": "list",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Supplier Eligibility Attestation Form"
+      ],
+      "markdown": "- The Offeror acknowledges that the contracting authority may, based on supporting evidence and consideration of all relevant facts and circumstances, determine that the Offeror does not meet the definition of a Canadian supplier for the purposes of the Policy.\n- The Offeror acknowledges that the discovery of false or misleading information, or failure to provide requested evidence, may result in contractual remedies including, but not limited to:\n- Offer disqualification;\n- Liquidated damages;\n- Ineligibility for contract award;\n- Retention of deposits or holdbacks;\n- Termination of contract, setting aside of standing offers or suspension or cancellation of supply arrangements;\n- Disqualification under the Ineligibility and Suspension Policy .",
+      "plain_text": "The Offeror acknowledges that the contracting authority may, based on supporting evidence and consideration of all relevant facts and circumstances, determine that the Offeror does not meet the definition of a Canadian supplier for the purposes of the Policy. ; The Offeror acknowledges that the discovery of false or misleading information, or failure to provide requested evidence, may result in contractual remedies including, but not limited to: ; Offer disqualification; ; Liquidated damages; ; Ineligibility for contract award; ; Retention of deposits or holdbacks; ; Termination of contract, setting aside of standing offers or suspension or cancellation of supply arrangements; ; Disqualification under the Ineligibility and Suspension Policy ."
+    },
+    {
+      "block_id": "1a6137428bd2::b0052",
+      "section_id": "1a6137428bd2::s013",
+      "type": "table",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Supplier Eligibility Attestation Form"
+      ],
+      "markdown": "| Column 1 | Column 2 |\n| --- | --- |\n| Offeror\u2019s Signature | Date |\n| _____________________________ | _____________________________ |",
+      "plain_text": "Column 1 | Column 2 ; Offeror\u2019s Signature | Date ; _____________________________ | _____________________________",
+      "table_id": "1a6137428bd2::t004"
+    },
+    {
+      "block_id": "1a6137428bd2::b0053",
+      "section_id": "1a6137428bd2::s014",
+      "type": "heading",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix C: Canadian Content Attestation Form"
+      ],
+      "markdown": "## Appendix C: Canadian Content Attestation Form",
+      "plain_text": "Appendix C: Canadian Content Attestation Form"
+    },
+    {
+      "block_id": "1a6137428bd2::b0054",
+      "section_id": "1a6137428bd2::s014",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix C: Canadian Content Attestation Form"
+      ],
+      "markdown": "The Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements (the Policy) seeks to support Canadian industries and ensure that Canadian content is prioritized in the procurement process. This is achieved by granting additional scores in offer evaluation for the inclusion of Canadian value-added. It may be applied in the technical evaluation as a point-rated criterion, or in the financial evaluation as a price-based evaluation credit.",
+      "plain_text": "The Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements (the Policy) seeks to support Canadian industries and ensure that Canadian content is prioritized in the procurement process. This is achieved by granting additional scores in offer evaluation for the inclusion of Canadian value-added. It may be applied in the technical evaluation as a point-rated criterion, or in the financial evaluation as a price-based evaluation credit."
+    },
+    {
+      "block_id": "1a6137428bd2::b0055",
+      "section_id": "1a6137428bd2::s014",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix C: Canadian Content Attestation Form"
+      ],
+      "markdown": "In order to receive additional scores for the inclusion of Canadian value-added, the goods and services supplied must meet the Policy definition of \u201cCanadian value-added\u201d.",
+      "plain_text": "In order to receive additional scores for the inclusion of Canadian value-added, the goods and services supplied must meet the Policy definition of \u201cCanadian value-added\u201d."
+    },
+    {
+      "block_id": "1a6137428bd2::b0056",
+      "section_id": "1a6137428bd2::s014",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix C: Canadian Content Attestation Form"
+      ],
+      "markdown": "Canadian Good means:",
+      "plain_text": "Canadian Good means:"
+    },
+    {
+      "block_id": "1a6137428bd2::b0057",
+      "section_id": "1a6137428bd2::s014",
+      "type": "list",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix C: Canadian Content Attestation Form"
+      ],
+      "markdown": "- a good wholly manufactured or originating in Canada; or a product containing imported components that has undergone sufficient change in Canada in a manner that satisfies the definition specified under the Canada-United-States-Mexico Agreement (CUSMA) Rules of Origin. For the purposes of this definition, the reference to \"territory of the Parties\" in the CUSMA Rules of Origin is to be replaced with \"Canada\".",
+      "plain_text": "a good wholly manufactured or originating in Canada; or a product containing imported components that has undergone sufficient change in Canada in a manner that satisfies the definition specified under the Canada-United-States-Mexico Agreement (CUSMA) Rules of Origin. For the purposes of this definition, the reference to \"territory of the Parties\" in the CUSMA Rules of Origin is to be replaced with \"Canada\"."
+    },
+    {
+      "block_id": "1a6137428bd2::b0058",
+      "section_id": "1a6137428bd2::s014",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix C: Canadian Content Attestation Form"
+      ],
+      "markdown": "Canadian Service means:",
+      "plain_text": "Canadian Service means:"
+    },
+    {
+      "block_id": "1a6137428bd2::b0059",
+      "section_id": "1a6137428bd2::s014",
+      "type": "list",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix C: Canadian Content Attestation Form"
+      ],
+      "markdown": "- a service wholly provided by (natural persons/individuals) based in Canada.\n- Services include construction services.",
+      "plain_text": "a service wholly provided by (natural persons/individuals) based in Canada. ; Services include construction services."
+    },
+    {
+      "block_id": "1a6137428bd2::b0060",
+      "section_id": "1a6137428bd2::s014",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix C: Canadian Content Attestation Form"
+      ],
+      "markdown": "Canadian Value-Added means:",
+      "plain_text": "Canadian Value-Added means:"
+    },
+    {
+      "block_id": "1a6137428bd2::b0061",
+      "section_id": "1a6137428bd2::s014",
+      "type": "list",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix C: Canadian Content Attestation Form"
+      ],
+      "markdown": "- in relation to services, a Canadian service or the proportion of the service contract performed by natural persons based in Canada; and\n- in relation to goods, a Canadian good or the value of the portion of the good produced in Canada or the difference between the dutiable value of the imported goods and the selling price, taking into account any value added by manufacturers and distributors, and including any costs incurred in Canada related to:\n- research and development,\n- sales and marketing,\n- communications and manuals,\n- customization, modifications, installation, and support,\n- warehousing, distribution, and logistics,\n- training and after-sales service.",
+      "plain_text": "in relation to services, a Canadian service or the proportion of the service contract performed by natural persons based in Canada; and ; in relation to goods, a Canadian good or the value of the portion of the good produced in Canada or the difference between the dutiable value of the imported goods and the selling price, taking into account any value added by manufacturers and distributors, and including any costs incurred in Canada related to: ; research and development, ; sales and marketing, ; communications and manuals, ; customization, modifications, installation, and support, ; warehousing, distribution, and logistics, ; training and after-sales service."
+    },
+    {
+      "block_id": "1a6137428bd2::b0062",
+      "section_id": "1a6137428bd2::s014",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix C: Canadian Content Attestation Form"
+      ],
+      "markdown": "Canadian Content means Canadian Value-Added",
+      "plain_text": "Canadian Content means Canadian Value-Added"
+    },
+    {
+      "block_id": "1a6137428bd2::b0063",
+      "section_id": "1a6137428bd2::s014",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix C: Canadian Content Attestation Form"
+      ],
+      "markdown": "The total Canadian value-added in the offer must be provided by the offerors, identifying the value for each line item in their submission.",
+      "plain_text": "The total Canadian value-added in the offer must be provided by the offerors, identifying the value for each line item in their submission."
+    },
+    {
+      "block_id": "1a6137428bd2::b0064",
+      "section_id": "1a6137428bd2::s014",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix C: Canadian Content Attestation Form"
+      ],
+      "markdown": "Offerors must submit this Canadian Content Attestation form at offer closing. Failure to submit this form by offer closing will result in the offerors waiving their right to receive additional scores during offer evaluation.",
+      "plain_text": "Offerors must submit this Canadian Content Attestation form at offer closing. Failure to submit this form by offer closing will result in the offerors waiving their right to receive additional scores during offer evaluation."
+    },
+    {
+      "block_id": "1a6137428bd2::b0065",
+      "section_id": "1a6137428bd2::s014",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix C: Canadian Content Attestation Form"
+      ],
+      "markdown": "To confirm and attest the total Canadian value-added included in your offer proposal, please carefully review and complete this form.",
+      "plain_text": "To confirm and attest the total Canadian value-added included in your offer proposal, please carefully review and complete this form."
+    },
+    {
+      "block_id": "1a6137428bd2::b0066",
+      "section_id": "1a6137428bd2::s015",
+      "type": "heading",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Canadian Content Attestation Form"
+      ],
+      "markdown": "## Canadian Content Attestation Form",
+      "plain_text": "Canadian Content Attestation Form"
+    },
+    {
+      "block_id": "1a6137428bd2::b0067",
+      "section_id": "1a6137428bd2::s015",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Canadian Content Attestation Form"
+      ],
+      "markdown": "(For example purposes \u2013 can be adjusted based on the nature of the procurement)",
+      "plain_text": "(For example purposes \u2013 can be adjusted based on the nature of the procurement)"
+    },
+    {
+      "block_id": "1a6137428bd2::b0068",
+      "section_id": "1a6137428bd2::s015",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Canadian Content Attestation Form"
+      ],
+      "markdown": "By completing and submitting this form to the contracting authority,",
+      "plain_text": "By completing and submitting this form to the contracting authority,"
+    },
+    {
+      "block_id": "1a6137428bd2::b0069",
+      "section_id": "1a6137428bd2::s015",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Canadian Content Attestation Form"
+      ],
+      "markdown": "the offeror Enter Legal Name of Offeror attests that all information provided is true, accurate, and complete.",
+      "plain_text": "the offeror Enter Legal Name of Offeror attests that all information provided is true, accurate, and complete."
+    },
+    {
+      "block_id": "1a6137428bd2::b0070",
+      "section_id": "1a6137428bd2::s015",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Canadian Content Attestation Form"
+      ],
+      "markdown": "For all goods and/or services, please provide a line-item breakdown of the offer proposal and indicate the corresponding Canadian value-added (in CAD value) for each item.",
+      "plain_text": "For all goods and/or services, please provide a line-item breakdown of the offer proposal and indicate the corresponding Canadian value-added (in CAD value) for each item."
+    },
+    {
+      "block_id": "1a6137428bd2::b0071",
+      "section_id": "1a6137428bd2::s015",
+      "type": "table",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Canadian Content Attestation Form"
+      ],
+      "markdown": "| Line Item of goods and/or services | Canadian Value-Added (CAD) |\n| --- | --- |\n| Total Canadian Value-Added in the offer | |",
+      "plain_text": "Line Item of goods and/or services | Canadian Value-Added (CAD) ; Total Canadian Value-Added in the offer |",
+      "table_id": "1a6137428bd2::t005"
+    },
+    {
+      "block_id": "1a6137428bd2::b0072",
+      "section_id": "1a6137428bd2::s015",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Canadian Content Attestation Form"
+      ],
+      "markdown": "By signing this attestation, the offeror acknowledges, agrees, and attests to the following:",
+      "plain_text": "By signing this attestation, the offeror acknowledges, agrees, and attests to the following:"
+    },
+    {
+      "block_id": "1a6137428bd2::b0073",
+      "section_id": "1a6137428bd2::s015",
+      "type": "list",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Canadian Content Attestation Form"
+      ],
+      "markdown": "- The offeror attests that they will remain in full compliance with the statements made in this attestation throughout the offer period and any resulting contract.\n- The offeror attests that evidence regarding the origin of goods and/or services is available and agrees to provide any supporting documentation requested for verification purposes, at any time, including during reviews, in response to complaints, or after contract award.\n- The offeror acknowledges that the contracting authority may, based on supporting evidence and consideration of all relevant facts and circumstances, determine that the goods or services do not meet the definition of Canadian value-added for the purposes of the Policy.\n- The offeror acknowledges that the discovery of false or misleading information, or failure to provide requested evidence, may result in contractual remedies including, but not limited to:\n- Offer disqualification;\n- Liquidated damages;\n- Ineligibility for contract award;\n- Retention of deposits or holdbacks;\n- Termination of contract or setting aside of standing offers, or suspension or cancellation of supply arrangements;\n- Disqualification under the Ineligibility and Suspension Policy.",
+      "plain_text": "The offeror attests that they will remain in full compliance with the statements made in this attestation throughout the offer period and any resulting contract. ; The offeror attests that evidence regarding the origin of goods and/or services is available and agrees to provide any supporting documentation requested for verification purposes, at any time, including during reviews, in response to complaints, or after contract award. ; The offeror acknowledges that the contracting authority may, based on supporting evidence and consideration of all relevant facts and circumstances, determine that the goods or services do not meet the definition of Canadian value-added for the purposes of the Policy. ; The offeror acknowledges that the discovery of false or misleading information, or failure to provide requested evidence, may result in contractual remedies including, but not limited to: ; Offer disqualification; ; Liquidated damages; ; Ineligibility for contract award; ; Retention of deposits or holdbacks; ; Termination of contract or setting aside of standing offers, or suspension or cancellation of supply arrangements; ; Disqualification under the Ineligibility and Suspension Policy."
+    },
+    {
+      "block_id": "1a6137428bd2::b0074",
+      "section_id": "1a6137428bd2::s015",
+      "type": "table",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Canadian Content Attestation Form"
+      ],
+      "markdown": "| Column 1 | Column 2 |\n| --- | --- |\n| Offeror\u2019s Signature | Date |\n| _____________________________ | _____________________________ |",
+      "plain_text": "Column 1 | Column 2 ; Offeror\u2019s Signature | Date ; _____________________________ | _____________________________",
+      "table_id": "1a6137428bd2::t006"
+    },
+    {
+      "block_id": "1a6137428bd2::b0075",
+      "section_id": "1a6137428bd2::s016",
+      "type": "heading",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix D: Canadian Supplier Priority \u2013 Financial Evaluation"
+      ],
+      "markdown": "## Appendix D: Canadian Supplier Priority \u2013 Financial Evaluation",
+      "plain_text": "Appendix D: Canadian Supplier Priority \u2013 Financial Evaluation"
+    },
+    {
+      "block_id": "1a6137428bd2::b0076",
+      "section_id": "1a6137428bd2::s016",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix D: Canadian Supplier Priority \u2013 Financial Evaluation"
+      ],
+      "markdown": "When compliant offers are received from Canadian suppliers, a 10 percent reduction to the total value of each Canadian Supplier\u2019s financial proposal will be applied.",
+      "plain_text": "When compliant offers are received from Canadian suppliers, a 10 percent reduction to the total value of each Canadian Supplier\u2019s financial proposal will be applied."
+    },
+    {
+      "block_id": "1a6137428bd2::b0077",
+      "section_id": "1a6137428bd2::s016",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix D: Canadian Supplier Priority \u2013 Financial Evaluation"
+      ],
+      "markdown": "The following formula will be used:",
+      "plain_text": "The following formula will be used:"
+    },
+    {
+      "block_id": "1a6137428bd2::b0078",
+      "section_id": "1a6137428bd2::s017",
+      "type": "heading",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix D: Canadian Supplier Priority \u2013 Financial Evaluation",
+        "FORMULA:"
+      ],
+      "markdown": "### FORMULA:",
+      "plain_text": "FORMULA:"
+    },
+    {
+      "block_id": "1a6137428bd2::b0079",
+      "section_id": "1a6137428bd2::s017",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix D: Canadian Supplier Priority \u2013 Financial Evaluation",
+        "FORMULA:"
+      ],
+      "markdown": "The Offer Price is the total value of the financial proposal submitted by the Canadian Supplier.",
+      "plain_text": "The Offer Price is the total value of the financial proposal submitted by the Canadian Supplier."
+    },
+    {
+      "block_id": "1a6137428bd2::b0080",
+      "section_id": "1a6137428bd2::s017",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix D: Canadian Supplier Priority \u2013 Financial Evaluation",
+        "FORMULA:"
+      ],
+      "markdown": "0.10 is the 10 percent notional evaluation reduction factor.",
+      "plain_text": "0.10 is the 10 percent notional evaluation reduction factor."
+    },
+    {
+      "block_id": "1a6137428bd2::b0081",
+      "section_id": "1a6137428bd2::s017",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix D: Canadian Supplier Priority \u2013 Financial Evaluation",
+        "FORMULA:"
+      ],
+      "markdown": "The Evaluated Price will be used for evaluation purposes only (does not affect actual offer price).",
+      "plain_text": "The Evaluated Price will be used for evaluation purposes only (does not affect actual offer price)."
+    },
+    {
+      "block_id": "1a6137428bd2::b0082",
+      "section_id": "1a6137428bd2::s018",
+      "type": "heading",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix D: Canadian Supplier Priority \u2013 Financial Evaluation",
+        "EXAMPLE"
+      ],
+      "markdown": "### EXAMPLE",
+      "plain_text": "EXAMPLE"
+    },
+    {
+      "block_id": "1a6137428bd2::b0083",
+      "section_id": "1a6137428bd2::s018",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix D: Canadian Supplier Priority \u2013 Financial Evaluation",
+        "EXAMPLE"
+      ],
+      "markdown": "An offeror submitted an offer with a total value of $100,000 Evaluated Price = $ 100 000 \u2219 ( 1 - 0.10 ) Evaluated Price = $ 100 000 \u2219 0.90 = 90 000",
+      "plain_text": "An offeror submitted an offer with a total value of $100,000 Evaluated Price = $ 100 000 \u2219 ( 1 - 0.10 ) Evaluated Price = $ 100 000 \u2219 0.90 = 90 000"
+    },
+    {
+      "block_id": "1a6137428bd2::b0084",
+      "section_id": "1a6137428bd2::s018",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix D: Canadian Supplier Priority \u2013 Financial Evaluation",
+        "EXAMPLE"
+      ],
+      "markdown": "For evaluation purposes, the offer price would be considered, for purposes of evaluation, as $90,000 , while the actual offer price remains $100,000 .",
+      "plain_text": "For evaluation purposes, the offer price would be considered, for purposes of evaluation, as $90,000 , while the actual offer price remains $100,000 ."
+    },
+    {
+      "block_id": "1a6137428bd2::b0085",
+      "section_id": "1a6137428bd2::s019",
+      "type": "heading",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix E: Canadian Value-Added Evaluation Methodology and Scoring"
+      ],
+      "markdown": "## Appendix E: Canadian Value-Added Evaluation Methodology and Scoring",
+      "plain_text": "Appendix E: Canadian Value-Added Evaluation Methodology and Scoring"
+    },
+    {
+      "block_id": "1a6137428bd2::b0086",
+      "section_id": "1a6137428bd2::s019",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix E: Canadian Value-Added Evaluation Methodology and Scoring"
+      ],
+      "markdown": "In cases where point-rated criteria methodology is exercised, the following calculation should be used.",
+      "plain_text": "In cases where point-rated criteria methodology is exercised, the following calculation should be used."
+    },
+    {
+      "block_id": "1a6137428bd2::b0087",
+      "section_id": "1a6137428bd2::s019",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix E: Canadian Value-Added Evaluation Methodology and Scoring"
+      ],
+      "markdown": "Typically, solicitation of offers include, among other things, technical and financial evaluation criteria. In this example, technical evaluation, pricing evaluation and Canadian value-added (CVA) evaluation criteria will be included. The sum of all three weightings (technical, pricing and CVA ) is to equal 100 percent.",
+      "plain_text": "Typically, solicitation of offers include, among other things, technical and financial evaluation criteria. In this example, technical evaluation, pricing evaluation and Canadian value-added (CVA) evaluation criteria will be included. The sum of all three weightings (technical, pricing and CVA ) is to equal 100 percent."
+    },
+    {
+      "block_id": "1a6137428bd2::b0088",
+      "section_id": "1a6137428bd2::s019",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix E: Canadian Value-Added Evaluation Methodology and Scoring"
+      ],
+      "markdown": "The CVA Weighting is 25% of the total evaluation score allocated to CVA . This means that the weightings of the technical and financial portions of the evaluation is 75 points out of 100.",
+      "plain_text": "The CVA Weighting is 25% of the total evaluation score allocated to CVA . This means that the weightings of the technical and financial portions of the evaluation is 75 points out of 100."
+    },
+    {
+      "block_id": "1a6137428bd2::b0089",
+      "section_id": "1a6137428bd2::s019",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix E: Canadian Value-Added Evaluation Methodology and Scoring"
+      ],
+      "markdown": "For example, if the percent allotted to the technical merit score is equal 35, the percent for the pricing score would be 40. The weightings in that case would be:",
+      "plain_text": "For example, if the percent allotted to the technical merit score is equal 35, the percent for the pricing score would be 40. The weightings in that case would be:"
+    },
+    {
+      "block_id": "1a6137428bd2::b0090",
+      "section_id": "1a6137428bd2::s019",
+      "type": "table",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix E: Canadian Value-Added Evaluation Methodology and Scoring"
+      ],
+      "markdown": "| Column 1 | Column 2 |\n| --- | --- |\n| CVA evaluation weighting: | 25% |\n| Technical evaluation weighting: | 35% |\n| Financial evaluation weighting: | 40% |\n| TOTAL: | 100% |",
+      "plain_text": "Column 1 | Column 2 ; CVA evaluation weighting: | 25% ; Technical evaluation weighting: | 35% ; Financial evaluation weighting: | 40% ; TOTAL: | 100%",
+      "table_id": "1a6137428bd2::t007"
+    },
+    {
+      "block_id": "1a6137428bd2::b0091",
+      "section_id": "1a6137428bd2::s020",
+      "type": "heading",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix E: Canadian Value-Added Evaluation Methodology and Scoring",
+        "FORMULA:"
+      ],
+      "markdown": "### FORMULA:",
+      "plain_text": "FORMULA:"
+    },
+    {
+      "block_id": "1a6137428bd2::b0092",
+      "section_id": "1a6137428bd2::s020",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix E: Canadian Value-Added Evaluation Methodology and Scoring",
+        "FORMULA:"
+      ],
+      "markdown": "To calculate a CVA score in an offer, the total dollar value of the Canadian value-added submitted by the offeror is divided by the total dollar value of the submitted offer, then multiplied by the CVA Weighting.",
+      "plain_text": "To calculate a CVA score in an offer, the total dollar value of the Canadian value-added submitted by the offeror is divided by the total dollar value of the submitted offer, then multiplied by the CVA Weighting."
+    },
+    {
+      "block_id": "1a6137428bd2::b0093",
+      "section_id": "1a6137428bd2::s020",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix E: Canadian Value-Added Evaluation Methodology and Scoring",
+        "FORMULA:"
+      ],
+      "markdown": "Canadian Value Added Rating = ( $ Value of Canadian Value Added in the offer / $ Value of the offer ) \u2219 Canadian Value Added Weighting Note: Mandatory Canadian Materials (as defined under the Policy on Prioritizing Canadian Materials in Federal Procurements) must be excluded from this calculation.",
+      "plain_text": "Canadian Value Added Rating = ( $ Value of Canadian Value Added in the offer / $ Value of the offer ) \u2219 Canadian Value Added Weighting Note: Mandatory Canadian Materials (as defined under the Policy on Prioritizing Canadian Materials in Federal Procurements) must be excluded from this calculation."
+    },
+    {
+      "block_id": "1a6137428bd2::b0094",
+      "section_id": "1a6137428bd2::s020",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix E: Canadian Value-Added Evaluation Methodology and Scoring",
+        "FORMULA:"
+      ],
+      "markdown": "EXAMPLE",
+      "plain_text": "EXAMPLE"
+    },
+    {
+      "block_id": "1a6137428bd2::b0095",
+      "section_id": "1a6137428bd2::s020",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix E: Canadian Value-Added Evaluation Methodology and Scoring",
+        "FORMULA:"
+      ],
+      "markdown": "A solicitation was launched to acquire goods with a maximum technical merit score of 200 points. The contracting authority used the 25 percent for CVA weighting and allocated 30 percent for technical merit score and 45 percent for pricing score for a total of 100 percent. The solicitation stated that weightings would be allocated as follows:",
+      "plain_text": "A solicitation was launched to acquire goods with a maximum technical merit score of 200 points. The contracting authority used the 25 percent for CVA weighting and allocated 30 percent for technical merit score and 45 percent for pricing score for a total of 100 percent. The solicitation stated that weightings would be allocated as follows:"
+    },
+    {
+      "block_id": "1a6137428bd2::b0096",
+      "section_id": "1a6137428bd2::s020",
+      "type": "table",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix E: Canadian Value-Added Evaluation Methodology and Scoring",
+        "FORMULA:"
+      ],
+      "markdown": "| Column 1 | Column 2 |\n| --- | --- |\n| CVA evaluation weighting: | 25% |\n| Technical merit weighting: | 30% |\n| Pricing weighting: | 45% |\n| TOTAL: | 100% |",
+      "plain_text": "Column 1 | Column 2 ; CVA evaluation weighting: | 25% ; Technical merit weighting: | 30% ; Pricing weighting: | 45% ; TOTAL: | 100%",
+      "table_id": "1a6137428bd2::t008"
+    },
+    {
+      "block_id": "1a6137428bd2::b0097",
+      "section_id": "1a6137428bd2::s020",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix E: Canadian Value-Added Evaluation Methodology and Scoring",
+        "FORMULA:"
+      ],
+      "markdown": "Three offers were submitted in response to the solicitation:",
+      "plain_text": "Three offers were submitted in response to the solicitation:"
+    },
+    {
+      "block_id": "1a6137428bd2::b0098",
+      "section_id": "1a6137428bd2::s020",
+      "type": "table",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix E: Canadian Value-Added Evaluation Methodology and Scoring",
+        "FORMULA:"
+      ],
+      "markdown": "| | Offer A (Canadian Supplier) | Offer B (Canadian Supplier) | Offer C (Canadian Supplier) |\n| --- | --- | --- | --- |\n| Offer Price | $49M | $47M | $45M |\n| Canadian Value-Added (portion of the Offer Price) | $40M | $25M | $30M |\n| Pricing Score (45%) | ($45 M/$49 M) * 45 = 41.33 | ($45 M /$47 M) * 45 = 43.09 | ($45 M /$45 M) * 45 = 45 |\n| Technical Merit Score (30%) | (175/200) * 30 = 26.25 | (165/200) * 30 = 24.75 | (150/200) * 30 = 22.5 |\n| Canadian Value-Added (CVA) Score (25%) | ($40 M/$49 M) * 25 = 20.41 | ($25 M/$47 M) * 25 = 13.30 | ($30 M/$45 M) * 25 = 16.67 |\n| Combined Ratings | 87.99 | 81.14 | 84.17 |\n| Overall Ranking | 1 | 3 | 2 |",
+      "plain_text": "| Offer A (Canadian Supplier) | Offer B (Canadian Supplier) | Offer C (Canadian Supplier) ; Offer Price | $49M | $47M | $45M ; Canadian Value-Added (portion of the Offer Price) | $40M | $25M | $30M ; Pricing Score (45%) | ($45 M/$49 M) * 45 = 41.33 | ($45 M /$47 M) * 45 = 43.09 | ($45 M /$45 M) * 45 = 45 ; Technical Merit Score (30%) | (175/200) * 30 = 26.25 | (165/200) * 30 = 24.75 | (150/200) * 30 = 22.5 ; Canadian Value-Added (CVA) Score (25%) | ($40 M/$49 M) * 25 = 20.41 | ($25 M/$47 M) * 25 = 13.30 | ($30 M/$45 M) * 25 = 16.67 ; Combined Ratings | 87.99 | 81.14 | 84.17",
+      "table_id": "1a6137428bd2::t009"
+    },
+    {
+      "block_id": "1a6137428bd2::b0099",
+      "section_id": "1a6137428bd2::s020",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix E: Canadian Value-Added Evaluation Methodology and Scoring",
+        "FORMULA:"
+      ],
+      "markdown": "In this example, Offeror A received the highest combined score and would be awarded the contract. Note that the CVA Score that Offeror A received contributed to their offer being the highest overall ranked offer.",
+      "plain_text": "In this example, Offeror A received the highest combined score and would be awarded the contract. Note that the CVA Score that Offeror A received contributed to their offer being the highest overall ranked offer."
+    },
+    {
+      "block_id": "1a6137428bd2::b0100",
+      "section_id": "1a6137428bd2::s021",
+      "type": "heading",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix F: Canadian Value-Added Price-Based Evaluation Methodology and Scoring"
+      ],
+      "markdown": "## Appendix F: Canadian Value-Added Price-Based Evaluation Methodology and Scoring",
+      "plain_text": "Appendix F: Canadian Value-Added Price-Based Evaluation Methodology and Scoring"
+    },
+    {
+      "block_id": "1a6137428bd2::b0101",
+      "section_id": "1a6137428bd2::s021",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix F: Canadian Value-Added Price-Based Evaluation Methodology and Scoring"
+      ],
+      "markdown": "Where point-rated criteria methodology may not be suitable, the following formula will be used:",
+      "plain_text": "Where point-rated criteria methodology may not be suitable, the following formula will be used:"
+    },
+    {
+      "block_id": "1a6137428bd2::b0102",
+      "section_id": "1a6137428bd2::s021",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix F: Canadian Value-Added Price-Based Evaluation Methodology and Scoring"
+      ],
+      "markdown": "First, determine the Canadian Value-Added Weighting, which is the percentage (X) of the total evaluation score allocated to Canadian Value-Added (25 percent being the default).",
+      "plain_text": "First, determine the Canadian Value-Added Weighting, which is the percentage (X) of the total evaluation score allocated to Canadian Value-Added (25 percent being the default)."
+    },
+    {
+      "block_id": "1a6137428bd2::b0103",
+      "section_id": "1a6137428bd2::s021",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix F: Canadian Value-Added Price-Based Evaluation Methodology and Scoring"
+      ],
+      "markdown": "Multiply the percentage of Canadian Value-Added by the Canadian Value-Added Weighting . The result will be used as a factor to calculate the adjusted financial score for evaluation. The adjusted financial score for evaluation will be used to credit the financial value of the offer accordingly for evaluation purposes only.",
+      "plain_text": "Multiply the percentage of Canadian Value-Added by the Canadian Value-Added Weighting . The result will be used as a factor to calculate the adjusted financial score for evaluation. The adjusted financial score for evaluation will be used to credit the financial value of the offer accordingly for evaluation purposes only."
+    },
+    {
+      "block_id": "1a6137428bd2::b0104",
+      "section_id": "1a6137428bd2::s022",
+      "type": "heading",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix F: Canadian Value-Added Price-Based Evaluation Methodology and Scoring",
+        "FORMULAS:"
+      ],
+      "markdown": "### FORMULAS:",
+      "plain_text": "FORMULAS:"
+    },
+    {
+      "block_id": "1a6137428bd2::b0105",
+      "section_id": "1a6137428bd2::s022",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix F: Canadian Value-Added Price-Based Evaluation Methodology and Scoring",
+        "FORMULAS:"
+      ],
+      "markdown": "Adjusted Financial Score = $ Value of the offer - ( $ Value of the offer \u2219 ( Canadian Value Factor / 100 ) )",
+      "plain_text": "Adjusted Financial Score = $ Value of the offer - ( $ Value of the offer \u2219 ( Canadian Value Factor / 100 ) )"
+    },
+    {
+      "block_id": "1a6137428bd2::b0106",
+      "section_id": "1a6137428bd2::s022",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix F: Canadian Value-Added Price-Based Evaluation Methodology and Scoring",
+        "FORMULAS:"
+      ],
+      "markdown": "Canadian Value Added in the Offer represents the total dollar value of all items that meet the definition of Canadian Value-Added under the Policy, as provided by the Offeror in the Canadian Content Attestation form.",
+      "plain_text": "Canadian Value Added in the Offer represents the total dollar value of all items that meet the definition of Canadian Value-Added under the Policy, as provided by the Offeror in the Canadian Content Attestation form."
+    },
+    {
+      "block_id": "1a6137428bd2::b0107",
+      "section_id": "1a6137428bd2::s022",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix F: Canadian Value-Added Price-Based Evaluation Methodology and Scoring",
+        "FORMULAS:"
+      ],
+      "markdown": "Value of the Offer represents the total evaluated price of the offeror\u2019s submission.",
+      "plain_text": "Value of the Offer represents the total evaluated price of the offeror\u2019s submission."
+    },
+    {
+      "block_id": "1a6137428bd2::b0108",
+      "section_id": "1a6137428bd2::s022",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix F: Canadian Value-Added Price-Based Evaluation Methodology and Scoring",
+        "FORMULAS:"
+      ],
+      "markdown": "Canadian Value-Added Weighting is the weighting factor established for the purpose of the financial evaluation (see Appendix E ).",
+      "plain_text": "Canadian Value-Added Weighting is the weighting factor established for the purpose of the financial evaluation (see Appendix E )."
+    },
+    {
+      "block_id": "1a6137428bd2::b0109",
+      "section_id": "1a6137428bd2::s023",
+      "type": "heading",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix F: Canadian Value-Added Price-Based Evaluation Methodology and Scoring",
+        "EXAMPLE"
+      ],
+      "markdown": "### EXAMPLE",
+      "plain_text": "EXAMPLE"
+    },
+    {
+      "block_id": "1a6137428bd2::b0110",
+      "section_id": "1a6137428bd2::s023",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix F: Canadian Value-Added Price-Based Evaluation Methodology and Scoring",
+        "EXAMPLE"
+      ],
+      "markdown": "An offeror submitted an offer with a total value of $50,000, and their offer contained a mix of goods and services of which $30,000 met the definition of Canadian Value-Added. The contracting authority used the default Canadian Value-Added Weighting of 25 points as described in the Policy. Canadian Value Added Factor = ( $30,000 / $50,000 ) x 25 Canadian Value Added Factor = 15",
+      "plain_text": "An offeror submitted an offer with a total value of $50,000, and their offer contained a mix of goods and services of which $30,000 met the definition of Canadian Value-Added. The contracting authority used the default Canadian Value-Added Weighting of 25 points as described in the Policy. Canadian Value Added Factor = ( $30,000 / $50,000 ) x 25 Canadian Value Added Factor = 15"
+    },
+    {
+      "block_id": "1a6137428bd2::b0111",
+      "section_id": "1a6137428bd2::s023",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix F: Canadian Value-Added Price-Based Evaluation Methodology and Scoring",
+        "EXAMPLE"
+      ],
+      "markdown": "The Canadian Value-Added Factor was then used in the second formula: Adjusted Financial Score for Evaluation = $ 50 000 - ( 50 000 \u2219 ( 15 / 100 ) ) Adjusted Financial Score for Evaluation = $ 50 000 - $ 7 500 Adjusted Financial Score for Evaluation = $ 42 500",
+      "plain_text": "The Canadian Value-Added Factor was then used in the second formula: Adjusted Financial Score for Evaluation = $ 50 000 - ( 50 000 \u2219 ( 15 / 100 ) ) Adjusted Financial Score for Evaluation = $ 50 000 - $ 7 500 Adjusted Financial Score for Evaluation = $ 42 500"
+    },
+    {
+      "block_id": "1a6137428bd2::b0112",
+      "section_id": "1a6137428bd2::s023",
+      "type": "paragraph",
+      "heading_path": [
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Policy on Prioritizing Canadian Suppliers and Canadian Content in Strategic Federal Procurements",
+        "Appendix F: Canadian Value-Added Price-Based Evaluation Methodology and Scoring",
+        "EXAMPLE"
+      ],
+      "markdown": "The offeror is credited 15 percent per the Canadian Value-Added Factor, which means their evaluated financial proposal would be reduced from $50 000 to $42 500. This results in a more advantageous financial offer due to their Canadian Value-Added content.",
+      "plain_text": "The offeror is credited 15 percent per the Canadian Value-Added Factor, which means their evaluated financial proposal would be reduced from $50 000 to $42 500. This results in a more advantageous financial offer due to their Canadian Value-Added content."
+    }
+  ]
+}

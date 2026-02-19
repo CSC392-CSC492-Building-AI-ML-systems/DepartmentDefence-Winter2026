@@ -1,0 +1,36 @@
+# Buyer's Guide Contract security and privacy requirements - Foreign ownership, control or influence
+
+# Buyer's Guide
+
+- Plan
+- Approve
+- Create solicitation
+- Solicit
+- Receive and evaluate
+- Negotiate
+- Award
+- Manage
+
+Foreign ownership, control or influence A Foreign Ownership, Control or Influence ( FOCI ) evaluation assesses the nature and extent of authority, ownership, control or influence that foreign interests may have over Canadian organizations. This evaluation is crucial for identifying and mitigating risks associated with unauthorized third parties exerting undue influence over a Canadian organization to access classified government information, assets or sites. Mandatory evaluations FOCI evaluations are mandatory under the following conditions: when contracted work requires access to international organizations such as NATO , or access to foreign classified information, assets or sites when access to COMSEC information and assets is needed as directed by the CSP Canada must conduct FOCI evaluations as outlined in the IT Security Directive for the Control of COMSEC Materiel in the Canadian Private Sector (ITSD-6A) (PDF), the NATO Security Policy, and various international security agreements. Process and timelines Offerors must be informed about the FOCI evaluation requirement in the solicitation of offers. However, complete evaluation packages from offerors should only be requested after the solicitation of offer evaluation process has determined which offeror(s) will be awarded a contract. The material required for a FOCI evaluation is extensive and time-consuming to gather. FOCI evaluations are specific to the requirements of the contract and must be completed before authorizing access to sensitive information, assets or sites. The validity of a FOCI evaluation extends for the duration of the contract, provided the level of potential foreign control or influence over the private organization remains unchanged. Re-evaluations are required when a new contractual FOCI requirement emerges or significant changes affect the nature and extent of foreign ownership, control or influence over the private organization. When requested, offerors have 30 days from the request date to submit all required documents to the CSP . The time required to process FOCI evaluations depends on the complexity of the structure of the organization being evaluated and the timelines of other involved stakeholders in the FOCI evaluation process. Discoveries during the evaluation may alter the timelines for completion of the FOCI evaluation.
+
+## Foreign ownership, control or influence
+
+A Foreign Ownership, Control or Influence ( FOCI ) evaluation assesses the nature and extent of authority, ownership, control or influence that foreign interests may have over Canadian organizations. This evaluation is crucial for identifying and mitigating risks associated with unauthorized third parties exerting undue influence over a Canadian organization to access classified government information, assets or sites.
+
+### Mandatory evaluations
+
+FOCI evaluations are mandatory under the following conditions:
+
+- when contracted work requires access to international organizations such as NATO , or access to foreign classified information, assets or sites
+- when access to COMSEC information and assets is needed
+- as directed by the CSP
+
+Canada must conduct FOCI evaluations as outlined in the IT Security Directive for the Control of COMSEC Materiel in the Canadian Private Sector (ITSD-6A) (PDF), the NATO Security Policy, and various international security agreements.
+
+### Process and timelines
+
+Offerors must be informed about the FOCI evaluation requirement in the solicitation of offers. However, complete evaluation packages from offerors should only be requested after the solicitation of offer evaluation process has determined which offeror(s) will be awarded a contract. The material required for a FOCI evaluation is extensive and time-consuming to gather.
+
+FOCI evaluations are specific to the requirements of the contract and must be completed before authorizing access to sensitive information, assets or sites. The validity of a FOCI evaluation extends for the duration of the contract, provided the level of potential foreign control or influence over the private organization remains unchanged. Re-evaluations are required when a new contractual FOCI requirement emerges or significant changes affect the nature and extent of foreign ownership, control or influence over the private organization.
+
+When requested, offerors have 30 days from the request date to submit all required documents to the CSP . The time required to process FOCI evaluations depends on the complexity of the structure of the organization being evaluated and the timelines of other involved stakeholders in the FOCI evaluation process. Discoveries during the evaluation may alter the timelines for completion of the FOCI evaluation.

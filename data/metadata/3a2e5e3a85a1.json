@@ -1,0 +1,794 @@
+{
+  "doc_id": "3a2e5e3a85a1",
+  "title": "Buyer's Guide Terminate or suspend a contract - Termination for default",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-default",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-default",
+  "doc_type": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": "2026-01-31",
+  "fetched_at": "2026-02-19T09:20:18.730747+00:00",
+  "content_hash": "d33e60c74a3565d6559fcf33342221bbcc77ded9793a19e4edb67eb3b182f576",
+  "word_count": 862,
+  "text_path": "data/corpus/buyers_guide__en-buyer-s-portal-buyer-s-guide-manage-terminate-or-suspend-contract-termination-default__3a2e5e3a85.md",
+  "extraction_method": "buyers_guide_regions",
+  "breadcrumbs": [
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "https://canadabuys.canada.ca/en",
+      "canonical_url": "https://canadabuys.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "in_scope": true
+    },
+    {
+      "title": "Terminate or suspend a contract",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract",
+      "in_scope": true
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract",
+    "parent_doc_id": "fbe0f53b22b5",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-default"
+    ],
+    "lineage_doc_ids": [
+      "1e29c7881335",
+      "fbe0f53b22b5",
+      "3a2e5e3a85a1"
+    ],
+    "depth": 2,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/best-practices-contract-close-out",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/contract-close-out-activities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/alternative-dispute-resolution",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/assignment-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/buyer-and-client-responsibilites",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/certifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/contract-dispute-resolution",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/employer-employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/integrity-provisions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/protecting-canada-s-interests",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/subcontracting",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/task-authorizations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/vendor-performance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/assignment-monies",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/claims-progress-payments-and-invoicing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/cost-reimbursable-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/exchange-rate-fluctuation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/final-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/financial-claims",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/fixed-time-rate-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/interest-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/overtime",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/refund-excess-profits",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/administrative-guidance-implementing-contract-modifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/considerations-when-making-amendments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/design-change-or-deviation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/exercise-options",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/procedural-elements-amending-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/revisions-standing-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/approval-authority",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/legal-services",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/public-services-and-procurement-canada-offices-outside-canada",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/source-lists",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/suspension-work-and-stop-work-orders",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-contracts-financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-convenience",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-mutual-consent"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/best-practices-contract-close-out",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/contract-close-out-activities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/alternative-dispute-resolution",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/assignment-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/buyer-and-client-responsibilites",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/certifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/contract-dispute-resolution",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/employer-employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/integrity-provisions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/protecting-canada-s-interests",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/subcontracting",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/task-authorizations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/vendor-performance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/assignment-monies",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/claims-progress-payments-and-invoicing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/cost-reimbursable-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/exchange-rate-fluctuation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/final-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/financial-claims",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/fixed-time-rate-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/interest-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/overtime",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/refund-excess-profits",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/administrative-guidance-implementing-contract-modifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/considerations-when-making-amendments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/design-change-or-deviation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/exercise-options",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/procedural-elements-amending-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/revisions-standing-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/approval-authority",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/legal-services",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/public-services-and-procurement-canada-offices-outside-canada",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/source-lists",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/suspension-work-and-stop-work-orders",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-contracts-financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-convenience",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-mutual-consent",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure": {
+    "block_count": 30,
+    "section_count": 10,
+    "heading_count": 9,
+    "paragraph_count": 20,
+    "list_count": 1,
+    "table_count": 0
+  },
+  "sections": [
+    {
+      "section_id": "3a2e5e3a85a1::root",
+      "parent_section_id": null,
+      "level": 0,
+      "heading": "Buyer's Guide Terminate or suspend a contract - Termination for default",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for default"
+      ],
+      "block_count": 0,
+      "word_count": 0,
+      "char_count": 0,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": null,
+      "last_block_index": null,
+      "preview": "",
+      "prev_section_id": null,
+      "next_section_id": null
+    },
+    {
+      "section_id": "3a2e5e3a85a1::s001",
+      "parent_section_id": "3a2e5e3a85a1::root",
+      "level": 1,
+      "heading": "Buyer's Guide Terminate or suspend a contract - Termination for default",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for default",
+        "Buyer's Guide Terminate or suspend a contract - Termination for default"
+      ],
+      "block_count": 1,
+      "word_count": 11,
+      "char_count": 71,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 0,
+      "last_block_index": 0,
+      "preview": "Buyer's Guide Terminate or suspend a contract - Termination for default",
+      "prev_section_id": null,
+      "next_section_id": "3a2e5e3a85a1::s002"
+    },
+    {
+      "section_id": "3a2e5e3a85a1::s002",
+      "parent_section_id": "3a2e5e3a85a1::root",
+      "level": 1,
+      "heading": "Buyer's Guide",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for default",
+        "Buyer's Guide"
+      ],
+      "block_count": 2,
+      "word_count": 20,
+      "char_count": 111,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 0,
+      "first_block_index": 1,
+      "last_block_index": 2,
+      "preview": "Buyer's Guide Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage",
+      "prev_section_id": "3a2e5e3a85a1::s001",
+      "next_section_id": "3a2e5e3a85a1::s003"
+    },
+    {
+      "section_id": "3a2e5e3a85a1::s003",
+      "parent_section_id": "3a2e5e3a85a1::s002",
+      "level": 2,
+      "heading": "Termination for default",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for default",
+        "Buyer's Guide",
+        "Termination for default"
+      ],
+      "block_count": 4,
+      "word_count": 102,
+      "char_count": 690,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 3,
+      "first_block_index": 3,
+      "last_block_index": 6,
+      "preview": "Termination for default Termination for default applies when the contractor fails to fulfill their obligations under the contract, usually through non-performance or delayed delivery. Not acting promptly after a contractor is in default can",
+      "prev_section_id": "3a2e5e3a85a1::s002",
+      "next_section_id": "3a2e5e3a85a1::s004"
+    },
+    {
+      "section_id": "3a2e5e3a85a1::s004",
+      "parent_section_id": "3a2e5e3a85a1::s003",
+      "level": 3,
+      "heading": "Reasons to terminate for default",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for default",
+        "Buyer's Guide",
+        "Termination for default",
+        "Reasons to terminate for default"
+      ],
+      "block_count": 9,
+      "word_count": 366,
+      "char_count": 2281,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 8,
+      "first_block_index": 7,
+      "last_block_index": 15,
+      "preview": "Reasons to terminate for default Canada has the right to terminate all or any part of the contract for default for the reasons described below. The contractor fails to make progress: If the contractor's lack of progress endangers contract p",
+      "prev_section_id": "3a2e5e3a85a1::s003",
+      "next_section_id": "3a2e5e3a85a1::s005"
+    },
+    {
+      "section_id": "3a2e5e3a85a1::s005",
+      "parent_section_id": "3a2e5e3a85a1::s003",
+      "level": 3,
+      "heading": "Action to recover loss or damage",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for default",
+        "Buyer's Guide",
+        "Termination for default",
+        "Action to recover loss or damage"
+      ],
+      "block_count": 4,
+      "word_count": 144,
+      "char_count": 875,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 3,
+      "first_block_index": 16,
+      "last_block_index": 19,
+      "preview": "Action to recover loss or damage After a contract is terminated you will determine the actual amount or best estimate of loss or damage suffered by Canada. You will also determine the distribution of the damages to be recovered from the con",
+      "prev_section_id": "3a2e5e3a85a1::s004",
+      "next_section_id": "3a2e5e3a85a1::s006"
+    },
+    {
+      "section_id": "3a2e5e3a85a1::s006",
+      "parent_section_id": "3a2e5e3a85a1::s005",
+      "level": 4,
+      "heading": "Settlement agreement",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for default",
+        "Buyer's Guide",
+        "Termination for default",
+        "Action to recover loss or damage",
+        "Settlement agreement"
+      ],
+      "block_count": 2,
+      "word_count": 64,
+      "char_count": 414,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 20,
+      "last_block_index": 21,
+      "preview": "Settlement agreement When a contractor agrees with the proposed settlement, the recommendation to recover monies will be submitted to the Cost and Profit Assurance Group (CPAG), or, in the case of a Canadian Commercial Corporation (CCC) con",
+      "prev_section_id": "3a2e5e3a85a1::s005",
+      "next_section_id": "3a2e5e3a85a1::s007"
+    },
+    {
+      "section_id": "3a2e5e3a85a1::s007",
+      "parent_section_id": "3a2e5e3a85a1::s005",
+      "level": 4,
+      "heading": "Follow-up on payment",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for default",
+        "Buyer's Guide",
+        "Termination for default",
+        "Action to recover loss or damage",
+        "Follow-up on payment"
+      ],
+      "block_count": 2,
+      "word_count": 50,
+      "char_count": 291,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 22,
+      "last_block_index": 23,
+      "preview": "Follow-up on payment If payment is not received within 60 days from the date of issue of the invoice, then CPAG or the director, FRA , will advise you to take follow-up action with the contractor. If normal follow-up procedures are unsucces",
+      "prev_section_id": "3a2e5e3a85a1::s006",
+      "next_section_id": "3a2e5e3a85a1::s008"
+    },
+    {
+      "section_id": "3a2e5e3a85a1::s008",
+      "parent_section_id": "3a2e5e3a85a1::s005",
+      "level": 4,
+      "heading": "Record keeping",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for default",
+        "Buyer's Guide",
+        "Termination for default",
+        "Action to recover loss or damage",
+        "Record keeping"
+      ],
+      "block_count": 2,
+      "word_count": 19,
+      "char_count": 135,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 24,
+      "last_block_index": 25,
+      "preview": "Record keeping Claims must remain in departmental records until fully resolved through payment or a properly authorized deletion action.",
+      "prev_section_id": "3a2e5e3a85a1::s007",
+      "next_section_id": "3a2e5e3a85a1::s009"
+    },
+    {
+      "section_id": "3a2e5e3a85a1::s009",
+      "parent_section_id": "3a2e5e3a85a1::s003",
+      "level": 3,
+      "heading": "Contract payment under surety bond",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for default",
+        "Buyer's Guide",
+        "Termination for default",
+        "Contract payment under surety bond"
+      ],
+      "block_count": 4,
+      "word_count": 86,
+      "char_count": 521,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 3,
+      "first_block_index": 26,
+      "last_block_index": 29,
+      "preview": "Contract payment under surety bond When a surety bond is being enforced, payments will be issued as follows: Performance bond: After the contract is completed to Canada's satisfaction, the bonding company may be paid all amounts the contrac",
+      "prev_section_id": "3a2e5e3a85a1::s008",
+      "next_section_id": null
+    }
+  ],
+  "tables": [],
+  "blocks": [
+    {
+      "block_id": "3a2e5e3a85a1::b0001",
+      "section_id": "3a2e5e3a85a1::s001",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for default",
+        "Buyer's Guide Terminate or suspend a contract - Termination for default"
+      ],
+      "markdown": "# Buyer's Guide Terminate or suspend a contract - Termination for default",
+      "plain_text": "Buyer's Guide Terminate or suspend a contract - Termination for default"
+    },
+    {
+      "block_id": "3a2e5e3a85a1::b0002",
+      "section_id": "3a2e5e3a85a1::s002",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for default",
+        "Buyer's Guide"
+      ],
+      "markdown": "# Buyer's Guide",
+      "plain_text": "Buyer's Guide"
+    },
+    {
+      "block_id": "3a2e5e3a85a1::b0003",
+      "section_id": "3a2e5e3a85a1::s002",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for default",
+        "Buyer's Guide"
+      ],
+      "markdown": "- Plan\n- Approve\n- Create solicitation\n- Solicit\n- Receive and evaluate\n- Negotiate\n- Award\n- Manage",
+      "plain_text": "Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage"
+    },
+    {
+      "block_id": "3a2e5e3a85a1::b0004",
+      "section_id": "3a2e5e3a85a1::s003",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for default",
+        "Buyer's Guide",
+        "Termination for default"
+      ],
+      "markdown": "## Termination for default",
+      "plain_text": "Termination for default"
+    },
+    {
+      "block_id": "3a2e5e3a85a1::b0005",
+      "section_id": "3a2e5e3a85a1::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for default",
+        "Buyer's Guide",
+        "Termination for default"
+      ],
+      "markdown": "Termination for default applies when the contractor fails to fulfill their obligations under the contract, usually through non-performance or delayed delivery. Not acting promptly after a contractor is in default can negatively affect Canada's interests.",
+      "plain_text": "Termination for default applies when the contractor fails to fulfill their obligations under the contract, usually through non-performance or delayed delivery. Not acting promptly after a contractor is in default can negatively affect Canada's interests."
+    },
+    {
+      "block_id": "3a2e5e3a85a1::b0006",
+      "section_id": "3a2e5e3a85a1::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for default",
+        "Buyer's Guide",
+        "Termination for default"
+      ],
+      "markdown": "The decision to terminate a contract for default should be made only after all other possible solutions have been explored. You must consult with Legal Services early to ensure that the proposed actions will not prejudice Canada's legal position and that the termination is legally enforceable.",
+      "plain_text": "The decision to terminate a contract for default should be made only after all other possible solutions have been explored. You must consult with Legal Services early to ensure that the proposed actions will not prejudice Canada's legal position and that the termination is legally enforceable."
+    },
+    {
+      "block_id": "3a2e5e3a85a1::b0007",
+      "section_id": "3a2e5e3a85a1::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for default",
+        "Buyer's Guide",
+        "Termination for default"
+      ],
+      "markdown": "If a contract is secured by surety bonds, termination may change the contractual relationship with the bonding company.",
+      "plain_text": "If a contract is secured by surety bonds, termination may change the contractual relationship with the bonding company."
+    },
+    {
+      "block_id": "3a2e5e3a85a1::b0008",
+      "section_id": "3a2e5e3a85a1::s004",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for default",
+        "Buyer's Guide",
+        "Termination for default",
+        "Reasons to terminate for default"
+      ],
+      "markdown": "### Reasons to terminate for default",
+      "plain_text": "Reasons to terminate for default"
+    },
+    {
+      "block_id": "3a2e5e3a85a1::b0009",
+      "section_id": "3a2e5e3a85a1::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for default",
+        "Buyer's Guide",
+        "Termination for default",
+        "Reasons to terminate for default"
+      ],
+      "markdown": "Canada has the right to terminate all or any part of the contract for default for the reasons described below.",
+      "plain_text": "Canada has the right to terminate all or any part of the contract for default for the reasons described below."
+    },
+    {
+      "block_id": "3a2e5e3a85a1::b0010",
+      "section_id": "3a2e5e3a85a1::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for default",
+        "Buyer's Guide",
+        "Termination for default",
+        "Reasons to terminate for default"
+      ],
+      "markdown": "The contractor fails to make progress: If the contractor's lack of progress endangers contract performance, the buyer may provide the contractor written notice to rectify the situation within a period of ten days. If this period must be longer, you may require the contractor to show evidence of corrective action within ten days. If a contractor does not rectify the situation within ten days, you may, subject to the limitation in the default clause, initiate action to terminate the contract for default.",
+      "plain_text": "The contractor fails to make progress: If the contractor's lack of progress endangers contract performance, the buyer may provide the contractor written notice to rectify the situation within a period of ten days. If this period must be longer, you may require the contractor to show evidence of corrective action within ten days. If a contractor does not rectify the situation within ten days, you may, subject to the limitation in the default clause, initiate action to terminate the contract for default."
+    },
+    {
+      "block_id": "3a2e5e3a85a1::b0011",
+      "section_id": "3a2e5e3a85a1::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for default",
+        "Buyer's Guide",
+        "Termination for default",
+        "Reasons to terminate for default"
+      ],
+      "markdown": "The contractor fails to perform any provision of the contract: If the contractor does not rectify such a defect within ten days of receipt of a notice from the buyer, the buyer may, within the limitations in the default clause, initiate action to terminate the contract in whole or in part for default.",
+      "plain_text": "The contractor fails to perform any provision of the contract: If the contractor does not rectify such a defect within ten days of receipt of a notice from the buyer, the buyer may, within the limitations in the default clause, initiate action to terminate the contract in whole or in part for default."
+    },
+    {
+      "block_id": "3a2e5e3a85a1::b0012",
+      "section_id": "3a2e5e3a85a1::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for default",
+        "Buyer's Guide",
+        "Termination for default",
+        "Reasons to terminate for default"
+      ],
+      "markdown": "The contractor fails to deliver the goods or perform the services within the time specified in the contract: In the absence of excusable delays, Canada has the right to terminate a contract immediately, for any delay, no matter how slight. This includes the right to accept or reject goods shipped, but not yet delivered.",
+      "plain_text": "The contractor fails to deliver the goods or perform the services within the time specified in the contract: In the absence of excusable delays, Canada has the right to terminate a contract immediately, for any delay, no matter how slight. This includes the right to accept or reject goods shipped, but not yet delivered."
+    },
+    {
+      "block_id": "3a2e5e3a85a1::b0013",
+      "section_id": "3a2e5e3a85a1::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for default",
+        "Buyer's Guide",
+        "Termination for default",
+        "Reasons to terminate for default"
+      ],
+      "markdown": "Canada can also terminate for default if the contractor does make timely delivery but delivers defective goods, improperly performs services, and is unable to take corrective action within the unexpired delivery schedule period.",
+      "plain_text": "Canada can also terminate for default if the contractor does make timely delivery but delivers defective goods, improperly performs services, and is unable to take corrective action within the unexpired delivery schedule period."
+    },
+    {
+      "block_id": "3a2e5e3a85a1::b0014",
+      "section_id": "3a2e5e3a85a1::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for default",
+        "Buyer's Guide",
+        "Termination for default",
+        "Reasons to terminate for default"
+      ],
+      "markdown": "If you are contemplating termination of a contract for failure to deliver on time, you must advise the contractor of this promptly after the default occurs. Failure to take such action may prejudice Canada\u2019s position.",
+      "plain_text": "If you are contemplating termination of a contract for failure to deliver on time, you must advise the contractor of this promptly after the default occurs. Failure to take such action may prejudice Canada\u2019s position."
+    },
+    {
+      "block_id": "3a2e5e3a85a1::b0015",
+      "section_id": "3a2e5e3a85a1::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for default",
+        "Buyer's Guide",
+        "Termination for default",
+        "Reasons to terminate for default"
+      ],
+      "markdown": "When there is reasonable assurance that delivery will be made, even though late, it may be desirable to discuss extension of the delivery time with client. If the delivery date is extended, negotiation for some kind of consideration may be appropriate. This constitutes a conditional amendment which triggers the requirement for a vendor performance corrective measure (VPCM) assessment.",
+      "plain_text": "When there is reasonable assurance that delivery will be made, even though late, it may be desirable to discuss extension of the delivery time with client. If the delivery date is extended, negotiation for some kind of consideration may be appropriate. This constitutes a conditional amendment which triggers the requirement for a vendor performance corrective measure (VPCM) assessment."
+    },
+    {
+      "block_id": "3a2e5e3a85a1::b0016",
+      "section_id": "3a2e5e3a85a1::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for default",
+        "Buyer's Guide",
+        "Termination for default",
+        "Reasons to terminate for default"
+      ],
+      "markdown": "The contractor becomes bankrupt or insolvent: Upon receipt of a notice of a contractor\u2019s bankruptcy or insolvency, you should follow the settlement procedure for final payments.",
+      "plain_text": "The contractor becomes bankrupt or insolvent: Upon receipt of a notice of a contractor\u2019s bankruptcy or insolvency, you should follow the settlement procedure for final payments."
+    },
+    {
+      "block_id": "3a2e5e3a85a1::b0017",
+      "section_id": "3a2e5e3a85a1::s005",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for default",
+        "Buyer's Guide",
+        "Termination for default",
+        "Action to recover loss or damage"
+      ],
+      "markdown": "### Action to recover loss or damage",
+      "plain_text": "Action to recover loss or damage"
+    },
+    {
+      "block_id": "3a2e5e3a85a1::b0018",
+      "section_id": "3a2e5e3a85a1::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for default",
+        "Buyer's Guide",
+        "Termination for default",
+        "Action to recover loss or damage"
+      ],
+      "markdown": "After a contract is terminated you will determine the actual amount or best estimate of loss or damage suffered by Canada. You will also determine the distribution of the damages to be recovered from the contractor. Estimates include any amount exceeding the original contract price which Canada may have to incur in procuring the goods or services elsewhere.",
+      "plain_text": "After a contract is terminated you will determine the actual amount or best estimate of loss or damage suffered by Canada. You will also determine the distribution of the damages to be recovered from the contractor. Estimates include any amount exceeding the original contract price which Canada may have to incur in procuring the goods or services elsewhere."
+    },
+    {
+      "block_id": "3a2e5e3a85a1::b0019",
+      "section_id": "3a2e5e3a85a1::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for default",
+        "Buyer's Guide",
+        "Termination for default",
+        "Action to recover loss or damage"
+      ],
+      "markdown": "You must refer claims to Legal Services when a contract is secured by a security deposit (government guaranteed bonds, bills of exchange, and irrevocable standby letters of credit). You must also refer claims to Legal Services when Canada and the contractor have claims against each other related to the same work package.",
+      "plain_text": "You must refer claims to Legal Services when a contract is secured by a security deposit (government guaranteed bonds, bills of exchange, and irrevocable standby letters of credit). You must also refer claims to Legal Services when Canada and the contractor have claims against each other related to the same work package."
+    },
+    {
+      "block_id": "3a2e5e3a85a1::b0020",
+      "section_id": "3a2e5e3a85a1::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for default",
+        "Buyer's Guide",
+        "Termination for default",
+        "Action to recover loss or damage"
+      ],
+      "markdown": "In all other cases, you will try to negotiate a settlement. If a satisfactory settlement cannot be reached, you will refer the claim to Legal Services for action.",
+      "plain_text": "In all other cases, you will try to negotiate a settlement. If a satisfactory settlement cannot be reached, you will refer the claim to Legal Services for action."
+    },
+    {
+      "block_id": "3a2e5e3a85a1::b0021",
+      "section_id": "3a2e5e3a85a1::s006",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for default",
+        "Buyer's Guide",
+        "Termination for default",
+        "Action to recover loss or damage",
+        "Settlement agreement"
+      ],
+      "markdown": "#### Settlement agreement",
+      "plain_text": "Settlement agreement"
+    },
+    {
+      "block_id": "3a2e5e3a85a1::b0022",
+      "section_id": "3a2e5e3a85a1::s006",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for default",
+        "Buyer's Guide",
+        "Termination for default",
+        "Action to recover loss or damage",
+        "Settlement agreement"
+      ],
+      "markdown": "When a contractor agrees with the proposed settlement, the recommendation to recover monies will be submitted to the Cost and Profit Assurance Group (CPAG), or, in the case of a Canadian Commercial Corporation (CCC) contract, the director, Finance and Resources Administration (FRA). The Cost Audit Group or the director, FRA , will issue an invoice to the contractor for the monetary recovery.",
+      "plain_text": "When a contractor agrees with the proposed settlement, the recommendation to recover monies will be submitted to the Cost and Profit Assurance Group (CPAG), or, in the case of a Canadian Commercial Corporation (CCC) contract, the director, Finance and Resources Administration (FRA). The Cost Audit Group or the director, FRA , will issue an invoice to the contractor for the monetary recovery."
+    },
+    {
+      "block_id": "3a2e5e3a85a1::b0023",
+      "section_id": "3a2e5e3a85a1::s007",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for default",
+        "Buyer's Guide",
+        "Termination for default",
+        "Action to recover loss or damage",
+        "Follow-up on payment"
+      ],
+      "markdown": "#### Follow-up on payment",
+      "plain_text": "Follow-up on payment"
+    },
+    {
+      "block_id": "3a2e5e3a85a1::b0024",
+      "section_id": "3a2e5e3a85a1::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for default",
+        "Buyer's Guide",
+        "Termination for default",
+        "Action to recover loss or damage",
+        "Follow-up on payment"
+      ],
+      "markdown": "If payment is not received within 60 days from the date of issue of the invoice, then CPAG or the director, FRA , will advise you to take follow-up action with the contractor. If normal follow-up procedures are unsuccessful, the matter must be referred to Legal Services.",
+      "plain_text": "If payment is not received within 60 days from the date of issue of the invoice, then CPAG or the director, FRA , will advise you to take follow-up action with the contractor. If normal follow-up procedures are unsuccessful, the matter must be referred to Legal Services."
+    },
+    {
+      "block_id": "3a2e5e3a85a1::b0025",
+      "section_id": "3a2e5e3a85a1::s008",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for default",
+        "Buyer's Guide",
+        "Termination for default",
+        "Action to recover loss or damage",
+        "Record keeping"
+      ],
+      "markdown": "#### Record keeping",
+      "plain_text": "Record keeping"
+    },
+    {
+      "block_id": "3a2e5e3a85a1::b0026",
+      "section_id": "3a2e5e3a85a1::s008",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for default",
+        "Buyer's Guide",
+        "Termination for default",
+        "Action to recover loss or damage",
+        "Record keeping"
+      ],
+      "markdown": "Claims must remain in departmental records until fully resolved through payment or a properly authorized deletion action.",
+      "plain_text": "Claims must remain in departmental records until fully resolved through payment or a properly authorized deletion action."
+    },
+    {
+      "block_id": "3a2e5e3a85a1::b0027",
+      "section_id": "3a2e5e3a85a1::s009",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for default",
+        "Buyer's Guide",
+        "Termination for default",
+        "Contract payment under surety bond"
+      ],
+      "markdown": "### Contract payment under surety bond",
+      "plain_text": "Contract payment under surety bond"
+    },
+    {
+      "block_id": "3a2e5e3a85a1::b0028",
+      "section_id": "3a2e5e3a85a1::s009",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for default",
+        "Buyer's Guide",
+        "Termination for default",
+        "Contract payment under surety bond"
+      ],
+      "markdown": "When a surety bond is being enforced, payments will be issued as follows:",
+      "plain_text": "When a surety bond is being enforced, payments will be issued as follows:"
+    },
+    {
+      "block_id": "3a2e5e3a85a1::b0029",
+      "section_id": "3a2e5e3a85a1::s009",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for default",
+        "Buyer's Guide",
+        "Termination for default",
+        "Contract payment under surety bond"
+      ],
+      "markdown": "Performance bond: After the contract is completed to Canada's satisfaction, the bonding company may be paid all amounts the contractor would have been entitled to under the terms of the contract.",
+      "plain_text": "Performance bond: After the contract is completed to Canada's satisfaction, the bonding company may be paid all amounts the contractor would have been entitled to under the terms of the contract."
+    },
+    {
+      "block_id": "3a2e5e3a85a1::b0030",
+      "section_id": "3a2e5e3a85a1::s009",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Terminate or suspend a contract - Termination for default",
+        "Buyer's Guide",
+        "Termination for default",
+        "Contract payment under surety bond"
+      ],
+      "markdown": "Payment bond: The bonding company must not be reimbursed for the payment of creditors from any funds held by Canada until the work is complete, and the surety company has fully discharged its obligations under the bond.",
+      "plain_text": "Payment bond: The bonding company must not be reimbursed for the payment of creditors from any funds held by Canada until the work is complete, and the surety company has fully discharged its obligations under the bond."
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+# Buyer's Guide Approval and authorities - Approval authorities and additional signing authorities in support of Acquisitions Program clients' programs only (other than for a Canadian Commercial Corporation)
+
+# Buyer's Guide
+
+- Plan
+- Approve
+- Create solicitation
+- Solicit
+- Receive and evaluate
+- Negotiate
+- Award
+- Manage
+
+Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation) PSPC ’s internal approval and signing authorities are in accordance with AP ’s delegation of authorities tables in the Delegation of authorities instrument (accessible only on the Government of Canada network - for PSPC only). TB approval is required for submissions exceeding the departmental contracting limits set out in PSPC ’s delegation of authority tables, including exceptional authorities. Exceptions to internal approval authorities There are several exceptions to PSPC ’s internal approval authorities. Former public servants The contracting limits set out in the Delegation of authorities instrument (accessible only on the Government of Canada network - for PSPC only) apply to submissions seeking approval to enter into or amend a non-competitive contract for the services of former public servants in receipt of a pension, when the contract value, including amendments, exceeds $200,000. In addition, ministerial approval is required in the following cases: when entering into or amending a non-competitive contract with a former public servant in receipt of a pension under the Public Service Superannuation Act (PSSA), and the total contract value, including amendments, exceeds $200,000 when entering into a non-competitive service contract with a former public servant in receipt of a pension under the PSSA , where the annualized rate of remuneration exceeds $200,000 and the contract term exceeds 90 working days Note : The fee component of a non-competitive contract may be abated if the individual has been retired for less than one year and is receiving a pension. Use of the fee abatement formula is optional and may be applied as a cost control measure. Ministerial approval is also required for submissions seeking approval to enter into or amend a non-competitive service contract with a former public servant in receipt of a lump sum payment, when total fees payable during the lump sum payment period exceed $5,000, as provided in the Workforce Reduction Directive under the Public Sector Compensation Act . Note : This requirement also applies to former members of the Canadian Armed Forces or the Royal Canadian Mounted Police who are receiving lump sum payments under equivalent force reduction programs, regardless of whether one or multiple contracts are involved. Confirming orders Submissions granting approval to issue a confirming order must be approved at the director level or higher in accordance with the non-competitive contract approval authority limits outlined in Contracting limits including exceptional authorities . The limitation to non-competitive contract approval authority limits applies to all positions below the Assistant Deputy Minister (ADM). Royalty payments For contracts subject to the Defence Production Act , when royalty payments exceed five percent, Deputy Minister’s approval is required before entering into a contract. The approval of the Deputy Minister is not sought to enter into the contract, but to permit Canada to pay the royalty. If there is an increase in the amount of the royalty to be paid or if further items become subject to royalty payments during the life of a contract, the same guidelines for approval apply. To obtain the approval of the Deputy Minister for royalties above 5 percent, the contract request must include: detailed description of the royalties forecast of anticipated future purchases beyond the current contract comments from legal services National Security Exception The Assistant Deputy Minister, Acquisitions Branch (ADM/AB) must have approved the National Security Exception (NSE) pursuant to a letter from the client ADM requesting the NSE before the document approval process takes place. Following NSE approval by the ADM /AB, the normal document approval process and authority apply. For complete details of the NSE process, see Invoking a national security exception. Integrity provisions Before entering into any contract, supply arrangement or standing offer, or assigning a contract to an offeror or assignee deemed ineligible or suspended under the Ineligibility and Suspension Policy , a public interest exception (PIE) must be invoked. A request for a PIE must be escalated to the Deputy Head or equivalent and the Registrar of Ineligibility and Suspension must be notified of the request. When an integrity verification response indicates “Caution: Due Diligence Should be Applied,” approval must be obtained at the level specified in the response, either ADM or Director General (DG). ADM level approvals must be submitted to APIS by email DG level approvals must follow the established processes within the sector or region Buyers may contact APIS for support Heightened integrity approval is not required when issuing: an amendment where the Integrity Provisions were not modified a call-up a contract resulting from a supply arrangement or a task authorization Buyers may proceed with obtaining approval at the level determined for the contract through the Procurement Risk Assessment.
+
+## Approval authorities for Acquisitions Program clients’ programs only (other than for Canadian Commercial Corporation)
+
+PSPC ’s internal approval and signing authorities are in accordance with AP ’s delegation of authorities tables in the Delegation of authorities instrument (accessible only on the Government of Canada network - for PSPC only).
+
+TB approval is required for submissions exceeding the departmental contracting limits set out in PSPC ’s delegation of authority tables, including exceptional authorities.
+
+### Exceptions to internal approval authorities
+
+There are several exceptions to PSPC ’s internal approval authorities.
+
+#### Former public servants
+
+The contracting limits set out in the Delegation of authorities instrument (accessible only on the Government of Canada network - for PSPC only) apply to submissions seeking approval to enter into or amend a non-competitive contract for the services of former public servants in receipt of a pension, when the contract value, including amendments, exceeds $200,000.
+
+In addition, ministerial approval is required in the following cases:
+
+- when entering into or amending a non-competitive contract with a former public servant in receipt of a pension under the Public Service Superannuation Act (PSSA), and the total contract value, including amendments, exceeds $200,000
+- when entering into a non-competitive service contract with a former public servant in receipt of a pension under the PSSA , where the annualized rate of remuneration exceeds $200,000 and the contract term exceeds 90 working days
+
+Note : The fee component of a non-competitive contract may be abated if the individual has been retired for less than one year and is receiving a pension. Use of the fee abatement formula is optional and may be applied as a cost control measure.
+
+Ministerial approval is also required for submissions seeking approval to enter into or amend a non-competitive service contract with a former public servant in receipt of a lump sum payment, when total fees payable during the lump sum payment period exceed $5,000, as provided in the Workforce Reduction Directive under the Public Sector Compensation Act .
+
+Note : This requirement also applies to former members of the Canadian Armed Forces or the Royal Canadian Mounted Police who are receiving lump sum payments under equivalent force reduction programs, regardless of whether one or multiple contracts are involved.
+
+#### Confirming orders
+
+Submissions granting approval to issue a confirming order must be approved at the director level or higher in accordance with the non-competitive contract approval authority limits outlined in Contracting limits including exceptional authorities . The limitation to non-competitive contract approval authority limits applies to all positions below the Assistant Deputy Minister (ADM).
+
+#### Royalty payments
+
+For contracts subject to the Defence Production Act , when royalty payments exceed five percent, Deputy Minister’s approval is required before entering into a contract. The approval of the Deputy Minister is not sought to enter into the contract, but to permit Canada to pay the royalty.
+
+If there is an increase in the amount of the royalty to be paid or if further items become subject to royalty payments during the life of a contract, the same guidelines for approval apply.
+
+To obtain the approval of the Deputy Minister for royalties above 5 percent, the contract request must include:
+
+- detailed description of the royalties
+- forecast of anticipated future purchases beyond the current contract
+- comments from legal services
+
+#### National Security Exception
+
+The Assistant Deputy Minister, Acquisitions Branch (ADM/AB) must have approved the National Security Exception (NSE) pursuant to a letter from the client ADM requesting the NSE before the document approval process takes place.
+
+Following NSE approval by the ADM /AB, the normal document approval process and authority apply. For complete details of the NSE process, see Invoking a national security exception.
+
+#### Integrity provisions
+
+Before entering into any contract, supply arrangement or standing offer, or assigning a contract to an offeror or assignee deemed ineligible or suspended under the Ineligibility and Suspension Policy , a public interest exception (PIE) must be invoked. A request for a PIE must be escalated to the Deputy Head or equivalent and the Registrar of Ineligibility and Suspension must be notified of the request.
+
+When an integrity verification response indicates “Caution: Due Diligence Should be Applied,” approval must be obtained at the level specified in the response, either ADM or Director General (DG).
+
+- ADM level approvals must be submitted to APIS by email
+- DG level approvals must follow the established processes within the sector or region
+- Buyers may contact APIS for support
+
+Heightened integrity approval is not required when issuing:
+
+- an amendment where the Integrity Provisions were not modified
+- a call-up
+- a contract resulting from a supply arrangement
+- or a task authorization
+
+Buyers may proceed with obtaining approval at the level determined for the contract through the Procurement Risk Assessment.

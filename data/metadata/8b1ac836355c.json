@@ -1,0 +1,458 @@
+{
+  "doc_id": "8b1ac836355c",
+  "title": "Buyer's Guide Choose a solicitation method - Request for information",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-information",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-information",
+  "doc_type": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": "2026-01-31",
+  "fetched_at": "2026-02-19T09:18:02.942548+00:00",
+  "content_hash": "4ed34dc6cf2753f44315f82ee215849c895ef8d875cbcaf6fdc715785294c034",
+  "word_count": 597,
+  "text_path": "data/corpus/buyers_guide__en-buyer-s-portal-buyer-s-guide-create-solicitation-choose-solicitation-method-request-information__8b1ac83635.md",
+  "extraction_method": "buyers_guide_regions",
+  "breadcrumbs": [
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "https://canadabuys.canada.ca/en",
+      "canonical_url": "https://canadabuys.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "in_scope": true
+    },
+    {
+      "title": "Create solicitation",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation",
+      "in_scope": true
+    },
+    {
+      "title": "Choose a solicitation method",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "in_scope": true
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+    "parent_doc_id": "e24cc0f6b01d",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-information"
+    ],
+    "lineage_doc_ids": [
+      "1e29c7881335",
+      "2e11d15cd64e",
+      "e24cc0f6b01d",
+      "8b1ac836355c"
+    ],
+    "depth": 3,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/invitation-tender",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/preparing-solicitation-documents",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-quotation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-standing-offer",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-supply-arrangement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/client-review",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/client-review/client-review-elements-solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/audit",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/certifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/delivery-terms",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/exchange-rates",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/method-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/offer-receipt",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/phased-offer-compliance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/translation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/minimum-solicitation-periods-itqs-rfsas-and-urgent-procurements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/normal-minimum-solicitation-periods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/solicitations-following-request-expressions-interest",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/advanced-contract-award-notice",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/notice-proposed-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-procurement-strategy-indigenous-business-set-asides",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-trade-agreements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/emergency-requirements"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/invitation-tender",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/preparing-solicitation-documents",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-quotation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-standing-offer",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-supply-arrangement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/client-review",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/client-review/client-review-elements-solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/audit",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/certifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/delivery-terms",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/exchange-rates",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/method-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/offer-receipt",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/phased-offer-compliance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/translation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/minimum-solicitation-periods-itqs-rfsas-and-urgent-procurements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/normal-minimum-solicitation-periods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/solicitations-following-request-expressions-interest",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/advanced-contract-award-notice",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/notice-proposed-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-procurement-strategy-indigenous-business-set-asides",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-trade-agreements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure": {
+    "block_count": 14,
+    "section_count": 6,
+    "heading_count": 5,
+    "paragraph_count": 6,
+    "list_count": 3,
+    "table_count": 0
+  },
+  "sections": [
+    {
+      "section_id": "8b1ac836355c::root",
+      "parent_section_id": null,
+      "level": 0,
+      "heading": "Buyer's Guide Choose a solicitation method - Request for information",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Request for information"
+      ],
+      "block_count": 0,
+      "word_count": 0,
+      "char_count": 0,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": null,
+      "last_block_index": null,
+      "preview": "",
+      "prev_section_id": null,
+      "next_section_id": null
+    },
+    {
+      "section_id": "8b1ac836355c::s001",
+      "parent_section_id": "8b1ac836355c::root",
+      "level": 1,
+      "heading": "Buyer's Guide Choose a solicitation method - Request for information",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Request for information",
+        "Buyer's Guide Choose a solicitation method - Request for information"
+      ],
+      "block_count": 1,
+      "word_count": 10,
+      "char_count": 68,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 0,
+      "last_block_index": 0,
+      "preview": "Buyer's Guide Choose a solicitation method - Request for information",
+      "prev_section_id": null,
+      "next_section_id": "8b1ac836355c::s002"
+    },
+    {
+      "section_id": "8b1ac836355c::s002",
+      "parent_section_id": "8b1ac836355c::root",
+      "level": 1,
+      "heading": "Buyer's Guide",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Request for information",
+        "Buyer's Guide"
+      ],
+      "block_count": 3,
+      "word_count": 301,
+      "char_count": 1880,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 1,
+      "last_block_index": 3,
+      "preview": "Buyer's Guide Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage Request for information or Letter of interest A Request for information (RFI) or Letter of interest (LOI) is used when detailed",
+      "prev_section_id": "8b1ac836355c::s001",
+      "next_section_id": "8b1ac836355c::s003"
+    },
+    {
+      "section_id": "8b1ac836355c::s003",
+      "parent_section_id": "8b1ac836355c::s002",
+      "level": 2,
+      "heading": "Request for information or Letter of interest",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Request for information",
+        "Buyer's Guide",
+        "Request for information or Letter of interest"
+      ],
+      "block_count": 2,
+      "word_count": 60,
+      "char_count": 398,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 4,
+      "last_block_index": 5,
+      "preview": "Request for information or Letter of interest A Request for information (RFI) or Letter of interest (LOI) is used when detailed information and feedback are required from offerors. Such requests might outline a potential requirement and req",
+      "prev_section_id": "8b1ac836355c::s002",
+      "next_section_id": "8b1ac836355c::s004"
+    },
+    {
+      "section_id": "8b1ac836355c::s004",
+      "parent_section_id": "8b1ac836355c::s003",
+      "level": 3,
+      "heading": "Objectives of a Request for information or Letter of interest",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Request for information",
+        "Buyer's Guide",
+        "Request for information or Letter of interest",
+        "Objectives of a Request for information or Letter of interest"
+      ],
+      "block_count": 6,
+      "word_count": 163,
+      "char_count": 1038,
+      "table_count": 0,
+      "list_count": 2,
+      "paragraph_count": 3,
+      "first_block_index": 6,
+      "last_block_index": 11,
+      "preview": "Objectives of a Request for information or Letter of interest Through an RFI or LOI , you, the buyer, can invite businesses to provide detailed information and feedback, helping both you and the client finalize plans for the requirement and",
+      "prev_section_id": "8b1ac836355c::s003",
+      "next_section_id": "8b1ac836355c::s005"
+    },
+    {
+      "section_id": "8b1ac836355c::s005",
+      "parent_section_id": "8b1ac836355c::s003",
+      "level": 3,
+      "heading": "Request for information or Letter of interest process",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Request for information",
+        "Buyer's Guide",
+        "Request for information or Letter of interest",
+        "Request for information or Letter of interest process"
+      ],
+      "block_count": 2,
+      "word_count": 63,
+      "char_count": 334,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 12,
+      "last_block_index": 13,
+      "preview": "Request for information or Letter of interest process RFI s/ LOI s would normally be published on GETS to reach a broad audience. If a source list is used, RFI s or LOI s may be sent only to offerors on the list and must clearly indicate th",
+      "prev_section_id": "8b1ac836355c::s004",
+      "next_section_id": null
+    }
+  ],
+  "tables": [],
+  "blocks": [
+    {
+      "block_id": "8b1ac836355c::b0001",
+      "section_id": "8b1ac836355c::s001",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Request for information",
+        "Buyer's Guide Choose a solicitation method - Request for information"
+      ],
+      "markdown": "# Buyer's Guide Choose a solicitation method - Request for information",
+      "plain_text": "Buyer's Guide Choose a solicitation method - Request for information"
+    },
+    {
+      "block_id": "8b1ac836355c::b0002",
+      "section_id": "8b1ac836355c::s002",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Request for information",
+        "Buyer's Guide"
+      ],
+      "markdown": "# Buyer's Guide",
+      "plain_text": "Buyer's Guide"
+    },
+    {
+      "block_id": "8b1ac836355c::b0003",
+      "section_id": "8b1ac836355c::s002",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Request for information",
+        "Buyer's Guide"
+      ],
+      "markdown": "- Plan\n- Approve\n- Create solicitation\n- Solicit\n- Receive and evaluate\n- Negotiate\n- Award\n- Manage",
+      "plain_text": "Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage"
+    },
+    {
+      "block_id": "8b1ac836355c::b0004",
+      "section_id": "8b1ac836355c::s002",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Request for information",
+        "Buyer's Guide"
+      ],
+      "markdown": "Request for information or Letter of interest A Request for information (RFI) or Letter of interest (LOI) is used when detailed information and feedback are required from offerors. Such requests might outline a potential requirement and request businesses to describe their ability to satisfy the requirement and to provide ideas and suggestions on how the eventual solicitation might be structured. Objectives of a Request for information or Letter of interest Through an RFI or LOI , you, the buyer, can invite businesses to provide detailed information and feedback, helping both you and the client finalize plans for the requirement and shape the procurement strategy, objectives and deliverables. Engage businesses early in the process to: review and comment on the adequacy and clarify of the requirements offer alternative solutions that may meet the needs share insights on the procurement strategy, preliminary basis of payment elements and project timelines comment on the draft solicitation when included with the RFI and LOI Use feedback to help clients: make informed decisions on whether to proceed with the requirements and procurement strategy as planned or refine aspects such as cost estimates, requirements and timelines become a more \"informed buyer\" with an enhanced understanding of industry goods and service offerings in the areas of interest explore alternative solutions concepts that align with their needs Request for information or Letter of interest process RFI s/ LOI s would normally be published on GETS to reach a broad audience. If a source list is used, RFI s or LOI s may be sent only to offerors on the list and must clearly indicate that they are not solicitations and that there is no commitment to future purchases or contracts.",
+      "plain_text": "Request for information or Letter of interest A Request for information (RFI) or Letter of interest (LOI) is used when detailed information and feedback are required from offerors. Such requests might outline a potential requirement and request businesses to describe their ability to satisfy the requirement and to provide ideas and suggestions on how the eventual solicitation might be structured. Objectives of a Request for information or Letter of interest Through an RFI or LOI , you, the buyer, can invite businesses to provide detailed information and feedback, helping both you and the client finalize plans for the requirement and shape the procurement strategy, objectives and deliverables. Engage businesses early in the process to: review and comment on the adequacy and clarify of the requirements offer alternative solutions that may meet the needs share insights on the procurement strategy, preliminary basis of payment elements and project timelines comment on the draft solicitation when included with the RFI and LOI Use feedback to help clients: make informed decisions on whether to proceed with the requirements and procurement strategy as planned or refine aspects such as cost estimates, requirements and timelines become a more \"informed buyer\" with an enhanced understanding of industry goods and service offerings in the areas of interest explore alternative solutions concepts that align with their needs Request for information or Letter of interest process RFI s/ LOI s would normally be published on GETS to reach a broad audience. If a source list is used, RFI s or LOI s may be sent only to offerors on the list and must clearly indicate that they are not solicitations and that there is no commitment to future purchases or contracts."
+    },
+    {
+      "block_id": "8b1ac836355c::b0005",
+      "section_id": "8b1ac836355c::s003",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Request for information",
+        "Buyer's Guide",
+        "Request for information or Letter of interest"
+      ],
+      "markdown": "## Request for information or Letter of interest",
+      "plain_text": "Request for information or Letter of interest"
+    },
+    {
+      "block_id": "8b1ac836355c::b0006",
+      "section_id": "8b1ac836355c::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Request for information",
+        "Buyer's Guide",
+        "Request for information or Letter of interest"
+      ],
+      "markdown": "A Request for information (RFI) or Letter of interest (LOI) is used when detailed information and feedback are required from offerors. Such requests might outline a potential requirement and request businesses to describe their ability to satisfy the requirement and to provide ideas and suggestions on how the eventual solicitation might be structured.",
+      "plain_text": "A Request for information (RFI) or Letter of interest (LOI) is used when detailed information and feedback are required from offerors. Such requests might outline a potential requirement and request businesses to describe their ability to satisfy the requirement and to provide ideas and suggestions on how the eventual solicitation might be structured."
+    },
+    {
+      "block_id": "8b1ac836355c::b0007",
+      "section_id": "8b1ac836355c::s004",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Request for information",
+        "Buyer's Guide",
+        "Request for information or Letter of interest",
+        "Objectives of a Request for information or Letter of interest"
+      ],
+      "markdown": "### Objectives of a Request for information or Letter of interest",
+      "plain_text": "Objectives of a Request for information or Letter of interest"
+    },
+    {
+      "block_id": "8b1ac836355c::b0008",
+      "section_id": "8b1ac836355c::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Request for information",
+        "Buyer's Guide",
+        "Request for information or Letter of interest",
+        "Objectives of a Request for information or Letter of interest"
+      ],
+      "markdown": "Through an RFI or LOI , you, the buyer, can invite businesses to provide detailed information and feedback, helping both you and the client finalize plans for the requirement and shape the procurement strategy, objectives and deliverables.",
+      "plain_text": "Through an RFI or LOI , you, the buyer, can invite businesses to provide detailed information and feedback, helping both you and the client finalize plans for the requirement and shape the procurement strategy, objectives and deliverables."
+    },
+    {
+      "block_id": "8b1ac836355c::b0009",
+      "section_id": "8b1ac836355c::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Request for information",
+        "Buyer's Guide",
+        "Request for information or Letter of interest",
+        "Objectives of a Request for information or Letter of interest"
+      ],
+      "markdown": "Engage businesses early in the process to:",
+      "plain_text": "Engage businesses early in the process to:"
+    },
+    {
+      "block_id": "8b1ac836355c::b0010",
+      "section_id": "8b1ac836355c::s004",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Request for information",
+        "Buyer's Guide",
+        "Request for information or Letter of interest",
+        "Objectives of a Request for information or Letter of interest"
+      ],
+      "markdown": "- review and comment on the adequacy and clarify of the requirements\n- offer alternative solutions that may meet the needs\n- share insights on the procurement strategy, preliminary basis of payment elements and project timelines\n- comment on the draft solicitation when included with the RFI and LOI",
+      "plain_text": "review and comment on the adequacy and clarify of the requirements ; offer alternative solutions that may meet the needs ; share insights on the procurement strategy, preliminary basis of payment elements and project timelines ; comment on the draft solicitation when included with the RFI and LOI"
+    },
+    {
+      "block_id": "8b1ac836355c::b0011",
+      "section_id": "8b1ac836355c::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Request for information",
+        "Buyer's Guide",
+        "Request for information or Letter of interest",
+        "Objectives of a Request for information or Letter of interest"
+      ],
+      "markdown": "Use feedback to help clients:",
+      "plain_text": "Use feedback to help clients:"
+    },
+    {
+      "block_id": "8b1ac836355c::b0012",
+      "section_id": "8b1ac836355c::s004",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Request for information",
+        "Buyer's Guide",
+        "Request for information or Letter of interest",
+        "Objectives of a Request for information or Letter of interest"
+      ],
+      "markdown": "- make informed decisions on whether to proceed with the requirements and procurement strategy as planned or refine aspects such as cost estimates, requirements and timelines\n- become a more \"informed buyer\" with an enhanced understanding of industry goods and service offerings in the areas of interest\n- explore alternative solutions concepts that align with their needs",
+      "plain_text": "make informed decisions on whether to proceed with the requirements and procurement strategy as planned or refine aspects such as cost estimates, requirements and timelines ; become a more \"informed buyer\" with an enhanced understanding of industry goods and service offerings in the areas of interest ; explore alternative solutions concepts that align with their needs"
+    },
+    {
+      "block_id": "8b1ac836355c::b0013",
+      "section_id": "8b1ac836355c::s005",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Request for information",
+        "Buyer's Guide",
+        "Request for information or Letter of interest",
+        "Request for information or Letter of interest process"
+      ],
+      "markdown": "### Request for information or Letter of interest process",
+      "plain_text": "Request for information or Letter of interest process"
+    },
+    {
+      "block_id": "8b1ac836355c::b0014",
+      "section_id": "8b1ac836355c::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Request for information",
+        "Buyer's Guide",
+        "Request for information or Letter of interest",
+        "Request for information or Letter of interest process"
+      ],
+      "markdown": "RFI s/ LOI s would normally be published on GETS to reach a broad audience. If a source list is used, RFI s or LOI s may be sent only to offerors on the list and must clearly indicate that they are not solicitations and that there is no commitment to future purchases or contracts.",
+      "plain_text": "RFI s/ LOI s would normally be published on GETS to reach a broad audience. If a source list is used, RFI s or LOI s may be sent only to offerors on the list and must clearly indicate that they are not solicitations and that there is no commitment to future purchases or contracts."
+    }
+  ]
+}

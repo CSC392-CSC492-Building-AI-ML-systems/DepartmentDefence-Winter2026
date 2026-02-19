@@ -1,0 +1,1476 @@
+{
+  "doc_id": "938be2759ba0",
+  "title": "Buyer's Guide Prepare approval documents - Contract request",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-request",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-request",
+  "doc_type": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": "2026-01-31",
+  "fetched_at": "2026-02-19T09:17:44.632938+00:00",
+  "content_hash": "c3c54a270f375cf51f414e7527cecfab14bb9d2b6b72e81755ea1147e7e1dc85",
+  "word_count": 4905,
+  "text_path": "data/corpus/buyers_guide__en-buyer-s-portal-buyer-s-guide-approve-prepare-approval-documents-contract-request__938be2759b.md",
+  "extraction_method": "buyers_guide_regions",
+  "breadcrumbs": [
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "https://canadabuys.canada.ca/en",
+      "canonical_url": "https://canadabuys.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "in_scope": true
+    },
+    {
+      "title": "Prepare approval documents",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents",
+      "in_scope": true
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents",
+    "parent_doc_id": "a84e61330452",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-request"
+    ],
+    "lineage_doc_ids": [
+      "1e29c7881335",
+      "a84e61330452",
+      "938be2759ba0"
+    ],
+    "depth": 2,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/additional-signing-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/approval-authorities-and-additional-signing-authorities-support-acquisitions-program-clients-programs-only-other-canadian-commercial-corporation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contract-approval-and-signing-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contracting-limits-including-exceptional-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/delegation-authority-guidelines",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/general-principles-procurement-authority",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/risk-based-procurement-delegation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/adjustments-complexity-levels",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/characteristics-procurement-complexity-levels",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/considerations-amendments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/determining-complexity",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/procurement-risk-assessment-complexity",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/additional-reviewers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/approval-processes",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-amendment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-planning-and-advanced-approval",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/procurement-plan",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/task-authorizations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/treasury-board-submission",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/forgiveness-debts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/procurement-process-initiated-client",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/retroactive-treasury-board-approval-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/trade-ins",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/waiver-interest"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/additional-signing-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/approval-authorities-and-additional-signing-authorities-support-acquisitions-program-clients-programs-only-other-canadian-commercial-corporation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contract-approval-and-signing-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contracting-limits-including-exceptional-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/delegation-authority-guidelines",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/general-principles-procurement-authority",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/risk-based-procurement-delegation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/adjustments-complexity-levels",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/characteristics-procurement-complexity-levels",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/considerations-amendments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/determining-complexity",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/procurement-risk-assessment-complexity",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/additional-reviewers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/approval-processes",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-amendment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-planning-and-advanced-approval",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/procurement-plan",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/task-authorizations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/treasury-board-submission",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/forgiveness-debts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/procurement-process-initiated-client",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/retroactive-treasury-board-approval-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/trade-ins",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/waiver-interest",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure": {
+    "block_count": 63,
+    "section_count": 21,
+    "heading_count": 20,
+    "paragraph_count": 27,
+    "list_count": 16,
+    "table_count": 0
+  },
+  "sections": [
+    {
+      "section_id": "938be2759ba0::root",
+      "parent_section_id": null,
+      "level": 0,
+      "heading": "Buyer's Guide Prepare approval documents - Contract request",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request"
+      ],
+      "block_count": 0,
+      "word_count": 0,
+      "char_count": 0,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": null,
+      "last_block_index": null,
+      "preview": "",
+      "prev_section_id": null,
+      "next_section_id": null
+    },
+    {
+      "section_id": "938be2759ba0::s001",
+      "parent_section_id": "938be2759ba0::root",
+      "level": 1,
+      "heading": "Buyer's Guide Prepare approval documents - Contract request",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide Prepare approval documents - Contract request"
+      ],
+      "block_count": 1,
+      "word_count": 8,
+      "char_count": 59,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 0,
+      "last_block_index": 0,
+      "preview": "Buyer's Guide Prepare approval documents - Contract request",
+      "prev_section_id": null,
+      "next_section_id": "938be2759ba0::s002"
+    },
+    {
+      "section_id": "938be2759ba0::s002",
+      "parent_section_id": "938be2759ba0::root",
+      "level": 1,
+      "heading": "Buyer's Guide",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide"
+      ],
+      "block_count": 3,
+      "word_count": 2415,
+      "char_count": 16278,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 1,
+      "last_block_index": 3,
+      "preview": "Buyer's Guide Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage Contract request Similar to a Contract Planning and Advance Approval (CPAA) resubmission, a contract request is used where ther",
+      "prev_section_id": "938be2759ba0::s001",
+      "next_section_id": "938be2759ba0::s003"
+    },
+    {
+      "section_id": "938be2759ba0::s003",
+      "parent_section_id": "938be2759ba0::s002",
+      "level": 2,
+      "heading": "Contract request",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request"
+      ],
+      "block_count": 3,
+      "word_count": 106,
+      "char_count": 686,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 2,
+      "first_block_index": 4,
+      "last_block_index": 6,
+      "preview": "Contract request Similar to a Contract Planning and Advance Approval (CPAA) resubmission, a contract request is used where there is a significant change to the procurement strategy, such as a non-competitive requirement becoming competitive",
+      "prev_section_id": "938be2759ba0::s002",
+      "next_section_id": "938be2759ba0::s004"
+    },
+    {
+      "section_id": "938be2759ba0::s004",
+      "parent_section_id": "938be2759ba0::s003",
+      "level": 3,
+      "heading": "Responsibility and accountability in the contract request process",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Responsibility and accountability in the contract request process"
+      ],
+      "block_count": 7,
+      "word_count": 251,
+      "char_count": 1771,
+      "table_count": 0,
+      "list_count": 2,
+      "paragraph_count": 4,
+      "first_block_index": 7,
+      "last_block_index": 13,
+      "preview": "Responsibility and accountability in the contract request process As a buyer, you are responsible for completing the contract request and ensure all information is accurate and complete . The contract request must include the following crit",
+      "prev_section_id": "938be2759ba0::s003",
+      "next_section_id": "938be2759ba0::s005"
+    },
+    {
+      "section_id": "938be2759ba0::s005",
+      "parent_section_id": "938be2759ba0::s003",
+      "level": 3,
+      "heading": "Procurements requiring approval of the ADM or above",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Procurements requiring approval of the ADM or above"
+      ],
+      "block_count": 4,
+      "word_count": 170,
+      "char_count": 1175,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 2,
+      "first_block_index": 14,
+      "last_block_index": 17,
+      "preview": "Procurements requiring approval of the ADM or above You must prepare and submit the contract request using forms PWGSC-TPSGC 1151-1 and PWGSC-TPSGC 1151-2 (accessible only on the Government of Canada network - for PSPC only). You must also:",
+      "prev_section_id": "938be2759ba0::s004",
+      "next_section_id": "938be2759ba0::s006"
+    },
+    {
+      "section_id": "938be2759ba0::s006",
+      "parent_section_id": "938be2759ba0::s003",
+      "level": 3,
+      "heading": "Preparing for the contract request",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Preparing for the contract request"
+      ],
+      "block_count": 4,
+      "word_count": 181,
+      "char_count": 1117,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 2,
+      "first_block_index": 18,
+      "last_block_index": 21,
+      "preview": "Preparing for the contract request Before initiating a contract request you must: Confirm whether the contract was previously approved through initial planning phases ; If the contract entry was not pre-approved or a procurement plan was us",
+      "prev_section_id": "938be2759ba0::s005",
+      "next_section_id": "938be2759ba0::s007"
+    },
+    {
+      "section_id": "938be2759ba0::s007",
+      "parent_section_id": "938be2759ba0::s003",
+      "level": 3,
+      "heading": "Contract request details",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Contract request details"
+      ],
+      "block_count": 4,
+      "word_count": 84,
+      "char_count": 564,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 2,
+      "first_block_index": 22,
+      "last_block_index": 25,
+      "preview": "Contract request details When you prepare the contract request, focus on these three key elements: The requirement and its end use: Describe what is being procured and its intended application within the project or operation ; The offeror a",
+      "prev_section_id": "938be2759ba0::s006",
+      "next_section_id": "938be2759ba0::s008"
+    },
+    {
+      "section_id": "938be2759ba0::s008",
+      "parent_section_id": "938be2759ba0::s007",
+      "level": 4,
+      "heading": "Priority attention",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Contract request details",
+        "Priority attention"
+      ],
+      "block_count": 2,
+      "word_count": 27,
+      "char_count": 195,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 26,
+      "last_block_index": 27,
+      "preview": "Priority attention Highlight if expedited processing is required, such as delivery requirements or the expiry of price validity, specifying the consequences of not adhering to specified timelines.",
+      "prev_section_id": "938be2759ba0::s007",
+      "next_section_id": "938be2759ba0::s009"
+    },
+    {
+      "section_id": "938be2759ba0::s009",
+      "parent_section_id": "938be2759ba0::s007",
+      "level": 4,
+      "heading": "Subject",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Contract request details",
+        "Subject"
+      ],
+      "block_count": 2,
+      "word_count": 27,
+      "char_count": 157,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 28,
+      "last_block_index": 29,
+      "preview": "Subject State the nature of the request, whether you are seeking authority to enter a contract or to utilize a standing offer (SO) or supply arrangement (SA).",
+      "prev_section_id": "938be2759ba0::s008",
+      "next_section_id": "938be2759ba0::s010"
+    },
+    {
+      "section_id": "938be2759ba0::s010",
+      "parent_section_id": "938be2759ba0::s007",
+      "level": 4,
+      "heading": "Proposal",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Contract request details",
+        "Proposal"
+      ],
+      "block_count": 3,
+      "word_count": 475,
+      "char_count": 2947,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 30,
+      "last_block_index": 32,
+      "preview": "Proposal Be sure to cover the following key elements for securing necessary approvals and authorizations to meet project requirements, ensuring that all key details are addressed: Proposed action : state, for example, the authority to enter",
+      "prev_section_id": "938be2759ba0::s009",
+      "next_section_id": "938be2759ba0::s011"
+    },
+    {
+      "section_id": "938be2759ba0::s011",
+      "parent_section_id": "938be2759ba0::s007",
+      "level": 4,
+      "heading": "Cost",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Contract request details",
+        "Cost"
+      ],
+      "block_count": 5,
+      "word_count": 148,
+      "char_count": 920,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 3,
+      "first_block_index": 33,
+      "last_block_index": 37,
+      "preview": "Cost Provide the total estimated cost to Canada to complete the proposed contract, including GST / HST . The estimation should include: the cost for all goods or services ; the total amount payable to the contractor ; a detailed cash flow s",
+      "prev_section_id": "938be2759ba0::s010",
+      "next_section_id": "938be2759ba0::s012"
+    },
+    {
+      "section_id": "938be2759ba0::s012",
+      "parent_section_id": "938be2759ba0::s007",
+      "level": 4,
+      "heading": "Basis of payment",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Contract request details",
+        "Basis of payment"
+      ],
+      "block_count": 5,
+      "word_count": 315,
+      "char_count": 1968,
+      "table_count": 0,
+      "list_count": 2,
+      "paragraph_count": 2,
+      "first_block_index": 38,
+      "last_block_index": 42,
+      "preview": "Basis of payment Summarize all factors which have a bearing on the proposed procurement, such as: price to be paid ; method of pricing, for example but not limited to: ; firm lot price ; firm unit price ; target price, ceiling price and inc",
+      "prev_section_id": "938be2759ba0::s011",
+      "next_section_id": "938be2759ba0::s013"
+    },
+    {
+      "section_id": "938be2759ba0::s013",
+      "parent_section_id": "938be2759ba0::s007",
+      "level": 4,
+      "heading": "Source and price justification",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Contract request details",
+        "Source and price justification"
+      ],
+      "block_count": 4,
+      "word_count": 193,
+      "char_count": 1296,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 2,
+      "first_block_index": 43,
+      "last_block_index": 46,
+      "preview": "Source and price justification Provide a detailed explanation of the competitive process undertaken, including the number of businesses solicited and offers received. Justify the selection of the recommended offeror, especially if they did ",
+      "prev_section_id": "938be2759ba0::s012",
+      "next_section_id": "938be2759ba0::s014"
+    },
+    {
+      "section_id": "938be2759ba0::s014",
+      "parent_section_id": "938be2759ba0::s007",
+      "level": 4,
+      "heading": "Justification and documentation",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Contract request details",
+        "Justification and documentation"
+      ],
+      "block_count": 2,
+      "word_count": 35,
+      "char_count": 230,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 0,
+      "first_block_index": 47,
+      "last_block_index": 48,
+      "preview": "Justification and documentation The responses to the TB sole source questions must be attached ; Ensure sufficient justification is provided for the choice, including the legal authority to use an exception to a competitive process",
+      "prev_section_id": "938be2759ba0::s013",
+      "next_section_id": "938be2759ba0::s015"
+    },
+    {
+      "section_id": "938be2759ba0::s015",
+      "parent_section_id": "938be2759ba0::s007",
+      "level": 4,
+      "heading": "Offer evaluation and selection",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Contract request details",
+        "Offer evaluation and selection"
+      ],
+      "block_count": 2,
+      "word_count": 57,
+      "char_count": 379,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 0,
+      "first_block_index": 49,
+      "last_block_index": 50,
+      "preview": "Offer evaluation and selection Explain the rationale for recommending an offer higher than the lowest offer received, clearly stating reasons for any non-compliance with mandatory requirements ; In cases of identical offers, outline the cri",
+      "prev_section_id": "938be2759ba0::s014",
+      "next_section_id": "938be2759ba0::s016"
+    },
+    {
+      "section_id": "938be2759ba0::s016",
+      "parent_section_id": "938be2759ba0::s007",
+      "level": 4,
+      "heading": "Policy and trade agreement deviations",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Contract request details",
+        "Policy and trade agreement deviations"
+      ],
+      "block_count": 2,
+      "word_count": 34,
+      "char_count": 246,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 0,
+      "first_block_index": 51,
+      "last_block_index": 52,
+      "preview": "Policy and trade agreement deviations Describe any proposed deviations from standard policies, citing reasons and potential impacts ; If deviations from the provisions of Canada's trade agreements are recommended, provide reasons for the de",
+      "prev_section_id": "938be2759ba0::s015",
+      "next_section_id": "938be2759ba0::s017"
+    },
+    {
+      "section_id": "938be2759ba0::s017",
+      "parent_section_id": "938be2759ba0::s007",
+      "level": 4,
+      "heading": "Socio-economic and risk considerations",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Contract request details",
+        "Socio-economic and risk considerations"
+      ],
+      "block_count": 2,
+      "word_count": 53,
+      "char_count": 406,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 0,
+      "first_block_index": 53,
+      "last_block_index": 54,
+      "preview": "Socio-economic and risk considerations Address any socio-economic considerations for contracts exceeding $2 million or with significant socio-economic impacts, including any funding implications and statements on Canadian content as well as",
+      "prev_section_id": "938be2759ba0::s016",
+      "next_section_id": "938be2759ba0::s018"
+    },
+    {
+      "section_id": "938be2759ba0::s018",
+      "parent_section_id": "938be2759ba0::s007",
+      "level": 4,
+      "heading": "Offers received",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Contract request details",
+        "Offers received"
+      ],
+      "block_count": 2,
+      "word_count": 17,
+      "char_count": 111,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 55,
+      "last_block_index": 56,
+      "preview": "Offers received State whether there was a public opening of offers, ensuring transparency in the tender process.",
+      "prev_section_id": "938be2759ba0::s017",
+      "next_section_id": "938be2759ba0::s019"
+    },
+    {
+      "section_id": "938be2759ba0::s019",
+      "parent_section_id": "938be2759ba0::s007",
+      "level": 4,
+      "heading": "Basis of recommendation",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Contract request details",
+        "Basis of recommendation"
+      ],
+      "block_count": 3,
+      "word_count": 243,
+      "char_count": 1644,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 57,
+      "last_block_index": 59,
+      "preview": "Basis of recommendation In this section, you must explain the factors that support the selection of the recommended offeror. This includes addressing the following points: Whenever possible, give the TB number which grants the client progra",
+      "prev_section_id": "938be2759ba0::s018",
+      "next_section_id": "938be2759ba0::s020"
+    },
+    {
+      "section_id": "938be2759ba0::s020",
+      "parent_section_id": "938be2759ba0::s003",
+      "level": 3,
+      "heading": "Approval process",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Approval process"
+      ],
+      "block_count": 3,
+      "word_count": 66,
+      "char_count": 471,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 2,
+      "first_block_index": 60,
+      "last_block_index": 62,
+      "preview": "Approval process The contract request should be submitted to the designated approval authority. Ensure all necessary reviews, such as legal counsel assessment, cost analysis and quality control are conducted, completed and attached prior to",
+      "prev_section_id": "938be2759ba0::s019",
+      "next_section_id": null
+    }
+  ],
+  "tables": [],
+  "blocks": [
+    {
+      "block_id": "938be2759ba0::b0001",
+      "section_id": "938be2759ba0::s001",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide Prepare approval documents - Contract request"
+      ],
+      "markdown": "# Buyer's Guide Prepare approval documents - Contract request",
+      "plain_text": "Buyer's Guide Prepare approval documents - Contract request"
+    },
+    {
+      "block_id": "938be2759ba0::b0002",
+      "section_id": "938be2759ba0::s002",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide"
+      ],
+      "markdown": "# Buyer's Guide",
+      "plain_text": "Buyer's Guide"
+    },
+    {
+      "block_id": "938be2759ba0::b0003",
+      "section_id": "938be2759ba0::s002",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide"
+      ],
+      "markdown": "- Plan\n- Approve\n- Create solicitation\n- Solicit\n- Receive and evaluate\n- Negotiate\n- Award\n- Manage",
+      "plain_text": "Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage"
+    },
+    {
+      "block_id": "938be2759ba0::b0004",
+      "section_id": "938be2759ba0::s002",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide"
+      ],
+      "markdown": "Contract request Similar to a Contract Planning and Advance Approval (CPAA) resubmission, a contract request is used where there is a significant change to the procurement strategy, such as a non-competitive requirement becoming competitive, or vice versa. However, if contract entry was not pre-approved through the CPAA process, or if a procurement plan was used at the procurement strategy phase, a contract request for approval to enter into a contract must be prepared prior to contract entry. Approval must be obtained before accepting any offer or requesting a potential contractor to carry out specific work. Once you receive approval, you can proceed with the procurement action. Responsibility and accountability in the contract request process As a buyer, you are responsible for completing the contract request and ensure all information is accurate and complete . The contract request must include the following critical elements, and provide a solid justification for each: rationale for procurement strategy change additional risks, changes to previously identified risks and proposed mitigation strategies updated procurement risk assessment and complexity assessment, as applicable offeror selection criteria total cost estimation method of payment terms and conditions requiring approval proposed deviations from applicable policies and procedures copy of the proposed contract and the applicable files containing supporting data The approval authority will review the contract request and will either grant full approval to proceed or identify concerns and direct changes to the request or request additional steps before award. Following approval, you will proceed with the procurement process in accordance with the approved contract request. To maintain the standards of procedural integrity throughout the contract request process, you should: maintain a commitment to transparent, fair practices throughout the contract request process explore opportunities for collaboration and maintain comprehensive records of all steps taken use standard templates to ensure consistency and regulatory compliance (standard contract request forms are available, for example PWGSC-TPSGC 1151-1 and PWGSC-TPSGC 1151-2 (accessible only on the Government of Canada network - for Public Services and Procurement Canada (PSPC) only) for contracts requiring approval from the PSPC Assistant Deputy Minister (ADM), Deputy Minister or Minister) Procurements requiring approval of the ADM or above You must prepare and submit the contract request using forms PWGSC-TPSGC 1151-1 and PWGSC-TPSGC 1151-2 (accessible only on the Government of Canada network - for PSPC only). You must also: Certify that the information provided in the contract request accurately represents the information on file Submit the contract request to the appropriate approval authority and ensure that: the submission is forwarded and recommended by all line management officers between the buyer and the approval authority sector or region resources such as legal counsel, contract quality control, cost analysts, and commodity teams review the submission, as required Obtain policy interpretations from the Strategic Policy Sector and opinions from departmental specialists (e.g. Legal Services) on the consequences of any proposed deviations from general conditions, policies and regulations Obtain the client department\u2019s agreement for any deviations from specifications, standard and delivery requirements, and Highlight, in the recommendation, the facts surrounding any proposed deviations and their negative consequences to Canada Preparing for the contract request Before initiating a contract request you must: Confirm whether the contract was previously approved through initial planning phases If the contract entry was not pre-approved or a procurement plan was used at the procurement strategy phase, you must prepare a contract request and have it approved before moving forward Review the risks identified in the Procurement Risk Assessment (PRA) (accessible only on the Government of Canada network - for PSPC only) and the original approval document If the risks have changed during the procurement process, you must: complete a new PRA and identify additional or new risks explain why the risks have changed and what mitigation strategies will be put in place If there has been a change to the complexity level, you must: update the procurement complexity assessment perform a new PRA at the appropriate complexity level and attach it to the procurement approval documents before finalizing the contract request Note : When there's a significant change to the procurement strategy, refer to the CPAA resubmission guidelines. Contract request details When you prepare the contract request, focus on these three key elements: The requirement and its end use: Describe what is being procured and its intended application within the project or operation The offeror and selection criteria: Identify the successful offeror and provide rationale for their selection based on the established criteria The cost, basis of payment, and cash flow: Outline the financial aspects, including total cost, payment schedule, and cash flow projections Address the following considerations, when applicable: Priority attention Highlight if expedited processing is required, such as delivery requirements or the expiry of price validity, specifying the consequences of not adhering to specified timelines. Subject State the nature of the request, whether you are seeking authority to enter a contract or to utilize a standing offer (SO) or supply arrangement (SA). Proposal Be sure to cover the following key elements for securing necessary approvals and authorizations to meet project requirements, ensuring that all key details are addressed: Proposed action : state, for example, the authority to enter into contract with a specified company, or to authorize the use of an SO Contractor identification : provide legal name and address Description of goods and services : briefly describe the goods or services being supplied and their end use, if applicable. Part numbers and specifications should be referred to in Part 2 of form PWGSC-TPSGC 1151-2 (accessible only on the Government of Canada network - for PSPC only) Discrepancy between the requisition and the proposed contract : if not all of the goods or services requisitioned are in the proposed contract for which approval is sought, and form PWGSC-TPSGC 1151-1 (accessible only on the Government of Canada network - for PSPC only) did not make this clear, briefly summarize the total number of items on the requisition versus in the proposed contract, and refer to the appendix or document on file which provides details Type of contractual document : identify the type of contract document being issued (for example, \"Your Tender is Accepted\"; \"You are Requested\"; \"Standing Offer\"; \"Your Proposal is Accepted\"; \"Formal Agreement\") Delivery points : identify if there are multiple delivery points as \u201cdelivery to various destinations\u201d without listing them all Applicable policies : note any deviations from Cabinet or TB contracting policies Special terms : detail anything impacting the proposed contract such as financial security, royalty payments, etc. Financial variances and obligations : if certain terms or deviations from departmental policies proposed in the contract request result in a financial obligation for Canada, request authority for this monetary obligation, and explain why it is recommended that Canada assume this financial responsibility in this case. Advance payments : address any advance payments proposed and the rationale behind them Contractual options : if Canada is required to exercise an option by a specific date, the method of pricing or pricing formula is established, and funds are available in the requisition (or are expected to be available), request approval to exercise the option. Include details on the method of pricing or pricing formula and the final date for exercise of the option Unforeseen work : indicate if approval is being requested for an additional estimated amount as a provision for unforeseen work such as work arising, design changes or escalations Exercise of options : for any options, include criteria that will be used for determining whether the option should be exercised Duration and expiry : in the case of a proposed contract for a specified term or period only, or of a proposed standing offer, state whether the expiry date is for ordering or delivery Cost Provide the total estimated cost to Canada to complete the proposed contract, including GST / HST . The estimation should include: the cost for all goods or services the total amount payable to the contractor a detailed cash flow schedule showing the anticipated disbursements by fiscal year over the contract period any options for which funds are available (or expected to be provided in the future) any additional estimated amount for foreseeable amendments covering unscheduled work, such as contingencies, design changes, or escalation, for which approval is being sought Identify the funding source (including vote and requisition number) and the certifying department or agency. For SO s which are not funded, state that the amount is chargeable to the client. Note : If the payment is in a foreign currency, include in brackets the estimated Canadian dollar equivalent using the current conversion rate. Basis of payment Summarize all factors which have a bearing on the proposed procurement, such as: price to be paid method of pricing, for example but not limited to: firm lot price firm unit price target price, ceiling price and incentive fee formula target price and incentive fee formula without ceiling price fixed time rate price-to-be-negotiated (PTBN) Note: include a formula for determination of firm basis of payment, or provide an explanation as to why inclusion of a formula is not possible, and why PTBN is not a ceiling price, if applicable applicable customs duties applicable GST / HST included, or whether extra, exempt or zero-rated (noting the reason for exemption), or not applicable other taxes applicable to the contract delivery terms such as free on board (FOB) destination, free alongside ship (FAS), free alongside flight (FAF), FOB common carrier (contractor's plant), or cost, insurance, and freight (CIF) provisions for exchange rate fluctuations, including the amount of foreign currency subject to fluctuation and any special conditions escalation provisions outside the general conditions of the contract, such as sales tax, excise tax, and customs duties options - method of pricing or pricing formula plus final date for exercise of options any advance payment requirements, including the rationale and benefits to Canada the proposed basis of payment for unscheduled work audit or verification provisions related to the contract's execution or financial reporting profit calculations dates for commencement and completion of deliveries included in the offer being recommended for acceptance if the contract includes multiple items or delivery points, provide a statement summarizing the details, for example: \"Unit (and/or lot) prices, totalling $ [insert amount], sales tax [insert sales tax], and FOB [insert FOB], as detailed in the attached annex or in an annex attached to the proposed contract.\" Source and price justification Provide a detailed explanation of the competitive process undertaken, including the number of businesses solicited and offers received. Justify the selection of the recommended offeror, especially if they did not submit the lowest offer. Your explanation should address the following points: the relative standing of the recommended offeror with regard to price if other than the lowest-responsive offer is recommended, explain clearly why any lower offer is not acceptable if an offer is considered non-responsive because it does not meet the mandatory requirements of the solicitation, but is lower in price than the lowest-responsive offer, concisely describe the major deficiencies if two offers have an identical price and one of the two is recommended for acceptance, detail the governing selection criteria if the selection was not made through a competitive process, provide detailed support for the choice made include the price certification obtained and explain why the price is considered reasonable and justifiable, including a brief summary of the previous price When a non-competitive (sole source) procurement strategy is chosen based on Government Contracts Regulations exception 6(d), ensure that the following considerations are addressed: Justification and documentation The responses to the TB sole source questions must be attached Ensure sufficient justification is provided for the choice, including the legal authority to use an exception to a competitive process Offer evaluation and selection Explain the rationale for recommending an offer higher than the lowest offer received, clearly stating reasons for any non-compliance with mandatory requirements In cases of identical offers, outline the criteria for selection Describe any options and include the criteria that will be used for determining whether the option should be exercised Policy and trade agreement deviations Describe any proposed deviations from standard policies, citing reasons and potential impacts If deviations from the provisions of Canada's trade agreements are recommended, provide reasons for the deviation Socio-economic and risk considerations Address any socio-economic considerations for contracts exceeding $2 million or with significant socio-economic impacts, including any funding implications and statements on Canadian content as well as the creation/maintenance of jobs in Canada and their location Provide details surrounding the medium, medium-high and high risks with proposed mitigation strategies Offers received State whether there was a public opening of offers, ensuring transparency in the tender process. Basis of recommendation In this section, you must explain the factors that support the selection of the recommended offeror. This includes addressing the following points: Whenever possible, give the TB number which grants the client program approval Justify the price agreed upon, especially if negotiation was the chosen method. Include a brief description of the profit calculations, the reasonableness of the price elements, and the profit and mark-up being recommended If applicable, compare the current contract price with previous prices for similar contracts, explaining any significant variations Address and reconcile any discrepancies between the solicitation of offers and the offer recommended Support acceptability of goods or services if they are not in accordance with specifications Justify any deviations from Cabinet or TB contracting policies, departmental policy or standard procurement clauses Specify any financial and other consequences, and whenever possible, express Canada's obligations in monetary terms Detail the method of payment, including progress payments and holdbacks, as applicable Provide any other relevant information, such as: a list of businesses invited to submit offers, and their ownership a financial officer's opinion on offeror\u2019s financial status any legal opinions obtained on the legal nature of the case and on the contract submission, including its consistency with the contract if not previously addressed, confirmation of the offeror's compliance with: international sanctions the Federal Contractors Program for Employment Equity conflict of interest provisions Approval process The contract request should be submitted to the designated approval authority. Ensure all necessary reviews, such as legal counsel assessment, cost analysis and quality control are conducted, completed and attached prior to submitting to the approval authority. The approval authority will review the contract request and may either grant approval, identify concerns requiring modifications to the request, or demand additional steps before contract award.",
+      "plain_text": "Contract request Similar to a Contract Planning and Advance Approval (CPAA) resubmission, a contract request is used where there is a significant change to the procurement strategy, such as a non-competitive requirement becoming competitive, or vice versa. However, if contract entry was not pre-approved through the CPAA process, or if a procurement plan was used at the procurement strategy phase, a contract request for approval to enter into a contract must be prepared prior to contract entry. Approval must be obtained before accepting any offer or requesting a potential contractor to carry out specific work. Once you receive approval, you can proceed with the procurement action. Responsibility and accountability in the contract request process As a buyer, you are responsible for completing the contract request and ensure all information is accurate and complete . The contract request must include the following critical elements, and provide a solid justification for each: rationale for procurement strategy change additional risks, changes to previously identified risks and proposed mitigation strategies updated procurement risk assessment and complexity assessment, as applicable offeror selection criteria total cost estimation method of payment terms and conditions requiring approval proposed deviations from applicable policies and procedures copy of the proposed contract and the applicable files containing supporting data The approval authority will review the contract request and will either grant full approval to proceed or identify concerns and direct changes to the request or request additional steps before award. Following approval, you will proceed with the procurement process in accordance with the approved contract request. To maintain the standards of procedural integrity throughout the contract request process, you should: maintain a commitment to transparent, fair practices throughout the contract request process explore opportunities for collaboration and maintain comprehensive records of all steps taken use standard templates to ensure consistency and regulatory compliance (standard contract request forms are available, for example PWGSC-TPSGC 1151-1 and PWGSC-TPSGC 1151-2 (accessible only on the Government of Canada network - for Public Services and Procurement Canada (PSPC) only) for contracts requiring approval from the PSPC Assistant Deputy Minister (ADM), Deputy Minister or Minister) Procurements requiring approval of the ADM or above You must prepare and submit the contract request using forms PWGSC-TPSGC 1151-1 and PWGSC-TPSGC 1151-2 (accessible only on the Government of Canada network - for PSPC only). You must also: Certify that the information provided in the contract request accurately represents the information on file Submit the contract request to the appropriate approval authority and ensure that: the submission is forwarded and recommended by all line management officers between the buyer and the approval authority sector or region resources such as legal counsel, contract quality control, cost analysts, and commodity teams review the submission, as required Obtain policy interpretations from the Strategic Policy Sector and opinions from departmental specialists (e.g. Legal Services) on the consequences of any proposed deviations from general conditions, policies and regulations Obtain the client department\u2019s agreement for any deviations from specifications, standard and delivery requirements, and Highlight, in the recommendation, the facts surrounding any proposed deviations and their negative consequences to Canada Preparing for the contract request Before initiating a contract request you must: Confirm whether the contract was previously approved through initial planning phases If the contract entry was not pre-approved or a procurement plan was used at the procurement strategy phase, you must prepare a contract request and have it approved before moving forward Review the risks identified in the Procurement Risk Assessment (PRA) (accessible only on the Government of Canada network - for PSPC only) and the original approval document If the risks have changed during the procurement process, you must: complete a new PRA and identify additional or new risks explain why the risks have changed and what mitigation strategies will be put in place If there has been a change to the complexity level, you must: update the procurement complexity assessment perform a new PRA at the appropriate complexity level and attach it to the procurement approval documents before finalizing the contract request Note : When there's a significant change to the procurement strategy, refer to the CPAA resubmission guidelines. Contract request details When you prepare the contract request, focus on these three key elements: The requirement and its end use: Describe what is being procured and its intended application within the project or operation The offeror and selection criteria: Identify the successful offeror and provide rationale for their selection based on the established criteria The cost, basis of payment, and cash flow: Outline the financial aspects, including total cost, payment schedule, and cash flow projections Address the following considerations, when applicable: Priority attention Highlight if expedited processing is required, such as delivery requirements or the expiry of price validity, specifying the consequences of not adhering to specified timelines. Subject State the nature of the request, whether you are seeking authority to enter a contract or to utilize a standing offer (SO) or supply arrangement (SA). Proposal Be sure to cover the following key elements for securing necessary approvals and authorizations to meet project requirements, ensuring that all key details are addressed: Proposed action : state, for example, the authority to enter into contract with a specified company, or to authorize the use of an SO Contractor identification : provide legal name and address Description of goods and services : briefly describe the goods or services being supplied and their end use, if applicable. Part numbers and specifications should be referred to in Part 2 of form PWGSC-TPSGC 1151-2 (accessible only on the Government of Canada network - for PSPC only) Discrepancy between the requisition and the proposed contract : if not all of the goods or services requisitioned are in the proposed contract for which approval is sought, and form PWGSC-TPSGC 1151-1 (accessible only on the Government of Canada network - for PSPC only) did not make this clear, briefly summarize the total number of items on the requisition versus in the proposed contract, and refer to the appendix or document on file which provides details Type of contractual document : identify the type of contract document being issued (for example, \"Your Tender is Accepted\"; \"You are Requested\"; \"Standing Offer\"; \"Your Proposal is Accepted\"; \"Formal Agreement\") Delivery points : identify if there are multiple delivery points as \u201cdelivery to various destinations\u201d without listing them all Applicable policies : note any deviations from Cabinet or TB contracting policies Special terms : detail anything impacting the proposed contract such as financial security, royalty payments, etc. Financial variances and obligations : if certain terms or deviations from departmental policies proposed in the contract request result in a financial obligation for Canada, request authority for this monetary obligation, and explain why it is recommended that Canada assume this financial responsibility in this case. Advance payments : address any advance payments proposed and the rationale behind them Contractual options : if Canada is required to exercise an option by a specific date, the method of pricing or pricing formula is established, and funds are available in the requisition (or are expected to be available), request approval to exercise the option. Include details on the method of pricing or pricing formula and the final date for exercise of the option Unforeseen work : indicate if approval is being requested for an additional estimated amount as a provision for unforeseen work such as work arising, design changes or escalations Exercise of options : for any options, include criteria that will be used for determining whether the option should be exercised Duration and expiry : in the case of a proposed contract for a specified term or period only, or of a proposed standing offer, state whether the expiry date is for ordering or delivery Cost Provide the total estimated cost to Canada to complete the proposed contract, including GST / HST . The estimation should include: the cost for all goods or services the total amount payable to the contractor a detailed cash flow schedule showing the anticipated disbursements by fiscal year over the contract period any options for which funds are available (or expected to be provided in the future) any additional estimated amount for foreseeable amendments covering unscheduled work, such as contingencies, design changes, or escalation, for which approval is being sought Identify the funding source (including vote and requisition number) and the certifying department or agency. For SO s which are not funded, state that the amount is chargeable to the client. Note : If the payment is in a foreign currency, include in brackets the estimated Canadian dollar equivalent using the current conversion rate. Basis of payment Summarize all factors which have a bearing on the proposed procurement, such as: price to be paid method of pricing, for example but not limited to: firm lot price firm unit price target price, ceiling price and incentive fee formula target price and incentive fee formula without ceiling price fixed time rate price-to-be-negotiated (PTBN) Note: include a formula for determination of firm basis of payment, or provide an explanation as to why inclusion of a formula is not possible, and why PTBN is not a ceiling price, if applicable applicable customs duties applicable GST / HST included, or whether extra, exempt or zero-rated (noting the reason for exemption), or not applicable other taxes applicable to the contract delivery terms such as free on board (FOB) destination, free alongside ship (FAS), free alongside flight (FAF), FOB common carrier (contractor's plant), or cost, insurance, and freight (CIF) provisions for exchange rate fluctuations, including the amount of foreign currency subject to fluctuation and any special conditions escalation provisions outside the general conditions of the contract, such as sales tax, excise tax, and customs duties options - method of pricing or pricing formula plus final date for exercise of options any advance payment requirements, including the rationale and benefits to Canada the proposed basis of payment for unscheduled work audit or verification provisions related to the contract's execution or financial reporting profit calculations dates for commencement and completion of deliveries included in the offer being recommended for acceptance if the contract includes multiple items or delivery points, provide a statement summarizing the details, for example: \"Unit (and/or lot) prices, totalling $ [insert amount], sales tax [insert sales tax], and FOB [insert FOB], as detailed in the attached annex or in an annex attached to the proposed contract.\" Source and price justification Provide a detailed explanation of the competitive process undertaken, including the number of businesses solicited and offers received. Justify the selection of the recommended offeror, especially if they did not submit the lowest offer. Your explanation should address the following points: the relative standing of the recommended offeror with regard to price if other than the lowest-responsive offer is recommended, explain clearly why any lower offer is not acceptable if an offer is considered non-responsive because it does not meet the mandatory requirements of the solicitation, but is lower in price than the lowest-responsive offer, concisely describe the major deficiencies if two offers have an identical price and one of the two is recommended for acceptance, detail the governing selection criteria if the selection was not made through a competitive process, provide detailed support for the choice made include the price certification obtained and explain why the price is considered reasonable and justifiable, including a brief summary of the previous price When a non-competitive (sole source) procurement strategy is chosen based on Government Contracts Regulations exception 6(d), ensure that the following considerations are addressed: Justification and documentation The responses to the TB sole source questions must be attached Ensure sufficient justification is provided for the choice, including the legal authority to use an exception to a competitive process Offer evaluation and selection Explain the rationale for recommending an offer higher than the lowest offer received, clearly stating reasons for any non-compliance with mandatory requirements In cases of identical offers, outline the criteria for selection Describe any options and include the criteria that will be used for determining whether the option should be exercised Policy and trade agreement deviations Describe any proposed deviations from standard policies, citing reasons and potential impacts If deviations from the provisions of Canada's trade agreements are recommended, provide reasons for the deviation Socio-economic and risk considerations Address any socio-economic considerations for contracts exceeding $2 million or with significant socio-economic impacts, including any funding implications and statements on Canadian content as well as the creation/maintenance of jobs in Canada and their location Provide details surrounding the medium, medium-high and high risks with proposed mitigation strategies Offers received State whether there was a public opening of offers, ensuring transparency in the tender process. Basis of recommendation In this section, you must explain the factors that support the selection of the recommended offeror. This includes addressing the following points: Whenever possible, give the TB number which grants the client program approval Justify the price agreed upon, especially if negotiation was the chosen method. Include a brief description of the profit calculations, the reasonableness of the price elements, and the profit and mark-up being recommended If applicable, compare the current contract price with previous prices for similar contracts, explaining any significant variations Address and reconcile any discrepancies between the solicitation of offers and the offer recommended Support acceptability of goods or services if they are not in accordance with specifications Justify any deviations from Cabinet or TB contracting policies, departmental policy or standard procurement clauses Specify any financial and other consequences, and whenever possible, express Canada's obligations in monetary terms Detail the method of payment, including progress payments and holdbacks, as applicable Provide any other relevant information, such as: a list of businesses invited to submit offers, and their ownership a financial officer's opinion on offeror\u2019s financial status any legal opinions obtained on the legal nature of the case and on the contract submission, including its consistency with the contract if not previously addressed, confirmation of the offeror's compliance with: international sanctions the Federal Contractors Program for Employment Equity conflict of interest provisions Approval process The contract request should be submitted to the designated approval authority. Ensure all necessary reviews, such as legal counsel assessment, cost analysis and quality control are conducted, completed and attached prior to submitting to the approval authority. The approval authority will review the contract request and may either grant approval, identify concerns requiring modifications to the request, or demand additional steps before contract award."
+    },
+    {
+      "block_id": "938be2759ba0::b0005",
+      "section_id": "938be2759ba0::s003",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request"
+      ],
+      "markdown": "## Contract request",
+      "plain_text": "Contract request"
+    },
+    {
+      "block_id": "938be2759ba0::b0006",
+      "section_id": "938be2759ba0::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request"
+      ],
+      "markdown": "Similar to a Contract Planning and Advance Approval (CPAA) resubmission, a contract request is used where there is a significant change to the procurement strategy, such as a non-competitive requirement becoming competitive, or vice versa.",
+      "plain_text": "Similar to a Contract Planning and Advance Approval (CPAA) resubmission, a contract request is used where there is a significant change to the procurement strategy, such as a non-competitive requirement becoming competitive, or vice versa."
+    },
+    {
+      "block_id": "938be2759ba0::b0007",
+      "section_id": "938be2759ba0::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request"
+      ],
+      "markdown": "However, if contract entry was not pre-approved through the CPAA process, or if a procurement plan was used at the procurement strategy phase, a contract request for approval to enter into a contract must be prepared prior to contract entry. Approval must be obtained before accepting any offer or requesting a potential contractor to carry out specific work. Once you receive approval, you can proceed with the procurement action.",
+      "plain_text": "However, if contract entry was not pre-approved through the CPAA process, or if a procurement plan was used at the procurement strategy phase, a contract request for approval to enter into a contract must be prepared prior to contract entry. Approval must be obtained before accepting any offer or requesting a potential contractor to carry out specific work. Once you receive approval, you can proceed with the procurement action."
+    },
+    {
+      "block_id": "938be2759ba0::b0008",
+      "section_id": "938be2759ba0::s004",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Responsibility and accountability in the contract request process"
+      ],
+      "markdown": "### Responsibility and accountability in the contract request process",
+      "plain_text": "Responsibility and accountability in the contract request process"
+    },
+    {
+      "block_id": "938be2759ba0::b0009",
+      "section_id": "938be2759ba0::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Responsibility and accountability in the contract request process"
+      ],
+      "markdown": "As a buyer, you are responsible for completing the contract request and ensure all information is accurate and complete .",
+      "plain_text": "As a buyer, you are responsible for completing the contract request and ensure all information is accurate and complete ."
+    },
+    {
+      "block_id": "938be2759ba0::b0010",
+      "section_id": "938be2759ba0::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Responsibility and accountability in the contract request process"
+      ],
+      "markdown": "The contract request must include the following critical elements, and provide a solid justification for each:",
+      "plain_text": "The contract request must include the following critical elements, and provide a solid justification for each:"
+    },
+    {
+      "block_id": "938be2759ba0::b0011",
+      "section_id": "938be2759ba0::s004",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Responsibility and accountability in the contract request process"
+      ],
+      "markdown": "- rationale for procurement strategy change\n- additional risks, changes to previously identified risks and proposed mitigation strategies\n- updated procurement risk assessment and complexity assessment, as applicable\n- offeror selection criteria\n- total cost estimation\n- method of payment\n- terms and conditions requiring approval\n- proposed deviations from applicable policies and procedures\n- copy of the proposed contract and the applicable files containing supporting data",
+      "plain_text": "rationale for procurement strategy change ; additional risks, changes to previously identified risks and proposed mitigation strategies ; updated procurement risk assessment and complexity assessment, as applicable ; offeror selection criteria ; total cost estimation ; method of payment ; terms and conditions requiring approval ; proposed deviations from applicable policies and procedures ; copy of the proposed contract and the applicable files containing supporting data"
+    },
+    {
+      "block_id": "938be2759ba0::b0012",
+      "section_id": "938be2759ba0::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Responsibility and accountability in the contract request process"
+      ],
+      "markdown": "The approval authority will review the contract request and will either grant full approval to proceed or identify concerns and direct changes to the request or request additional steps before award.",
+      "plain_text": "The approval authority will review the contract request and will either grant full approval to proceed or identify concerns and direct changes to the request or request additional steps before award."
+    },
+    {
+      "block_id": "938be2759ba0::b0013",
+      "section_id": "938be2759ba0::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Responsibility and accountability in the contract request process"
+      ],
+      "markdown": "Following approval, you will proceed with the procurement process in accordance with the approved contract request. To maintain the standards of procedural integrity throughout the contract request process, you should:",
+      "plain_text": "Following approval, you will proceed with the procurement process in accordance with the approved contract request. To maintain the standards of procedural integrity throughout the contract request process, you should:"
+    },
+    {
+      "block_id": "938be2759ba0::b0014",
+      "section_id": "938be2759ba0::s004",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Responsibility and accountability in the contract request process"
+      ],
+      "markdown": "- maintain a commitment to transparent, fair practices throughout the contract request process\n- explore opportunities for collaboration and maintain comprehensive records of all steps taken\n- use standard templates to ensure consistency and regulatory compliance (standard contract request forms are available, for example PWGSC-TPSGC 1151-1 and PWGSC-TPSGC 1151-2 (accessible only on the Government of Canada network - for Public Services and Procurement Canada (PSPC) only) for contracts requiring approval from the PSPC Assistant Deputy Minister (ADM), Deputy Minister or Minister)",
+      "plain_text": "maintain a commitment to transparent, fair practices throughout the contract request process ; explore opportunities for collaboration and maintain comprehensive records of all steps taken ; use standard templates to ensure consistency and regulatory compliance (standard contract request forms are available, for example PWGSC-TPSGC 1151-1 and PWGSC-TPSGC 1151-2 (accessible only on the Government of Canada network - for Public Services and Procurement Canada (PSPC) only) for contracts requiring approval from the PSPC Assistant Deputy Minister (ADM), Deputy Minister or Minister)"
+    },
+    {
+      "block_id": "938be2759ba0::b0015",
+      "section_id": "938be2759ba0::s005",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Procurements requiring approval of the ADM or above"
+      ],
+      "markdown": "### Procurements requiring approval of the ADM or above",
+      "plain_text": "Procurements requiring approval of the ADM or above"
+    },
+    {
+      "block_id": "938be2759ba0::b0016",
+      "section_id": "938be2759ba0::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Procurements requiring approval of the ADM or above"
+      ],
+      "markdown": "You must prepare and submit the contract request using forms PWGSC-TPSGC 1151-1 and PWGSC-TPSGC 1151-2 (accessible only on the Government of Canada network - for PSPC only).",
+      "plain_text": "You must prepare and submit the contract request using forms PWGSC-TPSGC 1151-1 and PWGSC-TPSGC 1151-2 (accessible only on the Government of Canada network - for PSPC only)."
+    },
+    {
+      "block_id": "938be2759ba0::b0017",
+      "section_id": "938be2759ba0::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Procurements requiring approval of the ADM or above"
+      ],
+      "markdown": "You must also:",
+      "plain_text": "You must also:"
+    },
+    {
+      "block_id": "938be2759ba0::b0018",
+      "section_id": "938be2759ba0::s005",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Procurements requiring approval of the ADM or above"
+      ],
+      "markdown": "- Certify that the information provided in the contract request accurately represents the information on file\n- Submit the contract request to the appropriate approval authority and ensure that:\n- the submission is forwarded and recommended by all line management officers between the buyer and the approval authority\n- sector or region resources such as legal counsel, contract quality control, cost analysts, and commodity teams review the submission, as required\n- Obtain policy interpretations from the Strategic Policy Sector and opinions from departmental specialists (e.g. Legal Services) on the consequences of any proposed deviations from general conditions, policies and regulations\n- Obtain the client department\u2019s agreement for any deviations from specifications, standard and delivery requirements, and\n- Highlight, in the recommendation, the facts surrounding any proposed deviations and their negative consequences to Canada",
+      "plain_text": "Certify that the information provided in the contract request accurately represents the information on file ; Submit the contract request to the appropriate approval authority and ensure that: ; the submission is forwarded and recommended by all line management officers between the buyer and the approval authority ; sector or region resources such as legal counsel, contract quality control, cost analysts, and commodity teams review the submission, as required ; Obtain policy interpretations from the Strategic Policy Sector and opinions from departmental specialists (e.g. Legal Services) on the consequences of any proposed deviations from general conditions, policies and regulations ; Obtain the client department\u2019s agreement for any deviations from specifications, standard and delivery requirements, and ; Highlight, in the recommendation, the facts surrounding any proposed deviations and their negative consequences to Canada"
+    },
+    {
+      "block_id": "938be2759ba0::b0019",
+      "section_id": "938be2759ba0::s006",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Preparing for the contract request"
+      ],
+      "markdown": "### Preparing for the contract request",
+      "plain_text": "Preparing for the contract request"
+    },
+    {
+      "block_id": "938be2759ba0::b0020",
+      "section_id": "938be2759ba0::s006",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Preparing for the contract request"
+      ],
+      "markdown": "Before initiating a contract request you must:",
+      "plain_text": "Before initiating a contract request you must:"
+    },
+    {
+      "block_id": "938be2759ba0::b0021",
+      "section_id": "938be2759ba0::s006",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Preparing for the contract request"
+      ],
+      "markdown": "1. Confirm whether the contract was previously approved through initial planning phases\n- If the contract entry was not pre-approved or a procurement plan was used at the procurement strategy phase, you must prepare a contract request and have it approved before moving forward\n2. Review the risks identified in the Procurement Risk Assessment (PRA) (accessible only on the Government of Canada network - for PSPC only) and the original approval document\n- If the risks have changed during the procurement process, you must:\n- complete a new PRA and identify additional or new risks\n- explain why the risks have changed and what mitigation strategies will be put in place\n- If there has been a change to the complexity level, you must:\n- update the procurement complexity assessment\n- perform a new PRA at the appropriate complexity level and attach it to the procurement approval documents before finalizing the contract request",
+      "plain_text": "Confirm whether the contract was previously approved through initial planning phases ; If the contract entry was not pre-approved or a procurement plan was used at the procurement strategy phase, you must prepare a contract request and have it approved before moving forward ; Review the risks identified in the Procurement Risk Assessment (PRA) (accessible only on the Government of Canada network - for PSPC only) and the original approval document ; If the risks have changed during the procurement process, you must: ; complete a new PRA and identify additional or new risks ; explain why the risks have changed and what mitigation strategies will be put in place ; If there has been a change to the complexity level, you must: ; update the procurement complexity assessment ; perform a new PRA at the appropriate complexity level and attach it to the procurement approval documents before finalizing the contract request"
+    },
+    {
+      "block_id": "938be2759ba0::b0022",
+      "section_id": "938be2759ba0::s006",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Preparing for the contract request"
+      ],
+      "markdown": "Note : When there's a significant change to the procurement strategy, refer to the CPAA resubmission guidelines.",
+      "plain_text": "Note : When there's a significant change to the procurement strategy, refer to the CPAA resubmission guidelines."
+    },
+    {
+      "block_id": "938be2759ba0::b0023",
+      "section_id": "938be2759ba0::s007",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Contract request details"
+      ],
+      "markdown": "### Contract request details",
+      "plain_text": "Contract request details"
+    },
+    {
+      "block_id": "938be2759ba0::b0024",
+      "section_id": "938be2759ba0::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Contract request details"
+      ],
+      "markdown": "When you prepare the contract request, focus on these three key elements:",
+      "plain_text": "When you prepare the contract request, focus on these three key elements:"
+    },
+    {
+      "block_id": "938be2759ba0::b0025",
+      "section_id": "938be2759ba0::s007",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Contract request details"
+      ],
+      "markdown": "1. The requirement and its end use: Describe what is being procured and its intended application within the project or operation\n2. The offeror and selection criteria: Identify the successful offeror and provide rationale for their selection based on the established criteria\n3. The cost, basis of payment, and cash flow: Outline the financial aspects, including total cost, payment schedule, and cash flow projections",
+      "plain_text": "The requirement and its end use: Describe what is being procured and its intended application within the project or operation ; The offeror and selection criteria: Identify the successful offeror and provide rationale for their selection based on the established criteria ; The cost, basis of payment, and cash flow: Outline the financial aspects, including total cost, payment schedule, and cash flow projections"
+    },
+    {
+      "block_id": "938be2759ba0::b0026",
+      "section_id": "938be2759ba0::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Contract request details"
+      ],
+      "markdown": "Address the following considerations, when applicable:",
+      "plain_text": "Address the following considerations, when applicable:"
+    },
+    {
+      "block_id": "938be2759ba0::b0027",
+      "section_id": "938be2759ba0::s008",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Contract request details",
+        "Priority attention"
+      ],
+      "markdown": "#### Priority attention",
+      "plain_text": "Priority attention"
+    },
+    {
+      "block_id": "938be2759ba0::b0028",
+      "section_id": "938be2759ba0::s008",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Contract request details",
+        "Priority attention"
+      ],
+      "markdown": "Highlight if expedited processing is required, such as delivery requirements or the expiry of price validity, specifying the consequences of not adhering to specified timelines.",
+      "plain_text": "Highlight if expedited processing is required, such as delivery requirements or the expiry of price validity, specifying the consequences of not adhering to specified timelines."
+    },
+    {
+      "block_id": "938be2759ba0::b0029",
+      "section_id": "938be2759ba0::s009",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Contract request details",
+        "Subject"
+      ],
+      "markdown": "#### Subject",
+      "plain_text": "Subject"
+    },
+    {
+      "block_id": "938be2759ba0::b0030",
+      "section_id": "938be2759ba0::s009",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Contract request details",
+        "Subject"
+      ],
+      "markdown": "State the nature of the request, whether you are seeking authority to enter a contract or to utilize a standing offer (SO) or supply arrangement (SA).",
+      "plain_text": "State the nature of the request, whether you are seeking authority to enter a contract or to utilize a standing offer (SO) or supply arrangement (SA)."
+    },
+    {
+      "block_id": "938be2759ba0::b0031",
+      "section_id": "938be2759ba0::s010",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Contract request details",
+        "Proposal"
+      ],
+      "markdown": "#### Proposal",
+      "plain_text": "Proposal"
+    },
+    {
+      "block_id": "938be2759ba0::b0032",
+      "section_id": "938be2759ba0::s010",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Contract request details",
+        "Proposal"
+      ],
+      "markdown": "Be sure to cover the following key elements for securing necessary approvals and authorizations to meet project requirements, ensuring that all key details are addressed:",
+      "plain_text": "Be sure to cover the following key elements for securing necessary approvals and authorizations to meet project requirements, ensuring that all key details are addressed:"
+    },
+    {
+      "block_id": "938be2759ba0::b0033",
+      "section_id": "938be2759ba0::s010",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Contract request details",
+        "Proposal"
+      ],
+      "markdown": "- Proposed action : state, for example, the authority to enter into contract with a specified company, or to authorize the use of an SO\n- Contractor identification : provide legal name and address\n- Description of goods and services : briefly describe the goods or services being supplied and their end use, if applicable. Part numbers and specifications should be referred to in Part 2 of form PWGSC-TPSGC 1151-2 (accessible only on the Government of Canada network - for PSPC only)\n- Discrepancy between the requisition and the proposed contract : if not all of the goods or services requisitioned are in the proposed contract for which approval is sought, and form PWGSC-TPSGC 1151-1 (accessible only on the Government of Canada network - for PSPC only) did not make this clear, briefly summarize the total number of items on the requisition versus in the proposed contract, and refer to the appendix or document on file which provides details\n- Type of contractual document : identify the type of contract document being issued (for example, \"Your Tender is Accepted\"; \"You are Requested\"; \"Standing Offer\"; \"Your Proposal is Accepted\"; \"Formal Agreement\")\n- Delivery points : identify if there are multiple delivery points as \u201cdelivery to various destinations\u201d without listing them all\n- Applicable policies : note any deviations from Cabinet or TB contracting policies\n- Special terms : detail anything impacting the proposed contract such as financial security, royalty payments, etc.\n- Financial variances and obligations : if certain terms or deviations from departmental policies proposed in the contract request result in a financial obligation for Canada, request authority for this monetary obligation, and explain why it is recommended that Canada assume this financial responsibility in this case.\n- Advance payments : address any advance payments proposed and the rationale behind them\n- Contractual options : if Canada is required to exercise an option by a specific date, the method of pricing or pricing formula is established, and funds are available in the requisition (or are expected to be available), request approval to exercise the option. Include details on the method of pricing or pricing formula and the final date for exercise of the option\n- Unforeseen work : indicate if approval is being requested for an additional estimated amount as a provision for unforeseen work such as work arising, design changes or escalations\n- Exercise of options : for any options, include criteria that will be used for determining whether the option should be exercised\n- Duration and expiry : in the case of a proposed contract for a specified term or period only, or of a proposed standing offer, state whether the expiry date is for ordering or delivery",
+      "plain_text": "Proposed action : state, for example, the authority to enter into contract with a specified company, or to authorize the use of an SO ; Contractor identification : provide legal name and address ; Description of goods and services : briefly describe the goods or services being supplied and their end use, if applicable. Part numbers and specifications should be referred to in Part 2 of form PWGSC-TPSGC 1151-2 (accessible only on the Government of Canada network - for PSPC only) ; Discrepancy between the requisition and the proposed contract : if not all of the goods or services requisitioned are in the proposed contract for which approval is sought, and form PWGSC-TPSGC 1151-1 (accessible only on the Government of Canada network - for PSPC only) did not make this clear, briefly summarize the total number of items on the requisition versus in the proposed contract, and refer to the appendix or document on file which provides details ; Type of contractual document : identify the type of contract document being issued (for example, \"Your Tender is Accepted\"; \"You are Requested\"; \"Standing Offer\"; \"Your Proposal is Accepted\"; \"Formal Agreement\") ; Delivery points : identify if there are multiple delivery points as \u201cdelivery to various destinations\u201d without listing them all ; Applicable policies : note any deviations from Cabinet or TB contracting policies ; Special terms : detail anything impacting the proposed contract such as financial security, royalty payments, etc. ; Financial variances and obligations : if certain terms or deviations from departmental policies proposed in the contract request result in a financial obligation for Canada, request authority for this monetary obligation, and explain why it is recommended that Canada assume this financial responsibility in this case. ; Advance payments : address any advance payments proposed and the rationale behind them ; Contractual options : if Canada is required to exercise an option by a specific date, the method of pricing or pricing formula is established, and funds are available in the requisition (or are expected to be available), request approval to exercise the option. Include details on the method of pricing or pricing formula and the final date for exercise of the option ; Unforeseen work : indicate if approval is being requested for an additional estimated amount as a provision for unforeseen work such as work arising, design changes or escalations ; Exercise of options : for any options, include criteria that will be used for determining whether the option should be exercised ; Duration and expiry : in the case of a proposed contract for a specified term or period only, or of a proposed standing offer, state whether the expiry date is for ordering or delivery"
+    },
+    {
+      "block_id": "938be2759ba0::b0034",
+      "section_id": "938be2759ba0::s011",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Contract request details",
+        "Cost"
+      ],
+      "markdown": "#### Cost",
+      "plain_text": "Cost"
+    },
+    {
+      "block_id": "938be2759ba0::b0035",
+      "section_id": "938be2759ba0::s011",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Contract request details",
+        "Cost"
+      ],
+      "markdown": "Provide the total estimated cost to Canada to complete the proposed contract, including GST / HST . The estimation should include:",
+      "plain_text": "Provide the total estimated cost to Canada to complete the proposed contract, including GST / HST . The estimation should include:"
+    },
+    {
+      "block_id": "938be2759ba0::b0036",
+      "section_id": "938be2759ba0::s011",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Contract request details",
+        "Cost"
+      ],
+      "markdown": "- the cost for all goods or services\n- the total amount payable to the contractor\n- a detailed cash flow schedule showing the anticipated disbursements by fiscal year over the contract period\n- any options for which funds are available (or expected to be provided in the future)\n- any additional estimated amount for foreseeable amendments covering unscheduled work, such as contingencies, design changes, or escalation, for which approval is being sought",
+      "plain_text": "the cost for all goods or services ; the total amount payable to the contractor ; a detailed cash flow schedule showing the anticipated disbursements by fiscal year over the contract period ; any options for which funds are available (or expected to be provided in the future) ; any additional estimated amount for foreseeable amendments covering unscheduled work, such as contingencies, design changes, or escalation, for which approval is being sought"
+    },
+    {
+      "block_id": "938be2759ba0::b0037",
+      "section_id": "938be2759ba0::s011",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Contract request details",
+        "Cost"
+      ],
+      "markdown": "Identify the funding source (including vote and requisition number) and the certifying department or agency. For SO s which are not funded, state that the amount is chargeable to the client.",
+      "plain_text": "Identify the funding source (including vote and requisition number) and the certifying department or agency. For SO s which are not funded, state that the amount is chargeable to the client."
+    },
+    {
+      "block_id": "938be2759ba0::b0038",
+      "section_id": "938be2759ba0::s011",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Contract request details",
+        "Cost"
+      ],
+      "markdown": "Note : If the payment is in a foreign currency, include in brackets the estimated Canadian dollar equivalent using the current conversion rate.",
+      "plain_text": "Note : If the payment is in a foreign currency, include in brackets the estimated Canadian dollar equivalent using the current conversion rate."
+    },
+    {
+      "block_id": "938be2759ba0::b0039",
+      "section_id": "938be2759ba0::s012",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Contract request details",
+        "Basis of payment"
+      ],
+      "markdown": "#### Basis of payment",
+      "plain_text": "Basis of payment"
+    },
+    {
+      "block_id": "938be2759ba0::b0040",
+      "section_id": "938be2759ba0::s012",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Contract request details",
+        "Basis of payment"
+      ],
+      "markdown": "Summarize all factors which have a bearing on the proposed procurement, such as:",
+      "plain_text": "Summarize all factors which have a bearing on the proposed procurement, such as:"
+    },
+    {
+      "block_id": "938be2759ba0::b0041",
+      "section_id": "938be2759ba0::s012",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Contract request details",
+        "Basis of payment"
+      ],
+      "markdown": "- price to be paid\n- method of pricing, for example but not limited to:\n- firm lot price\n- firm unit price\n- target price, ceiling price and incentive fee formula\n- target price and incentive fee formula without ceiling price\n- fixed time rate\n- price-to-be-negotiated (PTBN)",
+      "plain_text": "price to be paid ; method of pricing, for example but not limited to: ; firm lot price ; firm unit price ; target price, ceiling price and incentive fee formula ; target price and incentive fee formula without ceiling price ; fixed time rate ; price-to-be-negotiated (PTBN)"
+    },
+    {
+      "block_id": "938be2759ba0::b0042",
+      "section_id": "938be2759ba0::s012",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Contract request details",
+        "Basis of payment"
+      ],
+      "markdown": "Note: include a formula for determination of firm basis of payment, or provide an explanation as to why inclusion of a formula is not possible, and why PTBN is not a ceiling price, if applicable",
+      "plain_text": "Note: include a formula for determination of firm basis of payment, or provide an explanation as to why inclusion of a formula is not possible, and why PTBN is not a ceiling price, if applicable"
+    },
+    {
+      "block_id": "938be2759ba0::b0043",
+      "section_id": "938be2759ba0::s012",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Contract request details",
+        "Basis of payment"
+      ],
+      "markdown": "- applicable customs duties\n- applicable GST / HST included, or whether extra, exempt or zero-rated (noting the reason for exemption), or not applicable\n- other taxes applicable to the contract\n- delivery terms such as free on board (FOB) destination, free alongside ship (FAS), free alongside flight (FAF), FOB common carrier (contractor's plant), or cost, insurance, and freight (CIF)\n- provisions for exchange rate fluctuations, including the amount of foreign currency subject to fluctuation and any special conditions\n- escalation provisions outside the general conditions of the contract, such as sales tax, excise tax, and customs duties\n- options - method of pricing or pricing formula plus final date for exercise of options\n- any advance payment requirements, including the rationale and benefits to Canada\n- the proposed basis of payment for unscheduled work\n- audit or verification provisions related to the contract's execution or financial reporting\n- profit calculations\n- dates for commencement and completion of deliveries included in the offer being recommended for acceptance\n- if the contract includes multiple items or delivery points, provide a statement summarizing the details, for example: \"Unit (and/or lot) prices, totalling $ [insert amount], sales tax [insert sales tax], and FOB [insert FOB], as detailed in the attached annex or in an annex attached to the proposed contract.\"",
+      "plain_text": "applicable customs duties ; applicable GST / HST included, or whether extra, exempt or zero-rated (noting the reason for exemption), or not applicable ; other taxes applicable to the contract ; delivery terms such as free on board (FOB) destination, free alongside ship (FAS), free alongside flight (FAF), FOB common carrier (contractor's plant), or cost, insurance, and freight (CIF) ; provisions for exchange rate fluctuations, including the amount of foreign currency subject to fluctuation and any special conditions ; escalation provisions outside the general conditions of the contract, such as sales tax, excise tax, and customs duties ; options - method of pricing or pricing formula plus final date for exercise of options ; any advance payment requirements, including the rationale and benefits to Canada ; the proposed basis of payment for unscheduled work ; audit or verification provisions related to the contract's execution or financial reporting ; profit calculations ; dates for commencement and completion of deliveries included in the offer being recommended for acceptance ; if the contract includes multiple items or delivery points, provide a statement summarizing the details, for example: \"Unit (and/or lot) prices, totalling $ [insert amount], sales tax [insert sales tax], and FOB [insert FOB], as detailed in the attached annex or in an annex attached to the proposed contract.\""
+    },
+    {
+      "block_id": "938be2759ba0::b0044",
+      "section_id": "938be2759ba0::s013",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Contract request details",
+        "Source and price justification"
+      ],
+      "markdown": "#### Source and price justification",
+      "plain_text": "Source and price justification"
+    },
+    {
+      "block_id": "938be2759ba0::b0045",
+      "section_id": "938be2759ba0::s013",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Contract request details",
+        "Source and price justification"
+      ],
+      "markdown": "Provide a detailed explanation of the competitive process undertaken, including the number of businesses solicited and offers received. Justify the selection of the recommended offeror, especially if they did not submit the lowest offer. Your explanation should address the following points:",
+      "plain_text": "Provide a detailed explanation of the competitive process undertaken, including the number of businesses solicited and offers received. Justify the selection of the recommended offeror, especially if they did not submit the lowest offer. Your explanation should address the following points:"
+    },
+    {
+      "block_id": "938be2759ba0::b0046",
+      "section_id": "938be2759ba0::s013",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Contract request details",
+        "Source and price justification"
+      ],
+      "markdown": "- the relative standing of the recommended offeror with regard to price\n- if other than the lowest-responsive offer is recommended, explain clearly why any lower offer is not acceptable\n- if an offer is considered non-responsive because it does not meet the mandatory requirements of the solicitation, but is lower in price than the lowest-responsive offer, concisely describe the major deficiencies\n- if two offers have an identical price and one of the two is recommended for acceptance, detail the governing selection criteria\n- if the selection was not made through a competitive process, provide detailed support for the choice made\n- include the price certification obtained and explain why the price is considered reasonable and justifiable, including a brief summary of the previous price",
+      "plain_text": "the relative standing of the recommended offeror with regard to price ; if other than the lowest-responsive offer is recommended, explain clearly why any lower offer is not acceptable ; if an offer is considered non-responsive because it does not meet the mandatory requirements of the solicitation, but is lower in price than the lowest-responsive offer, concisely describe the major deficiencies ; if two offers have an identical price and one of the two is recommended for acceptance, detail the governing selection criteria ; if the selection was not made through a competitive process, provide detailed support for the choice made ; include the price certification obtained and explain why the price is considered reasonable and justifiable, including a brief summary of the previous price"
+    },
+    {
+      "block_id": "938be2759ba0::b0047",
+      "section_id": "938be2759ba0::s013",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Contract request details",
+        "Source and price justification"
+      ],
+      "markdown": "When a non-competitive (sole source) procurement strategy is chosen based on Government Contracts Regulations exception 6(d), ensure that the following considerations are addressed:",
+      "plain_text": "When a non-competitive (sole source) procurement strategy is chosen based on Government Contracts Regulations exception 6(d), ensure that the following considerations are addressed:"
+    },
+    {
+      "block_id": "938be2759ba0::b0048",
+      "section_id": "938be2759ba0::s014",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Contract request details",
+        "Justification and documentation"
+      ],
+      "markdown": "#### Justification and documentation",
+      "plain_text": "Justification and documentation"
+    },
+    {
+      "block_id": "938be2759ba0::b0049",
+      "section_id": "938be2759ba0::s014",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Contract request details",
+        "Justification and documentation"
+      ],
+      "markdown": "- The responses to the TB sole source questions must be attached\n- Ensure sufficient justification is provided for the choice, including the legal authority to use an exception to a competitive process",
+      "plain_text": "The responses to the TB sole source questions must be attached ; Ensure sufficient justification is provided for the choice, including the legal authority to use an exception to a competitive process"
+    },
+    {
+      "block_id": "938be2759ba0::b0050",
+      "section_id": "938be2759ba0::s015",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Contract request details",
+        "Offer evaluation and selection"
+      ],
+      "markdown": "#### Offer evaluation and selection",
+      "plain_text": "Offer evaluation and selection"
+    },
+    {
+      "block_id": "938be2759ba0::b0051",
+      "section_id": "938be2759ba0::s015",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Contract request details",
+        "Offer evaluation and selection"
+      ],
+      "markdown": "- Explain the rationale for recommending an offer higher than the lowest offer received, clearly stating reasons for any non-compliance with mandatory requirements\n- In cases of identical offers, outline the criteria for selection\n- Describe any options and include the criteria that will be used for determining whether the option should be exercised",
+      "plain_text": "Explain the rationale for recommending an offer higher than the lowest offer received, clearly stating reasons for any non-compliance with mandatory requirements ; In cases of identical offers, outline the criteria for selection ; Describe any options and include the criteria that will be used for determining whether the option should be exercised"
+    },
+    {
+      "block_id": "938be2759ba0::b0052",
+      "section_id": "938be2759ba0::s016",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Contract request details",
+        "Policy and trade agreement deviations"
+      ],
+      "markdown": "#### Policy and trade agreement deviations",
+      "plain_text": "Policy and trade agreement deviations"
+    },
+    {
+      "block_id": "938be2759ba0::b0053",
+      "section_id": "938be2759ba0::s016",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Contract request details",
+        "Policy and trade agreement deviations"
+      ],
+      "markdown": "- Describe any proposed deviations from standard policies, citing reasons and potential impacts\n- If deviations from the provisions of Canada's trade agreements are recommended, provide reasons for the deviation",
+      "plain_text": "Describe any proposed deviations from standard policies, citing reasons and potential impacts ; If deviations from the provisions of Canada's trade agreements are recommended, provide reasons for the deviation"
+    },
+    {
+      "block_id": "938be2759ba0::b0054",
+      "section_id": "938be2759ba0::s017",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Contract request details",
+        "Socio-economic and risk considerations"
+      ],
+      "markdown": "#### Socio-economic and risk considerations",
+      "plain_text": "Socio-economic and risk considerations"
+    },
+    {
+      "block_id": "938be2759ba0::b0055",
+      "section_id": "938be2759ba0::s017",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Contract request details",
+        "Socio-economic and risk considerations"
+      ],
+      "markdown": "- Address any socio-economic considerations for contracts exceeding $2 million or with significant socio-economic impacts, including any funding implications and statements on Canadian content as well as the creation/maintenance of jobs in Canada and their location\n- Provide details surrounding the medium, medium-high and high risks with proposed mitigation strategies",
+      "plain_text": "Address any socio-economic considerations for contracts exceeding $2 million or with significant socio-economic impacts, including any funding implications and statements on Canadian content as well as the creation/maintenance of jobs in Canada and their location ; Provide details surrounding the medium, medium-high and high risks with proposed mitigation strategies"
+    },
+    {
+      "block_id": "938be2759ba0::b0056",
+      "section_id": "938be2759ba0::s018",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Contract request details",
+        "Offers received"
+      ],
+      "markdown": "#### Offers received",
+      "plain_text": "Offers received"
+    },
+    {
+      "block_id": "938be2759ba0::b0057",
+      "section_id": "938be2759ba0::s018",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Contract request details",
+        "Offers received"
+      ],
+      "markdown": "State whether there was a public opening of offers, ensuring transparency in the tender process.",
+      "plain_text": "State whether there was a public opening of offers, ensuring transparency in the tender process."
+    },
+    {
+      "block_id": "938be2759ba0::b0058",
+      "section_id": "938be2759ba0::s019",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Contract request details",
+        "Basis of recommendation"
+      ],
+      "markdown": "#### Basis of recommendation",
+      "plain_text": "Basis of recommendation"
+    },
+    {
+      "block_id": "938be2759ba0::b0059",
+      "section_id": "938be2759ba0::s019",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Contract request details",
+        "Basis of recommendation"
+      ],
+      "markdown": "In this section, you must explain the factors that support the selection of the recommended offeror. This includes addressing the following points:",
+      "plain_text": "In this section, you must explain the factors that support the selection of the recommended offeror. This includes addressing the following points:"
+    },
+    {
+      "block_id": "938be2759ba0::b0060",
+      "section_id": "938be2759ba0::s019",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Contract request details",
+        "Basis of recommendation"
+      ],
+      "markdown": "- Whenever possible, give the TB number which grants the client program approval\n- Justify the price agreed upon, especially if negotiation was the chosen method. Include a brief description of the profit calculations, the reasonableness of the price elements, and the profit and mark-up being recommended\n- If applicable, compare the current contract price with previous prices for similar contracts, explaining any significant variations\n- Address and reconcile any discrepancies between the solicitation of offers and the offer recommended\n- Support acceptability of goods or services if they are not in accordance with specifications\n- Justify any deviations from Cabinet or TB contracting policies, departmental policy or standard procurement clauses\n- Specify any financial and other consequences, and whenever possible, express Canada's obligations in monetary terms\n- Detail the method of payment, including progress payments and holdbacks, as applicable\n- Provide any other relevant information, such as:\n- a list of businesses invited to submit offers, and their ownership\n- a financial officer's opinion on offeror\u2019s financial status\n- any legal opinions obtained on the legal nature of the case and on the contract submission, including its consistency with the contract\n- if not previously addressed, confirmation of the offeror's compliance with:\n- international sanctions\n- the Federal Contractors Program for Employment Equity\n- conflict of interest provisions",
+      "plain_text": "Whenever possible, give the TB number which grants the client program approval ; Justify the price agreed upon, especially if negotiation was the chosen method. Include a brief description of the profit calculations, the reasonableness of the price elements, and the profit and mark-up being recommended ; If applicable, compare the current contract price with previous prices for similar contracts, explaining any significant variations ; Address and reconcile any discrepancies between the solicitation of offers and the offer recommended ; Support acceptability of goods or services if they are not in accordance with specifications ; Justify any deviations from Cabinet or TB contracting policies, departmental policy or standard procurement clauses ; Specify any financial and other consequences, and whenever possible, express Canada's obligations in monetary terms ; Detail the method of payment, including progress payments and holdbacks, as applicable ; Provide any other relevant information, such as: ; a list of businesses invited to submit offers, and their ownership ; a financial officer's opinion on offeror\u2019s financial status ; any legal opinions obtained on the legal nature of the case and on the contract submission, including its consistency with the contract ; if not previously addressed, confirmation of the offeror's compliance with: ; international sanctions ; the Federal Contractors Program for Employment Equity ; conflict of interest provisions"
+    },
+    {
+      "block_id": "938be2759ba0::b0061",
+      "section_id": "938be2759ba0::s020",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Approval process"
+      ],
+      "markdown": "### Approval process",
+      "plain_text": "Approval process"
+    },
+    {
+      "block_id": "938be2759ba0::b0062",
+      "section_id": "938be2759ba0::s020",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Approval process"
+      ],
+      "markdown": "The contract request should be submitted to the designated approval authority. Ensure all necessary reviews, such as legal counsel assessment, cost analysis and quality control are conducted, completed and attached prior to submitting to the approval authority.",
+      "plain_text": "The contract request should be submitted to the designated approval authority. Ensure all necessary reviews, such as legal counsel assessment, cost analysis and quality control are conducted, completed and attached prior to submitting to the approval authority."
+    },
+    {
+      "block_id": "938be2759ba0::b0063",
+      "section_id": "938be2759ba0::s020",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Prepare approval documents - Contract request",
+        "Buyer's Guide",
+        "Contract request",
+        "Approval process"
+      ],
+      "markdown": "The approval authority will review the contract request and may either grant approval, identify concerns requiring modifications to the request, or demand additional steps before contract award.",
+      "plain_text": "The approval authority will review the contract request and may either grant approval, identify concerns requiring modifications to the request, or demand additional steps before contract award."
+    }
+  ]
+}

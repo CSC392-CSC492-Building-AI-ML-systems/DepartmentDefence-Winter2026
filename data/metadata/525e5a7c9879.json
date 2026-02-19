@@ -1,0 +1,403 @@
+{
+  "doc_id": "525e5a7c9879",
+  "title": "Buyer's Guide Considerations for solicitations - Offer receipt",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/offer-receipt",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/offer-receipt",
+  "doc_type": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": "2026-01-31",
+  "fetched_at": "2026-02-19T09:18:32.447683+00:00",
+  "content_hash": "dd050172d9cd62da21ce2d08a0d75e4d83597e94918393783a67e70106141083",
+  "word_count": 342,
+  "text_path": "data/corpus/buyers_guide__en-buyer-s-portal-buyer-s-guide-create-solicitation-considerations-solicitations-offer-receipt__525e5a7c98.md",
+  "extraction_method": "buyers_guide_regions",
+  "breadcrumbs": [
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "https://canadabuys.canada.ca/en",
+      "canonical_url": "https://canadabuys.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "in_scope": true
+    },
+    {
+      "title": "Create solicitation",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation",
+      "in_scope": true
+    },
+    {
+      "title": "Considerations for solicitations",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations",
+      "in_scope": true
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations",
+    "parent_doc_id": "97810d5c4a87",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/offer-receipt"
+    ],
+    "lineage_doc_ids": [
+      "1e29c7881335",
+      "2e11d15cd64e",
+      "97810d5c4a87",
+      "525e5a7c9879"
+    ],
+    "depth": 3,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/invitation-tender",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/preparing-solicitation-documents",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-information",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-quotation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-standing-offer",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-supply-arrangement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/client-review",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/client-review/client-review-elements-solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/audit",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/certifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/delivery-terms",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/exchange-rates",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/method-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/phased-offer-compliance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/translation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/minimum-solicitation-periods-itqs-rfsas-and-urgent-procurements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/normal-minimum-solicitation-periods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/solicitations-following-request-expressions-interest",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/advanced-contract-award-notice",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/notice-proposed-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-procurement-strategy-indigenous-business-set-asides",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-trade-agreements"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/invitation-tender",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/preparing-solicitation-documents",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-information",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-quotation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-standing-offer",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-supply-arrangement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/client-review",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/client-review/client-review-elements-solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/audit",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/certifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/delivery-terms",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/exchange-rates",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/method-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/phased-offer-compliance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/translation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/minimum-solicitation-periods-itqs-rfsas-and-urgent-procurements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/normal-minimum-solicitation-periods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/solicitations-following-request-expressions-interest",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/advanced-contract-award-notice",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/notice-proposed-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-procurement-strategy-indigenous-business-set-asides",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-trade-agreements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure": {
+    "block_count": 14,
+    "section_count": 4,
+    "heading_count": 3,
+    "paragraph_count": 4,
+    "list_count": 7,
+    "table_count": 0
+  },
+  "sections": [
+    {
+      "section_id": "525e5a7c9879::root",
+      "parent_section_id": null,
+      "level": 0,
+      "heading": "Buyer's Guide Considerations for solicitations - Offer receipt",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Offer receipt"
+      ],
+      "block_count": 0,
+      "word_count": 0,
+      "char_count": 0,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": null,
+      "last_block_index": null,
+      "preview": "",
+      "prev_section_id": null,
+      "next_section_id": null
+    },
+    {
+      "section_id": "525e5a7c9879::s001",
+      "parent_section_id": "525e5a7c9879::root",
+      "level": 1,
+      "heading": "Buyer's Guide Considerations for solicitations - Offer receipt",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Offer receipt",
+        "Buyer's Guide Considerations for solicitations - Offer receipt"
+      ],
+      "block_count": 1,
+      "word_count": 8,
+      "char_count": 62,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 0,
+      "last_block_index": 0,
+      "preview": "Buyer's Guide Considerations for solicitations - Offer receipt",
+      "prev_section_id": null,
+      "next_section_id": "525e5a7c9879::s002"
+    },
+    {
+      "section_id": "525e5a7c9879::s002",
+      "parent_section_id": "525e5a7c9879::root",
+      "level": 1,
+      "heading": "Buyer's Guide",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Offer receipt",
+        "Buyer's Guide"
+      ],
+      "block_count": 3,
+      "word_count": 176,
+      "char_count": 1120,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 1,
+      "last_block_index": 3,
+      "preview": "Buyer's Guide Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage Offer receipt The method and location of bid receipt must be specified in the solicitation of offers. Here are the acceptable m",
+      "prev_section_id": "525e5a7c9879::s001",
+      "next_section_id": "525e5a7c9879::s003"
+    },
+    {
+      "section_id": "525e5a7c9879::s003",
+      "parent_section_id": "525e5a7c9879::s002",
+      "level": 2,
+      "heading": "Offer receipt",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Offer receipt",
+        "Buyer's Guide",
+        "Offer receipt"
+      ],
+      "block_count": 10,
+      "word_count": 158,
+      "char_count": 1004,
+      "table_count": 0,
+      "list_count": 6,
+      "paragraph_count": 3,
+      "first_block_index": 4,
+      "last_block_index": 13,
+      "preview": "Offer receipt The method and location of bid receipt must be specified in the solicitation of offers. Here are the acceptable methods for offer submission and their conditions: In writing and submitted to the specified receiving unit: appli",
+      "prev_section_id": "525e5a7c9879::s002",
+      "next_section_id": null
+    }
+  ],
+  "tables": [],
+  "blocks": [
+    {
+      "block_id": "525e5a7c9879::b0001",
+      "section_id": "525e5a7c9879::s001",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Offer receipt",
+        "Buyer's Guide Considerations for solicitations - Offer receipt"
+      ],
+      "markdown": "# Buyer's Guide Considerations for solicitations - Offer receipt",
+      "plain_text": "Buyer's Guide Considerations for solicitations - Offer receipt"
+    },
+    {
+      "block_id": "525e5a7c9879::b0002",
+      "section_id": "525e5a7c9879::s002",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Offer receipt",
+        "Buyer's Guide"
+      ],
+      "markdown": "# Buyer's Guide",
+      "plain_text": "Buyer's Guide"
+    },
+    {
+      "block_id": "525e5a7c9879::b0003",
+      "section_id": "525e5a7c9879::s002",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Offer receipt",
+        "Buyer's Guide"
+      ],
+      "markdown": "- Plan\n- Approve\n- Create solicitation\n- Solicit\n- Receive and evaluate\n- Negotiate\n- Award\n- Manage",
+      "plain_text": "Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage"
+    },
+    {
+      "block_id": "525e5a7c9879::b0004",
+      "section_id": "525e5a7c9879::s002",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Offer receipt",
+        "Buyer's Guide"
+      ],
+      "markdown": "Offer receipt The method and location of bid receipt must be specified in the solicitation of offers. Here are the acceptable methods for offer submission and their conditions: In writing and submitted to the specified receiving unit: applicable for all ($) dollar values In writing and submitted directly to the buyer: for offers below $25,000 for goods and $40,000 for construction and services, including all applicable taxes Verbal submission by telephone: for offers below $25,000 for goods and $40,000 for construction and services, including all applicable taxes for any ($) dollar value in cases of documented extreme urgency, the director's approval is mandatory On electronic media (e.g., DVD s, USB keys, CD s) and submitted to the specified receiving unit By facsimile Canada Post Corporation\u2019s Connect service In situations where a particular method of response is deemed not acceptable, you must clearly indicate this in the solicitation document and in the Notice of Proposed Procurement (NPP).",
+      "plain_text": "Offer receipt The method and location of bid receipt must be specified in the solicitation of offers. Here are the acceptable methods for offer submission and their conditions: In writing and submitted to the specified receiving unit: applicable for all ($) dollar values In writing and submitted directly to the buyer: for offers below $25,000 for goods and $40,000 for construction and services, including all applicable taxes Verbal submission by telephone: for offers below $25,000 for goods and $40,000 for construction and services, including all applicable taxes for any ($) dollar value in cases of documented extreme urgency, the director's approval is mandatory On electronic media (e.g., DVD s, USB keys, CD s) and submitted to the specified receiving unit By facsimile Canada Post Corporation\u2019s Connect service In situations where a particular method of response is deemed not acceptable, you must clearly indicate this in the solicitation document and in the Notice of Proposed Procurement (NPP)."
+    },
+    {
+      "block_id": "525e5a7c9879::b0005",
+      "section_id": "525e5a7c9879::s003",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Offer receipt",
+        "Buyer's Guide",
+        "Offer receipt"
+      ],
+      "markdown": "## Offer receipt",
+      "plain_text": "Offer receipt"
+    },
+    {
+      "block_id": "525e5a7c9879::b0006",
+      "section_id": "525e5a7c9879::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Offer receipt",
+        "Buyer's Guide",
+        "Offer receipt"
+      ],
+      "markdown": "The method and location of bid receipt must be specified in the solicitation of offers.",
+      "plain_text": "The method and location of bid receipt must be specified in the solicitation of offers."
+    },
+    {
+      "block_id": "525e5a7c9879::b0007",
+      "section_id": "525e5a7c9879::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Offer receipt",
+        "Buyer's Guide",
+        "Offer receipt"
+      ],
+      "markdown": "Here are the acceptable methods for offer submission and their conditions:",
+      "plain_text": "Here are the acceptable methods for offer submission and their conditions:"
+    },
+    {
+      "block_id": "525e5a7c9879::b0008",
+      "section_id": "525e5a7c9879::s003",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Offer receipt",
+        "Buyer's Guide",
+        "Offer receipt"
+      ],
+      "markdown": "- In writing and submitted to the specified receiving unit: applicable for all ($) dollar values",
+      "plain_text": "In writing and submitted to the specified receiving unit: applicable for all ($) dollar values"
+    },
+    {
+      "block_id": "525e5a7c9879::b0009",
+      "section_id": "525e5a7c9879::s003",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Offer receipt",
+        "Buyer's Guide",
+        "Offer receipt"
+      ],
+      "markdown": "- In writing and submitted directly to the buyer: for offers below $25,000 for goods and $40,000 for construction and services, including all applicable taxes",
+      "plain_text": "In writing and submitted directly to the buyer: for offers below $25,000 for goods and $40,000 for construction and services, including all applicable taxes"
+    },
+    {
+      "block_id": "525e5a7c9879::b0010",
+      "section_id": "525e5a7c9879::s003",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Offer receipt",
+        "Buyer's Guide",
+        "Offer receipt"
+      ],
+      "markdown": "- Verbal submission by telephone:\n- for offers below $25,000 for goods and $40,000 for construction and services, including all applicable taxes\n- for any ($) dollar value in cases of documented extreme urgency, the director's approval is mandatory",
+      "plain_text": "Verbal submission by telephone: ; for offers below $25,000 for goods and $40,000 for construction and services, including all applicable taxes ; for any ($) dollar value in cases of documented extreme urgency, the director's approval is mandatory"
+    },
+    {
+      "block_id": "525e5a7c9879::b0011",
+      "section_id": "525e5a7c9879::s003",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Offer receipt",
+        "Buyer's Guide",
+        "Offer receipt"
+      ],
+      "markdown": "- On electronic media (e.g., DVD s, USB keys, CD s) and submitted to the specified receiving unit",
+      "plain_text": "On electronic media (e.g., DVD s, USB keys, CD s) and submitted to the specified receiving unit"
+    },
+    {
+      "block_id": "525e5a7c9879::b0012",
+      "section_id": "525e5a7c9879::s003",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Offer receipt",
+        "Buyer's Guide",
+        "Offer receipt"
+      ],
+      "markdown": "- By facsimile",
+      "plain_text": "By facsimile"
+    },
+    {
+      "block_id": "525e5a7c9879::b0013",
+      "section_id": "525e5a7c9879::s003",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Offer receipt",
+        "Buyer's Guide",
+        "Offer receipt"
+      ],
+      "markdown": "- Canada Post Corporation\u2019s Connect service",
+      "plain_text": "Canada Post Corporation\u2019s Connect service"
+    },
+    {
+      "block_id": "525e5a7c9879::b0014",
+      "section_id": "525e5a7c9879::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Offer receipt",
+        "Buyer's Guide",
+        "Offer receipt"
+      ],
+      "markdown": "In situations where a particular method of response is deemed not acceptable, you must clearly indicate this in the solicitation document and in the Notice of Proposed Procurement (NPP).",
+      "plain_text": "In situations where a particular method of response is deemed not acceptable, you must clearly indicate this in the solicitation document and in the Notice of Proposed Procurement (NPP)."
+    }
+  ]
+}

@@ -1,0 +1,471 @@
+{
+  "doc_id": "22775f4199ee",
+  "title": "Buyer's Guide Modify a contract - Revisions to standing offers",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/revisions-standing-offers",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/revisions-standing-offers",
+  "doc_type": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": "2026-01-31",
+  "fetched_at": "2026-02-19T09:20:02.939508+00:00",
+  "content_hash": "80c056af4e2c6d05d1dfa1feb66f0d267863ae5e863bde5ce9e24f7bc2708589",
+  "word_count": 201,
+  "text_path": "data/corpus/buyers_guide__en-buyer-s-portal-buyer-s-guide-manage-modify-contract-revisions-standing-offers__22775f4199.md",
+  "extraction_method": "buyers_guide_regions",
+  "breadcrumbs": [
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "https://canadabuys.canada.ca/en",
+      "canonical_url": "https://canadabuys.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "in_scope": true
+    },
+    {
+      "title": "Modify a contract",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract",
+      "in_scope": true
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract",
+    "parent_doc_id": "29b57ef37d6f",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/revisions-standing-offers"
+    ],
+    "lineage_doc_ids": [
+      "1e29c7881335",
+      "29b57ef37d6f",
+      "22775f4199ee"
+    ],
+    "depth": 2,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/best-practices-contract-close-out",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/contract-close-out-activities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/alternative-dispute-resolution",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/assignment-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/buyer-and-client-responsibilites",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/certifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/contract-dispute-resolution",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/employer-employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/integrity-provisions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/protecting-canada-s-interests",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/subcontracting",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/task-authorizations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/vendor-performance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/assignment-monies",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/claims-progress-payments-and-invoicing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/cost-reimbursable-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/exchange-rate-fluctuation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/final-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/financial-claims",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/fixed-time-rate-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/interest-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/overtime",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/refund-excess-profits",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/administrative-guidance-implementing-contract-modifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/considerations-when-making-amendments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/design-change-or-deviation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/exercise-options",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/procedural-elements-amending-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/approval-authority",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/legal-services",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/public-services-and-procurement-canada-offices-outside-canada",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/source-lists",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/suspension-work-and-stop-work-orders",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-contracts-financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-convenience",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-default",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-mutual-consent"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/best-practices-contract-close-out",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/contract-close-out-activities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/alternative-dispute-resolution",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/assignment-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/buyer-and-client-responsibilites",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/certifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/contract-dispute-resolution",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/employer-employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/integrity-provisions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/protecting-canada-s-interests",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/subcontracting",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/task-authorizations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/vendor-performance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/assignment-monies",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/claims-progress-payments-and-invoicing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/cost-reimbursable-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/exchange-rate-fluctuation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/final-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/financial-claims",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/fixed-time-rate-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/interest-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/overtime",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/refund-excess-profits",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/administrative-guidance-implementing-contract-modifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/considerations-when-making-amendments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/design-change-or-deviation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/exercise-options",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/procedural-elements-amending-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/approval-authority",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/legal-services",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/public-services-and-procurement-canada-offices-outside-canada",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/source-lists",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/suspension-work-and-stop-work-orders",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-contracts-financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-convenience",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-default",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-mutual-consent",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure": {
+    "block_count": 11,
+    "section_count": 7,
+    "heading_count": 6,
+    "paragraph_count": 4,
+    "list_count": 1,
+    "table_count": 0
+  },
+  "sections": [
+    {
+      "section_id": "22775f4199ee::root",
+      "parent_section_id": null,
+      "level": 0,
+      "heading": "Buyer's Guide Modify a contract - Revisions to standing offers",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Revisions to standing offers"
+      ],
+      "block_count": 0,
+      "word_count": 0,
+      "char_count": 0,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": null,
+      "last_block_index": null,
+      "preview": "",
+      "prev_section_id": null,
+      "next_section_id": null
+    },
+    {
+      "section_id": "22775f4199ee::s001",
+      "parent_section_id": "22775f4199ee::root",
+      "level": 1,
+      "heading": "Buyer's Guide Modify a contract - Revisions to standing offers",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Revisions to standing offers",
+        "Buyer's Guide Modify a contract - Revisions to standing offers"
+      ],
+      "block_count": 1,
+      "word_count": 10,
+      "char_count": 62,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 0,
+      "last_block_index": 0,
+      "preview": "Buyer's Guide Modify a contract - Revisions to standing offers",
+      "prev_section_id": null,
+      "next_section_id": "22775f4199ee::s002"
+    },
+    {
+      "section_id": "22775f4199ee::s002",
+      "parent_section_id": "22775f4199ee::root",
+      "level": 1,
+      "heading": "Buyer's Guide",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Revisions to standing offers",
+        "Buyer's Guide"
+      ],
+      "block_count": 2,
+      "word_count": 20,
+      "char_count": 111,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 0,
+      "first_block_index": 1,
+      "last_block_index": 2,
+      "preview": "Buyer's Guide Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage",
+      "prev_section_id": "22775f4199ee::s001",
+      "next_section_id": "22775f4199ee::s003"
+    },
+    {
+      "section_id": "22775f4199ee::s003",
+      "parent_section_id": "22775f4199ee::s002",
+      "level": 2,
+      "heading": "Revisions to standing offers",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Revisions to standing offers",
+        "Buyer's Guide",
+        "Revisions to standing offers"
+      ],
+      "block_count": 2,
+      "word_count": 38,
+      "char_count": 238,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 3,
+      "last_block_index": 4,
+      "preview": "Revisions to standing offers Standing offers are not contracts and so cannot be amended or assigned. Amendments to the terms or the duration are managed through a process of revisions. The key points regarding revisions are detailed below.",
+      "prev_section_id": "22775f4199ee::s002",
+      "next_section_id": "22775f4199ee::s004"
+    },
+    {
+      "section_id": "22775f4199ee::s004",
+      "parent_section_id": "22775f4199ee::s003",
+      "level": 3,
+      "heading": "Withdrawal notification",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Revisions to standing offers",
+        "Buyer's Guide",
+        "Revisions to standing offers",
+        "Withdrawal notification"
+      ],
+      "block_count": 2,
+      "word_count": 74,
+      "char_count": 464,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 5,
+      "last_block_index": 6,
+      "preview": "Withdrawal notification Standing offers typically have a provision that an offeror must provide 30 days written notice of its intent to withdraw its request for standing offer (RFSO). You would then issue a \"Revision to the Standing Offer a",
+      "prev_section_id": "22775f4199ee::s003",
+      "next_section_id": "22775f4199ee::s005"
+    },
+    {
+      "section_id": "22775f4199ee::s005",
+      "parent_section_id": "22775f4199ee::s003",
+      "level": 3,
+      "heading": "Revision issuance",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Revisions to standing offers",
+        "Buyer's Guide",
+        "Revisions to standing offers",
+        "Revision issuance"
+      ],
+      "block_count": 2,
+      "word_count": 25,
+      "char_count": 150,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 7,
+      "last_block_index": 8,
+      "preview": "Revision issuance You can issue revisions to extend the period of the standing offer (SO) or to update any pertinent details within the standing offer.",
+      "prev_section_id": "22775f4199ee::s004",
+      "next_section_id": "22775f4199ee::s006"
+    },
+    {
+      "section_id": "22775f4199ee::s006",
+      "parent_section_id": "22775f4199ee::s003",
+      "level": 3,
+      "heading": "Offeror revisions",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Revisions to standing offers",
+        "Buyer's Guide",
+        "Revisions to standing offers",
+        "Offeror revisions"
+      ],
+      "block_count": 2,
+      "word_count": 34,
+      "char_count": 221,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 9,
+      "last_block_index": 10,
+      "preview": "Offeror revisions Offerors may revise their SO within the parameters set by the RFSO solicitation process. You would then issue a \"Revision to the standing offer and call-up authority\" to reflect the appropriate revisions.",
+      "prev_section_id": "22775f4199ee::s005",
+      "next_section_id": null
+    }
+  ],
+  "tables": [],
+  "blocks": [
+    {
+      "block_id": "22775f4199ee::b0001",
+      "section_id": "22775f4199ee::s001",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Revisions to standing offers",
+        "Buyer's Guide Modify a contract - Revisions to standing offers"
+      ],
+      "markdown": "# Buyer's Guide Modify a contract - Revisions to standing offers",
+      "plain_text": "Buyer's Guide Modify a contract - Revisions to standing offers"
+    },
+    {
+      "block_id": "22775f4199ee::b0002",
+      "section_id": "22775f4199ee::s002",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Revisions to standing offers",
+        "Buyer's Guide"
+      ],
+      "markdown": "# Buyer's Guide",
+      "plain_text": "Buyer's Guide"
+    },
+    {
+      "block_id": "22775f4199ee::b0003",
+      "section_id": "22775f4199ee::s002",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Revisions to standing offers",
+        "Buyer's Guide"
+      ],
+      "markdown": "- Plan\n- Approve\n- Create solicitation\n- Solicit\n- Receive and evaluate\n- Negotiate\n- Award\n- Manage",
+      "plain_text": "Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage"
+    },
+    {
+      "block_id": "22775f4199ee::b0004",
+      "section_id": "22775f4199ee::s003",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Revisions to standing offers",
+        "Buyer's Guide",
+        "Revisions to standing offers"
+      ],
+      "markdown": "## Revisions to standing offers",
+      "plain_text": "Revisions to standing offers"
+    },
+    {
+      "block_id": "22775f4199ee::b0005",
+      "section_id": "22775f4199ee::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Revisions to standing offers",
+        "Buyer's Guide",
+        "Revisions to standing offers"
+      ],
+      "markdown": "Standing offers are not contracts and so cannot be amended or assigned. Amendments to the terms or the duration are managed through a process of revisions. The key points regarding revisions are detailed below.",
+      "plain_text": "Standing offers are not contracts and so cannot be amended or assigned. Amendments to the terms or the duration are managed through a process of revisions. The key points regarding revisions are detailed below."
+    },
+    {
+      "block_id": "22775f4199ee::b0006",
+      "section_id": "22775f4199ee::s004",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Revisions to standing offers",
+        "Buyer's Guide",
+        "Revisions to standing offers",
+        "Withdrawal notification"
+      ],
+      "markdown": "### Withdrawal notification",
+      "plain_text": "Withdrawal notification"
+    },
+    {
+      "block_id": "22775f4199ee::b0007",
+      "section_id": "22775f4199ee::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Revisions to standing offers",
+        "Buyer's Guide",
+        "Revisions to standing offers",
+        "Withdrawal notification"
+      ],
+      "markdown": "Standing offers typically have a provision that an offeror must provide 30 days written notice of its intent to withdraw its request for standing offer (RFSO). You would then issue a \"Revision to the Standing Offer and Call-up Authority\", to notify all the identified users and the offeror of the effective date of the withdrawal. Call-ups received by the offeror before the effective withdrawal date are legally binding and must be honored.",
+      "plain_text": "Standing offers typically have a provision that an offeror must provide 30 days written notice of its intent to withdraw its request for standing offer (RFSO). You would then issue a \"Revision to the Standing Offer and Call-up Authority\", to notify all the identified users and the offeror of the effective date of the withdrawal. Call-ups received by the offeror before the effective withdrawal date are legally binding and must be honored."
+    },
+    {
+      "block_id": "22775f4199ee::b0008",
+      "section_id": "22775f4199ee::s005",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Revisions to standing offers",
+        "Buyer's Guide",
+        "Revisions to standing offers",
+        "Revision issuance"
+      ],
+      "markdown": "### Revision issuance",
+      "plain_text": "Revision issuance"
+    },
+    {
+      "block_id": "22775f4199ee::b0009",
+      "section_id": "22775f4199ee::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Revisions to standing offers",
+        "Buyer's Guide",
+        "Revisions to standing offers",
+        "Revision issuance"
+      ],
+      "markdown": "You can issue revisions to extend the period of the standing offer (SO) or to update any pertinent details within the standing offer.",
+      "plain_text": "You can issue revisions to extend the period of the standing offer (SO) or to update any pertinent details within the standing offer."
+    },
+    {
+      "block_id": "22775f4199ee::b0010",
+      "section_id": "22775f4199ee::s006",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Revisions to standing offers",
+        "Buyer's Guide",
+        "Revisions to standing offers",
+        "Offeror revisions"
+      ],
+      "markdown": "### Offeror revisions",
+      "plain_text": "Offeror revisions"
+    },
+    {
+      "block_id": "22775f4199ee::b0011",
+      "section_id": "22775f4199ee::s006",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Modify a contract - Revisions to standing offers",
+        "Buyer's Guide",
+        "Revisions to standing offers",
+        "Offeror revisions"
+      ],
+      "markdown": "Offerors may revise their SO within the parameters set by the RFSO solicitation process. You would then issue a \"Revision to the standing offer and call-up authority\" to reflect the appropriate revisions.",
+      "plain_text": "Offerors may revise their SO within the parameters set by the RFSO solicitation process. You would then issue a \"Revision to the standing offer and call-up authority\" to reflect the appropriate revisions."
+    }
+  ]
+}

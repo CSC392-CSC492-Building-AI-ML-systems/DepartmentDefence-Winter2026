@@ -1,0 +1,27 @@
+# Buyer's Guide Other planning considerations - Employer/employee relationship
+
+# Buyer's Guide
+
+- Plan
+- Approve
+- Create solicitation
+- Solicit
+- Receive and evaluate
+- Negotiate
+- Award
+- Manage
+
+Employer-employee relationship When contracting for the services of individuals, including temporary help, you should carefully assess the circumstances to ensure no employer-employee relationship is established. This is vital to comply with the Public Service Employment Act and common law principles concerning employer-employee relationships. According to the Treasury Board (TB) Directive on the Management of Procurement , both you and the business owner must ensure that a contract for services of individuals does not result in an employer-employee relationship. The Canada Revenue Agency (CRA) and relevant court rulings provide criteria for assessing such relationships. For guidance, consult the CRA publication RC4110 Employee or Self-employed . You should seek legal advice if you cannot determine if a contract is a contract for services or a contract of employment. If there is any uncertainty, escalate the contract for signature to a higher level of authority than typically required by the Procurement Risk Assessment. Here are some tips on how to avoid creating an employer-employee relationship: refrain from using employment-type language in the contract, such as specifying work hours or the manner in which the work is conducted avoid long-term assignments or a continuing relationship where a steady income stream from the client is involved; clearly state start and completion dates, and allow the contractor to set their work hours avoid controlling how the contractor performs the work; the project or technical authority should only oversee the work and results avoid having the contractor work on government premises
+
+## Employer-employee relationship
+
+When contracting for the services of individuals, including temporary help, you should carefully assess the circumstances to ensure no employer-employee relationship is established. This is vital to comply with the Public Service Employment Act and common law principles concerning employer-employee relationships.
+
+According to the Treasury Board (TB) Directive on the Management of Procurement , both you and the business owner must ensure that a contract for services of individuals does not result in an employer-employee relationship. The Canada Revenue Agency (CRA) and relevant court rulings provide criteria for assessing such relationships. For guidance, consult the CRA publication RC4110 Employee or Self-employed . You should seek legal advice if you cannot determine if a contract is a contract for services or a contract of employment. If there is any uncertainty, escalate the contract for signature to a higher level of authority than typically required by the Procurement Risk Assessment.
+
+Here are some tips on how to avoid creating an employer-employee relationship:
+
+- refrain from using employment-type language in the contract, such as specifying work hours or the manner in which the work is conducted
+- avoid long-term assignments or a continuing relationship where a steady income stream from the client is involved; clearly state start and completion dates, and allow the contractor to set their work hours
+- avoid controlling how the contractor performs the work; the project or technical authority should only oversee the work and results
+- avoid having the contractor work on government premises

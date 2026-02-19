@@ -1,0 +1,434 @@
+{
+  "doc_id": "7259d7c7aa9e",
+  "title": "Buyer's Guide Considerations for solicitations - Delivery terms",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/delivery-terms",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/delivery-terms",
+  "doc_type": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": "2026-01-31",
+  "fetched_at": "2026-02-19T09:18:26.628989+00:00",
+  "content_hash": "f37130749085d17559367a3916ee5857c57e194bcf18a1b1d9f68015c1bc35bf",
+  "word_count": 534,
+  "text_path": "data/corpus/buyers_guide__en-buyer-s-portal-buyer-s-guide-create-solicitation-considerations-solicitations-delivery-terms__7259d7c7aa.md",
+  "extraction_method": "buyers_guide_regions",
+  "breadcrumbs": [
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "https://canadabuys.canada.ca/en",
+      "canonical_url": "https://canadabuys.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "in_scope": true
+    },
+    {
+      "title": "Create solicitation",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation",
+      "in_scope": true
+    },
+    {
+      "title": "Considerations for solicitations",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations",
+      "in_scope": true
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations",
+    "parent_doc_id": "97810d5c4a87",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/delivery-terms"
+    ],
+    "lineage_doc_ids": [
+      "1e29c7881335",
+      "2e11d15cd64e",
+      "97810d5c4a87",
+      "7259d7c7aa9e"
+    ],
+    "depth": 3,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/invitation-tender",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/preparing-solicitation-documents",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-information",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-quotation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-standing-offer",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-supply-arrangement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/client-review",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/client-review/client-review-elements-solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/audit",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/certifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/exchange-rates",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/method-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/offer-receipt",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/phased-offer-compliance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/translation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/minimum-solicitation-periods-itqs-rfsas-and-urgent-procurements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/normal-minimum-solicitation-periods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/solicitations-following-request-expressions-interest",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/advanced-contract-award-notice",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/notice-proposed-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-procurement-strategy-indigenous-business-set-asides",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-trade-agreements"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/invitation-tender",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/preparing-solicitation-documents",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-information",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-quotation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-standing-offer",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-supply-arrangement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/client-review",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/client-review/client-review-elements-solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/audit",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/certifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/exchange-rates",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/method-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/offer-receipt",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/phased-offer-compliance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/translation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/minimum-solicitation-periods-itqs-rfsas-and-urgent-procurements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/normal-minimum-solicitation-periods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/solicitations-following-request-expressions-interest",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/advanced-contract-award-notice",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/notice-proposed-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-procurement-strategy-indigenous-business-set-asides",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-trade-agreements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure": {
+    "block_count": 14,
+    "section_count": 5,
+    "heading_count": 4,
+    "paragraph_count": 8,
+    "list_count": 2,
+    "table_count": 0
+  },
+  "sections": [
+    {
+      "section_id": "7259d7c7aa9e::root",
+      "parent_section_id": null,
+      "level": 0,
+      "heading": "Buyer's Guide Considerations for solicitations - Delivery terms",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Delivery terms"
+      ],
+      "block_count": 0,
+      "word_count": 0,
+      "char_count": 0,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": null,
+      "last_block_index": null,
+      "preview": "",
+      "prev_section_id": null,
+      "next_section_id": null
+    },
+    {
+      "section_id": "7259d7c7aa9e::s001",
+      "parent_section_id": "7259d7c7aa9e::root",
+      "level": 1,
+      "heading": "Buyer's Guide Considerations for solicitations - Delivery terms",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Delivery terms",
+        "Buyer's Guide Considerations for solicitations - Delivery terms"
+      ],
+      "block_count": 1,
+      "word_count": 8,
+      "char_count": 63,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 0,
+      "last_block_index": 0,
+      "preview": "Buyer's Guide Considerations for solicitations - Delivery terms",
+      "prev_section_id": null,
+      "next_section_id": "7259d7c7aa9e::s002"
+    },
+    {
+      "section_id": "7259d7c7aa9e::s002",
+      "parent_section_id": "7259d7c7aa9e::root",
+      "level": 1,
+      "heading": "Buyer's Guide",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Delivery terms",
+        "Buyer's Guide"
+      ],
+      "block_count": 3,
+      "word_count": 272,
+      "char_count": 1730,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 1,
+      "last_block_index": 3,
+      "preview": "Buyer's Guide Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage Delivery terms Delivery terms are essential in defining how goods are transported and delivered to the client. These terms outl",
+      "prev_section_id": "7259d7c7aa9e::s001",
+      "next_section_id": "7259d7c7aa9e::s003"
+    },
+    {
+      "section_id": "7259d7c7aa9e::s003",
+      "parent_section_id": "7259d7c7aa9e::s002",
+      "level": 2,
+      "heading": "Delivery terms",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Delivery terms",
+        "Buyer's Guide",
+        "Delivery terms"
+      ],
+      "block_count": 2,
+      "word_count": 29,
+      "char_count": 199,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 4,
+      "last_block_index": 5,
+      "preview": "Delivery terms Delivery terms are essential in defining how goods are transported and delivered to the client. These terms outline the responsibilities regarding the consignment and delivery of goods.",
+      "prev_section_id": "7259d7c7aa9e::s002",
+      "next_section_id": "7259d7c7aa9e::s004"
+    },
+    {
+      "section_id": "7259d7c7aa9e::s004",
+      "parent_section_id": "7259d7c7aa9e::s003",
+      "level": 3,
+      "heading": "Transportation costs",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Delivery terms",
+        "Buyer's Guide",
+        "Delivery terms",
+        "Transportation costs"
+      ],
+      "block_count": 8,
+      "word_count": 225,
+      "char_count": 1415,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 6,
+      "first_block_index": 6,
+      "last_block_index": 13,
+      "preview": "Transportation costs For most requirements with an estimated expenditure of $25,000 or more, including applicable taxes, with known delivery points, offers should be solicited on the basis of Free On Board (FOB) destination. For unknown del",
+      "prev_section_id": "7259d7c7aa9e::s003",
+      "next_section_id": null
+    }
+  ],
+  "tables": [],
+  "blocks": [
+    {
+      "block_id": "7259d7c7aa9e::b0001",
+      "section_id": "7259d7c7aa9e::s001",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Delivery terms",
+        "Buyer's Guide Considerations for solicitations - Delivery terms"
+      ],
+      "markdown": "# Buyer's Guide Considerations for solicitations - Delivery terms",
+      "plain_text": "Buyer's Guide Considerations for solicitations - Delivery terms"
+    },
+    {
+      "block_id": "7259d7c7aa9e::b0002",
+      "section_id": "7259d7c7aa9e::s002",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Delivery terms",
+        "Buyer's Guide"
+      ],
+      "markdown": "# Buyer's Guide",
+      "plain_text": "Buyer's Guide"
+    },
+    {
+      "block_id": "7259d7c7aa9e::b0003",
+      "section_id": "7259d7c7aa9e::s002",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Delivery terms",
+        "Buyer's Guide"
+      ],
+      "markdown": "- Plan\n- Approve\n- Create solicitation\n- Solicit\n- Receive and evaluate\n- Negotiate\n- Award\n- Manage",
+      "plain_text": "Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage"
+    },
+    {
+      "block_id": "7259d7c7aa9e::b0004",
+      "section_id": "7259d7c7aa9e::s002",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Delivery terms",
+        "Buyer's Guide"
+      ],
+      "markdown": "Delivery terms Delivery terms are essential in defining how goods are transported and delivered to the client. These terms outline the responsibilities regarding the consignment and delivery of goods. Transportation costs For most requirements with an estimated expenditure of $25,000 or more, including applicable taxes, with known delivery points, offers should be solicited on the basis of Free On Board (FOB) destination. For unknown delivery points, offers should be solicited on the basis of FOB origin only. When Incoterms are used, you must ensure that businesses understand the differences in the acronyms used particularly those that use the same letters: \u201c FOB \u201d in incoterms means \u201cFree On-Board\u201d, not \u201cFreight on Board\u201d. The Incoterms 2000 term \" FCA Free Carrier (named place)\" must be used in: all Department of National Defence (DND) sole source contracts all repair and overhaul contracts where transportation is not part of competitive offer, and United States Foreign Military Sales (FMS) contracts DND will manage the inbound logistics, including coordination, arrangement and payment for all inbound transportation. For these contracts, the contractor must deliver these goods \"FCA Free Carrier\" and the named place will always be the contractor's facility, unless DND specifies otherwise. The buyer must include the applicable clauses in the contract to direct the contractor to obtain shipping instructions from DND and how to do so. If the contractor is not located in Canada, and the goods are to be imported into Canada by DND , the buyer must include the applicable clauses into the contract.",
+      "plain_text": "Delivery terms Delivery terms are essential in defining how goods are transported and delivered to the client. These terms outline the responsibilities regarding the consignment and delivery of goods. Transportation costs For most requirements with an estimated expenditure of $25,000 or more, including applicable taxes, with known delivery points, offers should be solicited on the basis of Free On Board (FOB) destination. For unknown delivery points, offers should be solicited on the basis of FOB origin only. When Incoterms are used, you must ensure that businesses understand the differences in the acronyms used particularly those that use the same letters: \u201c FOB \u201d in incoterms means \u201cFree On-Board\u201d, not \u201cFreight on Board\u201d. The Incoterms 2000 term \" FCA Free Carrier (named place)\" must be used in: all Department of National Defence (DND) sole source contracts all repair and overhaul contracts where transportation is not part of competitive offer, and United States Foreign Military Sales (FMS) contracts DND will manage the inbound logistics, including coordination, arrangement and payment for all inbound transportation. For these contracts, the contractor must deliver these goods \"FCA Free Carrier\" and the named place will always be the contractor's facility, unless DND specifies otherwise. The buyer must include the applicable clauses in the contract to direct the contractor to obtain shipping instructions from DND and how to do so. If the contractor is not located in Canada, and the goods are to be imported into Canada by DND , the buyer must include the applicable clauses into the contract."
+    },
+    {
+      "block_id": "7259d7c7aa9e::b0005",
+      "section_id": "7259d7c7aa9e::s003",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Delivery terms",
+        "Buyer's Guide",
+        "Delivery terms"
+      ],
+      "markdown": "## Delivery terms",
+      "plain_text": "Delivery terms"
+    },
+    {
+      "block_id": "7259d7c7aa9e::b0006",
+      "section_id": "7259d7c7aa9e::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Delivery terms",
+        "Buyer's Guide",
+        "Delivery terms"
+      ],
+      "markdown": "Delivery terms are essential in defining how goods are transported and delivered to the client. These terms outline the responsibilities regarding the consignment and delivery of goods.",
+      "plain_text": "Delivery terms are essential in defining how goods are transported and delivered to the client. These terms outline the responsibilities regarding the consignment and delivery of goods."
+    },
+    {
+      "block_id": "7259d7c7aa9e::b0007",
+      "section_id": "7259d7c7aa9e::s004",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Delivery terms",
+        "Buyer's Guide",
+        "Delivery terms",
+        "Transportation costs"
+      ],
+      "markdown": "### Transportation costs",
+      "plain_text": "Transportation costs"
+    },
+    {
+      "block_id": "7259d7c7aa9e::b0008",
+      "section_id": "7259d7c7aa9e::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Delivery terms",
+        "Buyer's Guide",
+        "Delivery terms",
+        "Transportation costs"
+      ],
+      "markdown": "For most requirements with an estimated expenditure of $25,000 or more, including applicable taxes, with known delivery points, offers should be solicited on the basis of Free On Board (FOB) destination.",
+      "plain_text": "For most requirements with an estimated expenditure of $25,000 or more, including applicable taxes, with known delivery points, offers should be solicited on the basis of Free On Board (FOB) destination."
+    },
+    {
+      "block_id": "7259d7c7aa9e::b0009",
+      "section_id": "7259d7c7aa9e::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Delivery terms",
+        "Buyer's Guide",
+        "Delivery terms",
+        "Transportation costs"
+      ],
+      "markdown": "For unknown delivery points, offers should be solicited on the basis of FOB origin only. When Incoterms are used, you must ensure that businesses understand the differences in the acronyms used particularly those that use the same letters: \u201c FOB \u201d in incoterms means \u201cFree On-Board\u201d, not \u201cFreight on Board\u201d.",
+      "plain_text": "For unknown delivery points, offers should be solicited on the basis of FOB origin only. When Incoterms are used, you must ensure that businesses understand the differences in the acronyms used particularly those that use the same letters: \u201c FOB \u201d in incoterms means \u201cFree On-Board\u201d, not \u201cFreight on Board\u201d."
+    },
+    {
+      "block_id": "7259d7c7aa9e::b0010",
+      "section_id": "7259d7c7aa9e::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Delivery terms",
+        "Buyer's Guide",
+        "Delivery terms",
+        "Transportation costs"
+      ],
+      "markdown": "The Incoterms 2000 term \" FCA Free Carrier (named place)\" must be used in:",
+      "plain_text": "The Incoterms 2000 term \" FCA Free Carrier (named place)\" must be used in:"
+    },
+    {
+      "block_id": "7259d7c7aa9e::b0011",
+      "section_id": "7259d7c7aa9e::s004",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Delivery terms",
+        "Buyer's Guide",
+        "Delivery terms",
+        "Transportation costs"
+      ],
+      "markdown": "- all Department of National Defence (DND) sole source contracts\n- all repair and overhaul contracts where transportation is not part of competitive offer, and\n- United States Foreign Military Sales (FMS) contracts",
+      "plain_text": "all Department of National Defence (DND) sole source contracts ; all repair and overhaul contracts where transportation is not part of competitive offer, and ; United States Foreign Military Sales (FMS) contracts"
+    },
+    {
+      "block_id": "7259d7c7aa9e::b0012",
+      "section_id": "7259d7c7aa9e::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Delivery terms",
+        "Buyer's Guide",
+        "Delivery terms",
+        "Transportation costs"
+      ],
+      "markdown": "DND will manage the inbound logistics, including coordination, arrangement and payment for all inbound transportation. For these contracts, the contractor must deliver these goods \"FCA Free Carrier\" and the named place will always be the contractor's facility, unless DND specifies otherwise.",
+      "plain_text": "DND will manage the inbound logistics, including coordination, arrangement and payment for all inbound transportation. For these contracts, the contractor must deliver these goods \"FCA Free Carrier\" and the named place will always be the contractor's facility, unless DND specifies otherwise."
+    },
+    {
+      "block_id": "7259d7c7aa9e::b0013",
+      "section_id": "7259d7c7aa9e::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Delivery terms",
+        "Buyer's Guide",
+        "Delivery terms",
+        "Transportation costs"
+      ],
+      "markdown": "The buyer must include the applicable clauses in the contract to direct the contractor to obtain shipping instructions from DND and how to do so.",
+      "plain_text": "The buyer must include the applicable clauses in the contract to direct the contractor to obtain shipping instructions from DND and how to do so."
+    },
+    {
+      "block_id": "7259d7c7aa9e::b0014",
+      "section_id": "7259d7c7aa9e::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Considerations for solicitations - Delivery terms",
+        "Buyer's Guide",
+        "Delivery terms",
+        "Transportation costs"
+      ],
+      "markdown": "If the contractor is not located in Canada, and the goods are to be imported into Canada by DND , the buyer must include the applicable clauses into the contract.",
+      "plain_text": "If the contractor is not located in Canada, and the goods are to be imported into Canada by DND , the buyer must include the applicable clauses into the contract."
+    }
+  ]
+}

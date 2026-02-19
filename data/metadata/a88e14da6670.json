@@ -1,0 +1,433 @@
+{
+  "doc_id": "a88e14da6670",
+  "title": "Buyer's Guide Manage a contract - Integrity provisions",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/integrity-provisions",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/integrity-provisions",
+  "doc_type": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": "2026-01-31",
+  "fetched_at": "2026-02-19T09:19:26.255539+00:00",
+  "content_hash": "ae8ef738e79e82f6b4302d1e0d98f43209bf0dace445b898287072bb2f580cfe",
+  "word_count": 371,
+  "text_path": "data/corpus/buyers_guide__en-buyer-s-portal-buyer-s-guide-manage-manage-contract-integrity-provisions__a88e14da66.md",
+  "extraction_method": "buyers_guide_regions",
+  "breadcrumbs": [
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "https://canadabuys.canada.ca/en",
+      "canonical_url": "https://canadabuys.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "in_scope": true
+    },
+    {
+      "title": "Manage a contract",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "in_scope": true
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+    "parent_doc_id": "195daba76ab3",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/integrity-provisions"
+    ],
+    "lineage_doc_ids": [
+      "1e29c7881335",
+      "195daba76ab3",
+      "a88e14da6670"
+    ],
+    "depth": 2,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-quotation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/best-practices-contract-close-out",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/contract-close-out-activities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/alternative-dispute-resolution",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/assignment-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/buyer-and-client-responsibilites",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/certifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/contract-dispute-resolution",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/employer-employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/protecting-canada-s-interests",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/subcontracting",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/task-authorizations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/vendor-performance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/assignment-monies",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/claims-progress-payments-and-invoicing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/cost-reimbursable-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/exchange-rate-fluctuation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/final-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/financial-claims",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/fixed-time-rate-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/interest-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/overtime",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/refund-excess-profits",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/administrative-guidance-implementing-contract-modifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/considerations-when-making-amendments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/design-change-or-deviation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/exercise-options",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/procedural-elements-amending-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/revisions-standing-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/approval-authority",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/legal-services",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/public-services-and-procurement-canada-offices-outside-canada",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/source-lists",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/suspension-work-and-stop-work-orders",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-contracts-financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-convenience",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-default",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-mutual-consent"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/best-practices-contract-close-out",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/contract-close-out-activities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/alternative-dispute-resolution",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/assignment-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/buyer-and-client-responsibilites",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/certifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/contract-dispute-resolution",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/employer-employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/protecting-canada-s-interests",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/subcontracting",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/task-authorizations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/vendor-performance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/assignment-monies",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/claims-progress-payments-and-invoicing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/cost-reimbursable-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/exchange-rate-fluctuation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/final-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/financial-claims",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/fixed-time-rate-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/interest-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/overtime",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/refund-excess-profits",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/administrative-guidance-implementing-contract-modifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/considerations-when-making-amendments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/design-change-or-deviation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/exercise-options",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/procedural-elements-amending-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/revisions-standing-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/approval-authority",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/legal-services",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/public-services-and-procurement-canada-offices-outside-canada",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/source-lists",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/suspension-work-and-stop-work-orders",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-contracts-financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-convenience",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-default",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-mutual-consent",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure": {
+    "block_count": 14,
+    "section_count": 4,
+    "heading_count": 3,
+    "paragraph_count": 8,
+    "list_count": 3,
+    "table_count": 0
+  },
+  "sections": [
+    {
+      "section_id": "a88e14da6670::root",
+      "parent_section_id": null,
+      "level": 0,
+      "heading": "Buyer's Guide Manage a contract - Integrity provisions",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Integrity provisions"
+      ],
+      "block_count": 0,
+      "word_count": 0,
+      "char_count": 0,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": null,
+      "last_block_index": null,
+      "preview": "",
+      "prev_section_id": null,
+      "next_section_id": null
+    },
+    {
+      "section_id": "a88e14da6670::s001",
+      "parent_section_id": "a88e14da6670::root",
+      "level": 1,
+      "heading": "Buyer's Guide Manage a contract - Integrity provisions",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Integrity provisions",
+        "Buyer's Guide Manage a contract - Integrity provisions"
+      ],
+      "block_count": 1,
+      "word_count": 8,
+      "char_count": 54,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 0,
+      "last_block_index": 0,
+      "preview": "Buyer's Guide Manage a contract - Integrity provisions",
+      "prev_section_id": null,
+      "next_section_id": "a88e14da6670::s002"
+    },
+    {
+      "section_id": "a88e14da6670::s002",
+      "parent_section_id": "a88e14da6670::root",
+      "level": 1,
+      "heading": "Buyer's Guide",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Integrity provisions",
+        "Buyer's Guide"
+      ],
+      "block_count": 2,
+      "word_count": 20,
+      "char_count": 111,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 0,
+      "first_block_index": 1,
+      "last_block_index": 2,
+      "preview": "Buyer's Guide Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage",
+      "prev_section_id": "a88e14da6670::s001",
+      "next_section_id": "a88e14da6670::s003"
+    },
+    {
+      "section_id": "a88e14da6670::s003",
+      "parent_section_id": "a88e14da6670::s002",
+      "level": 2,
+      "heading": "Integrity provisions",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Integrity provisions",
+        "Buyer's Guide",
+        "Integrity provisions"
+      ],
+      "block_count": 11,
+      "word_count": 343,
+      "char_count": 2363,
+      "table_count": 0,
+      "list_count": 2,
+      "paragraph_count": 8,
+      "first_block_index": 3,
+      "last_block_index": 13,
+      "preview": "Integrity provisions As stated in the Ineligibility and Suspension Policy, offerors or contractors must provide written notice of any change to the information pursuant to subsection 13.1 of the Ineligibility and Suspension Policy . These c",
+      "prev_section_id": "a88e14da6670::s002",
+      "next_section_id": null
+    }
+  ],
+  "tables": [],
+  "blocks": [
+    {
+      "block_id": "a88e14da6670::b0001",
+      "section_id": "a88e14da6670::s001",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Integrity provisions",
+        "Buyer's Guide Manage a contract - Integrity provisions"
+      ],
+      "markdown": "# Buyer's Guide Manage a contract - Integrity provisions",
+      "plain_text": "Buyer's Guide Manage a contract - Integrity provisions"
+    },
+    {
+      "block_id": "a88e14da6670::b0002",
+      "section_id": "a88e14da6670::s002",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Integrity provisions",
+        "Buyer's Guide"
+      ],
+      "markdown": "# Buyer's Guide",
+      "plain_text": "Buyer's Guide"
+    },
+    {
+      "block_id": "a88e14da6670::b0003",
+      "section_id": "a88e14da6670::s002",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Integrity provisions",
+        "Buyer's Guide"
+      ],
+      "markdown": "- Plan\n- Approve\n- Create solicitation\n- Solicit\n- Receive and evaluate\n- Negotiate\n- Award\n- Manage",
+      "plain_text": "Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage"
+    },
+    {
+      "block_id": "a88e14da6670::b0004",
+      "section_id": "a88e14da6670::s003",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Integrity provisions",
+        "Buyer's Guide",
+        "Integrity provisions"
+      ],
+      "markdown": "## Integrity provisions",
+      "plain_text": "Integrity provisions"
+    },
+    {
+      "block_id": "a88e14da6670::b0005",
+      "section_id": "a88e14da6670::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Integrity provisions",
+        "Buyer's Guide",
+        "Integrity provisions"
+      ],
+      "markdown": "As stated in the Ineligibility and Suspension Policy, offerors or contractors must provide written notice of any change to the information pursuant to subsection 13.1 of the Ineligibility and Suspension Policy .",
+      "plain_text": "As stated in the Ineligibility and Suspension Policy, offerors or contractors must provide written notice of any change to the information pursuant to subsection 13.1 of the Ineligibility and Suspension Policy ."
+    },
+    {
+      "block_id": "a88e14da6670::b0006",
+      "section_id": "a88e14da6670::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Integrity provisions",
+        "Buyer's Guide",
+        "Integrity provisions"
+      ],
+      "markdown": "These changes may include the list of names of owners, directors, individuals or entities that hold 5% or more ownership in a private corporation as well as partners, general partners, or trustees. This also includes any changes resulting from:",
+      "plain_text": "These changes may include the list of names of owners, directors, individuals or entities that hold 5% or more ownership in a private corporation as well as partners, general partners, or trustees. This also includes any changes resulting from:"
+    },
+    {
+      "block_id": "a88e14da6670::b0007",
+      "section_id": "a88e14da6670::s003",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Integrity provisions",
+        "Buyer's Guide",
+        "Integrity provisions"
+      ],
+      "markdown": "- a transfer or assignment\n- new charges against the offeror\n- new conviction or other circumstance regarding itself, its affiliates, and its first-tier subcontractors",
+      "plain_text": "a transfer or assignment ; new charges against the offeror ; new conviction or other circumstance regarding itself, its affiliates, and its first-tier subcontractors"
+    },
+    {
+      "block_id": "a88e14da6670::b0008",
+      "section_id": "a88e14da6670::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Integrity provisions",
+        "Buyer's Guide",
+        "Integrity provisions"
+      ],
+      "markdown": "This information must be provided to the Registrar of Ineligibility and Suspension within 5 business days for all procurements, standing offers, supply arrangements, contracts or other instruments not yet awarded. The information must be provided within 22 business days for all awarded procurements, standing offers, supply arrangements, contracts and other instruments.",
+      "plain_text": "This information must be provided to the Registrar of Ineligibility and Suspension within 5 business days for all procurements, standing offers, supply arrangements, contracts or other instruments not yet awarded. The information must be provided within 22 business days for all awarded procurements, standing offers, supply arrangements, contracts and other instruments."
+    },
+    {
+      "block_id": "a88e14da6670::b0009",
+      "section_id": "a88e14da6670::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Integrity provisions",
+        "Buyer's Guide",
+        "Integrity provisions"
+      ],
+      "markdown": "If non-compliance with Ineligibility and Suspension Policy clauses is discovered during a contract, you must evaluate the impact on operational requirements and consider the contractor's representation before deciding on actions like:",
+      "plain_text": "If non-compliance with Ineligibility and Suspension Policy clauses is discovered during a contract, you must evaluate the impact on operational requirements and consider the contractor's representation before deciding on actions like:"
+    },
+    {
+      "block_id": "a88e14da6670::b0010",
+      "section_id": "a88e14da6670::s003",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Integrity provisions",
+        "Buyer's Guide",
+        "Integrity provisions"
+      ],
+      "markdown": "- terminating the contract for default\n- setting aside the standing offer and terminating any call-ups\n- cancelling the supply arrangement and terminating any resulting contracts",
+      "plain_text": "terminating the contract for default ; setting aside the standing offer and terminating any call-ups ; cancelling the supply arrangement and terminating any resulting contracts"
+    },
+    {
+      "block_id": "a88e14da6670::b0011",
+      "section_id": "a88e14da6670::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Integrity provisions",
+        "Buyer's Guide",
+        "Integrity provisions"
+      ],
+      "markdown": "If informed by the Registrar that a contractor is deemed ineligible or suspended, you must contact the Public Services and Procurement Canada (PSPC), Acquisitions Program Integrity Secretariat .",
+      "plain_text": "If informed by the Registrar that a contractor is deemed ineligible or suspended, you must contact the Public Services and Procurement Canada (PSPC), Acquisitions Program Integrity Secretariat ."
+    },
+    {
+      "block_id": "a88e14da6670::b0012",
+      "section_id": "a88e14da6670::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Integrity provisions",
+        "Buyer's Guide",
+        "Integrity provisions"
+      ],
+      "markdown": "When a contract is terminated for default because of non-compliance with the Ineligibility and Suspension Policy clauses, you must provide the contractor with a notice period of at least 2 weeks. During this time, the contractor facing termination for non-compliance can argue their case to maintain the contract.",
+      "plain_text": "When a contract is terminated for default because of non-compliance with the Ineligibility and Suspension Policy clauses, you must provide the contractor with a notice period of at least 2 weeks. During this time, the contractor facing termination for non-compliance can argue their case to maintain the contract."
+    },
+    {
+      "block_id": "a88e14da6670::b0013",
+      "section_id": "a88e14da6670::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Integrity provisions",
+        "Buyer's Guide",
+        "Integrity provisions"
+      ],
+      "markdown": "As an alternative to termination, a contractor may be required to enter into an Administrative Agreement with PSPC . This arrangement is at the discretion of the department.",
+      "plain_text": "As an alternative to termination, a contractor may be required to enter into an Administrative Agreement with PSPC . This arrangement is at the discretion of the department."
+    },
+    {
+      "block_id": "a88e14da6670::b0014",
+      "section_id": "a88e14da6670::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Integrity provisions",
+        "Buyer's Guide",
+        "Integrity provisions"
+      ],
+      "markdown": "Be aware of exceptions to PSPC internal approval authorities related to the approval of procurement instruments, contracts, standing offers, supply arrangements and contract assignments where the offeror or contractor has been determined ineligible or suspended.",
+      "plain_text": "Be aware of exceptions to PSPC internal approval authorities related to the approval of procurement instruments, contracts, standing offers, supply arrangements and contract assignments where the offeror or contractor has been determined ineligible or suspended."
+    }
+  ]
+}

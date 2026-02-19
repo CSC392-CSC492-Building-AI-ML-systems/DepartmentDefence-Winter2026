@@ -1,0 +1,355 @@
+{
+  "doc_id": "16b266f40fb2",
+  "title": "Buyer's Guide Tender notices - Notice of proposed procurement",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/notice-proposed-procurement",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/notice-proposed-procurement",
+  "doc_type": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": "2026-01-31",
+  "fetched_at": "2026-02-19T09:18:11.113939+00:00",
+  "content_hash": "ae16263d906a7973a2a4b940f0fd1635ed68680f16ce40ebd1baea1d1569ddd1",
+  "word_count": 380,
+  "text_path": "data/corpus/buyers_guide__en-buyer-s-portal-buyer-s-guide-create-solicitation-tender-notices-notice-proposed-procurement__16b266f40f.md",
+  "extraction_method": "buyers_guide_regions",
+  "breadcrumbs": [
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "https://canadabuys.canada.ca/en",
+      "canonical_url": "https://canadabuys.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "in_scope": true
+    },
+    {
+      "title": "Create solicitation",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation",
+      "in_scope": true
+    },
+    {
+      "title": "Tender notices",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices",
+      "in_scope": true
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices",
+    "parent_doc_id": "b847fab28735",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/notice-proposed-procurement"
+    ],
+    "lineage_doc_ids": [
+      "1e29c7881335",
+      "2e11d15cd64e",
+      "b847fab28735",
+      "16b266f40fb2"
+    ],
+    "depth": 3,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/invitation-tender",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/preparing-solicitation-documents",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-information",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-quotation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-standing-offer",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-supply-arrangement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/client-review",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/client-review/client-review-elements-solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/audit",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/certifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/delivery-terms",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/exchange-rates",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/method-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/offer-receipt",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/phased-offer-compliance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/translation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/minimum-solicitation-periods-itqs-rfsas-and-urgent-procurements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/normal-minimum-solicitation-periods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/solicitations-following-request-expressions-interest",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/advanced-contract-award-notice",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-procurement-strategy-indigenous-business-set-asides",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-trade-agreements"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/invitation-tender",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/preparing-solicitation-documents",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-information",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-quotation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-standing-offer",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-supply-arrangement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/client-review",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/client-review/client-review-elements-solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/audit",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/certifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/delivery-terms",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/exchange-rates",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/method-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/offer-receipt",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/phased-offer-compliance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/translation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/minimum-solicitation-periods-itqs-rfsas-and-urgent-procurements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/normal-minimum-solicitation-periods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/solicitations-following-request-expressions-interest",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/advanced-contract-award-notice",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-procurement-strategy-indigenous-business-set-asides",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-trade-agreements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure": {
+    "block_count": 10,
+    "section_count": 4,
+    "heading_count": 3,
+    "paragraph_count": 5,
+    "list_count": 2,
+    "table_count": 0
+  },
+  "sections": [
+    {
+      "section_id": "16b266f40fb2::root",
+      "parent_section_id": null,
+      "level": 0,
+      "heading": "Buyer's Guide Tender notices - Notice of proposed procurement",
+      "heading_path": [
+        "Buyer's Guide Tender notices - Notice of proposed procurement"
+      ],
+      "block_count": 0,
+      "word_count": 0,
+      "char_count": 0,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": null,
+      "last_block_index": null,
+      "preview": "",
+      "prev_section_id": null,
+      "next_section_id": null
+    },
+    {
+      "section_id": "16b266f40fb2::s001",
+      "parent_section_id": "16b266f40fb2::root",
+      "level": 1,
+      "heading": "Buyer's Guide Tender notices - Notice of proposed procurement",
+      "heading_path": [
+        "Buyer's Guide Tender notices - Notice of proposed procurement",
+        "Buyer's Guide Tender notices - Notice of proposed procurement"
+      ],
+      "block_count": 1,
+      "word_count": 9,
+      "char_count": 61,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 0,
+      "last_block_index": 0,
+      "preview": "Buyer's Guide Tender notices - Notice of proposed procurement",
+      "prev_section_id": null,
+      "next_section_id": "16b266f40fb2::s002"
+    },
+    {
+      "section_id": "16b266f40fb2::s002",
+      "parent_section_id": "16b266f40fb2::root",
+      "level": 1,
+      "heading": "Buyer's Guide",
+      "heading_path": [
+        "Buyer's Guide Tender notices - Notice of proposed procurement",
+        "Buyer's Guide"
+      ],
+      "block_count": 3,
+      "word_count": 193,
+      "char_count": 1296,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 1,
+      "last_block_index": 3,
+      "preview": "Buyer's Guide Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage Notice of proposed procurement You, the buyer, post a Notice of Proposed Procurement (NPP) on the Government Electronic Tenderi",
+      "prev_section_id": "16b266f40fb2::s001",
+      "next_section_id": "16b266f40fb2::s003"
+    },
+    {
+      "section_id": "16b266f40fb2::s003",
+      "parent_section_id": "16b266f40fb2::s002",
+      "level": 2,
+      "heading": "Notice of proposed procurement",
+      "heading_path": [
+        "Buyer's Guide Tender notices - Notice of proposed procurement",
+        "Buyer's Guide",
+        "Notice of proposed procurement"
+      ],
+      "block_count": 6,
+      "word_count": 178,
+      "char_count": 1190,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 4,
+      "first_block_index": 4,
+      "last_block_index": 9,
+      "preview": "Notice of proposed procurement You, the buyer, post a Notice of Proposed Procurement (NPP) on the Government Electronic Tendering Service (GETS) to advertise a competitive procurement opportunity to businesses. The NPP summarizes the solici",
+      "prev_section_id": "16b266f40fb2::s002",
+      "next_section_id": null
+    }
+  ],
+  "tables": [],
+  "blocks": [
+    {
+      "block_id": "16b266f40fb2::b0001",
+      "section_id": "16b266f40fb2::s001",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Tender notices - Notice of proposed procurement",
+        "Buyer's Guide Tender notices - Notice of proposed procurement"
+      ],
+      "markdown": "# Buyer's Guide Tender notices - Notice of proposed procurement",
+      "plain_text": "Buyer's Guide Tender notices - Notice of proposed procurement"
+    },
+    {
+      "block_id": "16b266f40fb2::b0002",
+      "section_id": "16b266f40fb2::s002",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Tender notices - Notice of proposed procurement",
+        "Buyer's Guide"
+      ],
+      "markdown": "# Buyer's Guide",
+      "plain_text": "Buyer's Guide"
+    },
+    {
+      "block_id": "16b266f40fb2::b0003",
+      "section_id": "16b266f40fb2::s002",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Tender notices - Notice of proposed procurement",
+        "Buyer's Guide"
+      ],
+      "markdown": "- Plan\n- Approve\n- Create solicitation\n- Solicit\n- Receive and evaluate\n- Negotiate\n- Award\n- Manage",
+      "plain_text": "Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage"
+    },
+    {
+      "block_id": "16b266f40fb2::b0004",
+      "section_id": "16b266f40fb2::s002",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Tender notices - Notice of proposed procurement",
+        "Buyer's Guide"
+      ],
+      "markdown": "Notice of proposed procurement You, the buyer, post a Notice of Proposed Procurement (NPP) on the Government Electronic Tendering Service (GETS) to advertise a competitive procurement opportunity to businesses. The NPP summarizes the solicitation and must include: sufficient information for businesses to determine their interest and their ability to fulfill the requirements a list of the applicable agreements, trade or otherwise whether Canadian content restrictions apply whether the requirement has been set aside under the Procurement Strategy for Indigenous Business whether a National Security Exception applies whether additional material will be posted on GETS or made available separately The NPP should advise businesses of their option to request a debriefing. Any other notices (for example, newspapers) should contain the same statement. When entering the point of delivery information on the NPP for a standing offer or supply arrangement, you must select only those provinces or territories where potential deliveries may occur. Many procurement units have created templates to assist you in developing NPP s. You should consult your manager to obtain such templates.",
+      "plain_text": "Notice of proposed procurement You, the buyer, post a Notice of Proposed Procurement (NPP) on the Government Electronic Tendering Service (GETS) to advertise a competitive procurement opportunity to businesses. The NPP summarizes the solicitation and must include: sufficient information for businesses to determine their interest and their ability to fulfill the requirements a list of the applicable agreements, trade or otherwise whether Canadian content restrictions apply whether the requirement has been set aside under the Procurement Strategy for Indigenous Business whether a National Security Exception applies whether additional material will be posted on GETS or made available separately The NPP should advise businesses of their option to request a debriefing. Any other notices (for example, newspapers) should contain the same statement. When entering the point of delivery information on the NPP for a standing offer or supply arrangement, you must select only those provinces or territories where potential deliveries may occur. Many procurement units have created templates to assist you in developing NPP s. You should consult your manager to obtain such templates."
+    },
+    {
+      "block_id": "16b266f40fb2::b0005",
+      "section_id": "16b266f40fb2::s003",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Tender notices - Notice of proposed procurement",
+        "Buyer's Guide",
+        "Notice of proposed procurement"
+      ],
+      "markdown": "## Notice of proposed procurement",
+      "plain_text": "Notice of proposed procurement"
+    },
+    {
+      "block_id": "16b266f40fb2::b0006",
+      "section_id": "16b266f40fb2::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Tender notices - Notice of proposed procurement",
+        "Buyer's Guide",
+        "Notice of proposed procurement"
+      ],
+      "markdown": "You, the buyer, post a Notice of Proposed Procurement (NPP) on the Government Electronic Tendering Service (GETS) to advertise a competitive procurement opportunity to businesses. The NPP summarizes the solicitation and must include:",
+      "plain_text": "You, the buyer, post a Notice of Proposed Procurement (NPP) on the Government Electronic Tendering Service (GETS) to advertise a competitive procurement opportunity to businesses. The NPP summarizes the solicitation and must include:"
+    },
+    {
+      "block_id": "16b266f40fb2::b0007",
+      "section_id": "16b266f40fb2::s003",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Tender notices - Notice of proposed procurement",
+        "Buyer's Guide",
+        "Notice of proposed procurement"
+      ],
+      "markdown": "- sufficient information for businesses to determine their interest and their ability to fulfill the requirements\n- a list of the applicable agreements, trade or otherwise\n- whether Canadian content restrictions apply\n- whether the requirement has been set aside under the Procurement Strategy for Indigenous Business\n- whether a National Security Exception applies\n- whether additional material will be posted on GETS or made available separately",
+      "plain_text": "sufficient information for businesses to determine their interest and their ability to fulfill the requirements ; a list of the applicable agreements, trade or otherwise ; whether Canadian content restrictions apply ; whether the requirement has been set aside under the Procurement Strategy for Indigenous Business ; whether a National Security Exception applies ; whether additional material will be posted on GETS or made available separately"
+    },
+    {
+      "block_id": "16b266f40fb2::b0008",
+      "section_id": "16b266f40fb2::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Tender notices - Notice of proposed procurement",
+        "Buyer's Guide",
+        "Notice of proposed procurement"
+      ],
+      "markdown": "The NPP should advise businesses of their option to request a debriefing. Any other notices (for example, newspapers) should contain the same statement.",
+      "plain_text": "The NPP should advise businesses of their option to request a debriefing. Any other notices (for example, newspapers) should contain the same statement."
+    },
+    {
+      "block_id": "16b266f40fb2::b0009",
+      "section_id": "16b266f40fb2::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Tender notices - Notice of proposed procurement",
+        "Buyer's Guide",
+        "Notice of proposed procurement"
+      ],
+      "markdown": "When entering the point of delivery information on the NPP for a standing offer or supply arrangement, you must select only those provinces or territories where potential deliveries may occur.",
+      "plain_text": "When entering the point of delivery information on the NPP for a standing offer or supply arrangement, you must select only those provinces or territories where potential deliveries may occur."
+    },
+    {
+      "block_id": "16b266f40fb2::b0010",
+      "section_id": "16b266f40fb2::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Tender notices - Notice of proposed procurement",
+        "Buyer's Guide",
+        "Notice of proposed procurement"
+      ],
+      "markdown": "Many procurement units have created templates to assist you in developing NPP s. You should consult your manager to obtain such templates.",
+      "plain_text": "Many procurement units have created templates to assist you in developing NPP s. You should consult your manager to obtain such templates."
+    }
+  ]
+}

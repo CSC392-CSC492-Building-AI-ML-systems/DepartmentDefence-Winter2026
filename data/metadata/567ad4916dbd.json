@@ -1,0 +1,699 @@
+{
+  "doc_id": "567ad4916dbd",
+  "title": "Buyer's Guide Offer evaluation - Special considerations",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/special-considerations",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/special-considerations",
+  "doc_type": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": "2026-01-31",
+  "fetched_at": "2026-02-19T09:18:50.411889+00:00",
+  "content_hash": "cc611f88a5df8f7571e97e40fef38f739df09b989ecc895a265e587eafc2e6ec",
+  "word_count": 950,
+  "text_path": "data/corpus/buyers_guide__en-buyer-s-portal-buyer-s-guide-receive-and-evaluate-offer-evaluation-special-considerations__567ad4916d.md",
+  "extraction_method": "buyers_guide_regions",
+  "breadcrumbs": [
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "https://canadabuys.canada.ca/en",
+      "canonical_url": "https://canadabuys.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "in_scope": true
+    },
+    {
+      "title": "Offer evaluation",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation",
+      "in_scope": true
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation",
+    "parent_doc_id": "312c047b7781",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/special-considerations"
+    ],
+    "lineage_doc_ids": [
+      "1e29c7881335",
+      "312c047b7781",
+      "567ad4916dbd"
+    ],
+    "depth": 2,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review/determine-if-peer-review-required",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review/roles-and-accountabilities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/apply-phased-offer-compliance-process",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/conduct-financial-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/conduct-technical-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/decision-making-and-approvals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/evaluate-offeror-s-financial-capability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/evaluation-process",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/prepare-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/handle-late-or-delayed-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/handle-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/verify-offers"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review/determine-if-peer-review-required",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review/roles-and-accountabilities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/apply-phased-offer-compliance-process",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/conduct-financial-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/conduct-technical-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/decision-making-and-approvals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/evaluate-offeror-s-financial-capability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/evaluation-process",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/prepare-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/handle-late-or-delayed-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/handle-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/verify-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure": {
+    "block_count": 25,
+    "section_count": 11,
+    "heading_count": 10,
+    "paragraph_count": 13,
+    "list_count": 2,
+    "table_count": 0
+  },
+  "sections": [
+    {
+      "section_id": "567ad4916dbd::root",
+      "parent_section_id": null,
+      "level": 0,
+      "heading": "Buyer's Guide Offer evaluation - Special considerations",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Special considerations"
+      ],
+      "block_count": 0,
+      "word_count": 0,
+      "char_count": 0,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": null,
+      "last_block_index": null,
+      "preview": "",
+      "prev_section_id": null,
+      "next_section_id": null
+    },
+    {
+      "section_id": "567ad4916dbd::s001",
+      "parent_section_id": "567ad4916dbd::root",
+      "level": 1,
+      "heading": "Buyer's Guide Offer evaluation - Special considerations",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Special considerations",
+        "Buyer's Guide Offer evaluation - Special considerations"
+      ],
+      "block_count": 1,
+      "word_count": 7,
+      "char_count": 55,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 0,
+      "last_block_index": 0,
+      "preview": "Buyer's Guide Offer evaluation - Special considerations",
+      "prev_section_id": null,
+      "next_section_id": "567ad4916dbd::s002"
+    },
+    {
+      "section_id": "567ad4916dbd::s002",
+      "parent_section_id": "567ad4916dbd::root",
+      "level": 1,
+      "heading": "Buyer's Guide",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Special considerations",
+        "Buyer's Guide"
+      ],
+      "block_count": 3,
+      "word_count": 481,
+      "char_count": 3132,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 1,
+      "last_block_index": 3,
+      "preview": "Buyer's Guide Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage Special considerations Here are some special circumstances to consider during the evaluation process. One responsive offer When",
+      "prev_section_id": "567ad4916dbd::s001",
+      "next_section_id": "567ad4916dbd::s003"
+    },
+    {
+      "section_id": "567ad4916dbd::s003",
+      "parent_section_id": "567ad4916dbd::s002",
+      "level": 2,
+      "heading": "Special considerations",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Special considerations",
+        "Buyer's Guide",
+        "Special considerations"
+      ],
+      "block_count": 2,
+      "word_count": 13,
+      "char_count": 100,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 4,
+      "last_block_index": 5,
+      "preview": "Special considerations Here are some special circumstances to consider during the evaluation process.",
+      "prev_section_id": "567ad4916dbd::s002",
+      "next_section_id": "567ad4916dbd::s004"
+    },
+    {
+      "section_id": "567ad4916dbd::s004",
+      "parent_section_id": "567ad4916dbd::s003",
+      "level": 3,
+      "heading": "One responsive offer",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Special considerations",
+        "Buyer's Guide",
+        "Special considerations",
+        "One responsive offer"
+      ],
+      "block_count": 2,
+      "word_count": 30,
+      "char_count": 192,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 6,
+      "last_block_index": 7,
+      "preview": "One responsive offer When only one responsive offer is received in response to a competitive solicitation, you must ensure that Canada is obtaining fair value by following the guidelines below.",
+      "prev_section_id": "567ad4916dbd::s003",
+      "next_section_id": "567ad4916dbd::s005"
+    },
+    {
+      "section_id": "567ad4916dbd::s005",
+      "parent_section_id": "567ad4916dbd::s004",
+      "level": 4,
+      "heading": "Offer is greater than $7,500,000",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Special considerations",
+        "Buyer's Guide",
+        "Special considerations",
+        "One responsive offer",
+        "Offer is greater than $7,500,000"
+      ],
+      "block_count": 3,
+      "word_count": 93,
+      "char_count": 586,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 2,
+      "first_block_index": 8,
+      "last_block_index": 10,
+      "preview": "Offer is greater than $7,500,000 You must contact a cost analyst to determine if further analysis is warranted as specified by the mandatory conditions set out in the Directive on the Use of Cost and Price Analysis Services (accessible only",
+      "prev_section_id": "567ad4916dbd::s004",
+      "next_section_id": "567ad4916dbd::s006"
+    },
+    {
+      "section_id": "567ad4916dbd::s006",
+      "parent_section_id": "567ad4916dbd::s004",
+      "level": 4,
+      "heading": "Offer is less than or equal to $7,500,000",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Special considerations",
+        "Buyer's Guide",
+        "Special considerations",
+        "One responsive offer",
+        "Offer is less than or equal to $7,500,000"
+      ],
+      "block_count": 3,
+      "word_count": 93,
+      "char_count": 572,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 2,
+      "first_block_index": 11,
+      "last_block_index": 13,
+      "preview": "Offer is less than or equal to $7,500,000 You should consider using the services of a cost analyst to determine if further analysis is required as specified by the mandatory conditions set out in the Guideline on the Use of Cost and Price A",
+      "prev_section_id": "567ad4916dbd::s005",
+      "next_section_id": "567ad4916dbd::s007"
+    },
+    {
+      "section_id": "567ad4916dbd::s007",
+      "parent_section_id": "567ad4916dbd::s004",
+      "level": 4,
+      "heading": "One responsive offer from a foreign contractor",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Special considerations",
+        "Buyer's Guide",
+        "Special considerations",
+        "One responsive offer",
+        "One responsive offer from a foreign contractor"
+      ],
+      "block_count": 3,
+      "word_count": 92,
+      "char_count": 584,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 2,
+      "first_block_index": 14,
+      "last_block_index": 16,
+      "preview": "One responsive offer from a foreign contractor When the offer is from an offeror in a North Atlantic Treaty Organization (NATO) allied country (or a significant portion is being proposed to be subcontracted to an offeror in a NATO -allied c",
+      "prev_section_id": "567ad4916dbd::s006",
+      "next_section_id": "567ad4916dbd::s008"
+    },
+    {
+      "section_id": "567ad4916dbd::s008",
+      "parent_section_id": "567ad4916dbd::s003",
+      "level": 3,
+      "heading": "Evaluate joint venture offers",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Special considerations",
+        "Buyer's Guide",
+        "Special considerations",
+        "Evaluate joint venture offers"
+      ],
+      "block_count": 3,
+      "word_count": 63,
+      "char_count": 408,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 2,
+      "first_block_index": 17,
+      "last_block_index": 19,
+      "preview": "Evaluate joint venture offers Joint ventures are permitted to submit offers under the stipulations outlined in the solicitation document. The evaluation of such offers includes verifying that all members of the joint venture are identified ",
+      "prev_section_id": "567ad4916dbd::s007",
+      "next_section_id": "567ad4916dbd::s009"
+    },
+    {
+      "section_id": "567ad4916dbd::s009",
+      "parent_section_id": "567ad4916dbd::s008",
+      "level": 4,
+      "heading": "Financial capability assessment",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Special considerations",
+        "Buyer's Guide",
+        "Special considerations",
+        "Evaluate joint venture offers",
+        "Financial capability assessment"
+      ],
+      "block_count": 3,
+      "word_count": 47,
+      "char_count": 322,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 20,
+      "last_block_index": 22,
+      "preview": "Financial capability assessment For joint ventures, a comprehensive financial capability assessment of each member is conducted to: ensure each member brings adequate financial stability and resources to the joint venture ; evaluate the col",
+      "prev_section_id": "567ad4916dbd::s008",
+      "next_section_id": "567ad4916dbd::s010"
+    },
+    {
+      "section_id": "567ad4916dbd::s010",
+      "parent_section_id": "567ad4916dbd::s003",
+      "level": 3,
+      "heading": "Offer evaluation of special program considerations",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Special considerations",
+        "Buyer's Guide",
+        "Special considerations",
+        "Offer evaluation of special program considerations"
+      ],
+      "block_count": 2,
+      "word_count": 31,
+      "char_count": 239,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 23,
+      "last_block_index": 24,
+      "preview": "Offer evaluation of special program considerations When evaluating offers consideration must be given to programs such as Canadian content, green procurement, accessible procurement and the federal Contractors Program for employment equity.",
+      "prev_section_id": "567ad4916dbd::s009",
+      "next_section_id": null
+    }
+  ],
+  "tables": [],
+  "blocks": [
+    {
+      "block_id": "567ad4916dbd::b0001",
+      "section_id": "567ad4916dbd::s001",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Special considerations",
+        "Buyer's Guide Offer evaluation - Special considerations"
+      ],
+      "markdown": "# Buyer's Guide Offer evaluation - Special considerations",
+      "plain_text": "Buyer's Guide Offer evaluation - Special considerations"
+    },
+    {
+      "block_id": "567ad4916dbd::b0002",
+      "section_id": "567ad4916dbd::s002",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Special considerations",
+        "Buyer's Guide"
+      ],
+      "markdown": "# Buyer's Guide",
+      "plain_text": "Buyer's Guide"
+    },
+    {
+      "block_id": "567ad4916dbd::b0003",
+      "section_id": "567ad4916dbd::s002",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Special considerations",
+        "Buyer's Guide"
+      ],
+      "markdown": "- Plan\n- Approve\n- Create solicitation\n- Solicit\n- Receive and evaluate\n- Negotiate\n- Award\n- Manage",
+      "plain_text": "Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage"
+    },
+    {
+      "block_id": "567ad4916dbd::b0004",
+      "section_id": "567ad4916dbd::s002",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Special considerations",
+        "Buyer's Guide"
+      ],
+      "markdown": "Special considerations Here are some special circumstances to consider during the evaluation process. One responsive offer When only one responsive offer is received in response to a competitive solicitation, you must ensure that Canada is obtaining fair value by following the guidelines below. Offer is greater than $7,500,000 You must contact a cost analyst to determine if further analysis is warranted as specified by the mandatory conditions set out in the Directive on the Use of Cost and Price Analysis Services (accessible only on the Government of Canada network). Once you have determined the offer represents fair value to Canada, the contract may be awarded using competitive authorities to the single responsive offeror. If you are not satisfied the offer represents fair value, you may consider negotiating with the offeror or cancelling and reissuing the solicitation. Offer is less than or equal to $7,500,000 You should consider using the services of a cost analyst to determine if further analysis is required as specified by the mandatory conditions set out in the Guideline on the Use of Cost and Price Analysis Services (accessible only on the Government of Canada network). Once you have determined the offer provides fair value to Canada, the contract may be awarded using competitive authorities. If you are not satisfied that the offer represents fair value, you may consider negotiating or cancelling and reissuing the solicitation. One responsive offer from a foreign contractor When the offer is from an offeror in a North Atlantic Treaty Organization (NATO) allied country (or a significant portion is being proposed to be subcontracted to an offeror in a NATO -allied country), you should consider using the services of the foreign offeror\u2019s country\u2019s government to conduct an assessment of the fairness and reasonableness of the offer. This service can be attained by submitting a request through PSPC \u2019s Price Support Directorate or consulting the guidance for price certifications and audits of foreign offerors. Evaluate joint venture offers Joint ventures are permitted to submit offers under the stipulations outlined in the solicitation document. The evaluation of such offers includes verifying that all members of the joint venture are identified and will be individually liable for the performance of the contract. If a financial capability assessment is done, then all members of the joint venture will be assessed. Financial capability assessment For joint ventures, a comprehensive financial capability assessment of each member is conducted to: ensure each member brings adequate financial stability and resources to the joint venture evaluate the collective ability of the joint venture to manage the financial demands of the contract Offer evaluation of special program considerations When evaluating offers consideration must be given to programs such as Canadian content, green procurement, accessible procurement and the federal Contractors Program for employment equity.",
+      "plain_text": "Special considerations Here are some special circumstances to consider during the evaluation process. One responsive offer When only one responsive offer is received in response to a competitive solicitation, you must ensure that Canada is obtaining fair value by following the guidelines below. Offer is greater than $7,500,000 You must contact a cost analyst to determine if further analysis is warranted as specified by the mandatory conditions set out in the Directive on the Use of Cost and Price Analysis Services (accessible only on the Government of Canada network). Once you have determined the offer represents fair value to Canada, the contract may be awarded using competitive authorities to the single responsive offeror. If you are not satisfied the offer represents fair value, you may consider negotiating with the offeror or cancelling and reissuing the solicitation. Offer is less than or equal to $7,500,000 You should consider using the services of a cost analyst to determine if further analysis is required as specified by the mandatory conditions set out in the Guideline on the Use of Cost and Price Analysis Services (accessible only on the Government of Canada network). Once you have determined the offer provides fair value to Canada, the contract may be awarded using competitive authorities. If you are not satisfied that the offer represents fair value, you may consider negotiating or cancelling and reissuing the solicitation. One responsive offer from a foreign contractor When the offer is from an offeror in a North Atlantic Treaty Organization (NATO) allied country (or a significant portion is being proposed to be subcontracted to an offeror in a NATO -allied country), you should consider using the services of the foreign offeror\u2019s country\u2019s government to conduct an assessment of the fairness and reasonableness of the offer. This service can be attained by submitting a request through PSPC \u2019s Price Support Directorate or consulting the guidance for price certifications and audits of foreign offerors. Evaluate joint venture offers Joint ventures are permitted to submit offers under the stipulations outlined in the solicitation document. The evaluation of such offers includes verifying that all members of the joint venture are identified and will be individually liable for the performance of the contract. If a financial capability assessment is done, then all members of the joint venture will be assessed. Financial capability assessment For joint ventures, a comprehensive financial capability assessment of each member is conducted to: ensure each member brings adequate financial stability and resources to the joint venture evaluate the collective ability of the joint venture to manage the financial demands of the contract Offer evaluation of special program considerations When evaluating offers consideration must be given to programs such as Canadian content, green procurement, accessible procurement and the federal Contractors Program for employment equity."
+    },
+    {
+      "block_id": "567ad4916dbd::b0005",
+      "section_id": "567ad4916dbd::s003",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Special considerations",
+        "Buyer's Guide",
+        "Special considerations"
+      ],
+      "markdown": "## Special considerations",
+      "plain_text": "Special considerations"
+    },
+    {
+      "block_id": "567ad4916dbd::b0006",
+      "section_id": "567ad4916dbd::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Special considerations",
+        "Buyer's Guide",
+        "Special considerations"
+      ],
+      "markdown": "Here are some special circumstances to consider during the evaluation process.",
+      "plain_text": "Here are some special circumstances to consider during the evaluation process."
+    },
+    {
+      "block_id": "567ad4916dbd::b0007",
+      "section_id": "567ad4916dbd::s004",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Special considerations",
+        "Buyer's Guide",
+        "Special considerations",
+        "One responsive offer"
+      ],
+      "markdown": "### One responsive offer",
+      "plain_text": "One responsive offer"
+    },
+    {
+      "block_id": "567ad4916dbd::b0008",
+      "section_id": "567ad4916dbd::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Special considerations",
+        "Buyer's Guide",
+        "Special considerations",
+        "One responsive offer"
+      ],
+      "markdown": "When only one responsive offer is received in response to a competitive solicitation, you must ensure that Canada is obtaining fair value by following the guidelines below.",
+      "plain_text": "When only one responsive offer is received in response to a competitive solicitation, you must ensure that Canada is obtaining fair value by following the guidelines below."
+    },
+    {
+      "block_id": "567ad4916dbd::b0009",
+      "section_id": "567ad4916dbd::s005",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Special considerations",
+        "Buyer's Guide",
+        "Special considerations",
+        "One responsive offer",
+        "Offer is greater than $7,500,000"
+      ],
+      "markdown": "#### Offer is greater than $7,500,000",
+      "plain_text": "Offer is greater than $7,500,000"
+    },
+    {
+      "block_id": "567ad4916dbd::b0010",
+      "section_id": "567ad4916dbd::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Special considerations",
+        "Buyer's Guide",
+        "Special considerations",
+        "One responsive offer",
+        "Offer is greater than $7,500,000"
+      ],
+      "markdown": "You must contact a cost analyst to determine if further analysis is warranted as specified by the mandatory conditions set out in the Directive on the Use of Cost and Price Analysis Services (accessible only on the Government of Canada network).",
+      "plain_text": "You must contact a cost analyst to determine if further analysis is warranted as specified by the mandatory conditions set out in the Directive on the Use of Cost and Price Analysis Services (accessible only on the Government of Canada network)."
+    },
+    {
+      "block_id": "567ad4916dbd::b0011",
+      "section_id": "567ad4916dbd::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Special considerations",
+        "Buyer's Guide",
+        "Special considerations",
+        "One responsive offer",
+        "Offer is greater than $7,500,000"
+      ],
+      "markdown": "Once you have determined the offer represents fair value to Canada, the contract may be awarded using competitive authorities to the single responsive offeror. If you are not satisfied the offer represents fair value, you may consider negotiating with the offeror or cancelling and reissuing the solicitation.",
+      "plain_text": "Once you have determined the offer represents fair value to Canada, the contract may be awarded using competitive authorities to the single responsive offeror. If you are not satisfied the offer represents fair value, you may consider negotiating with the offeror or cancelling and reissuing the solicitation."
+    },
+    {
+      "block_id": "567ad4916dbd::b0012",
+      "section_id": "567ad4916dbd::s006",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Special considerations",
+        "Buyer's Guide",
+        "Special considerations",
+        "One responsive offer",
+        "Offer is less than or equal to $7,500,000"
+      ],
+      "markdown": "#### Offer is less than or equal to $7,500,000",
+      "plain_text": "Offer is less than or equal to $7,500,000"
+    },
+    {
+      "block_id": "567ad4916dbd::b0013",
+      "section_id": "567ad4916dbd::s006",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Special considerations",
+        "Buyer's Guide",
+        "Special considerations",
+        "One responsive offer",
+        "Offer is less than or equal to $7,500,000"
+      ],
+      "markdown": "You should consider using the services of a cost analyst to determine if further analysis is required as specified by the mandatory conditions set out in the Guideline on the Use of Cost and Price Analysis Services (accessible only on the Government of Canada network).",
+      "plain_text": "You should consider using the services of a cost analyst to determine if further analysis is required as specified by the mandatory conditions set out in the Guideline on the Use of Cost and Price Analysis Services (accessible only on the Government of Canada network)."
+    },
+    {
+      "block_id": "567ad4916dbd::b0014",
+      "section_id": "567ad4916dbd::s006",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Special considerations",
+        "Buyer's Guide",
+        "Special considerations",
+        "One responsive offer",
+        "Offer is less than or equal to $7,500,000"
+      ],
+      "markdown": "Once you have determined the offer provides fair value to Canada, the contract may be awarded using competitive authorities. If you are not satisfied that the offer represents fair value, you may consider negotiating or cancelling and reissuing the solicitation.",
+      "plain_text": "Once you have determined the offer provides fair value to Canada, the contract may be awarded using competitive authorities. If you are not satisfied that the offer represents fair value, you may consider negotiating or cancelling and reissuing the solicitation."
+    },
+    {
+      "block_id": "567ad4916dbd::b0015",
+      "section_id": "567ad4916dbd::s007",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Special considerations",
+        "Buyer's Guide",
+        "Special considerations",
+        "One responsive offer",
+        "One responsive offer from a foreign contractor"
+      ],
+      "markdown": "#### One responsive offer from a foreign contractor",
+      "plain_text": "One responsive offer from a foreign contractor"
+    },
+    {
+      "block_id": "567ad4916dbd::b0016",
+      "section_id": "567ad4916dbd::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Special considerations",
+        "Buyer's Guide",
+        "Special considerations",
+        "One responsive offer",
+        "One responsive offer from a foreign contractor"
+      ],
+      "markdown": "When the offer is from an offeror in a North Atlantic Treaty Organization (NATO) allied country (or a significant portion is being proposed to be subcontracted to an offeror in a NATO -allied country), you should consider using the services of the foreign offeror\u2019s country\u2019s government to conduct an assessment of the fairness and reasonableness of the offer.",
+      "plain_text": "When the offer is from an offeror in a North Atlantic Treaty Organization (NATO) allied country (or a significant portion is being proposed to be subcontracted to an offeror in a NATO -allied country), you should consider using the services of the foreign offeror\u2019s country\u2019s government to conduct an assessment of the fairness and reasonableness of the offer."
+    },
+    {
+      "block_id": "567ad4916dbd::b0017",
+      "section_id": "567ad4916dbd::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Special considerations",
+        "Buyer's Guide",
+        "Special considerations",
+        "One responsive offer",
+        "One responsive offer from a foreign contractor"
+      ],
+      "markdown": "This service can be attained by submitting a request through PSPC \u2019s Price Support Directorate or consulting the guidance for price certifications and audits of foreign offerors.",
+      "plain_text": "This service can be attained by submitting a request through PSPC \u2019s Price Support Directorate or consulting the guidance for price certifications and audits of foreign offerors."
+    },
+    {
+      "block_id": "567ad4916dbd::b0018",
+      "section_id": "567ad4916dbd::s008",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Special considerations",
+        "Buyer's Guide",
+        "Special considerations",
+        "Evaluate joint venture offers"
+      ],
+      "markdown": "### Evaluate joint venture offers",
+      "plain_text": "Evaluate joint venture offers"
+    },
+    {
+      "block_id": "567ad4916dbd::b0019",
+      "section_id": "567ad4916dbd::s008",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Special considerations",
+        "Buyer's Guide",
+        "Special considerations",
+        "Evaluate joint venture offers"
+      ],
+      "markdown": "Joint ventures are permitted to submit offers under the stipulations outlined in the solicitation document.",
+      "plain_text": "Joint ventures are permitted to submit offers under the stipulations outlined in the solicitation document."
+    },
+    {
+      "block_id": "567ad4916dbd::b0020",
+      "section_id": "567ad4916dbd::s008",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Special considerations",
+        "Buyer's Guide",
+        "Special considerations",
+        "Evaluate joint venture offers"
+      ],
+      "markdown": "The evaluation of such offers includes verifying that all members of the joint venture are identified and will be individually liable for the performance of the contract. If a financial capability assessment is done, then all members of the joint venture will be assessed.",
+      "plain_text": "The evaluation of such offers includes verifying that all members of the joint venture are identified and will be individually liable for the performance of the contract. If a financial capability assessment is done, then all members of the joint venture will be assessed."
+    },
+    {
+      "block_id": "567ad4916dbd::b0021",
+      "section_id": "567ad4916dbd::s009",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Special considerations",
+        "Buyer's Guide",
+        "Special considerations",
+        "Evaluate joint venture offers",
+        "Financial capability assessment"
+      ],
+      "markdown": "#### Financial capability assessment",
+      "plain_text": "Financial capability assessment"
+    },
+    {
+      "block_id": "567ad4916dbd::b0022",
+      "section_id": "567ad4916dbd::s009",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Special considerations",
+        "Buyer's Guide",
+        "Special considerations",
+        "Evaluate joint venture offers",
+        "Financial capability assessment"
+      ],
+      "markdown": "For joint ventures, a comprehensive financial capability assessment of each member is conducted to:",
+      "plain_text": "For joint ventures, a comprehensive financial capability assessment of each member is conducted to:"
+    },
+    {
+      "block_id": "567ad4916dbd::b0023",
+      "section_id": "567ad4916dbd::s009",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Special considerations",
+        "Buyer's Guide",
+        "Special considerations",
+        "Evaluate joint venture offers",
+        "Financial capability assessment"
+      ],
+      "markdown": "- ensure each member brings adequate financial stability and resources to the joint venture\n- evaluate the collective ability of the joint venture to manage the financial demands of the contract",
+      "plain_text": "ensure each member brings adequate financial stability and resources to the joint venture ; evaluate the collective ability of the joint venture to manage the financial demands of the contract"
+    },
+    {
+      "block_id": "567ad4916dbd::b0024",
+      "section_id": "567ad4916dbd::s010",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Special considerations",
+        "Buyer's Guide",
+        "Special considerations",
+        "Offer evaluation of special program considerations"
+      ],
+      "markdown": "### Offer evaluation of special program considerations",
+      "plain_text": "Offer evaluation of special program considerations"
+    },
+    {
+      "block_id": "567ad4916dbd::b0025",
+      "section_id": "567ad4916dbd::s010",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Special considerations",
+        "Buyer's Guide",
+        "Special considerations",
+        "Offer evaluation of special program considerations"
+      ],
+      "markdown": "When evaluating offers consideration must be given to programs such as Canadian content, green procurement, accessible procurement and the federal Contractors Program for employment equity.",
+      "plain_text": "When evaluating offers consideration must be given to programs such as Canadian content, green procurement, accessible procurement and the federal Contractors Program for employment equity."
+    }
+  ]
+}

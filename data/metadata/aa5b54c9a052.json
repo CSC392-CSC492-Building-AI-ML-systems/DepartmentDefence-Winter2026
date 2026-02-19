@@ -1,0 +1,555 @@
+{
+  "doc_id": "aa5b54c9a052",
+  "title": "Buyer's Guide Offer evaluation - Prepare an evaluation report",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-solicitation-offers",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-solicitation-offers",
+  "doc_type": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": "2026-01-31",
+  "fetched_at": "2026-02-19T09:16:09.543762+00:00",
+  "content_hash": "06e15d891aa753d834a650fe3c3cc669dbb874323745ef43ad18868e106b0dae",
+  "word_count": 365,
+  "text_path": "data/corpus/buyers_guide__en-buyer-s-portal-buyer-s-guide-plan-contract-security-and-privacy-requirements-security-solicitation-offers__aa5b54c9a0.md",
+  "extraction_method": "buyers_guide_regions",
+  "breadcrumbs": [
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "https://canadabuys.canada.ca/en",
+      "canonical_url": "https://canadabuys.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "in_scope": true
+    },
+    {
+      "title": "Contract security and privacy requirements",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements",
+      "in_scope": true
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements",
+    "parent_doc_id": "d0c4da20ac20",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-solicitation-offers"
+    ],
+    "lineage_doc_ids": [
+      "1e29c7881335",
+      "d0c4da20ac20",
+      "aa5b54c9a052"
+    ],
+    "depth": 2,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-accounting-and-pricing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-reimbursable",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/firm-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-time/unit-rate",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/overview-key-pricing-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/price-and-currency-adjustments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/pricing-methods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/provisional-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/types-basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/application-registration",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/completing-security-requirements-check-list",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/controlled-goods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/foreign-ownership-control-or-influence",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/privacy-and-confidentiality",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-international-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-timelines",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/importance-clear-procurement-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/requisition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/review-statement-work",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/socioeconomic-requirements-definition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/standards-and-quality-assurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/choose-method-supply",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/determine-sourcing-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/developing-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/interim-policy-reciprocal-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/trade-agreement-applicability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/early-engagement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-businesses",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-clients",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-subject-matter-experts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/invoicing-instructions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/payment-instruments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/taxes-and-duties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/withholding-non-resident-contractors",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/communicating-method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/developing-selection-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/including-basis-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/specifying-evaluation-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/canadian-general-standards-board",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/compliance-canadian-electrical-code",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/contractor-liability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/emergency-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/employer/employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/fairness-monitoring",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/insurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/intellectual-property-and-copyright",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/liability-and-risk-management",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/managing-urgent-acquisitions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/official-languages-obligation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/warranties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/holdbacks",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/incentives",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/accessibility",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/anti-forced-labour-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/green-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/indigenous-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review/determine-if-peer-review-required",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review/roles-and-accountabilities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/apply-phased-offer-compliance-process",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/conduct-financial-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/conduct-technical-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/decision-making-and-approvals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/evaluate-offeror-s-financial-capability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/evaluation-process",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/prepare-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/special-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/handle-late-or-delayed-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/handle-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/verify-offers"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review/determine-if-peer-review-required",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/consider-peer-review/roles-and-accountabilities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/apply-phased-offer-compliance-process",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/conduct-financial-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/conduct-technical-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/decision-making-and-approvals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/evaluate-offeror-s-financial-capability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/evaluation-process",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/prepare-evaluation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/offer-evaluation/special-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/handle-late-or-delayed-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/handle-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers/verify-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure": {
+    "block_count": 15,
+    "section_count": 8,
+    "heading_count": 7,
+    "paragraph_count": 6,
+    "list_count": 2,
+    "table_count": 0
+  },
+  "sections": [
+    {
+      "section_id": "aa5b54c9a052::root",
+      "parent_section_id": null,
+      "level": 0,
+      "heading": "Buyer's Guide Offer evaluation - Prepare an evaluation report",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Prepare an evaluation report"
+      ],
+      "block_count": 0,
+      "word_count": 0,
+      "char_count": 0,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": null,
+      "last_block_index": null,
+      "preview": "",
+      "prev_section_id": null,
+      "next_section_id": null
+    },
+    {
+      "section_id": "aa5b54c9a052::s001",
+      "parent_section_id": "aa5b54c9a052::root",
+      "level": 1,
+      "heading": "Buyer's Guide Offer evaluation - Prepare an evaluation report",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Prepare an evaluation report",
+        "Buyer's Guide Offer evaluation - Prepare an evaluation report"
+      ],
+      "block_count": 1,
+      "word_count": 9,
+      "char_count": 61,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 0,
+      "last_block_index": 0,
+      "preview": "Buyer's Guide Offer evaluation - Prepare an evaluation report",
+      "prev_section_id": null,
+      "next_section_id": "aa5b54c9a052::s002"
+    },
+    {
+      "section_id": "aa5b54c9a052::s002",
+      "parent_section_id": "aa5b54c9a052::root",
+      "level": 1,
+      "heading": "Buyer's Guide",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Prepare an evaluation report",
+        "Buyer's Guide"
+      ],
+      "block_count": 3,
+      "word_count": 187,
+      "char_count": 1193,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 1,
+      "last_block_index": 3,
+      "preview": "Buyer's Guide Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage Prepare an evaluation report An evaluation report must be prepared detailing the process used to review offers. It must include",
+      "prev_section_id": "aa5b54c9a052::s001",
+      "next_section_id": "aa5b54c9a052::s003"
+    },
+    {
+      "section_id": "aa5b54c9a052::s003",
+      "parent_section_id": "aa5b54c9a052::s002",
+      "level": 2,
+      "heading": "Prepare an evaluation report",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Prepare an evaluation report",
+        "Buyer's Guide",
+        "Prepare an evaluation report"
+      ],
+      "block_count": 2,
+      "word_count": 36,
+      "char_count": 225,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 4,
+      "last_block_index": 5,
+      "preview": "Prepare an evaluation report An evaluation report must be prepared detailing the process used to review offers. It must include any clarifications requested and the basis for the final decision to rank and select the offerors.",
+      "prev_section_id": "aa5b54c9a052::s002",
+      "next_section_id": "aa5b54c9a052::s004"
+    },
+    {
+      "section_id": "aa5b54c9a052::s004",
+      "parent_section_id": "aa5b54c9a052::s003",
+      "level": 3,
+      "heading": "Contents of the report",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Prepare an evaluation report",
+        "Buyer's Guide",
+        "Prepare an evaluation report",
+        "Contents of the report"
+      ],
+      "block_count": 3,
+      "word_count": 38,
+      "char_count": 236,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 6,
+      "last_block_index": 8,
+      "preview": "Contents of the report The evaluation report should outline: the criteria used for evaluation ; the rationale for mandatory and point ratings for each criterion ; the names and contact information of all evaluators involved in the process",
+      "prev_section_id": "aa5b54c9a052::s003",
+      "next_section_id": "aa5b54c9a052::s005"
+    },
+    {
+      "section_id": "aa5b54c9a052::s005",
+      "parent_section_id": "aa5b54c9a052::s003",
+      "level": 3,
+      "heading": "Signatures",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Prepare an evaluation report",
+        "Buyer's Guide",
+        "Prepare an evaluation report",
+        "Signatures"
+      ],
+      "block_count": 2,
+      "word_count": 20,
+      "char_count": 129,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 9,
+      "last_block_index": 10,
+      "preview": "Signatures All individuals involved in the evaluation are required to sign the report to validate the findings and decisions made.",
+      "prev_section_id": "aa5b54c9a052::s004",
+      "next_section_id": "aa5b54c9a052::s006"
+    },
+    {
+      "section_id": "aa5b54c9a052::s006",
+      "parent_section_id": "aa5b54c9a052::s003",
+      "level": 3,
+      "heading": "Record keeping",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Prepare an evaluation report",
+        "Buyer's Guide",
+        "Prepare an evaluation report",
+        "Record keeping"
+      ],
+      "block_count": 2,
+      "word_count": 30,
+      "char_count": 189,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 11,
+      "last_block_index": 12,
+      "preview": "Record keeping All notes taken during the evaluation process must be preserved in their original form. These documents must be retained in the procurement file for audit and review purposes.",
+      "prev_section_id": "aa5b54c9a052::s005",
+      "next_section_id": "aa5b54c9a052::s007"
+    },
+    {
+      "section_id": "aa5b54c9a052::s007",
+      "parent_section_id": "aa5b54c9a052::s003",
+      "level": 3,
+      "heading": "Additional tools",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Prepare an evaluation report",
+        "Buyer's Guide",
+        "Prepare an evaluation report",
+        "Additional tools"
+      ],
+      "block_count": 2,
+      "word_count": 45,
+      "char_count": 297,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 13,
+      "last_block_index": 14,
+      "preview": "Additional tools In some regions, checklists have been developed to help you tabulate offers. Use these tools where applicable to ensure consistency and thoroughness in the evaluation process. If you're unsure whether such tools have been c",
+      "prev_section_id": "aa5b54c9a052::s006",
+      "next_section_id": null
+    }
+  ],
+  "tables": [],
+  "blocks": [
+    {
+      "block_id": "aa5b54c9a052::b0001",
+      "section_id": "aa5b54c9a052::s001",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Prepare an evaluation report",
+        "Buyer's Guide Offer evaluation - Prepare an evaluation report"
+      ],
+      "markdown": "# Buyer's Guide Offer evaluation - Prepare an evaluation report",
+      "plain_text": "Buyer's Guide Offer evaluation - Prepare an evaluation report"
+    },
+    {
+      "block_id": "aa5b54c9a052::b0002",
+      "section_id": "aa5b54c9a052::s002",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Prepare an evaluation report",
+        "Buyer's Guide"
+      ],
+      "markdown": "# Buyer's Guide",
+      "plain_text": "Buyer's Guide"
+    },
+    {
+      "block_id": "aa5b54c9a052::b0003",
+      "section_id": "aa5b54c9a052::s002",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Prepare an evaluation report",
+        "Buyer's Guide"
+      ],
+      "markdown": "- Plan\n- Approve\n- Create solicitation\n- Solicit\n- Receive and evaluate\n- Negotiate\n- Award\n- Manage",
+      "plain_text": "Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage"
+    },
+    {
+      "block_id": "aa5b54c9a052::b0004",
+      "section_id": "aa5b54c9a052::s002",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Prepare an evaluation report",
+        "Buyer's Guide"
+      ],
+      "markdown": "Prepare an evaluation report An evaluation report must be prepared detailing the process used to review offers. It must include any clarifications requested and the basis for the final decision to rank and select the offerors. Contents of the report The evaluation report should outline: the criteria used for evaluation the rationale for mandatory and point ratings for each criterion the names and contact information of all evaluators involved in the process Signatures All individuals involved in the evaluation are required to sign the report to validate the findings and decisions made. Record keeping All notes taken during the evaluation process must be preserved in their original form. These documents must be retained in the procurement file for audit and review purposes. Additional tools In some regions, checklists have been developed to help you tabulate offers. Use these tools where applicable to ensure consistency and thoroughness in the evaluation process. If you're unsure whether such tools have been created for your region, consult your manager for guidance.",
+      "plain_text": "Prepare an evaluation report An evaluation report must be prepared detailing the process used to review offers. It must include any clarifications requested and the basis for the final decision to rank and select the offerors. Contents of the report The evaluation report should outline: the criteria used for evaluation the rationale for mandatory and point ratings for each criterion the names and contact information of all evaluators involved in the process Signatures All individuals involved in the evaluation are required to sign the report to validate the findings and decisions made. Record keeping All notes taken during the evaluation process must be preserved in their original form. These documents must be retained in the procurement file for audit and review purposes. Additional tools In some regions, checklists have been developed to help you tabulate offers. Use these tools where applicable to ensure consistency and thoroughness in the evaluation process. If you're unsure whether such tools have been created for your region, consult your manager for guidance."
+    },
+    {
+      "block_id": "aa5b54c9a052::b0005",
+      "section_id": "aa5b54c9a052::s003",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Prepare an evaluation report",
+        "Buyer's Guide",
+        "Prepare an evaluation report"
+      ],
+      "markdown": "## Prepare an evaluation report",
+      "plain_text": "Prepare an evaluation report"
+    },
+    {
+      "block_id": "aa5b54c9a052::b0006",
+      "section_id": "aa5b54c9a052::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Prepare an evaluation report",
+        "Buyer's Guide",
+        "Prepare an evaluation report"
+      ],
+      "markdown": "An evaluation report must be prepared detailing the process used to review offers. It must include any clarifications requested and the basis for the final decision to rank and select the offerors.",
+      "plain_text": "An evaluation report must be prepared detailing the process used to review offers. It must include any clarifications requested and the basis for the final decision to rank and select the offerors."
+    },
+    {
+      "block_id": "aa5b54c9a052::b0007",
+      "section_id": "aa5b54c9a052::s004",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Prepare an evaluation report",
+        "Buyer's Guide",
+        "Prepare an evaluation report",
+        "Contents of the report"
+      ],
+      "markdown": "### Contents of the report",
+      "plain_text": "Contents of the report"
+    },
+    {
+      "block_id": "aa5b54c9a052::b0008",
+      "section_id": "aa5b54c9a052::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Prepare an evaluation report",
+        "Buyer's Guide",
+        "Prepare an evaluation report",
+        "Contents of the report"
+      ],
+      "markdown": "The evaluation report should outline:",
+      "plain_text": "The evaluation report should outline:"
+    },
+    {
+      "block_id": "aa5b54c9a052::b0009",
+      "section_id": "aa5b54c9a052::s004",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Prepare an evaluation report",
+        "Buyer's Guide",
+        "Prepare an evaluation report",
+        "Contents of the report"
+      ],
+      "markdown": "- the criteria used for evaluation\n- the rationale for mandatory and point ratings for each criterion\n- the names and contact information of all evaluators involved in the process",
+      "plain_text": "the criteria used for evaluation ; the rationale for mandatory and point ratings for each criterion ; the names and contact information of all evaluators involved in the process"
+    },
+    {
+      "block_id": "aa5b54c9a052::b0010",
+      "section_id": "aa5b54c9a052::s005",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Prepare an evaluation report",
+        "Buyer's Guide",
+        "Prepare an evaluation report",
+        "Signatures"
+      ],
+      "markdown": "### Signatures",
+      "plain_text": "Signatures"
+    },
+    {
+      "block_id": "aa5b54c9a052::b0011",
+      "section_id": "aa5b54c9a052::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Prepare an evaluation report",
+        "Buyer's Guide",
+        "Prepare an evaluation report",
+        "Signatures"
+      ],
+      "markdown": "All individuals involved in the evaluation are required to sign the report to validate the findings and decisions made.",
+      "plain_text": "All individuals involved in the evaluation are required to sign the report to validate the findings and decisions made."
+    },
+    {
+      "block_id": "aa5b54c9a052::b0012",
+      "section_id": "aa5b54c9a052::s006",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Prepare an evaluation report",
+        "Buyer's Guide",
+        "Prepare an evaluation report",
+        "Record keeping"
+      ],
+      "markdown": "### Record keeping",
+      "plain_text": "Record keeping"
+    },
+    {
+      "block_id": "aa5b54c9a052::b0013",
+      "section_id": "aa5b54c9a052::s006",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Prepare an evaluation report",
+        "Buyer's Guide",
+        "Prepare an evaluation report",
+        "Record keeping"
+      ],
+      "markdown": "All notes taken during the evaluation process must be preserved in their original form. These documents must be retained in the procurement file for audit and review purposes.",
+      "plain_text": "All notes taken during the evaluation process must be preserved in their original form. These documents must be retained in the procurement file for audit and review purposes."
+    },
+    {
+      "block_id": "aa5b54c9a052::b0014",
+      "section_id": "aa5b54c9a052::s007",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Prepare an evaluation report",
+        "Buyer's Guide",
+        "Prepare an evaluation report",
+        "Additional tools"
+      ],
+      "markdown": "### Additional tools",
+      "plain_text": "Additional tools"
+    },
+    {
+      "block_id": "aa5b54c9a052::b0015",
+      "section_id": "aa5b54c9a052::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Offer evaluation - Prepare an evaluation report",
+        "Buyer's Guide",
+        "Prepare an evaluation report",
+        "Additional tools"
+      ],
+      "markdown": "In some regions, checklists have been developed to help you tabulate offers. Use these tools where applicable to ensure consistency and thoroughness in the evaluation process. If you're unsure whether such tools have been created for your region, consult your manager for guidance.",
+      "plain_text": "In some regions, checklists have been developed to help you tabulate offers. Use these tools where applicable to ensure consistency and thoroughness in the evaluation process. If you're unsure whether such tools have been created for your region, consult your manager for guidance."
+    }
+  ]
+}

@@ -1,0 +1,634 @@
+{
+  "doc_id": "b9111e3e4fd9",
+  "title": "Buyer's Guide Other planning considerations - Fairness monitoring",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/fairness-monitoring",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/fairness-monitoring",
+  "doc_type": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": "2026-02-13",
+  "fetched_at": "2026-02-19T09:17:04.342915+00:00",
+  "content_hash": "a6376515a8f1ce2a25cc29b5f5672870bc44aa0f865e66e1a114129ee7e5e672",
+  "word_count": 750,
+  "text_path": "data/corpus/buyers_guide__en-buyer-s-portal-buyer-s-guide-plan-other-planning-considerations-fairness-monitoring__b9111e3e4f.md",
+  "extraction_method": "buyers_guide_regions",
+  "breadcrumbs": [
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "https://canadabuys.canada.ca/en",
+      "canonical_url": "https://canadabuys.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "in_scope": true
+    },
+    {
+      "title": "Other planning considerations",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations",
+      "in_scope": true
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations",
+    "parent_doc_id": "256b3c51a8fa",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/fairness-monitoring"
+    ],
+    "lineage_doc_ids": [
+      "1e29c7881335",
+      "256b3c51a8fa",
+      "b9111e3e4fd9"
+    ],
+    "depth": 2,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-accounting-and-pricing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-reimbursable",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/firm-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-time/unit-rate",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/overview-key-pricing-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/price-and-currency-adjustments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/pricing-methods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/provisional-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/types-basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/application-registration",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/completing-security-requirements-check-list",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/controlled-goods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/foreign-ownership-control-or-influence",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/privacy-and-confidentiality",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-international-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-timelines",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/importance-clear-procurement-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/requisition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/review-statement-work",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/socioeconomic-requirements-definition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/standards-and-quality-assurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/choose-method-supply",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/determine-sourcing-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/developing-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/interim-policy-reciprocal-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/trade-agreement-applicability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/early-engagement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-businesses",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-clients",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-subject-matter-experts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/invoicing-instructions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/payment-instruments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/taxes-and-duties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/withholding-non-resident-contractors",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/communicating-method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/developing-selection-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/including-basis-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/specifying-evaluation-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/canadian-general-standards-board",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/compliance-canadian-electrical-code",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/contractor-liability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/emergency-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/employer/employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/insurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/intellectual-property-and-copyright",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/liability-and-risk-management",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/managing-urgent-acquisitions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/official-languages-obligation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/warranties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/holdbacks",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/incentives",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/accessibility",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/anti-forced-labour-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/green-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/indigenous-considerations"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-accounting-and-pricing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-reimbursable",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/firm-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-time/unit-rate",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/overview-key-pricing-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/price-and-currency-adjustments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/pricing-methods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/provisional-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/types-basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/application-registration",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/completing-security-requirements-check-list",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/controlled-goods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/foreign-ownership-control-or-influence",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/privacy-and-confidentiality",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-international-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-timelines",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/importance-clear-procurement-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/requisition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/review-statement-work",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/socioeconomic-requirements-definition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/standards-and-quality-assurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/choose-method-supply",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/determine-sourcing-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/developing-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/interim-policy-reciprocal-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/trade-agreement-applicability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/early-engagement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-businesses",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-clients",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-subject-matter-experts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/invoicing-instructions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/payment-instruments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/taxes-and-duties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/withholding-non-resident-contractors",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/communicating-method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/developing-selection-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/including-basis-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/specifying-evaluation-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/canadian-general-standards-board",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/compliance-canadian-electrical-code",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/contractor-liability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/emergency-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/employer/employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/insurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/intellectual-property-and-copyright",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/liability-and-risk-management",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/managing-urgent-acquisitions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/official-languages-obligation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/warranties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/holdbacks",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/incentives",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/accessibility",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/anti-forced-labour-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/green-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/indigenous-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure": {
+    "block_count": 18,
+    "section_count": 8,
+    "heading_count": 7,
+    "paragraph_count": 9,
+    "list_count": 2,
+    "table_count": 0
+  },
+  "sections": [
+    {
+      "section_id": "b9111e3e4fd9::root",
+      "parent_section_id": null,
+      "level": 0,
+      "heading": "Buyer's Guide Other planning considerations - Fairness monitoring",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Fairness monitoring"
+      ],
+      "block_count": 0,
+      "word_count": 0,
+      "char_count": 0,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": null,
+      "last_block_index": null,
+      "preview": "",
+      "prev_section_id": null,
+      "next_section_id": null
+    },
+    {
+      "section_id": "b9111e3e4fd9::s001",
+      "parent_section_id": "b9111e3e4fd9::root",
+      "level": 1,
+      "heading": "Buyer's Guide Other planning considerations - Fairness monitoring",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Fairness monitoring",
+        "Buyer's Guide Other planning considerations - Fairness monitoring"
+      ],
+      "block_count": 1,
+      "word_count": 8,
+      "char_count": 65,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 0,
+      "last_block_index": 0,
+      "preview": "Buyer's Guide Other planning considerations - Fairness monitoring",
+      "prev_section_id": null,
+      "next_section_id": "b9111e3e4fd9::s002"
+    },
+    {
+      "section_id": "b9111e3e4fd9::s002",
+      "parent_section_id": "b9111e3e4fd9::root",
+      "level": 1,
+      "heading": "Buyer's Guide",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Fairness monitoring",
+        "Buyer's Guide"
+      ],
+      "block_count": 3,
+      "word_count": 380,
+      "char_count": 2546,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 1,
+      "last_block_index": 3,
+      "preview": "Buyer's Guide Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage Fairness monitoring As a PSPC buyer, you must evaluate the potential benefits of using a fairness monitor during the procuremen",
+      "prev_section_id": "b9111e3e4fd9::s001",
+      "next_section_id": "b9111e3e4fd9::s003"
+    },
+    {
+      "section_id": "b9111e3e4fd9::s003",
+      "parent_section_id": "b9111e3e4fd9::s002",
+      "level": 2,
+      "heading": "Fairness monitoring",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Fairness monitoring",
+        "Buyer's Guide",
+        "Fairness monitoring"
+      ],
+      "block_count": 6,
+      "word_count": 201,
+      "char_count": 1315,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 4,
+      "first_block_index": 4,
+      "last_block_index": 9,
+      "preview": "Fairness monitoring As a PSPC buyer, you must evaluate the potential benefits of using a fairness monitor during the procurement planning phase for any competitive procurement with one or more of the following characteristics: approval leve",
+      "prev_section_id": "b9111e3e4fd9::s002",
+      "next_section_id": "b9111e3e4fd9::s004"
+    },
+    {
+      "section_id": "b9111e3e4fd9::s004",
+      "parent_section_id": "b9111e3e4fd9::s003",
+      "level": 3,
+      "heading": "Responsibilities of a fairness monitor",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Fairness monitoring",
+        "Buyer's Guide",
+        "Fairness monitoring",
+        "Responsibilities of a fairness monitor"
+      ],
+      "block_count": 2,
+      "word_count": 21,
+      "char_count": 159,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 10,
+      "last_block_index": 11,
+      "preview": "Responsibilities of a fairness monitor A fairness monitor has several responsibilities to ensure fairness, openness and transparency of the procurement process.",
+      "prev_section_id": "b9111e3e4fd9::s003",
+      "next_section_id": "b9111e3e4fd9::s005"
+    },
+    {
+      "section_id": "b9111e3e4fd9::s005",
+      "parent_section_id": "b9111e3e4fd9::s004",
+      "level": 4,
+      "heading": "Reporting",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Fairness monitoring",
+        "Buyer's Guide",
+        "Fairness monitoring",
+        "Responsibilities of a fairness monitor",
+        "Reporting"
+      ],
+      "block_count": 2,
+      "word_count": 44,
+      "char_count": 299,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 12,
+      "last_block_index": 13,
+      "preview": "Reporting A fairness monitor is responsible for providing written reports to the branch responsible for oversight, in accordance with their contract's statement of work. These reports will attest to the fairness, openness and transparency o",
+      "prev_section_id": "b9111e3e4fd9::s004",
+      "next_section_id": "b9111e3e4fd9::s006"
+    },
+    {
+      "section_id": "b9111e3e4fd9::s006",
+      "parent_section_id": "b9111e3e4fd9::s004",
+      "level": 4,
+      "heading": "Observation and action",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Fairness monitoring",
+        "Buyer's Guide",
+        "Fairness monitoring",
+        "Responsibilities of a fairness monitor",
+        "Observation and action"
+      ],
+      "block_count": 2,
+      "word_count": 47,
+      "char_count": 303,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 14,
+      "last_block_index": 15,
+      "preview": "Observation and action If a fairness monitor observes a situation that could lead to or has already led to fairness deficiencies, they will inform the project team of their concerns and seek a resolution. If unresolvable, the fairness monit",
+      "prev_section_id": "b9111e3e4fd9::s005",
+      "next_section_id": "b9111e3e4fd9::s007"
+    },
+    {
+      "section_id": "b9111e3e4fd9::s007",
+      "parent_section_id": "b9111e3e4fd9::s004",
+      "level": 4,
+      "heading": "Final reporting",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Fairness monitoring",
+        "Buyer's Guide",
+        "Fairness monitoring",
+        "Responsibilities of a fairness monitor",
+        "Final reporting"
+      ],
+      "block_count": 2,
+      "word_count": 49,
+      "char_count": 350,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 16,
+      "last_block_index": 17,
+      "preview": "Final reporting A fairness monitor will submit a final report to the department responsible for oversight. This report will include their overall attestation on the fairness, openness and transparency of the monitored activity, detailing an",
+      "prev_section_id": "b9111e3e4fd9::s006",
+      "next_section_id": null
+    }
+  ],
+  "tables": [],
+  "blocks": [
+    {
+      "block_id": "b9111e3e4fd9::b0001",
+      "section_id": "b9111e3e4fd9::s001",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Fairness monitoring",
+        "Buyer's Guide Other planning considerations - Fairness monitoring"
+      ],
+      "markdown": "# Buyer's Guide Other planning considerations - Fairness monitoring",
+      "plain_text": "Buyer's Guide Other planning considerations - Fairness monitoring"
+    },
+    {
+      "block_id": "b9111e3e4fd9::b0002",
+      "section_id": "b9111e3e4fd9::s002",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Fairness monitoring",
+        "Buyer's Guide"
+      ],
+      "markdown": "# Buyer's Guide",
+      "plain_text": "Buyer's Guide"
+    },
+    {
+      "block_id": "b9111e3e4fd9::b0003",
+      "section_id": "b9111e3e4fd9::s002",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Fairness monitoring",
+        "Buyer's Guide"
+      ],
+      "markdown": "- Plan\n- Approve\n- Create solicitation\n- Solicit\n- Receive and evaluate\n- Negotiate\n- Award\n- Manage",
+      "plain_text": "Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage"
+    },
+    {
+      "block_id": "b9111e3e4fd9::b0004",
+      "section_id": "b9111e3e4fd9::s002",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Fairness monitoring",
+        "Buyer's Guide"
+      ],
+      "markdown": "Fairness monitoring As a PSPC buyer, you must evaluate the potential benefits of using a fairness monitor during the procurement planning phase for any competitive procurement with one or more of the following characteristics: approval level of Minister or above Procurement Complexity Assessment of level 4 or 5 Procurement Risk Assessment of 'medium high' or 'high' During the procurement planning phase, you can use a fairness monitor on an optional basis, if an enhanced assurance of fairness is desired. This includes at a client's request or following a previous litigation. For both mandatory and optional fairness monitor assessments, PSPC buyers must complete the Fairness Monitoring Coverage Assessment and Recommendation form PWGSC-TPSGC 587 (accessible only on the Government of Canada network). This form must be completed and submitted according to the form\u2019s instructions. Signatures are required from the Assistant Deputy Minister (ADM) of the branch responsible for oversight and the ADM , Procurement Branch, or Defence and Marine Procurement Branch. For more information, see the PSPC Policy on Fairness Monitoring (accessible only on the Government of Canada network - for PSPC only) and the Fairness Monitoring intranet site (accessible only on the Government of Canada network - for PSPC only). Responsibilities of a fairness monitor A fairness monitor has several responsibilities to ensure fairness, openness and transparency of the procurement process. Reporting A fairness monitor is responsible for providing written reports to the branch responsible for oversight, in accordance with their contract's statement of work. These reports will attest to the fairness, openness and transparency of the procurement process they have been engaged to support. Observation and action If a fairness monitor observes a situation that could lead to or has already led to fairness deficiencies, they will inform the project team of their concerns and seek a resolution. If unresolvable, the fairness monitor will immediately notify the branch responsible for oversight. Final reporting A fairness monitor will submit a final report to the department responsible for oversight. This report will include their overall attestation on the fairness, openness and transparency of the monitored activity, detailing any unresolved, observed fairness deficiencies. This report will be made public post-review by senior management.",
+      "plain_text": "Fairness monitoring As a PSPC buyer, you must evaluate the potential benefits of using a fairness monitor during the procurement planning phase for any competitive procurement with one or more of the following characteristics: approval level of Minister or above Procurement Complexity Assessment of level 4 or 5 Procurement Risk Assessment of 'medium high' or 'high' During the procurement planning phase, you can use a fairness monitor on an optional basis, if an enhanced assurance of fairness is desired. This includes at a client's request or following a previous litigation. For both mandatory and optional fairness monitor assessments, PSPC buyers must complete the Fairness Monitoring Coverage Assessment and Recommendation form PWGSC-TPSGC 587 (accessible only on the Government of Canada network). This form must be completed and submitted according to the form\u2019s instructions. Signatures are required from the Assistant Deputy Minister (ADM) of the branch responsible for oversight and the ADM , Procurement Branch, or Defence and Marine Procurement Branch. For more information, see the PSPC Policy on Fairness Monitoring (accessible only on the Government of Canada network - for PSPC only) and the Fairness Monitoring intranet site (accessible only on the Government of Canada network - for PSPC only). Responsibilities of a fairness monitor A fairness monitor has several responsibilities to ensure fairness, openness and transparency of the procurement process. Reporting A fairness monitor is responsible for providing written reports to the branch responsible for oversight, in accordance with their contract's statement of work. These reports will attest to the fairness, openness and transparency of the procurement process they have been engaged to support. Observation and action If a fairness monitor observes a situation that could lead to or has already led to fairness deficiencies, they will inform the project team of their concerns and seek a resolution. If unresolvable, the fairness monitor will immediately notify the branch responsible for oversight. Final reporting A fairness monitor will submit a final report to the department responsible for oversight. This report will include their overall attestation on the fairness, openness and transparency of the monitored activity, detailing any unresolved, observed fairness deficiencies. This report will be made public post-review by senior management."
+    },
+    {
+      "block_id": "b9111e3e4fd9::b0005",
+      "section_id": "b9111e3e4fd9::s003",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Fairness monitoring",
+        "Buyer's Guide",
+        "Fairness monitoring"
+      ],
+      "markdown": "## Fairness monitoring",
+      "plain_text": "Fairness monitoring"
+    },
+    {
+      "block_id": "b9111e3e4fd9::b0006",
+      "section_id": "b9111e3e4fd9::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Fairness monitoring",
+        "Buyer's Guide",
+        "Fairness monitoring"
+      ],
+      "markdown": "As a PSPC buyer, you must evaluate the potential benefits of using a fairness monitor during the procurement planning phase for any competitive procurement with one or more of the following characteristics:",
+      "plain_text": "As a PSPC buyer, you must evaluate the potential benefits of using a fairness monitor during the procurement planning phase for any competitive procurement with one or more of the following characteristics:"
+    },
+    {
+      "block_id": "b9111e3e4fd9::b0007",
+      "section_id": "b9111e3e4fd9::s003",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Fairness monitoring",
+        "Buyer's Guide",
+        "Fairness monitoring"
+      ],
+      "markdown": "- approval level of Minister or above\n- Procurement Complexity Assessment of level 4 or 5\n- Procurement Risk Assessment of 'medium high' or 'high'",
+      "plain_text": "approval level of Minister or above ; Procurement Complexity Assessment of level 4 or 5 ; Procurement Risk Assessment of 'medium high' or 'high'"
+    },
+    {
+      "block_id": "b9111e3e4fd9::b0008",
+      "section_id": "b9111e3e4fd9::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Fairness monitoring",
+        "Buyer's Guide",
+        "Fairness monitoring"
+      ],
+      "markdown": "During the procurement planning phase, you can use a fairness monitor on an optional basis, if an enhanced assurance of fairness is desired. This includes at a client's request or following a previous litigation.",
+      "plain_text": "During the procurement planning phase, you can use a fairness monitor on an optional basis, if an enhanced assurance of fairness is desired. This includes at a client's request or following a previous litigation."
+    },
+    {
+      "block_id": "b9111e3e4fd9::b0009",
+      "section_id": "b9111e3e4fd9::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Fairness monitoring",
+        "Buyer's Guide",
+        "Fairness monitoring"
+      ],
+      "markdown": "For both mandatory and optional fairness monitor assessments, PSPC buyers must complete the Fairness Monitoring Coverage Assessment and Recommendation form PWGSC-TPSGC 587 (accessible only on the Government of Canada network). This form must be completed and submitted according to the form\u2019s instructions. Signatures are required from the Assistant Deputy Minister (ADM) of the branch responsible for oversight and the ADM , Procurement Branch, or Defence and Marine Procurement Branch.",
+      "plain_text": "For both mandatory and optional fairness monitor assessments, PSPC buyers must complete the Fairness Monitoring Coverage Assessment and Recommendation form PWGSC-TPSGC 587 (accessible only on the Government of Canada network). This form must be completed and submitted according to the form\u2019s instructions. Signatures are required from the Assistant Deputy Minister (ADM) of the branch responsible for oversight and the ADM , Procurement Branch, or Defence and Marine Procurement Branch."
+    },
+    {
+      "block_id": "b9111e3e4fd9::b0010",
+      "section_id": "b9111e3e4fd9::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Fairness monitoring",
+        "Buyer's Guide",
+        "Fairness monitoring"
+      ],
+      "markdown": "For more information, see the PSPC Policy on Fairness Monitoring (accessible only on the Government of Canada network - for PSPC only) and the Fairness Monitoring intranet site (accessible only on the Government of Canada network - for PSPC only).",
+      "plain_text": "For more information, see the PSPC Policy on Fairness Monitoring (accessible only on the Government of Canada network - for PSPC only) and the Fairness Monitoring intranet site (accessible only on the Government of Canada network - for PSPC only)."
+    },
+    {
+      "block_id": "b9111e3e4fd9::b0011",
+      "section_id": "b9111e3e4fd9::s004",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Fairness monitoring",
+        "Buyer's Guide",
+        "Fairness monitoring",
+        "Responsibilities of a fairness monitor"
+      ],
+      "markdown": "### Responsibilities of a fairness monitor",
+      "plain_text": "Responsibilities of a fairness monitor"
+    },
+    {
+      "block_id": "b9111e3e4fd9::b0012",
+      "section_id": "b9111e3e4fd9::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Fairness monitoring",
+        "Buyer's Guide",
+        "Fairness monitoring",
+        "Responsibilities of a fairness monitor"
+      ],
+      "markdown": "A fairness monitor has several responsibilities to ensure fairness, openness and transparency of the procurement process.",
+      "plain_text": "A fairness monitor has several responsibilities to ensure fairness, openness and transparency of the procurement process."
+    },
+    {
+      "block_id": "b9111e3e4fd9::b0013",
+      "section_id": "b9111e3e4fd9::s005",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Fairness monitoring",
+        "Buyer's Guide",
+        "Fairness monitoring",
+        "Responsibilities of a fairness monitor",
+        "Reporting"
+      ],
+      "markdown": "#### Reporting",
+      "plain_text": "Reporting"
+    },
+    {
+      "block_id": "b9111e3e4fd9::b0014",
+      "section_id": "b9111e3e4fd9::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Fairness monitoring",
+        "Buyer's Guide",
+        "Fairness monitoring",
+        "Responsibilities of a fairness monitor",
+        "Reporting"
+      ],
+      "markdown": "A fairness monitor is responsible for providing written reports to the branch responsible for oversight, in accordance with their contract's statement of work. These reports will attest to the fairness, openness and transparency of the procurement process they have been engaged to support.",
+      "plain_text": "A fairness monitor is responsible for providing written reports to the branch responsible for oversight, in accordance with their contract's statement of work. These reports will attest to the fairness, openness and transparency of the procurement process they have been engaged to support."
+    },
+    {
+      "block_id": "b9111e3e4fd9::b0015",
+      "section_id": "b9111e3e4fd9::s006",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Fairness monitoring",
+        "Buyer's Guide",
+        "Fairness monitoring",
+        "Responsibilities of a fairness monitor",
+        "Observation and action"
+      ],
+      "markdown": "#### Observation and action",
+      "plain_text": "Observation and action"
+    },
+    {
+      "block_id": "b9111e3e4fd9::b0016",
+      "section_id": "b9111e3e4fd9::s006",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Fairness monitoring",
+        "Buyer's Guide",
+        "Fairness monitoring",
+        "Responsibilities of a fairness monitor",
+        "Observation and action"
+      ],
+      "markdown": "If a fairness monitor observes a situation that could lead to or has already led to fairness deficiencies, they will inform the project team of their concerns and seek a resolution. If unresolvable, the fairness monitor will immediately notify the branch responsible for oversight.",
+      "plain_text": "If a fairness monitor observes a situation that could lead to or has already led to fairness deficiencies, they will inform the project team of their concerns and seek a resolution. If unresolvable, the fairness monitor will immediately notify the branch responsible for oversight."
+    },
+    {
+      "block_id": "b9111e3e4fd9::b0017",
+      "section_id": "b9111e3e4fd9::s007",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Fairness monitoring",
+        "Buyer's Guide",
+        "Fairness monitoring",
+        "Responsibilities of a fairness monitor",
+        "Final reporting"
+      ],
+      "markdown": "#### Final reporting",
+      "plain_text": "Final reporting"
+    },
+    {
+      "block_id": "b9111e3e4fd9::b0018",
+      "section_id": "b9111e3e4fd9::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Other planning considerations - Fairness monitoring",
+        "Buyer's Guide",
+        "Fairness monitoring",
+        "Responsibilities of a fairness monitor",
+        "Final reporting"
+      ],
+      "markdown": "A fairness monitor will submit a final report to the department responsible for oversight. This report will include their overall attestation on the fairness, openness and transparency of the monitored activity, detailing any unresolved, observed fairness deficiencies. This report will be made public post-review by senior management.",
+      "plain_text": "A fairness monitor will submit a final report to the department responsible for oversight. This report will include their overall attestation on the fairness, openness and transparency of the monitored activity, detailing any unresolved, observed fairness deficiencies. This report will be made public post-review by senior management."
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+# Buyer's Guide Offer evaluation - Evaluate an offeror’s financial capability
+
+# Buyer's Guide
+
+- Plan
+- Approve
+- Create solicitation
+- Solicit
+- Receive and evaluate
+- Negotiate
+- Award
+- Manage
+
+Evaluate an offeror’s financial capability Evaluating an offeror's financial capability is an important step in the procurement process that verifies the offeror possesses the financial resources to fulfill the requirement. Requirement for financial capability : Offerors must have the financial capacity to meet contract requirements. A financial analysis of a potential supplier may be warranted at the time of sourcing. Consultation with cost and price analysts : You must consult with the cost analysts group during the evaluation of offers to determine what financial information may be required from offerors. When a financial opinion is required, the applicable clauses should be included in the solicitation of offers. SA authorities should note that since the statement of work or requirement cannot be adequately defined in advance, only a preliminary review of the offeror's financial viability will be conducted for the purpose of pre-qualifying offerors for SA . A complete review of the offeror's financial capability may be required for subsequent requirements issued under the SA . Risk mitigation in competitive selection : If the selection of the offeror is competitive and the contract is for commercially available goods or services, the risks of financial loss to Canada are minimized because of the ability to find alternate sourcing. However, under any other circumstance re-sourcing can be costly both in terms of performance delays and monetary risk. Exceptions : Assessing the financial capability of potential and existing offerors is not normally required for: assistance contracts on behalf of Industry Canada (IC) (determination of an offeror's financial capability in these cases is the responsibility of IC ) contracts involving educational institutions, Crown corporations, government departments and agencies contracts for the services of individuals contracts for generally available commercial goods or services from offerors selected by competition Dealing with financially weak offerors : When Canada must deal with a financially weak supplier, the risk to Canada must be reduced as much as possible through contract financial security, based on recommendations from a cost analyst. Formal financial review requests : A financial review of an offeror can be initiated at any stage of the contracting process when you consider it necessary. You must submit a request for financial review form to the cost and price analysis group. For contracts that require Director General approval, the cost analyst and legal counsel must be given the opportunity to review the contract documents. Verify offer financial security Verifying offer security intends to guarantee compliance with the terms of the offer, including the award of the contract and the expiration of the offer’s validity period. Retention of offer security : If offer security is obtained it must be retained until the terms of the security are fulfilled, including contract award and/or expiration of the offer validity period. Insufficient offer security : Offers submitted with insufficient offer security, either lower than required or entirely absent, will cause the offer to be considered non-responsive. Government guaranteed bonds : Security deposits in the form of government guaranteed bonds with coupons are not acceptable unless all coupons that are not matured at the time the security deposit is provided are attached to the bonds. Surety bonds : You must examine surety bonds provided by offerors using advice from legal services, as necessary, to ensure that they are correct, original, and legally enforceable in all respects. This includes the offerors legal name and address, the date of the contract, the contract serial number, and the description of the "Obligee," which is "His Majesty the King in right of Canada." Surety bonds requiring correction are returned to the offeror, not to the surety company. Handling and safekeeping of bonds : Public Services and Procurement Canada (PSPC) will hold any bid bond, payment bond, or performance bond non-negotiable security deposit (such as government guaranteed bond) until the terms of the security are fulfilled. Instructions for maturing coupons : You must request written instructions from the offeror concerning the action to be taken with respect to any coupons attached to the bonds that will mature while the bond is pledged as security. These instructions must be forwarded to the group managing financial operations for action. Examination of letters of credit : You must examine the letters of credit submitted by offerors and obtain advice from legal services as necessary to ensure their completeness and compliance. This includes the face amount that may be drawn against them, expiry date, and provisions for sight payment to the Receiver General for Canada, by way of the financial institution's draft, against presentation of a written demand for payment signed by the authorized departmental representative and identified in the letter of credit by their office. Provision that more than one written demand for payment may be presented subject to the sum of those demands, but not to exceed the face amount of the letter of credit. Letters of credit are subject to, and must be irrevocable or deemed to be irrevocable pursuant to, the International Chamber of Commerce , Uniform Customs and Practice for Documentary Credits. Issuance or confirmation, in either official language, must come from a financial institution that is a member of the Canadian Payments Association and must be presented on the letterhead of the Issuer or Confirmer in a format designated by the Issuer or Confirmer. Business credit services Business credit services companies provide insights into a business’ financial stability through general credit ratings and detailed credit reports. Their comprehensive reports generally include: simplified financial statements details of maximum credit obtained from the business promptness of payments made banking information business’ history information on the business’ operations Obtaining credit services : You must route all requests for business credit services through the group responsible for price support, avoiding direct contact with business credit service companies. Confidentiality of reports : The content of business credit service reports is deemed commercially confidential. The information must not be disclosed outside the government, and is only disclosed within the government on a "need to know" basis. Access and retention : Access to these reports is restricted to PSPC employees, with all reports securely maintained by the price support group. Contractual terms and conditions evaluation You are responsible for reviewing the offers to ensure compliance with the contractual terms and conditions set forth in the solicitation document. This includes an assessment of the terms of the offer to ensure they align with the expectations and requirements for contract execution.
+
+## Evaluate an offeror’s financial capability
+
+Evaluating an offeror's financial capability is an important step in the procurement process that verifies the offeror possesses the financial resources to fulfill the requirement.
+
+Requirement for financial capability : Offerors must have the financial capacity to meet contract requirements. A financial analysis of a potential supplier may be warranted at the time of sourcing.
+
+Consultation with cost and price analysts : You must consult with the cost analysts group during the evaluation of offers to determine what financial information may be required from offerors. When a financial opinion is required, the applicable clauses should be included in the solicitation of offers.
+
+SA authorities should note that since the statement of work or requirement cannot be adequately defined in advance, only a preliminary review of the offeror's financial viability will be conducted for the purpose of pre-qualifying offerors for SA . A complete review of the offeror's financial capability may be required for subsequent requirements issued under the SA .
+
+Risk mitigation in competitive selection : If the selection of the offeror is competitive and the contract is for commercially available goods or services, the risks of financial loss to Canada are minimized because of the ability to find alternate sourcing. However, under any other circumstance re-sourcing can be costly both in terms of performance delays and monetary risk.
+
+Exceptions : Assessing the financial capability of potential and existing offerors is not normally required for:
+
+- assistance contracts on behalf of Industry Canada (IC) (determination of an offeror's financial capability in these cases is the responsibility of IC )
+- contracts involving educational institutions, Crown corporations, government departments and agencies
+- contracts for the services of individuals
+- contracts for generally available commercial goods or services from offerors selected by competition
+
+Dealing with financially weak offerors : When Canada must deal with a financially weak supplier, the risk to Canada must be reduced as much as possible through contract financial security, based on recommendations from a cost analyst.
+
+Formal financial review requests : A financial review of an offeror can be initiated at any stage of the contracting process when you consider it necessary. You must submit a request for financial review form to the cost and price analysis group. For contracts that require Director General approval, the cost analyst and legal counsel must be given the opportunity to review the contract documents.
+
+### Verify offer financial security
+
+Verifying offer security intends to guarantee compliance with the terms of the offer, including the award of the contract and the expiration of the offer’s validity period.
+
+Retention of offer security : If offer security is obtained it must be retained until the terms of the security are fulfilled, including contract award and/or expiration of the offer validity period.
+
+Insufficient offer security : Offers submitted with insufficient offer security, either lower than required or entirely absent, will cause the offer to be considered non-responsive.
+
+Government guaranteed bonds : Security deposits in the form of government guaranteed bonds with coupons are not acceptable unless all coupons that are not matured at the time the security deposit is provided are attached to the bonds.
+
+Surety bonds : You must examine surety bonds provided by offerors using advice from legal services, as necessary, to ensure that they are correct, original, and legally enforceable in all respects. This includes the offerors legal name and address, the date of the contract, the contract serial number, and the description of the "Obligee," which is "His Majesty the King in right of Canada." Surety bonds requiring correction are returned to the offeror, not to the surety company.
+
+Handling and safekeeping of bonds : Public Services and Procurement Canada (PSPC) will hold any bid bond, payment bond, or performance bond non-negotiable security deposit (such as government guaranteed bond) until the terms of the security are fulfilled.
+
+Instructions for maturing coupons : You must request written instructions from the offeror concerning the action to be taken with respect to any coupons attached to the bonds that will mature while the bond is pledged as security. These instructions must be forwarded to the group managing financial operations for action.
+
+Examination of letters of credit : You must examine the letters of credit submitted by offerors and obtain advice from legal services as necessary to ensure their completeness and compliance. This includes the face amount that may be drawn against them, expiry date, and provisions for sight payment to the Receiver General for Canada, by way of the financial institution's draft, against presentation of a written demand for payment signed by the authorized departmental representative and identified in the letter of credit by their office.
+
+Provision that more than one written demand for payment may be presented subject to the sum of those demands, but not to exceed the face amount of the letter of credit.
+
+Letters of credit are subject to, and must be irrevocable or deemed to be irrevocable pursuant to, the International Chamber of Commerce , Uniform Customs and Practice for Documentary Credits. Issuance or confirmation, in either official language, must come from a financial institution that is a member of the Canadian Payments Association and must be presented on the letterhead of the Issuer or Confirmer in a format designated by the Issuer or Confirmer.
+
+### Business credit services
+
+Business credit services companies provide insights into a business’ financial stability through general credit ratings and detailed credit reports. Their comprehensive reports generally include:
+
+- simplified financial statements
+- details of maximum credit obtained from the business
+- promptness of payments made
+- banking information
+- business’ history
+- information on the business’ operations
+
+Obtaining credit services : You must route all requests for business credit services through the group responsible for price support, avoiding direct contact with business credit service companies.
+
+Confidentiality of reports : The content of business credit service reports is deemed commercially confidential. The information must not be disclosed outside the government, and is only disclosed within the government on a "need to know" basis.
+
+Access and retention : Access to these reports is restricted to PSPC employees, with all reports securely maintained by the price support group.
+
+### Contractual terms and conditions evaluation
+
+You are responsible for reviewing the offers to ensure compliance with the contractual terms and conditions set forth in the solicitation document. This includes an assessment of the terms of the offer to ensure they align with the expectations and requirements for contract execution.

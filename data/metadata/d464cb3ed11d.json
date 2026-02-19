@@ -1,0 +1,3273 @@
+{
+  "doc_id": "d464cb3ed11d",
+  "title": "Buyer's Guide Define the requirement - Requisition",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/requisition",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/requisition",
+  "doc_type": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": "2026-02-05",
+  "fetched_at": "2026-02-19T09:15:30.933735+00:00",
+  "content_hash": "2c5c5f8d38177df91faad53783bb9694769bc6be5bae774f1a00c181aaa9bd8e",
+  "word_count": 4474,
+  "text_path": "data/corpus/buyers_guide__en-buyer-s-portal-buyer-s-guide-plan-define-requirement-requisition__d464cb3ed1.md",
+  "extraction_method": "buyers_guide_regions",
+  "breadcrumbs": [
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "https://canadabuys.canada.ca/en",
+      "canonical_url": "https://canadabuys.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "in_scope": true
+    },
+    {
+      "title": "Define the requirement",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "in_scope": true
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+    "parent_doc_id": "c1f4df5dec74",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/requisition"
+    ],
+    "lineage_doc_ids": [
+      "1e29c7881335",
+      "c1f4df5dec74",
+      "d464cb3ed11d"
+    ],
+    "depth": 2,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-accounting-and-pricing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-reimbursable",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/firm-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-time/unit-rate",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/overview-key-pricing-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/price-and-currency-adjustments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/pricing-methods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/provisional-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/types-basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/application-registration",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/completing-security-requirements-check-list",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/controlled-goods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/foreign-ownership-control-or-influence",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/privacy-and-confidentiality",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-international-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-timelines",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/importance-clear-procurement-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/review-statement-work",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/socioeconomic-requirements-definition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/standards-and-quality-assurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/choose-method-supply",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/determine-sourcing-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/developing-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/interim-policy-reciprocal-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/trade-agreement-applicability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/early-engagement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-businesses",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-clients",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-subject-matter-experts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/invoicing-instructions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/payment-instruments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/taxes-and-duties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/withholding-non-resident-contractors",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/communicating-method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/developing-selection-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/including-basis-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/specifying-evaluation-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/canadian-general-standards-board",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/compliance-canadian-electrical-code",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/contractor-liability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/emergency-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/employer/employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/fairness-monitoring",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/insurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/intellectual-property-and-copyright",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/liability-and-risk-management",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/managing-urgent-acquisitions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/official-languages-obligation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/warranties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/holdbacks",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/incentives",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/accessibility",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/anti-forced-labour-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/green-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/indigenous-considerations"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-accounting-and-pricing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-reimbursable",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/firm-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-time/unit-rate",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/overview-key-pricing-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/price-and-currency-adjustments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/pricing-methods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/provisional-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/types-basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/application-registration",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/completing-security-requirements-check-list",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/controlled-goods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/foreign-ownership-control-or-influence",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/privacy-and-confidentiality",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-international-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-timelines",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/importance-clear-procurement-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/review-statement-work",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/socioeconomic-requirements-definition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/standards-and-quality-assurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/choose-method-supply",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/determine-sourcing-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/developing-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/interim-policy-reciprocal-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/trade-agreement-applicability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/early-engagement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-businesses",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-clients",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-subject-matter-experts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/invoicing-instructions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/payment-instruments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/taxes-and-duties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/withholding-non-resident-contractors",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/communicating-method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/developing-selection-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/including-basis-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/specifying-evaluation-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/canadian-general-standards-board",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/compliance-canadian-electrical-code",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/contractor-liability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/emergency-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/employer/employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/fairness-monitoring",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/insurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/intellectual-property-and-copyright",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/liability-and-risk-management",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/managing-urgent-acquisitions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/official-languages-obligation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/warranties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/holdbacks",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/incentives",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/accessibility",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/anti-forced-labour-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/green-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/indigenous-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure": {
+    "block_count": 131,
+    "section_count": 53,
+    "heading_count": 52,
+    "paragraph_count": 69,
+    "list_count": 10,
+    "table_count": 0
+  },
+  "sections": [
+    {
+      "section_id": "d464cb3ed11d::root",
+      "parent_section_id": null,
+      "level": 0,
+      "heading": "Buyer's Guide Define the requirement - Requisition",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition"
+      ],
+      "block_count": 0,
+      "word_count": 0,
+      "char_count": 0,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": null,
+      "last_block_index": null,
+      "preview": "",
+      "prev_section_id": null,
+      "next_section_id": null
+    },
+    {
+      "section_id": "d464cb3ed11d::s001",
+      "parent_section_id": "d464cb3ed11d::root",
+      "level": 1,
+      "heading": "Buyer's Guide Define the requirement - Requisition",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide Define the requirement - Requisition"
+      ],
+      "block_count": 1,
+      "word_count": 7,
+      "char_count": 50,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 0,
+      "last_block_index": 0,
+      "preview": "Buyer's Guide Define the requirement - Requisition",
+      "prev_section_id": null,
+      "next_section_id": "d464cb3ed11d::s002"
+    },
+    {
+      "section_id": "d464cb3ed11d::s002",
+      "parent_section_id": "d464cb3ed11d::root",
+      "level": 1,
+      "heading": "Buyer's Guide",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide"
+      ],
+      "block_count": 3,
+      "word_count": 2225,
+      "char_count": 15098,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 1,
+      "last_block_index": 3,
+      "preview": "Buyer's Guide Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage Requisition Clients must complete the Requisition for Goods and Services and Construction form PWGSC-TPSGC 9200 (accessible onl",
+      "prev_section_id": "d464cb3ed11d::s001",
+      "next_section_id": "d464cb3ed11d::s003"
+    },
+    {
+      "section_id": "d464cb3ed11d::s003",
+      "parent_section_id": "d464cb3ed11d::s002",
+      "level": 2,
+      "heading": "Requisition",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition"
+      ],
+      "block_count": 5,
+      "word_count": 186,
+      "char_count": 1199,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 4,
+      "first_block_index": 4,
+      "last_block_index": 8,
+      "preview": "Requisition Clients must complete the Requisition for Goods and Services and Construction form PWGSC-TPSGC 9200 (accessible only on the Government of Canada network). The Requisition Checklist ( PWGSC-TPSGC 195 ) (accessible only on the Gov",
+      "prev_section_id": "d464cb3ed11d::s002",
+      "next_section_id": "d464cb3ed11d::s004"
+    },
+    {
+      "section_id": "d464cb3ed11d::s004",
+      "parent_section_id": "d464cb3ed11d::s003",
+      "level": 3,
+      "heading": "Funding",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Funding"
+      ],
+      "block_count": 9,
+      "word_count": 383,
+      "char_count": 2467,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 7,
+      "first_block_index": 9,
+      "last_block_index": 17,
+      "preview": "Funding Clients are responsible for submitting accurate requisitions and are accountable for funding which must be provided in accordance with Section 32 of the Financial Administration Act . Requisitions must be funded in Canadian currency",
+      "prev_section_id": "d464cb3ed11d::s003",
+      "next_section_id": "d464cb3ed11d::s005"
+    },
+    {
+      "section_id": "d464cb3ed11d::s005",
+      "parent_section_id": "d464cb3ed11d::s003",
+      "level": 3,
+      "heading": "Price and availability enquiries",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Price and availability enquiries"
+      ],
+      "block_count": 2,
+      "word_count": 90,
+      "char_count": 587,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 18,
+      "last_block_index": 19,
+      "preview": "Price and availability enquiries Price and availability (P&A) enquiries are generally initiated by clients and handled in the same manner as any requisition. They are used to gather information about the approximate prices and availability ",
+      "prev_section_id": "d464cb3ed11d::s004",
+      "next_section_id": "d464cb3ed11d::s006"
+    },
+    {
+      "section_id": "d464cb3ed11d::s006",
+      "parent_section_id": "d464cb3ed11d::s003",
+      "level": 3,
+      "heading": "Requisition review",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review"
+      ],
+      "block_count": 3,
+      "word_count": 34,
+      "char_count": 226,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 2,
+      "first_block_index": 20,
+      "last_block_index": 22,
+      "preview": "Requisition review You must review all requisitions and engage in discussions with the client to ensure that they are complete and accurate before proceeding with the procurement process. Key areas of requisition review include:",
+      "prev_section_id": "d464cb3ed11d::s005",
+      "next_section_id": "d464cb3ed11d::s007"
+    },
+    {
+      "section_id": "d464cb3ed11d::s007",
+      "parent_section_id": "d464cb3ed11d::s006",
+      "level": 4,
+      "heading": "Accessibility",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Accessibility"
+      ],
+      "block_count": 2,
+      "word_count": 101,
+      "char_count": 715,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 23,
+      "last_block_index": 24,
+      "preview": "Accessibility If accessibility has not been considered, the business owner (client department or agency, technical authority) must be made aware of their obligation to consider accessibility and to complete a justification form if accessibi",
+      "prev_section_id": "d464cb3ed11d::s006",
+      "next_section_id": "d464cb3ed11d::s008"
+    },
+    {
+      "section_id": "d464cb3ed11d::s008",
+      "parent_section_id": "d464cb3ed11d::s006",
+      "level": 4,
+      "heading": "Allocation",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Allocation"
+      ],
+      "block_count": 2,
+      "word_count": 13,
+      "char_count": 90,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 25,
+      "last_block_index": 26,
+      "preview": "Allocation Ensure the requisition has been directed or allocated to the appropriate office.",
+      "prev_section_id": "d464cb3ed11d::s007",
+      "next_section_id": "d464cb3ed11d::s009"
+    },
+    {
+      "section_id": "d464cb3ed11d::s009",
+      "parent_section_id": "d464cb3ed11d::s006",
+      "level": 4,
+      "heading": "Authorization and signatures",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Authorization and signatures"
+      ],
+      "block_count": 4,
+      "word_count": 112,
+      "char_count": 797,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 2,
+      "first_block_index": 27,
+      "last_block_index": 30,
+      "preview": "Authorization and signatures Ensure that the requisition is authorized properly, which means that it contains all mandatory signatures. Clients must certify that: funds are available pursuant to subsection 32(1) of the F inancial Administra",
+      "prev_section_id": "d464cb3ed11d::s008",
+      "next_section_id": "d464cb3ed11d::s010"
+    },
+    {
+      "section_id": "d464cb3ed11d::s010",
+      "parent_section_id": "d464cb3ed11d::s006",
+      "level": 4,
+      "heading": "Canadian specifications",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Canadian specifications"
+      ],
+      "block_count": 2,
+      "word_count": 11,
+      "char_count": 76,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 31,
+      "last_block_index": 32,
+      "preview": "Canadian specifications The nature of the work is to Canadian specifications.",
+      "prev_section_id": "d464cb3ed11d::s009",
+      "next_section_id": "d464cb3ed11d::s011"
+    },
+    {
+      "section_id": "d464cb3ed11d::s011",
+      "parent_section_id": "d464cb3ed11d::s006",
+      "level": 4,
+      "heading": "Consequences of late delivery",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Consequences of late delivery"
+      ],
+      "block_count": 2,
+      "word_count": 24,
+      "char_count": 178,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 33,
+      "last_block_index": 34,
+      "preview": "Consequences of late delivery Consequences resulting from a late delivery are stated, and if necessary, liquidated damages provisions or other performance incentives are included.",
+      "prev_section_id": "d464cb3ed11d::s010",
+      "next_section_id": "d464cb3ed11d::s012"
+    },
+    {
+      "section_id": "d464cb3ed11d::s012",
+      "parent_section_id": "d464cb3ed11d::s006",
+      "level": 4,
+      "heading": "Consignee codes",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Consignee codes"
+      ],
+      "block_count": 2,
+      "word_count": 9,
+      "char_count": 64,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 35,
+      "last_block_index": 36,
+      "preview": "Consignee codes The destination or consignee codes are specified.",
+      "prev_section_id": "d464cb3ed11d::s011",
+      "next_section_id": "d464cb3ed11d::s013"
+    },
+    {
+      "section_id": "d464cb3ed11d::s013",
+      "parent_section_id": "d464cb3ed11d::s006",
+      "level": 4,
+      "heading": "Contract option periods",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Contract option periods"
+      ],
+      "block_count": 2,
+      "word_count": 12,
+      "char_count": 77,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 37,
+      "last_block_index": 38,
+      "preview": "Contract option periods The option or extension periods are stated, if needed.",
+      "prev_section_id": "d464cb3ed11d::s012",
+      "next_section_id": "d464cb3ed11d::s014"
+    },
+    {
+      "section_id": "d464cb3ed11d::s014",
+      "parent_section_id": "d464cb3ed11d::s006",
+      "level": 4,
+      "heading": "Contractor access",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Contractor access"
+      ],
+      "block_count": 2,
+      "word_count": 12,
+      "char_count": 94,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 39,
+      "last_block_index": 40,
+      "preview": "Contractor access Contractor's access requirements to personal records are stated if necessary.",
+      "prev_section_id": "d464cb3ed11d::s013",
+      "next_section_id": "d464cb3ed11d::s015"
+    },
+    {
+      "section_id": "d464cb3ed11d::s015",
+      "parent_section_id": "d464cb3ed11d::s006",
+      "level": 4,
+      "heading": "Controlled goods",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Controlled goods"
+      ],
+      "block_count": 2,
+      "word_count": 6,
+      "char_count": 48,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 41,
+      "last_block_index": 42,
+      "preview": "Controlled goods Controlled goods are identified.",
+      "prev_section_id": "d464cb3ed11d::s014",
+      "next_section_id": "d464cb3ed11d::s016"
+    },
+    {
+      "section_id": "d464cb3ed11d::s016",
+      "parent_section_id": "d464cb3ed11d::s006",
+      "level": 4,
+      "heading": "Defence contracts",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Defence contracts"
+      ],
+      "block_count": 2,
+      "word_count": 22,
+      "char_count": 149,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 43,
+      "last_block_index": 44,
+      "preview": "Defence contracts The client department has identified the requirement as a \"defence contract,\" as defined in the Defence Production Act if necessary.",
+      "prev_section_id": "d464cb3ed11d::s015",
+      "next_section_id": "d464cb3ed11d::s017"
+    },
+    {
+      "section_id": "d464cb3ed11d::s017",
+      "parent_section_id": "d464cb3ed11d::s006",
+      "level": 4,
+      "heading": "Definition of goods or services",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Definition of goods or services"
+      ],
+      "block_count": 3,
+      "word_count": 39,
+      "char_count": 246,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 2,
+      "first_block_index": 45,
+      "last_block_index": 47,
+      "preview": "Definition of goods or services The good or service (or both) are adequately defined in the requisition. Technical documentation, or statement of work are attached. Note : you should help the client properly define their requirement , if ne",
+      "prev_section_id": "d464cb3ed11d::s016",
+      "next_section_id": "d464cb3ed11d::s018"
+    },
+    {
+      "section_id": "d464cb3ed11d::s018",
+      "parent_section_id": "d464cb3ed11d::s006",
+      "level": 4,
+      "heading": "Delivery schedules",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Delivery schedules"
+      ],
+      "block_count": 2,
+      "word_count": 18,
+      "char_count": 125,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 48,
+      "last_block_index": 49,
+      "preview": "Delivery schedules Delivery lead times and schedules are realistic, or special actions to meet delivery objectives are stated.",
+      "prev_section_id": "d464cb3ed11d::s017",
+      "next_section_id": "d464cb3ed11d::s019"
+    },
+    {
+      "section_id": "d464cb3ed11d::s019",
+      "parent_section_id": "d464cb3ed11d::s006",
+      "level": 4,
+      "heading": "Design changes",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Design changes"
+      ],
+      "block_count": 2,
+      "word_count": 9,
+      "char_count": 64,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 50,
+      "last_block_index": 51,
+      "preview": "Design changes Design change or deviation procedure is specified.",
+      "prev_section_id": "d464cb3ed11d::s018",
+      "next_section_id": "d464cb3ed11d::s020"
+    },
+    {
+      "section_id": "d464cb3ed11d::s020",
+      "parent_section_id": "d464cb3ed11d::s006",
+      "level": 4,
+      "heading": "Environmental considerations",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Environmental considerations"
+      ],
+      "block_count": 2,
+      "word_count": 8,
+      "char_count": 89,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 52,
+      "last_block_index": 53,
+      "preview": "Environmental considerations Environmental performance considerations have been addressed.",
+      "prev_section_id": "d464cb3ed11d::s019",
+      "next_section_id": "d464cb3ed11d::s021"
+    },
+    {
+      "section_id": "d464cb3ed11d::s021",
+      "parent_section_id": "d464cb3ed11d::s006",
+      "level": 4,
+      "heading": "Evaluation criteria",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Evaluation criteria"
+      ],
+      "block_count": 2,
+      "word_count": 12,
+      "char_count": 93,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 54,
+      "last_block_index": 55,
+      "preview": "Evaluation criteria Evaluation criteria is specified and the mandatory requirements are clear.",
+      "prev_section_id": "d464cb3ed11d::s020",
+      "next_section_id": "d464cb3ed11d::s022"
+    },
+    {
+      "section_id": "d464cb3ed11d::s022",
+      "parent_section_id": "d464cb3ed11d::s006",
+      "level": 4,
+      "heading": "Existing procurement instruments",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Existing procurement instruments"
+      ],
+      "block_count": 2,
+      "word_count": 21,
+      "char_count": 139,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 56,
+      "last_block_index": 57,
+      "preview": "Existing procurement instruments Good or services are available on a standing offer or a supply arrangement (or a mandatory standing offer).",
+      "prev_section_id": "d464cb3ed11d::s021",
+      "next_section_id": "d464cb3ed11d::s023"
+    },
+    {
+      "section_id": "d464cb3ed11d::s023",
+      "parent_section_id": "d464cb3ed11d::s006",
+      "level": 4,
+      "heading": "Financial codes",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Financial codes"
+      ],
+      "block_count": 2,
+      "word_count": 10,
+      "char_count": 78,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 58,
+      "last_block_index": 59,
+      "preview": "Financial codes Financial codes associated with the requisition are identified.",
+      "prev_section_id": "d464cb3ed11d::s022",
+      "next_section_id": "d464cb3ed11d::s024"
+    },
+    {
+      "section_id": "d464cb3ed11d::s024",
+      "parent_section_id": "d464cb3ed11d::s006",
+      "level": 4,
+      "heading": "Funding adequacy",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Funding adequacy"
+      ],
+      "block_count": 2,
+      "word_count": 11,
+      "char_count": 80,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 60,
+      "last_block_index": 61,
+      "preview": "Funding adequacy Estimated funding documented are adequate enough to cover costs.",
+      "prev_section_id": "d464cb3ed11d::s023",
+      "next_section_id": "d464cb3ed11d::s025"
+    },
+    {
+      "section_id": "d464cb3ed11d::s025",
+      "parent_section_id": "d464cb3ed11d::s006",
+      "level": 4,
+      "heading": "Funding details",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Funding details"
+      ],
+      "block_count": 2,
+      "word_count": 25,
+      "char_count": 159,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 62,
+      "last_block_index": 63,
+      "preview": "Funding details Funding details include the amounts listed in the \"Current Funding\" section and the included Goods and Services Tax or the Harmonized Sales Tax.",
+      "prev_section_id": "d464cb3ed11d::s024",
+      "next_section_id": "d464cb3ed11d::s026"
+    },
+    {
+      "section_id": "d464cb3ed11d::s026",
+      "parent_section_id": "d464cb3ed11d::s006",
+      "level": 4,
+      "heading": "Former public servant",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Former public servant"
+      ],
+      "block_count": 2,
+      "word_count": 19,
+      "char_count": 115,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 64,
+      "last_block_index": 65,
+      "preview": "Former public servant The documentation needs to indicate if the sole source is directed to a former public servant.",
+      "prev_section_id": "d464cb3ed11d::s025",
+      "next_section_id": "d464cb3ed11d::s027"
+    },
+    {
+      "section_id": "d464cb3ed11d::s027",
+      "parent_section_id": "d464cb3ed11d::s006",
+      "level": 4,
+      "heading": "Form version and security",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Form version and security"
+      ],
+      "block_count": 2,
+      "word_count": 27,
+      "char_count": 165,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 66,
+      "last_block_index": 67,
+      "preview": "Form version and security The current version of the requisition form needs to be used. If a previous version is used, proper security certification must be included.",
+      "prev_section_id": "d464cb3ed11d::s026",
+      "next_section_id": "d464cb3ed11d::s028"
+    },
+    {
+      "section_id": "d464cb3ed11d::s028",
+      "parent_section_id": "d464cb3ed11d::s006",
+      "level": 4,
+      "heading": "Goods and Services Identification Number (GSIN)",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Goods and Services Identification Number (GSIN)"
+      ],
+      "block_count": 2,
+      "word_count": 14,
+      "char_count": 87,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 68,
+      "last_block_index": 69,
+      "preview": "Goods and Services Identification Number (GSIN) The GSIN needs to be shown and accurate.",
+      "prev_section_id": "d464cb3ed11d::s027",
+      "next_section_id": "d464cb3ed11d::s029"
+    },
+    {
+      "section_id": "d464cb3ed11d::s029",
+      "parent_section_id": "d464cb3ed11d::s006",
+      "level": 4,
+      "heading": "Indigenous business strategy",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Indigenous business strategy"
+      ],
+      "block_count": 2,
+      "word_count": 23,
+      "char_count": 155,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 70,
+      "last_block_index": 71,
+      "preview": "Indigenous business strategy The procurement, if applicable, needs to state if it has been set aside under the Procurement Strategy for Indigenous Business.",
+      "prev_section_id": "d464cb3ed11d::s028",
+      "next_section_id": "d464cb3ed11d::s030"
+    },
+    {
+      "section_id": "d464cb3ed11d::s030",
+      "parent_section_id": "d464cb3ed11d::s006",
+      "level": 4,
+      "heading": "Inspection authority",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Inspection authority"
+      ],
+      "block_count": 2,
+      "word_count": 12,
+      "char_count": 88,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 72,
+      "last_block_index": 73,
+      "preview": "Inspection authority The inspection or quality assurance authority needs to be specified.",
+      "prev_section_id": "d464cb3ed11d::s029",
+      "next_section_id": "d464cb3ed11d::s031"
+    },
+    {
+      "section_id": "d464cb3ed11d::s031",
+      "parent_section_id": "d464cb3ed11d::s006",
+      "level": 4,
+      "heading": "Intellectual property",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Intellectual property"
+      ],
+      "block_count": 2,
+      "word_count": 22,
+      "char_count": 164,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 74,
+      "last_block_index": 75,
+      "preview": "Intellectual property The client department needs to include instructions concerning the treatment of any intellectual property that may result from the procurement.",
+      "prev_section_id": "d464cb3ed11d::s030",
+      "next_section_id": "d464cb3ed11d::s032"
+    },
+    {
+      "section_id": "d464cb3ed11d::s032",
+      "parent_section_id": "d464cb3ed11d::s006",
+      "level": 4,
+      "heading": "Invoicing",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Invoicing"
+      ],
+      "block_count": 2,
+      "word_count": 5,
+      "char_count": 45,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 76,
+      "last_block_index": 77,
+      "preview": "Invoicing Invoicing instructions are provided.",
+      "prev_section_id": "d464cb3ed11d::s031",
+      "next_section_id": "d464cb3ed11d::s033"
+    },
+    {
+      "section_id": "d464cb3ed11d::s033",
+      "parent_section_id": "d464cb3ed11d::s006",
+      "level": 4,
+      "heading": "Land claims agreements",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Land claims agreements"
+      ],
+      "block_count": 2,
+      "word_count": 22,
+      "char_count": 135,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 78,
+      "last_block_index": 79,
+      "preview": "Land claims agreements The requirement needs to state whether it is subject to the provisions of a Comprehensive Land Claims Agreement .",
+      "prev_section_id": "d464cb3ed11d::s032",
+      "next_section_id": "d464cb3ed11d::s034"
+    },
+    {
+      "section_id": "d464cb3ed11d::s034",
+      "parent_section_id": "d464cb3ed11d::s006",
+      "level": 4,
+      "heading": "Multiple items on the requisition",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Multiple items on the requisition"
+      ],
+      "block_count": 2,
+      "word_count": 24,
+      "char_count": 132,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 80,
+      "last_block_index": 81,
+      "preview": "Multiple items on the requisition Multiple items on the requisition need to be grouped if at all possible, or put in an extract file.",
+      "prev_section_id": "d464cb3ed11d::s033",
+      "next_section_id": "d464cb3ed11d::s035"
+    },
+    {
+      "section_id": "d464cb3ed11d::s035",
+      "parent_section_id": "d464cb3ed11d::s006",
+      "level": 4,
+      "heading": "Policy conflicts",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Policy conflicts"
+      ],
+      "block_count": 2,
+      "word_count": 23,
+      "char_count": 166,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 82,
+      "last_block_index": 83,
+      "preview": "Policy conflicts Does the requisition or attachments contain any clauses or conditions that conflict with any Government of Canada contracting policies and procedures?",
+      "prev_section_id": "d464cb3ed11d::s034",
+      "next_section_id": "d464cb3ed11d::s036"
+    },
+    {
+      "section_id": "d464cb3ed11d::s036",
+      "parent_section_id": "d464cb3ed11d::s006",
+      "level": 4,
+      "heading": "Pricing basis",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Pricing basis"
+      ],
+      "block_count": 2,
+      "word_count": 13,
+      "char_count": 84,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 84,
+      "last_block_index": 85,
+      "preview": "Pricing basis The requisition contains any form of predefined types of pricing basis.",
+      "prev_section_id": "d464cb3ed11d::s035",
+      "next_section_id": "d464cb3ed11d::s037"
+    },
+    {
+      "section_id": "d464cb3ed11d::s037",
+      "parent_section_id": "d464cb3ed11d::s006",
+      "level": 4,
+      "heading": "Product quality",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Product quality"
+      ],
+      "block_count": 2,
+      "word_count": 15,
+      "char_count": 98,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 86,
+      "last_block_index": 87,
+      "preview": "Product quality The extent of required product quality management and assurance needs to be stated.",
+      "prev_section_id": "d464cb3ed11d::s036",
+      "next_section_id": "d464cb3ed11d::s038"
+    },
+    {
+      "section_id": "d464cb3ed11d::s038",
+      "parent_section_id": "d464cb3ed11d::s006",
+      "level": 4,
+      "heading": "Radio-transmitting equipment",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Radio-transmitting equipment"
+      ],
+      "block_count": 2,
+      "word_count": 21,
+      "char_count": 171,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 88,
+      "last_block_index": 89,
+      "preview": "Radio-transmitting equipment The client obtained radio frequency equipment clearance from Industry Canada and stated whether there are other similar special considerations.",
+      "prev_section_id": "d464cb3ed11d::s037",
+      "next_section_id": "d464cb3ed11d::s039"
+    },
+    {
+      "section_id": "d464cb3ed11d::s039",
+      "parent_section_id": "d464cb3ed11d::s006",
+      "level": 4,
+      "heading": "Repetitive purchases",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Repetitive purchases"
+      ],
+      "block_count": 3,
+      "word_count": 42,
+      "char_count": 277,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 90,
+      "last_block_index": 92,
+      "preview": "Repetitive purchases The repetitive stated whether the items could be bought on an annual basis through: standing offers ; supply arrangements ; phased delivery ; task authorization ; contracts with a call-up feature ; being included as con",
+      "prev_section_id": "d464cb3ed11d::s038",
+      "next_section_id": "d464cb3ed11d::s040"
+    },
+    {
+      "section_id": "d464cb3ed11d::s040",
+      "parent_section_id": "d464cb3ed11d::s006",
+      "level": 4,
+      "heading": "Renewal and previous contracts",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Renewal and previous contracts"
+      ],
+      "block_count": 4,
+      "word_count": 70,
+      "char_count": 406,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 2,
+      "first_block_index": 93,
+      "last_block_index": 96,
+      "preview": "Renewal and previous contracts The client states whether the procurement is a renewal of an existing contractual arrangement for the same services, or if the services been procured before. If yes, state: who is the incumbent contractor ; wh",
+      "prev_section_id": "d464cb3ed11d::s039",
+      "next_section_id": "d464cb3ed11d::s041"
+    },
+    {
+      "section_id": "d464cb3ed11d::s041",
+      "parent_section_id": "d464cb3ed11d::s006",
+      "level": 4,
+      "heading": "Right of use",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Right of use"
+      ],
+      "block_count": 2,
+      "word_count": 25,
+      "char_count": 137,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 97,
+      "last_block_index": 98,
+      "preview": "Right of use The client states if there were any unrestricted rights to the use of the technical data or if royalty payments are involved.",
+      "prev_section_id": "d464cb3ed11d::s040",
+      "next_section_id": "d464cb3ed11d::s042"
+    },
+    {
+      "section_id": "d464cb3ed11d::s042",
+      "parent_section_id": "d464cb3ed11d::s006",
+      "level": 4,
+      "heading": "Security provisions",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Security provisions"
+      ],
+      "block_count": 3,
+      "word_count": 33,
+      "char_count": 221,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 2,
+      "first_block_index": 99,
+      "last_block_index": 101,
+      "preview": "Security provisions The requisition includes security provisions and whether a Security Requirements Check List (SRCL) is required. Note : if no SRCL is required but security provisions are included, this must be explained.",
+      "prev_section_id": "d464cb3ed11d::s041",
+      "next_section_id": "d464cb3ed11d::s043"
+    },
+    {
+      "section_id": "d464cb3ed11d::s043",
+      "parent_section_id": "d464cb3ed11d::s006",
+      "level": 4,
+      "heading": "Sole source support",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Sole source support"
+      ],
+      "block_count": 2,
+      "word_count": 30,
+      "char_count": 191,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 102,
+      "last_block_index": 103,
+      "preview": "Sole source support The client must indicate whether there is support for a sole source or no-substitute request and they have responded to Treasury Board questions for sole source adequately.",
+      "prev_section_id": "d464cb3ed11d::s042",
+      "next_section_id": "d464cb3ed11d::s044"
+    },
+    {
+      "section_id": "d464cb3ed11d::s044",
+      "parent_section_id": "d464cb3ed11d::s006",
+      "level": 4,
+      "heading": "Standards and specifications",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Standards and specifications"
+      ],
+      "block_count": 3,
+      "word_count": 84,
+      "char_count": 525,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 104,
+      "last_block_index": 106,
+      "preview": "Standards and specifications The client needs to include the appropriate standards, specifications, or purchase descriptions. If not, state whether an existing one can be used; or whether: there is a need for the development of a new standa",
+      "prev_section_id": "d464cb3ed11d::s043",
+      "next_section_id": "d464cb3ed11d::s045"
+    },
+    {
+      "section_id": "d464cb3ed11d::s045",
+      "parent_section_id": "d464cb3ed11d::s006",
+      "level": 4,
+      "heading": "Tax exemptions",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Tax exemptions"
+      ],
+      "block_count": 2,
+      "word_count": 28,
+      "char_count": 184,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 107,
+      "last_block_index": 108,
+      "preview": "Tax exemptions Has the client department claimed and substantiated exemption from taxes or duties, by referring to a certificate of exemption, or remission or drawback order in council?",
+      "prev_section_id": "d464cb3ed11d::s044",
+      "next_section_id": "d464cb3ed11d::s046"
+    },
+    {
+      "section_id": "d464cb3ed11d::s046",
+      "parent_section_id": "d464cb3ed11d::s006",
+      "level": 4,
+      "heading": "Tooling and equipment",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Tooling and equipment"
+      ],
+      "block_count": 2,
+      "word_count": 26,
+      "char_count": 197,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 109,
+      "last_block_index": 110,
+      "preview": "Tooling and equipment Special production tooling or special test equipment, if required, needs to be included and specify if government-furnished equipment or government-supplied materiel is needed.",
+      "prev_section_id": "d464cb3ed11d::s045",
+      "next_section_id": "d464cb3ed11d::s047"
+    },
+    {
+      "section_id": "d464cb3ed11d::s047",
+      "parent_section_id": "d464cb3ed11d::s006",
+      "level": 4,
+      "heading": "Trade-ins",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Trade-ins"
+      ],
+      "block_count": 2,
+      "word_count": 11,
+      "char_count": 65,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 111,
+      "last_block_index": 112,
+      "preview": "Trade-ins The clients needs to indicate if a trade-in is required.",
+      "prev_section_id": "d464cb3ed11d::s046",
+      "next_section_id": "d464cb3ed11d::s048"
+    },
+    {
+      "section_id": "d464cb3ed11d::s048",
+      "parent_section_id": "d464cb3ed11d::s003",
+      "level": 3,
+      "heading": "Requisition allocation within Public Services and Procurement Canada",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition allocation within Public Services and Procurement Canada"
+      ],
+      "block_count": 4,
+      "word_count": 89,
+      "char_count": 628,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 2,
+      "first_block_index": 113,
+      "last_block_index": 116,
+      "preview": "Requisition allocation within Public Services and Procurement Canada Clients may direct requisitions, as well as P&A enquiries, to any PSPC Allocation office within Canada. Normally, the client-specified PSPC AU will handle the requisition ",
+      "prev_section_id": "d464cb3ed11d::s047",
+      "next_section_id": "d464cb3ed11d::s049"
+    },
+    {
+      "section_id": "d464cb3ed11d::s049",
+      "parent_section_id": "d464cb3ed11d::s048",
+      "level": 4,
+      "heading": "Restricted commodities",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition allocation within Public Services and Procurement Canada",
+        "Restricted commodities"
+      ],
+      "block_count": 3,
+      "word_count": 131,
+      "char_count": 874,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 117,
+      "last_block_index": 119,
+      "preview": "Restricted commodities Restricted commodities includes advertising, public opinion research, production of audio visual, bulk buys for fuel and vehicles, and United States Foreign Military Sales. For requisitions without a specified office ",
+      "prev_section_id": "d464cb3ed11d::s048",
+      "next_section_id": "d464cb3ed11d::s050"
+    },
+    {
+      "section_id": "d464cb3ed11d::s050",
+      "parent_section_id": "d464cb3ed11d::s048",
+      "level": 4,
+      "heading": "Product and service categories managers",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition allocation within Public Services and Procurement Canada",
+        "Product and service categories managers"
+      ],
+      "block_count": 2,
+      "word_count": 33,
+      "char_count": 217,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 120,
+      "last_block_index": 121,
+      "preview": "Product and service categories managers Requisitions relating to a specific product and service category or to a specific geographical client, are allocated to the specific office that is able to satisfy their request.",
+      "prev_section_id": "d464cb3ed11d::s049",
+      "next_section_id": "d464cb3ed11d::s051"
+    },
+    {
+      "section_id": "d464cb3ed11d::s051",
+      "parent_section_id": "d464cb3ed11d::s048",
+      "level": 4,
+      "heading": "Major projects",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition allocation within Public Services and Procurement Canada",
+        "Major projects"
+      ],
+      "block_count": 4,
+      "word_count": 99,
+      "char_count": 680,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 2,
+      "first_block_index": 122,
+      "last_block_index": 125,
+      "preview": "Major projects Requisitions part of a major project are allocated to the office responsible for that project. As the buyer, you must verify: that all requisition allocations comply with the accurate detailing of the GSIN due to trade agreem",
+      "prev_section_id": "d464cb3ed11d::s050",
+      "next_section_id": "d464cb3ed11d::s052"
+    },
+    {
+      "section_id": "d464cb3ed11d::s052",
+      "parent_section_id": "d464cb3ed11d::s003",
+      "level": 3,
+      "heading": "Notification to Indigenous Services Canada",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Notification to Indigenous Services Canada"
+      ],
+      "block_count": 5,
+      "word_count": 133,
+      "char_count": 888,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 3,
+      "first_block_index": 126,
+      "last_block_index": 130,
+      "preview": "Notification to Indigenous Services Canada Upon receipt and acceptance of a requisition for a Procurement Strategy for Indigenous Business (PSIB) set-aside procurement, you must inform the Business Development Directorate at Indigenous Serv",
+      "prev_section_id": "d464cb3ed11d::s051",
+      "next_section_id": null
+    }
+  ],
+  "tables": [],
+  "blocks": [
+    {
+      "block_id": "d464cb3ed11d::b0001",
+      "section_id": "d464cb3ed11d::s001",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide Define the requirement - Requisition"
+      ],
+      "markdown": "# Buyer's Guide Define the requirement - Requisition",
+      "plain_text": "Buyer's Guide Define the requirement - Requisition"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0002",
+      "section_id": "d464cb3ed11d::s002",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide"
+      ],
+      "markdown": "# Buyer's Guide",
+      "plain_text": "Buyer's Guide"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0003",
+      "section_id": "d464cb3ed11d::s002",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide"
+      ],
+      "markdown": "- Plan\n- Approve\n- Create solicitation\n- Solicit\n- Receive and evaluate\n- Negotiate\n- Award\n- Manage",
+      "plain_text": "Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0004",
+      "section_id": "d464cb3ed11d::s002",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide"
+      ],
+      "markdown": "Requisition Clients must complete the Requisition for Goods and Services and Construction form PWGSC-TPSGC 9200 (accessible only on the Government of Canada network). The Requisition Checklist ( PWGSC-TPSGC 195 ) (accessible only on the Government of Canada network) can help clients complete the requisition and determine the required supporting documents. Once the requisition is complete, it should be submitted to the PSPC Allocations Unit (AU) via email. Submission via fax or mail is also acceptable. Upon receipt, the AU will vet the requisition against the mandatory requirements and contact the client for any missing information. Acknowledgment of receipt is given by AU within 1 business day for electronic submissions and within 2 business days for hard copy submissions. Once all required information is provided, the requisition will be allocated to the appropriate contracting area. As the buyer assigned to the requisition, you must notify the client within 5 business days of receipt, providing contact information and confirming receipt. Note : if you receive a requisition directly from the client, you must forward it to the PSPC AU and inform the client of the procedures to follow. Funding Clients are responsible for submitting accurate requisitions and are accountable for funding which must be provided in accordance with Section 32 of the Financial Administration Act . Requisitions must be funded in Canadian currency, including applicable taxes. The requisition must be approved in accordance with the client's internal delegation of authority. Buyers must confirm that funding is committed prior to taking any of the following actions: Prior to the publication of any solicitation which results in a contractual commitment by Canada, such as: Request for Quotation (RFQ) Request for Proposal (RFP) Invitation to Tender (ITT) Advance Contract Award Notice (ACAN) RFPs against a Supply Arrangement Prior to entering into contract negotiations with a supplier Prior to entering a contract or issuing a call-up against a standing offer Prior to amending a contract Prior to issuing a task authorization The confirmation of funding is not required when publishing a solicitation of offers which does not directly result in a contractual commitment by Canada (e.g. Request for Standing Offer or Supply Arrangement, Letter of Interest, Request for Information, Invitation to Qualify). Some exceptions may be sought on a case-by-case basis, and subject to approval at the Assistant Deputy Minister (ADM) level. When a solicitation of offers includes non-binding option periods to be exercised at Canada's discretion, those option periods are not required to be funded at the time of publication. However, the initial contract period must be fully funded. Although the PWGSC-TPSGC 9200 form (PDF, 512 KB) (accessible only on the Government of Canada network) is the preferred method of confirming funding, other forms of documentation may be accepted. These must clearly indicate the current and revised funding amounts in Canadian currency, include applicable taxes, and contain certification under Section 32 of the Financial Administration Act . Note : requisitions under the United States (US) Foreign Military Sales (FMS) Program, may be funded in US currency. The requisition approval must be in accordance with the clients internal delegation of authority. The total equivalent estimated Canadian currency value with the applied exchange rate derived from the Bank of Canada on the day of the requisition being assigned must be included in the PWGSC-TPSGC 9200 form (PDF, 512 KB) (accessible only on the Government of Canada network). Price and availability enquiries Price and availability (P&A) enquiries are generally initiated by clients and handled in the same manner as any requisition. They are used to gather information about the approximate prices and availability of specific goods or services from businesses, assisting in budgetary or planning decision. You can send P&A enquiries directly to selected businesses or post them on the tendering services platform. You must clearly state in P&A enquiries that the request is not a solicitation of offers and implies no commitment to future purchases or contracts. Requisition review You must review all requisitions and engage in discussions with the client to ensure that they are complete and accurate before proceeding with the procurement process. Key areas of requisition review include: Accessibility If accessibility has not been considered, the business owner (client department or agency, technical authority) must be made aware of their obligation to consider accessibility and to complete a justification form if accessibility criteria are not included. The contracting authority should provide any relevant tools and guidance on accessible procurement to the business owner as needed. For more information, refer to the Office of Public Service Accessibility (accessible only on the Government of Canada network) webpage and the Digital Accessibility Toolkit . Please visit YouTube for informational videos on the Accessible Canada Act and meaningful consideration of accessibility in procurement. Allocation Ensure the requisition has been directed or allocated to the appropriate office. Authorization and signatures Ensure that the requisition is authorized properly, which means that it contains all mandatory signatures. Clients must certify that: funds are available pursuant to subsection 32(1) of the F inancial Administration Act (FAA) the requisition is approved, necessary approvals obtained, and PSPC is requested to acquire the specified goods or services or both, including construction, described therein the requisition accurately details the requirement\u2019s security provisions, including any attached Security Requirements Check List (SRCL) form , statement of work, and security documents and security clauses provided by the Contract Security Program (CSP) requisitions received via e-Purchasing are deemed properly authorized with all signatures pursuant to the FAA Canadian specifications The nature of the work is to Canadian specifications. Consequences of late delivery Consequences resulting from a late delivery are stated, and if necessary, liquidated damages provisions or other performance incentives are included. Consignee codes The destination or consignee codes are specified. Contract option periods The option or extension periods are stated, if needed. Contractor access Contractor's access requirements to personal records are stated if necessary. Controlled goods Controlled goods are identified. Defence contracts The client department has identified the requirement as a \"defence contract,\" as defined in the Defence Production Act if necessary. Definition of goods or services The good or service (or both) are adequately defined in the requisition. Technical documentation, or statement of work are attached. Note : you should help the client properly define their requirement , if necessary. Delivery schedules Delivery lead times and schedules are realistic, or special actions to meet delivery objectives are stated. Design changes Design change or deviation procedure is specified. Environmental considerations Environmental performance considerations have been addressed. Evaluation criteria Evaluation criteria is specified and the mandatory requirements are clear. Existing procurement instruments Good or services are available on a standing offer or a supply arrangement (or a mandatory standing offer). Financial codes Financial codes associated with the requisition are identified. Funding adequacy Estimated funding documented are adequate enough to cover costs. Funding details Funding details include the amounts listed in the \"Current Funding\" section and the included Goods and Services Tax or the Harmonized Sales Tax. Former public servant The documentation needs to indicate if the sole source is directed to a former public servant. Form version and security The current version of the requisition form needs to be used. If a previous version is used, proper security certification must be included. Goods and Services Identification Number (GSIN) The GSIN needs to be shown and accurate. Indigenous business strategy The procurement, if applicable, needs to state if it has been set aside under the Procurement Strategy for Indigenous Business. Inspection authority The inspection or quality assurance authority needs to be specified. Intellectual property The client department needs to include instructions concerning the treatment of any intellectual property that may result from the procurement. Invoicing Invoicing instructions are provided. Land claims agreements The requirement needs to state whether it is subject to the provisions of a Comprehensive Land Claims Agreement . Multiple items on the requisition Multiple items on the requisition need to be grouped if at all possible, or put in an extract file. Policy conflicts Does the requisition or attachments contain any clauses or conditions that conflict with any Government of Canada contracting policies and procedures? Pricing basis The requisition contains any form of predefined types of pricing basis. Product quality The extent of required product quality management and assurance needs to be stated. Radio-transmitting equipment The client obtained radio frequency equipment clearance from Industry Canada and stated whether there are other similar special considerations. Repetitive purchases The repetitive stated whether the items could be bought on an annual basis through: standing offers supply arrangements phased delivery task authorization contracts with a call-up feature being included as contract options for additional quantities Renewal and previous contracts The client states whether the procurement is a renewal of an existing contractual arrangement for the same services, or if the services been procured before. If yes, state: who is the incumbent contractor what is the previous contract number when does it expire was it procured by PSPC or the client did the previous contract have special pricing or terms and conditions Right of use The client states if there were any unrestricted rights to the use of the technical data or if royalty payments are involved. Security provisions The requisition includes security provisions and whether a Security Requirements Check List (SRCL) is required. Note : if no SRCL is required but security provisions are included, this must be explained. Sole source support The client must indicate whether there is support for a sole source or no-substitute request and they have responded to Treasury Board questions for sole source adequately. Standards and specifications The client needs to include the appropriate standards, specifications, or purchase descriptions. If not, state whether an existing one can be used; or whether: there is a need for the development of a new standard, specification, or procurement description the NATO Stock Number or the GSIN of the products shown accurately as per the published commodity codes. Note: clients must detail the GSIN in the requisition, due to trade agreement implications, you must ensure the accuracy of the GSIN s Tax exemptions Has the client department claimed and substantiated exemption from taxes or duties, by referring to a certificate of exemption, or remission or drawback order in council? Tooling and equipment Special production tooling or special test equipment, if required, needs to be included and specify if government-furnished equipment or government-supplied materiel is needed. Trade-ins The clients needs to indicate if a trade-in is required. Requisition allocation within Public Services and Procurement Canada Clients may direct requisitions, as well as P&A enquiries, to any PSPC Allocation office within Canada. Normally, the client-specified PSPC AU will handle the requisition unless it falls under specific geographical client requirements or involves: restricted commodities specific commodities like monitors or printers, major projects, or falls under specific geographical client requirements. Situations in which the client may not specify their PSPC office of choice, and the respective rules for requisition allocation are outlined in the 3 sections below. Restricted commodities Restricted commodities includes advertising, public opinion research, production of audio visual, bulk buys for fuel and vehicles, and United States Foreign Military Sales. For requisitions without a specified office preference, the following allocation rules apply: single consignee point are allocated to the PSPC office closest to that point within the same regional sector multiple consignees within the same regional sector without a specific office nearby are allocated to an office designated by their regional director multiple consignees within multiple regional sectors are allocated to the PSPC office closest to the originator of the requisition if the requisition line items have the same monetary value or their values cannot be determined, allocation is determined by the office responsible for the GSIN code of the first line item. Product and service categories managers Requisitions relating to a specific product and service category or to a specific geographical client, are allocated to the specific office that is able to satisfy their request. Major projects Requisitions part of a major project are allocated to the office responsible for that project. As the buyer, you must verify: that all requisition allocations comply with the accurate detailing of the GSIN due to trade agreement implications the necessity for special production tooling or test equipment government-furnished equipment or materials whether the requisition contains any predefined types of pricing bases necessary deviation procedures product quality management, and assurance requirements whether the requisition or attachments contain any clauses or conditions that conflict with any PSPC or government contracting policies and procedures Notification to Indigenous Services Canada Upon receipt and acceptance of a requisition for a Procurement Strategy for Indigenous Business (PSIB) set-aside procurement, you must inform the Business Development Directorate at Indigenous Services Canada (ISC). Notification to ISC must be sent via email prior to the release of the solicitation. The notification must include: estimated dollar value description of the goods, services or construction solicitation number solicitation closing date buyer's contact details (including name and phone or fax numbers) For sole source procurements, you must also include in the notification, the name and address of the potential contractor. Within 15 working days after contract award, you must advise the ISC Business Development Directorate of the name of the contractor, the contract number, and the total estimated value of the contract.",
+      "plain_text": "Requisition Clients must complete the Requisition for Goods and Services and Construction form PWGSC-TPSGC 9200 (accessible only on the Government of Canada network). The Requisition Checklist ( PWGSC-TPSGC 195 ) (accessible only on the Government of Canada network) can help clients complete the requisition and determine the required supporting documents. Once the requisition is complete, it should be submitted to the PSPC Allocations Unit (AU) via email. Submission via fax or mail is also acceptable. Upon receipt, the AU will vet the requisition against the mandatory requirements and contact the client for any missing information. Acknowledgment of receipt is given by AU within 1 business day for electronic submissions and within 2 business days for hard copy submissions. Once all required information is provided, the requisition will be allocated to the appropriate contracting area. As the buyer assigned to the requisition, you must notify the client within 5 business days of receipt, providing contact information and confirming receipt. Note : if you receive a requisition directly from the client, you must forward it to the PSPC AU and inform the client of the procedures to follow. Funding Clients are responsible for submitting accurate requisitions and are accountable for funding which must be provided in accordance with Section 32 of the Financial Administration Act . Requisitions must be funded in Canadian currency, including applicable taxes. The requisition must be approved in accordance with the client's internal delegation of authority. Buyers must confirm that funding is committed prior to taking any of the following actions: Prior to the publication of any solicitation which results in a contractual commitment by Canada, such as: Request for Quotation (RFQ) Request for Proposal (RFP) Invitation to Tender (ITT) Advance Contract Award Notice (ACAN) RFPs against a Supply Arrangement Prior to entering into contract negotiations with a supplier Prior to entering a contract or issuing a call-up against a standing offer Prior to amending a contract Prior to issuing a task authorization The confirmation of funding is not required when publishing a solicitation of offers which does not directly result in a contractual commitment by Canada (e.g. Request for Standing Offer or Supply Arrangement, Letter of Interest, Request for Information, Invitation to Qualify). Some exceptions may be sought on a case-by-case basis, and subject to approval at the Assistant Deputy Minister (ADM) level. When a solicitation of offers includes non-binding option periods to be exercised at Canada's discretion, those option periods are not required to be funded at the time of publication. However, the initial contract period must be fully funded. Although the PWGSC-TPSGC 9200 form (PDF, 512 KB) (accessible only on the Government of Canada network) is the preferred method of confirming funding, other forms of documentation may be accepted. These must clearly indicate the current and revised funding amounts in Canadian currency, include applicable taxes, and contain certification under Section 32 of the Financial Administration Act . Note : requisitions under the United States (US) Foreign Military Sales (FMS) Program, may be funded in US currency. The requisition approval must be in accordance with the clients internal delegation of authority. The total equivalent estimated Canadian currency value with the applied exchange rate derived from the Bank of Canada on the day of the requisition being assigned must be included in the PWGSC-TPSGC 9200 form (PDF, 512 KB) (accessible only on the Government of Canada network). Price and availability enquiries Price and availability (P&A) enquiries are generally initiated by clients and handled in the same manner as any requisition. They are used to gather information about the approximate prices and availability of specific goods or services from businesses, assisting in budgetary or planning decision. You can send P&A enquiries directly to selected businesses or post them on the tendering services platform. You must clearly state in P&A enquiries that the request is not a solicitation of offers and implies no commitment to future purchases or contracts. Requisition review You must review all requisitions and engage in discussions with the client to ensure that they are complete and accurate before proceeding with the procurement process. Key areas of requisition review include: Accessibility If accessibility has not been considered, the business owner (client department or agency, technical authority) must be made aware of their obligation to consider accessibility and to complete a justification form if accessibility criteria are not included. The contracting authority should provide any relevant tools and guidance on accessible procurement to the business owner as needed. For more information, refer to the Office of Public Service Accessibility (accessible only on the Government of Canada network) webpage and the Digital Accessibility Toolkit . Please visit YouTube for informational videos on the Accessible Canada Act and meaningful consideration of accessibility in procurement. Allocation Ensure the requisition has been directed or allocated to the appropriate office. Authorization and signatures Ensure that the requisition is authorized properly, which means that it contains all mandatory signatures. Clients must certify that: funds are available pursuant to subsection 32(1) of the F inancial Administration Act (FAA) the requisition is approved, necessary approvals obtained, and PSPC is requested to acquire the specified goods or services or both, including construction, described therein the requisition accurately details the requirement\u2019s security provisions, including any attached Security Requirements Check List (SRCL) form , statement of work, and security documents and security clauses provided by the Contract Security Program (CSP) requisitions received via e-Purchasing are deemed properly authorized with all signatures pursuant to the FAA Canadian specifications The nature of the work is to Canadian specifications. Consequences of late delivery Consequences resulting from a late delivery are stated, and if necessary, liquidated damages provisions or other performance incentives are included. Consignee codes The destination or consignee codes are specified. Contract option periods The option or extension periods are stated, if needed. Contractor access Contractor's access requirements to personal records are stated if necessary. Controlled goods Controlled goods are identified. Defence contracts The client department has identified the requirement as a \"defence contract,\" as defined in the Defence Production Act if necessary. Definition of goods or services The good or service (or both) are adequately defined in the requisition. Technical documentation, or statement of work are attached. Note : you should help the client properly define their requirement , if necessary. Delivery schedules Delivery lead times and schedules are realistic, or special actions to meet delivery objectives are stated. Design changes Design change or deviation procedure is specified. Environmental considerations Environmental performance considerations have been addressed. Evaluation criteria Evaluation criteria is specified and the mandatory requirements are clear. Existing procurement instruments Good or services are available on a standing offer or a supply arrangement (or a mandatory standing offer). Financial codes Financial codes associated with the requisition are identified. Funding adequacy Estimated funding documented are adequate enough to cover costs. Funding details Funding details include the amounts listed in the \"Current Funding\" section and the included Goods and Services Tax or the Harmonized Sales Tax. Former public servant The documentation needs to indicate if the sole source is directed to a former public servant. Form version and security The current version of the requisition form needs to be used. If a previous version is used, proper security certification must be included. Goods and Services Identification Number (GSIN) The GSIN needs to be shown and accurate. Indigenous business strategy The procurement, if applicable, needs to state if it has been set aside under the Procurement Strategy for Indigenous Business. Inspection authority The inspection or quality assurance authority needs to be specified. Intellectual property The client department needs to include instructions concerning the treatment of any intellectual property that may result from the procurement. Invoicing Invoicing instructions are provided. Land claims agreements The requirement needs to state whether it is subject to the provisions of a Comprehensive Land Claims Agreement . Multiple items on the requisition Multiple items on the requisition need to be grouped if at all possible, or put in an extract file. Policy conflicts Does the requisition or attachments contain any clauses or conditions that conflict with any Government of Canada contracting policies and procedures? Pricing basis The requisition contains any form of predefined types of pricing basis. Product quality The extent of required product quality management and assurance needs to be stated. Radio-transmitting equipment The client obtained radio frequency equipment clearance from Industry Canada and stated whether there are other similar special considerations. Repetitive purchases The repetitive stated whether the items could be bought on an annual basis through: standing offers supply arrangements phased delivery task authorization contracts with a call-up feature being included as contract options for additional quantities Renewal and previous contracts The client states whether the procurement is a renewal of an existing contractual arrangement for the same services, or if the services been procured before. If yes, state: who is the incumbent contractor what is the previous contract number when does it expire was it procured by PSPC or the client did the previous contract have special pricing or terms and conditions Right of use The client states if there were any unrestricted rights to the use of the technical data or if royalty payments are involved. Security provisions The requisition includes security provisions and whether a Security Requirements Check List (SRCL) is required. Note : if no SRCL is required but security provisions are included, this must be explained. Sole source support The client must indicate whether there is support for a sole source or no-substitute request and they have responded to Treasury Board questions for sole source adequately. Standards and specifications The client needs to include the appropriate standards, specifications, or purchase descriptions. If not, state whether an existing one can be used; or whether: there is a need for the development of a new standard, specification, or procurement description the NATO Stock Number or the GSIN of the products shown accurately as per the published commodity codes. Note: clients must detail the GSIN in the requisition, due to trade agreement implications, you must ensure the accuracy of the GSIN s Tax exemptions Has the client department claimed and substantiated exemption from taxes or duties, by referring to a certificate of exemption, or remission or drawback order in council? Tooling and equipment Special production tooling or special test equipment, if required, needs to be included and specify if government-furnished equipment or government-supplied materiel is needed. Trade-ins The clients needs to indicate if a trade-in is required. Requisition allocation within Public Services and Procurement Canada Clients may direct requisitions, as well as P&A enquiries, to any PSPC Allocation office within Canada. Normally, the client-specified PSPC AU will handle the requisition unless it falls under specific geographical client requirements or involves: restricted commodities specific commodities like monitors or printers, major projects, or falls under specific geographical client requirements. Situations in which the client may not specify their PSPC office of choice, and the respective rules for requisition allocation are outlined in the 3 sections below. Restricted commodities Restricted commodities includes advertising, public opinion research, production of audio visual, bulk buys for fuel and vehicles, and United States Foreign Military Sales. For requisitions without a specified office preference, the following allocation rules apply: single consignee point are allocated to the PSPC office closest to that point within the same regional sector multiple consignees within the same regional sector without a specific office nearby are allocated to an office designated by their regional director multiple consignees within multiple regional sectors are allocated to the PSPC office closest to the originator of the requisition if the requisition line items have the same monetary value or their values cannot be determined, allocation is determined by the office responsible for the GSIN code of the first line item. Product and service categories managers Requisitions relating to a specific product and service category or to a specific geographical client, are allocated to the specific office that is able to satisfy their request. Major projects Requisitions part of a major project are allocated to the office responsible for that project. As the buyer, you must verify: that all requisition allocations comply with the accurate detailing of the GSIN due to trade agreement implications the necessity for special production tooling or test equipment government-furnished equipment or materials whether the requisition contains any predefined types of pricing bases necessary deviation procedures product quality management, and assurance requirements whether the requisition or attachments contain any clauses or conditions that conflict with any PSPC or government contracting policies and procedures Notification to Indigenous Services Canada Upon receipt and acceptance of a requisition for a Procurement Strategy for Indigenous Business (PSIB) set-aside procurement, you must inform the Business Development Directorate at Indigenous Services Canada (ISC). Notification to ISC must be sent via email prior to the release of the solicitation. The notification must include: estimated dollar value description of the goods, services or construction solicitation number solicitation closing date buyer's contact details (including name and phone or fax numbers) For sole source procurements, you must also include in the notification, the name and address of the potential contractor. Within 15 working days after contract award, you must advise the ISC Business Development Directorate of the name of the contractor, the contract number, and the total estimated value of the contract."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0005",
+      "section_id": "d464cb3ed11d::s003",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition"
+      ],
+      "markdown": "## Requisition",
+      "plain_text": "Requisition"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0006",
+      "section_id": "d464cb3ed11d::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition"
+      ],
+      "markdown": "Clients must complete the Requisition for Goods and Services and Construction form PWGSC-TPSGC 9200 (accessible only on the Government of Canada network). The Requisition Checklist ( PWGSC-TPSGC 195 ) (accessible only on the Government of Canada network) can help clients complete the requisition and determine the required supporting documents. Once the requisition is complete, it should be submitted to the PSPC Allocations Unit (AU) via email. Submission via fax or mail is also acceptable. Upon receipt, the AU will vet the requisition against the mandatory requirements and contact the client for any missing information.",
+      "plain_text": "Clients must complete the Requisition for Goods and Services and Construction form PWGSC-TPSGC 9200 (accessible only on the Government of Canada network). The Requisition Checklist ( PWGSC-TPSGC 195 ) (accessible only on the Government of Canada network) can help clients complete the requisition and determine the required supporting documents. Once the requisition is complete, it should be submitted to the PSPC Allocations Unit (AU) via email. Submission via fax or mail is also acceptable. Upon receipt, the AU will vet the requisition against the mandatory requirements and contact the client for any missing information."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0007",
+      "section_id": "d464cb3ed11d::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition"
+      ],
+      "markdown": "Acknowledgment of receipt is given by AU within 1 business day for electronic submissions and within 2 business days for hard copy submissions. Once all required information is provided, the requisition will be allocated to the appropriate contracting area.",
+      "plain_text": "Acknowledgment of receipt is given by AU within 1 business day for electronic submissions and within 2 business days for hard copy submissions. Once all required information is provided, the requisition will be allocated to the appropriate contracting area."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0008",
+      "section_id": "d464cb3ed11d::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition"
+      ],
+      "markdown": "As the buyer assigned to the requisition, you must notify the client within 5 business days of receipt, providing contact information and confirming receipt.",
+      "plain_text": "As the buyer assigned to the requisition, you must notify the client within 5 business days of receipt, providing contact information and confirming receipt."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0009",
+      "section_id": "d464cb3ed11d::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition"
+      ],
+      "markdown": "Note : if you receive a requisition directly from the client, you must forward it to the PSPC AU and inform the client of the procedures to follow.",
+      "plain_text": "Note : if you receive a requisition directly from the client, you must forward it to the PSPC AU and inform the client of the procedures to follow."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0010",
+      "section_id": "d464cb3ed11d::s004",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Funding"
+      ],
+      "markdown": "### Funding",
+      "plain_text": "Funding"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0011",
+      "section_id": "d464cb3ed11d::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Funding"
+      ],
+      "markdown": "Clients are responsible for submitting accurate requisitions and are accountable for funding which must be provided in accordance with Section 32 of the Financial Administration Act . Requisitions must be funded in Canadian currency, including applicable taxes. The requisition must be approved in accordance with the client's internal delegation of authority.",
+      "plain_text": "Clients are responsible for submitting accurate requisitions and are accountable for funding which must be provided in accordance with Section 32 of the Financial Administration Act . Requisitions must be funded in Canadian currency, including applicable taxes. The requisition must be approved in accordance with the client's internal delegation of authority."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0012",
+      "section_id": "d464cb3ed11d::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Funding"
+      ],
+      "markdown": "Buyers must confirm that funding is committed prior to taking any of the following actions:",
+      "plain_text": "Buyers must confirm that funding is committed prior to taking any of the following actions:"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0013",
+      "section_id": "d464cb3ed11d::s004",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Funding"
+      ],
+      "markdown": "- Prior to the publication of any solicitation which results in a contractual commitment by Canada, such as:\n- Request for Quotation (RFQ)\n- Request for Proposal (RFP)\n- Invitation to Tender (ITT)\n- Advance Contract Award Notice (ACAN)\n- RFPs against a Supply Arrangement\n- Prior to entering into contract negotiations with a supplier\n- Prior to entering a contract or issuing a call-up against a standing offer\n- Prior to amending a contract\n- Prior to issuing a task authorization",
+      "plain_text": "Prior to the publication of any solicitation which results in a contractual commitment by Canada, such as: ; Request for Quotation (RFQ) ; Request for Proposal (RFP) ; Invitation to Tender (ITT) ; Advance Contract Award Notice (ACAN) ; RFPs against a Supply Arrangement ; Prior to entering into contract negotiations with a supplier ; Prior to entering a contract or issuing a call-up against a standing offer ; Prior to amending a contract ; Prior to issuing a task authorization"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0014",
+      "section_id": "d464cb3ed11d::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Funding"
+      ],
+      "markdown": "The confirmation of funding is not required when publishing a solicitation of offers which does not directly result in a contractual commitment by Canada (e.g. Request for Standing Offer or Supply Arrangement, Letter of Interest, Request for Information, Invitation to Qualify).",
+      "plain_text": "The confirmation of funding is not required when publishing a solicitation of offers which does not directly result in a contractual commitment by Canada (e.g. Request for Standing Offer or Supply Arrangement, Letter of Interest, Request for Information, Invitation to Qualify)."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0015",
+      "section_id": "d464cb3ed11d::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Funding"
+      ],
+      "markdown": "Some exceptions may be sought on a case-by-case basis, and subject to approval at the Assistant Deputy Minister (ADM) level.",
+      "plain_text": "Some exceptions may be sought on a case-by-case basis, and subject to approval at the Assistant Deputy Minister (ADM) level."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0016",
+      "section_id": "d464cb3ed11d::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Funding"
+      ],
+      "markdown": "When a solicitation of offers includes non-binding option periods to be exercised at Canada's discretion, those option periods are not required to be funded at the time of publication. However, the initial contract period must be fully funded.",
+      "plain_text": "When a solicitation of offers includes non-binding option periods to be exercised at Canada's discretion, those option periods are not required to be funded at the time of publication. However, the initial contract period must be fully funded."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0017",
+      "section_id": "d464cb3ed11d::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Funding"
+      ],
+      "markdown": "Although the PWGSC-TPSGC 9200 form (PDF, 512 KB) (accessible only on the Government of Canada network) is the preferred method of confirming funding, other forms of documentation may be accepted. These must clearly indicate the current and revised funding amounts in Canadian currency, include applicable taxes, and contain certification under Section 32 of the Financial Administration Act .",
+      "plain_text": "Although the PWGSC-TPSGC 9200 form (PDF, 512 KB) (accessible only on the Government of Canada network) is the preferred method of confirming funding, other forms of documentation may be accepted. These must clearly indicate the current and revised funding amounts in Canadian currency, include applicable taxes, and contain certification under Section 32 of the Financial Administration Act ."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0018",
+      "section_id": "d464cb3ed11d::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Funding"
+      ],
+      "markdown": "Note : requisitions under the United States (US) Foreign Military Sales (FMS) Program, may be funded in US currency. The requisition approval must be in accordance with the clients internal delegation of authority. The total equivalent estimated Canadian currency value with the applied exchange rate derived from the Bank of Canada on the day of the requisition being assigned must be included in the PWGSC-TPSGC 9200 form (PDF, 512 KB) (accessible only on the Government of Canada network).",
+      "plain_text": "Note : requisitions under the United States (US) Foreign Military Sales (FMS) Program, may be funded in US currency. The requisition approval must be in accordance with the clients internal delegation of authority. The total equivalent estimated Canadian currency value with the applied exchange rate derived from the Bank of Canada on the day of the requisition being assigned must be included in the PWGSC-TPSGC 9200 form (PDF, 512 KB) (accessible only on the Government of Canada network)."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0019",
+      "section_id": "d464cb3ed11d::s005",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Price and availability enquiries"
+      ],
+      "markdown": "### Price and availability enquiries",
+      "plain_text": "Price and availability enquiries"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0020",
+      "section_id": "d464cb3ed11d::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Price and availability enquiries"
+      ],
+      "markdown": "Price and availability (P&A) enquiries are generally initiated by clients and handled in the same manner as any requisition. They are used to gather information about the approximate prices and availability of specific goods or services from businesses, assisting in budgetary or planning decision. You can send P&A enquiries directly to selected businesses or post them on the tendering services platform. You must clearly state in P&A enquiries that the request is not a solicitation of offers and implies no commitment to future purchases or contracts.",
+      "plain_text": "Price and availability (P&A) enquiries are generally initiated by clients and handled in the same manner as any requisition. They are used to gather information about the approximate prices and availability of specific goods or services from businesses, assisting in budgetary or planning decision. You can send P&A enquiries directly to selected businesses or post them on the tendering services platform. You must clearly state in P&A enquiries that the request is not a solicitation of offers and implies no commitment to future purchases or contracts."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0021",
+      "section_id": "d464cb3ed11d::s006",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review"
+      ],
+      "markdown": "### Requisition review",
+      "plain_text": "Requisition review"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0022",
+      "section_id": "d464cb3ed11d::s006",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review"
+      ],
+      "markdown": "You must review all requisitions and engage in discussions with the client to ensure that they are complete and accurate before proceeding with the procurement process.",
+      "plain_text": "You must review all requisitions and engage in discussions with the client to ensure that they are complete and accurate before proceeding with the procurement process."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0023",
+      "section_id": "d464cb3ed11d::s006",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review"
+      ],
+      "markdown": "Key areas of requisition review include:",
+      "plain_text": "Key areas of requisition review include:"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0024",
+      "section_id": "d464cb3ed11d::s007",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Accessibility"
+      ],
+      "markdown": "#### Accessibility",
+      "plain_text": "Accessibility"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0025",
+      "section_id": "d464cb3ed11d::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Accessibility"
+      ],
+      "markdown": "If accessibility has not been considered, the business owner (client department or agency, technical authority) must be made aware of their obligation to consider accessibility and to complete a justification form if accessibility criteria are not included. The contracting authority should provide any relevant tools and guidance on accessible procurement to the business owner as needed. For more information, refer to the Office of Public Service Accessibility (accessible only on the Government of Canada network) webpage and the Digital Accessibility Toolkit . Please visit YouTube for informational videos on the Accessible Canada Act and meaningful consideration of accessibility in procurement.",
+      "plain_text": "If accessibility has not been considered, the business owner (client department or agency, technical authority) must be made aware of their obligation to consider accessibility and to complete a justification form if accessibility criteria are not included. The contracting authority should provide any relevant tools and guidance on accessible procurement to the business owner as needed. For more information, refer to the Office of Public Service Accessibility (accessible only on the Government of Canada network) webpage and the Digital Accessibility Toolkit . Please visit YouTube for informational videos on the Accessible Canada Act and meaningful consideration of accessibility in procurement."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0026",
+      "section_id": "d464cb3ed11d::s008",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Allocation"
+      ],
+      "markdown": "#### Allocation",
+      "plain_text": "Allocation"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0027",
+      "section_id": "d464cb3ed11d::s008",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Allocation"
+      ],
+      "markdown": "Ensure the requisition has been directed or allocated to the appropriate office.",
+      "plain_text": "Ensure the requisition has been directed or allocated to the appropriate office."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0028",
+      "section_id": "d464cb3ed11d::s009",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Authorization and signatures"
+      ],
+      "markdown": "#### Authorization and signatures",
+      "plain_text": "Authorization and signatures"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0029",
+      "section_id": "d464cb3ed11d::s009",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Authorization and signatures"
+      ],
+      "markdown": "Ensure that the requisition is authorized properly, which means that it contains all mandatory signatures.",
+      "plain_text": "Ensure that the requisition is authorized properly, which means that it contains all mandatory signatures."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0030",
+      "section_id": "d464cb3ed11d::s009",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Authorization and signatures"
+      ],
+      "markdown": "Clients must certify that:",
+      "plain_text": "Clients must certify that:"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0031",
+      "section_id": "d464cb3ed11d::s009",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Authorization and signatures"
+      ],
+      "markdown": "- funds are available pursuant to subsection 32(1) of the F inancial Administration Act (FAA)\n- the requisition is approved, necessary approvals obtained, and PSPC is requested to acquire the specified goods or services or both, including construction, described therein\n- the requisition accurately details the requirement\u2019s security provisions, including any attached Security Requirements Check List (SRCL) form , statement of work, and security documents and security clauses provided by the Contract Security Program (CSP)\n- requisitions received via e-Purchasing are deemed properly authorized with all signatures pursuant to the FAA",
+      "plain_text": "funds are available pursuant to subsection 32(1) of the F inancial Administration Act (FAA) ; the requisition is approved, necessary approvals obtained, and PSPC is requested to acquire the specified goods or services or both, including construction, described therein ; the requisition accurately details the requirement\u2019s security provisions, including any attached Security Requirements Check List (SRCL) form , statement of work, and security documents and security clauses provided by the Contract Security Program (CSP) ; requisitions received via e-Purchasing are deemed properly authorized with all signatures pursuant to the FAA"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0032",
+      "section_id": "d464cb3ed11d::s010",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Canadian specifications"
+      ],
+      "markdown": "#### Canadian specifications",
+      "plain_text": "Canadian specifications"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0033",
+      "section_id": "d464cb3ed11d::s010",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Canadian specifications"
+      ],
+      "markdown": "The nature of the work is to Canadian specifications.",
+      "plain_text": "The nature of the work is to Canadian specifications."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0034",
+      "section_id": "d464cb3ed11d::s011",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Consequences of late delivery"
+      ],
+      "markdown": "#### Consequences of late delivery",
+      "plain_text": "Consequences of late delivery"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0035",
+      "section_id": "d464cb3ed11d::s011",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Consequences of late delivery"
+      ],
+      "markdown": "Consequences resulting from a late delivery are stated, and if necessary, liquidated damages provisions or other performance incentives are included.",
+      "plain_text": "Consequences resulting from a late delivery are stated, and if necessary, liquidated damages provisions or other performance incentives are included."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0036",
+      "section_id": "d464cb3ed11d::s012",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Consignee codes"
+      ],
+      "markdown": "#### Consignee codes",
+      "plain_text": "Consignee codes"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0037",
+      "section_id": "d464cb3ed11d::s012",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Consignee codes"
+      ],
+      "markdown": "The destination or consignee codes are specified.",
+      "plain_text": "The destination or consignee codes are specified."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0038",
+      "section_id": "d464cb3ed11d::s013",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Contract option periods"
+      ],
+      "markdown": "#### Contract option periods",
+      "plain_text": "Contract option periods"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0039",
+      "section_id": "d464cb3ed11d::s013",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Contract option periods"
+      ],
+      "markdown": "The option or extension periods are stated, if needed.",
+      "plain_text": "The option or extension periods are stated, if needed."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0040",
+      "section_id": "d464cb3ed11d::s014",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Contractor access"
+      ],
+      "markdown": "#### Contractor access",
+      "plain_text": "Contractor access"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0041",
+      "section_id": "d464cb3ed11d::s014",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Contractor access"
+      ],
+      "markdown": "Contractor's access requirements to personal records are stated if necessary.",
+      "plain_text": "Contractor's access requirements to personal records are stated if necessary."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0042",
+      "section_id": "d464cb3ed11d::s015",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Controlled goods"
+      ],
+      "markdown": "#### Controlled goods",
+      "plain_text": "Controlled goods"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0043",
+      "section_id": "d464cb3ed11d::s015",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Controlled goods"
+      ],
+      "markdown": "Controlled goods are identified.",
+      "plain_text": "Controlled goods are identified."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0044",
+      "section_id": "d464cb3ed11d::s016",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Defence contracts"
+      ],
+      "markdown": "#### Defence contracts",
+      "plain_text": "Defence contracts"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0045",
+      "section_id": "d464cb3ed11d::s016",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Defence contracts"
+      ],
+      "markdown": "The client department has identified the requirement as a \"defence contract,\" as defined in the Defence Production Act if necessary.",
+      "plain_text": "The client department has identified the requirement as a \"defence contract,\" as defined in the Defence Production Act if necessary."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0046",
+      "section_id": "d464cb3ed11d::s017",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Definition of goods or services"
+      ],
+      "markdown": "#### Definition of goods or services",
+      "plain_text": "Definition of goods or services"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0047",
+      "section_id": "d464cb3ed11d::s017",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Definition of goods or services"
+      ],
+      "markdown": "The good or service (or both) are adequately defined in the requisition. Technical documentation, or statement of work are attached.",
+      "plain_text": "The good or service (or both) are adequately defined in the requisition. Technical documentation, or statement of work are attached."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0048",
+      "section_id": "d464cb3ed11d::s017",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Definition of goods or services"
+      ],
+      "markdown": "Note : you should help the client properly define their requirement , if necessary.",
+      "plain_text": "Note : you should help the client properly define their requirement , if necessary."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0049",
+      "section_id": "d464cb3ed11d::s018",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Delivery schedules"
+      ],
+      "markdown": "#### Delivery schedules",
+      "plain_text": "Delivery schedules"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0050",
+      "section_id": "d464cb3ed11d::s018",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Delivery schedules"
+      ],
+      "markdown": "Delivery lead times and schedules are realistic, or special actions to meet delivery objectives are stated.",
+      "plain_text": "Delivery lead times and schedules are realistic, or special actions to meet delivery objectives are stated."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0051",
+      "section_id": "d464cb3ed11d::s019",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Design changes"
+      ],
+      "markdown": "#### Design changes",
+      "plain_text": "Design changes"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0052",
+      "section_id": "d464cb3ed11d::s019",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Design changes"
+      ],
+      "markdown": "Design change or deviation procedure is specified.",
+      "plain_text": "Design change or deviation procedure is specified."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0053",
+      "section_id": "d464cb3ed11d::s020",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Environmental considerations"
+      ],
+      "markdown": "#### Environmental considerations",
+      "plain_text": "Environmental considerations"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0054",
+      "section_id": "d464cb3ed11d::s020",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Environmental considerations"
+      ],
+      "markdown": "Environmental performance considerations have been addressed.",
+      "plain_text": "Environmental performance considerations have been addressed."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0055",
+      "section_id": "d464cb3ed11d::s021",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Evaluation criteria"
+      ],
+      "markdown": "#### Evaluation criteria",
+      "plain_text": "Evaluation criteria"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0056",
+      "section_id": "d464cb3ed11d::s021",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Evaluation criteria"
+      ],
+      "markdown": "Evaluation criteria is specified and the mandatory requirements are clear.",
+      "plain_text": "Evaluation criteria is specified and the mandatory requirements are clear."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0057",
+      "section_id": "d464cb3ed11d::s022",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Existing procurement instruments"
+      ],
+      "markdown": "#### Existing procurement instruments",
+      "plain_text": "Existing procurement instruments"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0058",
+      "section_id": "d464cb3ed11d::s022",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Existing procurement instruments"
+      ],
+      "markdown": "Good or services are available on a standing offer or a supply arrangement (or a mandatory standing offer).",
+      "plain_text": "Good or services are available on a standing offer or a supply arrangement (or a mandatory standing offer)."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0059",
+      "section_id": "d464cb3ed11d::s023",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Financial codes"
+      ],
+      "markdown": "#### Financial codes",
+      "plain_text": "Financial codes"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0060",
+      "section_id": "d464cb3ed11d::s023",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Financial codes"
+      ],
+      "markdown": "Financial codes associated with the requisition are identified.",
+      "plain_text": "Financial codes associated with the requisition are identified."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0061",
+      "section_id": "d464cb3ed11d::s024",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Funding adequacy"
+      ],
+      "markdown": "#### Funding adequacy",
+      "plain_text": "Funding adequacy"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0062",
+      "section_id": "d464cb3ed11d::s024",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Funding adequacy"
+      ],
+      "markdown": "Estimated funding documented are adequate enough to cover costs.",
+      "plain_text": "Estimated funding documented are adequate enough to cover costs."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0063",
+      "section_id": "d464cb3ed11d::s025",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Funding details"
+      ],
+      "markdown": "#### Funding details",
+      "plain_text": "Funding details"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0064",
+      "section_id": "d464cb3ed11d::s025",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Funding details"
+      ],
+      "markdown": "Funding details include the amounts listed in the \"Current Funding\" section and the included Goods and Services Tax or the Harmonized Sales Tax.",
+      "plain_text": "Funding details include the amounts listed in the \"Current Funding\" section and the included Goods and Services Tax or the Harmonized Sales Tax."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0065",
+      "section_id": "d464cb3ed11d::s026",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Former public servant"
+      ],
+      "markdown": "#### Former public servant",
+      "plain_text": "Former public servant"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0066",
+      "section_id": "d464cb3ed11d::s026",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Former public servant"
+      ],
+      "markdown": "The documentation needs to indicate if the sole source is directed to a former public servant.",
+      "plain_text": "The documentation needs to indicate if the sole source is directed to a former public servant."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0067",
+      "section_id": "d464cb3ed11d::s027",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Form version and security"
+      ],
+      "markdown": "#### Form version and security",
+      "plain_text": "Form version and security"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0068",
+      "section_id": "d464cb3ed11d::s027",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Form version and security"
+      ],
+      "markdown": "The current version of the requisition form needs to be used. If a previous version is used, proper security certification must be included.",
+      "plain_text": "The current version of the requisition form needs to be used. If a previous version is used, proper security certification must be included."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0069",
+      "section_id": "d464cb3ed11d::s028",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Goods and Services Identification Number (GSIN)"
+      ],
+      "markdown": "#### Goods and Services Identification Number (GSIN)",
+      "plain_text": "Goods and Services Identification Number (GSIN)"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0070",
+      "section_id": "d464cb3ed11d::s028",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Goods and Services Identification Number (GSIN)"
+      ],
+      "markdown": "The GSIN needs to be shown and accurate.",
+      "plain_text": "The GSIN needs to be shown and accurate."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0071",
+      "section_id": "d464cb3ed11d::s029",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Indigenous business strategy"
+      ],
+      "markdown": "#### Indigenous business strategy",
+      "plain_text": "Indigenous business strategy"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0072",
+      "section_id": "d464cb3ed11d::s029",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Indigenous business strategy"
+      ],
+      "markdown": "The procurement, if applicable, needs to state if it has been set aside under the Procurement Strategy for Indigenous Business.",
+      "plain_text": "The procurement, if applicable, needs to state if it has been set aside under the Procurement Strategy for Indigenous Business."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0073",
+      "section_id": "d464cb3ed11d::s030",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Inspection authority"
+      ],
+      "markdown": "#### Inspection authority",
+      "plain_text": "Inspection authority"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0074",
+      "section_id": "d464cb3ed11d::s030",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Inspection authority"
+      ],
+      "markdown": "The inspection or quality assurance authority needs to be specified.",
+      "plain_text": "The inspection or quality assurance authority needs to be specified."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0075",
+      "section_id": "d464cb3ed11d::s031",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Intellectual property"
+      ],
+      "markdown": "#### Intellectual property",
+      "plain_text": "Intellectual property"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0076",
+      "section_id": "d464cb3ed11d::s031",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Intellectual property"
+      ],
+      "markdown": "The client department needs to include instructions concerning the treatment of any intellectual property that may result from the procurement.",
+      "plain_text": "The client department needs to include instructions concerning the treatment of any intellectual property that may result from the procurement."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0077",
+      "section_id": "d464cb3ed11d::s032",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Invoicing"
+      ],
+      "markdown": "#### Invoicing",
+      "plain_text": "Invoicing"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0078",
+      "section_id": "d464cb3ed11d::s032",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Invoicing"
+      ],
+      "markdown": "Invoicing instructions are provided.",
+      "plain_text": "Invoicing instructions are provided."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0079",
+      "section_id": "d464cb3ed11d::s033",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Land claims agreements"
+      ],
+      "markdown": "#### Land claims agreements",
+      "plain_text": "Land claims agreements"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0080",
+      "section_id": "d464cb3ed11d::s033",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Land claims agreements"
+      ],
+      "markdown": "The requirement needs to state whether it is subject to the provisions of a Comprehensive Land Claims Agreement .",
+      "plain_text": "The requirement needs to state whether it is subject to the provisions of a Comprehensive Land Claims Agreement ."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0081",
+      "section_id": "d464cb3ed11d::s034",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Multiple items on the requisition"
+      ],
+      "markdown": "#### Multiple items on the requisition",
+      "plain_text": "Multiple items on the requisition"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0082",
+      "section_id": "d464cb3ed11d::s034",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Multiple items on the requisition"
+      ],
+      "markdown": "Multiple items on the requisition need to be grouped if at all possible, or put in an extract file.",
+      "plain_text": "Multiple items on the requisition need to be grouped if at all possible, or put in an extract file."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0083",
+      "section_id": "d464cb3ed11d::s035",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Policy conflicts"
+      ],
+      "markdown": "#### Policy conflicts",
+      "plain_text": "Policy conflicts"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0084",
+      "section_id": "d464cb3ed11d::s035",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Policy conflicts"
+      ],
+      "markdown": "Does the requisition or attachments contain any clauses or conditions that conflict with any Government of Canada contracting policies and procedures?",
+      "plain_text": "Does the requisition or attachments contain any clauses or conditions that conflict with any Government of Canada contracting policies and procedures?"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0085",
+      "section_id": "d464cb3ed11d::s036",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Pricing basis"
+      ],
+      "markdown": "#### Pricing basis",
+      "plain_text": "Pricing basis"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0086",
+      "section_id": "d464cb3ed11d::s036",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Pricing basis"
+      ],
+      "markdown": "The requisition contains any form of predefined types of pricing basis.",
+      "plain_text": "The requisition contains any form of predefined types of pricing basis."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0087",
+      "section_id": "d464cb3ed11d::s037",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Product quality"
+      ],
+      "markdown": "#### Product quality",
+      "plain_text": "Product quality"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0088",
+      "section_id": "d464cb3ed11d::s037",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Product quality"
+      ],
+      "markdown": "The extent of required product quality management and assurance needs to be stated.",
+      "plain_text": "The extent of required product quality management and assurance needs to be stated."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0089",
+      "section_id": "d464cb3ed11d::s038",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Radio-transmitting equipment"
+      ],
+      "markdown": "#### Radio-transmitting equipment",
+      "plain_text": "Radio-transmitting equipment"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0090",
+      "section_id": "d464cb3ed11d::s038",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Radio-transmitting equipment"
+      ],
+      "markdown": "The client obtained radio frequency equipment clearance from Industry Canada and stated whether there are other similar special considerations.",
+      "plain_text": "The client obtained radio frequency equipment clearance from Industry Canada and stated whether there are other similar special considerations."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0091",
+      "section_id": "d464cb3ed11d::s039",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Repetitive purchases"
+      ],
+      "markdown": "#### Repetitive purchases",
+      "plain_text": "Repetitive purchases"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0092",
+      "section_id": "d464cb3ed11d::s039",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Repetitive purchases"
+      ],
+      "markdown": "The repetitive stated whether the items could be bought on an annual basis through:",
+      "plain_text": "The repetitive stated whether the items could be bought on an annual basis through:"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0093",
+      "section_id": "d464cb3ed11d::s039",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Repetitive purchases"
+      ],
+      "markdown": "- standing offers\n- supply arrangements\n- phased delivery\n- task authorization\n- contracts with a call-up feature\n- being included as contract options for additional quantities",
+      "plain_text": "standing offers ; supply arrangements ; phased delivery ; task authorization ; contracts with a call-up feature ; being included as contract options for additional quantities"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0094",
+      "section_id": "d464cb3ed11d::s040",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Renewal and previous contracts"
+      ],
+      "markdown": "#### Renewal and previous contracts",
+      "plain_text": "Renewal and previous contracts"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0095",
+      "section_id": "d464cb3ed11d::s040",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Renewal and previous contracts"
+      ],
+      "markdown": "The client states whether the procurement is a renewal of an existing contractual arrangement for the same services, or if the services been procured before.",
+      "plain_text": "The client states whether the procurement is a renewal of an existing contractual arrangement for the same services, or if the services been procured before."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0096",
+      "section_id": "d464cb3ed11d::s040",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Renewal and previous contracts"
+      ],
+      "markdown": "If yes, state:",
+      "plain_text": "If yes, state:"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0097",
+      "section_id": "d464cb3ed11d::s040",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Renewal and previous contracts"
+      ],
+      "markdown": "- who is the incumbent contractor\n- what is the previous contract number\n- when does it expire\n- was it procured by PSPC or the client\n- did the previous contract have special pricing or terms and conditions",
+      "plain_text": "who is the incumbent contractor ; what is the previous contract number ; when does it expire ; was it procured by PSPC or the client ; did the previous contract have special pricing or terms and conditions"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0098",
+      "section_id": "d464cb3ed11d::s041",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Right of use"
+      ],
+      "markdown": "#### Right of use",
+      "plain_text": "Right of use"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0099",
+      "section_id": "d464cb3ed11d::s041",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Right of use"
+      ],
+      "markdown": "The client states if there were any unrestricted rights to the use of the technical data or if royalty payments are involved.",
+      "plain_text": "The client states if there were any unrestricted rights to the use of the technical data or if royalty payments are involved."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0100",
+      "section_id": "d464cb3ed11d::s042",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Security provisions"
+      ],
+      "markdown": "#### Security provisions",
+      "plain_text": "Security provisions"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0101",
+      "section_id": "d464cb3ed11d::s042",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Security provisions"
+      ],
+      "markdown": "The requisition includes security provisions and whether a Security Requirements Check List (SRCL) is required.",
+      "plain_text": "The requisition includes security provisions and whether a Security Requirements Check List (SRCL) is required."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0102",
+      "section_id": "d464cb3ed11d::s042",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Security provisions"
+      ],
+      "markdown": "Note : if no SRCL is required but security provisions are included, this must be explained.",
+      "plain_text": "Note : if no SRCL is required but security provisions are included, this must be explained."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0103",
+      "section_id": "d464cb3ed11d::s043",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Sole source support"
+      ],
+      "markdown": "#### Sole source support",
+      "plain_text": "Sole source support"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0104",
+      "section_id": "d464cb3ed11d::s043",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Sole source support"
+      ],
+      "markdown": "The client must indicate whether there is support for a sole source or no-substitute request and they have responded to Treasury Board questions for sole source adequately.",
+      "plain_text": "The client must indicate whether there is support for a sole source or no-substitute request and they have responded to Treasury Board questions for sole source adequately."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0105",
+      "section_id": "d464cb3ed11d::s044",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Standards and specifications"
+      ],
+      "markdown": "#### Standards and specifications",
+      "plain_text": "Standards and specifications"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0106",
+      "section_id": "d464cb3ed11d::s044",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Standards and specifications"
+      ],
+      "markdown": "The client needs to include the appropriate standards, specifications, or purchase descriptions. If not, state whether an existing one can be used; or whether:",
+      "plain_text": "The client needs to include the appropriate standards, specifications, or purchase descriptions. If not, state whether an existing one can be used; or whether:"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0107",
+      "section_id": "d464cb3ed11d::s044",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Standards and specifications"
+      ],
+      "markdown": "- there is a need for the development of a new standard, specification, or procurement description\n- the NATO Stock Number or the GSIN of the products shown accurately as per the published commodity codes. Note: clients must detail the GSIN in the requisition, due to trade agreement implications, you must ensure the accuracy of the GSIN s",
+      "plain_text": "there is a need for the development of a new standard, specification, or procurement description ; the NATO Stock Number or the GSIN of the products shown accurately as per the published commodity codes. Note: clients must detail the GSIN in the requisition, due to trade agreement implications, you must ensure the accuracy of the GSIN s"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0108",
+      "section_id": "d464cb3ed11d::s045",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Tax exemptions"
+      ],
+      "markdown": "#### Tax exemptions",
+      "plain_text": "Tax exemptions"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0109",
+      "section_id": "d464cb3ed11d::s045",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Tax exemptions"
+      ],
+      "markdown": "Has the client department claimed and substantiated exemption from taxes or duties, by referring to a certificate of exemption, or remission or drawback order in council?",
+      "plain_text": "Has the client department claimed and substantiated exemption from taxes or duties, by referring to a certificate of exemption, or remission or drawback order in council?"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0110",
+      "section_id": "d464cb3ed11d::s046",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Tooling and equipment"
+      ],
+      "markdown": "#### Tooling and equipment",
+      "plain_text": "Tooling and equipment"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0111",
+      "section_id": "d464cb3ed11d::s046",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Tooling and equipment"
+      ],
+      "markdown": "Special production tooling or special test equipment, if required, needs to be included and specify if government-furnished equipment or government-supplied materiel is needed.",
+      "plain_text": "Special production tooling or special test equipment, if required, needs to be included and specify if government-furnished equipment or government-supplied materiel is needed."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0112",
+      "section_id": "d464cb3ed11d::s047",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Trade-ins"
+      ],
+      "markdown": "#### Trade-ins",
+      "plain_text": "Trade-ins"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0113",
+      "section_id": "d464cb3ed11d::s047",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition review",
+        "Trade-ins"
+      ],
+      "markdown": "The clients needs to indicate if a trade-in is required.",
+      "plain_text": "The clients needs to indicate if a trade-in is required."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0114",
+      "section_id": "d464cb3ed11d::s048",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition allocation within Public Services and Procurement Canada"
+      ],
+      "markdown": "### Requisition allocation within Public Services and Procurement Canada",
+      "plain_text": "Requisition allocation within Public Services and Procurement Canada"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0115",
+      "section_id": "d464cb3ed11d::s048",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition allocation within Public Services and Procurement Canada"
+      ],
+      "markdown": "Clients may direct requisitions, as well as P&A enquiries, to any PSPC Allocation office within Canada. Normally, the client-specified PSPC AU will handle the requisition unless it falls under specific geographical client requirements or involves:",
+      "plain_text": "Clients may direct requisitions, as well as P&A enquiries, to any PSPC Allocation office within Canada. Normally, the client-specified PSPC AU will handle the requisition unless it falls under specific geographical client requirements or involves:"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0116",
+      "section_id": "d464cb3ed11d::s048",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition allocation within Public Services and Procurement Canada"
+      ],
+      "markdown": "- restricted commodities\n- specific commodities like monitors or printers,\n- major projects, or falls under specific geographical client requirements.",
+      "plain_text": "restricted commodities ; specific commodities like monitors or printers, ; major projects, or falls under specific geographical client requirements."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0117",
+      "section_id": "d464cb3ed11d::s048",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition allocation within Public Services and Procurement Canada"
+      ],
+      "markdown": "Situations in which the client may not specify their PSPC office of choice, and the respective rules for requisition allocation are outlined in the 3 sections below.",
+      "plain_text": "Situations in which the client may not specify their PSPC office of choice, and the respective rules for requisition allocation are outlined in the 3 sections below."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0118",
+      "section_id": "d464cb3ed11d::s049",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition allocation within Public Services and Procurement Canada",
+        "Restricted commodities"
+      ],
+      "markdown": "#### Restricted commodities",
+      "plain_text": "Restricted commodities"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0119",
+      "section_id": "d464cb3ed11d::s049",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition allocation within Public Services and Procurement Canada",
+        "Restricted commodities"
+      ],
+      "markdown": "Restricted commodities includes advertising, public opinion research, production of audio visual, bulk buys for fuel and vehicles, and United States Foreign Military Sales. For requisitions without a specified office preference, the following allocation rules apply:",
+      "plain_text": "Restricted commodities includes advertising, public opinion research, production of audio visual, bulk buys for fuel and vehicles, and United States Foreign Military Sales. For requisitions without a specified office preference, the following allocation rules apply:"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0120",
+      "section_id": "d464cb3ed11d::s049",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition allocation within Public Services and Procurement Canada",
+        "Restricted commodities"
+      ],
+      "markdown": "- single consignee point are allocated to the PSPC office closest to that point within the same regional sector\n- multiple consignees within the same regional sector without a specific office nearby are allocated to an office designated by their regional director\n- multiple consignees within multiple regional sectors are allocated to the PSPC office closest to the originator of the requisition\n- if the requisition line items have the same monetary value or their values cannot be determined, allocation is determined by the office responsible for the GSIN code of the first line item.",
+      "plain_text": "single consignee point are allocated to the PSPC office closest to that point within the same regional sector ; multiple consignees within the same regional sector without a specific office nearby are allocated to an office designated by their regional director ; multiple consignees within multiple regional sectors are allocated to the PSPC office closest to the originator of the requisition ; if the requisition line items have the same monetary value or their values cannot be determined, allocation is determined by the office responsible for the GSIN code of the first line item."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0121",
+      "section_id": "d464cb3ed11d::s050",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition allocation within Public Services and Procurement Canada",
+        "Product and service categories managers"
+      ],
+      "markdown": "#### Product and service categories managers",
+      "plain_text": "Product and service categories managers"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0122",
+      "section_id": "d464cb3ed11d::s050",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition allocation within Public Services and Procurement Canada",
+        "Product and service categories managers"
+      ],
+      "markdown": "Requisitions relating to a specific product and service category or to a specific geographical client, are allocated to the specific office that is able to satisfy their request.",
+      "plain_text": "Requisitions relating to a specific product and service category or to a specific geographical client, are allocated to the specific office that is able to satisfy their request."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0123",
+      "section_id": "d464cb3ed11d::s051",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition allocation within Public Services and Procurement Canada",
+        "Major projects"
+      ],
+      "markdown": "#### Major projects",
+      "plain_text": "Major projects"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0124",
+      "section_id": "d464cb3ed11d::s051",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition allocation within Public Services and Procurement Canada",
+        "Major projects"
+      ],
+      "markdown": "Requisitions part of a major project are allocated to the office responsible for that project.",
+      "plain_text": "Requisitions part of a major project are allocated to the office responsible for that project."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0125",
+      "section_id": "d464cb3ed11d::s051",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition allocation within Public Services and Procurement Canada",
+        "Major projects"
+      ],
+      "markdown": "As the buyer, you must verify:",
+      "plain_text": "As the buyer, you must verify:"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0126",
+      "section_id": "d464cb3ed11d::s051",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Requisition allocation within Public Services and Procurement Canada",
+        "Major projects"
+      ],
+      "markdown": "- that all requisition allocations comply with the accurate detailing of the GSIN due to trade agreement implications\n- the necessity for special production tooling or test equipment\n- government-furnished equipment or materials\n- whether the requisition contains any predefined types of pricing bases\n- necessary deviation procedures\n- product quality management, and assurance requirements\n- whether the requisition or attachments contain any clauses or conditions that conflict with any PSPC or government contracting policies and procedures",
+      "plain_text": "that all requisition allocations comply with the accurate detailing of the GSIN due to trade agreement implications ; the necessity for special production tooling or test equipment ; government-furnished equipment or materials ; whether the requisition contains any predefined types of pricing bases ; necessary deviation procedures ; product quality management, and assurance requirements ; whether the requisition or attachments contain any clauses or conditions that conflict with any PSPC or government contracting policies and procedures"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0127",
+      "section_id": "d464cb3ed11d::s052",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Notification to Indigenous Services Canada"
+      ],
+      "markdown": "### Notification to Indigenous Services Canada",
+      "plain_text": "Notification to Indigenous Services Canada"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0128",
+      "section_id": "d464cb3ed11d::s052",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Notification to Indigenous Services Canada"
+      ],
+      "markdown": "Upon receipt and acceptance of a requisition for a Procurement Strategy for Indigenous Business (PSIB) set-aside procurement, you must inform the Business Development Directorate at Indigenous Services Canada (ISC). Notification to ISC must be sent via email prior to the release of the solicitation. The notification must include:",
+      "plain_text": "Upon receipt and acceptance of a requisition for a Procurement Strategy for Indigenous Business (PSIB) set-aside procurement, you must inform the Business Development Directorate at Indigenous Services Canada (ISC). Notification to ISC must be sent via email prior to the release of the solicitation. The notification must include:"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0129",
+      "section_id": "d464cb3ed11d::s052",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Notification to Indigenous Services Canada"
+      ],
+      "markdown": "- estimated dollar value\n- description of the goods, services or construction\n- solicitation number\n- solicitation closing date\n- buyer's contact details (including name and phone or fax numbers)",
+      "plain_text": "estimated dollar value ; description of the goods, services or construction ; solicitation number ; solicitation closing date ; buyer's contact details (including name and phone or fax numbers)"
+    },
+    {
+      "block_id": "d464cb3ed11d::b0130",
+      "section_id": "d464cb3ed11d::s052",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Notification to Indigenous Services Canada"
+      ],
+      "markdown": "For sole source procurements, you must also include in the notification, the name and address of the potential contractor.",
+      "plain_text": "For sole source procurements, you must also include in the notification, the name and address of the potential contractor."
+    },
+    {
+      "block_id": "d464cb3ed11d::b0131",
+      "section_id": "d464cb3ed11d::s052",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Define the requirement - Requisition",
+        "Buyer's Guide",
+        "Requisition",
+        "Notification to Indigenous Services Canada"
+      ],
+      "markdown": "Within 15 working days after contract award, you must advise the ISC Business Development Directorate of the name of the contractor, the contract number, and the total estimated value of the contract.",
+      "plain_text": "Within 15 working days after contract award, you must advise the ISC Business Development Directorate of the name of the contractor, the contract number, and the total estimated value of the contract."
+    }
+  ]
+}

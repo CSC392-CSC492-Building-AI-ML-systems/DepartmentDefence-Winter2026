@@ -1,0 +1,36 @@
+# Buyer's Guide Considerations for solicitations - Certifications
+
+# Buyer's Guide
+
+- Plan
+- Approve
+- Create solicitation
+- Solicit
+- Receive and evaluate
+- Negotiate
+- Award
+- Manage
+
+Certifications A requirement for certifications must be included in all solicitations of offers. To qualify for a contract, standing offer, or supply arrangement, businesses are required to provide you with the necessary certifications as outlined in the solicitation documents. The absence of these certifications upon request renders the offer non-compliant. Verification of these certifications occurs before and throughout the contract, standing offer or supply arrangement duration. Failure to meet certification requirements may result in contract termination. Some key certifications to include in the solicitation documents are: Federal Contractors Program for Employment Equity This program mandates that businesses bidding on federal contracts certify compliance with the Federal Contractors Program (FCP), as administered by Employment and Social Development Canada – Labour Program. The FCP seeks to eliminate employment barriers for women, Indigenous Peoples, persons with disabilities and members of visible minorities, aligning with the objectives of the Employment Equity Act . Canadian content When the Canadian Content Policy is applicable to support Canadian industry participation, certifications regarding Canadian content must be included in the solicitation. Price and rate certifications A price certification or a rate certification is required for all negotiated firm-price and fixed-time rate contracts valued at $50,000 or more, for the acquisition of commercial or non-commercial goods or services. This requirement underlines the government's commitment to obtaining best value while maintaining fiscal responsibility. Ineligibility and Suspension Policy clauses These clauses must be included in all procurement instruments to ensure that it is understood that by submitting an offer, the offeror is certifying that they are in compliance with the Ineligibility and Suspension Policy. If the offeror is unable to provide any of the certifications listed in the Integrity and Suspension Policy, the offeror must provide a completed Integrity Declaration Form with the offer.
+
+## Certifications
+
+A requirement for certifications must be included in all solicitations of offers. To qualify for a contract, standing offer, or supply arrangement, businesses are required to provide you with the necessary certifications as outlined in the solicitation documents.
+
+The absence of these certifications upon request renders the offer non-compliant. Verification of these certifications occurs before and throughout the contract, standing offer or supply arrangement duration. Failure to meet certification requirements may result in contract termination. Some key certifications to include in the solicitation documents are:
+
+### Federal Contractors Program for Employment Equity
+
+This program mandates that businesses bidding on federal contracts certify compliance with the Federal Contractors Program (FCP), as administered by Employment and Social Development Canada – Labour Program. The FCP seeks to eliminate employment barriers for women, Indigenous Peoples, persons with disabilities and members of visible minorities, aligning with the objectives of the Employment Equity Act .
+
+### Canadian content
+
+When the Canadian Content Policy is applicable to support Canadian industry participation, certifications regarding Canadian content must be included in the solicitation.
+
+### Price and rate certifications
+
+A price certification or a rate certification is required for all negotiated firm-price and fixed-time rate contracts valued at $50,000 or more, for the acquisition of commercial or non-commercial goods or services. This requirement underlines the government's commitment to obtaining best value while maintaining fiscal responsibility.
+
+### Ineligibility and Suspension Policy clauses
+
+These clauses must be included in all procurement instruments to ensure that it is understood that by submitting an offer, the offeror is certifying that they are in compliance with the Ineligibility and Suspension Policy. If the offeror is unable to provide any of the certifications listed in the Integrity and Suspension Policy, the offeror must provide a completed Integrity Declaration Form with the offer.

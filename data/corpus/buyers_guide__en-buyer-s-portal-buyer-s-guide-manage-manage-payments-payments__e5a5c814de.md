@@ -1,0 +1,26 @@
+# Buyer's Guide Manage - Manage payments
+
+# Buyer's Guide
+
+- Plan
+- Approve
+- Create solicitation
+- Solicit
+- Receive and evaluate
+- Negotiate
+- Award
+- Manage
+
+## Payments
+
+Except for progress payments, payments may only be made if a person authorized by the appropriate minister certifies that:
+
+- the work has been performed
+- the goods have been supplied or services rendered as the case may be
+- the price charged is according to the contract or is reasonable if not specified by the contract
+
+When a payment must be made before the completion of the work or delivery of the goods or rendering of the service, the payment must be made in accordance with the contract.
+
+Payments for work performed or goods received in accordance with the contract are made per the Treasury Board Directive on Payments . The standard due date for payment is 30 days, after invoicing or receipt of goods, whichever is later.
+
+The payment period is measured from the date that the goods or services were received, in acceptable condition, at the location(s) specified in the contract, or the date that an invoice in proper form was received, whichever is later.

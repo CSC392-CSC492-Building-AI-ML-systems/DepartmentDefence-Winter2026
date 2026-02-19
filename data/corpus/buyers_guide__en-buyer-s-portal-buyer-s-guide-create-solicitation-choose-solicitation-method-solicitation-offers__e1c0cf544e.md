@@ -1,0 +1,48 @@
+# Buyer's Guide Choose a solicitation method - Solicitation of offers
+
+# Buyer's Guide
+
+- Plan
+- Approve
+- Create solicitation
+- Solicit
+- Receive and evaluate
+- Negotiate
+- Award
+- Manage
+
+Solicitation of offers Solicitation of offers is suitable for various complexities and value levels, including low dollar value, medium and high complexity requirements. It can be used when the selection of an offeror is based on price or best value. A Request for proposal (RFP) is a procurement instrument used when the offer selection is based on best value rather than on price alone. It is ideal when offerors are invited to propose solutions to specific needs or objectives, with the selection based on the effectiveness of these solutions. A solicitation of offers that results in a contractual obligation requires confirmation of funding prior to publication. Offers must be evaluated and the successful offeror must be selected in accordance with specific criteria and procedures as set out in the solicitation of offers. Buyers can solicit offers through public advertisement on the Government electronic tending service (GETS) by inviting selected offerors from a source list where allowed or by inviting a single source only if conditions for a non-competitive process have been met. Responses to solicitations of offers may result in negotiations before contract award, when the solicitation of offers documents states the right to negotiate in accordance with both international trade agreements and the Canadian Free Trade Agreement (CFTA). The solicitation of offers should minimally include: a clear definition of the requirement instructions for offerors offer preparation instructions clear evaluation procedures certification requirements security and financial requirements the offer's validity period resulting contract clauses information on how offerors can inquire about the solicitation outcomes and the evaluation of their offers The preparation of offers can be costly to businesses. To reduce costs for offerors while ensuring transparency, you may consider a two-step solicitation process. During the first step, offerors submit letters of interest and qualifications, leading to the development of a shortlist. Then in the second step, shortlisted offerors are invited to provide detailed offers. Businesses not included on the shortlist are still able to request the solicitation documents and submit offers. This method may be particularly useful when numerous known potential offerors exist. You must follow the procedures required under applicable international trade agreements and the CFTA , related to selective tendering and prequalification of offerors.
+
+## Solicitation of offers
+
+Solicitation of offers is suitable for various complexities and value levels, including low dollar value, medium and high complexity requirements. It can be used when the selection of an offeror is based on price or best value.
+
+A Request for proposal (RFP) is a procurement instrument used when the offer selection is based on best value rather than on price alone. It is ideal when offerors are invited to propose solutions to specific needs or objectives, with the selection based on the effectiveness of these solutions.
+
+A solicitation of offers that results in a contractual obligation requires confirmation of funding prior to publication.
+
+Offers must be evaluated and the successful offeror must be selected in accordance with specific criteria and procedures as set out in the solicitation of offers.
+
+Buyers can solicit offers through public advertisement on the Government electronic tending service (GETS) by inviting selected offerors from a source list where allowed or by inviting a single source only if conditions for a non-competitive process have been met.
+
+Responses to solicitations of offers may result in negotiations before contract award, when the solicitation of offers documents states the right to negotiate in accordance with both international trade agreements and the Canadian Free Trade Agreement (CFTA).
+
+The solicitation of offers should minimally include:
+
+- a clear definition of the requirement
+- instructions for offerors
+- offer preparation instructions
+- clear evaluation procedures
+- certification requirements
+- security and financial requirements
+- the offer's validity period
+- resulting contract clauses
+- information on how offerors can inquire about the solicitation outcomes and the evaluation of their offers
+
+The preparation of offers can be costly to businesses. To reduce costs for offerors while ensuring transparency, you may consider a two-step solicitation process.
+
+During the first step, offerors submit letters of interest and qualifications, leading to the development of a shortlist. Then in the second step, shortlisted offerors are invited to provide detailed offers.
+
+Businesses not included on the shortlist are still able to request the solicitation documents and submit offers.
+
+This method may be particularly useful when numerous known potential offerors exist. You must follow the procedures required under applicable international trade agreements and the CFTA , related to selective tendering and prequalification of offerors.

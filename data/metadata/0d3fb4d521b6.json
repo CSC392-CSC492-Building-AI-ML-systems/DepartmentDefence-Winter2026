@@ -1,0 +1,496 @@
+{
+  "doc_id": "0d3fb4d521b6",
+  "title": "Buyer's Guide Approval and authorities - Risk-based procurement delegation",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/risk-based-procurement-delegation",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/risk-based-procurement-delegation",
+  "doc_type": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": "2026-01-31",
+  "fetched_at": "2026-02-19T09:17:35.798330+00:00",
+  "content_hash": "2f69623297312531375c51e1fed0d350591231981a60bf59d48879b073cbdc60",
+  "word_count": 737,
+  "text_path": "data/corpus/buyers_guide__en-buyer-s-portal-buyer-s-guide-approve-approvals-and-authorities-risk-based-procurement-delegation__0d3fb4d521.md",
+  "extraction_method": "buyers_guide_regions",
+  "breadcrumbs": [
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "https://canadabuys.canada.ca/en",
+      "canonical_url": "https://canadabuys.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "in_scope": true
+    },
+    {
+      "title": "Approvals and authorities",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities",
+      "in_scope": true
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities",
+    "parent_doc_id": "6ab9a87ceb0c",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/risk-based-procurement-delegation"
+    ],
+    "lineage_doc_ids": [
+      "1e29c7881335",
+      "6ab9a87ceb0c",
+      "0d3fb4d521b6"
+    ],
+    "depth": 2,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/additional-signing-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/approval-authorities-and-additional-signing-authorities-support-acquisitions-program-clients-programs-only-other-canadian-commercial-corporation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contract-approval-and-signing-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contracting-limits-including-exceptional-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/delegation-authority-guidelines",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/general-principles-procurement-authority",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/adjustments-complexity-levels",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/characteristics-procurement-complexity-levels",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/considerations-amendments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/determining-complexity",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/procurement-risk-assessment-complexity",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/additional-reviewers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/approval-processes",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-amendment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-planning-and-advanced-approval",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-request",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/procurement-plan",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/task-authorizations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/treasury-board-submission",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/forgiveness-debts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/procurement-process-initiated-client",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/retroactive-treasury-board-approval-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/trade-ins",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/waiver-interest"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/additional-signing-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/approval-authorities-and-additional-signing-authorities-support-acquisitions-program-clients-programs-only-other-canadian-commercial-corporation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contract-approval-and-signing-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/contracting-limits-including-exceptional-authorities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/delegation-authority-guidelines",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/approvals-and-authorities/general-principles-procurement-authority",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/adjustments-complexity-levels",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/characteristics-procurement-complexity-levels",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/considerations-amendments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/determining-complexity",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment/procurement-risk-assessment-complexity",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/additional-reviewers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/approval-processes",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-amendment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-planning-and-advanced-approval",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/contract-request",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/procurement-plan",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/task-authorizations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/treasury-board-submission",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/forgiveness-debts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/procurement-process-initiated-client",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/retroactive-treasury-board-approval-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/trade-ins",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/special-considerations/waiver-interest",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure": {
+    "block_count": 11,
+    "section_count": 5,
+    "heading_count": 4,
+    "paragraph_count": 3,
+    "list_count": 2,
+    "table_count": 2
+  },
+  "sections": [
+    {
+      "section_id": "0d3fb4d521b6::root",
+      "parent_section_id": null,
+      "level": 0,
+      "heading": "Buyer's Guide Approval and authorities - Risk-based procurement delegation",
+      "heading_path": [
+        "Buyer's Guide Approval and authorities - Risk-based procurement delegation"
+      ],
+      "block_count": 0,
+      "word_count": 0,
+      "char_count": 0,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": null,
+      "last_block_index": null,
+      "preview": "",
+      "prev_section_id": null,
+      "next_section_id": null
+    },
+    {
+      "section_id": "0d3fb4d521b6::s001",
+      "parent_section_id": "0d3fb4d521b6::root",
+      "level": 1,
+      "heading": "Buyer's Guide Approval and authorities - Risk-based procurement delegation",
+      "heading_path": [
+        "Buyer's Guide Approval and authorities - Risk-based procurement delegation",
+        "Buyer's Guide Approval and authorities - Risk-based procurement delegation"
+      ],
+      "block_count": 1,
+      "word_count": 9,
+      "char_count": 74,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 0,
+      "last_block_index": 0,
+      "preview": "Buyer's Guide Approval and authorities - Risk-based procurement delegation",
+      "prev_section_id": null,
+      "next_section_id": "0d3fb4d521b6::s002"
+    },
+    {
+      "section_id": "0d3fb4d521b6::s002",
+      "parent_section_id": "0d3fb4d521b6::root",
+      "level": 1,
+      "heading": "Buyer's Guide",
+      "heading_path": [
+        "Buyer's Guide Approval and authorities - Risk-based procurement delegation",
+        "Buyer's Guide"
+      ],
+      "block_count": 3,
+      "word_count": 421,
+      "char_count": 2896,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 1,
+      "last_block_index": 3,
+      "preview": "Buyer's Guide Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage Risk-based procurement delegation This grid illustrates the delegation limits of individual officers based on the risk level an",
+      "prev_section_id": "0d3fb4d521b6::s001",
+      "next_section_id": "0d3fb4d521b6::s003"
+    },
+    {
+      "section_id": "0d3fb4d521b6::s003",
+      "parent_section_id": "0d3fb4d521b6::s002",
+      "level": 2,
+      "heading": "Risk-based procurement delegation",
+      "heading_path": [
+        "Buyer's Guide Approval and authorities - Risk-based procurement delegation",
+        "Buyer's Guide",
+        "Risk-based procurement delegation"
+      ],
+      "block_count": 3,
+      "word_count": 181,
+      "char_count": 944,
+      "table_count": 1,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 4,
+      "last_block_index": 6,
+      "preview": "Risk-based procurement delegation This grid illustrates the delegation limits of individual officers based on the risk level and the complexity of the procurement. Row headers identify the risk level, moving down from high to low. Column he",
+      "prev_section_id": "0d3fb4d521b6::s002",
+      "next_section_id": "0d3fb4d521b6::s004"
+    },
+    {
+      "section_id": "0d3fb4d521b6::s004",
+      "parent_section_id": "0d3fb4d521b6::s003",
+      "level": 3,
+      "heading": "Equivalent positions",
+      "heading_path": [
+        "Buyer's Guide Approval and authorities - Risk-based procurement delegation",
+        "Buyer's Guide",
+        "Risk-based procurement delegation",
+        "Equivalent positions"
+      ],
+      "block_count": 4,
+      "word_count": 126,
+      "char_count": 768,
+      "table_count": 1,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 7,
+      "last_block_index": 10,
+      "preview": "Equivalent positions The following table provides information related to positions within PSPC AP , whether at headquarters, client sites, or regional offices, with responsibility for common service acquisitions. unless restricted by legisl",
+      "prev_section_id": "0d3fb4d521b6::s003",
+      "next_section_id": null
+    }
+  ],
+  "tables": [
+    {
+      "table_id": "0d3fb4d521b6::t001",
+      "section_id": "0d3fb4d521b6::s003",
+      "row_count": 7,
+      "column_count": 7,
+      "headers": [
+        "Column 1",
+        "Column 2",
+        "Column 3",
+        "Column 4",
+        "Column 5",
+        "Column 6",
+        "Column 7"
+      ],
+      "sample_rows": [
+        [
+          "Complexity level",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Risk level",
+          "",
+          "Level 1",
+          "Level 2",
+          "Level 3",
+          "Level 4",
+          "Level 5"
+        ],
+        [
+          "High",
+          "Manager",
+          "Director",
+          "DG",
+          "ADM",
+          "ADM",
+          ""
+        ],
+        [
+          "Medium- High",
+          "Supply team leader",
+          "Manager",
+          "Senior director/Regional director/Director",
+          "ADM",
+          "ADM",
+          ""
+        ],
+        [
+          "Medium",
+          "Supply specialist",
+          "Supply team leader",
+          "Manager",
+          "ADM",
+          "ADM",
+          ""
+        ],
+        [
+          "Medium- Low",
+          "Supply officer",
+          "Supply specialist",
+          "Supply team leader",
+          "ADM",
+          "ADM",
+          ""
+        ]
+      ]
+    },
+    {
+      "table_id": "0d3fb4d521b6::t002",
+      "section_id": "0d3fb4d521b6::s004",
+      "row_count": 42,
+      "column_count": 2,
+      "headers": [
+        "Column 1",
+        "Column 2"
+      ],
+      "sample_rows": [
+        [
+          "Table of equivalent positions within AP",
+          ""
+        ],
+        [
+          "Level 1 \u2013 Senior Departmental Manager",
+          "ADM , Defence and Marine Procurement"
+        ],
+        [
+          "ADM , Procurement",
+          ""
+        ],
+        [
+          "Regional DG",
+          ""
+        ],
+        [
+          "Other executive level positions reporting directly to the Deputy Minister",
+          ""
+        ],
+        [
+          "Level 2 \u2013 DG",
+          "DG"
+        ]
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "block_id": "0d3fb4d521b6::b0001",
+      "section_id": "0d3fb4d521b6::s001",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Approval and authorities - Risk-based procurement delegation",
+        "Buyer's Guide Approval and authorities - Risk-based procurement delegation"
+      ],
+      "markdown": "# Buyer's Guide Approval and authorities - Risk-based procurement delegation",
+      "plain_text": "Buyer's Guide Approval and authorities - Risk-based procurement delegation"
+    },
+    {
+      "block_id": "0d3fb4d521b6::b0002",
+      "section_id": "0d3fb4d521b6::s002",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Approval and authorities - Risk-based procurement delegation",
+        "Buyer's Guide"
+      ],
+      "markdown": "# Buyer's Guide",
+      "plain_text": "Buyer's Guide"
+    },
+    {
+      "block_id": "0d3fb4d521b6::b0003",
+      "section_id": "0d3fb4d521b6::s002",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Approval and authorities - Risk-based procurement delegation",
+        "Buyer's Guide"
+      ],
+      "markdown": "- Plan\n- Approve\n- Create solicitation\n- Solicit\n- Receive and evaluate\n- Negotiate\n- Award\n- Manage",
+      "plain_text": "Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage"
+    },
+    {
+      "block_id": "0d3fb4d521b6::b0004",
+      "section_id": "0d3fb4d521b6::s002",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Approval and authorities - Risk-based procurement delegation",
+        "Buyer's Guide"
+      ],
+      "markdown": "Risk-based procurement delegation This grid illustrates the delegation limits of individual officers based on the risk level and the complexity of the procurement. Row headers identify the risk level, moving down from high to low. Column headers identify complexity level, moving left to right from Level 1 through 5 inclusive. The characteristics applicable to the various levels of complexity are identified at Characteristics of procurement complexity levels . Complexity level Risk level Level 1 Level 2 Level 3 Level 4 Level 5 High Manager Director DG ADM ADM Medium- High Supply team leader Manager Senior director/Regional director/Director ADM ADM Medium Supply specialist Supply team leader Manager ADM ADM Medium- Low Supply officer Supply specialist Supply team leader ADM ADM Low Intern officer/ Senior purchasing assistant/ Procurement assistant Supply officer Supply specialist ADM ADM Equivalent positions The following table provides information related to positions within PSPC AP , whether at headquarters, client sites, or regional offices, with responsibility for common service acquisitions. unless restricted by legislation, regulation, or policy the Deputy Minister and Associate Deputy Minister of PSPC possess the same authorities as the Minister of PSPC positions not listed, the equivalent positions as recognized by the Chief Financial Officer of PSPC will apply Table of equivalent positions within AP Level 1 \u2013 Senior Departmental Manager ADM , Defence and Marine Procurement ADM , Procurement Regional DG Other executive level positions reporting directly to the Deputy Minister Level 2 \u2013 DG DG Other Executive level positions reporting directly to a Level 01 position Level 3 \u2013 Senior Director Regional Director Senior Director Other executive level positions reporting directly to at least a Level 02 position Level 4 \u2013 Director Director Regional manager Other positions reporting directly to at least a Level 03 position Level 5 \u2013 Manager Manager Project manager Procurement manager Other positions reporting directly to at least a Level 04 position Level 6 \u2013 Supervisor Chief Contracting management officer Marine technical inspector (when performing purchasing functions) Procurement officer Project officer Senior contract management officer Senior contracts officer Senior contracts officer (Washington) Senior procurement manager Supervisor Supply specialist Supply team leader Team leader Other positions reporting directly to at least a Level 05 position Level 7 \u2013 Officer Contract clerk Contracts officer Export transportation officer Intern officer/trainee Procurement assistant Project clerk Purchasing assistant Purchasing officer Senior purchasing assistant Supply officer Other positions reporting directly to at least a Level 06 position",
+      "plain_text": "Risk-based procurement delegation This grid illustrates the delegation limits of individual officers based on the risk level and the complexity of the procurement. Row headers identify the risk level, moving down from high to low. Column headers identify complexity level, moving left to right from Level 1 through 5 inclusive. The characteristics applicable to the various levels of complexity are identified at Characteristics of procurement complexity levels . Complexity level Risk level Level 1 Level 2 Level 3 Level 4 Level 5 High Manager Director DG ADM ADM Medium- High Supply team leader Manager Senior director/Regional director/Director ADM ADM Medium Supply specialist Supply team leader Manager ADM ADM Medium- Low Supply officer Supply specialist Supply team leader ADM ADM Low Intern officer/ Senior purchasing assistant/ Procurement assistant Supply officer Supply specialist ADM ADM Equivalent positions The following table provides information related to positions within PSPC AP , whether at headquarters, client sites, or regional offices, with responsibility for common service acquisitions. unless restricted by legislation, regulation, or policy the Deputy Minister and Associate Deputy Minister of PSPC possess the same authorities as the Minister of PSPC positions not listed, the equivalent positions as recognized by the Chief Financial Officer of PSPC will apply Table of equivalent positions within AP Level 1 \u2013 Senior Departmental Manager ADM , Defence and Marine Procurement ADM , Procurement Regional DG Other executive level positions reporting directly to the Deputy Minister Level 2 \u2013 DG DG Other Executive level positions reporting directly to a Level 01 position Level 3 \u2013 Senior Director Regional Director Senior Director Other executive level positions reporting directly to at least a Level 02 position Level 4 \u2013 Director Director Regional manager Other positions reporting directly to at least a Level 03 position Level 5 \u2013 Manager Manager Project manager Procurement manager Other positions reporting directly to at least a Level 04 position Level 6 \u2013 Supervisor Chief Contracting management officer Marine technical inspector (when performing purchasing functions) Procurement officer Project officer Senior contract management officer Senior contracts officer Senior contracts officer (Washington) Senior procurement manager Supervisor Supply specialist Supply team leader Team leader Other positions reporting directly to at least a Level 05 position Level 7 \u2013 Officer Contract clerk Contracts officer Export transportation officer Intern officer/trainee Procurement assistant Project clerk Purchasing assistant Purchasing officer Senior purchasing assistant Supply officer Other positions reporting directly to at least a Level 06 position"
+    },
+    {
+      "block_id": "0d3fb4d521b6::b0005",
+      "section_id": "0d3fb4d521b6::s003",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Approval and authorities - Risk-based procurement delegation",
+        "Buyer's Guide",
+        "Risk-based procurement delegation"
+      ],
+      "markdown": "## Risk-based procurement delegation",
+      "plain_text": "Risk-based procurement delegation"
+    },
+    {
+      "block_id": "0d3fb4d521b6::b0006",
+      "section_id": "0d3fb4d521b6::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Approval and authorities - Risk-based procurement delegation",
+        "Buyer's Guide",
+        "Risk-based procurement delegation"
+      ],
+      "markdown": "This grid illustrates the delegation limits of individual officers based on the risk level and the complexity of the procurement. Row headers identify the risk level, moving down from high to low. Column headers identify complexity level, moving left to right from Level 1 through 5 inclusive. The characteristics applicable to the various levels of complexity are identified at Characteristics of procurement complexity levels .",
+      "plain_text": "This grid illustrates the delegation limits of individual officers based on the risk level and the complexity of the procurement. Row headers identify the risk level, moving down from high to low. Column headers identify complexity level, moving left to right from Level 1 through 5 inclusive. The characteristics applicable to the various levels of complexity are identified at Characteristics of procurement complexity levels ."
+    },
+    {
+      "block_id": "0d3fb4d521b6::b0007",
+      "section_id": "0d3fb4d521b6::s003",
+      "type": "table",
+      "heading_path": [
+        "Buyer's Guide Approval and authorities - Risk-based procurement delegation",
+        "Buyer's Guide",
+        "Risk-based procurement delegation"
+      ],
+      "markdown": "| Column 1 | Column 2 | Column 3 | Column 4 | Column 5 | Column 6 | Column 7 |\n| --- | --- | --- | --- | --- | --- | --- |\n| Complexity level | | | | | | |\n| Risk level | | Level 1 | Level 2 | Level 3 | Level 4 | Level 5 |\n| High | Manager | Director | DG | ADM | ADM | |\n| Medium- High | Supply team leader | Manager | Senior director/Regional director/Director | ADM | ADM | |\n| Medium | Supply specialist | Supply team leader | Manager | ADM | ADM | |\n| Medium- Low | Supply officer | Supply specialist | Supply team leader | ADM | ADM | |\n| Low | Intern officer/ Senior purchasing assistant/ Procurement assistant | Supply officer | Supply specialist | ADM | ADM | |",
+      "plain_text": "Column 1 | Column 2 | Column 3 | Column 4 | Column 5 | Column 6 | Column 7 ; Complexity level | | | | | | ; Risk level | | Level 1 | Level 2 | Level 3 | Level 4 | Level 5 ; High | Manager | Director | DG | ADM | ADM | ; Medium- High | Supply team leader | Manager | Senior director/Regional director/Director | ADM | ADM | ; Medium | Supply specialist | Supply team leader | Manager | ADM | ADM | ; Medium- Low | Supply officer | Supply specialist | Supply team leader | ADM | ADM |",
+      "table_id": "0d3fb4d521b6::t001"
+    },
+    {
+      "block_id": "0d3fb4d521b6::b0008",
+      "section_id": "0d3fb4d521b6::s004",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Approval and authorities - Risk-based procurement delegation",
+        "Buyer's Guide",
+        "Risk-based procurement delegation",
+        "Equivalent positions"
+      ],
+      "markdown": "### Equivalent positions",
+      "plain_text": "Equivalent positions"
+    },
+    {
+      "block_id": "0d3fb4d521b6::b0009",
+      "section_id": "0d3fb4d521b6::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Approval and authorities - Risk-based procurement delegation",
+        "Buyer's Guide",
+        "Risk-based procurement delegation",
+        "Equivalent positions"
+      ],
+      "markdown": "The following table provides information related to positions within PSPC AP , whether at headquarters, client sites, or regional offices, with responsibility for common service acquisitions.",
+      "plain_text": "The following table provides information related to positions within PSPC AP , whether at headquarters, client sites, or regional offices, with responsibility for common service acquisitions."
+    },
+    {
+      "block_id": "0d3fb4d521b6::b0010",
+      "section_id": "0d3fb4d521b6::s004",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Approval and authorities - Risk-based procurement delegation",
+        "Buyer's Guide",
+        "Risk-based procurement delegation",
+        "Equivalent positions"
+      ],
+      "markdown": "- unless restricted by legislation, regulation, or policy the Deputy Minister and Associate Deputy Minister of PSPC possess the same authorities as the Minister of PSPC\n- positions not listed, the equivalent positions as recognized by the Chief Financial Officer of PSPC will apply",
+      "plain_text": "unless restricted by legislation, regulation, or policy the Deputy Minister and Associate Deputy Minister of PSPC possess the same authorities as the Minister of PSPC ; positions not listed, the equivalent positions as recognized by the Chief Financial Officer of PSPC will apply"
+    },
+    {
+      "block_id": "0d3fb4d521b6::b0011",
+      "section_id": "0d3fb4d521b6::s004",
+      "type": "table",
+      "heading_path": [
+        "Buyer's Guide Approval and authorities - Risk-based procurement delegation",
+        "Buyer's Guide",
+        "Risk-based procurement delegation",
+        "Equivalent positions"
+      ],
+      "markdown": "| Column 1 | Column 2 |\n| --- | --- |\n| Table of equivalent positions within AP | |\n| Level 1 \u2013 Senior Departmental Manager | ADM , Defence and Marine Procurement |\n| ADM , Procurement | |\n| Regional DG | |\n| Other executive level positions reporting directly to the Deputy Minister | |\n| Level 2 \u2013 DG | DG |\n| Other Executive level positions reporting directly to a Level 01 position | |\n| Level 3 \u2013 Senior Director | Regional Director |\n| Senior Director | |\n| Other executive level positions reporting directly to at least a Level 02 position | |\n| Level 4 \u2013 Director | Director |\n| Regional manager | |\n| Other positions reporting directly to at least a Level 03 position | |\n| Level 5 \u2013 Manager | Manager |\n| Project manager | |\n| Procurement manager | |\n| Other positions reporting directly to at least a Level 04 position | |\n| Level 6 \u2013 Supervisor | Chief |\n| Contracting management officer | |\n| Marine technical inspector (when performing purchasing functions) | |\n| Procurement officer | |\n| Project officer | |\n| Senior contract management officer | |\n| Senior contracts officer | |\n| Senior contracts officer (Washington) | |\n| Senior procurement manager | |\n| Supervisor | |\n| Supply specialist | |\n| Supply team leader | |\n| Team leader | |\n| Other positions reporting directly to at least a Level 05 position | |\n| Level 7 \u2013 Officer | Contract clerk |\n| Contracts officer | |\n| Export transportation officer | |\n| Intern officer/trainee | |\n| Procurement assistant | |\n| Project clerk | |\n| Purchasing assistant | |\n| Purchasing officer | |\n| Senior purchasing assistant | |\n| Supply officer | |\n| Other positions reporting directly to at least a Level 06 position | |",
+      "plain_text": "Column 1 | Column 2 ; Table of equivalent positions within AP | ; Level 1 \u2013 Senior Departmental Manager | ADM , Defence and Marine Procurement ; ADM , Procurement | ; Regional DG | ; Other executive level positions reporting directly to the Deputy Minister | ; Level 2 \u2013 DG | DG",
+      "table_id": "0d3fb4d521b6::t002"
+    }
+  ]
+}

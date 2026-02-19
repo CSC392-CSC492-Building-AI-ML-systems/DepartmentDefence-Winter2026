@@ -1,0 +1,28 @@
+# Buyer's Guide Client review - Client review of elements of a solicitation of offers
+
+# Buyer's Guide
+
+- Plan
+- Approve
+- Create solicitation
+- Solicit
+- Receive and evaluate
+- Negotiate
+- Award
+- Manage
+
+Client review of elements of a solicitation of offers For sensitive or high-risk procurements, before issuing the solicitation of offers, you must clearly explain to the client their responsibilities with respect to the solicitation and obtain written confirmation for the following: the statement of work, statement of requirement or technical specifications which will be included in the solicitation of offers accurately represents their requirements they concur with the evaluation criteria and contractor selection methodology detailed in the solicitation of offers they agree that the ratio of percentages with respect to the technical evaluation in relation to the price evaluation represents value for money Note: It is the client’s responsibility to determine the required level of authority of the personnel authorized to provide these confirmations. You should refer the client to any formal agreements between Public Services and Procurement Canada (PSPC) and their department concerning the division of responsibilities related to the procurement process. You must record on file all significant decisions made in consultation with the client related to requirement definition and technical evaluation.
+
+## Client review of elements of a solicitation of offers
+
+For sensitive or high-risk procurements, before issuing the solicitation of offers, you must clearly explain to the client their responsibilities with respect to the solicitation and obtain written confirmation for the following:
+
+- the statement of work, statement of requirement or technical specifications which will be included in the solicitation of offers accurately represents their requirements
+- they concur with the evaluation criteria and contractor selection methodology detailed in the solicitation of offers
+- they agree that the ratio of percentages with respect to the technical evaluation in relation to the price evaluation represents value for money
+
+Note: It is the client’s responsibility to determine the required level of authority of the personnel authorized to provide these confirmations.
+
+You should refer the client to any formal agreements between Public Services and Procurement Canada (PSPC) and their department concerning the division of responsibilities related to the procurement process.
+
+You must record on file all significant decisions made in consultation with the client related to requirement definition and technical evaluation.

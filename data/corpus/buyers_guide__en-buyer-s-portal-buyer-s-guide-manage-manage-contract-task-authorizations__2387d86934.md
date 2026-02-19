@@ -1,0 +1,67 @@
+# Buyer's Guide Manage a contract - Task authorizations
+
+# Buyer's Guide
+
+- Plan
+- Approve
+- Create solicitation
+- Solicit
+- Receive and evaluate
+- Negotiate
+- Award
+- Manage
+
+## Task authorizations
+
+You should refer to the guidelines listed below when managing contracts that involve task authorizations.
+
+### Authorizing and issuing task authorizations
+
+Before authorizing a task authorization (TA), the organization authorized to issue the TA to the contractor (normally the client) must:
+
+- respect the process to issue TA s, as detailed in the contract
+- ensure the estimated cost of the TA is within the client’s TA limit specified in the contract
+- forward the TA to the contracting authority for authorization and issuance if the estimated cost limit is exceeded
+- ensure the work requirement, deliverables, and schedule of the TA are in accordance with the contract scope
+- provide the contractor with the task description and payment terms and obtain the level of effort if applicable
+- ensure the task can be completed during the contract period
+- verify the amount specified in the contract as Canada’s total liability to the contractor for all authorized TA s
+- ensure the new TA will not cause the total liability amount to be exceeded
+- finalize the TA and include its total value in line with the contract
+- obtain all necessary signatures (client or contracting authority, or both, as required; and the contractor), and the date of these signatures on the TA
+
+### Revision of a task authorization
+
+Clients may revise a TA they have previously authorized, provided the changes remain within the scope and financial limits of the contract.
+
+Each revision requires:
+
+- agreement from the contractor on the proposed changes
+- authorization from the contracting authority if the revised TA value will exceed the client's TA limit
+
+A TA may be revised to decrease the scope of activities or to cancel the task entirely. This adjustment must be formalized through a TA revision. If a contractor is in default, or for the convenience of Canada, the contract termination provisions will apply and the contract may be partially or entirely terminated. Such matters must be referred to the contracting authority.
+
+After a task is completed the committed amount may be reduced to reflect the actual expenditure. These changes must be reflected in the record of TA s.
+
+### Recordkeeping
+
+A detailed and current record of all authorized tasks must be kept for each contract with TA s. The client or contractor is responsible for creating and updating this record as established in consultation with the client during the procurement planning stage.
+
+### Segregation of duties
+
+The Treasury Board Directive on Delegation of Spending and Financial Authorities requires that the same individual must not, on the same transaction, exercise both the authority to enter into a contract or amendment and the authority to certify payments under section 34 of the Financial Administration Act . In its December 2008 report, the Office of the Auditor General raised the issue of segregation of duties with respect to task authorizations and stated that combining procurement and certification functions under the responsibility of one individual was not in keeping with the Treasury Board policy.
+
+Therefore, although task authorizations are not individual contracts, PSPC applies the principle of segregation of duties to task authorizations issued for PSPC 's own needs. The PSPC individual who signs the task authorization must not also certify the associated invoices.
+
+PSPC also recommends this practice to its clients. However, as specified in the TB directive, when a client’s process or another circumstance does not allow this segregation of duties, the client must implement and document alternate control measures. The client is responsible for ensuring these measures or its current process are robust enough to withstand scrutiny under audit.
+
+### Monitoring and oversight
+
+You must monitor TA s to ensure they comply with the contract terms and conditions.
+
+You must also review progress reports to:
+
+- verify that work is being performed in line with both the contract and the TA s
+- track spending against the contract value
+
+If you discover that the TA process deviates from the contract or the agreed-upon procedures with the client, corrective measures must be implemented. You must first consult with Legal Services before any contract penalties or termination provisions are invoked and then inform the contractor.

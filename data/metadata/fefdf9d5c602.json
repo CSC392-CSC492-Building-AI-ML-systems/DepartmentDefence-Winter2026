@@ -1,0 +1,444 @@
+{
+  "doc_id": "fefdf9d5c602",
+  "title": "Buyer's Guide Choose a solicitation method - Request for standing offer",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-standing-offer",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-standing-offer",
+  "doc_type": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": "2026-01-31",
+  "fetched_at": "2026-02-19T09:18:07.168419+00:00",
+  "content_hash": "59b17c96cd2d3944ec0f91f8d1dd6650607f9557cb4ec5e70f9d3d721c41bfa6",
+  "word_count": 865,
+  "text_path": "data/corpus/buyers_guide__en-buyer-s-portal-buyer-s-guide-create-solicitation-choose-solicitation-method-request-standing-offer__fefdf9d5c6.md",
+  "extraction_method": "buyers_guide_regions",
+  "breadcrumbs": [
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "https://canadabuys.canada.ca/en",
+      "canonical_url": "https://canadabuys.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "in_scope": true
+    },
+    {
+      "title": "Create solicitation",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation",
+      "in_scope": true
+    },
+    {
+      "title": "Choose a solicitation method",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "in_scope": true
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+    "parent_doc_id": "e24cc0f6b01d",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-standing-offer"
+    ],
+    "lineage_doc_ids": [
+      "1e29c7881335",
+      "2e11d15cd64e",
+      "e24cc0f6b01d",
+      "fefdf9d5c602"
+    ],
+    "depth": 3,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/invitation-tender",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/preparing-solicitation-documents",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-information",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-quotation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-supply-arrangement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/client-review",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/client-review/client-review-elements-solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/audit",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/certifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/delivery-terms",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/exchange-rates",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/method-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/offer-receipt",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/phased-offer-compliance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/translation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/minimum-solicitation-periods-itqs-rfsas-and-urgent-procurements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/normal-minimum-solicitation-periods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/solicitations-following-request-expressions-interest",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/advanced-contract-award-notice",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/notice-proposed-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-procurement-strategy-indigenous-business-set-asides",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-trade-agreements"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/invitation-tender",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/preparing-solicitation-documents",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-information",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-quotation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/request-supply-arrangement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method/solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/client-review",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/client-review/client-review-elements-solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/audit",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/certifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/delivery-terms",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/exchange-rates",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/method-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/offer-receipt",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/phased-offer-compliance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/considerations-solicitations/translation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/minimum-solicitation-periods-itqs-rfsas-and-urgent-procurements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/normal-minimum-solicitation-periods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/determine-solicitation-period/solicitations-following-request-expressions-interest",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/solicitation-period",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/advanced-contract-award-notice",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/notice-proposed-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-procurement-strategy-indigenous-business-set-asides",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/tender-notices/tender-notices-and-trade-agreements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document",
+      "https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32692"
+    ]
+  },
+  "structure": {
+    "block_count": 15,
+    "section_count": 5,
+    "heading_count": 4,
+    "paragraph_count": 9,
+    "list_count": 2,
+    "table_count": 0
+  },
+  "sections": [
+    {
+      "section_id": "fefdf9d5c602::root",
+      "parent_section_id": null,
+      "level": 0,
+      "heading": "Buyer's Guide Choose a solicitation method - Request for standing offer",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Request for standing offer"
+      ],
+      "block_count": 0,
+      "word_count": 0,
+      "char_count": 0,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": null,
+      "last_block_index": null,
+      "preview": "",
+      "prev_section_id": null,
+      "next_section_id": null
+    },
+    {
+      "section_id": "fefdf9d5c602::s001",
+      "parent_section_id": "fefdf9d5c602::root",
+      "level": 1,
+      "heading": "Buyer's Guide Choose a solicitation method - Request for standing offer",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Request for standing offer",
+        "Buyer's Guide Choose a solicitation method - Request for standing offer"
+      ],
+      "block_count": 1,
+      "word_count": 11,
+      "char_count": 71,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 0,
+      "last_block_index": 0,
+      "preview": "Buyer's Guide Choose a solicitation method - Request for standing offer",
+      "prev_section_id": null,
+      "next_section_id": "fefdf9d5c602::s002"
+    },
+    {
+      "section_id": "fefdf9d5c602::s002",
+      "parent_section_id": "fefdf9d5c602::root",
+      "level": 1,
+      "heading": "Buyer's Guide",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Request for standing offer",
+        "Buyer's Guide"
+      ],
+      "block_count": 3,
+      "word_count": 432,
+      "char_count": 2757,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 1,
+      "last_block_index": 3,
+      "preview": "Buyer's Guide Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage Request for standing offers A Request for standing offers (RFSO) is a method used to solicit offers for standing offer (SO) met",
+      "prev_section_id": "fefdf9d5c602::s001",
+      "next_section_id": "fefdf9d5c602::s003"
+    },
+    {
+      "section_id": "fefdf9d5c602::s003",
+      "parent_section_id": "fefdf9d5c602::s002",
+      "level": 2,
+      "heading": "Request for standing offers",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Request for standing offer",
+        "Buyer's Guide",
+        "Request for standing offers"
+      ],
+      "block_count": 6,
+      "word_count": 228,
+      "char_count": 1431,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 4,
+      "first_block_index": 4,
+      "last_block_index": 9,
+      "preview": "Request for standing offers A Request for standing offers (RFSO) is a method used to solicit offers for standing offer (SO) methods of supply. Standing offers (SOs) are pre-negotiated arrangements that streamline the procurement process for",
+      "prev_section_id": "fefdf9d5c602::s002",
+      "next_section_id": "fefdf9d5c602::s004"
+    },
+    {
+      "section_id": "fefdf9d5c602::s004",
+      "parent_section_id": "fefdf9d5c602::s003",
+      "level": 3,
+      "heading": "Standing offer procedures",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Request for standing offer",
+        "Buyer's Guide",
+        "Request for standing offers",
+        "Standing offer procedures"
+      ],
+      "block_count": 5,
+      "word_count": 194,
+      "char_count": 1225,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 4,
+      "first_block_index": 10,
+      "last_block_index": 14,
+      "preview": "Standing offer procedures Call-up limits: A call-up against a SO constitutes an individual contract. Treasury Board contracting limits apply, and you, the buyer, will set the maximum call-up limit for identified users in the SO document, re",
+      "prev_section_id": "fefdf9d5c602::s003",
+      "next_section_id": null
+    }
+  ],
+  "tables": [],
+  "blocks": [
+    {
+      "block_id": "fefdf9d5c602::b0001",
+      "section_id": "fefdf9d5c602::s001",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Request for standing offer",
+        "Buyer's Guide Choose a solicitation method - Request for standing offer"
+      ],
+      "markdown": "# Buyer's Guide Choose a solicitation method - Request for standing offer",
+      "plain_text": "Buyer's Guide Choose a solicitation method - Request for standing offer"
+    },
+    {
+      "block_id": "fefdf9d5c602::b0002",
+      "section_id": "fefdf9d5c602::s002",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Request for standing offer",
+        "Buyer's Guide"
+      ],
+      "markdown": "# Buyer's Guide",
+      "plain_text": "Buyer's Guide"
+    },
+    {
+      "block_id": "fefdf9d5c602::b0003",
+      "section_id": "fefdf9d5c602::s002",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Request for standing offer",
+        "Buyer's Guide"
+      ],
+      "markdown": "- Plan\n- Approve\n- Create solicitation\n- Solicit\n- Receive and evaluate\n- Negotiate\n- Award\n- Manage",
+      "plain_text": "Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage"
+    },
+    {
+      "block_id": "fefdf9d5c602::b0004",
+      "section_id": "fefdf9d5c602::s002",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Request for standing offer",
+        "Buyer's Guide"
+      ],
+      "markdown": "Request for standing offers A Request for standing offers (RFSO) is a method used to solicit offers for standing offer (SO) methods of supply. Standing offers (SOs) are pre-negotiated arrangements that streamline the procurement process for repeated supplies or services. RFSO s can be used to solicit offers through public advertisement on GETS , direct invitations using a source list where permitted or by inviting a single source only if conditions for a non-competitive process have been met. When creating an RFSO , you must include instructions on the use, purpose and limitations of the proposed SO . This involves incorporating instructions and conditions tailored for SO s. You must include the following key elements in an RFSO , as a minimum: a clear definition of the requirement and the period for making call-ups the anticipated number of SO s to be authorized for use instructions for offer preparation clear evaluation criteria and procedures, including basis of selection methodology for informing offerors about the evaluation outcomes of their offers a clear ranking methodology where applicable precise call-up procedures, including the work allocation method among multiple SO s a notification to offerors about the disclosure of their unit prices conditions specific to the RFSO and the SO resulting contract clauses applicable to ensuing call-ups the estimated utilization, whenever practical Standing offer procedures Call-up limits: A call-up against a SO constitutes an individual contract. Treasury Board contracting limits apply, and you, the buyer, will set the maximum call-up limit for identified users in the SO document, referencing Appendix A \u2013 Contracting Approvals of the Directive on the Management of Procurement as a guide. However, PSPC has the authority to further limit the value of individual call-ups. Financial limitation : You may include a limitation of expenditure in SO s. The standing offer authority will determine the need for including of a limit on the basis of the type of SO (Individual or Master), the level of control needed over total expenditures and client requirements. Identified users : The identified users authorized to make call-ups against SO could include any government department, agency or Crown corporation listed in Schedule I, Schedule I.1, Schedule II, Schedule III of the Financial Administration Act . Reporting requirements : The SO authority may indicate in the SO the reporting requirement for the offeror, and/or the client as applicable. In such case, the SO must indicate the time frame within which each report must be submitted following the reporting period.",
+      "plain_text": "Request for standing offers A Request for standing offers (RFSO) is a method used to solicit offers for standing offer (SO) methods of supply. Standing offers (SOs) are pre-negotiated arrangements that streamline the procurement process for repeated supplies or services. RFSO s can be used to solicit offers through public advertisement on GETS , direct invitations using a source list where permitted or by inviting a single source only if conditions for a non-competitive process have been met. When creating an RFSO , you must include instructions on the use, purpose and limitations of the proposed SO . This involves incorporating instructions and conditions tailored for SO s. You must include the following key elements in an RFSO , as a minimum: a clear definition of the requirement and the period for making call-ups the anticipated number of SO s to be authorized for use instructions for offer preparation clear evaluation criteria and procedures, including basis of selection methodology for informing offerors about the evaluation outcomes of their offers a clear ranking methodology where applicable precise call-up procedures, including the work allocation method among multiple SO s a notification to offerors about the disclosure of their unit prices conditions specific to the RFSO and the SO resulting contract clauses applicable to ensuing call-ups the estimated utilization, whenever practical Standing offer procedures Call-up limits: A call-up against a SO constitutes an individual contract. Treasury Board contracting limits apply, and you, the buyer, will set the maximum call-up limit for identified users in the SO document, referencing Appendix A \u2013 Contracting Approvals of the Directive on the Management of Procurement as a guide. However, PSPC has the authority to further limit the value of individual call-ups. Financial limitation : You may include a limitation of expenditure in SO s. The standing offer authority will determine the need for including of a limit on the basis of the type of SO (Individual or Master), the level of control needed over total expenditures and client requirements. Identified users : The identified users authorized to make call-ups against SO could include any government department, agency or Crown corporation listed in Schedule I, Schedule I.1, Schedule II, Schedule III of the Financial Administration Act . Reporting requirements : The SO authority may indicate in the SO the reporting requirement for the offeror, and/or the client as applicable. In such case, the SO must indicate the time frame within which each report must be submitted following the reporting period."
+    },
+    {
+      "block_id": "fefdf9d5c602::b0005",
+      "section_id": "fefdf9d5c602::s003",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Request for standing offer",
+        "Buyer's Guide",
+        "Request for standing offers"
+      ],
+      "markdown": "## Request for standing offers",
+      "plain_text": "Request for standing offers"
+    },
+    {
+      "block_id": "fefdf9d5c602::b0006",
+      "section_id": "fefdf9d5c602::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Request for standing offer",
+        "Buyer's Guide",
+        "Request for standing offers"
+      ],
+      "markdown": "A Request for standing offers (RFSO) is a method used to solicit offers for standing offer (SO) methods of supply. Standing offers (SOs) are pre-negotiated arrangements that streamline the procurement process for repeated supplies or services.",
+      "plain_text": "A Request for standing offers (RFSO) is a method used to solicit offers for standing offer (SO) methods of supply. Standing offers (SOs) are pre-negotiated arrangements that streamline the procurement process for repeated supplies or services."
+    },
+    {
+      "block_id": "fefdf9d5c602::b0007",
+      "section_id": "fefdf9d5c602::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Request for standing offer",
+        "Buyer's Guide",
+        "Request for standing offers"
+      ],
+      "markdown": "RFSO s can be used to solicit offers through public advertisement on GETS , direct invitations using a source list where permitted or by inviting a single source only if conditions for a non-competitive process have been met.",
+      "plain_text": "RFSO s can be used to solicit offers through public advertisement on GETS , direct invitations using a source list where permitted or by inviting a single source only if conditions for a non-competitive process have been met."
+    },
+    {
+      "block_id": "fefdf9d5c602::b0008",
+      "section_id": "fefdf9d5c602::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Request for standing offer",
+        "Buyer's Guide",
+        "Request for standing offers"
+      ],
+      "markdown": "When creating an RFSO , you must include instructions on the use, purpose and limitations of the proposed SO . This involves incorporating instructions and conditions tailored for SO s.",
+      "plain_text": "When creating an RFSO , you must include instructions on the use, purpose and limitations of the proposed SO . This involves incorporating instructions and conditions tailored for SO s."
+    },
+    {
+      "block_id": "fefdf9d5c602::b0009",
+      "section_id": "fefdf9d5c602::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Request for standing offer",
+        "Buyer's Guide",
+        "Request for standing offers"
+      ],
+      "markdown": "You must include the following key elements in an RFSO , as a minimum:",
+      "plain_text": "You must include the following key elements in an RFSO , as a minimum:"
+    },
+    {
+      "block_id": "fefdf9d5c602::b0010",
+      "section_id": "fefdf9d5c602::s003",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Request for standing offer",
+        "Buyer's Guide",
+        "Request for standing offers"
+      ],
+      "markdown": "- a clear definition of the requirement and the period for making call-ups\n- the anticipated number of SO s to be authorized for use\n- instructions for offer preparation\n- clear evaluation criteria and procedures, including basis of selection\n- methodology for informing offerors about the evaluation outcomes of their offers\n- a clear ranking methodology where applicable\n- precise call-up procedures, including the work allocation method among multiple SO s\n- a notification to offerors about the disclosure of their unit prices\n- conditions specific to the RFSO and the SO\n- resulting contract clauses applicable to ensuing call-ups\n- the estimated utilization, whenever practical",
+      "plain_text": "a clear definition of the requirement and the period for making call-ups ; the anticipated number of SO s to be authorized for use ; instructions for offer preparation ; clear evaluation criteria and procedures, including basis of selection ; methodology for informing offerors about the evaluation outcomes of their offers ; a clear ranking methodology where applicable ; precise call-up procedures, including the work allocation method among multiple SO s ; a notification to offerors about the disclosure of their unit prices ; conditions specific to the RFSO and the SO ; resulting contract clauses applicable to ensuing call-ups ; the estimated utilization, whenever practical"
+    },
+    {
+      "block_id": "fefdf9d5c602::b0011",
+      "section_id": "fefdf9d5c602::s004",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Request for standing offer",
+        "Buyer's Guide",
+        "Request for standing offers",
+        "Standing offer procedures"
+      ],
+      "markdown": "### Standing offer procedures",
+      "plain_text": "Standing offer procedures"
+    },
+    {
+      "block_id": "fefdf9d5c602::b0012",
+      "section_id": "fefdf9d5c602::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Request for standing offer",
+        "Buyer's Guide",
+        "Request for standing offers",
+        "Standing offer procedures"
+      ],
+      "markdown": "Call-up limits: A call-up against a SO constitutes an individual contract. Treasury Board contracting limits apply, and you, the buyer, will set the maximum call-up limit for identified users in the SO document, referencing Appendix A \u2013 Contracting Approvals of the Directive on the Management of Procurement as a guide. However, PSPC has the authority to further limit the value of individual call-ups.",
+      "plain_text": "Call-up limits: A call-up against a SO constitutes an individual contract. Treasury Board contracting limits apply, and you, the buyer, will set the maximum call-up limit for identified users in the SO document, referencing Appendix A \u2013 Contracting Approvals of the Directive on the Management of Procurement as a guide. However, PSPC has the authority to further limit the value of individual call-ups."
+    },
+    {
+      "block_id": "fefdf9d5c602::b0013",
+      "section_id": "fefdf9d5c602::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Request for standing offer",
+        "Buyer's Guide",
+        "Request for standing offers",
+        "Standing offer procedures"
+      ],
+      "markdown": "Financial limitation : You may include a limitation of expenditure in SO s. The standing offer authority will determine the need for including of a limit on the basis of the type of SO (Individual or Master), the level of control needed over total expenditures and client requirements.",
+      "plain_text": "Financial limitation : You may include a limitation of expenditure in SO s. The standing offer authority will determine the need for including of a limit on the basis of the type of SO (Individual or Master), the level of control needed over total expenditures and client requirements."
+    },
+    {
+      "block_id": "fefdf9d5c602::b0014",
+      "section_id": "fefdf9d5c602::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Request for standing offer",
+        "Buyer's Guide",
+        "Request for standing offers",
+        "Standing offer procedures"
+      ],
+      "markdown": "Identified users : The identified users authorized to make call-ups against SO could include any government department, agency or Crown corporation listed in Schedule I, Schedule I.1, Schedule II, Schedule III of the Financial Administration Act .",
+      "plain_text": "Identified users : The identified users authorized to make call-ups against SO could include any government department, agency or Crown corporation listed in Schedule I, Schedule I.1, Schedule II, Schedule III of the Financial Administration Act ."
+    },
+    {
+      "block_id": "fefdf9d5c602::b0015",
+      "section_id": "fefdf9d5c602::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Choose a solicitation method - Request for standing offer",
+        "Buyer's Guide",
+        "Request for standing offers",
+        "Standing offer procedures"
+      ],
+      "markdown": "Reporting requirements : The SO authority may indicate in the SO the reporting requirement for the offeror, and/or the client as applicable. In such case, the SO must indicate the time frame within which each report must be submitted following the reporting period.",
+      "plain_text": "Reporting requirements : The SO authority may indicate in the SO the reporting requirement for the offeror, and/or the client as applicable. In such case, the SO must indicate the time frame within which each report must be submitted following the reporting period."
+    }
+  ]
+}

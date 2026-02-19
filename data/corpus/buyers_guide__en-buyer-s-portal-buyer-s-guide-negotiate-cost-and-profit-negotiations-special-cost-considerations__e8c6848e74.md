@@ -1,0 +1,205 @@
+# Buyer's Guide Cost and profit negotiations - Special cost considerations
+
+# Buyer's Guide
+
+- Plan
+- Approve
+- Create solicitation
+- Solicit
+- Receive and evaluate
+- Negotiate
+- Award
+- Manage
+
+Special cost considerations This section will help you to consider costs according to the following special cost considerations: research and development contracts with universities and colleges non-competitive contracts with non-profit organizations, excluding universities and colleges non-competitive contracts of manufactured products and repair and overhaul services from agency and resale outlets Research and development contracts with universities and colleges Research and development work undertaken by universities or colleges is priced at direct costs plus a contribution to overhead. Contract Cost Principles 1031-2 must not be incorporated into the contract, and post-contract audits of overhead charges must not be conducted. However, direct costs must be subject to verification or audit. Allowable direct costs and overhead The allowable direct costs are as follows: direct payroll costs as follows, with annual salaries prorated over annual working days, taking into account statutory holidays and annual vacation: professional salaries clerical salaries technicians' wages fellowships at daily rates for personnel working directly on the contract fringe benefits, including: unemployment insurance workers' compensation Canada or Quebec Pension Plan university pension plan (current service only) university portion of medical plans sick leave materials and supplies stationery postage materials issued from stores materials, parts, and components purchased specially at "laid-down cost" long distance telephone charges telecommunications freight and express publication charges as agreed in the contract direct expenses (costs which can be specifically identified and measured as having been used, or to be used, in the contract performance, and which are so identified and measured by the institution's cost accounting system): travel expenses consultant services apparatus and equipment acquisition, retained as Canada’s property and subject to GCSurplus procedures other negotiated costs, such as computer time Consultants are categorized as three separate categories, with direct costs plus the overhead shown in the table below: Allowable overhead costs for consultants Consultant category Allowable overhead on direct costs In-house standard rate of pay 65% External type consultant (in-house personnel working additional hours at increased rates, but using university equipment) 0% Outside consultants 0% Manufactured equipment is to be considered as a "make" or "buy" decision for the buyer. In either case, the equipment will become Canada’s property and disposal will be decided on later. A "buy" must be a direct charge. A "make" should be a separate item under the contract, and the university would be allowed the cost of parts and labour per the offer, including 65% overhead. Allowable overhead costs are: maximum of 65% on direct payroll costs for on-campus work maximum of 30% on direct payroll costs for off-campus work an administrative charge of 2% on travel and living expenses incurred directly against the contract Disallowed costs Costs that do not directly relate to the research activity under the contract are not allowable as direct charges. These include: university annual reports contingency reserves convention expenses not specific to the contract post-service lump-sum payments termination allowances not earned during the contract admissions department costs grants not related to services under the contract finance charges (for example, bank, debenture, bond interest) additional special facility charges (these are in the allowable overhead) Computer centre charges The use of a computer centre must be charged to a contract at a predetermined rate per hour, including general overhead, and computed at a break-even level for the centre. These charges must be in line with normal policies of the university for internal use. United States Government requirements Departments and agencies of the United States (U.S.) Government negotiate directly with Canadian universities and colleges on research and development contracts. Public Services and Procurement Canada (PSPC) may be asked for assistance in developing an appropriate overhead rate. Upon request, the Price Support Directorate responsible for price support will assist in developing overhead rates from the latest certified financial statements of the university or college, with indirect costs prorated over the direct cost base in line with the applicable U.S. Government costing principles. Non-competitive contract with non-profit organizations Non-profit organizations, excluding universities and colleges, incur financing charges for working capital above their normal operating costs. They are also subject to business and contractual risks, though less than for-profit entities. Pricing for these contracts is based on costs incurred per Contract Cost Principles 1031-2 , plus an allowance instead of profit. The allowance for financing charges on working capital employed depends on the contract’s method of payment: progress payments or milestone payments: 1.5% of costs incurred no progress payments or milestone payments: 3% of costs incurred The general business risk profit is based on contract costs: direct materials, subcontracts, and direct charges: up to 1% of these costs direct labour and overhead: up to 2% of these costs The contractual risk profit depends on the basis of payment of the contract (or part of the contract): Contractual risk profit based on basis of payment Basis of Payment Profit Fixed price up to 4% of costs incurred Fixed time/unit rate with ceiling price up to 3% of costs incurred Cost reimbursable with ceiling price up to 3% of costs incurred Fixed time/unit rate without ceiling price up to 2% of costs incurred Cost reimbursable with no ceiling price 0% Non-competitive contract for specific goods or services The following procedures provide for the establishment of fair and reasonable prices, when the competitive process cannot be used for: acquisitions from Canadian agency and resale outlets acquisitions of manufactured products and repair and overhaul services from Canadian suppliers There are two primary types of agency and resale outlets recognized when purchasing for Canada. These two types of acquisitions have key differences in the determination of the allowable costs and the profit. The procedures also differ depending on whether the good or service is commercial or non-commercial The two types of recognized agency and resale outlets are: Type 1: Those engaged in manufacturing (for example, by adding or assembling certain parts), which also act as agents or resale outlets for other manufacturers Type 2: Those not engaged in any form of manufacturing which also act only as agents, distributors, wholesalers, jobbers or retailers Those involved only in the administrative aspects of moving the goods to the final purchaser (for example, purchasing, receiving, storing, shipping and accounting) A type 1 agency and resale outlet would contribute to the manufacturing of the good being procured by adding or assembling certain parts for example, versus a type 2 agency and resale outlet does not contribute to any of the manufacturing and only the administrative aspects of moving the goods to the final purchaser. Laid-down cost For the laid-down cost: obtain price support from the offeror for the goods or services quoted by the principal ensure all trade discounts have been deducted verify the applicability and amount of any added costs for transportation, foreign exchange, customs duty and brokerage For the price analysis and profit calculations, transfer prices representing fair market value constitute the laid-down cost. Cost of necessary services and overhead The establishment of the cost of necessary services rendered by the offeror depends on the requirements, the type of organization operated by the offeror, and the sophistication of the offeror's cost accounting system. The types of services that may be considered for costing purposes include: purchasing internal handling including unpacking, incoming inspection, inhibiting, warehousing and re-packing for delivery to one or more destinations, but excluding costs related to the offeror's own manufacturing or other related costs general and administrative expenses applicable to the activity required After-sales activities such as on-site installation and testing should be taken into account when establishing the overall price structure. Overhead costs allocated to the contract should be examined to ensure that the allocation represents a reasonable and justifiable distribution according to the Contract Cost Principles 1031-2 . If direct shipment from the principal will meet Canada's requirements, the offeror's charges are normally limited to purchasing and invoicing costs. In such cases, a special direct shipment overhead rate should be developed, and the negotiated rates are generally applied as a percentage additive to the laid-down costs. Profit The allowable profit depends on the type of agency and resale outlet. For a type 1 agency and resale outlet: a reasonable rate of profit is allowed on the total of laid-down costs and the cost of services required by Canada the rate must be commensurate with the risk, the volume of resale business to Canada and other circumstances for example, if the services required include the maintenance of an inventory, a higher rate of profit is permitted For a type 2 agency and resale outlet: the maximum rates of profit applied to laid-down costs depend on the method of supply to recognize the cost of financing and risks associated with the maintenance of stocks: supplied from stocks maintained and financed by the offeror: up to 4% supplied from stocks held by the offeror on consignment from the principal: up to 3% supplied by the principal through the offeror, only when ordered by Canada: up to 3% supplied by the principal in direct shipment to Canada: up to 2% the profit on the cost of necessary services and overhead recognizes the general business risk associated with the services provided: where the services include purchasing and invoicing only: up to 7.5% where the services include other than purchasing and invoicing: up to 10% Non-competitive requirements of commercial goods or services When procuring commercial goods or services without a competitive process, you must negotiate a fair price based on one or more of the following: recent prices paid latest published price lists or catalogues prices paid by others such as other governments, Crown corporations, hospitals, universities and large private sector corporations or companies Before accepting a supportable commercial price, you must obtain and validate sufficient price support. See the Practitioner’s Guide for Procurement Pricing , Section 5.0.2, Commercial Pricing for more guidance. Non-competitive requirements of non-commercial goods or services For non-competitive contracts valued at $50,000 or less for non-commercial goods or services, you may negotiate a fair price in accordance with the guidelines for commercial goods or services, if the data to follow these guidelines is available. You must request the offeror to provide an itemized price breakdown. The extent of the analysis will depend on the contract value and the quality and completeness of the offeror’s support data. You will need to weigh the cost of performing the price analysis against the potential benefit of cost savings.
+
+## Special cost considerations
+
+This section will help you to consider costs according to the following special cost considerations:
+
+- research and development contracts with universities and colleges
+- non-competitive contracts with non-profit organizations, excluding universities and colleges
+- non-competitive contracts of manufactured products and repair and overhaul services from agency and resale outlets
+
+### Research and development contracts with universities and colleges
+
+Research and development work undertaken by universities or colleges is priced at direct costs plus a contribution to overhead. Contract Cost Principles 1031-2 must not be incorporated into the contract, and post-contract audits of overhead charges must not be conducted. However, direct costs must be subject to verification or audit.
+
+#### Allowable direct costs and overhead
+
+The allowable direct costs are as follows:
+
+- direct payroll costs as follows, with annual salaries prorated over annual working days, taking into account statutory holidays and annual vacation:
+- professional salaries
+- clerical salaries
+- technicians' wages
+- fellowships at daily rates for personnel working directly on the contract
+- fringe benefits, including:
+- unemployment insurance
+- workers' compensation
+- Canada or Quebec Pension Plan
+- university pension plan (current service only)
+- university portion of medical plans
+- sick leave
+- materials and supplies
+- stationery
+- postage
+- materials issued from stores
+- materials, parts, and components purchased specially at "laid-down cost"
+- long distance telephone charges
+- telecommunications
+- freight and express
+- publication charges as agreed in the contract
+- direct expenses (costs which can be specifically identified and measured as having been used, or to be used, in the contract performance, and which are so identified and measured by the institution's cost accounting system):
+- travel expenses
+- consultant services
+- apparatus and equipment acquisition, retained as Canada’s property and subject to GCSurplus procedures
+- other negotiated costs, such as computer time
+
+Consultants are categorized as three separate categories, with direct costs plus the overhead shown in the table below:
+
+Allowable overhead costs for consultants
+
+| Column 1 | Column 2 |
+| --- | --- |
+| Consultant category | Allowable overhead on direct costs |
+| In-house standard rate of pay | 65% |
+| External type consultant (in-house personnel working additional hours at increased rates, but using university equipment) | 0% |
+| Outside consultants | 0% |
+
+Manufactured equipment is to be considered as a "make" or "buy" decision for the buyer. In either case, the equipment will become Canada’s property and disposal will be decided on later. A "buy" must be a direct charge. A "make" should be a separate item under the contract, and the university would be allowed the cost of parts and labour per the offer, including 65% overhead.
+
+Allowable overhead costs are:
+
+- maximum of 65% on direct payroll costs for on-campus work
+- maximum of 30% on direct payroll costs for off-campus work
+- an administrative charge of 2% on travel and living expenses incurred directly against the contract
+
+#### Disallowed costs
+
+Costs that do not directly relate to the research activity under the contract are not allowable as direct charges. These include:
+
+- university annual reports
+- contingency reserves
+- convention expenses not specific to the contract
+- post-service lump-sum payments
+- termination allowances not earned during the contract
+- admissions department costs
+- grants not related to services under the contract
+- finance charges (for example, bank, debenture, bond interest)
+- additional special facility charges (these are in the allowable overhead)
+
+#### Computer centre charges
+
+The use of a computer centre must be charged to a contract at a predetermined rate per hour, including general overhead, and computed at a break-even level for the centre. These charges must be in line with normal policies of the university for internal use.
+
+#### United States Government requirements
+
+Departments and agencies of the United States (U.S.) Government negotiate directly with Canadian universities and colleges on research and development contracts. Public Services and Procurement Canada (PSPC) may be asked for assistance in developing an appropriate overhead rate. Upon request, the Price Support Directorate responsible for price support will assist in developing overhead rates from the latest certified financial statements of the university or college, with indirect costs prorated over the direct cost base in line with the applicable U.S. Government costing principles.
+
+### Non-competitive contract with non-profit organizations
+
+Non-profit organizations, excluding universities and colleges, incur financing charges for working capital above their normal operating costs. They are also subject to business and contractual risks, though less than for-profit entities. Pricing for these contracts is based on costs incurred per Contract Cost Principles 1031-2 , plus an allowance instead of profit.
+
+The allowance for financing charges on working capital employed depends on the contract’s method of payment:
+
+- progress payments or milestone payments: 1.5% of costs incurred
+- no progress payments or milestone payments: 3% of costs incurred
+
+The general business risk profit is based on contract costs:
+
+- direct materials, subcontracts, and direct charges: up to 1% of these costs
+- direct labour and overhead: up to 2% of these costs
+
+The contractual risk profit depends on the basis of payment of the contract (or part of the contract):
+
+Contractual risk profit based on basis of payment
+
+| Column 1 | Column 2 |
+| --- | --- |
+| Basis of Payment | Profit |
+| Fixed price | up to 4% of costs incurred |
+| Fixed time/unit rate with ceiling price | up to 3% of costs incurred |
+| Cost reimbursable with ceiling price | up to 3% of costs incurred |
+| Fixed time/unit rate without ceiling price | up to 2% of costs incurred |
+| Cost reimbursable with no ceiling price | 0% |
+
+### Non-competitive contract for specific goods or services
+
+The following procedures provide for the establishment of fair and reasonable prices, when the competitive process cannot be used for:
+
+- acquisitions from Canadian agency and resale outlets
+- acquisitions of manufactured products and repair and overhaul services from Canadian suppliers
+
+There are two primary types of agency and resale outlets recognized when purchasing for Canada. These two types of acquisitions have key differences in the determination of the allowable costs and the profit. The procedures also differ depending on whether the good or service is commercial or non-commercial
+
+The two types of recognized agency and resale outlets are:
+
+- Type 1:
+- Those engaged in manufacturing (for example, by adding or assembling certain parts), which also act as agents or resale outlets for other manufacturers
+- Type 2:
+- Those not engaged in any form of manufacturing which also act only as agents, distributors, wholesalers, jobbers or retailers
+- Those involved only in the administrative aspects of moving the goods to the final purchaser (for example, purchasing, receiving, storing, shipping and accounting)
+
+A type 1 agency and resale outlet would contribute to the manufacturing of the good being procured by adding or assembling certain parts for example, versus a type 2 agency and resale outlet does not contribute to any of the manufacturing and only the administrative aspects of moving the goods to the final purchaser.
+
+#### Laid-down cost
+
+For the laid-down cost:
+
+- obtain price support from the offeror for the goods or services quoted by the principal
+- ensure all trade discounts have been deducted
+- verify the applicability and amount of any added costs for transportation, foreign exchange, customs duty and brokerage
+
+For the price analysis and profit calculations, transfer prices representing fair market value constitute the laid-down cost.
+
+#### Cost of necessary services and overhead
+
+The establishment of the cost of necessary services rendered by the offeror depends on the requirements, the type of organization operated by the offeror, and the sophistication of the offeror's cost accounting system.
+
+The types of services that may be considered for costing purposes include:
+
+- purchasing
+- internal handling including unpacking, incoming inspection, inhibiting, warehousing and re-packing for delivery to one or more destinations, but excluding costs related to the offeror's own manufacturing or other related costs
+- general and administrative expenses applicable to the activity required
+
+After-sales activities such as on-site installation and testing should be taken into account when establishing the overall price structure. Overhead costs allocated to the contract should be examined to ensure that the allocation represents a reasonable and justifiable distribution according to the Contract Cost Principles 1031-2 .
+
+If direct shipment from the principal will meet Canada's requirements, the offeror's charges are normally limited to purchasing and invoicing costs. In such cases, a special direct shipment overhead rate should be developed, and the negotiated rates are generally applied as a percentage additive to the laid-down costs.
+
+#### Profit
+
+The allowable profit depends on the type of agency and resale outlet.
+
+For a type 1 agency and resale outlet:
+
+- a reasonable rate of profit is allowed on the total of laid-down costs and the cost of services required by Canada
+- the rate must be commensurate with the risk, the volume of resale business to Canada and other circumstances
+- for example, if the services required include the maintenance of an inventory, a higher rate of profit is permitted
+
+For a type 2 agency and resale outlet:
+
+- the maximum rates of profit applied to laid-down costs depend on the method of supply to recognize the cost of financing and risks associated with the maintenance of stocks:
+- supplied from stocks maintained and financed by the offeror: up to 4%
+- supplied from stocks held by the offeror on consignment from the principal: up to 3%
+- supplied by the principal through the offeror, only when ordered by Canada: up to 3%
+- supplied by the principal in direct shipment to Canada: up to 2%
+- the profit on the cost of necessary services and overhead recognizes the general business risk associated with the services provided:
+- where the services include purchasing and invoicing only: up to 7.5%
+- where the services include other than purchasing and invoicing: up to 10%
+
+### Non-competitive requirements of commercial goods or services
+
+When procuring commercial goods or services without a competitive process, you must negotiate a fair price based on one or more of the following:
+
+- recent prices paid
+- latest published price lists or catalogues
+- prices paid by others such as other governments, Crown corporations, hospitals, universities and large private sector corporations or companies
+
+Before accepting a supportable commercial price, you must obtain and validate sufficient price support. See the Practitioner’s Guide for Procurement Pricing , Section 5.0.2, Commercial Pricing for more guidance.
+
+### Non-competitive requirements of non-commercial goods or services
+
+For non-competitive contracts valued at $50,000 or less for non-commercial goods or services, you may negotiate a fair price in accordance with the guidelines for commercial goods or services, if the data to follow these guidelines is available.
+
+You must request the offeror to provide an itemized price breakdown. The extent of the analysis will depend on the contract value and the quality and completeness of the offeror’s support data. You will need to weigh the cost of performing the price analysis against the potential benefit of cost savings.

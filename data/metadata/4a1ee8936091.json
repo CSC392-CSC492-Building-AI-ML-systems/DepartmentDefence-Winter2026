@@ -1,0 +1,460 @@
+{
+  "doc_id": "4a1ee8936091",
+  "title": "Buyer's Guide Manage a contract - Contract dispute resolution",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/contract-dispute-resolution",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/contract-dispute-resolution",
+  "doc_type": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": "2026-01-31",
+  "fetched_at": "2026-02-19T09:19:17.847365+00:00",
+  "content_hash": "a03b69701ba31ebeb0966207754b3a538d2a636c454705cb95bc72372dbdf167",
+  "word_count": 226,
+  "text_path": "data/corpus/buyers_guide__en-buyer-s-portal-buyer-s-guide-manage-manage-contract-contract-dispute-resolution__4a1ee89360.md",
+  "extraction_method": "buyers_guide_regions",
+  "breadcrumbs": [
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "https://canadabuys.canada.ca/en",
+      "canonical_url": "https://canadabuys.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "in_scope": true
+    },
+    {
+      "title": "Manage a contract",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "in_scope": true
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+    "parent_doc_id": "195daba76ab3",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/contract-dispute-resolution"
+    ],
+    "lineage_doc_ids": [
+      "1e29c7881335",
+      "195daba76ab3",
+      "4a1ee8936091"
+    ],
+    "depth": 2,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/best-practices-contract-close-out",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/contract-close-out-activities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/alternative-dispute-resolution",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/assignment-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/buyer-and-client-responsibilites",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/certifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/employer-employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/integrity-provisions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/protecting-canada-s-interests",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/subcontracting",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/task-authorizations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/vendor-performance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/assignment-monies",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/claims-progress-payments-and-invoicing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/cost-reimbursable-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/exchange-rate-fluctuation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/final-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/financial-claims",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/fixed-time-rate-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/interest-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/overtime",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/refund-excess-profits",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/administrative-guidance-implementing-contract-modifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/considerations-when-making-amendments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/design-change-or-deviation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/exercise-options",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/procedural-elements-amending-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/revisions-standing-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/approval-authority",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/legal-services",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/public-services-and-procurement-canada-offices-outside-canada",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/source-lists",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/suspension-work-and-stop-work-orders",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-contracts-financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-convenience",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-default",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-mutual-consent"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/best-practices-contract-close-out",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/close-out-contract/contract-close-out-activities",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/alternative-dispute-resolution",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/assignment-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/buyer-and-client-responsibilites",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/certifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/employer-employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/integrity-provisions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/protecting-canada-s-interests",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/subcontracting",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/task-authorizations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract/vendor-performance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/assignment-monies",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/claims-progress-payments-and-invoicing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/cost-reimbursable-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/exchange-rate-fluctuation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/final-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/financial-claims",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/fixed-time-rate-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/interest-payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/overtime",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/payments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-payments/refund-excess-profits",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/administrative-guidance-implementing-contract-modifications",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/considerations-when-making-amendments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/design-change-or-deviation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/exercise-options",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/procedural-elements-amending-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/modify-contract/revisions-standing-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/approval-authority",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/legal-services",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/public-services-and-procurement-canada-offices-outside-canada",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/source-lists",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/suspension-work-and-stop-work-orders",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-contracts-financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-convenience",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-default",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/terminate-or-suspend-contract/termination-mutual-consent",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure": {
+    "block_count": 12,
+    "section_count": 6,
+    "heading_count": 5,
+    "paragraph_count": 6,
+    "list_count": 1,
+    "table_count": 0
+  },
+  "sections": [
+    {
+      "section_id": "4a1ee8936091::root",
+      "parent_section_id": null,
+      "level": 0,
+      "heading": "Buyer's Guide Manage a contract - Contract dispute resolution",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Contract dispute resolution"
+      ],
+      "block_count": 0,
+      "word_count": 0,
+      "char_count": 0,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": null,
+      "last_block_index": null,
+      "preview": "",
+      "prev_section_id": null,
+      "next_section_id": null
+    },
+    {
+      "section_id": "4a1ee8936091::s001",
+      "parent_section_id": "4a1ee8936091::root",
+      "level": 1,
+      "heading": "Buyer's Guide Manage a contract - Contract dispute resolution",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Contract dispute resolution",
+        "Buyer's Guide Manage a contract - Contract dispute resolution"
+      ],
+      "block_count": 1,
+      "word_count": 9,
+      "char_count": 61,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 0,
+      "last_block_index": 0,
+      "preview": "Buyer's Guide Manage a contract - Contract dispute resolution",
+      "prev_section_id": null,
+      "next_section_id": "4a1ee8936091::s002"
+    },
+    {
+      "section_id": "4a1ee8936091::s002",
+      "parent_section_id": "4a1ee8936091::root",
+      "level": 1,
+      "heading": "Buyer's Guide",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Contract dispute resolution",
+        "Buyer's Guide"
+      ],
+      "block_count": 2,
+      "word_count": 20,
+      "char_count": 111,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 0,
+      "first_block_index": 1,
+      "last_block_index": 2,
+      "preview": "Buyer's Guide Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage",
+      "prev_section_id": "4a1ee8936091::s001",
+      "next_section_id": "4a1ee8936091::s003"
+    },
+    {
+      "section_id": "4a1ee8936091::s003",
+      "parent_section_id": "4a1ee8936091::s002",
+      "level": 2,
+      "heading": "Contract dispute resolution",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Contract dispute resolution",
+        "Buyer's Guide",
+        "Contract dispute resolution"
+      ],
+      "block_count": 3,
+      "word_count": 71,
+      "char_count": 492,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 2,
+      "first_block_index": 3,
+      "last_block_index": 5,
+      "preview": "Contract dispute resolution When managing contracts, disputes can occur between the involved parties. Disputes need to be addressed quickly and efficiently so that all parties can meet their contractual obligations. Maintaining accurate rec",
+      "prev_section_id": "4a1ee8936091::s002",
+      "next_section_id": "4a1ee8936091::s004"
+    },
+    {
+      "section_id": "4a1ee8936091::s004",
+      "parent_section_id": "4a1ee8936091::s003",
+      "level": 3,
+      "heading": "Handling conflicts with contractors",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Contract dispute resolution",
+        "Buyer's Guide",
+        "Contract dispute resolution",
+        "Handling conflicts with contractors"
+      ],
+      "block_count": 2,
+      "word_count": 28,
+      "char_count": 184,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 6,
+      "last_block_index": 7,
+      "preview": "Handling conflicts with contractors Resolve any conflicts with contractors as soon as they arise. If unresolved, involve a senior level authority to mediate and help settle the dispute.",
+      "prev_section_id": "4a1ee8936091::s003",
+      "next_section_id": "4a1ee8936091::s005"
+    },
+    {
+      "section_id": "4a1ee8936091::s005",
+      "parent_section_id": "4a1ee8936091::s003",
+      "level": 3,
+      "heading": "Dispute Management",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Contract dispute resolution",
+        "Buyer's Guide",
+        "Contract dispute resolution",
+        "Dispute Management"
+      ],
+      "block_count": 4,
+      "word_count": 98,
+      "char_count": 613,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 3,
+      "first_block_index": 8,
+      "last_block_index": 11,
+      "preview": "Dispute Management Should escalation to a senior authority not resolve the dispute, you should inform the contractor in writing about the alternative dispute resolution (ADR) services available through the Office of the Procurement Ombud (O",
+      "prev_section_id": "4a1ee8936091::s004",
+      "next_section_id": null
+    }
+  ],
+  "tables": [],
+  "blocks": [
+    {
+      "block_id": "4a1ee8936091::b0001",
+      "section_id": "4a1ee8936091::s001",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Contract dispute resolution",
+        "Buyer's Guide Manage a contract - Contract dispute resolution"
+      ],
+      "markdown": "# Buyer's Guide Manage a contract - Contract dispute resolution",
+      "plain_text": "Buyer's Guide Manage a contract - Contract dispute resolution"
+    },
+    {
+      "block_id": "4a1ee8936091::b0002",
+      "section_id": "4a1ee8936091::s002",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Contract dispute resolution",
+        "Buyer's Guide"
+      ],
+      "markdown": "# Buyer's Guide",
+      "plain_text": "Buyer's Guide"
+    },
+    {
+      "block_id": "4a1ee8936091::b0003",
+      "section_id": "4a1ee8936091::s002",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Contract dispute resolution",
+        "Buyer's Guide"
+      ],
+      "markdown": "- Plan\n- Approve\n- Create solicitation\n- Solicit\n- Receive and evaluate\n- Negotiate\n- Award\n- Manage",
+      "plain_text": "Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage"
+    },
+    {
+      "block_id": "4a1ee8936091::b0004",
+      "section_id": "4a1ee8936091::s003",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Contract dispute resolution",
+        "Buyer's Guide",
+        "Contract dispute resolution"
+      ],
+      "markdown": "## Contract dispute resolution",
+      "plain_text": "Contract dispute resolution"
+    },
+    {
+      "block_id": "4a1ee8936091::b0005",
+      "section_id": "4a1ee8936091::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Contract dispute resolution",
+        "Buyer's Guide",
+        "Contract dispute resolution"
+      ],
+      "markdown": "When managing contracts, disputes can occur between the involved parties. Disputes need to be addressed quickly and efficiently so that all parties can meet their contractual obligations. Maintaining accurate records is crucial for clarification, audits or possible termination of contracts.",
+      "plain_text": "When managing contracts, disputes can occur between the involved parties. Disputes need to be addressed quickly and efficiently so that all parties can meet their contractual obligations. Maintaining accurate records is crucial for clarification, audits or possible termination of contracts."
+    },
+    {
+      "block_id": "4a1ee8936091::b0006",
+      "section_id": "4a1ee8936091::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Contract dispute resolution",
+        "Buyer's Guide",
+        "Contract dispute resolution"
+      ],
+      "markdown": "If you cannot resolve a contract dispute, the issue should be escalated to your immediate supervisor and you should consult Legal Services to protect the interests of Canada.",
+      "plain_text": "If you cannot resolve a contract dispute, the issue should be escalated to your immediate supervisor and you should consult Legal Services to protect the interests of Canada."
+    },
+    {
+      "block_id": "4a1ee8936091::b0007",
+      "section_id": "4a1ee8936091::s004",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Contract dispute resolution",
+        "Buyer's Guide",
+        "Contract dispute resolution",
+        "Handling conflicts with contractors"
+      ],
+      "markdown": "### Handling conflicts with contractors",
+      "plain_text": "Handling conflicts with contractors"
+    },
+    {
+      "block_id": "4a1ee8936091::b0008",
+      "section_id": "4a1ee8936091::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Contract dispute resolution",
+        "Buyer's Guide",
+        "Contract dispute resolution",
+        "Handling conflicts with contractors"
+      ],
+      "markdown": "Resolve any conflicts with contractors as soon as they arise. If unresolved, involve a senior level authority to mediate and help settle the dispute.",
+      "plain_text": "Resolve any conflicts with contractors as soon as they arise. If unresolved, involve a senior level authority to mediate and help settle the dispute."
+    },
+    {
+      "block_id": "4a1ee8936091::b0009",
+      "section_id": "4a1ee8936091::s005",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Contract dispute resolution",
+        "Buyer's Guide",
+        "Contract dispute resolution",
+        "Dispute Management"
+      ],
+      "markdown": "### Dispute Management",
+      "plain_text": "Dispute Management"
+    },
+    {
+      "block_id": "4a1ee8936091::b0010",
+      "section_id": "4a1ee8936091::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Contract dispute resolution",
+        "Buyer's Guide",
+        "Contract dispute resolution",
+        "Dispute Management"
+      ],
+      "markdown": "Should escalation to a senior authority not resolve the dispute, you should inform the contractor in writing about the alternative dispute resolution (ADR) services available through the Office of the Procurement Ombud (OPO).",
+      "plain_text": "Should escalation to a senior authority not resolve the dispute, you should inform the contractor in writing about the alternative dispute resolution (ADR) services available through the Office of the Procurement Ombud (OPO)."
+    },
+    {
+      "block_id": "4a1ee8936091::b0011",
+      "section_id": "4a1ee8936091::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Contract dispute resolution",
+        "Buyer's Guide",
+        "Contract dispute resolution",
+        "Dispute Management"
+      ],
+      "markdown": "Any party to a contract can request assistance from OPO for dispute management. Upon request for ADR services, the OPO program will inform all parties involved and assess their interest in the process. If the parties agree, the ADR process will commence.",
+      "plain_text": "Any party to a contract can request assistance from OPO for dispute management. Upon request for ADR services, the OPO program will inform all parties involved and assess their interest in the process. If the parties agree, the ADR process will commence."
+    },
+    {
+      "block_id": "4a1ee8936091::b0012",
+      "section_id": "4a1ee8936091::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Manage a contract - Contract dispute resolution",
+        "Buyer's Guide",
+        "Contract dispute resolution",
+        "Dispute Management"
+      ],
+      "markdown": "It's important to note that if the ADR process does not resolve the dispute, it does not affect the parties\u2019 rights.",
+      "plain_text": "It's important to note that if the ADR process does not resolve the dispute, it does not affect the parties\u2019 rights."
+    }
+  ]
+}

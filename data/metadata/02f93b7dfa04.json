@@ -1,0 +1,900 @@
+{
+  "doc_id": "02f93b7dfa04",
+  "title": "Buyer's Guide Contract security and privacy requirements - Controlled goods",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/controlled-goods",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/controlled-goods",
+  "doc_type": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": "2026-01-31",
+  "fetched_at": "2026-02-19T09:16:17.110202+00:00",
+  "content_hash": "d0bcdad501ff1694632bdbf5efd8dab403c0dbcff01f325322a273d66867f961",
+  "word_count": 1694,
+  "text_path": "data/corpus/buyers_guide__en-buyer-s-portal-buyer-s-guide-plan-contract-security-and-privacy-requirements-controlled-goods__02f93b7dfa.md",
+  "extraction_method": "buyers_guide_regions",
+  "breadcrumbs": [
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "https://canadabuys.canada.ca/en",
+      "canonical_url": "https://canadabuys.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "in_scope": true
+    },
+    {
+      "title": "Contract security and privacy requirements",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements",
+      "in_scope": true
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements",
+    "parent_doc_id": "d0c4da20ac20",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/controlled-goods"
+    ],
+    "lineage_doc_ids": [
+      "1e29c7881335",
+      "d0c4da20ac20",
+      "02f93b7dfa04"
+    ],
+    "depth": 2,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-accounting-and-pricing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-reimbursable",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/firm-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-time/unit-rate",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/overview-key-pricing-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/price-and-currency-adjustments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/pricing-methods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/provisional-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/types-basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/application-registration",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/completing-security-requirements-check-list",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/foreign-ownership-control-or-influence",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/privacy-and-confidentiality",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-international-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-timelines",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/importance-clear-procurement-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/requisition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/review-statement-work",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/socioeconomic-requirements-definition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/standards-and-quality-assurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/choose-method-supply",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/determine-sourcing-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/developing-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/interim-policy-reciprocal-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/trade-agreement-applicability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/early-engagement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-businesses",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-clients",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-subject-matter-experts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/invoicing-instructions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/payment-instruments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/taxes-and-duties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/withholding-non-resident-contractors",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/communicating-method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/developing-selection-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/including-basis-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/specifying-evaluation-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/canadian-general-standards-board",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/compliance-canadian-electrical-code",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/contractor-liability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/emergency-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/employer/employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/fairness-monitoring",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/insurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/intellectual-property-and-copyright",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/liability-and-risk-management",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/managing-urgent-acquisitions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/official-languages-obligation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/warranties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/holdbacks",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/incentives",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/accessibility",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/anti-forced-labour-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/green-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/indigenous-considerations"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-accounting-and-pricing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-reimbursable",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/firm-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-time/unit-rate",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/overview-key-pricing-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/price-and-currency-adjustments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/pricing-methods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/provisional-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/types-basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/application-registration",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/completing-security-requirements-check-list",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/foreign-ownership-control-or-influence",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/privacy-and-confidentiality",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-international-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-timelines",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/importance-clear-procurement-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/requisition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/review-statement-work",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/socioeconomic-requirements-definition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/standards-and-quality-assurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/choose-method-supply",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/determine-sourcing-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/developing-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/interim-policy-reciprocal-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/trade-agreement-applicability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/early-engagement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-businesses",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-clients",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-subject-matter-experts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/invoicing-instructions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/payment-instruments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/taxes-and-duties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/withholding-non-resident-contractors",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/communicating-method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/developing-selection-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/including-basis-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/specifying-evaluation-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/canadian-general-standards-board",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/compliance-canadian-electrical-code",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/contractor-liability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/emergency-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/employer/employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/fairness-monitoring",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/insurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/intellectual-property-and-copyright",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/liability-and-risk-management",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/managing-urgent-acquisitions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/official-languages-obligation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/warranties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/holdbacks",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/incentives",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/accessibility",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/anti-forced-labour-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/green-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/indigenous-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure": {
+    "block_count": 30,
+    "section_count": 13,
+    "heading_count": 12,
+    "paragraph_count": 16,
+    "list_count": 2,
+    "table_count": 0
+  },
+  "sections": [
+    {
+      "section_id": "02f93b7dfa04::root",
+      "parent_section_id": null,
+      "level": 0,
+      "heading": "Buyer's Guide Contract security and privacy requirements - Controlled goods",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Controlled goods"
+      ],
+      "block_count": 0,
+      "word_count": 0,
+      "char_count": 0,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": null,
+      "last_block_index": null,
+      "preview": "",
+      "prev_section_id": null,
+      "next_section_id": null
+    },
+    {
+      "section_id": "02f93b7dfa04::s001",
+      "parent_section_id": "02f93b7dfa04::root",
+      "level": 1,
+      "heading": "Buyer's Guide Contract security and privacy requirements - Controlled goods",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
+        "Buyer's Guide Contract security and privacy requirements - Controlled goods"
+      ],
+      "block_count": 1,
+      "word_count": 10,
+      "char_count": 75,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 0,
+      "last_block_index": 0,
+      "preview": "Buyer's Guide Contract security and privacy requirements - Controlled goods",
+      "prev_section_id": null,
+      "next_section_id": "02f93b7dfa04::s002"
+    },
+    {
+      "section_id": "02f93b7dfa04::s002",
+      "parent_section_id": "02f93b7dfa04::root",
+      "level": 1,
+      "heading": "Buyer's Guide",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
+        "Buyer's Guide"
+      ],
+      "block_count": 3,
+      "word_count": 849,
+      "char_count": 5624,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 1,
+      "last_block_index": 3,
+      "preview": "Buyer's Guide Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage Controlled goods Controlled goods are items of military or national security significance that are regulated under Canada\u2019s Con",
+      "prev_section_id": "02f93b7dfa04::s001",
+      "next_section_id": "02f93b7dfa04::s003"
+    },
+    {
+      "section_id": "02f93b7dfa04::s003",
+      "parent_section_id": "02f93b7dfa04::s002",
+      "level": 2,
+      "heading": "Controlled goods",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
+        "Buyer's Guide",
+        "Controlled goods"
+      ],
+      "block_count": 2,
+      "word_count": 61,
+      "char_count": 446,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 4,
+      "last_block_index": 5,
+      "preview": "Controlled goods Controlled goods are items of military or national security significance that are regulated under Canada\u2019s Controlled Goods Program ( CGP ). These goods include sensitive equipment, components, and technical data that requi",
+      "prev_section_id": "02f93b7dfa04::s002",
+      "next_section_id": "02f93b7dfa04::s004"
+    },
+    {
+      "section_id": "02f93b7dfa04::s004",
+      "parent_section_id": "02f93b7dfa04::s003",
+      "level": 3,
+      "heading": "Registration requirements",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
+        "Buyer's Guide",
+        "Controlled goods",
+        "Registration requirements"
+      ],
+      "block_count": 2,
+      "word_count": 61,
+      "char_count": 418,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 6,
+      "last_block_index": 7,
+      "preview": "Registration requirements As of April 30, 2001, the access to controlled goods is restricted solely to individuals who are registered, exempt or excluded under the Controlled Goods Program. This change follows the amendments introduced by B",
+      "prev_section_id": "02f93b7dfa04::s003",
+      "next_section_id": "02f93b7dfa04::s005"
+    },
+    {
+      "section_id": "02f93b7dfa04::s005",
+      "parent_section_id": "02f93b7dfa04::s003",
+      "level": 3,
+      "heading": "Handling offers containing controlled goods",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
+        "Buyer's Guide",
+        "Controlled goods",
+        "Handling offers containing controlled goods"
+      ],
+      "block_count": 2,
+      "word_count": 57,
+      "char_count": 370,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 8,
+      "last_block_index": 9,
+      "preview": "Handling offers containing controlled goods There may be cases where an offer unexpectedly includes controlled goods, even if they were not specified in the original solicitation. In such instances, controlled goods must only be handled by ",
+      "prev_section_id": "02f93b7dfa04::s004",
+      "next_section_id": "02f93b7dfa04::s006"
+    },
+    {
+      "section_id": "02f93b7dfa04::s006",
+      "parent_section_id": "02f93b7dfa04::s003",
+      "level": 3,
+      "heading": "Access and distribution restrictions",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
+        "Buyer's Guide",
+        "Controlled goods",
+        "Access and distribution restrictions"
+      ],
+      "block_count": 3,
+      "word_count": 34,
+      "char_count": 216,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 2,
+      "first_block_index": 10,
+      "last_block_index": 12,
+      "preview": "Access and distribution restrictions Controlled goods must not be released to anyone who is not registered, exempt or excluded under the CGP . For more details, please consult the Controlled Goods Directorate website .",
+      "prev_section_id": "02f93b7dfa04::s005",
+      "next_section_id": "02f93b7dfa04::s007"
+    },
+    {
+      "section_id": "02f93b7dfa04::s007",
+      "parent_section_id": "02f93b7dfa04::s003",
+      "level": 3,
+      "heading": "Solicitation requirements",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
+        "Buyer's Guide",
+        "Controlled goods",
+        "Solicitation requirements"
+      ],
+      "block_count": 2,
+      "word_count": 47,
+      "char_count": 322,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 13,
+      "last_block_index": 14,
+      "preview": "Solicitation requirements When producing or accessing controlled goods as part of solicitations of offers, applicable clauses must be included in the solicitation of offers to ensure compliance with the CGP . After receiving the required cl",
+      "prev_section_id": "02f93b7dfa04::s006",
+      "next_section_id": "02f93b7dfa04::s008"
+    },
+    {
+      "section_id": "02f93b7dfa04::s008",
+      "parent_section_id": "02f93b7dfa04::s003",
+      "level": 3,
+      "heading": "Handling controlled components in solicitations",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
+        "Buyer's Guide",
+        "Controlled goods",
+        "Handling controlled components in solicitations"
+      ],
+      "block_count": 3,
+      "word_count": 61,
+      "char_count": 387,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 2,
+      "first_block_index": 15,
+      "last_block_index": 17,
+      "preview": "Handling controlled components in solicitations If a solicitation of offers includes controlled goods, such as specific drawings or statements of work, only these items are restricted under the CGP . Other items in the solicitation of offer",
+      "prev_section_id": "02f93b7dfa04::s007",
+      "next_section_id": "02f93b7dfa04::s009"
+    },
+    {
+      "section_id": "02f93b7dfa04::s009",
+      "parent_section_id": "02f93b7dfa04::s003",
+      "level": 3,
+      "heading": "Verification of registration status",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
+        "Buyer's Guide",
+        "Controlled goods",
+        "Verification of registration status"
+      ],
+      "block_count": 3,
+      "word_count": 95,
+      "char_count": 649,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 2,
+      "first_block_index": 18,
+      "last_block_index": 20,
+      "preview": "Verification of registration status The PSPC \u2019s Controlled Goods Directorate ( CGD ) maintains a list of registered people for information purposes only, updated daily. The accuracy of this list cannot be guaranteed as some registrants may ",
+      "prev_section_id": "02f93b7dfa04::s008",
+      "next_section_id": "02f93b7dfa04::s010"
+    },
+    {
+      "section_id": "02f93b7dfa04::s010",
+      "parent_section_id": "02f93b7dfa04::s003",
+      "level": 3,
+      "heading": "Export controls",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
+        "Buyer's Guide",
+        "Controlled goods",
+        "Export controls"
+      ],
+      "block_count": 4,
+      "word_count": 188,
+      "char_count": 1122,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 3,
+      "first_block_index": 21,
+      "last_block_index": 24,
+      "preview": "Export controls Exporting controlled Technical Data Packages ( TDP ) requires an export permit for all countries except, in most cases, the United States. You must verify if the TDP is controlled. The ultimate authority for making this dete",
+      "prev_section_id": "02f93b7dfa04::s009",
+      "next_section_id": "02f93b7dfa04::s011"
+    },
+    {
+      "section_id": "02f93b7dfa04::s011",
+      "parent_section_id": "02f93b7dfa04::s003",
+      "level": 3,
+      "heading": "Security measures for transferring controlled goods",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
+        "Buyer's Guide",
+        "Controlled goods",
+        "Security measures for transferring controlled goods"
+      ],
+      "block_count": 3,
+      "word_count": 157,
+      "char_count": 1024,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 25,
+      "last_block_index": 27,
+      "preview": "Security measures for transferring controlled goods Appropriate security measures must be taken when transferring controlled goods, tailored to their type and size, to prevent the examination and unauthorized transfer by a person who is not",
+      "prev_section_id": "02f93b7dfa04::s010",
+      "next_section_id": "02f93b7dfa04::s012"
+    },
+    {
+      "section_id": "02f93b7dfa04::s012",
+      "parent_section_id": "02f93b7dfa04::s003",
+      "level": 3,
+      "heading": "Contractual requirements",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
+        "Buyer's Guide",
+        "Controlled goods",
+        "Contractual requirements"
+      ],
+      "block_count": 2,
+      "word_count": 74,
+      "char_count": 546,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 28,
+      "last_block_index": 29,
+      "preview": "Contractual requirements When the CGP is applicable to a contract requirement, it is mandatory to incorporate applicable procurement clauses to communicate the offeror\u2019s responsibilities under the program. For general contracts involving co",
+      "prev_section_id": "02f93b7dfa04::s011",
+      "next_section_id": null
+    }
+  ],
+  "tables": [],
+  "blocks": [
+    {
+      "block_id": "02f93b7dfa04::b0001",
+      "section_id": "02f93b7dfa04::s001",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
+        "Buyer's Guide Contract security and privacy requirements - Controlled goods"
+      ],
+      "markdown": "# Buyer's Guide Contract security and privacy requirements - Controlled goods",
+      "plain_text": "Buyer's Guide Contract security and privacy requirements - Controlled goods"
+    },
+    {
+      "block_id": "02f93b7dfa04::b0002",
+      "section_id": "02f93b7dfa04::s002",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
+        "Buyer's Guide"
+      ],
+      "markdown": "# Buyer's Guide",
+      "plain_text": "Buyer's Guide"
+    },
+    {
+      "block_id": "02f93b7dfa04::b0003",
+      "section_id": "02f93b7dfa04::s002",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
+        "Buyer's Guide"
+      ],
+      "markdown": "- Plan\n- Approve\n- Create solicitation\n- Solicit\n- Receive and evaluate\n- Negotiate\n- Award\n- Manage",
+      "plain_text": "Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage"
+    },
+    {
+      "block_id": "02f93b7dfa04::b0004",
+      "section_id": "02f93b7dfa04::s002",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
+        "Buyer's Guide"
+      ],
+      "markdown": "Controlled goods Controlled goods are items of military or national security significance that are regulated under Canada\u2019s Controlled Goods Program ( CGP ). These goods include sensitive equipment, components, and technical data that require strict handling to prevent unauthorized access. The CGP ensures that only individuals and organizations registered, exempt, or excluded from registration can access, possess, or transfer controlled goods. Registration requirements As of April 30, 2001, the access to controlled goods is restricted solely to individuals who are registered, exempt or excluded under the Controlled Goods Program. This change follows the amendments introduced by Bill S-25 to the Defence Production Act . It established a regulatory framework for certain controlled military and military related goods, including technical data and technology. Handling offers containing controlled goods There may be cases where an offer unexpectedly includes controlled goods, even if they were not specified in the original solicitation. In such instances, controlled goods must only be handled by individuals or organizations registered, exempt, or excluded under the CGP . No one outside of this program can access these goods. Access and distribution restrictions Controlled goods must not be released to anyone who is not registered, exempt or excluded under the CGP . For more details, please consult the Controlled Goods Directorate website . Solicitation requirements When producing or accessing controlled goods as part of solicitations of offers, applicable clauses must be included in the solicitation of offers to ensure compliance with the CGP . After receiving the required clauses CGP , ensure they are correctly incorporated into the solicitation documents. Handling controlled components in solicitations If a solicitation of offers includes controlled goods, such as specific drawings or statements of work, only these items are restricted under the CGP . Other items in the solicitation of offers document are processed as usual. Note: Not all drawings or statements of work qualify as controlled goods, even if they relate to controlled goods. Verification of registration status The PSPC \u2019s Controlled Goods Directorate ( CGD ) maintains a list of registered people for information purposes only, updated daily. The accuracy of this list cannot be guaranteed as some registrants may choose not to appear publicly. For verification of persons not listed, contact the CGD via email or telephone for further verification. After verification that the person requesting the controlled goods is registered, you may release the controlled goods-related documents through adequate means to preclude the examination of controlled goods by unauthorized persons. Review the current Registered Persons list Export controls Exporting controlled Technical Data Packages ( TDP ) requires an export permit for all countries except, in most cases, the United States. You must verify if the TDP is controlled. The ultimate authority for making this determination is the Export Controls Division , Department of Foreign Affairs and International Trade Canada ( DFAIT ). A determination needs to be made as to whether or not the offeror has access to controlled goods, in Canada, under the Defence Production Act . You should contact the Export Controls Division, DFAIT , for assistance in making this determination. Generally, if the TDP contains technical information for the \"development, production or use\" of an item controlled under DFAIT \u2019s Export Control List (most items under Group 2; Item 5504 under Group 5; and all items under Group 6), then the TDP is also controlled. Refer also to a shorter version, published by CGD , of the items that are controlled. If the TDP is designed solely for the solicitation of offers, it is probably not controlled. Find a copy of the export permit in Export and Import Controls Printable Forms Security measures for transferring controlled goods Appropriate security measures must be taken when transferring controlled goods, tailored to their type and size, to prevent the examination and unauthorized transfer by a person who is not registered, exempt or excluded under the CGP . Safeguards chosen should make any tampering evident. Safeguarding measures include: using double envelopes, security seals and security-sealed containers marking transfer containers with a return address recording how the controlled good is being transferred determining the reliability of a postal or courier service transferring controlled goods by first class or registered mail, or by a postal or courier service that offers: proof of mailing, a record while in transit and a record of delivery recording the controlled good being transferred, who is transferring it and the identity and address of the person to whom it was transferred examining the packaging and sealing devices, and reporting any tampering upon receipt Contractual requirements When the CGP is applicable to a contract requirement, it is mandatory to incorporate applicable procurement clauses to communicate the offeror\u2019s responsibilities under the program. For general contracts involving controlled goods, an applicable clause must be included to outline the obligations associated with the CGP . For contracts specifically with the Department of National Defence, an applicable clause is required to ensure compliance with the controlled goods stipulations pertinent to defence-related activities",
+      "plain_text": "Controlled goods Controlled goods are items of military or national security significance that are regulated under Canada\u2019s Controlled Goods Program ( CGP ). These goods include sensitive equipment, components, and technical data that require strict handling to prevent unauthorized access. The CGP ensures that only individuals and organizations registered, exempt, or excluded from registration can access, possess, or transfer controlled goods. Registration requirements As of April 30, 2001, the access to controlled goods is restricted solely to individuals who are registered, exempt or excluded under the Controlled Goods Program. This change follows the amendments introduced by Bill S-25 to the Defence Production Act . It established a regulatory framework for certain controlled military and military related goods, including technical data and technology. Handling offers containing controlled goods There may be cases where an offer unexpectedly includes controlled goods, even if they were not specified in the original solicitation. In such instances, controlled goods must only be handled by individuals or organizations registered, exempt, or excluded under the CGP . No one outside of this program can access these goods. Access and distribution restrictions Controlled goods must not be released to anyone who is not registered, exempt or excluded under the CGP . For more details, please consult the Controlled Goods Directorate website . Solicitation requirements When producing or accessing controlled goods as part of solicitations of offers, applicable clauses must be included in the solicitation of offers to ensure compliance with the CGP . After receiving the required clauses CGP , ensure they are correctly incorporated into the solicitation documents. Handling controlled components in solicitations If a solicitation of offers includes controlled goods, such as specific drawings or statements of work, only these items are restricted under the CGP . Other items in the solicitation of offers document are processed as usual. Note: Not all drawings or statements of work qualify as controlled goods, even if they relate to controlled goods. Verification of registration status The PSPC \u2019s Controlled Goods Directorate ( CGD ) maintains a list of registered people for information purposes only, updated daily. The accuracy of this list cannot be guaranteed as some registrants may choose not to appear publicly. For verification of persons not listed, contact the CGD via email or telephone for further verification. After verification that the person requesting the controlled goods is registered, you may release the controlled goods-related documents through adequate means to preclude the examination of controlled goods by unauthorized persons. Review the current Registered Persons list Export controls Exporting controlled Technical Data Packages ( TDP ) requires an export permit for all countries except, in most cases, the United States. You must verify if the TDP is controlled. The ultimate authority for making this determination is the Export Controls Division , Department of Foreign Affairs and International Trade Canada ( DFAIT ). A determination needs to be made as to whether or not the offeror has access to controlled goods, in Canada, under the Defence Production Act . You should contact the Export Controls Division, DFAIT , for assistance in making this determination. Generally, if the TDP contains technical information for the \"development, production or use\" of an item controlled under DFAIT \u2019s Export Control List (most items under Group 2; Item 5504 under Group 5; and all items under Group 6), then the TDP is also controlled. Refer also to a shorter version, published by CGD , of the items that are controlled. If the TDP is designed solely for the solicitation of offers, it is probably not controlled. Find a copy of the export permit in Export and Import Controls Printable Forms Security measures for transferring controlled goods Appropriate security measures must be taken when transferring controlled goods, tailored to their type and size, to prevent the examination and unauthorized transfer by a person who is not registered, exempt or excluded under the CGP . Safeguards chosen should make any tampering evident. Safeguarding measures include: using double envelopes, security seals and security-sealed containers marking transfer containers with a return address recording how the controlled good is being transferred determining the reliability of a postal or courier service transferring controlled goods by first class or registered mail, or by a postal or courier service that offers: proof of mailing, a record while in transit and a record of delivery recording the controlled good being transferred, who is transferring it and the identity and address of the person to whom it was transferred examining the packaging and sealing devices, and reporting any tampering upon receipt Contractual requirements When the CGP is applicable to a contract requirement, it is mandatory to incorporate applicable procurement clauses to communicate the offeror\u2019s responsibilities under the program. For general contracts involving controlled goods, an applicable clause must be included to outline the obligations associated with the CGP . For contracts specifically with the Department of National Defence, an applicable clause is required to ensure compliance with the controlled goods stipulations pertinent to defence-related activities"
+    },
+    {
+      "block_id": "02f93b7dfa04::b0005",
+      "section_id": "02f93b7dfa04::s003",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
+        "Buyer's Guide",
+        "Controlled goods"
+      ],
+      "markdown": "## Controlled goods",
+      "plain_text": "Controlled goods"
+    },
+    {
+      "block_id": "02f93b7dfa04::b0006",
+      "section_id": "02f93b7dfa04::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
+        "Buyer's Guide",
+        "Controlled goods"
+      ],
+      "markdown": "Controlled goods are items of military or national security significance that are regulated under Canada\u2019s Controlled Goods Program ( CGP ). These goods include sensitive equipment, components, and technical data that require strict handling to prevent unauthorized access. The CGP ensures that only individuals and organizations registered, exempt, or excluded from registration can access, possess, or transfer controlled goods.",
+      "plain_text": "Controlled goods are items of military or national security significance that are regulated under Canada\u2019s Controlled Goods Program ( CGP ). These goods include sensitive equipment, components, and technical data that require strict handling to prevent unauthorized access. The CGP ensures that only individuals and organizations registered, exempt, or excluded from registration can access, possess, or transfer controlled goods."
+    },
+    {
+      "block_id": "02f93b7dfa04::b0007",
+      "section_id": "02f93b7dfa04::s004",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
+        "Buyer's Guide",
+        "Controlled goods",
+        "Registration requirements"
+      ],
+      "markdown": "### Registration requirements",
+      "plain_text": "Registration requirements"
+    },
+    {
+      "block_id": "02f93b7dfa04::b0008",
+      "section_id": "02f93b7dfa04::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
+        "Buyer's Guide",
+        "Controlled goods",
+        "Registration requirements"
+      ],
+      "markdown": "As of April 30, 2001, the access to controlled goods is restricted solely to individuals who are registered, exempt or excluded under the Controlled Goods Program. This change follows the amendments introduced by Bill S-25 to the Defence Production Act . It established a regulatory framework for certain controlled military and military related goods, including technical data and technology.",
+      "plain_text": "As of April 30, 2001, the access to controlled goods is restricted solely to individuals who are registered, exempt or excluded under the Controlled Goods Program. This change follows the amendments introduced by Bill S-25 to the Defence Production Act . It established a regulatory framework for certain controlled military and military related goods, including technical data and technology."
+    },
+    {
+      "block_id": "02f93b7dfa04::b0009",
+      "section_id": "02f93b7dfa04::s005",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
+        "Buyer's Guide",
+        "Controlled goods",
+        "Handling offers containing controlled goods"
+      ],
+      "markdown": "### Handling offers containing controlled goods",
+      "plain_text": "Handling offers containing controlled goods"
+    },
+    {
+      "block_id": "02f93b7dfa04::b0010",
+      "section_id": "02f93b7dfa04::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
+        "Buyer's Guide",
+        "Controlled goods",
+        "Handling offers containing controlled goods"
+      ],
+      "markdown": "There may be cases where an offer unexpectedly includes controlled goods, even if they were not specified in the original solicitation. In such instances, controlled goods must only be handled by individuals or organizations registered, exempt, or excluded under the CGP . No one outside of this program can access these goods.",
+      "plain_text": "There may be cases where an offer unexpectedly includes controlled goods, even if they were not specified in the original solicitation. In such instances, controlled goods must only be handled by individuals or organizations registered, exempt, or excluded under the CGP . No one outside of this program can access these goods."
+    },
+    {
+      "block_id": "02f93b7dfa04::b0011",
+      "section_id": "02f93b7dfa04::s006",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
+        "Buyer's Guide",
+        "Controlled goods",
+        "Access and distribution restrictions"
+      ],
+      "markdown": "### Access and distribution restrictions",
+      "plain_text": "Access and distribution restrictions"
+    },
+    {
+      "block_id": "02f93b7dfa04::b0012",
+      "section_id": "02f93b7dfa04::s006",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
+        "Buyer's Guide",
+        "Controlled goods",
+        "Access and distribution restrictions"
+      ],
+      "markdown": "Controlled goods must not be released to anyone who is not registered, exempt or excluded under the CGP .",
+      "plain_text": "Controlled goods must not be released to anyone who is not registered, exempt or excluded under the CGP ."
+    },
+    {
+      "block_id": "02f93b7dfa04::b0013",
+      "section_id": "02f93b7dfa04::s006",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
+        "Buyer's Guide",
+        "Controlled goods",
+        "Access and distribution restrictions"
+      ],
+      "markdown": "For more details, please consult the Controlled Goods Directorate website .",
+      "plain_text": "For more details, please consult the Controlled Goods Directorate website ."
+    },
+    {
+      "block_id": "02f93b7dfa04::b0014",
+      "section_id": "02f93b7dfa04::s007",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
+        "Buyer's Guide",
+        "Controlled goods",
+        "Solicitation requirements"
+      ],
+      "markdown": "### Solicitation requirements",
+      "plain_text": "Solicitation requirements"
+    },
+    {
+      "block_id": "02f93b7dfa04::b0015",
+      "section_id": "02f93b7dfa04::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
+        "Buyer's Guide",
+        "Controlled goods",
+        "Solicitation requirements"
+      ],
+      "markdown": "When producing or accessing controlled goods as part of solicitations of offers, applicable clauses must be included in the solicitation of offers to ensure compliance with the CGP . After receiving the required clauses CGP , ensure they are correctly incorporated into the solicitation documents.",
+      "plain_text": "When producing or accessing controlled goods as part of solicitations of offers, applicable clauses must be included in the solicitation of offers to ensure compliance with the CGP . After receiving the required clauses CGP , ensure they are correctly incorporated into the solicitation documents."
+    },
+    {
+      "block_id": "02f93b7dfa04::b0016",
+      "section_id": "02f93b7dfa04::s008",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
+        "Buyer's Guide",
+        "Controlled goods",
+        "Handling controlled components in solicitations"
+      ],
+      "markdown": "### Handling controlled components in solicitations",
+      "plain_text": "Handling controlled components in solicitations"
+    },
+    {
+      "block_id": "02f93b7dfa04::b0017",
+      "section_id": "02f93b7dfa04::s008",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
+        "Buyer's Guide",
+        "Controlled goods",
+        "Handling controlled components in solicitations"
+      ],
+      "markdown": "If a solicitation of offers includes controlled goods, such as specific drawings or statements of work, only these items are restricted under the CGP . Other items in the solicitation of offers document are processed as usual.",
+      "plain_text": "If a solicitation of offers includes controlled goods, such as specific drawings or statements of work, only these items are restricted under the CGP . Other items in the solicitation of offers document are processed as usual."
+    },
+    {
+      "block_id": "02f93b7dfa04::b0018",
+      "section_id": "02f93b7dfa04::s008",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
+        "Buyer's Guide",
+        "Controlled goods",
+        "Handling controlled components in solicitations"
+      ],
+      "markdown": "Note: Not all drawings or statements of work qualify as controlled goods, even if they relate to controlled goods.",
+      "plain_text": "Note: Not all drawings or statements of work qualify as controlled goods, even if they relate to controlled goods."
+    },
+    {
+      "block_id": "02f93b7dfa04::b0019",
+      "section_id": "02f93b7dfa04::s009",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
+        "Buyer's Guide",
+        "Controlled goods",
+        "Verification of registration status"
+      ],
+      "markdown": "### Verification of registration status",
+      "plain_text": "Verification of registration status"
+    },
+    {
+      "block_id": "02f93b7dfa04::b0020",
+      "section_id": "02f93b7dfa04::s009",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
+        "Buyer's Guide",
+        "Controlled goods",
+        "Verification of registration status"
+      ],
+      "markdown": "The PSPC \u2019s Controlled Goods Directorate ( CGD ) maintains a list of registered people for information purposes only, updated daily. The accuracy of this list cannot be guaranteed as some registrants may choose not to appear publicly. For verification of persons not listed, contact the CGD via email or telephone for further verification. After verification that the person requesting the controlled goods is registered, you may release the controlled goods-related documents through adequate means to preclude the examination of controlled goods by unauthorized persons.",
+      "plain_text": "The PSPC \u2019s Controlled Goods Directorate ( CGD ) maintains a list of registered people for information purposes only, updated daily. The accuracy of this list cannot be guaranteed as some registrants may choose not to appear publicly. For verification of persons not listed, contact the CGD via email or telephone for further verification. After verification that the person requesting the controlled goods is registered, you may release the controlled goods-related documents through adequate means to preclude the examination of controlled goods by unauthorized persons."
+    },
+    {
+      "block_id": "02f93b7dfa04::b0021",
+      "section_id": "02f93b7dfa04::s009",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
+        "Buyer's Guide",
+        "Controlled goods",
+        "Verification of registration status"
+      ],
+      "markdown": "Review the current Registered Persons list",
+      "plain_text": "Review the current Registered Persons list"
+    },
+    {
+      "block_id": "02f93b7dfa04::b0022",
+      "section_id": "02f93b7dfa04::s010",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
+        "Buyer's Guide",
+        "Controlled goods",
+        "Export controls"
+      ],
+      "markdown": "### Export controls",
+      "plain_text": "Export controls"
+    },
+    {
+      "block_id": "02f93b7dfa04::b0023",
+      "section_id": "02f93b7dfa04::s010",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
+        "Buyer's Guide",
+        "Controlled goods",
+        "Export controls"
+      ],
+      "markdown": "Exporting controlled Technical Data Packages ( TDP ) requires an export permit for all countries except, in most cases, the United States. You must verify if the TDP is controlled. The ultimate authority for making this determination is the Export Controls Division , Department of Foreign Affairs and International Trade Canada ( DFAIT ). A determination needs to be made as to whether or not the offeror has access to controlled goods, in Canada, under the Defence Production Act . You should contact the Export Controls Division, DFAIT , for assistance in making this determination.",
+      "plain_text": "Exporting controlled Technical Data Packages ( TDP ) requires an export permit for all countries except, in most cases, the United States. You must verify if the TDP is controlled. The ultimate authority for making this determination is the Export Controls Division , Department of Foreign Affairs and International Trade Canada ( DFAIT ). A determination needs to be made as to whether or not the offeror has access to controlled goods, in Canada, under the Defence Production Act . You should contact the Export Controls Division, DFAIT , for assistance in making this determination."
+    },
+    {
+      "block_id": "02f93b7dfa04::b0024",
+      "section_id": "02f93b7dfa04::s010",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
+        "Buyer's Guide",
+        "Controlled goods",
+        "Export controls"
+      ],
+      "markdown": "Generally, if the TDP contains technical information for the \"development, production or use\" of an item controlled under DFAIT \u2019s Export Control List (most items under Group 2; Item 5504 under Group 5; and all items under Group 6), then the TDP is also controlled. Refer also to a shorter version, published by CGD , of the items that are controlled. If the TDP is designed solely for the solicitation of offers, it is probably not controlled.",
+      "plain_text": "Generally, if the TDP contains technical information for the \"development, production or use\" of an item controlled under DFAIT \u2019s Export Control List (most items under Group 2; Item 5504 under Group 5; and all items under Group 6), then the TDP is also controlled. Refer also to a shorter version, published by CGD , of the items that are controlled. If the TDP is designed solely for the solicitation of offers, it is probably not controlled."
+    },
+    {
+      "block_id": "02f93b7dfa04::b0025",
+      "section_id": "02f93b7dfa04::s010",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
+        "Buyer's Guide",
+        "Controlled goods",
+        "Export controls"
+      ],
+      "markdown": "Find a copy of the export permit in Export and Import Controls Printable Forms",
+      "plain_text": "Find a copy of the export permit in Export and Import Controls Printable Forms"
+    },
+    {
+      "block_id": "02f93b7dfa04::b0026",
+      "section_id": "02f93b7dfa04::s011",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
+        "Buyer's Guide",
+        "Controlled goods",
+        "Security measures for transferring controlled goods"
+      ],
+      "markdown": "### Security measures for transferring controlled goods",
+      "plain_text": "Security measures for transferring controlled goods"
+    },
+    {
+      "block_id": "02f93b7dfa04::b0027",
+      "section_id": "02f93b7dfa04::s011",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
+        "Buyer's Guide",
+        "Controlled goods",
+        "Security measures for transferring controlled goods"
+      ],
+      "markdown": "Appropriate security measures must be taken when transferring controlled goods, tailored to their type and size, to prevent the examination and unauthorized transfer by a person who is not registered, exempt or excluded under the CGP . Safeguards chosen should make any tampering evident. Safeguarding measures include:",
+      "plain_text": "Appropriate security measures must be taken when transferring controlled goods, tailored to their type and size, to prevent the examination and unauthorized transfer by a person who is not registered, exempt or excluded under the CGP . Safeguards chosen should make any tampering evident. Safeguarding measures include:"
+    },
+    {
+      "block_id": "02f93b7dfa04::b0028",
+      "section_id": "02f93b7dfa04::s011",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
+        "Buyer's Guide",
+        "Controlled goods",
+        "Security measures for transferring controlled goods"
+      ],
+      "markdown": "- using double envelopes, security seals and security-sealed containers\n- marking transfer containers with a return address\n- recording how the controlled good is being transferred\n- determining the reliability of a postal or courier service\n- transferring controlled goods by first class or registered mail, or by a postal or courier service that offers: proof of mailing, a record while in transit and a record of delivery\n- recording the controlled good being transferred, who is transferring it and the identity and address of the person to whom it was transferred\n- examining the packaging and sealing devices, and reporting any tampering upon receipt",
+      "plain_text": "using double envelopes, security seals and security-sealed containers ; marking transfer containers with a return address ; recording how the controlled good is being transferred ; determining the reliability of a postal or courier service ; transferring controlled goods by first class or registered mail, or by a postal or courier service that offers: proof of mailing, a record while in transit and a record of delivery ; recording the controlled good being transferred, who is transferring it and the identity and address of the person to whom it was transferred ; examining the packaging and sealing devices, and reporting any tampering upon receipt"
+    },
+    {
+      "block_id": "02f93b7dfa04::b0029",
+      "section_id": "02f93b7dfa04::s012",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
+        "Buyer's Guide",
+        "Controlled goods",
+        "Contractual requirements"
+      ],
+      "markdown": "### Contractual requirements",
+      "plain_text": "Contractual requirements"
+    },
+    {
+      "block_id": "02f93b7dfa04::b0030",
+      "section_id": "02f93b7dfa04::s012",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Contract security and privacy requirements - Controlled goods",
+        "Buyer's Guide",
+        "Controlled goods",
+        "Contractual requirements"
+      ],
+      "markdown": "When the CGP is applicable to a contract requirement, it is mandatory to incorporate applicable procurement clauses to communicate the offeror\u2019s responsibilities under the program. For general contracts involving controlled goods, an applicable clause must be included to outline the obligations associated with the CGP . For contracts specifically with the Department of National Defence, an applicable clause is required to ensure compliance with the controlled goods stipulations pertinent to defence-related activities",
+      "plain_text": "When the CGP is applicable to a contract requirement, it is mandatory to incorporate applicable procurement clauses to communicate the offeror\u2019s responsibilities under the program. For general contracts involving controlled goods, an applicable clause must be included to outline the obligations associated with the CGP . For contracts specifically with the Department of National Defence, an applicable clause is required to ensure compliance with the controlled goods stipulations pertinent to defence-related activities"
+    }
+  ]
+}

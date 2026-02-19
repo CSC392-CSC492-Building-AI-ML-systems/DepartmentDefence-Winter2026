@@ -1,0 +1,593 @@
+{
+  "doc_id": "0f4de0d59395",
+  "title": "Buyer's Guide Method of selection - Specifying evaluation criteria",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/specifying-evaluation-criteria",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/specifying-evaluation-criteria",
+  "doc_type": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": "2026-02-06",
+  "fetched_at": "2026-02-19T09:16:51.147804+00:00",
+  "content_hash": "6c9d067c0a46c152bfd8de9e49bc83e2ec757441f1a7b5221708c042db45f2f4",
+  "word_count": 1063,
+  "text_path": "data/corpus/buyers_guide__en-buyer-s-portal-buyer-s-guide-plan-method-selection-specifying-evaluation-criteria__0f4de0d593.md",
+  "extraction_method": "buyers_guide_regions",
+  "breadcrumbs": [
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "https://canadabuys.canada.ca/en",
+      "canonical_url": "https://canadabuys.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "in_scope": true
+    },
+    {
+      "title": "Method of selection",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection",
+      "in_scope": true
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection",
+    "parent_doc_id": "026f91966891",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/specifying-evaluation-criteria"
+    ],
+    "lineage_doc_ids": [
+      "1e29c7881335",
+      "026f91966891",
+      "0f4de0d59395"
+    ],
+    "depth": 2,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-accounting-and-pricing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-reimbursable",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/firm-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-time/unit-rate",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/overview-key-pricing-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/price-and-currency-adjustments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/pricing-methods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/provisional-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/types-basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/application-registration",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/completing-security-requirements-check-list",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/controlled-goods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/foreign-ownership-control-or-influence",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/privacy-and-confidentiality",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-international-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-timelines",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/importance-clear-procurement-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/requisition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/review-statement-work",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/socioeconomic-requirements-definition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/standards-and-quality-assurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/choose-method-supply",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/determine-sourcing-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/developing-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/interim-policy-reciprocal-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/trade-agreement-applicability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/early-engagement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-businesses",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-clients",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-subject-matter-experts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/invoicing-instructions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/payment-instruments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/taxes-and-duties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/withholding-non-resident-contractors",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/communicating-method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/developing-selection-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/including-basis-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/canadian-general-standards-board",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/compliance-canadian-electrical-code",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/contractor-liability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/emergency-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/employer/employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/fairness-monitoring",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/insurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/intellectual-property-and-copyright",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/liability-and-risk-management",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/managing-urgent-acquisitions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/official-languages-obligation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/warranties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/holdbacks",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/incentives",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/accessibility",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/anti-forced-labour-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/green-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/indigenous-considerations"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-accounting-and-pricing",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/cost-reimbursable",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/firm-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/fixed-time/unit-rate",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/overview-key-pricing-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/price-and-currency-adjustments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/pricing-methods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/provisional-price",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/basis-payment/types-basis-payment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/application-registration",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/completing-security-requirements-check-list",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/controlled-goods",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/foreign-ownership-control-or-influence",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/privacy-and-confidentiality",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-international-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-and-timelines",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-contracts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-solicitation-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/contract-security-and-privacy-requirements/security-standing-offers-and-supply-arrangements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/importance-clear-procurement-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/requisition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/review-statement-work",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/socioeconomic-requirements-definition",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement/standards-and-quality-assurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/choose-method-supply",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/determine-sourcing-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/developing-procurement-strategy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/interim-policy-reciprocal-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/determine-procurement-strategy/trade-agreement-applicability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/early-engagement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-businesses",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-clients",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/engage/engage-subject-matter-experts",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/financial-security",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/invoicing-instructions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/payment-instruments",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/taxes-and-duties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/financial-considerations/withholding-non-resident-contractors",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/communicating-method-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/developing-selection-criteria",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/method-selection/including-basis-selection",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/canadian-general-standards-board",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/compliance-canadian-electrical-code",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/contractor-liability",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/emergency-requirements",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/employer/employee-relationship",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/fairness-monitoring",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/insurance",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/intellectual-property-and-copyright",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/liability-and-risk-management",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/managing-urgent-acquisitions",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/official-languages-obligation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/services-foreign-nationals",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/other-planning-considerations/warranties",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/holdbacks",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/performance-considerations/incentives",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/accessibility",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/anti-forced-labour-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/green-procurement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/socioeconomic-considerations/indigenous-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure": {
+    "block_count": 17,
+    "section_count": 7,
+    "heading_count": 6,
+    "paragraph_count": 9,
+    "list_count": 2,
+    "table_count": 0
+  },
+  "sections": [
+    {
+      "section_id": "0f4de0d59395::root",
+      "parent_section_id": null,
+      "level": 0,
+      "heading": "Buyer's Guide Method of selection - Specifying evaluation criteria",
+      "heading_path": [
+        "Buyer's Guide Method of selection - Specifying evaluation criteria"
+      ],
+      "block_count": 0,
+      "word_count": 0,
+      "char_count": 0,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": null,
+      "last_block_index": null,
+      "preview": "",
+      "prev_section_id": null,
+      "next_section_id": null
+    },
+    {
+      "section_id": "0f4de0d59395::s001",
+      "parent_section_id": "0f4de0d59395::root",
+      "level": 1,
+      "heading": "Buyer's Guide Method of selection - Specifying evaluation criteria",
+      "heading_path": [
+        "Buyer's Guide Method of selection - Specifying evaluation criteria",
+        "Buyer's Guide Method of selection - Specifying evaluation criteria"
+      ],
+      "block_count": 1,
+      "word_count": 9,
+      "char_count": 66,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 0,
+      "last_block_index": 0,
+      "preview": "Buyer's Guide Method of selection - Specifying evaluation criteria",
+      "prev_section_id": null,
+      "next_section_id": "0f4de0d59395::s002"
+    },
+    {
+      "section_id": "0f4de0d59395::s002",
+      "parent_section_id": "0f4de0d59395::root",
+      "level": 1,
+      "heading": "Buyer's Guide",
+      "heading_path": [
+        "Buyer's Guide Method of selection - Specifying evaluation criteria",
+        "Buyer's Guide"
+      ],
+      "block_count": 3,
+      "word_count": 535,
+      "char_count": 3502,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 1,
+      "last_block_index": 3,
+      "preview": "Buyer's Guide Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage Specifying evaluation criteria You must clearly specify all evaluation criteria in the solicitation document, including their r",
+      "prev_section_id": "0f4de0d59395::s001",
+      "next_section_id": "0f4de0d59395::s003"
+    },
+    {
+      "section_id": "0f4de0d59395::s003",
+      "parent_section_id": "0f4de0d59395::s002",
+      "level": 2,
+      "heading": "Specifying evaluation criteria",
+      "heading_path": [
+        "Buyer's Guide Method of selection - Specifying evaluation criteria",
+        "Buyer's Guide",
+        "Specifying evaluation criteria"
+      ],
+      "block_count": 2,
+      "word_count": 100,
+      "char_count": 647,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 4,
+      "last_block_index": 5,
+      "preview": "Specifying evaluation criteria You must clearly specify all evaluation criteria in the solicitation document, including their relative weighting and importance. The solicitation must indicate whether, and under what conditions, alternatives",
+      "prev_section_id": "0f4de0d59395::s002",
+      "next_section_id": "0f4de0d59395::s004"
+    },
+    {
+      "section_id": "0f4de0d59395::s004",
+      "parent_section_id": "0f4de0d59395::s003",
+      "level": 3,
+      "heading": "Mandatory criteria",
+      "heading_path": [
+        "Buyer's Guide Method of selection - Specifying evaluation criteria",
+        "Buyer's Guide",
+        "Specifying evaluation criteria",
+        "Mandatory criteria"
+      ],
+      "block_count": 4,
+      "word_count": 111,
+      "char_count": 792,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 2,
+      "first_block_index": 6,
+      "last_block_index": 9,
+      "preview": "Mandatory criteria You must ensure that mandatory criteria represent essential requirements, as none of the mandatory criteria can be waived once the solicitation has closed. You should discuss this with the client, as they define most mand",
+      "prev_section_id": "0f4de0d59395::s003",
+      "next_section_id": "0f4de0d59395::s005"
+    },
+    {
+      "section_id": "0f4de0d59395::s005",
+      "parent_section_id": "0f4de0d59395::s003",
+      "level": 3,
+      "heading": "Rated criteria",
+      "heading_path": [
+        "Buyer's Guide Method of selection - Specifying evaluation criteria",
+        "Buyer's Guide",
+        "Specifying evaluation criteria",
+        "Rated criteria"
+      ],
+      "block_count": 4,
+      "word_count": 182,
+      "char_count": 1153,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 3,
+      "first_block_index": 10,
+      "last_block_index": 13,
+      "preview": "Rated criteria Only offers meeting all mandatory criteria are subject to point rating. Rated criteria are used to assess various elements of the technical offer so that the relative merits of each offer can distinguish one offer from anothe",
+      "prev_section_id": "0f4de0d59395::s004",
+      "next_section_id": "0f4de0d59395::s006"
+    },
+    {
+      "section_id": "0f4de0d59395::s006",
+      "parent_section_id": "0f4de0d59395::s003",
+      "level": 3,
+      "heading": "Technical rated criteria",
+      "heading_path": [
+        "Buyer's Guide Method of selection - Specifying evaluation criteria",
+        "Buyer's Guide",
+        "Specifying evaluation criteria",
+        "Technical rated criteria"
+      ],
+      "block_count": 3,
+      "word_count": 126,
+      "char_count": 795,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 2,
+      "first_block_index": 14,
+      "last_block_index": 16,
+      "preview": "Technical rated criteria Rated criteria are used to assess various elements of the technical offer so that the relative merits of each offer can be determined. You must clearly specify the maximum points possible for each rated criterion in",
+      "prev_section_id": "0f4de0d59395::s005",
+      "next_section_id": null
+    }
+  ],
+  "tables": [],
+  "blocks": [
+    {
+      "block_id": "0f4de0d59395::b0001",
+      "section_id": "0f4de0d59395::s001",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Method of selection - Specifying evaluation criteria",
+        "Buyer's Guide Method of selection - Specifying evaluation criteria"
+      ],
+      "markdown": "# Buyer's Guide Method of selection - Specifying evaluation criteria",
+      "plain_text": "Buyer's Guide Method of selection - Specifying evaluation criteria"
+    },
+    {
+      "block_id": "0f4de0d59395::b0002",
+      "section_id": "0f4de0d59395::s002",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Method of selection - Specifying evaluation criteria",
+        "Buyer's Guide"
+      ],
+      "markdown": "# Buyer's Guide",
+      "plain_text": "Buyer's Guide"
+    },
+    {
+      "block_id": "0f4de0d59395::b0003",
+      "section_id": "0f4de0d59395::s002",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Method of selection - Specifying evaluation criteria",
+        "Buyer's Guide"
+      ],
+      "markdown": "- Plan\n- Approve\n- Create solicitation\n- Solicit\n- Receive and evaluate\n- Negotiate\n- Award\n- Manage",
+      "plain_text": "Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage"
+    },
+    {
+      "block_id": "0f4de0d59395::b0004",
+      "section_id": "0f4de0d59395::s002",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Method of selection - Specifying evaluation criteria",
+        "Buyer's Guide"
+      ],
+      "markdown": "Specifying evaluation criteria You must clearly specify all evaluation criteria in the solicitation document, including their relative weighting and importance. The solicitation must indicate whether, and under what conditions, alternatives or substitutes will be considered. It is also important to consider when conditions must be met, like as a requirement for offer submission, or as a condition of contract award. For example, a certificate of insurance may not be available at the time of submission, as it may only be issued once the contract is awarded. In this case, a requirement for a certificate of insurability may be more appropriate. Mandatory criteria You must ensure that mandatory criteria represent essential requirements, as none of the mandatory criteria can be waived once the solicitation has closed. You should discuss this with the client, as they define most mandatory criteria. Mandatory evaluation criteria identify the minimum requirements that are essential to the successful completion of the work. You must minimize the number of mandatory criteria to increase the likelihood of receiving responsive offers. Mandatory criteria must be clearly specified in the solicitation document and may include: licensing requirements minimum performance characteristics of equipment requirements for delivery dates or conditions essential minimum qualifications or experience of proposed personnel budget limitations Rated criteria Only offers meeting all mandatory criteria are subject to point rating. Rated criteria are used to assess various elements of the technical offer so that the relative merits of each offer can distinguish one offer from another. The solicitation document must include the details of each rated criterion's maximum points and any minimum thresholds needed to be considered compliant. When point rating is used, to be considered responsive offers must often meet a minimum overall point threshold and receive minimum points for specific criteria. The solicitation of offers must clearly identify these mandatory minimum thresholds. When assigning weights to each criterion, you should, in collaboration with the client, ensure that a high aggregate of points for minor criteria does not overcompensate for a low aggregate of points for major criteria. You must also clearly outline in the solicitation documents how criteria such as knowledge and experience will be assessed. For instance, in a joint venture you should specify if you intend to assess the experience of a joint venture member only or a pooling of experience of all the members. Technical rated criteria Rated criteria are used to assess various elements of the technical offer so that the relative merits of each offer can be determined. You must clearly specify the maximum points possible for each rated criterion in the solicitation. These can include both an overall minimum score and potentially additional minimums for certain individual criteria. You must clearly state these mandatory minimum thresholds in the solicitation of offers. Note: If the offer under review is denied and there is clear evidence that the evaluation was not conducted in a fair manner, the CITT can undertake a re-weighing of points. The CITT will also intervene if it feels that the evaluators improperly applied the evaluation criteria and methodology set out in the solicitation of offers.",
+      "plain_text": "Specifying evaluation criteria You must clearly specify all evaluation criteria in the solicitation document, including their relative weighting and importance. The solicitation must indicate whether, and under what conditions, alternatives or substitutes will be considered. It is also important to consider when conditions must be met, like as a requirement for offer submission, or as a condition of contract award. For example, a certificate of insurance may not be available at the time of submission, as it may only be issued once the contract is awarded. In this case, a requirement for a certificate of insurability may be more appropriate. Mandatory criteria You must ensure that mandatory criteria represent essential requirements, as none of the mandatory criteria can be waived once the solicitation has closed. You should discuss this with the client, as they define most mandatory criteria. Mandatory evaluation criteria identify the minimum requirements that are essential to the successful completion of the work. You must minimize the number of mandatory criteria to increase the likelihood of receiving responsive offers. Mandatory criteria must be clearly specified in the solicitation document and may include: licensing requirements minimum performance characteristics of equipment requirements for delivery dates or conditions essential minimum qualifications or experience of proposed personnel budget limitations Rated criteria Only offers meeting all mandatory criteria are subject to point rating. Rated criteria are used to assess various elements of the technical offer so that the relative merits of each offer can distinguish one offer from another. The solicitation document must include the details of each rated criterion's maximum points and any minimum thresholds needed to be considered compliant. When point rating is used, to be considered responsive offers must often meet a minimum overall point threshold and receive minimum points for specific criteria. The solicitation of offers must clearly identify these mandatory minimum thresholds. When assigning weights to each criterion, you should, in collaboration with the client, ensure that a high aggregate of points for minor criteria does not overcompensate for a low aggregate of points for major criteria. You must also clearly outline in the solicitation documents how criteria such as knowledge and experience will be assessed. For instance, in a joint venture you should specify if you intend to assess the experience of a joint venture member only or a pooling of experience of all the members. Technical rated criteria Rated criteria are used to assess various elements of the technical offer so that the relative merits of each offer can be determined. You must clearly specify the maximum points possible for each rated criterion in the solicitation. These can include both an overall minimum score and potentially additional minimums for certain individual criteria. You must clearly state these mandatory minimum thresholds in the solicitation of offers. Note: If the offer under review is denied and there is clear evidence that the evaluation was not conducted in a fair manner, the CITT can undertake a re-weighing of points. The CITT will also intervene if it feels that the evaluators improperly applied the evaluation criteria and methodology set out in the solicitation of offers."
+    },
+    {
+      "block_id": "0f4de0d59395::b0005",
+      "section_id": "0f4de0d59395::s003",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Method of selection - Specifying evaluation criteria",
+        "Buyer's Guide",
+        "Specifying evaluation criteria"
+      ],
+      "markdown": "## Specifying evaluation criteria",
+      "plain_text": "Specifying evaluation criteria"
+    },
+    {
+      "block_id": "0f4de0d59395::b0006",
+      "section_id": "0f4de0d59395::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Method of selection - Specifying evaluation criteria",
+        "Buyer's Guide",
+        "Specifying evaluation criteria"
+      ],
+      "markdown": "You must clearly specify all evaluation criteria in the solicitation document, including their relative weighting and importance. The solicitation must indicate whether, and under what conditions, alternatives or substitutes will be considered. It is also important to consider when conditions must be met, like as a requirement for offer submission, or as a condition of contract award. For example, a certificate of insurance may not be available at the time of submission, as it may only be issued once the contract is awarded. In this case, a requirement for a certificate of insurability may be more appropriate.",
+      "plain_text": "You must clearly specify all evaluation criteria in the solicitation document, including their relative weighting and importance. The solicitation must indicate whether, and under what conditions, alternatives or substitutes will be considered. It is also important to consider when conditions must be met, like as a requirement for offer submission, or as a condition of contract award. For example, a certificate of insurance may not be available at the time of submission, as it may only be issued once the contract is awarded. In this case, a requirement for a certificate of insurability may be more appropriate."
+    },
+    {
+      "block_id": "0f4de0d59395::b0007",
+      "section_id": "0f4de0d59395::s004",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Method of selection - Specifying evaluation criteria",
+        "Buyer's Guide",
+        "Specifying evaluation criteria",
+        "Mandatory criteria"
+      ],
+      "markdown": "### Mandatory criteria",
+      "plain_text": "Mandatory criteria"
+    },
+    {
+      "block_id": "0f4de0d59395::b0008",
+      "section_id": "0f4de0d59395::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Method of selection - Specifying evaluation criteria",
+        "Buyer's Guide",
+        "Specifying evaluation criteria",
+        "Mandatory criteria"
+      ],
+      "markdown": "You must ensure that mandatory criteria represent essential requirements, as none of the mandatory criteria can be waived once the solicitation has closed. You should discuss this with the client, as they define most mandatory criteria. Mandatory evaluation criteria identify the minimum requirements that are essential to the successful completion of the work. You must minimize the number of mandatory criteria to increase the likelihood of receiving responsive offers.",
+      "plain_text": "You must ensure that mandatory criteria represent essential requirements, as none of the mandatory criteria can be waived once the solicitation has closed. You should discuss this with the client, as they define most mandatory criteria. Mandatory evaluation criteria identify the minimum requirements that are essential to the successful completion of the work. You must minimize the number of mandatory criteria to increase the likelihood of receiving responsive offers."
+    },
+    {
+      "block_id": "0f4de0d59395::b0009",
+      "section_id": "0f4de0d59395::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Method of selection - Specifying evaluation criteria",
+        "Buyer's Guide",
+        "Specifying evaluation criteria",
+        "Mandatory criteria"
+      ],
+      "markdown": "Mandatory criteria must be clearly specified in the solicitation document and may include:",
+      "plain_text": "Mandatory criteria must be clearly specified in the solicitation document and may include:"
+    },
+    {
+      "block_id": "0f4de0d59395::b0010",
+      "section_id": "0f4de0d59395::s004",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Method of selection - Specifying evaluation criteria",
+        "Buyer's Guide",
+        "Specifying evaluation criteria",
+        "Mandatory criteria"
+      ],
+      "markdown": "- licensing requirements\n- minimum performance characteristics of equipment\n- requirements for delivery dates or conditions\n- essential minimum qualifications or experience of proposed personnel\n- budget limitations",
+      "plain_text": "licensing requirements ; minimum performance characteristics of equipment ; requirements for delivery dates or conditions ; essential minimum qualifications or experience of proposed personnel ; budget limitations"
+    },
+    {
+      "block_id": "0f4de0d59395::b0011",
+      "section_id": "0f4de0d59395::s005",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Method of selection - Specifying evaluation criteria",
+        "Buyer's Guide",
+        "Specifying evaluation criteria",
+        "Rated criteria"
+      ],
+      "markdown": "### Rated criteria",
+      "plain_text": "Rated criteria"
+    },
+    {
+      "block_id": "0f4de0d59395::b0012",
+      "section_id": "0f4de0d59395::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Method of selection - Specifying evaluation criteria",
+        "Buyer's Guide",
+        "Specifying evaluation criteria",
+        "Rated criteria"
+      ],
+      "markdown": "Only offers meeting all mandatory criteria are subject to point rating. Rated criteria are used to assess various elements of the technical offer so that the relative merits of each offer can distinguish one offer from another. The solicitation document must include the details of each rated criterion's maximum points and any minimum thresholds needed to be considered compliant. When point rating is used, to be considered responsive offers must often meet a minimum overall point threshold and receive minimum points for specific criteria. The solicitation of offers must clearly identify these mandatory minimum thresholds.",
+      "plain_text": "Only offers meeting all mandatory criteria are subject to point rating. Rated criteria are used to assess various elements of the technical offer so that the relative merits of each offer can distinguish one offer from another. The solicitation document must include the details of each rated criterion's maximum points and any minimum thresholds needed to be considered compliant. When point rating is used, to be considered responsive offers must often meet a minimum overall point threshold and receive minimum points for specific criteria. The solicitation of offers must clearly identify these mandatory minimum thresholds."
+    },
+    {
+      "block_id": "0f4de0d59395::b0013",
+      "section_id": "0f4de0d59395::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Method of selection - Specifying evaluation criteria",
+        "Buyer's Guide",
+        "Specifying evaluation criteria",
+        "Rated criteria"
+      ],
+      "markdown": "When assigning weights to each criterion, you should, in collaboration with the client, ensure that a high aggregate of points for minor criteria does not overcompensate for a low aggregate of points for major criteria.",
+      "plain_text": "When assigning weights to each criterion, you should, in collaboration with the client, ensure that a high aggregate of points for minor criteria does not overcompensate for a low aggregate of points for major criteria."
+    },
+    {
+      "block_id": "0f4de0d59395::b0014",
+      "section_id": "0f4de0d59395::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Method of selection - Specifying evaluation criteria",
+        "Buyer's Guide",
+        "Specifying evaluation criteria",
+        "Rated criteria"
+      ],
+      "markdown": "You must also clearly outline in the solicitation documents how criteria such as knowledge and experience will be assessed. For instance, in a joint venture you should specify if you intend to assess the experience of a joint venture member only or a pooling of experience of all the members.",
+      "plain_text": "You must also clearly outline in the solicitation documents how criteria such as knowledge and experience will be assessed. For instance, in a joint venture you should specify if you intend to assess the experience of a joint venture member only or a pooling of experience of all the members."
+    },
+    {
+      "block_id": "0f4de0d59395::b0015",
+      "section_id": "0f4de0d59395::s006",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Method of selection - Specifying evaluation criteria",
+        "Buyer's Guide",
+        "Specifying evaluation criteria",
+        "Technical rated criteria"
+      ],
+      "markdown": "### Technical rated criteria",
+      "plain_text": "Technical rated criteria"
+    },
+    {
+      "block_id": "0f4de0d59395::b0016",
+      "section_id": "0f4de0d59395::s006",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Method of selection - Specifying evaluation criteria",
+        "Buyer's Guide",
+        "Specifying evaluation criteria",
+        "Technical rated criteria"
+      ],
+      "markdown": "Rated criteria are used to assess various elements of the technical offer so that the relative merits of each offer can be determined. You must clearly specify the maximum points possible for each rated criterion in the solicitation. These can include both an overall minimum score and potentially additional minimums for certain individual criteria. You must clearly state these mandatory minimum thresholds in the solicitation of offers.",
+      "plain_text": "Rated criteria are used to assess various elements of the technical offer so that the relative merits of each offer can be determined. You must clearly specify the maximum points possible for each rated criterion in the solicitation. These can include both an overall minimum score and potentially additional minimums for certain individual criteria. You must clearly state these mandatory minimum thresholds in the solicitation of offers."
+    },
+    {
+      "block_id": "0f4de0d59395::b0017",
+      "section_id": "0f4de0d59395::s006",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Method of selection - Specifying evaluation criteria",
+        "Buyer's Guide",
+        "Specifying evaluation criteria",
+        "Technical rated criteria"
+      ],
+      "markdown": "Note: If the offer under review is denied and there is clear evidence that the evaluation was not conducted in a fair manner, the CITT can undertake a re-weighing of points. The CITT will also intervene if it feels that the evaluators improperly applied the evaluation criteria and methodology set out in the solicitation of offers.",
+      "plain_text": "Note: If the offer under review is denied and there is clear evidence that the evaluation was not conducted in a fair manner, the CITT can undertake a re-weighing of points. The CITT will also intervene if it feels that the evaluators improperly applied the evaluation criteria and methodology set out in the solicitation of offers."
+    }
+  ]
+}

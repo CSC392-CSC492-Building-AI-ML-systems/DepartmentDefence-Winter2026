@@ -1,0 +1,1861 @@
+{
+  "doc_id": "acbd1b2b08d7",
+  "title": "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/analyze-and-negotiate-profit",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/analyze-and-negotiate-profit",
+  "doc_type": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": "2026-01-31",
+  "fetched_at": "2026-02-19T09:19:05.555800+00:00",
+  "content_hash": "ad0dff3601be1e5f7228a7245fde7305651c7be2c0d9d282b20c1fcc4c469396",
+  "word_count": 6258,
+  "text_path": "data/corpus/buyers_guide__en-buyer-s-portal-buyer-s-guide-negotiate-cost-and-profit-negotiations-analyze-and-negotiate-profit__acbd1b2b08.md",
+  "extraction_method": "buyers_guide_regions",
+  "breadcrumbs": [
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "https://canadabuys.canada.ca/en",
+      "canonical_url": "https://canadabuys.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "in_scope": true
+    },
+    {
+      "title": "Cost and profit negotiations",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations",
+      "in_scope": true
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations",
+    "parent_doc_id": "46720e2d4953",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/analyze-and-negotiate-profit"
+    ],
+    "lineage_doc_ids": [
+      "1e29c7881335",
+      "46720e2d4953",
+      "acbd1b2b08d7"
+    ],
+    "depth": 2,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation/how-negotiate",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation/negotiation-services-hub",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation/when-negotiate",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/alternative-pricing-strategies",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/analyze-and-negotiate-costs",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/contact-cost-analyst-group",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/getting-started-cost-and-profit-negotiations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/special-cost-considerations"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation/how-negotiate",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation/negotiation-services-hub",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation/when-negotiate",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/alternative-pricing-strategies",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/analyze-and-negotiate-costs",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/contact-cost-analyst-group",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/getting-started-cost-and-profit-negotiations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/special-cost-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure": {
+    "block_count": 103,
+    "section_count": 14,
+    "heading_count": 13,
+    "paragraph_count": 73,
+    "list_count": 15,
+    "table_count": 2
+  },
+  "sections": [
+    {
+      "section_id": "acbd1b2b08d7::root",
+      "parent_section_id": null,
+      "level": 0,
+      "heading": "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit"
+      ],
+      "block_count": 0,
+      "word_count": 0,
+      "char_count": 0,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": null,
+      "last_block_index": null,
+      "preview": "",
+      "prev_section_id": null,
+      "next_section_id": null
+    },
+    {
+      "section_id": "acbd1b2b08d7::s001",
+      "parent_section_id": "acbd1b2b08d7::root",
+      "level": 1,
+      "heading": "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit"
+      ],
+      "block_count": 1,
+      "word_count": 11,
+      "char_count": 73,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 0,
+      "last_block_index": 0,
+      "preview": "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+      "prev_section_id": null,
+      "next_section_id": "acbd1b2b08d7::s002"
+    },
+    {
+      "section_id": "acbd1b2b08d7::s002",
+      "parent_section_id": "acbd1b2b08d7::root",
+      "level": 1,
+      "heading": "Buyer's Guide",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide"
+      ],
+      "block_count": 3,
+      "word_count": 3272,
+      "char_count": 20870,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 1,
+      "last_block_index": 3,
+      "preview": "Buyer's Guide Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage Analyze and negotiate profit The second step in building a negotiated contract price is determining the profit. The total profi",
+      "prev_section_id": "acbd1b2b08d7::s001",
+      "next_section_id": "acbd1b2b08d7::s003"
+    },
+    {
+      "section_id": "acbd1b2b08d7::s003",
+      "parent_section_id": "acbd1b2b08d7::s002",
+      "level": 2,
+      "heading": "Analyze and negotiate profit",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit"
+      ],
+      "block_count": 20,
+      "word_count": 655,
+      "char_count": 4240,
+      "table_count": 0,
+      "list_count": 5,
+      "paragraph_count": 14,
+      "first_block_index": 4,
+      "last_block_index": 23,
+      "preview": "Analyze and negotiate profit The second step in building a negotiated contract price is determining the profit. The total profit is the maximum profit amount that should be awarded under the Profit Principles for negotiated, cost-based pric",
+      "prev_section_id": "acbd1b2b08d7::s002",
+      "next_section_id": "acbd1b2b08d7::s004"
+    },
+    {
+      "section_id": "acbd1b2b08d7::s004",
+      "parent_section_id": "acbd1b2b08d7::s003",
+      "level": 3,
+      "heading": "Capital employed",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Capital employed"
+      ],
+      "block_count": 9,
+      "word_count": 215,
+      "char_count": 1345,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 7,
+      "first_block_index": 24,
+      "last_block_index": 32,
+      "preview": "Capital employed The capital employed component of profit recognizes the capital investment required to fulfill a contract and provide a reasonable return, regardless of how a contractor is financed. The return on capital employed consists ",
+      "prev_section_id": "acbd1b2b08d7::s003",
+      "next_section_id": "acbd1b2b08d7::s005"
+    },
+    {
+      "section_id": "acbd1b2b08d7::s005",
+      "parent_section_id": "acbd1b2b08d7::s003",
+      "level": 3,
+      "heading": "Return on working capital employed",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on working capital employed"
+      ],
+      "block_count": 4,
+      "word_count": 125,
+      "char_count": 859,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 3,
+      "first_block_index": 33,
+      "last_block_index": 36,
+      "preview": "Return on working capital employed Working capital employed refers to the costs of maintaining daily operations within an organization. A contractor makes working capital investments to fund the day-to-day contractual operations, whether it",
+      "prev_section_id": "acbd1b2b08d7::s004",
+      "next_section_id": "acbd1b2b08d7::s006"
+    },
+    {
+      "section_id": "acbd1b2b08d7::s006",
+      "parent_section_id": "acbd1b2b08d7::s005",
+      "level": 4,
+      "heading": "Tier 1 return on working capital employed",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on working capital employed",
+        "Tier 1 return on working capital employed"
+      ],
+      "block_count": 8,
+      "word_count": 242,
+      "char_count": 1434,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 6,
+      "first_block_index": 37,
+      "last_block_index": 44,
+      "preview": "Tier 1 return on working capital employed Tier 1 is an optional, simplified approach that can only be used for contracts with total estimated or acceptable contract costs less than or equal to $1,000,000. The Tier 1 formula is: Return on Wo",
+      "prev_section_id": "acbd1b2b08d7::s005",
+      "next_section_id": "acbd1b2b08d7::s007"
+    },
+    {
+      "section_id": "acbd1b2b08d7::s007",
+      "parent_section_id": "acbd1b2b08d7::s005",
+      "level": 4,
+      "heading": "Tier 2 return on working capital employed",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on working capital employed",
+        "Tier 2 return on working capital employed"
+      ],
+      "block_count": 13,
+      "word_count": 390,
+      "char_count": 2423,
+      "table_count": 0,
+      "list_count": 2,
+      "paragraph_count": 10,
+      "first_block_index": 45,
+      "last_block_index": 57,
+      "preview": "Tier 2 return on working capital employed Tier 2 is a full schedule approach for contracts with total estimated or acceptable contract costs over $1,000,000. It can also be used for Tier 1 contracts upon request from the offeror/contractor.",
+      "prev_section_id": "acbd1b2b08d7::s006",
+      "next_section_id": "acbd1b2b08d7::s008"
+    },
+    {
+      "section_id": "acbd1b2b08d7::s008",
+      "parent_section_id": "acbd1b2b08d7::s003",
+      "level": 3,
+      "heading": "Return on fixed capital employed",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on fixed capital employed"
+      ],
+      "block_count": 8,
+      "word_count": 243,
+      "char_count": 1496,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 6,
+      "first_block_index": 58,
+      "last_block_index": 65,
+      "preview": "Return on fixed capital employed Fixed capital employed consists of the investments contractors make that the company will use for more than one year. Fixed costs are typically purchased for use in the current and future years. The investme",
+      "prev_section_id": "acbd1b2b08d7::s007",
+      "next_section_id": "acbd1b2b08d7::s009"
+    },
+    {
+      "section_id": "acbd1b2b08d7::s009",
+      "parent_section_id": "acbd1b2b08d7::s008",
+      "level": 4,
+      "heading": "Tier 1 return on fixed capital employed",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on fixed capital employed",
+        "Tier 1 return on fixed capital employed"
+      ],
+      "block_count": 4,
+      "word_count": 87,
+      "char_count": 511,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 3,
+      "first_block_index": 66,
+      "last_block_index": 69,
+      "preview": "Tier 1 return on fixed capital employed Tier 1 is a simplified, optional approach for all contracts with total estimated or acceptable costs less than or equal to $1,000,000. The Tier 1 formula is: Return on Fixed Capital Employed = 1% \u00d7 To",
+      "prev_section_id": "acbd1b2b08d7::s008",
+      "next_section_id": "acbd1b2b08d7::s010"
+    },
+    {
+      "section_id": "acbd1b2b08d7::s010",
+      "parent_section_id": "acbd1b2b08d7::s008",
+      "level": 4,
+      "heading": "Tier 2 return on fixed capital employed",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on fixed capital employed",
+        "Tier 2 return on fixed capital employed"
+      ],
+      "block_count": 6,
+      "word_count": 92,
+      "char_count": 569,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 4,
+      "first_block_index": 70,
+      "last_block_index": 75,
+      "preview": "Tier 2 return on fixed capital employed Tier 2 is a simplified, optional approach for: Contracts with total estimated or acceptable costs less than or equal to $20,000,000 ; Contracts with lower fixed capital intensity level, such as servic",
+      "prev_section_id": "acbd1b2b08d7::s009",
+      "next_section_id": "acbd1b2b08d7::s011"
+    },
+    {
+      "section_id": "acbd1b2b08d7::s011",
+      "parent_section_id": "acbd1b2b08d7::s008",
+      "level": 4,
+      "heading": "Tier 3 return on fixed capital employed",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on fixed capital employed",
+        "Tier 3 return on fixed capital employed"
+      ],
+      "block_count": 9,
+      "word_count": 250,
+      "char_count": 1496,
+      "table_count": 0,
+      "list_count": 2,
+      "paragraph_count": 6,
+      "first_block_index": 76,
+      "last_block_index": 84,
+      "preview": "Tier 3 return on fixed capital employed Tier 3 is a full schedule approach. Tier 3 is used for: Contracts with total estimated or acceptable contract costs greater than $1,000,000 ; Contracts that do not meet the criteria for Tier 1 and Tie",
+      "prev_section_id": "acbd1b2b08d7::s010",
+      "next_section_id": "acbd1b2b08d7::s012"
+    },
+    {
+      "section_id": "acbd1b2b08d7::s012",
+      "parent_section_id": "acbd1b2b08d7::s003",
+      "level": 3,
+      "heading": "General business risk",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "General business risk"
+      ],
+      "block_count": 7,
+      "word_count": 199,
+      "char_count": 1251,
+      "table_count": 1,
+      "list_count": 0,
+      "paragraph_count": 5,
+      "first_block_index": 85,
+      "last_block_index": 91,
+      "preview": "General business risk General business risk recognizes the contractor\u2019s level of effort and its responsibility and risk in managing the resources required to execute the contract efficiently and economically. The return on general business ",
+      "prev_section_id": "acbd1b2b08d7::s011",
+      "next_section_id": "acbd1b2b08d7::s013"
+    },
+    {
+      "section_id": "acbd1b2b08d7::s013",
+      "parent_section_id": "acbd1b2b08d7::s003",
+      "level": 3,
+      "heading": "Contractual risk",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Contractual risk"
+      ],
+      "block_count": 11,
+      "word_count": 477,
+      "char_count": 2956,
+      "table_count": 1,
+      "list_count": 1,
+      "paragraph_count": 8,
+      "first_block_index": 92,
+      "last_block_index": 102,
+      "preview": "Contractual risk Contractual risk represents the likelihood of financial loss to the contractor due to contract-specific factors. Assessing contractual risk involves understanding the risks present within the contract and understanding whic",
+      "prev_section_id": "acbd1b2b08d7::s012",
+      "next_section_id": null
+    }
+  ],
+  "tables": [
+    {
+      "table_id": "acbd1b2b08d7::t001",
+      "section_id": "acbd1b2b08d7::s012",
+      "row_count": 8,
+      "column_count": 2,
+      "headers": [
+        "Cost element",
+        "Percentage"
+      ],
+      "sample_rows": [
+        [
+          "Direct materials",
+          "1.5%"
+        ],
+        [
+          "Subcontracts",
+          "2%"
+        ],
+        [
+          "Accountable advance spares embodied",
+          "2%"
+        ],
+        [
+          "Direct labour",
+          "4%"
+        ],
+        [
+          "Overhead",
+          "4%"
+        ],
+        [
+          "All other allowable costs",
+          "1.5%"
+        ]
+      ]
+    },
+    {
+      "table_id": "acbd1b2b08d7::t002",
+      "section_id": "acbd1b2b08d7::s013",
+      "row_count": 8,
+      "column_count": 3,
+      "headers": [
+        "Basis of payment",
+        "Standard rate",
+        "Maximum rate"
+      ],
+      "sample_rows": [
+        [
+          "Fixed price or firm price",
+          "4%",
+          "7%"
+        ],
+        [
+          "Fixed or firm rate type: ceiling price or limitation of expenditure",
+          "1%",
+          "4.5%"
+        ],
+        [
+          "Fixed or firm rate type: No ceiling price or limitation of expenditure",
+          "1%",
+          "3.5%"
+        ],
+        [
+          "Cost reimbursable with fixed fee: ceiling price or limitation of expenditure",
+          "1%",
+          "4.5%"
+        ],
+        [
+          "Cost reimbursable with fixed fee: No ceiling price or limitation of expenditure",
+          "0%",
+          "1%"
+        ],
+        [
+          "Cost reimbursable with target cost/incentive fee",
+          "1%",
+          "4.5%"
+        ]
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "block_id": "acbd1b2b08d7::b0001",
+      "section_id": "acbd1b2b08d7::s001",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit"
+      ],
+      "markdown": "# Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+      "plain_text": "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0002",
+      "section_id": "acbd1b2b08d7::s002",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide"
+      ],
+      "markdown": "# Buyer's Guide",
+      "plain_text": "Buyer's Guide"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0003",
+      "section_id": "acbd1b2b08d7::s002",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide"
+      ],
+      "markdown": "- Plan\n- Approve\n- Create solicitation\n- Solicit\n- Receive and evaluate\n- Negotiate\n- Award\n- Manage",
+      "plain_text": "Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0004",
+      "section_id": "acbd1b2b08d7::s002",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide"
+      ],
+      "markdown": "Analyze and negotiate profit The second step in building a negotiated contract price is determining the profit. The total profit is the maximum profit amount that should be awarded under the Profit Principles for negotiated, cost-based pricing (Section 5.2 of the Practitioner\u2019s Guide for Procurement Pricing ). Profit Determination Template as found in the Practitioner\u2019s Guide for Procurement Pricing Annex 5.2 illustrates the Profit Determination Process including all components of the profit described in this section. Profit levels will vary to recognize: the cost of money associated with the capital employed by the contractor in performing the contract the levels of general business risk the levels of contractual risk assumed by the contractor in performing the contract The total negotiated contract profit is calculated by adding the profit amounts for three factors: return on capital employed general business risk contractual risk Total Profit = Return on Capital Employed + General Business Risk + Contractual Risk The following conditions must be respected when calculating total profit: the total allowable profit must be the lower of: the sum of supportable amounts by factor, or 16% of the total cost the total amount of profit awarded under all the above factors must not exceed 16% of the total contract costs the profit for each factor should be calculated separately and included in the price of each line item with a distinct basis of payment in the contract The maximum contract profit rate will not exceed 16% of total contract costs. This represents the maximum profit threshold reflecting the highest risk and rare fixed price contract scenarios with significant Capital Employed, extreme General Business Risk (primarily Direct Labour and Overhead costs) and maximum Contractual Risk. While incentives are not included in the Profit Principles determination of the negotiated contract profit, it\u2019s essential to understand the impact of incentives in a procurement on the overall contract price. The total contract price consists of the total contract costs/estimated costs, profit, and incentives. Therefore, the outcome is potentially an increased contract price and overall profit and earnings for the contractor. Subcontract costs included in the contract costs will also have a degree of profit included in the costs that are submitted to Canada. Each subcontractor in the supply chain is compensated for costs incurred plus a profit. Profit is layered into subcontract costs at each step in the supply chain. So, where possible, it is important to be aware of the degree or level of profit awarded to subcontractors, as Canada then includes a final layer of profit on the total through the general business and contractual risk profit factors. Transparency and clarity on the total cumulative profit within the supply chain is important where possible to understand and assess for reasonability and added value. Related party transactions are another area where profit layering can happen. For information specifically on related party transactions, refer to section 5.1.3.1 Transfer Pricing of the Practitioner\u2019s Guide for Procurement Pricing . Before price negotiations with the offeror/contractor, you must: obtain from the offeror/contractor a schedule estimating the working capital employed and the fixed capital employed in the contract, using the Profit Determination Template ensure the template is completed and that you have the supporting documentation for the figures presented in the template review the Profit Determination Template for accuracy and reasonability, with the support of a price advisor, in advance of the price negotiation Note : You will make the final determination of whether the profit is fair and reasonable. Profit Principles apply to all negotiated contracts, with the following exceptions: low dollar value contracts valued under $50,000 contracts, or parts of contracts, with commercial pricing such as catalogues, price lists or fee schedules, where only discounts are subject to negotiation contracts with pricing based on alternative strategies Refer to the Practitioner\u2019s Guide for Procurement Pricing , Section 5.2, Profit Principles for more information. Capital employed The capital employed component of profit recognizes the capital investment required to fulfill a contract and provide a reasonable return, regardless of how a contractor is financed. The return on capital employed consists of two parts: return on working capital employed return on fixed capital employed Applicable rates can be found in the Applicable Rates for Profit Determination Table . If the profit determination is related to previous periods, applicable rates for those periods must be used. If at the time of contract award, the relevant rates have increased or decreased by more than one full point, the return will be recalculated using the revised rates. The following clause must be included in the price proposal, after consultation with a price advisor: \u201cThe price quoted includes an amount of profit using the 3-year rolling average [insert name of appropriate rate] of [insert appropriate rate] percent. In the event that the [insert name of appropriate rate] at the time of contract award has changed by more than one full point, up or down from the previous year, after consultation with the Price Advisory Group, the price will be adjusted to reflect the applicable rate.\u201d Refer to the Practitioner\u2019s Guide for Procurement Pricing , Section 5.2.1, Negotiated Profit Element: Capital Employed for more information. Return on working capital employed Working capital employed refers to the costs of maintaining daily operations within an organization. A contractor makes working capital investments to fund the day-to-day contractual operations, whether it is with current assets, such as cash and investments or with current liabilities, such as loans and accounts payable. There are two approaches for calculating the return on working capital employed, based on the degree of working capital investment in a contract. The two-tiered approach provides a simplified approach for contracts with lower dollar costs and a full schedule approach for contracts with higher costs. For detailed calculations, considerations and examples for Return on Working Capital Employed, see the Practitioner\u2019s Guide for Procurement Pricing , Section 5.2.1.1, Return on Working Capital Employed. Tier 1 return on working capital employed Tier 1 is an optional, simplified approach that can only be used for contracts with total estimated or acceptable contract costs less than or equal to $1,000,000. The Tier 1 formula is: Return on Working Capital Employed = 1-year Guaranteed Investment Certificate (GIC) Rate \u00d7 Total Acceptable Contract Cost where: 1-Year GIC Rate : A 3-year rolling average of the 1-Year GIC Rate is applied in Tier 1 Working Capital Employed calculations. This rate, sourced from the Bank of Canada, can be found in the Applicable Rates for Profit Determination Table in Annex 5.1 of the Practitioner\u2019s Guide for Procurement Pricing If profit determination is related to previous periods, applicable rates during the same periods must be used In the event that the relevant rates at the time of contract award have changed by more than one full point, up or down, the return will be recomputed applying the revised rates The following clause must be included in the price proposal, after consultation with the Price Advisory Group: \u201cThe price quoted includes an amount of profit using the 3-year rolling average 1-Year GIC Rate of (insert appropriate rate) percent. In the event that the annual 1-Year GIC Rate at the time of contract award has changed by more than one full point, up or down from the previous year, after consultation with the Price Advisory Group, the price will be adjusted to reflect the applicable rate.\u201d Total Acceptable Contract Cost: The total estimated acceptable contract costs applied as the base against which the 3-year average GIC rate is applied, representing the maximum working capital a contractor would have employed in the contract. Tier 2 return on working capital employed Tier 2 is a full schedule approach for contracts with total estimated or acceptable contract costs over $1,000,000. It can also be used for Tier 1 contracts upon request from the offeror/contractor. Refer to Tier 2 - Working Capital tab of the Profit Determination Template for more information. The Tier 2 formula is: Return on Working Capital Employed = Bank Prime Rate / 12 \u00d7 Sum of Cumulative Monthly Working Capital Employed where: Bank Prime Rate / 12: The 3-year average bank prime rate applicable to the contract for the Tier 2 Working Capital calculation. This rate, sourced from the Bank of Canada, can be found in the Applicable Rates for Profit Determination Table in Annex 5.1 of the Practitioner\u2019s Guide for Procurement Pricing If profit determination is related to previous periods, applicable rates during the same periods must be used In the event that the relevant rates at the time of contract award have changed by more than one full point, up or down, the return will be recomputed applying the revised rates You must consult with the Price Advisory Group to ensure that the appropriate clause is included in the price proposal Cumulative Working Capital Employed: Contractors must submit a schedule of estimated monthly net working capital for the contract, using the Return on Working Capital Employed Tab found in the Profit Determination Template in the Practitioner\u2019s Guide for Procurement Pricing . In order to prepare and review this schedule, the following information is required: Monthly Estimated Net Working Capital: The schedule of acceptable contract costs, exclusive of depreciation (per the contract clauses and conditions, Contract Cost Principles 1031-2 and the Practitioner\u2019s Guide for Procurement Pricing Annex 2, Costing Standard) The schedule of contract revenue payments, exclusive of profit (payment plan/schedule) Advance payments must be applied in the full schedule Contracts with advance payments and progress payments do not require a return on working capital employed Calculation methodology: The 3-year average bank prime rate, as defined above, is an annual rate of return. The calculation below accumulates the monthly working capital return, and as such, the 3-year average bank prime rate is divided by 12 to reflect the monthly earning. The return on the cumulative working capital employed is calculated as follows: Total : Bank Prime Rate / 12 \u00d7 Monthly Cumulative Working Capital Return on fixed capital employed Fixed capital employed consists of the investments contractors make that the company will use for more than one year. Fixed costs are typically purchased for use in the current and future years. The investment in fixed capital is capitalized, allowing the contractor to spread out the cost over the asset's useful life. Contractors are required to invest in fixed capital for the purposes of carrying out contracts and the fixed capital can often be used for one or multiple contracts. For more calculations, considerations and examples for Return on Fixed Capital Employed, refer to the Practitioner\u2019s Guide for Procurement Pricing , Section 5.2.1.2, Return on Fixed Capital Employed. The provision of a return on fixed capital employed is intended not only to compensate contractors for the cost of money associated with the fixed capital employed on the contract, but also to encourage investment in new capital equipment, the result of which is generally greater productivity and consequently reduced costs to Canada. For the purpose of this section, the fixed capital employed is defined as the net book value of fixed assets, less: land and any intangible assets any fixed assets not in use such as idle plants any surplus value arising from re-appraisal There are three approaches for calculating the return on fixed capital employed, based on the total costs and the degree of fixed capital investment in a contract. This three-tiered approach is as follows: Tier 1 return on fixed capital employed Tier 1 is a simplified, optional approach for all contracts with total estimated or acceptable costs less than or equal to $1,000,000. The Tier 1 formula is: Return on Fixed Capital Employed = 1% \u00d7 Total Acceptable Contract Cost If machinery and/or equipment owned by the contractor is regularly used in the manufacture of the product(s), or in the provision of services, under the contract, a return on fixed capital employed of 1% of total allowable costs will be awarded. Tier 2 return on fixed capital employed Tier 2 is a simplified, optional approach for: Contracts with total estimated or acceptable costs less than or equal to $20,000,000 Contracts with lower fixed capital intensity level, such as services contracts with minimal fixed capital needs Tier 1 contracts upon the offeror\u2019s/contractor\u2019s request The Tier 2 formula is: Return on Fixed Capital Employed = Capital Intensity Rate \u00d7 ( Marketable Bond Over 10-Year Rate + Consumer Price Index (CPI) Inflation Rate Forecast 6\u201310 Year Ahead ) \u00d7 Total Acceptable Contract Cost where: Capital Intensity Rate: Posted in the Applicable Rates for Profit Determination Table the Practitioner\u2019s Guide for Procurement Pricing , Annex 5.1, is applied to the Total Acceptable Contract Costs to estimate the fixed capital employed for contracts with lower levels of fixed capital investments. This rate is established annually based on a review of fixed capital employed calculations on a sample of contracts to best reflect a lower level of capital intensity. Marketable Bond Over 10-Year Rate + Consumer Price Index Inflation Rate Forecast 6\u201310 Year Ahead: This rate is a 3-year average of the combination of the government marketable bond over 10-year rate with CPI inflation rate 6\u201310 years ahead. Total Acceptable Contract Cost: The base against which the Capital Intensity Rate and Marketable Bond Over 10-Year Rate with CPI inflation rate 6\u201310 years are applied. Tier 3 return on fixed capital employed Tier 3 is a full schedule approach. Tier 3 is used for: Contracts with total estimated or acceptable contract costs greater than $1,000,000 Contracts that do not meet the criteria for Tier 1 and Tier 2 Tier 1 or Tier 2 contracts upon the offeror\u2019s/contractor\u2019s request The Tier 3 formula is: Return on Fixed Capital Employed = ( Marketable Bond Over 10-Year Rate + Consumer Price Index Inflation Rate Forecast 6\u201310 Year Ahead ) \u00d7 Fixed Capital Employed where: Marketable Bond Over 10-Year Rate + Consumer Price Index Inflation Rate Forecast 6\u201310 Year Ahead: A 3-year average of the combination of the government marketable bond over 10-year rate with CPI inflation rate 6\u201310 years ahead. Fixed Capital Employed: The percentage of the contractor's fixed capital to be used in executing the contract. It is determined by calculating the allocation of the portion of the net book value of assets to be employed in the contract performance by applying the applicable overhead recovery rates (overhead recovery base / total budget amount of recovery base) for the contract to the applicable assets, as detailed in the Profit Determination Template in the Practitioner\u2019s Guide for Procurement Pricing , Annex 5.2. This allocation methodology is required unless a contract represents 100% of an organization\u2019s fixed capital use. When the contract period extends over more than one of the contractor's fiscal years, the determination of fixed capital employed must be done for each fiscal year within the contract period. The process outlined above applies for the contractor\u2019s first fiscal year in the contract. To determine the fixed capital employed in subsequent years, the following process applies: the contractor\u2019s net book value of applicable fixed assets is estimated for each fiscal year subsequent to the first year of the contract the estimated overhead recovery factors for each fiscal year, determined via the contract costing rate negotiations are applied for the allocation of the capital assets the fixed capital employed for the contract is the sum of the fixed capital employed for each fiscal year of the contractor within the duration of the contract the government marketable bond over 10-year rate with CPI inflation rate 6-10 years ahead is applied to the total fixed capital employed in the contract General business risk General business risk recognizes the contractor\u2019s level of effort and its responsibility and risk in managing the resources required to execute the contract efficiently and economically. The return on general business risk, along with the level of effort, responsibility and risk, varies with the nature of the costs and the different cost elements of a contract. This is reflected in the following rates of profit to be applied to the total actual or estimated costs of each element below: Cost elements and rates of profit Cost element Percentage Direct materials 1.5% Subcontracts 2% Accountable advance spares embodied 2% Direct labour 4% Overhead 4% All other allowable costs 1.5% Pass through costs 0% The costs for each element is multiplied by its associated percentage. The sum of these calculated amounts equals the total general business risk profit. For more on General Business Risk, including cost element definition, intention, examples, calculations, see the Practitioner\u2019s Guide for Procurement Pricing , Section 5.2, Negotiated Profit Element: General Business Risk. For guidance on calculating rates of profit for General Business Risk, refer to the Profit Determination Template in Annex 5.2 of the Practitioner\u2019s Guide for Procurement Pricing . Contractual risk Contractual risk represents the likelihood of financial loss to the contractor due to contract-specific factors. Assessing contractual risk involves understanding the risks present within the contract and understanding which party is best to carry the risk for the various components of the contract. The level of profit on contractual risk is based on how much of the risk is carried by the contractor. A higher profit rate for contractual risk, is the result of the risk being assigned to and borne by the contractor. It is important to ensure the assignment of risk is clear, transparent and well-defined. As shown in the table below, the degree of financial risk taken on by a contractor is dependent on the contract basis of payment, which determines the standard (the lowest rate in the range) and the available range of profit: Contractor financial risk based on payment type Basis of payment Standard rate Maximum rate Fixed price or firm price 4% 7% Fixed or firm rate type: ceiling price or limitation of expenditure 1% 4.5% Fixed or firm rate type: No ceiling price or limitation of expenditure 1% 3.5% Cost reimbursable with fixed fee: ceiling price or limitation of expenditure 1% 4.5% Cost reimbursable with fixed fee: No ceiling price or limitation of expenditure 0% 1% Cost reimbursable with target cost/incentive fee 1% 4.5% Cost reimbursable with no fee or fee based on actual costs 0% 0% Note : The percentage can be lower than the standard rate if the nature of the work involves little to no risk. Once the standard contractual risk profit rate is determined, the level of contractual risk profit that varies within the ranges depends on the presence, likelihood and impact of the following key risk factors: Accuracy of costing : which affects the risk that the costing estimates are not accurate and the contract will cost more than planned, and includes: how well the scope, requirements and demand are established the reliability of cost estimates potential fluctuations from external factors the timing of negotiations Technical and schedule factors : which affect the risk that contract-specific factors and requirements will impact a contractor\u2019s ability to successfully complete the contract, and include: technical risk familiarity and program (products/services/processes/tasks) maturity performance specifications contract duration Justification must be provided for the total contractual risk profit percentage. You may use the Contractual Risk Assessment Tool to calculate the contractual risk profit percentage and document decisions. The contractual risk profit rate is applied to the total estimated contract costs to develop the contract price. The contract risk profit formula is: Total Contractual Risk Profit = Contractual Risk Rate % \u00d7 Total Contract Costs For more on Contractual Risk, including definitions, intension, examples and calculations, see the Practitioner\u2019s Guide for Procurement Pricing , Section 5.2.3, Negotiated Profit Element: Contractual Risk.",
+      "plain_text": "Analyze and negotiate profit The second step in building a negotiated contract price is determining the profit. The total profit is the maximum profit amount that should be awarded under the Profit Principles for negotiated, cost-based pricing (Section 5.2 of the Practitioner\u2019s Guide for Procurement Pricing ). Profit Determination Template as found in the Practitioner\u2019s Guide for Procurement Pricing Annex 5.2 illustrates the Profit Determination Process including all components of the profit described in this section. Profit levels will vary to recognize: the cost of money associated with the capital employed by the contractor in performing the contract the levels of general business risk the levels of contractual risk assumed by the contractor in performing the contract The total negotiated contract profit is calculated by adding the profit amounts for three factors: return on capital employed general business risk contractual risk Total Profit = Return on Capital Employed + General Business Risk + Contractual Risk The following conditions must be respected when calculating total profit: the total allowable profit must be the lower of: the sum of supportable amounts by factor, or 16% of the total cost the total amount of profit awarded under all the above factors must not exceed 16% of the total contract costs the profit for each factor should be calculated separately and included in the price of each line item with a distinct basis of payment in the contract The maximum contract profit rate will not exceed 16% of total contract costs. This represents the maximum profit threshold reflecting the highest risk and rare fixed price contract scenarios with significant Capital Employed, extreme General Business Risk (primarily Direct Labour and Overhead costs) and maximum Contractual Risk. While incentives are not included in the Profit Principles determination of the negotiated contract profit, it\u2019s essential to understand the impact of incentives in a procurement on the overall contract price. The total contract price consists of the total contract costs/estimated costs, profit, and incentives. Therefore, the outcome is potentially an increased contract price and overall profit and earnings for the contractor. Subcontract costs included in the contract costs will also have a degree of profit included in the costs that are submitted to Canada. Each subcontractor in the supply chain is compensated for costs incurred plus a profit. Profit is layered into subcontract costs at each step in the supply chain. So, where possible, it is important to be aware of the degree or level of profit awarded to subcontractors, as Canada then includes a final layer of profit on the total through the general business and contractual risk profit factors. Transparency and clarity on the total cumulative profit within the supply chain is important where possible to understand and assess for reasonability and added value. Related party transactions are another area where profit layering can happen. For information specifically on related party transactions, refer to section 5.1.3.1 Transfer Pricing of the Practitioner\u2019s Guide for Procurement Pricing . Before price negotiations with the offeror/contractor, you must: obtain from the offeror/contractor a schedule estimating the working capital employed and the fixed capital employed in the contract, using the Profit Determination Template ensure the template is completed and that you have the supporting documentation for the figures presented in the template review the Profit Determination Template for accuracy and reasonability, with the support of a price advisor, in advance of the price negotiation Note : You will make the final determination of whether the profit is fair and reasonable. Profit Principles apply to all negotiated contracts, with the following exceptions: low dollar value contracts valued under $50,000 contracts, or parts of contracts, with commercial pricing such as catalogues, price lists or fee schedules, where only discounts are subject to negotiation contracts with pricing based on alternative strategies Refer to the Practitioner\u2019s Guide for Procurement Pricing , Section 5.2, Profit Principles for more information. Capital employed The capital employed component of profit recognizes the capital investment required to fulfill a contract and provide a reasonable return, regardless of how a contractor is financed. The return on capital employed consists of two parts: return on working capital employed return on fixed capital employed Applicable rates can be found in the Applicable Rates for Profit Determination Table . If the profit determination is related to previous periods, applicable rates for those periods must be used. If at the time of contract award, the relevant rates have increased or decreased by more than one full point, the return will be recalculated using the revised rates. The following clause must be included in the price proposal, after consultation with a price advisor: \u201cThe price quoted includes an amount of profit using the 3-year rolling average [insert name of appropriate rate] of [insert appropriate rate] percent. In the event that the [insert name of appropriate rate] at the time of contract award has changed by more than one full point, up or down from the previous year, after consultation with the Price Advisory Group, the price will be adjusted to reflect the applicable rate.\u201d Refer to the Practitioner\u2019s Guide for Procurement Pricing , Section 5.2.1, Negotiated Profit Element: Capital Employed for more information. Return on working capital employed Working capital employed refers to the costs of maintaining daily operations within an organization. A contractor makes working capital investments to fund the day-to-day contractual operations, whether it is with current assets, such as cash and investments or with current liabilities, such as loans and accounts payable. There are two approaches for calculating the return on working capital employed, based on the degree of working capital investment in a contract. The two-tiered approach provides a simplified approach for contracts with lower dollar costs and a full schedule approach for contracts with higher costs. For detailed calculations, considerations and examples for Return on Working Capital Employed, see the Practitioner\u2019s Guide for Procurement Pricing , Section 5.2.1.1, Return on Working Capital Employed. Tier 1 return on working capital employed Tier 1 is an optional, simplified approach that can only be used for contracts with total estimated or acceptable contract costs less than or equal to $1,000,000. The Tier 1 formula is: Return on Working Capital Employed = 1-year Guaranteed Investment Certificate (GIC) Rate \u00d7 Total Acceptable Contract Cost where: 1-Year GIC Rate : A 3-year rolling average of the 1-Year GIC Rate is applied in Tier 1 Working Capital Employed calculations. This rate, sourced from the Bank of Canada, can be found in the Applicable Rates for Profit Determination Table in Annex 5.1 of the Practitioner\u2019s Guide for Procurement Pricing If profit determination is related to previous periods, applicable rates during the same periods must be used In the event that the relevant rates at the time of contract award have changed by more than one full point, up or down, the return will be recomputed applying the revised rates The following clause must be included in the price proposal, after consultation with the Price Advisory Group: \u201cThe price quoted includes an amount of profit using the 3-year rolling average 1-Year GIC Rate of (insert appropriate rate) percent. In the event that the annual 1-Year GIC Rate at the time of contract award has changed by more than one full point, up or down from the previous year, after consultation with the Price Advisory Group, the price will be adjusted to reflect the applicable rate.\u201d Total Acceptable Contract Cost: The total estimated acceptable contract costs applied as the base against which the 3-year average GIC rate is applied, representing the maximum working capital a contractor would have employed in the contract. Tier 2 return on working capital employed Tier 2 is a full schedule approach for contracts with total estimated or acceptable contract costs over $1,000,000. It can also be used for Tier 1 contracts upon request from the offeror/contractor. Refer to Tier 2 - Working Capital tab of the Profit Determination Template for more information. The Tier 2 formula is: Return on Working Capital Employed = Bank Prime Rate / 12 \u00d7 Sum of Cumulative Monthly Working Capital Employed where: Bank Prime Rate / 12: The 3-year average bank prime rate applicable to the contract for the Tier 2 Working Capital calculation. This rate, sourced from the Bank of Canada, can be found in the Applicable Rates for Profit Determination Table in Annex 5.1 of the Practitioner\u2019s Guide for Procurement Pricing If profit determination is related to previous periods, applicable rates during the same periods must be used In the event that the relevant rates at the time of contract award have changed by more than one full point, up or down, the return will be recomputed applying the revised rates You must consult with the Price Advisory Group to ensure that the appropriate clause is included in the price proposal Cumulative Working Capital Employed: Contractors must submit a schedule of estimated monthly net working capital for the contract, using the Return on Working Capital Employed Tab found in the Profit Determination Template in the Practitioner\u2019s Guide for Procurement Pricing . In order to prepare and review this schedule, the following information is required: Monthly Estimated Net Working Capital: The schedule of acceptable contract costs, exclusive of depreciation (per the contract clauses and conditions, Contract Cost Principles 1031-2 and the Practitioner\u2019s Guide for Procurement Pricing Annex 2, Costing Standard) The schedule of contract revenue payments, exclusive of profit (payment plan/schedule) Advance payments must be applied in the full schedule Contracts with advance payments and progress payments do not require a return on working capital employed Calculation methodology: The 3-year average bank prime rate, as defined above, is an annual rate of return. The calculation below accumulates the monthly working capital return, and as such, the 3-year average bank prime rate is divided by 12 to reflect the monthly earning. The return on the cumulative working capital employed is calculated as follows: Total : Bank Prime Rate / 12 \u00d7 Monthly Cumulative Working Capital Return on fixed capital employed Fixed capital employed consists of the investments contractors make that the company will use for more than one year. Fixed costs are typically purchased for use in the current and future years. The investment in fixed capital is capitalized, allowing the contractor to spread out the cost over the asset's useful life. Contractors are required to invest in fixed capital for the purposes of carrying out contracts and the fixed capital can often be used for one or multiple contracts. For more calculations, considerations and examples for Return on Fixed Capital Employed, refer to the Practitioner\u2019s Guide for Procurement Pricing , Section 5.2.1.2, Return on Fixed Capital Employed. The provision of a return on fixed capital employed is intended not only to compensate contractors for the cost of money associated with the fixed capital employed on the contract, but also to encourage investment in new capital equipment, the result of which is generally greater productivity and consequently reduced costs to Canada. For the purpose of this section, the fixed capital employed is defined as the net book value of fixed assets, less: land and any intangible assets any fixed assets not in use such as idle plants any surplus value arising from re-appraisal There are three approaches for calculating the return on fixed capital employed, based on the total costs and the degree of fixed capital investment in a contract. This three-tiered approach is as follows: Tier 1 return on fixed capital employed Tier 1 is a simplified, optional approach for all contracts with total estimated or acceptable costs less than or equal to $1,000,000. The Tier 1 formula is: Return on Fixed Capital Employed = 1% \u00d7 Total Acceptable Contract Cost If machinery and/or equipment owned by the contractor is regularly used in the manufacture of the product(s), or in the provision of services, under the contract, a return on fixed capital employed of 1% of total allowable costs will be awarded. Tier 2 return on fixed capital employed Tier 2 is a simplified, optional approach for: Contracts with total estimated or acceptable costs less than or equal to $20,000,000 Contracts with lower fixed capital intensity level, such as services contracts with minimal fixed capital needs Tier 1 contracts upon the offeror\u2019s/contractor\u2019s request The Tier 2 formula is: Return on Fixed Capital Employed = Capital Intensity Rate \u00d7 ( Marketable Bond Over 10-Year Rate + Consumer Price Index (CPI) Inflation Rate Forecast 6\u201310 Year Ahead ) \u00d7 Total Acceptable Contract Cost where: Capital Intensity Rate: Posted in the Applicable Rates for Profit Determination Table the Practitioner\u2019s Guide for Procurement Pricing , Annex 5.1, is applied to the Total Acceptable Contract Costs to estimate the fixed capital employed for contracts with lower levels of fixed capital investments. This rate is established annually based on a review of fixed capital employed calculations on a sample of contracts to best reflect a lower level of capital intensity. Marketable Bond Over 10-Year Rate + Consumer Price Index Inflation Rate Forecast 6\u201310 Year Ahead: This rate is a 3-year average of the combination of the government marketable bond over 10-year rate with CPI inflation rate 6\u201310 years ahead. Total Acceptable Contract Cost: The base against which the Capital Intensity Rate and Marketable Bond Over 10-Year Rate with CPI inflation rate 6\u201310 years are applied. Tier 3 return on fixed capital employed Tier 3 is a full schedule approach. Tier 3 is used for: Contracts with total estimated or acceptable contract costs greater than $1,000,000 Contracts that do not meet the criteria for Tier 1 and Tier 2 Tier 1 or Tier 2 contracts upon the offeror\u2019s/contractor\u2019s request The Tier 3 formula is: Return on Fixed Capital Employed = ( Marketable Bond Over 10-Year Rate + Consumer Price Index Inflation Rate Forecast 6\u201310 Year Ahead ) \u00d7 Fixed Capital Employed where: Marketable Bond Over 10-Year Rate + Consumer Price Index Inflation Rate Forecast 6\u201310 Year Ahead: A 3-year average of the combination of the government marketable bond over 10-year rate with CPI inflation rate 6\u201310 years ahead. Fixed Capital Employed: The percentage of the contractor's fixed capital to be used in executing the contract. It is determined by calculating the allocation of the portion of the net book value of assets to be employed in the contract performance by applying the applicable overhead recovery rates (overhead recovery base / total budget amount of recovery base) for the contract to the applicable assets, as detailed in the Profit Determination Template in the Practitioner\u2019s Guide for Procurement Pricing , Annex 5.2. This allocation methodology is required unless a contract represents 100% of an organization\u2019s fixed capital use. When the contract period extends over more than one of the contractor's fiscal years, the determination of fixed capital employed must be done for each fiscal year within the contract period. The process outlined above applies for the contractor\u2019s first fiscal year in the contract. To determine the fixed capital employed in subsequent years, the following process applies: the contractor\u2019s net book value of applicable fixed assets is estimated for each fiscal year subsequent to the first year of the contract the estimated overhead recovery factors for each fiscal year, determined via the contract costing rate negotiations are applied for the allocation of the capital assets the fixed capital employed for the contract is the sum of the fixed capital employed for each fiscal year of the contractor within the duration of the contract the government marketable bond over 10-year rate with CPI inflation rate 6-10 years ahead is applied to the total fixed capital employed in the contract General business risk General business risk recognizes the contractor\u2019s level of effort and its responsibility and risk in managing the resources required to execute the contract efficiently and economically. The return on general business risk, along with the level of effort, responsibility and risk, varies with the nature of the costs and the different cost elements of a contract. This is reflected in the following rates of profit to be applied to the total actual or estimated costs of each element below: Cost elements and rates of profit Cost element Percentage Direct materials 1.5% Subcontracts 2% Accountable advance spares embodied 2% Direct labour 4% Overhead 4% All other allowable costs 1.5% Pass through costs 0% The costs for each element is multiplied by its associated percentage. The sum of these calculated amounts equals the total general business risk profit. For more on General Business Risk, including cost element definition, intention, examples, calculations, see the Practitioner\u2019s Guide for Procurement Pricing , Section 5.2, Negotiated Profit Element: General Business Risk. For guidance on calculating rates of profit for General Business Risk, refer to the Profit Determination Template in Annex 5.2 of the Practitioner\u2019s Guide for Procurement Pricing . Contractual risk Contractual risk represents the likelihood of financial loss to the contractor due to contract-specific factors. Assessing contractual risk involves understanding the risks present within the contract and understanding which party is best to carry the risk for the various components of the contract. The level of profit on contractual risk is based on how much of the risk is carried by the contractor. A higher profit rate for contractual risk, is the result of the risk being assigned to and borne by the contractor. It is important to ensure the assignment of risk is clear, transparent and well-defined. As shown in the table below, the degree of financial risk taken on by a contractor is dependent on the contract basis of payment, which determines the standard (the lowest rate in the range) and the available range of profit: Contractor financial risk based on payment type Basis of payment Standard rate Maximum rate Fixed price or firm price 4% 7% Fixed or firm rate type: ceiling price or limitation of expenditure 1% 4.5% Fixed or firm rate type: No ceiling price or limitation of expenditure 1% 3.5% Cost reimbursable with fixed fee: ceiling price or limitation of expenditure 1% 4.5% Cost reimbursable with fixed fee: No ceiling price or limitation of expenditure 0% 1% Cost reimbursable with target cost/incentive fee 1% 4.5% Cost reimbursable with no fee or fee based on actual costs 0% 0% Note : The percentage can be lower than the standard rate if the nature of the work involves little to no risk. Once the standard contractual risk profit rate is determined, the level of contractual risk profit that varies within the ranges depends on the presence, likelihood and impact of the following key risk factors: Accuracy of costing : which affects the risk that the costing estimates are not accurate and the contract will cost more than planned, and includes: how well the scope, requirements and demand are established the reliability of cost estimates potential fluctuations from external factors the timing of negotiations Technical and schedule factors : which affect the risk that contract-specific factors and requirements will impact a contractor\u2019s ability to successfully complete the contract, and include: technical risk familiarity and program (products/services/processes/tasks) maturity performance specifications contract duration Justification must be provided for the total contractual risk profit percentage. You may use the Contractual Risk Assessment Tool to calculate the contractual risk profit percentage and document decisions. The contractual risk profit rate is applied to the total estimated contract costs to develop the contract price. The contract risk profit formula is: Total Contractual Risk Profit = Contractual Risk Rate % \u00d7 Total Contract Costs For more on Contractual Risk, including definitions, intension, examples and calculations, see the Practitioner\u2019s Guide for Procurement Pricing , Section 5.2.3, Negotiated Profit Element: Contractual Risk."
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0005",
+      "section_id": "acbd1b2b08d7::s003",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit"
+      ],
+      "markdown": "## Analyze and negotiate profit",
+      "plain_text": "Analyze and negotiate profit"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0006",
+      "section_id": "acbd1b2b08d7::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit"
+      ],
+      "markdown": "The second step in building a negotiated contract price is determining the profit.",
+      "plain_text": "The second step in building a negotiated contract price is determining the profit."
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0007",
+      "section_id": "acbd1b2b08d7::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit"
+      ],
+      "markdown": "The total profit is the maximum profit amount that should be awarded under the Profit Principles for negotiated, cost-based pricing (Section 5.2 of the Practitioner\u2019s Guide for Procurement Pricing ).",
+      "plain_text": "The total profit is the maximum profit amount that should be awarded under the Profit Principles for negotiated, cost-based pricing (Section 5.2 of the Practitioner\u2019s Guide for Procurement Pricing )."
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0008",
+      "section_id": "acbd1b2b08d7::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit"
+      ],
+      "markdown": "Profit Determination Template as found in the Practitioner\u2019s Guide for Procurement Pricing Annex 5.2 illustrates the Profit Determination Process including all components of the profit described in this section.",
+      "plain_text": "Profit Determination Template as found in the Practitioner\u2019s Guide for Procurement Pricing Annex 5.2 illustrates the Profit Determination Process including all components of the profit described in this section."
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0009",
+      "section_id": "acbd1b2b08d7::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit"
+      ],
+      "markdown": "Profit levels will vary to recognize:",
+      "plain_text": "Profit levels will vary to recognize:"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0010",
+      "section_id": "acbd1b2b08d7::s003",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit"
+      ],
+      "markdown": "- the cost of money associated with the capital employed by the contractor in performing the contract\n- the levels of general business risk\n- the levels of contractual risk assumed by the contractor in performing the contract",
+      "plain_text": "the cost of money associated with the capital employed by the contractor in performing the contract ; the levels of general business risk ; the levels of contractual risk assumed by the contractor in performing the contract"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0011",
+      "section_id": "acbd1b2b08d7::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit"
+      ],
+      "markdown": "The total negotiated contract profit is calculated by adding the profit amounts for three factors:",
+      "plain_text": "The total negotiated contract profit is calculated by adding the profit amounts for three factors:"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0012",
+      "section_id": "acbd1b2b08d7::s003",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit"
+      ],
+      "markdown": "- return on capital employed\n- general business risk\n- contractual risk",
+      "plain_text": "return on capital employed ; general business risk ; contractual risk"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0013",
+      "section_id": "acbd1b2b08d7::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit"
+      ],
+      "markdown": "Total Profit = Return on Capital Employed + General Business Risk + Contractual Risk",
+      "plain_text": "Total Profit = Return on Capital Employed + General Business Risk + Contractual Risk"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0014",
+      "section_id": "acbd1b2b08d7::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit"
+      ],
+      "markdown": "The following conditions must be respected when calculating total profit:",
+      "plain_text": "The following conditions must be respected when calculating total profit:"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0015",
+      "section_id": "acbd1b2b08d7::s003",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit"
+      ],
+      "markdown": "- the total allowable profit must be the lower of:\n- the sum of supportable amounts by factor, or\n- 16% of the total cost\n- the total amount of profit awarded under all the above factors must not exceed 16% of the total contract costs\n- the profit for each factor should be calculated separately and included in the price of each line item with a distinct basis of payment in the contract",
+      "plain_text": "the total allowable profit must be the lower of: ; the sum of supportable amounts by factor, or ; 16% of the total cost ; the total amount of profit awarded under all the above factors must not exceed 16% of the total contract costs ; the profit for each factor should be calculated separately and included in the price of each line item with a distinct basis of payment in the contract"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0016",
+      "section_id": "acbd1b2b08d7::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit"
+      ],
+      "markdown": "The maximum contract profit rate will not exceed 16% of total contract costs. This represents the maximum profit threshold reflecting the highest risk and rare fixed price contract scenarios with significant Capital Employed, extreme General Business Risk (primarily Direct Labour and Overhead costs) and maximum Contractual Risk.",
+      "plain_text": "The maximum contract profit rate will not exceed 16% of total contract costs. This represents the maximum profit threshold reflecting the highest risk and rare fixed price contract scenarios with significant Capital Employed, extreme General Business Risk (primarily Direct Labour and Overhead costs) and maximum Contractual Risk."
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0017",
+      "section_id": "acbd1b2b08d7::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit"
+      ],
+      "markdown": "While incentives are not included in the Profit Principles determination of the negotiated contract profit, it\u2019s essential to understand the impact of incentives in a procurement on the overall contract price. The total contract price consists of the total contract costs/estimated costs, profit, and incentives. Therefore, the outcome is potentially an increased contract price and overall profit and earnings for the contractor.",
+      "plain_text": "While incentives are not included in the Profit Principles determination of the negotiated contract profit, it\u2019s essential to understand the impact of incentives in a procurement on the overall contract price. The total contract price consists of the total contract costs/estimated costs, profit, and incentives. Therefore, the outcome is potentially an increased contract price and overall profit and earnings for the contractor."
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0018",
+      "section_id": "acbd1b2b08d7::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit"
+      ],
+      "markdown": "Subcontract costs included in the contract costs will also have a degree of profit included in the costs that are submitted to Canada. Each subcontractor in the supply chain is compensated for costs incurred plus a profit. Profit is layered into subcontract costs at each step in the supply chain. So, where possible, it is important to be aware of the degree or level of profit awarded to subcontractors, as Canada then includes a final layer of profit on the total through the general business and contractual risk profit factors. Transparency and clarity on the total cumulative profit within the supply chain is important where possible to understand and assess for reasonability and added value. Related party transactions are another area where profit layering can happen. For information specifically on related party transactions, refer to section 5.1.3.1 Transfer Pricing of the Practitioner\u2019s Guide for Procurement Pricing .",
+      "plain_text": "Subcontract costs included in the contract costs will also have a degree of profit included in the costs that are submitted to Canada. Each subcontractor in the supply chain is compensated for costs incurred plus a profit. Profit is layered into subcontract costs at each step in the supply chain. So, where possible, it is important to be aware of the degree or level of profit awarded to subcontractors, as Canada then includes a final layer of profit on the total through the general business and contractual risk profit factors. Transparency and clarity on the total cumulative profit within the supply chain is important where possible to understand and assess for reasonability and added value. Related party transactions are another area where profit layering can happen. For information specifically on related party transactions, refer to section 5.1.3.1 Transfer Pricing of the Practitioner\u2019s Guide for Procurement Pricing ."
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0019",
+      "section_id": "acbd1b2b08d7::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit"
+      ],
+      "markdown": "Before price negotiations with the offeror/contractor, you must:",
+      "plain_text": "Before price negotiations with the offeror/contractor, you must:"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0020",
+      "section_id": "acbd1b2b08d7::s003",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit"
+      ],
+      "markdown": "- obtain from the offeror/contractor a schedule estimating the working capital employed and the fixed capital employed in the contract, using the Profit Determination Template\n- ensure the template is completed and that you have the supporting documentation for the figures presented in the template\n- review the Profit Determination Template for accuracy and reasonability, with the support of a price advisor, in advance of the price negotiation",
+      "plain_text": "obtain from the offeror/contractor a schedule estimating the working capital employed and the fixed capital employed in the contract, using the Profit Determination Template ; ensure the template is completed and that you have the supporting documentation for the figures presented in the template ; review the Profit Determination Template for accuracy and reasonability, with the support of a price advisor, in advance of the price negotiation"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0021",
+      "section_id": "acbd1b2b08d7::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit"
+      ],
+      "markdown": "Note : You will make the final determination of whether the profit is fair and reasonable.",
+      "plain_text": "Note : You will make the final determination of whether the profit is fair and reasonable."
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0022",
+      "section_id": "acbd1b2b08d7::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit"
+      ],
+      "markdown": "Profit Principles apply to all negotiated contracts, with the following exceptions:",
+      "plain_text": "Profit Principles apply to all negotiated contracts, with the following exceptions:"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0023",
+      "section_id": "acbd1b2b08d7::s003",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit"
+      ],
+      "markdown": "- low dollar value contracts valued under $50,000\n- contracts, or parts of contracts, with commercial pricing such as catalogues, price lists or fee schedules, where only discounts are subject to negotiation\n- contracts with pricing based on alternative strategies",
+      "plain_text": "low dollar value contracts valued under $50,000 ; contracts, or parts of contracts, with commercial pricing such as catalogues, price lists or fee schedules, where only discounts are subject to negotiation ; contracts with pricing based on alternative strategies"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0024",
+      "section_id": "acbd1b2b08d7::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit"
+      ],
+      "markdown": "Refer to the Practitioner\u2019s Guide for Procurement Pricing , Section 5.2, Profit Principles for more information.",
+      "plain_text": "Refer to the Practitioner\u2019s Guide for Procurement Pricing , Section 5.2, Profit Principles for more information."
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0025",
+      "section_id": "acbd1b2b08d7::s004",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Capital employed"
+      ],
+      "markdown": "### Capital employed",
+      "plain_text": "Capital employed"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0026",
+      "section_id": "acbd1b2b08d7::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Capital employed"
+      ],
+      "markdown": "The capital employed component of profit recognizes the capital investment required to fulfill a contract and provide a reasonable return, regardless of how a contractor is financed.",
+      "plain_text": "The capital employed component of profit recognizes the capital investment required to fulfill a contract and provide a reasonable return, regardless of how a contractor is financed."
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0027",
+      "section_id": "acbd1b2b08d7::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Capital employed"
+      ],
+      "markdown": "The return on capital employed consists of two parts:",
+      "plain_text": "The return on capital employed consists of two parts:"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0028",
+      "section_id": "acbd1b2b08d7::s004",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Capital employed"
+      ],
+      "markdown": "- return on working capital employed\n- return on fixed capital employed",
+      "plain_text": "return on working capital employed ; return on fixed capital employed"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0029",
+      "section_id": "acbd1b2b08d7::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Capital employed"
+      ],
+      "markdown": "Applicable rates can be found in the Applicable Rates for Profit Determination Table .",
+      "plain_text": "Applicable rates can be found in the Applicable Rates for Profit Determination Table ."
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0030",
+      "section_id": "acbd1b2b08d7::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Capital employed"
+      ],
+      "markdown": "If the profit determination is related to previous periods, applicable rates for those periods must be used. If at the time of contract award, the relevant rates have increased or decreased by more than one full point, the return will be recalculated using the revised rates.",
+      "plain_text": "If the profit determination is related to previous periods, applicable rates for those periods must be used. If at the time of contract award, the relevant rates have increased or decreased by more than one full point, the return will be recalculated using the revised rates."
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0031",
+      "section_id": "acbd1b2b08d7::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Capital employed"
+      ],
+      "markdown": "The following clause must be included in the price proposal, after consultation with a price advisor:",
+      "plain_text": "The following clause must be included in the price proposal, after consultation with a price advisor:"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0032",
+      "section_id": "acbd1b2b08d7::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Capital employed"
+      ],
+      "markdown": "\u201cThe price quoted includes an amount of profit using the 3-year rolling average [insert name of appropriate rate] of [insert appropriate rate] percent. In the event that the [insert name of appropriate rate] at the time of contract award has changed by more than one full point, up or down from the previous year, after consultation with the Price Advisory Group, the price will be adjusted to reflect the applicable rate.\u201d",
+      "plain_text": "\u201cThe price quoted includes an amount of profit using the 3-year rolling average [insert name of appropriate rate] of [insert appropriate rate] percent. In the event that the [insert name of appropriate rate] at the time of contract award has changed by more than one full point, up or down from the previous year, after consultation with the Price Advisory Group, the price will be adjusted to reflect the applicable rate.\u201d"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0033",
+      "section_id": "acbd1b2b08d7::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Capital employed"
+      ],
+      "markdown": "Refer to the Practitioner\u2019s Guide for Procurement Pricing , Section 5.2.1, Negotiated Profit Element: Capital Employed for more information.",
+      "plain_text": "Refer to the Practitioner\u2019s Guide for Procurement Pricing , Section 5.2.1, Negotiated Profit Element: Capital Employed for more information."
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0034",
+      "section_id": "acbd1b2b08d7::s005",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on working capital employed"
+      ],
+      "markdown": "### Return on working capital employed",
+      "plain_text": "Return on working capital employed"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0035",
+      "section_id": "acbd1b2b08d7::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on working capital employed"
+      ],
+      "markdown": "Working capital employed refers to the costs of maintaining daily operations within an organization. A contractor makes working capital investments to fund the day-to-day contractual operations, whether it is with current assets, such as cash and investments or with current liabilities, such as loans and accounts payable.",
+      "plain_text": "Working capital employed refers to the costs of maintaining daily operations within an organization. A contractor makes working capital investments to fund the day-to-day contractual operations, whether it is with current assets, such as cash and investments or with current liabilities, such as loans and accounts payable."
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0036",
+      "section_id": "acbd1b2b08d7::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on working capital employed"
+      ],
+      "markdown": "There are two approaches for calculating the return on working capital employed, based on the degree of working capital investment in a contract. The two-tiered approach provides a simplified approach for contracts with lower dollar costs and a full schedule approach for contracts with higher costs.",
+      "plain_text": "There are two approaches for calculating the return on working capital employed, based on the degree of working capital investment in a contract. The two-tiered approach provides a simplified approach for contracts with lower dollar costs and a full schedule approach for contracts with higher costs."
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0037",
+      "section_id": "acbd1b2b08d7::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on working capital employed"
+      ],
+      "markdown": "For detailed calculations, considerations and examples for Return on Working Capital Employed, see the Practitioner\u2019s Guide for Procurement Pricing , Section 5.2.1.1, Return on Working Capital Employed.",
+      "plain_text": "For detailed calculations, considerations and examples for Return on Working Capital Employed, see the Practitioner\u2019s Guide for Procurement Pricing , Section 5.2.1.1, Return on Working Capital Employed."
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0038",
+      "section_id": "acbd1b2b08d7::s006",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on working capital employed",
+        "Tier 1 return on working capital employed"
+      ],
+      "markdown": "#### Tier 1 return on working capital employed",
+      "plain_text": "Tier 1 return on working capital employed"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0039",
+      "section_id": "acbd1b2b08d7::s006",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on working capital employed",
+        "Tier 1 return on working capital employed"
+      ],
+      "markdown": "Tier 1 is an optional, simplified approach that can only be used for contracts with total estimated or acceptable contract costs less than or equal to $1,000,000.",
+      "plain_text": "Tier 1 is an optional, simplified approach that can only be used for contracts with total estimated or acceptable contract costs less than or equal to $1,000,000."
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0040",
+      "section_id": "acbd1b2b08d7::s006",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on working capital employed",
+        "Tier 1 return on working capital employed"
+      ],
+      "markdown": "The Tier 1 formula is:",
+      "plain_text": "The Tier 1 formula is:"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0041",
+      "section_id": "acbd1b2b08d7::s006",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on working capital employed",
+        "Tier 1 return on working capital employed"
+      ],
+      "markdown": "Return on Working Capital Employed = 1-year Guaranteed Investment Certificate (GIC) Rate \u00d7 Total Acceptable Contract Cost",
+      "plain_text": "Return on Working Capital Employed = 1-year Guaranteed Investment Certificate (GIC) Rate \u00d7 Total Acceptable Contract Cost"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0042",
+      "section_id": "acbd1b2b08d7::s006",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on working capital employed",
+        "Tier 1 return on working capital employed"
+      ],
+      "markdown": "where:",
+      "plain_text": "where:"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0043",
+      "section_id": "acbd1b2b08d7::s006",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on working capital employed",
+        "Tier 1 return on working capital employed"
+      ],
+      "markdown": "A 3-year rolling average of the 1-Year GIC Rate is applied in Tier 1 Working Capital Employed calculations.",
+      "plain_text": "A 3-year rolling average of the 1-Year GIC Rate is applied in Tier 1 Working Capital Employed calculations."
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0044",
+      "section_id": "acbd1b2b08d7::s006",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on working capital employed",
+        "Tier 1 return on working capital employed"
+      ],
+      "markdown": "- This rate, sourced from the Bank of Canada, can be found in the Applicable Rates for Profit Determination Table in Annex 5.1 of the Practitioner\u2019s Guide for Procurement Pricing\n- If profit determination is related to previous periods, applicable rates during the same periods must be used\n- In the event that the relevant rates at the time of contract award have changed by more than one full point, up or down, the return will be recomputed applying the revised rates\n- The following clause must be included in the price proposal, after consultation with the Price Advisory Group:",
+      "plain_text": "This rate, sourced from the Bank of Canada, can be found in the Applicable Rates for Profit Determination Table in Annex 5.1 of the Practitioner\u2019s Guide for Procurement Pricing ; If profit determination is related to previous periods, applicable rates during the same periods must be used ; In the event that the relevant rates at the time of contract award have changed by more than one full point, up or down, the return will be recomputed applying the revised rates ; The following clause must be included in the price proposal, after consultation with the Price Advisory Group:"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0045",
+      "section_id": "acbd1b2b08d7::s006",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on working capital employed",
+        "Tier 1 return on working capital employed"
+      ],
+      "markdown": "\u201cThe price quoted includes an amount of profit using the 3-year rolling average 1-Year GIC Rate of (insert appropriate rate) percent. In the event that the annual 1-Year GIC Rate at the time of contract award has changed by more than one full point, up or down from the previous year, after consultation with the Price Advisory Group, the price will be adjusted to reflect the applicable rate.\u201d",
+      "plain_text": "\u201cThe price quoted includes an amount of profit using the 3-year rolling average 1-Year GIC Rate of (insert appropriate rate) percent. In the event that the annual 1-Year GIC Rate at the time of contract award has changed by more than one full point, up or down from the previous year, after consultation with the Price Advisory Group, the price will be adjusted to reflect the applicable rate.\u201d"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0046",
+      "section_id": "acbd1b2b08d7::s007",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on working capital employed",
+        "Tier 2 return on working capital employed"
+      ],
+      "markdown": "#### Tier 2 return on working capital employed",
+      "plain_text": "Tier 2 return on working capital employed"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0047",
+      "section_id": "acbd1b2b08d7::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on working capital employed",
+        "Tier 2 return on working capital employed"
+      ],
+      "markdown": "Tier 2 is a full schedule approach for contracts with total estimated or acceptable contract costs over $1,000,000. It can also be used for Tier 1 contracts upon request from the offeror/contractor.",
+      "plain_text": "Tier 2 is a full schedule approach for contracts with total estimated or acceptable contract costs over $1,000,000. It can also be used for Tier 1 contracts upon request from the offeror/contractor."
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0048",
+      "section_id": "acbd1b2b08d7::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on working capital employed",
+        "Tier 2 return on working capital employed"
+      ],
+      "markdown": "Refer to Tier 2 - Working Capital tab of the Profit Determination Template for more information.",
+      "plain_text": "Refer to Tier 2 - Working Capital tab of the Profit Determination Template for more information."
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0049",
+      "section_id": "acbd1b2b08d7::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on working capital employed",
+        "Tier 2 return on working capital employed"
+      ],
+      "markdown": "The Tier 2 formula is:",
+      "plain_text": "The Tier 2 formula is:"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0050",
+      "section_id": "acbd1b2b08d7::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on working capital employed",
+        "Tier 2 return on working capital employed"
+      ],
+      "markdown": "Return on Working Capital Employed = Bank Prime Rate / 12 \u00d7 Sum of Cumulative Monthly Working Capital Employed",
+      "plain_text": "Return on Working Capital Employed = Bank Prime Rate / 12 \u00d7 Sum of Cumulative Monthly Working Capital Employed"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0051",
+      "section_id": "acbd1b2b08d7::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on working capital employed",
+        "Tier 2 return on working capital employed"
+      ],
+      "markdown": "where:",
+      "plain_text": "where:"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0052",
+      "section_id": "acbd1b2b08d7::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on working capital employed",
+        "Tier 2 return on working capital employed"
+      ],
+      "markdown": "The 3-year average bank prime rate applicable to the contract for the Tier 2 Working Capital calculation.",
+      "plain_text": "The 3-year average bank prime rate applicable to the contract for the Tier 2 Working Capital calculation."
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0053",
+      "section_id": "acbd1b2b08d7::s007",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on working capital employed",
+        "Tier 2 return on working capital employed"
+      ],
+      "markdown": "- This rate, sourced from the Bank of Canada, can be found in the Applicable Rates for Profit Determination Table in Annex 5.1 of the Practitioner\u2019s Guide for Procurement Pricing\n- If profit determination is related to previous periods, applicable rates during the same periods must be used\n- In the event that the relevant rates at the time of contract award have changed by more than one full point, up or down, the return will be recomputed applying the revised rates\n- You must consult with the Price Advisory Group to ensure that the appropriate clause is included in the price proposal",
+      "plain_text": "This rate, sourced from the Bank of Canada, can be found in the Applicable Rates for Profit Determination Table in Annex 5.1 of the Practitioner\u2019s Guide for Procurement Pricing ; If profit determination is related to previous periods, applicable rates during the same periods must be used ; In the event that the relevant rates at the time of contract award have changed by more than one full point, up or down, the return will be recomputed applying the revised rates ; You must consult with the Price Advisory Group to ensure that the appropriate clause is included in the price proposal"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0054",
+      "section_id": "acbd1b2b08d7::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on working capital employed",
+        "Tier 2 return on working capital employed"
+      ],
+      "markdown": "Contractors must submit a schedule of estimated monthly net working capital for the contract, using the Return on Working Capital Employed Tab found in the Profit Determination Template in the Practitioner\u2019s Guide for Procurement Pricing . In order to prepare and review this schedule, the following information is required:",
+      "plain_text": "Contractors must submit a schedule of estimated monthly net working capital for the contract, using the Return on Working Capital Employed Tab found in the Profit Determination Template in the Practitioner\u2019s Guide for Procurement Pricing . In order to prepare and review this schedule, the following information is required:"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0055",
+      "section_id": "acbd1b2b08d7::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on working capital employed",
+        "Tier 2 return on working capital employed"
+      ],
+      "markdown": "Monthly Estimated Net Working Capital:",
+      "plain_text": "Monthly Estimated Net Working Capital:"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0056",
+      "section_id": "acbd1b2b08d7::s007",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on working capital employed",
+        "Tier 2 return on working capital employed"
+      ],
+      "markdown": "- The schedule of acceptable contract costs, exclusive of depreciation (per the contract clauses and conditions, Contract Cost Principles 1031-2 and the Practitioner\u2019s Guide for Procurement Pricing Annex 2, Costing Standard)\n- The schedule of contract revenue payments, exclusive of profit (payment plan/schedule)\n- Advance payments must be applied in the full schedule\n- Contracts with advance payments and progress payments do not require a return on working capital employed",
+      "plain_text": "The schedule of acceptable contract costs, exclusive of depreciation (per the contract clauses and conditions, Contract Cost Principles 1031-2 and the Practitioner\u2019s Guide for Procurement Pricing Annex 2, Costing Standard) ; The schedule of contract revenue payments, exclusive of profit (payment plan/schedule) ; Advance payments must be applied in the full schedule ; Contracts with advance payments and progress payments do not require a return on working capital employed"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0057",
+      "section_id": "acbd1b2b08d7::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on working capital employed",
+        "Tier 2 return on working capital employed"
+      ],
+      "markdown": "Calculation methodology: The 3-year average bank prime rate, as defined above, is an annual rate of return. The calculation below accumulates the monthly working capital return, and as such, the 3-year average bank prime rate is divided by 12 to reflect the monthly earning. The return on the cumulative working capital employed is calculated as follows:",
+      "plain_text": "Calculation methodology: The 3-year average bank prime rate, as defined above, is an annual rate of return. The calculation below accumulates the monthly working capital return, and as such, the 3-year average bank prime rate is divided by 12 to reflect the monthly earning. The return on the cumulative working capital employed is calculated as follows:"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0058",
+      "section_id": "acbd1b2b08d7::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on working capital employed",
+        "Tier 2 return on working capital employed"
+      ],
+      "markdown": "Total : Bank Prime Rate / 12 \u00d7 Monthly Cumulative Working Capital",
+      "plain_text": "Total : Bank Prime Rate / 12 \u00d7 Monthly Cumulative Working Capital"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0059",
+      "section_id": "acbd1b2b08d7::s008",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on fixed capital employed"
+      ],
+      "markdown": "### Return on fixed capital employed",
+      "plain_text": "Return on fixed capital employed"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0060",
+      "section_id": "acbd1b2b08d7::s008",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on fixed capital employed"
+      ],
+      "markdown": "Fixed capital employed consists of the investments contractors make that the company will use for more than one year. Fixed costs are typically purchased for use in the current and future years.",
+      "plain_text": "Fixed capital employed consists of the investments contractors make that the company will use for more than one year. Fixed costs are typically purchased for use in the current and future years."
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0061",
+      "section_id": "acbd1b2b08d7::s008",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on fixed capital employed"
+      ],
+      "markdown": "The investment in fixed capital is capitalized, allowing the contractor to spread out the cost over the asset's useful life. Contractors are required to invest in fixed capital for the purposes of carrying out contracts and the fixed capital can often be used for one or multiple contracts.",
+      "plain_text": "The investment in fixed capital is capitalized, allowing the contractor to spread out the cost over the asset's useful life. Contractors are required to invest in fixed capital for the purposes of carrying out contracts and the fixed capital can often be used for one or multiple contracts."
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0062",
+      "section_id": "acbd1b2b08d7::s008",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on fixed capital employed"
+      ],
+      "markdown": "For more calculations, considerations and examples for Return on Fixed Capital Employed, refer to the Practitioner\u2019s Guide for Procurement Pricing , Section 5.2.1.2, Return on Fixed Capital Employed.",
+      "plain_text": "For more calculations, considerations and examples for Return on Fixed Capital Employed, refer to the Practitioner\u2019s Guide for Procurement Pricing , Section 5.2.1.2, Return on Fixed Capital Employed."
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0063",
+      "section_id": "acbd1b2b08d7::s008",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on fixed capital employed"
+      ],
+      "markdown": "The provision of a return on fixed capital employed is intended not only to compensate contractors for the cost of money associated with the fixed capital employed on the contract, but also to encourage investment in new capital equipment, the result of which is generally greater productivity and consequently reduced costs to Canada.",
+      "plain_text": "The provision of a return on fixed capital employed is intended not only to compensate contractors for the cost of money associated with the fixed capital employed on the contract, but also to encourage investment in new capital equipment, the result of which is generally greater productivity and consequently reduced costs to Canada."
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0064",
+      "section_id": "acbd1b2b08d7::s008",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on fixed capital employed"
+      ],
+      "markdown": "For the purpose of this section, the fixed capital employed is defined as the net book value of fixed assets, less:",
+      "plain_text": "For the purpose of this section, the fixed capital employed is defined as the net book value of fixed assets, less:"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0065",
+      "section_id": "acbd1b2b08d7::s008",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on fixed capital employed"
+      ],
+      "markdown": "- land and any intangible assets\n- any fixed assets not in use such as idle plants\n- any surplus value arising from re-appraisal",
+      "plain_text": "land and any intangible assets ; any fixed assets not in use such as idle plants ; any surplus value arising from re-appraisal"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0066",
+      "section_id": "acbd1b2b08d7::s008",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on fixed capital employed"
+      ],
+      "markdown": "There are three approaches for calculating the return on fixed capital employed, based on the total costs and the degree of fixed capital investment in a contract. This three-tiered approach is as follows:",
+      "plain_text": "There are three approaches for calculating the return on fixed capital employed, based on the total costs and the degree of fixed capital investment in a contract. This three-tiered approach is as follows:"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0067",
+      "section_id": "acbd1b2b08d7::s009",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on fixed capital employed",
+        "Tier 1 return on fixed capital employed"
+      ],
+      "markdown": "#### Tier 1 return on fixed capital employed",
+      "plain_text": "Tier 1 return on fixed capital employed"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0068",
+      "section_id": "acbd1b2b08d7::s009",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on fixed capital employed",
+        "Tier 1 return on fixed capital employed"
+      ],
+      "markdown": "Tier 1 is a simplified, optional approach for all contracts with total estimated or acceptable costs less than or equal to $1,000,000. The Tier 1 formula is:",
+      "plain_text": "Tier 1 is a simplified, optional approach for all contracts with total estimated or acceptable costs less than or equal to $1,000,000. The Tier 1 formula is:"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0069",
+      "section_id": "acbd1b2b08d7::s009",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on fixed capital employed",
+        "Tier 1 return on fixed capital employed"
+      ],
+      "markdown": "Return on Fixed Capital Employed = 1% \u00d7 Total Acceptable Contract Cost",
+      "plain_text": "Return on Fixed Capital Employed = 1% \u00d7 Total Acceptable Contract Cost"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0070",
+      "section_id": "acbd1b2b08d7::s009",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on fixed capital employed",
+        "Tier 1 return on fixed capital employed"
+      ],
+      "markdown": "If machinery and/or equipment owned by the contractor is regularly used in the manufacture of the product(s), or in the provision of services, under the contract, a return on fixed capital employed of 1% of total allowable costs will be awarded.",
+      "plain_text": "If machinery and/or equipment owned by the contractor is regularly used in the manufacture of the product(s), or in the provision of services, under the contract, a return on fixed capital employed of 1% of total allowable costs will be awarded."
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0071",
+      "section_id": "acbd1b2b08d7::s010",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on fixed capital employed",
+        "Tier 2 return on fixed capital employed"
+      ],
+      "markdown": "#### Tier 2 return on fixed capital employed",
+      "plain_text": "Tier 2 return on fixed capital employed"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0072",
+      "section_id": "acbd1b2b08d7::s010",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on fixed capital employed",
+        "Tier 2 return on fixed capital employed"
+      ],
+      "markdown": "Tier 2 is a simplified, optional approach for:",
+      "plain_text": "Tier 2 is a simplified, optional approach for:"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0073",
+      "section_id": "acbd1b2b08d7::s010",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on fixed capital employed",
+        "Tier 2 return on fixed capital employed"
+      ],
+      "markdown": "- Contracts with total estimated or acceptable costs less than or equal to $20,000,000\n- Contracts with lower fixed capital intensity level, such as services contracts with minimal fixed capital needs\n- Tier 1 contracts upon the offeror\u2019s/contractor\u2019s request",
+      "plain_text": "Contracts with total estimated or acceptable costs less than or equal to $20,000,000 ; Contracts with lower fixed capital intensity level, such as services contracts with minimal fixed capital needs ; Tier 1 contracts upon the offeror\u2019s/contractor\u2019s request"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0074",
+      "section_id": "acbd1b2b08d7::s010",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on fixed capital employed",
+        "Tier 2 return on fixed capital employed"
+      ],
+      "markdown": "The Tier 2 formula is:",
+      "plain_text": "The Tier 2 formula is:"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0075",
+      "section_id": "acbd1b2b08d7::s010",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on fixed capital employed",
+        "Tier 2 return on fixed capital employed"
+      ],
+      "markdown": "Return on Fixed Capital Employed = Capital Intensity Rate \u00d7 ( Marketable Bond Over 10-Year Rate + Consumer Price Index (CPI) Inflation Rate Forecast 6\u201310 Year Ahead ) \u00d7 Total Acceptable Contract Cost",
+      "plain_text": "Return on Fixed Capital Employed = Capital Intensity Rate \u00d7 ( Marketable Bond Over 10-Year Rate + Consumer Price Index (CPI) Inflation Rate Forecast 6\u201310 Year Ahead ) \u00d7 Total Acceptable Contract Cost"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0076",
+      "section_id": "acbd1b2b08d7::s010",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on fixed capital employed",
+        "Tier 2 return on fixed capital employed"
+      ],
+      "markdown": "where:",
+      "plain_text": "where:"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0077",
+      "section_id": "acbd1b2b08d7::s011",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on fixed capital employed",
+        "Tier 3 return on fixed capital employed"
+      ],
+      "markdown": "#### Tier 3 return on fixed capital employed",
+      "plain_text": "Tier 3 return on fixed capital employed"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0078",
+      "section_id": "acbd1b2b08d7::s011",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on fixed capital employed",
+        "Tier 3 return on fixed capital employed"
+      ],
+      "markdown": "Tier 3 is a full schedule approach.",
+      "plain_text": "Tier 3 is a full schedule approach."
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0079",
+      "section_id": "acbd1b2b08d7::s011",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on fixed capital employed",
+        "Tier 3 return on fixed capital employed"
+      ],
+      "markdown": "Tier 3 is used for:",
+      "plain_text": "Tier 3 is used for:"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0080",
+      "section_id": "acbd1b2b08d7::s011",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on fixed capital employed",
+        "Tier 3 return on fixed capital employed"
+      ],
+      "markdown": "- Contracts with total estimated or acceptable contract costs greater than $1,000,000\n- Contracts that do not meet the criteria for Tier 1 and Tier 2\n- Tier 1 or Tier 2 contracts upon the offeror\u2019s/contractor\u2019s request",
+      "plain_text": "Contracts with total estimated or acceptable contract costs greater than $1,000,000 ; Contracts that do not meet the criteria for Tier 1 and Tier 2 ; Tier 1 or Tier 2 contracts upon the offeror\u2019s/contractor\u2019s request"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0081",
+      "section_id": "acbd1b2b08d7::s011",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on fixed capital employed",
+        "Tier 3 return on fixed capital employed"
+      ],
+      "markdown": "The Tier 3 formula is:",
+      "plain_text": "The Tier 3 formula is:"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0082",
+      "section_id": "acbd1b2b08d7::s011",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on fixed capital employed",
+        "Tier 3 return on fixed capital employed"
+      ],
+      "markdown": "Return on Fixed Capital Employed = ( Marketable Bond Over 10-Year Rate + Consumer Price Index Inflation Rate Forecast 6\u201310 Year Ahead ) \u00d7 Fixed Capital Employed",
+      "plain_text": "Return on Fixed Capital Employed = ( Marketable Bond Over 10-Year Rate + Consumer Price Index Inflation Rate Forecast 6\u201310 Year Ahead ) \u00d7 Fixed Capital Employed"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0083",
+      "section_id": "acbd1b2b08d7::s011",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on fixed capital employed",
+        "Tier 3 return on fixed capital employed"
+      ],
+      "markdown": "where:",
+      "plain_text": "where:"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0084",
+      "section_id": "acbd1b2b08d7::s011",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on fixed capital employed",
+        "Tier 3 return on fixed capital employed"
+      ],
+      "markdown": "When the contract period extends over more than one of the contractor's fiscal years, the determination of fixed capital employed must be done for each fiscal year within the contract period. The process outlined above applies for the contractor\u2019s first fiscal year in the contract. To determine the fixed capital employed in subsequent years, the following process applies:",
+      "plain_text": "When the contract period extends over more than one of the contractor's fiscal years, the determination of fixed capital employed must be done for each fiscal year within the contract period. The process outlined above applies for the contractor\u2019s first fiscal year in the contract. To determine the fixed capital employed in subsequent years, the following process applies:"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0085",
+      "section_id": "acbd1b2b08d7::s011",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Return on fixed capital employed",
+        "Tier 3 return on fixed capital employed"
+      ],
+      "markdown": "- the contractor\u2019s net book value of applicable fixed assets is estimated for each fiscal year subsequent to the first year of the contract\n- the estimated overhead recovery factors for each fiscal year, determined via the contract costing rate negotiations are applied for the allocation of the capital assets\n- the fixed capital employed for the contract is the sum of the fixed capital employed for each fiscal year of the contractor within the duration of the contract\n- the government marketable bond over 10-year rate with CPI inflation rate 6-10 years ahead is applied to the total fixed capital employed in the contract",
+      "plain_text": "the contractor\u2019s net book value of applicable fixed assets is estimated for each fiscal year subsequent to the first year of the contract ; the estimated overhead recovery factors for each fiscal year, determined via the contract costing rate negotiations are applied for the allocation of the capital assets ; the fixed capital employed for the contract is the sum of the fixed capital employed for each fiscal year of the contractor within the duration of the contract ; the government marketable bond over 10-year rate with CPI inflation rate 6-10 years ahead is applied to the total fixed capital employed in the contract"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0086",
+      "section_id": "acbd1b2b08d7::s012",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "General business risk"
+      ],
+      "markdown": "### General business risk",
+      "plain_text": "General business risk"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0087",
+      "section_id": "acbd1b2b08d7::s012",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "General business risk"
+      ],
+      "markdown": "General business risk recognizes the contractor\u2019s level of effort and its responsibility and risk in managing the resources required to execute the contract efficiently and economically.",
+      "plain_text": "General business risk recognizes the contractor\u2019s level of effort and its responsibility and risk in managing the resources required to execute the contract efficiently and economically."
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0088",
+      "section_id": "acbd1b2b08d7::s012",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "General business risk"
+      ],
+      "markdown": "The return on general business risk, along with the level of effort, responsibility and risk, varies with the nature of the costs and the different cost elements of a contract. This is reflected in the following rates of profit to be applied to the total actual or estimated costs of each element below:",
+      "plain_text": "The return on general business risk, along with the level of effort, responsibility and risk, varies with the nature of the costs and the different cost elements of a contract. This is reflected in the following rates of profit to be applied to the total actual or estimated costs of each element below:"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0089",
+      "section_id": "acbd1b2b08d7::s012",
+      "type": "table",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "General business risk"
+      ],
+      "markdown": "| Cost element | Percentage |\n| --- | --- |\n| Direct materials | 1.5% |\n| Subcontracts | 2% |\n| Accountable advance spares embodied | 2% |\n| Direct labour | 4% |\n| Overhead | 4% |\n| All other allowable costs | 1.5% |\n| Pass through costs | 0% |",
+      "plain_text": "Cost element | Percentage ; Direct materials | 1.5% ; Subcontracts | 2% ; Accountable advance spares embodied | 2% ; Direct labour | 4% ; Overhead | 4% ; All other allowable costs | 1.5%",
+      "table_id": "acbd1b2b08d7::t001"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0090",
+      "section_id": "acbd1b2b08d7::s012",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "General business risk"
+      ],
+      "markdown": "The costs for each element is multiplied by its associated percentage. The sum of these calculated amounts equals the total general business risk profit.",
+      "plain_text": "The costs for each element is multiplied by its associated percentage. The sum of these calculated amounts equals the total general business risk profit."
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0091",
+      "section_id": "acbd1b2b08d7::s012",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "General business risk"
+      ],
+      "markdown": "For more on General Business Risk, including cost element definition, intention, examples, calculations, see the Practitioner\u2019s Guide for Procurement Pricing , Section 5.2, Negotiated Profit Element: General Business Risk.",
+      "plain_text": "For more on General Business Risk, including cost element definition, intention, examples, calculations, see the Practitioner\u2019s Guide for Procurement Pricing , Section 5.2, Negotiated Profit Element: General Business Risk."
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0092",
+      "section_id": "acbd1b2b08d7::s012",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "General business risk"
+      ],
+      "markdown": "For guidance on calculating rates of profit for General Business Risk, refer to the Profit Determination Template in Annex 5.2 of the Practitioner\u2019s Guide for Procurement Pricing .",
+      "plain_text": "For guidance on calculating rates of profit for General Business Risk, refer to the Profit Determination Template in Annex 5.2 of the Practitioner\u2019s Guide for Procurement Pricing ."
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0093",
+      "section_id": "acbd1b2b08d7::s013",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Contractual risk"
+      ],
+      "markdown": "### Contractual risk",
+      "plain_text": "Contractual risk"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0094",
+      "section_id": "acbd1b2b08d7::s013",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Contractual risk"
+      ],
+      "markdown": "Contractual risk represents the likelihood of financial loss to the contractor due to contract-specific factors. Assessing contractual risk involves understanding the risks present within the contract and understanding which party is best to carry the risk for the various components of the contract. The level of profit on contractual risk is based on how much of the risk is carried by the contractor. A higher profit rate for contractual risk, is the result of the risk being assigned to and borne by the contractor. It is important to ensure the assignment of risk is clear, transparent and well-defined.",
+      "plain_text": "Contractual risk represents the likelihood of financial loss to the contractor due to contract-specific factors. Assessing contractual risk involves understanding the risks present within the contract and understanding which party is best to carry the risk for the various components of the contract. The level of profit on contractual risk is based on how much of the risk is carried by the contractor. A higher profit rate for contractual risk, is the result of the risk being assigned to and borne by the contractor. It is important to ensure the assignment of risk is clear, transparent and well-defined."
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0095",
+      "section_id": "acbd1b2b08d7::s013",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Contractual risk"
+      ],
+      "markdown": "As shown in the table below, the degree of financial risk taken on by a contractor is dependent on the contract basis of payment, which determines the standard (the lowest rate in the range) and the available range of profit:",
+      "plain_text": "As shown in the table below, the degree of financial risk taken on by a contractor is dependent on the contract basis of payment, which determines the standard (the lowest rate in the range) and the available range of profit:"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0096",
+      "section_id": "acbd1b2b08d7::s013",
+      "type": "table",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Contractual risk"
+      ],
+      "markdown": "| Basis of payment | Standard rate | Maximum rate |\n| --- | --- | --- |\n| Fixed price or firm price | 4% | 7% |\n| Fixed or firm rate type: ceiling price or limitation of expenditure | 1% | 4.5% |\n| Fixed or firm rate type: No ceiling price or limitation of expenditure | 1% | 3.5% |\n| Cost reimbursable with fixed fee: ceiling price or limitation of expenditure | 1% | 4.5% |\n| Cost reimbursable with fixed fee: No ceiling price or limitation of expenditure | 0% | 1% |\n| Cost reimbursable with target cost/incentive fee | 1% | 4.5% |\n| Cost reimbursable with no fee or fee based on actual costs | 0% | 0% |",
+      "plain_text": "Basis of payment | Standard rate | Maximum rate ; Fixed price or firm price | 4% | 7% ; Fixed or firm rate type: ceiling price or limitation of expenditure | 1% | 4.5% ; Fixed or firm rate type: No ceiling price or limitation of expenditure | 1% | 3.5% ; Cost reimbursable with fixed fee: ceiling price or limitation of expenditure | 1% | 4.5% ; Cost reimbursable with fixed fee: No ceiling price or limitation of expenditure | 0% | 1% ; Cost reimbursable with target cost/incentive fee | 1% | 4.5%",
+      "table_id": "acbd1b2b08d7::t002"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0097",
+      "section_id": "acbd1b2b08d7::s013",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Contractual risk"
+      ],
+      "markdown": "Note : The percentage can be lower than the standard rate if the nature of the work involves little to no risk.",
+      "plain_text": "Note : The percentage can be lower than the standard rate if the nature of the work involves little to no risk."
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0098",
+      "section_id": "acbd1b2b08d7::s013",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Contractual risk"
+      ],
+      "markdown": "Once the standard contractual risk profit rate is determined, the level of contractual risk profit that varies within the ranges depends on the presence, likelihood and impact of the following key risk factors:",
+      "plain_text": "Once the standard contractual risk profit rate is determined, the level of contractual risk profit that varies within the ranges depends on the presence, likelihood and impact of the following key risk factors:"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0099",
+      "section_id": "acbd1b2b08d7::s013",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Contractual risk"
+      ],
+      "markdown": "- Accuracy of costing : which affects the risk that the costing estimates are not accurate and the contract will cost more than planned, and includes:\n- how well the scope, requirements and demand are established\n- the reliability of cost estimates\n- potential fluctuations from external factors\n- the timing of negotiations\n- Technical and schedule factors : which affect the risk that contract-specific factors and requirements will impact a contractor\u2019s ability to successfully complete the contract, and include:\n- technical risk\n- familiarity and program (products/services/processes/tasks) maturity\n- performance specifications\n- contract duration",
+      "plain_text": "Accuracy of costing : which affects the risk that the costing estimates are not accurate and the contract will cost more than planned, and includes: ; how well the scope, requirements and demand are established ; the reliability of cost estimates ; potential fluctuations from external factors ; the timing of negotiations ; Technical and schedule factors : which affect the risk that contract-specific factors and requirements will impact a contractor\u2019s ability to successfully complete the contract, and include: ; technical risk ; familiarity and program (products/services/processes/tasks) maturity ; performance specifications ; contract duration"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0100",
+      "section_id": "acbd1b2b08d7::s013",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Contractual risk"
+      ],
+      "markdown": "Justification must be provided for the total contractual risk profit percentage. You may use the Contractual Risk Assessment Tool to calculate the contractual risk profit percentage and document decisions.",
+      "plain_text": "Justification must be provided for the total contractual risk profit percentage. You may use the Contractual Risk Assessment Tool to calculate the contractual risk profit percentage and document decisions."
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0101",
+      "section_id": "acbd1b2b08d7::s013",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Contractual risk"
+      ],
+      "markdown": "The contractual risk profit rate is applied to the total estimated contract costs to develop the contract price. The contract risk profit formula is:",
+      "plain_text": "The contractual risk profit rate is applied to the total estimated contract costs to develop the contract price. The contract risk profit formula is:"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0102",
+      "section_id": "acbd1b2b08d7::s013",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Contractual risk"
+      ],
+      "markdown": "Total Contractual Risk Profit = Contractual Risk Rate % \u00d7 Total Contract Costs",
+      "plain_text": "Total Contractual Risk Profit = Contractual Risk Rate % \u00d7 Total Contract Costs"
+    },
+    {
+      "block_id": "acbd1b2b08d7::b0103",
+      "section_id": "acbd1b2b08d7::s013",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate profit",
+        "Buyer's Guide",
+        "Analyze and negotiate profit",
+        "Contractual risk"
+      ],
+      "markdown": "For more on Contractual Risk, including definitions, intension, examples and calculations, see the Practitioner\u2019s Guide for Procurement Pricing , Section 5.2.3, Negotiated Profit Element: Contractual Risk.",
+      "plain_text": "For more on Contractual Risk, including definitions, intension, examples and calculations, see the Practitioner\u2019s Guide for Procurement Pricing , Section 5.2.3, Negotiated Profit Element: Contractual Risk."
+    }
+  ]
+}

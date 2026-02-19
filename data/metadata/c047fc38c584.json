@@ -1,0 +1,1222 @@
+{
+  "doc_id": "c047fc38c584",
+  "title": "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+  "source_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/analyze-and-negotiate-costs",
+  "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/analyze-and-negotiate-costs",
+  "doc_type": "buyers_guide",
+  "authority_rank": 3,
+  "date_modified": "2026-01-31",
+  "fetched_at": "2026-02-19T09:19:03.990752+00:00",
+  "content_hash": "4dc1423ea72930e9a29a2a529349ad0d03c1ca483ff732e31990206d216c4297",
+  "word_count": 2189,
+  "text_path": "data/corpus/buyers_guide__en-buyer-s-portal-buyer-s-guide-negotiate-cost-and-profit-negotiations-analyze-and-negotiate-costs__c047fc38c5.md",
+  "extraction_method": "buyers_guide_regions",
+  "breadcrumbs": [
+    {
+      "title": "Canada.ca",
+      "url": "https://www.canada.ca/",
+      "canonical_url": "https://www.canada.ca/",
+      "in_scope": false
+    },
+    {
+      "title": "CanadaBuys home",
+      "url": "https://canadabuys.canada.ca/en",
+      "canonical_url": "https://canadabuys.canada.ca/en",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Portal",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal",
+      "in_scope": false
+    },
+    {
+      "title": "Buyer's Guide",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "in_scope": true
+    },
+    {
+      "title": "Cost and profit negotiations",
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations",
+      "canonical_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations",
+      "in_scope": true
+    }
+  ],
+  "graph": {
+    "parent_url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations",
+    "parent_doc_id": "46720e2d4953",
+    "child_urls": [],
+    "child_doc_ids": [],
+    "lineage_urls": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/analyze-and-negotiate-costs"
+    ],
+    "lineage_doc_ids": [
+      "1e29c7881335",
+      "46720e2d4953",
+      "c047fc38c584"
+    ],
+    "depth": 2,
+    "incoming_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation/how-negotiate",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation/negotiation-services-hub",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation/when-negotiate",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/alternative-pricing-strategies",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/analyze-and-negotiate-profit",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/contact-cost-analyst-group",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/getting-started-cost-and-profit-negotiations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/special-cost-considerations"
+    ],
+    "outgoing_in_scope_links": [
+      "https://canadabuys.canada.ca/en/buy-canadian-policy",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/complexity-and-procurement-risk-assessment",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/award/manage-evaluation-results",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/create-solicitation/choose-solicitation-method",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/manage/manage-contract",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation/how-negotiate",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation/negotiation-services-hub",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/contract-negotiation/when-negotiate",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/alternative-pricing-strategies",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/analyze-and-negotiate-profit",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/contact-cost-analyst-group",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/getting-started-cost-and-profit-negotiations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/negotiate/cost-and-profit-negotiations/special-cost-considerations",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/plan/define-requirement",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/receive-and-evaluate/receive-offers",
+      "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/solicit/release-solicitation-document"
+    ]
+  },
+  "structure": {
+    "block_count": 43,
+    "section_count": 16,
+    "heading_count": 15,
+    "paragraph_count": 18,
+    "list_count": 5,
+    "table_count": 5
+  },
+  "sections": [
+    {
+      "section_id": "c047fc38c584::root",
+      "parent_section_id": null,
+      "level": 0,
+      "heading": "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs"
+      ],
+      "block_count": 0,
+      "word_count": 0,
+      "char_count": 0,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": null,
+      "last_block_index": null,
+      "preview": "",
+      "prev_section_id": null,
+      "next_section_id": null
+    },
+    {
+      "section_id": "c047fc38c584::s001",
+      "parent_section_id": "c047fc38c584::root",
+      "level": 1,
+      "heading": "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs"
+      ],
+      "block_count": 1,
+      "word_count": 11,
+      "char_count": 72,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 0,
+      "last_block_index": 0,
+      "preview": "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+      "prev_section_id": null,
+      "next_section_id": "c047fc38c584::s002"
+    },
+    {
+      "section_id": "c047fc38c584::s002",
+      "parent_section_id": "c047fc38c584::root",
+      "level": 1,
+      "heading": "Buyer's Guide",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide"
+      ],
+      "block_count": 3,
+      "word_count": 1129,
+      "char_count": 7738,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 1,
+      "last_block_index": 3,
+      "preview": "Buyer's Guide Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage Analyze and negotiate costs There are two steps in building a negotiated contract price. The first one is to establish a cost b",
+      "prev_section_id": "c047fc38c584::s001",
+      "next_section_id": "c047fc38c584::s003"
+    },
+    {
+      "section_id": "c047fc38c584::s003",
+      "parent_section_id": "c047fc38c584::s002",
+      "level": 2,
+      "heading": "Analyze and negotiate costs",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide",
+        "Analyze and negotiate costs"
+      ],
+      "block_count": 3,
+      "word_count": 92,
+      "char_count": 612,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 4,
+      "last_block_index": 6,
+      "preview": "Analyze and negotiate costs There are two steps in building a negotiated contract price. The first one is to establish a cost base, and the second one is to determine the profit. Establishing a cost base involves determining whether estimat",
+      "prev_section_id": "c047fc38c584::s002",
+      "next_section_id": "c047fc38c584::s004"
+    },
+    {
+      "section_id": "c047fc38c584::s004",
+      "parent_section_id": "c047fc38c584::s003",
+      "level": 3,
+      "heading": "Commercial pricing",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide",
+        "Analyze and negotiate costs",
+        "Commercial pricing"
+      ],
+      "block_count": 3,
+      "word_count": 94,
+      "char_count": 619,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 2,
+      "first_block_index": 7,
+      "last_block_index": 9,
+      "preview": "Commercial pricing Cost-based Pricing Principles are not required for commercial goods and services, since these are used regularly for non-government purposes, and are sold by the offeror in the course of carrying out its normal business o",
+      "prev_section_id": "c047fc38c584::s003",
+      "next_section_id": "c047fc38c584::s005"
+    },
+    {
+      "section_id": "c047fc38c584::s005",
+      "parent_section_id": "c047fc38c584::s003",
+      "level": 3,
+      "heading": "Contract cost principles",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide",
+        "Analyze and negotiate costs",
+        "Contract cost principles"
+      ],
+      "block_count": 5,
+      "word_count": 140,
+      "char_count": 864,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 4,
+      "first_block_index": 10,
+      "last_block_index": 14,
+      "preview": "Contract cost principles Whenever a contract price is negotiated based on costs, the costs will be determined using Contract Cost Principles 1031-2 . For non-competitive contracts valued at $50,000 and over, with a fixed price or fixed time",
+      "prev_section_id": "c047fc38c584::s004",
+      "next_section_id": "c047fc38c584::s006"
+    },
+    {
+      "section_id": "c047fc38c584::s006",
+      "parent_section_id": "c047fc38c584::s003",
+      "level": 3,
+      "heading": "Costing Standard",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide",
+        "Analyze and negotiate costs",
+        "Costing Standard"
+      ],
+      "block_count": 2,
+      "word_count": 46,
+      "char_count": 368,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 15,
+      "last_block_index": 16,
+      "preview": "Costing Standard The Costing Standard is located in Section 5.1.1 of the Practitioner\u2019s Guide for Procurement Pricing . It supplements Contract Cost Principles by applying principles-based and risk-guided approaches. This facilitates consis",
+      "prev_section_id": "c047fc38c584::s005",
+      "next_section_id": "c047fc38c584::s007"
+    },
+    {
+      "section_id": "c047fc38c584::s007",
+      "parent_section_id": "c047fc38c584::s006",
+      "level": 4,
+      "heading": "Criteria for cost acceptability",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide",
+        "Analyze and negotiate costs",
+        "Costing Standard",
+        "Criteria for cost acceptability"
+      ],
+      "block_count": 3,
+      "word_count": 105,
+      "char_count": 631,
+      "table_count": 1,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 17,
+      "last_block_index": 19,
+      "preview": "Criteria for cost acceptability For the cost to be acceptable, the contract cost must be attributable, appropriate and reasonable. Column 1 | Column 2 ; A cost is\u2026 | If it is... ; attributable | incurred directly or indirectly for the fulfi",
+      "prev_section_id": "c047fc38c584::s006",
+      "next_section_id": "c047fc38c584::s008"
+    },
+    {
+      "section_id": "c047fc38c584::s008",
+      "parent_section_id": "c047fc38c584::s006",
+      "level": 4,
+      "heading": "Cost categories and items",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide",
+        "Analyze and negotiate costs",
+        "Costing Standard",
+        "Cost categories and items"
+      ],
+      "block_count": 2,
+      "word_count": 53,
+      "char_count": 359,
+      "table_count": 0,
+      "list_count": 0,
+      "paragraph_count": 1,
+      "first_block_index": 20,
+      "last_block_index": 21,
+      "preview": "Cost categories and items The following tables detail specific cost items categorized by cost group, along with their associated subsections within Section 5.1.1, Costing Standard of the Practitioner\u2019s Guide for Procurement Pricing . Within",
+      "prev_section_id": "c047fc38c584::s007",
+      "next_section_id": "c047fc38c584::s009"
+    },
+    {
+      "section_id": "c047fc38c584::s009",
+      "parent_section_id": "c047fc38c584::s008",
+      "level": 5,
+      "heading": "Table 1: Asset-Based Costs",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide",
+        "Analyze and negotiate costs",
+        "Costing Standard",
+        "Cost categories and items",
+        "Table 1: Asset-Based Costs"
+      ],
+      "block_count": 2,
+      "word_count": 47,
+      "char_count": 261,
+      "table_count": 1,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 22,
+      "last_block_index": 23,
+      "preview": "Table 1: Asset-Based Costs Column 1 | Column 2 ; Cost Category | Cost Items ; Asset-Based Costs | 1.1 Amortization of Unrealized Appreciation of Assets ; 1.2 Depreciation | ; 1.3 Excess Production Capacity | ; 1.4 Excess Facilities | ; 1.5 ",
+      "prev_section_id": "c047fc38c584::s008",
+      "next_section_id": "c047fc38c584::s010"
+    },
+    {
+      "section_id": "c047fc38c584::s010",
+      "parent_section_id": "c047fc38c584::s008",
+      "level": 5,
+      "heading": "Table 2: Employed-Based Compensation Costs",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide",
+        "Analyze and negotiate costs",
+        "Costing Standard",
+        "Cost categories and items",
+        "Table 2: Employed-Based Compensation Costs"
+      ],
+      "block_count": 2,
+      "word_count": 47,
+      "char_count": 271,
+      "table_count": 1,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 24,
+      "last_block_index": 25,
+      "preview": "Table 2: Employed-Based Compensation Costs Column 1 | Column 2 ; Cost Category | Cost Items ; Employed-Based Compensation Costs | 2.1 Dues and Membership ; 2.2 Downtime | ; 2.3 Employee Benefits | ; 2.4 Executive Benefits and Employee Compe",
+      "prev_section_id": "c047fc38c584::s009",
+      "next_section_id": "c047fc38c584::s011"
+    },
+    {
+      "section_id": "c047fc38c584::s011",
+      "parent_section_id": "c047fc38c584::s008",
+      "level": 5,
+      "heading": "Table 3: Goods/Services-Based Costs",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide",
+        "Analyze and negotiate costs",
+        "Costing Standard",
+        "Cost categories and items",
+        "Table 3: Goods/Services-Based Costs"
+      ],
+      "block_count": 2,
+      "word_count": 45,
+      "char_count": 266,
+      "table_count": 1,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 26,
+      "last_block_index": 27,
+      "preview": "Table 3: Goods/Services-Based Costs Column 1 | Column 2 ; Cost Category | Cost Items ; Goods/Services-Based Costs | 3.1 Bad Debts and Collection Charges ; 3.2 Inventory Losses and Obsolescence | ; 3.3 Rework and Faulty Workmanship | ; 3.4 S",
+      "prev_section_id": "c047fc38c584::s010",
+      "next_section_id": "c047fc38c584::s012"
+    },
+    {
+      "section_id": "c047fc38c584::s012",
+      "parent_section_id": "c047fc38c584::s008",
+      "level": 5,
+      "heading": "Table 4: Corporate/Various-Based Costs",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide",
+        "Analyze and negotiate costs",
+        "Costing Standard",
+        "Cost categories and items",
+        "Table 4: Corporate/Various-Based Costs"
+      ],
+      "block_count": 2,
+      "word_count": 55,
+      "char_count": 318,
+      "table_count": 1,
+      "list_count": 0,
+      "paragraph_count": 0,
+      "first_block_index": 28,
+      "last_block_index": 29,
+      "preview": "Table 4: Corporate/Various-Based Costs Column 1 | Column 2 ; Cost Category | Cost Items ; Corporate/Various-Based Costs | 4.1 Allowance for Interest on Debt and Capital ; 4.2 Extraordinary or Unusual Matters or Events | ; 4.3 Financial Rela",
+      "prev_section_id": "c047fc38c584::s011",
+      "next_section_id": "c047fc38c584::s013"
+    },
+    {
+      "section_id": "c047fc38c584::s013",
+      "parent_section_id": "c047fc38c584::s003",
+      "level": 3,
+      "heading": "Cost accounting practices submission",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide",
+        "Analyze and negotiate costs",
+        "Cost accounting practices submission"
+      ],
+      "block_count": 7,
+      "word_count": 207,
+      "char_count": 1389,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 5,
+      "first_block_index": 30,
+      "last_block_index": 36,
+      "preview": "Cost accounting practices submission Where a contract price will be based on estimated or actual costs, the buyer, in consultation with the Procurement Support Services Sector, may require a Cost Accounting Practices (CAP) Submission eviden",
+      "prev_section_id": "c047fc38c584::s012",
+      "next_section_id": "c047fc38c584::s014"
+    },
+    {
+      "section_id": "c047fc38c584::s014",
+      "parent_section_id": "c047fc38c584::s003",
+      "level": 3,
+      "heading": "Costing discussion papers",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide",
+        "Analyze and negotiate costs",
+        "Costing discussion papers"
+      ],
+      "block_count": 3,
+      "word_count": 67,
+      "char_count": 461,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 37,
+      "last_block_index": 39,
+      "preview": "Costing discussion papers The following discussion papers help explain costs and guide decisions about which costs are acceptable. They support you in understanding complex issues during contract negotiations and throughout the contract\u2019s l",
+      "prev_section_id": "c047fc38c584::s013",
+      "next_section_id": "c047fc38c584::s015"
+    },
+    {
+      "section_id": "c047fc38c584::s015",
+      "parent_section_id": "c047fc38c584::s003",
+      "level": 3,
+      "heading": "Costing rates",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide",
+        "Analyze and negotiate costs",
+        "Costing rates"
+      ],
+      "block_count": 3,
+      "word_count": 51,
+      "char_count": 335,
+      "table_count": 0,
+      "list_count": 1,
+      "paragraph_count": 1,
+      "first_block_index": 40,
+      "last_block_index": 42,
+      "preview": "Costing rates For methods of allocating the contractor\u2019s fair and reasonable costs to a contract, refer to section 5.1.1.3, Contract Costing Rates of the Practitioner\u2019s Guide for Procurement Pricing , which covers: take-out rates ; out-of-p",
+      "prev_section_id": "c047fc38c584::s014",
+      "next_section_id": null
+    }
+  ],
+  "tables": [
+    {
+      "table_id": "c047fc38c584::t001",
+      "section_id": "c047fc38c584::s007",
+      "row_count": 4,
+      "column_count": 2,
+      "headers": [
+        "Column 1",
+        "Column 2"
+      ],
+      "sample_rows": [
+        [
+          "A cost is\u2026",
+          "If it is..."
+        ],
+        [
+          "attributable",
+          "incurred directly or indirectly for the fulfillment of the contract, and necessary to fulfil the contract requirements"
+        ],
+        [
+          "appropriate",
+          "by its character and nature, representing a cost that is expected to be incurred in the conduct of delivering the contract"
+        ],
+        [
+          "reasonable",
+          "by its nature, not exceeding what might be expected to be incurred in the normal delivery of the contract, whether under a competitive or non-competitive procurement"
+        ]
+      ]
+    },
+    {
+      "table_id": "c047fc38c584::t002",
+      "section_id": "c047fc38c584::s009",
+      "row_count": 9,
+      "column_count": 2,
+      "headers": [
+        "Column 1",
+        "Column 2"
+      ],
+      "sample_rows": [
+        [
+          "Cost Category",
+          "Cost Items"
+        ],
+        [
+          "Asset-Based Costs",
+          "1.1 Amortization of Unrealized Appreciation of Assets"
+        ],
+        [
+          "1.2 Depreciation",
+          ""
+        ],
+        [
+          "1.3 Excess Production Capacity",
+          ""
+        ],
+        [
+          "1.4 Excess Facilities",
+          ""
+        ],
+        [
+          "1.5 Impairment of Assets",
+          ""
+        ]
+      ]
+    },
+    {
+      "table_id": "c047fc38c584::t003",
+      "section_id": "c047fc38c584::s010",
+      "row_count": 13,
+      "column_count": 2,
+      "headers": [
+        "Column 1",
+        "Column 2"
+      ],
+      "sample_rows": [
+        [
+          "Cost Category",
+          "Cost Items"
+        ],
+        [
+          "Employed-Based Compensation Costs",
+          "2.1 Dues and Membership"
+        ],
+        [
+          "2.2 Downtime",
+          ""
+        ],
+        [
+          "2.3 Employee Benefits",
+          ""
+        ],
+        [
+          "2.4 Executive Benefits and Employee Compensation",
+          ""
+        ],
+        [
+          "2.5 Overtime Costs",
+          ""
+        ]
+      ]
+    },
+    {
+      "table_id": "c047fc38c584::t004",
+      "section_id": "c047fc38c584::s011",
+      "row_count": 5,
+      "column_count": 2,
+      "headers": [
+        "Column 1",
+        "Column 2"
+      ],
+      "sample_rows": [
+        [
+          "Cost Category",
+          "Cost Items"
+        ],
+        [
+          "Goods/Services-Based Costs",
+          "3.1 Bad Debts and Collection Charges"
+        ],
+        [
+          "3.2 Inventory Losses and Obsolescence",
+          ""
+        ],
+        [
+          "3.3 Rework and Faulty Workmanship",
+          ""
+        ],
+        [
+          "3.4 Surplus Materials Expenses",
+          ""
+        ]
+      ]
+    },
+    {
+      "table_id": "c047fc38c584::t005",
+      "section_id": "c047fc38c584::s012",
+      "row_count": 25,
+      "column_count": 2,
+      "headers": [
+        "Column 1",
+        "Column 2"
+      ],
+      "sample_rows": [
+        [
+          "Cost Category",
+          "Cost Items"
+        ],
+        [
+          "Corporate/Various-Based Costs",
+          "4.1 Allowance for Interest on Debt and Capital"
+        ],
+        [
+          "4.2 Extraordinary or Unusual Matters or Events",
+          ""
+        ],
+        [
+          "4.3 Financial Related Expenses",
+          ""
+        ],
+        [
+          "4.4 Fines and Penalties",
+          ""
+        ],
+        [
+          "4.5 Fees for Professional Advice",
+          ""
+        ]
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "block_id": "c047fc38c584::b0001",
+      "section_id": "c047fc38c584::s001",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs"
+      ],
+      "markdown": "# Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+      "plain_text": "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs"
+    },
+    {
+      "block_id": "c047fc38c584::b0002",
+      "section_id": "c047fc38c584::s002",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide"
+      ],
+      "markdown": "# Buyer's Guide",
+      "plain_text": "Buyer's Guide"
+    },
+    {
+      "block_id": "c047fc38c584::b0003",
+      "section_id": "c047fc38c584::s002",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide"
+      ],
+      "markdown": "- Plan\n- Approve\n- Create solicitation\n- Solicit\n- Receive and evaluate\n- Negotiate\n- Award\n- Manage",
+      "plain_text": "Plan ; Approve ; Create solicitation ; Solicit ; Receive and evaluate ; Negotiate ; Award ; Manage"
+    },
+    {
+      "block_id": "c047fc38c584::b0004",
+      "section_id": "c047fc38c584::s002",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide"
+      ],
+      "markdown": "Analyze and negotiate costs There are two steps in building a negotiated contract price. The first one is to establish a cost base, and the second one is to determine the profit. Establishing a cost base involves determining whether estimated or actual costs are fair and reasonable in accordance with: Contract Cost Principles 1031-2, section 5.1.0 of the Practitioner\u2019s Guide for Procurement Pricing Costing Standard criteria of attributable, appropriate and reasonable Cost Accounting Practices (CAP) Submission, and Costing discussion papers (see Practitioner\u2019s Guide for Procurement Pricing , Annex 4.3) Commercial pricing Cost-based Pricing Principles are not required for commercial goods and services, since these are used regularly for non-government purposes, and are sold by the offeror in the course of carrying out its normal business operations; and there is a sufficient number of buyers, other than the government, to establish a relevant market price for the good or service. Sufficient price support for a commercial price must be available to support a commercial price or Cost-based Pricing Principles will apply. (Refer to the Practitioner\u2019s Guide for Procurement Pricing , Section 5.0.2, Commercial Pricing). Contract cost principles Whenever a contract price is negotiated based on costs, the costs will be determined using Contract Cost Principles 1031-2 . For non-competitive contracts valued at $50,000 and over, with a fixed price or fixed time rate basis of payment, except in cases for the acquisition of commercial goods and services, the price or rate will be negotiated based on the estimated costs computed in accordance with the Contract Cost Principles 1031-2 . For non-competitive contracts valued at $50,000 or over, with a cost reimbursable basis of payment, except in cases for the acquisition of commercial goods and services, the price will be determined based on actual \u00accosts incurred computed in accordance with the Contract Cost Principles 1031-2 . In both of the above cases, the Contract Cost Principles will be included as a condition of the contract. Costing Standard The Costing Standard is located in Section 5.1.1 of the Practitioner\u2019s Guide for Procurement Pricing . It supplements Contract Cost Principles by applying principles-based and risk-guided approaches. This facilitates consistency, improves understanding and supports buyers\u2019 professional judgement in determining fair, reasonable, and effective pricing. Criteria for cost acceptability For the cost to be acceptable, the contract cost must be attributable, appropriate and reasonable. A cost is\u2026 If it is... attributable incurred directly or indirectly for the fulfillment of the contract, and necessary to fulfil the contract requirements appropriate by its character and nature, representing a cost that is expected to be incurred in the conduct of delivering the contract reasonable by its nature, not exceeding what might be expected to be incurred in the normal delivery of the contract, whether under a competitive or non-competitive procurement Cost categories and items The following tables detail specific cost items categorized by cost group, along with their associated subsections within Section 5.1.1, Costing Standard of the Practitioner\u2019s Guide for Procurement Pricing . Within the guide subsections, you will find descriptions of each cost item and information on how to assess its acceptability. Table 1: Asset-Based Costs Cost Category Cost Items Asset-Based Costs 1.1 Amortization of Unrealized Appreciation of Assets 1.2 Depreciation 1.3 Excess Production Capacity 1.4 Excess Facilities 1.5 Impairment of Assets 1.6 Leases 1.7 Special Production Tooling and Special Test Equipment 1.8 Government Assistance Related to Fixed Assets, Research and Product Development Table 2: Employed-Based Compensation Costs Cost Category Cost Items Employed-Based Compensation Costs 2.1 Dues and Membership 2.2 Downtime 2.3 Employee Benefits 2.4 Executive Benefits and Employee Compensation 2.5 Overtime Costs 2.6 Pension Costs 2.7 Pension Plan Refunds 2.8 Severance Payments 2.9 Training and Staff Development 2.10 Travel Costs and Living Expenses 2.11 Department of National Defence (DND) Facility Costs 2.12 Displacement/Dislocation Pay Allowance Table 3: Goods/Services-Based Costs Cost Category Cost Items Goods/Services-Based Costs 3.1 Bad Debts and Collection Charges 3.2 Inventory Losses and Obsolescence 3.3 Rework and Faulty Workmanship 3.4 Surplus Materials Expenses Table 4: Corporate/Various-Based Costs Cost Category Cost Items Corporate/Various-Based Costs 4.1 Allowance for Interest on Debt and Capital 4.2 Extraordinary or Unusual Matters or Events 4.3 Financial Related Expenses 4.4 Fines and Penalties 4.5 Fees for Professional Advice 4.6 Goodwill 4.7 Insurance 4.8 Legal, Accounting and Consulting Fees in Connection with Financial Reorganization, Security Issues, Capital Stock Issues, Obtaining of Patents and Licenses and Prosecution against the Crown 4.9 Losses on Investment 4.10 Losses on Other Contract 4.11 Patents and License 4.12 Prosecution of Claims against the Crown 4.13 Provisions for Contingencies and Warranty Costs 4.14 Refunds 4.15 Research and Development 4.16 Sales and Marketing Costs 4.17 Taxes 4.18 Joint Venture 4.19 Transfer Pricing 4.20 Head Office Expense 4.21 Environment Costs 4.22 Government Supplied Materials 4.23 Donations 4.24 Strategic Innovation Fund (SIF) Repayment Cost accounting practices submission Where a contract price will be based on estimated or actual costs, the buyer, in consultation with the Procurement Support Services Sector, may require a Cost Accounting Practices (CAP) Submission evidenced by a CAP Submission Acceptance Letter to clarify the cost accounting practices to be used for contract pricing. The CAP Submission is a formal disclosure of a contractor\u2019s cost accounting practices including the identification of direct and indirect costs and disclosure of methodologies used to allocate indirect costs. The CAP Submission and the CAP Submission Acceptance Letter (see the Practitioner\u2019s Guide for Procurement Pricing , Section 5.1.2) ensure that the cost accounting practices to be used for contract pricing are clear and understood by all parties by fully disclosing the acceptance of the practices during the pre-contract award period. For additional information, see the following sections of the Practitioner\u2019s Guide for Procurement Pricing : Section 5.1.2, Cost Accounting Practices (CAP) Submission, and Annex 3, Process Steps for Costing Accounting Practices (CAP) Submission The CAP Submission serves to reinforce the contractor\u2019s obligation to comply with Contract Cost Principles 1031-2. The CAP Submission does not address the reasonableness of the amount of costs but rather the nature of the cost or costing practices. Costing discussion papers The following discussion papers help explain costs and guide decisions about which costs are acceptable. They support you in understanding complex issues during contract negotiations and throughout the contract\u2019s lifecycle. They can be found in Annex 4.3 of the Practitioner\u2019s Guide for Procurement Pricing : Annex 4.3.1, Sales and Marketing Annex 4.3.2, Asset Valuation Annex 4.3.3, Production Capacity and Indirect Costs Allocation Costing rates For methods of allocating the contractor\u2019s fair and reasonable costs to a contract, refer to section 5.1.1.3, Contract Costing Rates of the Practitioner\u2019s Guide for Procurement Pricing , which covers: take-out rates out-of-plant service rates mobile repair party rates material handling rates purchased labour rates",
+      "plain_text": "Analyze and negotiate costs There are two steps in building a negotiated contract price. The first one is to establish a cost base, and the second one is to determine the profit. Establishing a cost base involves determining whether estimated or actual costs are fair and reasonable in accordance with: Contract Cost Principles 1031-2, section 5.1.0 of the Practitioner\u2019s Guide for Procurement Pricing Costing Standard criteria of attributable, appropriate and reasonable Cost Accounting Practices (CAP) Submission, and Costing discussion papers (see Practitioner\u2019s Guide for Procurement Pricing , Annex 4.3) Commercial pricing Cost-based Pricing Principles are not required for commercial goods and services, since these are used regularly for non-government purposes, and are sold by the offeror in the course of carrying out its normal business operations; and there is a sufficient number of buyers, other than the government, to establish a relevant market price for the good or service. Sufficient price support for a commercial price must be available to support a commercial price or Cost-based Pricing Principles will apply. (Refer to the Practitioner\u2019s Guide for Procurement Pricing , Section 5.0.2, Commercial Pricing). Contract cost principles Whenever a contract price is negotiated based on costs, the costs will be determined using Contract Cost Principles 1031-2 . For non-competitive contracts valued at $50,000 and over, with a fixed price or fixed time rate basis of payment, except in cases for the acquisition of commercial goods and services, the price or rate will be negotiated based on the estimated costs computed in accordance with the Contract Cost Principles 1031-2 . For non-competitive contracts valued at $50,000 or over, with a cost reimbursable basis of payment, except in cases for the acquisition of commercial goods and services, the price will be determined based on actual \u00accosts incurred computed in accordance with the Contract Cost Principles 1031-2 . In both of the above cases, the Contract Cost Principles will be included as a condition of the contract. Costing Standard The Costing Standard is located in Section 5.1.1 of the Practitioner\u2019s Guide for Procurement Pricing . It supplements Contract Cost Principles by applying principles-based and risk-guided approaches. This facilitates consistency, improves understanding and supports buyers\u2019 professional judgement in determining fair, reasonable, and effective pricing. Criteria for cost acceptability For the cost to be acceptable, the contract cost must be attributable, appropriate and reasonable. A cost is\u2026 If it is... attributable incurred directly or indirectly for the fulfillment of the contract, and necessary to fulfil the contract requirements appropriate by its character and nature, representing a cost that is expected to be incurred in the conduct of delivering the contract reasonable by its nature, not exceeding what might be expected to be incurred in the normal delivery of the contract, whether under a competitive or non-competitive procurement Cost categories and items The following tables detail specific cost items categorized by cost group, along with their associated subsections within Section 5.1.1, Costing Standard of the Practitioner\u2019s Guide for Procurement Pricing . Within the guide subsections, you will find descriptions of each cost item and information on how to assess its acceptability. Table 1: Asset-Based Costs Cost Category Cost Items Asset-Based Costs 1.1 Amortization of Unrealized Appreciation of Assets 1.2 Depreciation 1.3 Excess Production Capacity 1.4 Excess Facilities 1.5 Impairment of Assets 1.6 Leases 1.7 Special Production Tooling and Special Test Equipment 1.8 Government Assistance Related to Fixed Assets, Research and Product Development Table 2: Employed-Based Compensation Costs Cost Category Cost Items Employed-Based Compensation Costs 2.1 Dues and Membership 2.2 Downtime 2.3 Employee Benefits 2.4 Executive Benefits and Employee Compensation 2.5 Overtime Costs 2.6 Pension Costs 2.7 Pension Plan Refunds 2.8 Severance Payments 2.9 Training and Staff Development 2.10 Travel Costs and Living Expenses 2.11 Department of National Defence (DND) Facility Costs 2.12 Displacement/Dislocation Pay Allowance Table 3: Goods/Services-Based Costs Cost Category Cost Items Goods/Services-Based Costs 3.1 Bad Debts and Collection Charges 3.2 Inventory Losses and Obsolescence 3.3 Rework and Faulty Workmanship 3.4 Surplus Materials Expenses Table 4: Corporate/Various-Based Costs Cost Category Cost Items Corporate/Various-Based Costs 4.1 Allowance for Interest on Debt and Capital 4.2 Extraordinary or Unusual Matters or Events 4.3 Financial Related Expenses 4.4 Fines and Penalties 4.5 Fees for Professional Advice 4.6 Goodwill 4.7 Insurance 4.8 Legal, Accounting and Consulting Fees in Connection with Financial Reorganization, Security Issues, Capital Stock Issues, Obtaining of Patents and Licenses and Prosecution against the Crown 4.9 Losses on Investment 4.10 Losses on Other Contract 4.11 Patents and License 4.12 Prosecution of Claims against the Crown 4.13 Provisions for Contingencies and Warranty Costs 4.14 Refunds 4.15 Research and Development 4.16 Sales and Marketing Costs 4.17 Taxes 4.18 Joint Venture 4.19 Transfer Pricing 4.20 Head Office Expense 4.21 Environment Costs 4.22 Government Supplied Materials 4.23 Donations 4.24 Strategic Innovation Fund (SIF) Repayment Cost accounting practices submission Where a contract price will be based on estimated or actual costs, the buyer, in consultation with the Procurement Support Services Sector, may require a Cost Accounting Practices (CAP) Submission evidenced by a CAP Submission Acceptance Letter to clarify the cost accounting practices to be used for contract pricing. The CAP Submission is a formal disclosure of a contractor\u2019s cost accounting practices including the identification of direct and indirect costs and disclosure of methodologies used to allocate indirect costs. The CAP Submission and the CAP Submission Acceptance Letter (see the Practitioner\u2019s Guide for Procurement Pricing , Section 5.1.2) ensure that the cost accounting practices to be used for contract pricing are clear and understood by all parties by fully disclosing the acceptance of the practices during the pre-contract award period. For additional information, see the following sections of the Practitioner\u2019s Guide for Procurement Pricing : Section 5.1.2, Cost Accounting Practices (CAP) Submission, and Annex 3, Process Steps for Costing Accounting Practices (CAP) Submission The CAP Submission serves to reinforce the contractor\u2019s obligation to comply with Contract Cost Principles 1031-2. The CAP Submission does not address the reasonableness of the amount of costs but rather the nature of the cost or costing practices. Costing discussion papers The following discussion papers help explain costs and guide decisions about which costs are acceptable. They support you in understanding complex issues during contract negotiations and throughout the contract\u2019s lifecycle. They can be found in Annex 4.3 of the Practitioner\u2019s Guide for Procurement Pricing : Annex 4.3.1, Sales and Marketing Annex 4.3.2, Asset Valuation Annex 4.3.3, Production Capacity and Indirect Costs Allocation Costing rates For methods of allocating the contractor\u2019s fair and reasonable costs to a contract, refer to section 5.1.1.3, Contract Costing Rates of the Practitioner\u2019s Guide for Procurement Pricing , which covers: take-out rates out-of-plant service rates mobile repair party rates material handling rates purchased labour rates"
+    },
+    {
+      "block_id": "c047fc38c584::b0005",
+      "section_id": "c047fc38c584::s003",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide",
+        "Analyze and negotiate costs"
+      ],
+      "markdown": "## Analyze and negotiate costs",
+      "plain_text": "Analyze and negotiate costs"
+    },
+    {
+      "block_id": "c047fc38c584::b0006",
+      "section_id": "c047fc38c584::s003",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide",
+        "Analyze and negotiate costs"
+      ],
+      "markdown": "There are two steps in building a negotiated contract price. The first one is to establish a cost base, and the second one is to determine the profit. Establishing a cost base involves determining whether estimated or actual costs are fair and reasonable in accordance with:",
+      "plain_text": "There are two steps in building a negotiated contract price. The first one is to establish a cost base, and the second one is to determine the profit. Establishing a cost base involves determining whether estimated or actual costs are fair and reasonable in accordance with:"
+    },
+    {
+      "block_id": "c047fc38c584::b0007",
+      "section_id": "c047fc38c584::s003",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide",
+        "Analyze and negotiate costs"
+      ],
+      "markdown": "- Contract Cost Principles 1031-2, section 5.1.0 of the Practitioner\u2019s Guide for Procurement Pricing\n- Costing Standard criteria of attributable, appropriate and reasonable\n- Cost Accounting Practices (CAP) Submission, and\n- Costing discussion papers (see Practitioner\u2019s Guide for Procurement Pricing , Annex 4.3)",
+      "plain_text": "Contract Cost Principles 1031-2, section 5.1.0 of the Practitioner\u2019s Guide for Procurement Pricing ; Costing Standard criteria of attributable, appropriate and reasonable ; Cost Accounting Practices (CAP) Submission, and ; Costing discussion papers (see Practitioner\u2019s Guide for Procurement Pricing , Annex 4.3)"
+    },
+    {
+      "block_id": "c047fc38c584::b0008",
+      "section_id": "c047fc38c584::s004",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide",
+        "Analyze and negotiate costs",
+        "Commercial pricing"
+      ],
+      "markdown": "### Commercial pricing",
+      "plain_text": "Commercial pricing"
+    },
+    {
+      "block_id": "c047fc38c584::b0009",
+      "section_id": "c047fc38c584::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide",
+        "Analyze and negotiate costs",
+        "Commercial pricing"
+      ],
+      "markdown": "Cost-based Pricing Principles are not required for commercial goods and services, since these are used regularly for non-government purposes, and are sold by the offeror in the course of carrying out its normal business operations; and there is a sufficient number of buyers, other than the government, to establish a relevant market price for the good or service.",
+      "plain_text": "Cost-based Pricing Principles are not required for commercial goods and services, since these are used regularly for non-government purposes, and are sold by the offeror in the course of carrying out its normal business operations; and there is a sufficient number of buyers, other than the government, to establish a relevant market price for the good or service."
+    },
+    {
+      "block_id": "c047fc38c584::b0010",
+      "section_id": "c047fc38c584::s004",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide",
+        "Analyze and negotiate costs",
+        "Commercial pricing"
+      ],
+      "markdown": "Sufficient price support for a commercial price must be available to support a commercial price or Cost-based Pricing Principles will apply. (Refer to the Practitioner\u2019s Guide for Procurement Pricing , Section 5.0.2, Commercial Pricing).",
+      "plain_text": "Sufficient price support for a commercial price must be available to support a commercial price or Cost-based Pricing Principles will apply. (Refer to the Practitioner\u2019s Guide for Procurement Pricing , Section 5.0.2, Commercial Pricing)."
+    },
+    {
+      "block_id": "c047fc38c584::b0011",
+      "section_id": "c047fc38c584::s005",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide",
+        "Analyze and negotiate costs",
+        "Contract cost principles"
+      ],
+      "markdown": "### Contract cost principles",
+      "plain_text": "Contract cost principles"
+    },
+    {
+      "block_id": "c047fc38c584::b0012",
+      "section_id": "c047fc38c584::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide",
+        "Analyze and negotiate costs",
+        "Contract cost principles"
+      ],
+      "markdown": "Whenever a contract price is negotiated based on costs, the costs will be determined using Contract Cost Principles 1031-2 .",
+      "plain_text": "Whenever a contract price is negotiated based on costs, the costs will be determined using Contract Cost Principles 1031-2 ."
+    },
+    {
+      "block_id": "c047fc38c584::b0013",
+      "section_id": "c047fc38c584::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide",
+        "Analyze and negotiate costs",
+        "Contract cost principles"
+      ],
+      "markdown": "For non-competitive contracts valued at $50,000 and over, with a fixed price or fixed time rate basis of payment, except in cases for the acquisition of commercial goods and services, the price or rate will be negotiated based on the estimated costs computed in accordance with the Contract Cost Principles 1031-2 .",
+      "plain_text": "For non-competitive contracts valued at $50,000 and over, with a fixed price or fixed time rate basis of payment, except in cases for the acquisition of commercial goods and services, the price or rate will be negotiated based on the estimated costs computed in accordance with the Contract Cost Principles 1031-2 ."
+    },
+    {
+      "block_id": "c047fc38c584::b0014",
+      "section_id": "c047fc38c584::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide",
+        "Analyze and negotiate costs",
+        "Contract cost principles"
+      ],
+      "markdown": "For non-competitive contracts valued at $50,000 or over, with a cost reimbursable basis of payment, except in cases for the acquisition of commercial goods and services, the price will be determined based on actual \u00accosts incurred computed in accordance with the Contract Cost Principles 1031-2 .",
+      "plain_text": "For non-competitive contracts valued at $50,000 or over, with a cost reimbursable basis of payment, except in cases for the acquisition of commercial goods and services, the price will be determined based on actual \u00accosts incurred computed in accordance with the Contract Cost Principles 1031-2 ."
+    },
+    {
+      "block_id": "c047fc38c584::b0015",
+      "section_id": "c047fc38c584::s005",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide",
+        "Analyze and negotiate costs",
+        "Contract cost principles"
+      ],
+      "markdown": "In both of the above cases, the Contract Cost Principles will be included as a condition of the contract.",
+      "plain_text": "In both of the above cases, the Contract Cost Principles will be included as a condition of the contract."
+    },
+    {
+      "block_id": "c047fc38c584::b0016",
+      "section_id": "c047fc38c584::s006",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide",
+        "Analyze and negotiate costs",
+        "Costing Standard"
+      ],
+      "markdown": "### Costing Standard",
+      "plain_text": "Costing Standard"
+    },
+    {
+      "block_id": "c047fc38c584::b0017",
+      "section_id": "c047fc38c584::s006",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide",
+        "Analyze and negotiate costs",
+        "Costing Standard"
+      ],
+      "markdown": "The Costing Standard is located in Section 5.1.1 of the Practitioner\u2019s Guide for Procurement Pricing . It supplements Contract Cost Principles by applying principles-based and risk-guided approaches. This facilitates consistency, improves understanding and supports buyers\u2019 professional judgement in determining fair, reasonable, and effective pricing.",
+      "plain_text": "The Costing Standard is located in Section 5.1.1 of the Practitioner\u2019s Guide for Procurement Pricing . It supplements Contract Cost Principles by applying principles-based and risk-guided approaches. This facilitates consistency, improves understanding and supports buyers\u2019 professional judgement in determining fair, reasonable, and effective pricing."
+    },
+    {
+      "block_id": "c047fc38c584::b0018",
+      "section_id": "c047fc38c584::s007",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide",
+        "Analyze and negotiate costs",
+        "Costing Standard",
+        "Criteria for cost acceptability"
+      ],
+      "markdown": "#### Criteria for cost acceptability",
+      "plain_text": "Criteria for cost acceptability"
+    },
+    {
+      "block_id": "c047fc38c584::b0019",
+      "section_id": "c047fc38c584::s007",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide",
+        "Analyze and negotiate costs",
+        "Costing Standard",
+        "Criteria for cost acceptability"
+      ],
+      "markdown": "For the cost to be acceptable, the contract cost must be attributable, appropriate and reasonable.",
+      "plain_text": "For the cost to be acceptable, the contract cost must be attributable, appropriate and reasonable."
+    },
+    {
+      "block_id": "c047fc38c584::b0020",
+      "section_id": "c047fc38c584::s007",
+      "type": "table",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide",
+        "Analyze and negotiate costs",
+        "Costing Standard",
+        "Criteria for cost acceptability"
+      ],
+      "markdown": "| Column 1 | Column 2 |\n| --- | --- |\n| A cost is\u2026 | If it is... |\n| attributable | incurred directly or indirectly for the fulfillment of the contract, and necessary to fulfil the contract requirements |\n| appropriate | by its character and nature, representing a cost that is expected to be incurred in the conduct of delivering the contract |\n| reasonable | by its nature, not exceeding what might be expected to be incurred in the normal delivery of the contract, whether under a competitive or non-competitive procurement |",
+      "plain_text": "Column 1 | Column 2 ; A cost is\u2026 | If it is... ; attributable | incurred directly or indirectly for the fulfillment of the contract, and necessary to fulfil the contract requirements ; appropriate | by its character and nature, representing a cost that is expected to be incurred in the conduct of delivering the contract ; reasonable | by its nature, not exceeding what might be expected to be incurred in the normal delivery of the contract, whether under a competitive or non-competitive procurement",
+      "table_id": "c047fc38c584::t001"
+    },
+    {
+      "block_id": "c047fc38c584::b0021",
+      "section_id": "c047fc38c584::s008",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide",
+        "Analyze and negotiate costs",
+        "Costing Standard",
+        "Cost categories and items"
+      ],
+      "markdown": "#### Cost categories and items",
+      "plain_text": "Cost categories and items"
+    },
+    {
+      "block_id": "c047fc38c584::b0022",
+      "section_id": "c047fc38c584::s008",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide",
+        "Analyze and negotiate costs",
+        "Costing Standard",
+        "Cost categories and items"
+      ],
+      "markdown": "The following tables detail specific cost items categorized by cost group, along with their associated subsections within Section 5.1.1, Costing Standard of the Practitioner\u2019s Guide for Procurement Pricing . Within the guide subsections, you will find descriptions of each cost item and information on how to assess its acceptability.",
+      "plain_text": "The following tables detail specific cost items categorized by cost group, along with their associated subsections within Section 5.1.1, Costing Standard of the Practitioner\u2019s Guide for Procurement Pricing . Within the guide subsections, you will find descriptions of each cost item and information on how to assess its acceptability."
+    },
+    {
+      "block_id": "c047fc38c584::b0023",
+      "section_id": "c047fc38c584::s009",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide",
+        "Analyze and negotiate costs",
+        "Costing Standard",
+        "Cost categories and items",
+        "Table 1: Asset-Based Costs"
+      ],
+      "markdown": "##### Table 1: Asset-Based Costs",
+      "plain_text": "Table 1: Asset-Based Costs"
+    },
+    {
+      "block_id": "c047fc38c584::b0024",
+      "section_id": "c047fc38c584::s009",
+      "type": "table",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide",
+        "Analyze and negotiate costs",
+        "Costing Standard",
+        "Cost categories and items",
+        "Table 1: Asset-Based Costs"
+      ],
+      "markdown": "| Column 1 | Column 2 |\n| --- | --- |\n| Cost Category | Cost Items |\n| Asset-Based Costs | 1.1 Amortization of Unrealized Appreciation of Assets |\n| 1.2 Depreciation | |\n| 1.3 Excess Production Capacity | |\n| 1.4 Excess Facilities | |\n| 1.5 Impairment of Assets | |\n| 1.6 Leases | |\n| 1.7 Special Production Tooling and Special Test Equipment | |\n| 1.8 Government Assistance Related to Fixed Assets, Research and Product Development | |",
+      "plain_text": "Column 1 | Column 2 ; Cost Category | Cost Items ; Asset-Based Costs | 1.1 Amortization of Unrealized Appreciation of Assets ; 1.2 Depreciation | ; 1.3 Excess Production Capacity | ; 1.4 Excess Facilities | ; 1.5 Impairment of Assets |",
+      "table_id": "c047fc38c584::t002"
+    },
+    {
+      "block_id": "c047fc38c584::b0025",
+      "section_id": "c047fc38c584::s010",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide",
+        "Analyze and negotiate costs",
+        "Costing Standard",
+        "Cost categories and items",
+        "Table 2: Employed-Based Compensation Costs"
+      ],
+      "markdown": "##### Table 2: Employed-Based Compensation Costs",
+      "plain_text": "Table 2: Employed-Based Compensation Costs"
+    },
+    {
+      "block_id": "c047fc38c584::b0026",
+      "section_id": "c047fc38c584::s010",
+      "type": "table",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide",
+        "Analyze and negotiate costs",
+        "Costing Standard",
+        "Cost categories and items",
+        "Table 2: Employed-Based Compensation Costs"
+      ],
+      "markdown": "| Column 1 | Column 2 |\n| --- | --- |\n| Cost Category | Cost Items |\n| Employed-Based Compensation Costs | 2.1 Dues and Membership |\n| 2.2 Downtime | |\n| 2.3 Employee Benefits | |\n| 2.4 Executive Benefits and Employee Compensation | |\n| 2.5 Overtime Costs | |\n| 2.6 Pension Costs | |\n| 2.7 Pension Plan Refunds | |\n| 2.8 Severance Payments | |\n| 2.9 Training and Staff Development | |\n| 2.10 Travel Costs and Living Expenses | |\n| 2.11 Department of National Defence (DND) Facility Costs | |\n| 2.12 Displacement/Dislocation Pay Allowance | |",
+      "plain_text": "Column 1 | Column 2 ; Cost Category | Cost Items ; Employed-Based Compensation Costs | 2.1 Dues and Membership ; 2.2 Downtime | ; 2.3 Employee Benefits | ; 2.4 Executive Benefits and Employee Compensation | ; 2.5 Overtime Costs |",
+      "table_id": "c047fc38c584::t003"
+    },
+    {
+      "block_id": "c047fc38c584::b0027",
+      "section_id": "c047fc38c584::s011",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide",
+        "Analyze and negotiate costs",
+        "Costing Standard",
+        "Cost categories and items",
+        "Table 3: Goods/Services-Based Costs"
+      ],
+      "markdown": "##### Table 3: Goods/Services-Based Costs",
+      "plain_text": "Table 3: Goods/Services-Based Costs"
+    },
+    {
+      "block_id": "c047fc38c584::b0028",
+      "section_id": "c047fc38c584::s011",
+      "type": "table",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide",
+        "Analyze and negotiate costs",
+        "Costing Standard",
+        "Cost categories and items",
+        "Table 3: Goods/Services-Based Costs"
+      ],
+      "markdown": "| Column 1 | Column 2 |\n| --- | --- |\n| Cost Category | Cost Items |\n| Goods/Services-Based Costs | 3.1 Bad Debts and Collection Charges |\n| 3.2 Inventory Losses and Obsolescence | |\n| 3.3 Rework and Faulty Workmanship | |\n| 3.4 Surplus Materials Expenses | |",
+      "plain_text": "Column 1 | Column 2 ; Cost Category | Cost Items ; Goods/Services-Based Costs | 3.1 Bad Debts and Collection Charges ; 3.2 Inventory Losses and Obsolescence | ; 3.3 Rework and Faulty Workmanship | ; 3.4 Surplus Materials Expenses |",
+      "table_id": "c047fc38c584::t004"
+    },
+    {
+      "block_id": "c047fc38c584::b0029",
+      "section_id": "c047fc38c584::s012",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide",
+        "Analyze and negotiate costs",
+        "Costing Standard",
+        "Cost categories and items",
+        "Table 4: Corporate/Various-Based Costs"
+      ],
+      "markdown": "##### Table 4: Corporate/Various-Based Costs",
+      "plain_text": "Table 4: Corporate/Various-Based Costs"
+    },
+    {
+      "block_id": "c047fc38c584::b0030",
+      "section_id": "c047fc38c584::s012",
+      "type": "table",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide",
+        "Analyze and negotiate costs",
+        "Costing Standard",
+        "Cost categories and items",
+        "Table 4: Corporate/Various-Based Costs"
+      ],
+      "markdown": "| Column 1 | Column 2 |\n| --- | --- |\n| Cost Category | Cost Items |\n| Corporate/Various-Based Costs | 4.1 Allowance for Interest on Debt and Capital |\n| 4.2 Extraordinary or Unusual Matters or Events | |\n| 4.3 Financial Related Expenses | |\n| 4.4 Fines and Penalties | |\n| 4.5 Fees for Professional Advice | |\n| 4.6 Goodwill | |\n| 4.7 Insurance | |\n| 4.8 Legal, Accounting and Consulting Fees in Connection with Financial Reorganization, Security Issues, Capital Stock Issues, Obtaining of Patents and Licenses and Prosecution against the Crown | |\n| 4.9 Losses on Investment | |\n| 4.10 Losses on Other Contract | |\n| 4.11 Patents and License | |\n| 4.12 Prosecution of Claims against the Crown | |\n| 4.13 Provisions for Contingencies and Warranty Costs | |\n| 4.14 Refunds | |\n| 4.15 Research and Development | |\n| 4.16 Sales and Marketing Costs | |\n| 4.17 Taxes | |\n| 4.18 Joint Venture | |\n| 4.19 Transfer Pricing | |\n| 4.20 Head Office Expense | |\n| 4.21 Environment Costs | |\n| 4.22 Government Supplied Materials | |\n| 4.23 Donations | |\n| 4.24 Strategic Innovation Fund (SIF) Repayment | |",
+      "plain_text": "Column 1 | Column 2 ; Cost Category | Cost Items ; Corporate/Various-Based Costs | 4.1 Allowance for Interest on Debt and Capital ; 4.2 Extraordinary or Unusual Matters or Events | ; 4.3 Financial Related Expenses | ; 4.4 Fines and Penalties | ; 4.5 Fees for Professional Advice |",
+      "table_id": "c047fc38c584::t005"
+    },
+    {
+      "block_id": "c047fc38c584::b0031",
+      "section_id": "c047fc38c584::s013",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide",
+        "Analyze and negotiate costs",
+        "Cost accounting practices submission"
+      ],
+      "markdown": "### Cost accounting practices submission",
+      "plain_text": "Cost accounting practices submission"
+    },
+    {
+      "block_id": "c047fc38c584::b0032",
+      "section_id": "c047fc38c584::s013",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide",
+        "Analyze and negotiate costs",
+        "Cost accounting practices submission"
+      ],
+      "markdown": "Where a contract price will be based on estimated or actual costs, the buyer, in consultation with the Procurement Support Services Sector, may require a Cost Accounting Practices (CAP) Submission evidenced by a CAP Submission Acceptance Letter to clarify the cost accounting practices to be used for contract pricing.",
+      "plain_text": "Where a contract price will be based on estimated or actual costs, the buyer, in consultation with the Procurement Support Services Sector, may require a Cost Accounting Practices (CAP) Submission evidenced by a CAP Submission Acceptance Letter to clarify the cost accounting practices to be used for contract pricing."
+    },
+    {
+      "block_id": "c047fc38c584::b0033",
+      "section_id": "c047fc38c584::s013",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide",
+        "Analyze and negotiate costs",
+        "Cost accounting practices submission"
+      ],
+      "markdown": "The CAP Submission is a formal disclosure of a contractor\u2019s cost accounting practices including the identification of direct and indirect costs and disclosure of methodologies used to allocate indirect costs.",
+      "plain_text": "The CAP Submission is a formal disclosure of a contractor\u2019s cost accounting practices including the identification of direct and indirect costs and disclosure of methodologies used to allocate indirect costs."
+    },
+    {
+      "block_id": "c047fc38c584::b0034",
+      "section_id": "c047fc38c584::s013",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide",
+        "Analyze and negotiate costs",
+        "Cost accounting practices submission"
+      ],
+      "markdown": "The CAP Submission and the CAP Submission Acceptance Letter (see the Practitioner\u2019s Guide for Procurement Pricing , Section 5.1.2) ensure that the cost accounting practices to be used for contract pricing are clear and understood by all parties by fully disclosing the acceptance of the practices during the pre-contract award period.",
+      "plain_text": "The CAP Submission and the CAP Submission Acceptance Letter (see the Practitioner\u2019s Guide for Procurement Pricing , Section 5.1.2) ensure that the cost accounting practices to be used for contract pricing are clear and understood by all parties by fully disclosing the acceptance of the practices during the pre-contract award period."
+    },
+    {
+      "block_id": "c047fc38c584::b0035",
+      "section_id": "c047fc38c584::s013",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide",
+        "Analyze and negotiate costs",
+        "Cost accounting practices submission"
+      ],
+      "markdown": "For additional information, see the following sections of the Practitioner\u2019s Guide for Procurement Pricing :",
+      "plain_text": "For additional information, see the following sections of the Practitioner\u2019s Guide for Procurement Pricing :"
+    },
+    {
+      "block_id": "c047fc38c584::b0036",
+      "section_id": "c047fc38c584::s013",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide",
+        "Analyze and negotiate costs",
+        "Cost accounting practices submission"
+      ],
+      "markdown": "- Section 5.1.2, Cost Accounting Practices (CAP) Submission, and\n- Annex 3, Process Steps for Costing Accounting Practices (CAP) Submission",
+      "plain_text": "Section 5.1.2, Cost Accounting Practices (CAP) Submission, and ; Annex 3, Process Steps for Costing Accounting Practices (CAP) Submission"
+    },
+    {
+      "block_id": "c047fc38c584::b0037",
+      "section_id": "c047fc38c584::s013",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide",
+        "Analyze and negotiate costs",
+        "Cost accounting practices submission"
+      ],
+      "markdown": "The CAP Submission serves to reinforce the contractor\u2019s obligation to comply with Contract Cost Principles 1031-2. The CAP Submission does not address the reasonableness of the amount of costs but rather the nature of the cost or costing practices.",
+      "plain_text": "The CAP Submission serves to reinforce the contractor\u2019s obligation to comply with Contract Cost Principles 1031-2. The CAP Submission does not address the reasonableness of the amount of costs but rather the nature of the cost or costing practices."
+    },
+    {
+      "block_id": "c047fc38c584::b0038",
+      "section_id": "c047fc38c584::s014",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide",
+        "Analyze and negotiate costs",
+        "Costing discussion papers"
+      ],
+      "markdown": "### Costing discussion papers",
+      "plain_text": "Costing discussion papers"
+    },
+    {
+      "block_id": "c047fc38c584::b0039",
+      "section_id": "c047fc38c584::s014",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide",
+        "Analyze and negotiate costs",
+        "Costing discussion papers"
+      ],
+      "markdown": "The following discussion papers help explain costs and guide decisions about which costs are acceptable. They support you in understanding complex issues during contract negotiations and throughout the contract\u2019s lifecycle. They can be found in Annex 4.3 of the Practitioner\u2019s Guide for Procurement Pricing :",
+      "plain_text": "The following discussion papers help explain costs and guide decisions about which costs are acceptable. They support you in understanding complex issues during contract negotiations and throughout the contract\u2019s lifecycle. They can be found in Annex 4.3 of the Practitioner\u2019s Guide for Procurement Pricing :"
+    },
+    {
+      "block_id": "c047fc38c584::b0040",
+      "section_id": "c047fc38c584::s014",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide",
+        "Analyze and negotiate costs",
+        "Costing discussion papers"
+      ],
+      "markdown": "- Annex 4.3.1, Sales and Marketing\n- Annex 4.3.2, Asset Valuation\n- Annex 4.3.3, Production Capacity and Indirect Costs Allocation",
+      "plain_text": "Annex 4.3.1, Sales and Marketing ; Annex 4.3.2, Asset Valuation ; Annex 4.3.3, Production Capacity and Indirect Costs Allocation"
+    },
+    {
+      "block_id": "c047fc38c584::b0041",
+      "section_id": "c047fc38c584::s015",
+      "type": "heading",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide",
+        "Analyze and negotiate costs",
+        "Costing rates"
+      ],
+      "markdown": "### Costing rates",
+      "plain_text": "Costing rates"
+    },
+    {
+      "block_id": "c047fc38c584::b0042",
+      "section_id": "c047fc38c584::s015",
+      "type": "paragraph",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide",
+        "Analyze and negotiate costs",
+        "Costing rates"
+      ],
+      "markdown": "For methods of allocating the contractor\u2019s fair and reasonable costs to a contract, refer to section 5.1.1.3, Contract Costing Rates of the Practitioner\u2019s Guide for Procurement Pricing , which covers:",
+      "plain_text": "For methods of allocating the contractor\u2019s fair and reasonable costs to a contract, refer to section 5.1.1.3, Contract Costing Rates of the Practitioner\u2019s Guide for Procurement Pricing , which covers:"
+    },
+    {
+      "block_id": "c047fc38c584::b0043",
+      "section_id": "c047fc38c584::s015",
+      "type": "list",
+      "heading_path": [
+        "Buyer's Guide Cost and profit negotiations - Analyze and negotiate costs",
+        "Buyer's Guide",
+        "Analyze and negotiate costs",
+        "Costing rates"
+      ],
+      "markdown": "- take-out rates\n- out-of-plant service rates\n- mobile repair party rates\n- material handling rates\n- purchased labour rates",
+      "plain_text": "take-out rates ; out-of-plant service rates ; mobile repair party rates ; material handling rates ; purchased labour rates"
+    }
+  ]
+}
