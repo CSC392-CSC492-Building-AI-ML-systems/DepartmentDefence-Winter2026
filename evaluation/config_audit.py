@@ -21,7 +21,10 @@ ENV_PATH = REPO_ROOT / ".env"
 
 ACTIVE_ENV_KEYS = {
     "RAW_DIR",
+    "APP_TOP_K",
+    "EVAL_TOP_K",
     "TOP_K",
+    "RETRIEVAL_CANDIDATE_K",
     "CHUNK_CHARS",
     "CHUNK_OVERLAP",
     "RETRIEVAL_ALPHA",
@@ -62,10 +65,17 @@ def _nonfatal_notes() -> List[str]:
         )
     if (not cfg.ENABLE_RERANK) and cfg.RERANK_ALPHA > 0:
         notes.append("Rerank alpha is set but ENABLE_RERANK=false; rerank blend is currently inactive.")
-    if cfg.MAX_PACKED_DOCS < cfg.TOP_K:
+    if cfg.MAX_CHUNKS_PER_SOURCE == 0:
+        notes.append("MAX_CHUNKS_PER_SOURCE=0; per-source diversity capping is disabled.")
+    if cfg.MAX_PACKED_DOCS < cfg.APP_TOP_K:
         notes.append(
-            f"MAX_PACKED_DOCS ({cfg.MAX_PACKED_DOCS}) < TOP_K ({cfg.TOP_K}); "
+            f"MAX_PACKED_DOCS ({cfg.MAX_PACKED_DOCS}) < APP_TOP_K ({cfg.APP_TOP_K}); "
             "chat context packing will include fewer docs than retrieval returns."
+        )
+    if cfg.RETRIEVAL_CANDIDATE_K < cfg.APP_TOP_K:
+        notes.append(
+            f"RETRIEVAL_CANDIDATE_K ({cfg.RETRIEVAL_CANDIDATE_K}) < APP_TOP_K ({cfg.APP_TOP_K}); "
+            "candidate depth is lower than selected output depth."
         )
     return notes
 
@@ -100,7 +110,10 @@ def run() -> None:
         "validation_errors": errors,
         "notes": sorted(set(cfg.config_diagnostics() + _nonfatal_notes())),
         "effective_config_snapshot": {
+            "APP_TOP_K": cfg.APP_TOP_K,
+            "EVAL_TOP_K": cfg.EVAL_TOP_K,
             "TOP_K": cfg.TOP_K,
+            "RETRIEVAL_CANDIDATE_K": cfg.RETRIEVAL_CANDIDATE_K,
             "RETRIEVAL_ALPHA": cfg.RETRIEVAL_ALPHA,
             "MAX_CHUNKS_PER_SOURCE": cfg.MAX_CHUNKS_PER_SOURCE,
             "ENABLE_RERANK": cfg.ENABLE_RERANK,

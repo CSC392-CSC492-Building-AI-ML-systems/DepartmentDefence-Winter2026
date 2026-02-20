@@ -211,6 +211,30 @@ Last updated: February 19, 2026
     - rewrite provides slight chunk gain but neutral prefix gain.
     - rerank regresses both chunk and prefix recall on this suite.
 
+## 2026-02-20: Per-Source Cap Disabled (Uncapped)
+- Change:
+  - `MAX_CHUNKS_PER_SOURCE` semantics updated so `0` means uncapped.
+  - `rag/app_config.py` default is now `0`.
+  - `rag/retrieval.py` now skips source capping entirely when value is `0`.
+- Validation:
+  - `evaluation/runs/config_audit_uncapped_latest.json`
+  - Note confirms: `MAX_CHUNKS_PER_SOURCE=0; per-source diversity capping is disabled.`
+- Results at `top_k=24`, rerank off:
+  - No rewrite:
+    - `evaluation/runs/retrieval_suite_chunkstress_k24_uncapped_norewrite.json`
+    - `chunk_id_recall_mean = 0.7857` (up from `0.7024` with cap=3)
+    - `chunk_id_recall_micro = 0.7671` (up from `0.6712`)
+    - `doc_prefix_recall_mean = 0.9641` (down from `0.9769`)
+  - With rewrite:
+    - `evaluation/runs/retrieval_suite_chunkstress_k24_uncapped_rewrite.json`
+    - `chunk_id_recall_mean = 0.8333` (up from `0.6488` with cap=3)
+    - `chunk_id_recall_micro = 0.8219` (up from `0.6164`)
+    - `doc_prefix_recall_mean = 0.9718` (vs `0.9769` with cap=3)
+    - chunk-case hit rate reached `28/28` (zero chunk-hit cases = `0`).
+- Interpretation:
+  - Disabling per-source capping strongly improves strict chunk retrieval on this corpus.
+  - Slight doc-prefix macro recall drop indicates less cross-document diversity in top-k.
+
 ## Experimental Branch (isolated from production retrieval)
 - Folder: `experiments/alt_retrieval/`
 - GraphRAG-lite eval:
@@ -268,19 +292,154 @@ Last updated: February 19, 2026
   - Large-pool rerank and LLM reselection are useful for source-level coverage, not strict chunk hit rate.
 
 ## .env Simplification
-- `.env` now contains only:
+- `.env` now contains:
   - `COHERE_API_KEY=...`
   - `COHERE_CHAT_MODEL=command-r-08-2024`
   - `COHERE_EMBED_MODEL=embed-english-v3.0`
+  - `MAX_CHUNKS_PER_SOURCE=0`
 - Validation:
   - `evaluation/runs/config_audit_latest.json`
   - `unknown_env_keys = 0`
   - `validated = true`
 
+## Query Rewrite Verification
+- Enablement checks:
+  - `ENABLE_LLM_QUERY_REWRITE` defaults to `true` in `rag/app_config.py`.
+  - `evaluation/retrieval_adversarial_runner.py` only uses rewrites when `--use-query-rewrite` is passed.
+  - Runtime check confirmed:
+    - `ENABLE_LLM_QUERY_REWRITE=True`
+    - `QUERY_REWRITE_MAX_QUERIES=3`
+    - `QUERY_REWRITE_MODEL=command-r-08-2024`
+- Quality adjustment:
+  - `rag/query_rewrite.py` prompt was tightened to avoid template-heavy rewrites.
+  - Added post-filtering for overly generic or weak-overlap rewrites.
+- Refcheck runs (`top_k=24`, same 65-case suite):
+  - No rewrite:
+    - `evaluation/runs/retrieval_suite_chunkstress_k24_norewrite_refcheck.json`
+    - `chunk_id_recall_mean = 0.7024`
+    - `doc_prefix_recall_mean = 0.9769`
+  - With rewrite:
+    - `evaluation/runs/retrieval_suite_chunkstress_k24_rewrite_refcheck.json`
+    - `chunk_id_recall_mean = 0.6488`
+    - `doc_prefix_recall_mean = 0.9769`
+  - Diagnostics:
+    - rewrites produced for `62/65` cases
+    - average expansions per case: `1.49`
+  - Decision:
+    - keep rewrite optional; do not enable by default for retrieval scoring on this suite.
+
+## Runs Folder Cleanup
+- Archived older run artifacts (no deletion):
+  - `evaluation/runs/archive_2026-02-20/`
+  - `experiments/alt_retrieval/runs/archive_2026-02-20/`
+- Kept only current canonical run outputs and caches in active run folders.
+
 ## Add-Back Queue (one at a time)
 1. Re-check clause coverage thresholds (`MAX_CLAUSE_COVERAGE`, `CLAUSE_COVERAGE_MIN_OVERLAP`) for stability
 2. If needed, run targeted mode/lineage eval cases before reconsidering those features
 3. Keep rerank off unless a future suite demonstrates prefix-recall improvement
+
+## 2026-02-20: Uncapped Retest Matrix (one-by-one)
+- Baseline verification (`top_k=24`, rerank off):
+  - `evaluation/runs/retrieval_suite_chunkstress_k24_uncapped_norewrite.json`
+    - `chunk_id_recall_mean = 0.7857`
+    - `doc_prefix_recall_mean = 0.9641`
+  - `evaluation/runs/retrieval_suite_chunkstress_k24_uncapped_rewrite.json`
+    - `chunk_id_recall_mean = 0.8333`
+    - `doc_prefix_recall_mean = 0.9718`
+- Component ablations (uncapped, `top_k=24`):
+  - `evaluation/runs/retrieval_component_ablation_chunkstress_k24_uncapped.json`
+  - Results:
+    - `default_norewrite`: chunk `0.7857`, prefix `0.9641`
+    - `no_stopwords_norewrite`: chunk `0.7857`, prefix `0.9538` (prefix drop)
+    - `dense_only_norewrite`: chunk `0.7440`, prefix `0.9410` (regression)
+    - `lexical_only_norewrite`: chunk `0.7738`, prefix `0.9795` (prefix up, chunk down)
+    - `default_rewrite`: chunk `0.8214`, prefix `0.9718` (both up vs default_norewrite)
+    - `rewrite_no_merge`: chunk `0.7857`, prefix `0.9641` (rewrite gains disappear)
+    - `default_norewrite_rerank`: chunk `0.7500`, prefix `0.9436` (regression)
+- Alpha sweeps (uncapped, `top_k=24`):
+  - `evaluation/runs/retrieval_alpha_sweep_chunkstress_k24_uncapped_norewrite.json`
+    - best chunk-first alpha: `0.9` (`chunk=0.8452`, `prefix=0.9641`)
+    - best prefix-first alpha: `0.0` (`prefix=0.9795`, `chunk=0.7738`)
+  - `evaluation/runs/retrieval_alpha_sweep_chunkstress_k24_uncapped_rewrite.json`
+    - best chunk-first alpha: `0.8` (`chunk=0.8214`, `prefix=0.9513`)
+    - best prefix-first alpha: `0.0` (`prefix=0.9795`, `chunk=0.7619`)
+- Top-k sweeps (uncapped):
+  - `evaluation/runs/retrieval_topk_sweep_chunkstress_uncapped_norewrite.json`
+  - `evaluation/runs/retrieval_topk_sweep_chunkstress_uncapped_rewrite.json`
+  - Both indicate larger `top_k` helps strict chunk recall; best chunk score appears at `k=48`.
+- Verification runs for tuned points:
+  - `evaluation/runs/retrieval_suite_chunkstress_k24_uncapped_alpha09_norewrite.json`
+    - `chunk_id_recall_mean = 0.8452`
+    - `doc_prefix_recall_mean = 0.9641`
+  - `evaluation/runs/retrieval_suite_chunkstress_k48_uncapped_norewrite.json`
+    - `chunk_id_recall_mean = 0.8690`
+    - `doc_prefix_recall_mean = 0.9718`
+  - `evaluation/runs/retrieval_suite_chunkstress_k48_uncapped_rewrite.json`
+    - `chunk_id_recall_mean = 0.8571`
+    - `doc_prefix_recall_mean = 0.9718`
+- Expensive methods retested under uncapped mode (`experiments/alt_retrieval/expensive_methods_eval.py`):
+  - Note:
+    - `_apply_source_cap` was fixed to respect uncapped mode (`MAX_CHUNKS_PER_SOURCE=0`).
+    - Added new method: `doc_first_focus` (stage-1 likely-doc selection, stage-2 focused chunk retrieval).
+  - No-rewrite runs:
+    - `expensive_method_large_pool_rerank_k24_uncapped_norewrite.json`:
+      - chunk delta `+0.1071`, prefix delta `-0.0231`
+    - `expensive_method_decomposition_fusion_k24_uncapped_norewrite.json`:
+      - chunk delta `0.0000`, prefix delta `0.0000`
+    - `expensive_method_two_pass_coverage_k24_uncapped_norewrite.json`:
+      - chunk delta `+0.0119`, prefix delta `-0.0077`
+    - `expensive_method_doc_first_focus_k24_uncapped_norewrite.json`:
+      - chunk delta `0.0000`, prefix delta `-0.0051`
+  - Rewrite-enabled runs:
+    - `expensive_method_large_pool_rerank_k24_uncapped_rewrite.json`:
+      - chunk delta `+0.0476`, prefix delta `-0.0231`
+    - `expensive_method_decomposition_fusion_k24_uncapped_rewrite.json`:
+      - chunk delta `+0.0238`, prefix delta `-0.0154`
+    - `expensive_method_two_pass_coverage_k24_uncapped_rewrite.json`:
+      - chunk delta `+0.0119`, prefix delta `-0.0077`
+    - `expensive_method_doc_first_focus_k24_uncapped_rewrite.json`:
+      - chunk delta `0.0000`, prefix delta `0.0000`
+  - `llm_reselection` status:
+    - Full-suite and reduced-split runs timed out repeatedly; no completed uncapped report yet.
+- Uncapped takeaway:
+  - Chunk-focused objective favors:
+    - uncapped retrieval (`MAX_CHUNKS_PER_SOURCE=0`)
+    - higher `top_k` (best seen at `48`)
+    - higher dense weight when no rewrite (`alpha~0.9`)
+  - Prefix-focused objective favors:
+    - lower alpha (`0.0` lexical-heavy), but this reduces chunk recall.
+  - Under uncapped settings, query rewrite no longer appears harmful by default and can help chunk recall.
+
+## App Config Audit (Recall-Relevant)
+- `rag/app_config.py` items that directly affect retrieval recall:
+  - `TOP_K`:
+    - app-default retrieval depth is `10`, but eval runs now use explicit higher `--top-k`.
+  - `RETRIEVAL_ALPHA`:
+    - default is `0.5`; uncapped sweeps show chunk-optimal alpha shifts higher (`~0.9`) at `k=24`.
+  - `MAX_CHUNKS_PER_SOURCE`:
+    - now supports `0` (uncapped), which materially improved chunk recall.
+  - `ENABLE_LLM_QUERY_REWRITE` + `QUERY_REWRITE_MAX_QUERIES`:
+    - rewrite is enabled in app path; eval path uses `--use-query-rewrite`.
+  - `MAX_PACKED_DOCS` vs `TOP_K`:
+    - affects chat packing, not raw retrieval scoring.
+- Other config notes:
+  - `load_dotenv(override=False)` means explicit shell env overrides `.env`, which is better for reproducible experiment commands.
+  - `evaluation/config_audit.py` now emits a note when uncapped mode is active.
+
+## BM25 / Stopwords Clarification
+- Current retriever is not BM25:
+  - `rag/retrieval.py` uses:
+    - dense cosine similarity from Cohere embeddings
+    - a custom lexical overlap score over token sets
+    - weighted blend via `RETRIEVAL_ALPHA`
+- Cohere usage in this repo:
+  - `embed` for vectors
+  - `chat` for rewrite/LLM selection
+  - `rerank` for optional reranking
+- Stopwords:
+  - stopwords are local (`STOPWORDS` in `rag/retrieval.py`), only for lexical overlap.
+  - because BM25 is not in use here, there is no Cohere-managed BM25 stopword behavior in current retrieval.
 
 ## Experiment Rule
 - For each add-back:
@@ -288,3 +447,92 @@ Last updated: February 19, 2026
   2. Rerun `evaluation/retrieval_adversarial_runner.py`.
   3. Compare with previous run on the same case set.
   4. Keep only if metrics improve without new severe regressions.
+
+## 2026-02-20: Current Profile Retest (post uncapped + stable app/eval split)
+- Fresh baseline checks (`top_k=48`):
+  - `evaluation/runs/retrieval_suite_k48_current_norewrite_norerank.json`
+    - `chunk_id_recall_mean = 0.8869`
+    - `doc_prefix_recall_mean = 0.9769`
+  - `evaluation/runs/retrieval_suite_k48_current_rewrite_enabled.json`
+    - `chunk_id_recall_mean = 0.8988`
+    - `doc_prefix_recall_mean = 0.9795`
+- Rerank alpha mini-sweep (`top_k=48`, no rewrite):
+  - `a=0.2`: `chunk=0.8988`, `prefix=0.9769`
+  - `a=0.4`: `chunk=0.8988`, `prefix=0.9769`
+  - `a=0.6`: `chunk=0.8631`, `prefix=0.9769`
+  - `a=1.0`: `chunk=0.8333`, `prefix=0.9718`
+- Retrieval alpha sweeps (`top_k=48`, rerank on, `RERANK_ALPHA=0.2`):
+  - no rewrite:
+    - `evaluation/runs/retrieval_alpha_sweep_k48_rerank_a02_current.json`
+    - best: `alpha=0.7` -> `chunk=0.9464`, `prefix=0.9846`
+  - rewrite enabled:
+    - `evaluation/runs/retrieval_alpha_sweep_k48_rerank_a02_rewrite_current.json`
+    - best: `alpha=0.7` -> `chunk=0.9524`, `prefix=0.9923`
+- Verification runs:
+  - `evaluation/runs/retrieval_suite_k48_rerank_a02_retrieval07_current.json`
+    - `chunk=0.9464`, `prefix=0.9846`
+  - `evaluation/runs/retrieval_suite_k64_rerank_a02_retrieval07_rewrite_current.json`
+    - `chunk=0.9762`, `prefix=0.9923`
+- Top-k sweep with tuned alpha/rerank:
+  - `evaluation/runs/retrieval_topk_sweep_rerank_a02_alpha07_current.json`
+  - quality rises monotonically in tested range (`k=8 -> 64`), best at `k=64`.
+- Condensation test (retrieve deep, then keep fewer chunks):
+  - `evaluation/runs/retrieval_condense_curve_from64_rewrite_current.json`
+  - key points:
+    - `slice_24`: `chunk=0.8929`, `prefix=0.9795`
+    - `slice_32`: `chunk=0.9167`, `prefix=0.9872`
+    - `rerank_40`: `chunk=0.9524`, `prefix=0.9923`
+  - takeaway:
+    - collapsing to 12-24 chunks loses substantial chunk recall.
+    - to preserve high chunk recall from deep retrieval, keep ~32-40 chunks.
+
+## 2026-02-20: Third-Party BM25 / Hybrid Experiment (Isolated)
+- New isolated runner:
+  - `experiments/bm25_hybrid/bm25_hybrid_eval.py`
+  - Uses third-party `rank-bm25` (`BM25Okapi`) + optional dense/hybrid blend.
+  - No production retrieval code changes required.
+- Baseline (no rewrite, `top_k=48`):
+  - `experiments/bm25_hybrid/runs/bm25_hybrid_eval_k48_norewrite_cached.json`
+  - `bm25`: chunk `0.8869`, prefix `0.9872`
+  - `dense`: chunk `0.8155`, prefix `0.9538`
+  - `hybrid(alpha=0.7)`: chunk `0.9167`, prefix `0.9846`
+- BM25 with stopword drop (no rewrite, `top_k=48`):
+  - `experiments/bm25_hybrid/runs/bm25_hybrid_eval_k48_norewrite_stopwords_dropped.json`
+  - `bm25`: chunk `0.9524`, prefix `0.9872`
+  - `hybrid`: chunk `0.9524`, prefix `0.9795`
+- Rewrite enabled (`top_k=48`):
+  - `experiments/bm25_hybrid/runs/bm25_hybrid_eval_k48_rewrite.json`
+  - without stopword drop, chunk regresses (`bm25=0.9107`, `hybrid=0.9226`) while prefix increases (`0.9949`)
+  - with stopword drop:
+    - `experiments/bm25_hybrid/runs/bm25_hybrid_eval_k48_rewrite_stopwords_dropped.json`
+    - chunk returns to `0.9524`, prefix `0.9872`
+- `top_k=64`, rewrite + stopword drop:
+  - `experiments/bm25_hybrid/runs/bm25_hybrid_eval_k64_rewrite_stopwords_dropped_alpha02.json`
+  - `bm25/hybrid`: chunk `0.9762`, prefix `0.9949`
+  - rerun consistency check:
+    - `experiments/bm25_hybrid/runs/bm25_hybrid_eval_k64_rewrite_stopwords_dropped_alpha02_postfix_rerun2.json`
+    - same aggregate: chunk `0.9762`, prefix `0.9949`
+- Rewrite model speed/quality check:
+  - Production pipeline (`top_k=48`, rerank on, alpha=0.7):
+    - no rewrite: `evaluation/runs/retrieval_suite_k48_prechange_norewrite_rerank.json`
+      - chunk `0.9464`, wall time ~`45s`
+    - rewrite (`command-r-08-2024`): `evaluation/runs/retrieval_suite_k48_prechange_rewrite_rerank.json`
+      - chunk `0.9524`, wall time ~`517s`
+    - rewrite (`command-r7b-12-2024`): `evaluation/runs/retrieval_suite_k48_prechange_rewrite_r7b.json`
+      - chunk `0.9345`, wall time ~`83s`
+- Takeaway:
+  - Third-party BM25 is viable and competitive on this suite.
+  - Stopword handling materially changes BM25 outcomes because `rank-bm25` does not provide built-in tokenization/stopword removal.
+  - For current chunk-priority objective, best seen BM25 setting matches best production chunk recall at `top_k=64`, with stronger prefix recall.
+  - rewrite-enabled runs show some natural non-determinism in aggregate chunk recall across repeats; keep reruns when judging close results.
+- Post-patch verification runs (with rewrite diagnostics + fixed top-k sweep output):
+  - `evaluation/runs/retrieval_suite_k48_postpatch_rewrite_rerank_a02_alpha07.json`
+    - `chunk=0.9524`, `prefix=0.9872`
+  - `evaluation/runs/retrieval_suite_k64_postpatch_best.json`
+    - `chunk=0.9762`, `prefix=0.9923`
+  - `evaluation/runs/retrieval_topk_sweep_postpatch_full.json`
+    - best `k=64` by both chunk and prefix objectives
+  - `evaluation/runs/retrieval_alpha_sweep_postpatch_k48_rerank_rewrite.json`
+    - best `alpha=0.7`
+  - `evaluation/runs/config_audit_postpatch.json`
+    - `validated=true`, no unknown env keys

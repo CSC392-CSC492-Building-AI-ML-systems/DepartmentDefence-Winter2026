@@ -34,8 +34,9 @@ from rag.app_config import (
     CHUNK_CHARS,
     CHUNK_OVERLAP,
     EMBED_MODEL,
+    EVAL_TOP_K,
+    QUERY_REWRITE_MODEL,
     RAW_DIR,
-    TOP_K,
     config_diagnostics,
     legacy_retrieval_env_overrides,
 )
@@ -59,7 +60,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
     parser.add_argument("--cache-file", type=Path, default=DEFAULT_CACHE)
     parser.add_argument("--chunk-cache-file", type=Path, default=DEFAULT_CHUNK_CACHE)
-    parser.add_argument("--top-k", type=int, default=max(24, TOP_K))
+    parser.add_argument("--top-k", type=int, default=max(24, EVAL_TOP_K))
     parser.add_argument(
         "--retrieval-alpha",
         type=float,
@@ -266,6 +267,20 @@ def _normalize_case(row: Dict[str, Any]) -> Dict[str, Any]:
     }
 
 
+def _build_query_rewrite_cache(client, cases: List[Dict[str, Any]]) -> Dict[str, List[str]]:
+    cache: Dict[str, List[str]] = {}
+    for case in cases:
+        question = case["question"]
+        if question in cache:
+            continue
+        cache[question] = generate_query_expansions(
+            client=client,
+            question=question,
+            chat_history=[],
+        )
+    return cache
+
+
 def run() -> None:
     args = parse_args()
     raw_cases = _load_cases(args.cases_file)
@@ -294,6 +309,10 @@ def run() -> None:
     client = create_client()
     chunk_vecs = _load_or_embed_chunk_vectors(client, chunks, args.cache_file)
     chunk_vocabs, chunk_modes, chunk_meta_vocabs = retrieval.build_chunk_features(chunks)
+    query_rewrite_cache = (
+        _build_query_rewrite_cache(client, cases) if args.use_query_rewrite else {}
+    )
+    rewrite_lengths = [len(value) for value in query_rewrite_cache.values()]
     original_enable_rerank = retrieval.ENABLE_RERANK
     original_alpha = retrieval.RETRIEVAL_ALPHA
     retrieval.ENABLE_RERANK = bool(args.enable_rerank)
@@ -319,11 +338,7 @@ def run() -> None:
                 prefix for prefix in expected_prefixes if prefix not in available_prefixes
             ]
 
-            query_expansions: List[str] = []
-            if args.use_query_rewrite:
-                query_expansions = generate_query_expansions(
-                    client=client, question=question, chat_history=[]
-                )
+            query_expansions = query_rewrite_cache.get(question, []) if args.use_query_rewrite else []
 
             retrieved = retrieval.retrieve(
                 client=client,
@@ -467,9 +482,22 @@ def run() -> None:
                 "MAX_CHUNKS_PER_SOURCE": os.getenv("MAX_CHUNKS_PER_SOURCE"),
                 "ENABLE_RERANK": os.getenv("ENABLE_RERANK"),
                 "ENABLE_LLM_QUERY_REWRITE": os.getenv("ENABLE_LLM_QUERY_REWRITE"),
+                "QUERY_REWRITE_MODEL": os.getenv("QUERY_REWRITE_MODEL"),
             },
+            "effective_query_rewrite_model": QUERY_REWRITE_MODEL,
             "config_diagnostics": config_diagnostics(),
             "legacy_retrieval_env_overrides": legacy_retrieval_env_overrides(),
+        },
+        "query_rewrite_diagnostics": {
+            "question_count": len(query_rewrite_cache),
+            "avg_expansions_per_question": (
+                sum(rewrite_lengths) / len(rewrite_lengths) if rewrite_lengths else 0.0
+            ),
+            "questions_with_expansions": sum(1 for count in rewrite_lengths if count > 0),
+            "sample": [
+                {"question": question, "expansions": query_rewrite_cache[question]}
+                for question in list(query_rewrite_cache.keys())[:8]
+            ],
         },
         "summary": summary,
         "cases": results,

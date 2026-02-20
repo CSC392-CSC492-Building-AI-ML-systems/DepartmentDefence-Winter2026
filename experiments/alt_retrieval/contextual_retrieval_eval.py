@@ -208,7 +208,9 @@ def run() -> None:
                 if question in rewrite_cache:
                     continue
                 rewrite_cache[question] = generate_query_expansions(
-                    client=client, question=question, chat_history=[]
+                    client=client,
+                    question=question,
+                    chat_history=[],
                 )
 
         baseline_rows, baseline_summary = _evaluate(

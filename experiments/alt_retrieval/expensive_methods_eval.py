@@ -38,6 +38,7 @@ METHOD_CHOICES = (
     "decomposition_fusion",
     "two_pass_coverage",
     "llm_reselection",
+    "doc_first_focus",
 )
 JSON_OBJECT_RE = re.compile(r"\{.*\}", re.DOTALL)
 
@@ -64,6 +65,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--rescue-weight", type=float, default=0.85)
     parser.add_argument("--clause-overlap-threshold", type=float, default=0.45)
     parser.add_argument("--llm-pool-k", type=int, default=64)
+    parser.add_argument("--doc-top-n", type=int, default=8)
     parser.add_argument("--rerank-model", default=RERANK_MODEL)
     parser.add_argument("--selector-model", default=CHAT_MODEL)
     parser.add_argument("--use-query-rewrite", action="store_true")
@@ -98,11 +100,24 @@ def _apply_source_cap(
     top_k: int,
     max_per_source: int = MAX_CHUNKS_PER_SOURCE,
 ) -> List[Tuple[Chunk, float]]:
+    cap = int(max_per_source)
+    target_k = max(1, int(top_k))
+    if cap <= 0:
+        # Uncapped mode keeps pure ranking order.
+        selected: List[Tuple[Chunk, float]] = []
+        selected_ids: Set[str] = set()
+        for chunk, score in ranked:
+            if chunk.chunk_id in selected_ids:
+                continue
+            selected.append((chunk, float(score)))
+            selected_ids.add(chunk.chunk_id)
+            if len(selected) >= target_k:
+                break
+        return selected
+
     selected: List[Tuple[Chunk, float]] = []
     selected_ids: Set[str] = set()
     per_source_count: Dict[str, int] = {}
-    cap = max(1, int(max_per_source))
-    target_k = max(1, int(top_k))
 
     for chunk, score in ranked:
         if chunk.chunk_id in selected_ids:
@@ -280,8 +295,15 @@ def run() -> None:
             if question in rewrite_cache:
                 continue
             rewrite_cache[question] = generate_query_expansions(
-                client=client, question=question, chat_history=[]
+                client=client,
+                question=question,
+                chat_history=[],
             )
+
+    def _question_expansions(question: str) -> List[str]:
+        if not args.use_query_rewrite:
+            return []
+        return rewrite_cache.get(question, [])
 
     def baseline_retrieve(case: Dict[str, Any]) -> List[Tuple[Chunk, float]]:
         question = case["question"]
@@ -291,7 +313,7 @@ def run() -> None:
             chunks=chunks,
             chunk_vecs=chunk_vecs,
             k=args.top_k,
-            query_expansions=[],
+            query_expansions=_question_expansions(question),
             chunk_vocabs=chunk_vocabs,
             chunk_modes=chunk_modes,
             chunk_meta_vocabs=chunk_meta_vocabs,
@@ -305,7 +327,7 @@ def run() -> None:
             chunks=chunks,
             chunk_vecs=chunk_vecs,
             k=max(args.pool_k, args.top_k),
-            query_expansions=[],
+            query_expansions=_question_expansions(question),
             chunk_vocabs=chunk_vocabs,
             chunk_modes=chunk_modes,
             chunk_meta_vocabs=chunk_meta_vocabs,
@@ -452,7 +474,7 @@ def run() -> None:
             chunks=chunks,
             chunk_vecs=chunk_vecs,
             k=max(args.llm_pool_k, args.top_k),
-            query_expansions=[],
+            query_expansions=_question_expansions(question),
             chunk_vocabs=chunk_vocabs,
             chunk_modes=chunk_modes,
             chunk_meta_vocabs=chunk_meta_vocabs,
@@ -514,11 +536,89 @@ def run() -> None:
                 break
         return _apply_source_cap(ranked, top_k=args.top_k)
 
+    index_by_chunk_id: Dict[str, int] = {
+        chunk.chunk_id: idx for idx, chunk in enumerate(chunks) if chunk.chunk_id
+    }
+    source_to_indices: Dict[str, List[int]] = defaultdict(list)
+    for idx, chunk in enumerate(chunks):
+        source_to_indices[chunk.source_path].append(idx)
+
+    def method_doc_first_focus(case: Dict[str, Any]) -> List[Tuple[Chunk, float]]:
+        question = case["question"]
+        pool = retrieval.retrieve(
+            client=client,
+            query=question,
+            chunks=chunks,
+            chunk_vecs=chunk_vecs,
+            k=max(args.pool_k, args.top_k),
+            query_expansions=_question_expansions(question),
+            chunk_vocabs=chunk_vocabs,
+            chunk_modes=chunk_modes,
+            chunk_meta_vocabs=chunk_meta_vocabs,
+        )
+        if not pool:
+            return []
+
+        # Stage 1: pick likely source documents by best chunk score.
+        doc_best_score: Dict[str, float] = {}
+        for chunk, score in pool:
+            best = doc_best_score.get(chunk.source_path, float("-inf"))
+            if float(score) > best:
+                doc_best_score[chunk.source_path] = float(score)
+        top_sources = [
+            source
+            for source, _ in sorted(doc_best_score.items(), key=lambda item: item[1], reverse=True)[
+                : max(1, int(args.doc_top_n))
+            ]
+        ]
+        focused_indices: List[int] = []
+        focused_index_set: Set[int] = set()
+        for source in top_sources:
+            for idx in source_to_indices.get(source, []):
+                if idx in focused_index_set:
+                    continue
+                focused_indices.append(idx)
+                focused_index_set.add(idx)
+        if not focused_indices:
+            return pool[: args.top_k]
+
+        # Stage 2: re-rank chunks within the focused source set.
+        focused_chunks = [chunks[idx] for idx in focused_indices]
+        focused_vecs = chunk_vecs[focused_indices]
+        focused_vocabs = [chunk_vocabs[idx] for idx in focused_indices]
+        focused_modes = [chunk_modes[idx] for idx in focused_indices]
+        focused_meta_vocabs = [chunk_meta_vocabs[idx] for idx in focused_indices]
+        rows = retrieval.retrieve(
+            client=client,
+            query=question,
+            chunks=focused_chunks,
+            chunk_vecs=focused_vecs,
+            k=args.top_k,
+            query_expansions=_question_expansions(question),
+            chunk_vocabs=focused_vocabs,
+            chunk_modes=focused_modes,
+            chunk_meta_vocabs=focused_meta_vocabs,
+        )
+
+        # Safety fallback: if too few rows, backfill from global pool.
+        out: List[Tuple[Chunk, float]] = list(rows)
+        seen_ids = {chunk.chunk_id for chunk, _ in out}
+        if len(out) < args.top_k:
+            for chunk, score in pool:
+                if chunk.chunk_id in seen_ids:
+                    continue
+                out.append((chunk, float(score)))
+                seen_ids.add(chunk.chunk_id)
+                if len(out) >= args.top_k:
+                    break
+        return out[: args.top_k]
+
     method_fn_map: Dict[str, Callable[[Dict[str, Any]], List[Tuple[Chunk, float]]]] = {
         "large_pool_rerank": method_large_pool_rerank,
         "decomposition_fusion": method_decomposition_fusion,
         "two_pass_coverage": method_two_pass_coverage,
         "llm_reselection": method_llm_reselection,
+        "doc_first_focus": method_doc_first_focus,
     }
     method_fn = method_fn_map[args.method]
 
@@ -546,6 +646,7 @@ def run() -> None:
             "rescue_weight": args.rescue_weight,
             "clause_overlap_threshold": args.clause_overlap_threshold,
             "llm_pool_k": args.llm_pool_k,
+            "doc_top_n": args.doc_top_n,
             "rerank_model": args.rerank_model,
             "selector_model": args.selector_model,
             "use_query_rewrite": bool(args.use_query_rewrite),

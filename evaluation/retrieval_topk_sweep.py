@@ -100,7 +100,11 @@ def _build_query_rewrite_cache(client, cases: List[dict]) -> dict:
         question = case["question"]
         if question in cache:
             continue
-        cache[question] = generate_query_expansions(client=client, question=question, chat_history=[])
+        cache[question] = generate_query_expansions(
+            client=client,
+            question=question,
+            chat_history=[],
+        )
     return cache
 
 
@@ -117,6 +121,7 @@ def run() -> None:
     query_rewrite_cache = (
         _build_query_rewrite_cache(client, cases) if args.use_query_rewrite else {}
     )
+    rewrite_lengths = [len(value) for value in query_rewrite_cache.values()]
     available_prefixes = {_doc_prefix(chunk.chunk_id) for chunk in chunks if chunk.chunk_id}
     original_enable_rerank = retrieval.ENABLE_RERANK
     retrieval.ENABLE_RERANK = bool(args.enable_rerank)
@@ -198,10 +203,15 @@ def run() -> None:
             "effective_max_chunks_per_source": int(retrieval.MAX_CHUNKS_PER_SOURCE),
             "effective_enable_rerank": bool(retrieval.ENABLE_RERANK),
         },
+        "query_rewrite_diagnostics": {
+            "question_count": len(query_rewrite_cache),
+            "avg_expansions_per_question": (
+                sum(rewrite_lengths) / len(rewrite_lengths) if rewrite_lengths else 0.0
+            ),
+            "questions_with_expansions": sum(1 for count in rewrite_lengths if count > 0),
+        },
         "rows": rows,
     }
-    args.output.parent.mkdir(parents=True, exist_ok=True)
-    args.output.write_text(json.dumps(payload, indent=2, ensure_ascii=True), encoding="utf-8")
 
     best_prefix_then_chunk = max(
         rows,
@@ -219,6 +229,8 @@ def run() -> None:
     )
     payload["best_top_k_by_prefix_then_chunk"] = int(best_prefix_then_chunk["top_k"])
     payload["best_top_k_by_chunk_then_prefix"] = int(best_chunk_then_prefix["top_k"])
+    args.output.parent.mkdir(parents=True, exist_ok=True)
+    args.output.write_text(json.dumps(payload, indent=2, ensure_ascii=True), encoding="utf-8")
     print(
         "Top-k sweep summary: "
         f"cases={len(cases)} "

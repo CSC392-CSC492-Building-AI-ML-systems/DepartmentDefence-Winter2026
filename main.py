@@ -1,19 +1,20 @@
 import argparse
 
 from rag.app_config import (
+    APP_TOP_K,
     CHAT_MAX_INPUT_TOKENS,
     CHAT_MAX_OUTPUT_TOKENS,
     CHAT_MODEL,
     CHAT_PREAMBLE,
     MAX_HISTORY_TURNS,
-    TOP_K,
+    RETRIEVAL_CANDIDATE_K,
 )
 from rag.corpus import list_docs
 from rag.embedding_client import create_client
 from rag.pipeline import embed_chunks, load_chunks_from_docs
 from rag.prompting import pack_retrieved_documents
 from rag.query_rewrite import generate_query_expansions
-from rag.retrieval import build_chunk_features, retrieve
+from rag.retrieval import build_chunk_features, rerank_retrieved_chunks, retrieve
 
 
 def parse_args() -> argparse.Namespace:
@@ -85,12 +86,19 @@ def main() -> None:
                 query=q,
                 chunks=chunks,
                 chunk_vecs=chunk_vecs,
-                k=TOP_K,
+                k=max(APP_TOP_K, RETRIEVAL_CANDIDATE_K),
                 query_expansions=query_expansions,
                 chunk_vocabs=chunk_vocabs,
                 chunk_modes=chunk_modes,
                 chunk_meta_vocabs=chunk_meta_vocabs,
             )
+            if len(retrieved) > APP_TOP_K:
+                retrieved = rerank_retrieved_chunks(
+                    client=client,
+                    query=q,
+                    rows=retrieved,
+                    top_n=APP_TOP_K,
+                )
             packed_docs, packing_stats = pack_retrieved_documents(
                 client=client,
                 question=q,
@@ -143,7 +151,8 @@ def main() -> None:
             print(
                 "\nCONTEXT STATS:\n"
                 f"- query expansions: {len(query_expansions)}\n"
-                f"- retrieved chunks: {len(retrieved)}\n"
+                f"- candidate chunks: {max(APP_TOP_K, RETRIEVAL_CANDIDATE_K)}\n"
+                f"- selected chunks: {len(retrieved)}\n"
                 f"- packed docs: {packing_stats['packed_docs']} / {packing_stats['retrieved_docs']}\n"
                 f"- packed tokens: {packing_stats['used_doc_tokens']} / {packing_stats['budget_for_docs_tokens']}"
             )

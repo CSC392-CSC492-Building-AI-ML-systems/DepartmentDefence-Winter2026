@@ -102,7 +102,11 @@ def _build_query_rewrite_cache(client, cases: List[Dict[str, Any]]) -> Dict[str,
         question = case["question"]
         if question in cache:
             continue
-        cache[question] = generate_query_expansions(client=client, question=question, chat_history=[])
+        cache[question] = generate_query_expansions(
+            client=client,
+            question=question,
+            chat_history=[],
+        )
     return cache
 
 

@@ -227,6 +227,60 @@ def _apply_rerank_scores(
     return updated
 
 
+def rerank_retrieved_chunks(
+    client: cohere.Client,
+    query: str,
+    rows: List[Tuple[Chunk, float]],
+    top_n: int,
+    model: str = RERANK_MODEL,
+) -> List[Tuple[Chunk, float]]:
+    """
+    Re-rank an already retrieved candidate list and return top_n rows.
+
+    This is useful for prompt-side condensation: retrieve broadly for recall,
+    then compress to a smaller high-precision set before sending to chat.
+    """
+    target_n = max(1, int(top_n))
+    if not rows:
+        return []
+    if len(rows) <= target_n:
+        return rows[:target_n]
+
+    documents = [f"{chunk.title}\n{chunk.text}" for chunk, _score in rows]
+    try:
+        response = client.rerank(
+            model=model,
+            query=query,
+            documents=documents,
+            top_n=min(target_n, len(documents)),
+            return_documents=False,
+        )
+    except Exception as exc:
+        LOGGER.warning("Prompt-side rerank failed; falling back to initial order: %s", exc)
+        return rows[:target_n]
+
+    selected: List[Tuple[Chunk, float]] = []
+    seen = set()
+    for row in response.results:
+        local_idx = int(row.index)
+        if local_idx < 0 or local_idx >= len(rows) or local_idx in seen:
+            continue
+        seen.add(local_idx)
+        chunk, _orig_score = rows[local_idx]
+        selected.append((chunk, float(row.relevance_score)))
+        if len(selected) >= target_n:
+            return selected
+
+    if len(selected) < target_n:
+        for idx, (chunk, score) in enumerate(rows):
+            if idx in seen:
+                continue
+            selected.append((chunk, float(score)))
+            if len(selected) >= target_n:
+                break
+    return selected[:target_n]
+
+
 def retrieve(
     client: cohere.Client,
     query: str,
@@ -285,30 +339,34 @@ def retrieve(
             dtype=np.int64,
         )
 
-    # Lightweight diversity cap by source to prevent full domination by one file.
     selected: List[int] = []
-    per_source_count: Dict[str, int] = {}
-    max_per_source = max(1, int(MAX_CHUNKS_PER_SOURCE))
-    for raw_idx in ranked_idx:
-        idx = int(raw_idx)
-        source = chunks[idx].source_path
-        if per_source_count.get(source, 0) >= max_per_source:
-            continue
-        selected.append(idx)
-        per_source_count[source] = per_source_count.get(source, 0) + 1
-        if len(selected) >= target_k:
-            break
-
-    # Final fallback if source cap prevented enough results.
-    if len(selected) < target_k:
-        seen = set(selected)
+    max_per_source = int(MAX_CHUNKS_PER_SOURCE)
+    if max_per_source <= 0:
+        # Explicitly uncapped mode: keep pure score ordering.
+        selected = [int(idx) for idx in ranked_idx[:target_k]]
+    else:
+        # Lightweight diversity cap by source to prevent full domination by one file.
+        per_source_count: Dict[str, int] = {}
         for raw_idx in ranked_idx:
             idx = int(raw_idx)
-            if idx in seen:
+            source = chunks[idx].source_path
+            if per_source_count.get(source, 0) >= max_per_source:
                 continue
             selected.append(idx)
+            per_source_count[source] = per_source_count.get(source, 0) + 1
             if len(selected) >= target_k:
                 break
+
+        # Final fallback if source cap prevented enough results.
+        if len(selected) < target_k:
+            seen = set(selected)
+            for raw_idx in ranked_idx:
+                idx = int(raw_idx)
+                if idx in seen:
+                    continue
+                selected.append(idx)
+                if len(selected) >= target_k:
+                    break
 
     return [(chunks[idx], float(combined_scores[idx])) for idx in selected[:target_k]]
 

@@ -235,7 +235,11 @@ def _build_query_rewrite_cache(client, cases: List[Dict[str, Any]]) -> Dict[str,
         if question in seen:
             continue
         seen.add(question)
-        cache[question] = generate_query_expansions(client=client, question=question, chat_history=[])
+        cache[question] = generate_query_expansions(
+            client=client,
+            question=question,
+            chat_history=[],
+        )
     return cache
 
 
@@ -247,7 +251,6 @@ def run() -> None:
     client = create_client()
     chunk_vecs = _load_or_embed_chunk_vectors(client, chunks, args.cache_file)
     available_prefixes = {_doc_prefix(chunk.chunk_id) for chunk in chunks if chunk.chunk_id}
-
     rewrite_cache = _build_query_rewrite_cache(client, cases)
     rewrite_lengths = [len(value) for value in rewrite_cache.values()]
 

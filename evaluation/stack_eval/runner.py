@@ -32,7 +32,7 @@ from rag.app_config import (  # noqa: E402
     CHAT_MAX_OUTPUT_TOKENS,
     CHAT_MODEL,
     CHAT_PREAMBLE,
-    TOP_K,
+    EVAL_TOP_K,
 )
 from rag.corpus import list_docs  # noqa: E402
 from rag.embedding_client import create_client  # noqa: E402
@@ -169,7 +169,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--top-k",
         type=int,
-        default=TOP_K,
+        default=EVAL_TOP_K,
         help="Top-k retrieval size for this run.",
     )
     parser.add_argument(
@@ -273,7 +273,11 @@ def main() -> None:
         t_case_start = time.perf_counter()
 
         t_retrieve_start = time.perf_counter()
-        query_expansions = generate_query_expansions(client=client, question=question, chat_history=[])
+        query_expansions = generate_query_expansions(
+            client=client,
+            question=question,
+            chat_history=[],
+        )
         retrieved = retrieve(
             client=client,
             query=question,
