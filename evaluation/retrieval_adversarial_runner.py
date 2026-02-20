@@ -35,6 +35,11 @@ from rag.app_config import (
     CHUNK_OVERLAP,
     EMBED_MODEL,
     EVAL_TOP_K,
+    CHAT_MAX_INPUT_TOKENS,
+    CHAT_PREAMBLE,
+    CHAT_RESERVED_TOKENS,
+    MAX_DOC_TOKENS,
+    MAX_PACKED_DOCS,
     QUERY_REWRITE_MODEL,
     RAW_DIR,
     config_diagnostics,
@@ -43,6 +48,7 @@ from rag.app_config import (
 from rag.corpus import list_docs, load_manifest_index
 from rag.embedding_client import create_client
 from rag.pipeline import embed_chunks, load_chunks_from_docs
+from rag.prompting import pack_retrieved_documents
 from rag.query_rewrite import generate_query_expansions
 from rag.rag_types import Chunk
 import rag.retrieval as retrieval
@@ -81,6 +87,44 @@ def parse_args() -> argparse.Namespace:
         "--split",
         default="all",
         help="Optional split filter for JSONL eval-style cases (all/dev/test/train or comma-separated).",
+    )
+    parser.add_argument(
+        "--measure-packed-recall",
+        action="store_true",
+        help="Also compute recall against chunks that are actually packed into chat context.",
+    )
+    parser.add_argument(
+        "--pack-max-input-tokens",
+        type=int,
+        default=CHAT_MAX_INPUT_TOKENS,
+        help="Token budget used for packed-recall simulation.",
+    )
+    parser.add_argument(
+        "--pack-reserved-tokens",
+        type=int,
+        default=CHAT_RESERVED_TOKENS,
+        help="Reserved non-document tokens used for packed-recall simulation.",
+    )
+    parser.add_argument(
+        "--pack-max-doc-tokens",
+        type=int,
+        default=MAX_DOC_TOKENS,
+        help="Per-document token cap used for packed-recall simulation.",
+    )
+    parser.add_argument(
+        "--pack-max-docs",
+        type=int,
+        default=MAX_PACKED_DOCS,
+        help="Maximum packed documents used for packed-recall simulation.",
+    )
+    parser.add_argument(
+        "--pack-rerank-top-n",
+        type=int,
+        default=0,
+        help=(
+            "If > 0, rerank retrieved chunks to this size before packing "
+            "(mirrors app retrieve-wide then rerank-to-app-top-k behavior)."
+        ),
     )
     return parser.parse_args()
 
@@ -361,6 +405,49 @@ def run() -> None:
                 prefix for prefix in available_expected_prefixes if prefix in got_prefixes
             ]
 
+            packed_docs = []
+            packed_hit_ids: List[str] = []
+            packed_hit_prefixes: List[str] = []
+            packed_hit_available_prefixes: List[str] = []
+            packed_chunk_ids: List[str] = []
+            packed_doc_prefixes: List[str] = []
+            packed_stats = None
+            if args.measure_packed_recall:
+                selected_for_packing = retrieved
+                if args.pack_rerank_top_n > 0 and len(retrieved) > args.pack_rerank_top_n:
+                    selected_for_packing = retrieval.rerank_retrieved_chunks(
+                        client=client,
+                        query=question,
+                        rows=retrieved,
+                        top_n=args.pack_rerank_top_n,
+                    )
+                packed_docs, packed_stats = pack_retrieved_documents(
+                    client=client,
+                    question=question,
+                    retrieved=selected_for_packing,
+                    preamble=CHAT_PREAMBLE,
+                    chat_history=[],
+                    max_input_tokens=args.pack_max_input_tokens,
+                    reserved_tokens=args.pack_reserved_tokens,
+                    max_doc_tokens=args.pack_max_doc_tokens,
+                    max_packed_docs=args.pack_max_docs,
+                )
+                packed_chunk_ids = [
+                    str(doc.get("chunk_id", "")).strip()
+                    for doc in packed_docs
+                    if str(doc.get("chunk_id", "")).strip()
+                ]
+                packed_doc_prefixes = [_doc_prefix(cid) for cid in packed_chunk_ids]
+                packed_hit_ids = [cid for cid in expected_ids if cid in packed_chunk_ids]
+                packed_hit_prefixes = [
+                    prefix for prefix in expected_prefixes if prefix in packed_doc_prefixes
+                ]
+                packed_hit_available_prefixes = [
+                    prefix
+                    for prefix in available_expected_prefixes
+                    if prefix in packed_doc_prefixes
+                ]
+
             results.append(
                 {
                     "id": case["id"],
@@ -396,6 +483,28 @@ def run() -> None:
                     )
                     if available_expected_prefixes
                     else None,
+                    "packed_chunk_ids": packed_chunk_ids,
+                    "packed_doc_prefixes": packed_doc_prefixes,
+                    "packed_hit_chunk_ids": packed_hit_ids,
+                    "packed_hit_doc_prefixes": packed_hit_prefixes,
+                    "packed_hit_available_doc_prefixes": packed_hit_available_prefixes,
+                    "packed_chunk_id_recall": (
+                        (len(packed_hit_ids) / len(expected_ids)) if expected_ids else None
+                    ),
+                    "packed_doc_prefix_recall": (
+                        (len(packed_hit_prefixes) / len(expected_prefixes))
+                        if expected_prefixes
+                        else None
+                    ),
+                    "packed_doc_prefix_recall_available": (
+                        (
+                            len(packed_hit_available_prefixes)
+                            / len(available_expected_prefixes)
+                        )
+                        if available_expected_prefixes
+                        else None
+                    ),
+                    "packing_stats": packed_stats,
                 }
             )
     finally:
@@ -409,12 +518,32 @@ def run() -> None:
         for row in results
         if row["doc_prefix_recall_available"] is not None
     ]
+    packed_chunk_recall_values = [
+        row["packed_chunk_id_recall"] for row in results if row["packed_chunk_id_recall"] is not None
+    ]
+    packed_prefix_recall_values = [
+        row["packed_doc_prefix_recall"]
+        for row in results
+        if row["packed_doc_prefix_recall"] is not None
+    ]
+    packed_prefix_recall_available_values = [
+        row["packed_doc_prefix_recall_available"]
+        for row in results
+        if row["packed_doc_prefix_recall_available"] is not None
+    ]
     expected_chunk_total = sum(len(row["expected_chunk_ids"]) for row in results)
     hit_chunk_total = sum(len(row["hit_chunk_ids"]) for row in results)
     expected_prefix_total = sum(len(row["expected_doc_prefixes"]) for row in results)
     hit_prefix_total = sum(len(row["hit_doc_prefixes"]) for row in results)
+    packed_hit_chunk_total = sum(len(row["packed_hit_chunk_ids"]) for row in results)
+    packed_hit_prefix_total = sum(len(row["packed_hit_doc_prefixes"]) for row in results)
     chunk_count_dist = Counter(len(row["expected_chunk_ids"]) for row in results)
     prefix_count_dist = Counter(len(row["expected_doc_prefixes"]) for row in results)
+    packed_doc_counts = [
+        int((row.get("packing_stats") or {}).get("packed_docs", 0))
+        for row in results
+        if row.get("packing_stats") is not None
+    ]
 
     summary = {
         "case_count": len(results),
@@ -461,6 +590,43 @@ def run() -> None:
         "expected_doc_prefix_count_distribution": {
             str(key): int(value) for key, value in sorted(prefix_count_dist.items())
         },
+        "packed_chunk_id_recall_micro": (packed_hit_chunk_total / expected_chunk_total)
+        if expected_chunk_total
+        else None,
+        "packed_chunk_id_recall_mean": (
+            sum(packed_chunk_recall_values) / len(packed_chunk_recall_values)
+        )
+        if packed_chunk_recall_values
+        else None,
+        "packed_doc_prefix_recall_micro": (packed_hit_prefix_total / expected_prefix_total)
+        if expected_prefix_total
+        else None,
+        "packed_doc_prefix_recall_mean": (
+            sum(packed_prefix_recall_values) / len(packed_prefix_recall_values)
+        )
+        if packed_prefix_recall_values
+        else None,
+        "packed_doc_prefix_recall_available_mean": (
+            sum(packed_prefix_recall_available_values)
+            / len(packed_prefix_recall_available_values)
+        )
+        if packed_prefix_recall_available_values
+        else None,
+        "packed_zero_chunk_hit_cases": [
+            row["id"]
+            for row in results
+            if row["expected_chunk_ids"] and (not row["packed_hit_chunk_ids"])
+        ],
+        "packed_zero_prefix_hit_cases": [
+            row["id"]
+            for row in results
+            if row["expected_doc_prefixes"] and (not row["packed_hit_doc_prefixes"])
+        ],
+        "packed_docs_avg": (sum(packed_doc_counts) / len(packed_doc_counts))
+        if packed_doc_counts
+        else None,
+        "packed_docs_min": min(packed_doc_counts) if packed_doc_counts else None,
+        "packed_docs_max": max(packed_doc_counts) if packed_doc_counts else None,
     }
 
     payload = {
@@ -485,6 +651,12 @@ def run() -> None:
                 "QUERY_REWRITE_MODEL": os.getenv("QUERY_REWRITE_MODEL"),
             },
             "effective_query_rewrite_model": QUERY_REWRITE_MODEL,
+            "measure_packed_recall": bool(args.measure_packed_recall),
+            "pack_max_input_tokens": int(args.pack_max_input_tokens),
+            "pack_reserved_tokens": int(args.pack_reserved_tokens),
+            "pack_max_doc_tokens": int(args.pack_max_doc_tokens),
+            "pack_max_docs": int(args.pack_max_docs),
+            "pack_rerank_top_n": int(args.pack_rerank_top_n),
             "config_diagnostics": config_diagnostics(),
             "legacy_retrieval_env_overrides": legacy_retrieval_env_overrides(),
         },
@@ -512,6 +684,13 @@ def run() -> None:
         f"chunk_id_recall_mean={summary['chunk_id_recall_mean']} "
         f"doc_prefix_recall_mean={summary['doc_prefix_recall_mean']}"
     )
+    if args.measure_packed_recall:
+        print(
+            "Packed-context summary: "
+            f"packed_chunk_id_recall_mean={summary['packed_chunk_id_recall_mean']} "
+            f"packed_doc_prefix_recall_mean={summary['packed_doc_prefix_recall_mean']} "
+            f"packed_docs_avg={summary['packed_docs_avg']}"
+        )
     if summary["zero_chunk_hit_cases"]:
         print("Zero chunk-hit cases:", ", ".join(summary["zero_chunk_hit_cases"]))
     if summary["zero_prefix_hit_cases"]:

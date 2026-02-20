@@ -525,6 +525,36 @@ Last updated: February 19, 2026
   - Stopword handling materially changes BM25 outcomes because `rank-bm25` does not provide built-in tokenization/stopword removal.
   - For current chunk-priority objective, best seen BM25 setting matches best production chunk recall at `top_k=64`, with stronger prefix recall.
   - rewrite-enabled runs show some natural non-determinism in aggregate chunk recall across repeats; keep reruns when judging close results.
+
+## 2026-02-20: Packed-Context Recall (Primary App Metric)
+- `evaluation/retrieval_adversarial_runner.py` now supports:
+  - `--measure-packed-recall`
+  - `--pack-max-input-tokens`
+  - `--pack-reserved-tokens`
+  - `--pack-max-doc-tokens`
+  - `--pack-max-docs`
+  - `--pack-rerank-top-n`
+- Packed recall uses the same `pack_retrieved_documents(...)` logic as the app path.
+- Example runs:
+  - `evaluation/runs/retrieval_suite_k48_rewrite_rerank_alpha07_packed.json`
+    - retrieval chunk recall mean: `0.9226`
+    - packed chunk recall mean: `0.8095`
+    - packed doc-prefix recall mean: `0.9103`
+    - average packed docs: `10.14`
+  - `evaluation/runs/retrieval_suite_k48_rewrite_rerank_alpha07_packed_rerank24.json`
+    - retrieval chunk recall mean: `0.9226`
+    - packed chunk recall mean: `0.7381`
+    - packed doc-prefix recall mean: `0.8897`
+    - average packed docs: `10.20`
+    - this setting mirrors app behavior more closely: retrieve `k=48` -> rerank to `24` -> pack to token budget
+  - `evaluation/runs/retrieval_suite_k64_rewrite_rerank_alpha07_packed.json`
+    - retrieval chunk recall mean: `0.9643`
+    - packed chunk recall mean: `0.7738`
+    - packed doc-prefix recall mean: `0.9026`
+    - average packed docs: `10.12`
+- Interpretation:
+  - At current app token budget (`CHAT_MAX_INPUT_TOKENS=4096`), packing is the dominant bottleneck.
+  - `top_k` gains above ~24 are mostly lost unless packing budget/packing policy is increased.
 - Post-patch verification runs (with rewrite diagnostics + fixed top-k sweep output):
   - `evaluation/runs/retrieval_suite_k48_postpatch_rewrite_rerank_a02_alpha07.json`
     - `chunk=0.9524`, `prefix=0.9872`
