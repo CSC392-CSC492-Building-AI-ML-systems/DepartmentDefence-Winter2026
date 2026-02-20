@@ -555,6 +555,38 @@ Last updated: February 19, 2026
 - Interpretation:
   - At current app token budget (`CHAT_MAX_INPUT_TOKENS=4096`), packing is the dominant bottleneck.
   - `top_k` gains above ~24 are mostly lost unless packing budget/packing policy is increased.
+
+## 2026-02-20: Elasticsearch BM25 Replacement Trial (Real BM25)
+- New isolated runner:
+  - `experiments/elasticsearch_bm25/elastic_bm25_hybrid_eval.py`
+  - docs: `experiments/elasticsearch_bm25/README.md`
+  - Uses Elasticsearch BM25 `_score` as lexical leg replacement in hybrid blending.
+- Core runs:
+  - `experiments/elasticsearch_bm25/runs/elastic_bm25_hybrid_eval_k48_norewrite.json`
+    - `bm25`: chunk `0.9048`, prefix `0.9718`
+    - best hybrid (`alpha=0.7/0.8`): chunk `0.9524`, prefix `0.9795`
+  - `experiments/elasticsearch_bm25/runs/elastic_bm25_hybrid_eval_k64_norewrite_fullalpha.json`
+    - best hybrid (`alpha=0.6`): chunk `0.9762`, prefix `0.9795`
+  - `experiments/elasticsearch_bm25/runs/elastic_bm25_hybrid_eval_k48_rewrite_fullalpha_cached.json`
+    - best hybrid (`alpha=0.8`): chunk `0.9405`, prefix `0.9897`
+  - `experiments/elasticsearch_bm25/runs/elastic_bm25_hybrid_eval_k64_rewrite_fullalpha_cached.json`
+    - best hybrid (`alpha=0.8`): chunk `0.9762`, prefix `0.9949`
+- Packed-context comparison (app-like path: retrieve `k`, rerank to 24, then pack to token budget):
+  - Lexical-overlap baseline (`k=48`, alpha `0.7`):
+    - `evaluation/runs/retrieval_suite_k48_rewrite_rerank_alpha07_packed_rerank24.json`
+    - packed chunk recall mean `0.7381`
+  - Elastic BM25 hybrid (`k=48`, cached rewrite, alpha sweep):
+    - `experiments/elasticsearch_bm25/runs/elastic_bm25_packed_alpha_sweep_k48_rewrite_cached.json`
+    - best packed chunk recall mean `0.7738` at `alpha=0.7`
+  - Lexical-overlap baseline (`k=64`, alpha `0.7`):
+    - `evaluation/runs/retrieval_suite_k64_rewrite_rerank_alpha07_packed_rerank24_compare.json`
+    - packed chunk recall mean `0.7500`
+  - Elastic BM25 hybrid (`k=64`, cached rewrite, alpha sweep):
+    - `experiments/elasticsearch_bm25/runs/elastic_bm25_packed_alpha_sweep_k64_rewrite_cached.json`
+    - best packed chunk recall mean `0.7619` at `alpha=0.8`
+- Interim conclusion:
+  - Replacing lexical overlap with real Elasticsearch BM25 improves packed chunk recall on this suite.
+  - Improvement is moderate (roughly +0.012 to +0.036 absolute depending on `k`), and packing remains the dominant bottleneck.
 - Post-patch verification runs (with rewrite diagnostics + fixed top-k sweep output):
   - `evaluation/runs/retrieval_suite_k48_postpatch_rewrite_rerank_a02_alpha07.json`
     - `chunk=0.9524`, `prefix=0.9872`
