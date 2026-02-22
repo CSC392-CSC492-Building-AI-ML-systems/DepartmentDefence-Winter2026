@@ -137,6 +137,8 @@ def chunk_text(
     text: str,
     title: str,
     source_path: str,
+    source_url: str,
+    source_title: str,
     chunk_chars: int = CHUNK_CHARS,
     chunk_overlap: int = CHUNK_OVERLAP,
 ) -> List[Chunk]:
@@ -176,6 +178,8 @@ def chunk_text(
                         chunk_id=f"{Path(source_path).stem}__{idx}",
                         title=title,
                         source_path=source_path,
+                        source_url=source_url,
+                        source_title=source_title,
                         text=chunk_text_value,
                     )
                 )
@@ -196,6 +200,8 @@ def chunk_text(
                     chunk_id=f"{Path(source_path).stem}__{idx}",
                     title=title,
                     source_path=source_path,
+                    source_url=source_url,
+                    source_title=source_title,
                     text=chunk_text_value,
                 )
             )

@@ -172,6 +172,8 @@ def pack_retrieved_documents(
                     "chunk_id": chunk.chunk_id,
                     "title": chunk.title,
                     "source_path": chunk.source_path,
+                    "source_url": chunk.source_url,
+                    "source_title": chunk.source_title,
                     "text": partial,
                 }
             )
@@ -185,6 +187,8 @@ def pack_retrieved_documents(
                 "chunk_id": chunk.chunk_id,
                 "title": chunk.title,
                 "source_path": chunk.source_path,
+                "source_url": chunk.source_url,
+                "source_title": chunk.source_title,
                 "text": doc_text,
             }
         )

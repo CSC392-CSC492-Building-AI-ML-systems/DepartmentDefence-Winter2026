@@ -11,6 +11,7 @@ from .app_config import EMBED_BATCH
 from .corpus import chunk_text
 from .embedding_client import embed_texts
 from .rag_types import Chunk
+import re
 
 
 def load_chunks_from_docs(docs: List[Path]) -> List[Chunk]:
@@ -18,7 +19,26 @@ def load_chunks_from_docs(docs: List[Path]) -> List[Chunk]:
     chunks: List[Chunk] = []
     for path in docs:
         text = path.read_text(encoding="utf-8", errors="ignore")
-        chunks.extend(chunk_text(text=text, title=path.stem, source_path=str(path)))
+
+        source_url = ""
+        m = re.search(
+            r"^(?:\s*)(?:source[_\s\-]*url|sourceurl)\s*:\s*(\S.*)$",
+            text,
+            flags=re.IGNORECASE | re.MULTILINE,
+        )
+        if m:
+            source_url = m.group(1).strip()
+
+        source_title = ""
+        m = re.search(
+            r"^(?:\s*)TITLE\s*:\s*(\S.*)$",
+            text,
+            flags=re.IGNORECASE | re.MULTILINE,
+        )
+        if m:
+            source_title = m.group(1).strip()
+
+        chunks.extend(chunk_text(text=text, title=path.stem, source_path=str(path), source_url=source_url, source_title=source_title))
     return chunks
 
 

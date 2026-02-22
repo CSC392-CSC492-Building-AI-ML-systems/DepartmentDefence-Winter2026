@@ -21,6 +21,7 @@ chunks = None
 chunk_vecs = None
 client = None
 chat_history = []
+TOP_CITATIONS = 3
 
 def load_rag_pipeline():
     global docs, chunks, chunk_vecs, client
@@ -80,15 +81,28 @@ def chat():
         max_messages = max(0, MAX_HISTORY_TURNS * 2)
         if max_messages and len(chat_history) > max_messages:
             chat_history = chat_history[-max_messages:]
-        
+
+        citations = []
+        unique_links = set()
+
+        packed_ids = {doc["chunk_id"] for doc in packed_docs}
+
+        for ch in packed_docs:
+            link = ch.get('source_url', 'Unknown URL')
+            if link not in unique_links and link not in ('Unknown URL', ''):
+                citations.append({
+                    'title': ch.get('source_title', ch.get('title', 'Unknown Title')),
+                    'link': link,
+                })
+                unique_links.add(link)
+            if len(unique_links) >= TOP_CITATIONS:
+                break
+
         # Frontend expects this format
         return jsonify({
             'reply': answer,
-            'citation': {
-                'title': 'Canada.ca',  # Customize based on your docs
-                'link': 'https://canada.ca'
-            },
-            'stats': { 
+            'citations': citations,
+            'stats': {
                 'retrieved': len(retrieved),
                 'packed_docs': packing_stats['packed_docs']
             }

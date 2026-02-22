@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from 'react';
-import { 
-  Menu, User, Send, ThumbsUp, ThumbsDown, 
-  ExternalLink, Info, Plus, Settings, LogOut 
+import {
+  Menu, User, Send, ThumbsUp, ThumbsDown,
+  ExternalLink, Info, Plus, Settings, LogOut
 } from 'lucide-react';
 import gcLogo from './images/logo.png';
 
@@ -13,9 +13,9 @@ const GCHeader = ({ isLoggedIn, onLogout }) => (
     <div className="flex items-center gap-4">
       {/* Flag Logo (CSS construction or SVG placeholder) */}
       <div className="h-8 flex items-center gap-1">
-        <img 
-          src={gcLogo} 
-          alt="" 
+        <img
+          src={gcLogo}
+          alt=""
           className="h-[140px] w-auto"
         />
       </div>
@@ -25,7 +25,7 @@ const GCHeader = ({ isLoggedIn, onLogout }) => (
     <div className="flex items-center gap-6 text-sm">
       <a href="#" className="underline text-gc-link hover:text-gc-blue">Français</a>
       {isLoggedIn && (
-        <button 
+        <button
           onClick={onLogout}
           className="flex items-center gap-2 bg-gray-100 hover:bg-gray-200 px-4 py-2 rounded border border-gray-300 transition-colors"
         >
@@ -54,7 +54,7 @@ const GCLogin = ({ onLogin }) => {
   return (
     <div className="min-h-screen bg-[#F5F5F5] flex flex-col">
       <GCHeader isLoggedIn={false} />
-      
+
       <div className="flex-1 flex items-center justify-center p-4">
         <div className="bg-white p-8 md:p-12 shadow-sm border border-gray-200 w-full max-w-[500px]">
           <h2 className="text-3xl font-bold text-gray-800 mb-8">Sign in</h2>
@@ -74,8 +74,8 @@ const GCLogin = ({ onLogin }) => {
               <label className="block text-sm font-bold text-gray-700 mb-2">
                 Employee ID or Email
               </label>
-              <input 
-                type="text" 
+              <input
+                type="text"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 className="w-full border border-gray-400 p-2 rounded-sm focus:ring-2 focus:ring-gc-blue focus:border-gc-blue outline-none"
@@ -87,8 +87,8 @@ const GCLogin = ({ onLogin }) => {
               <label className="block text-sm font-bold text-gray-700 mb-2">
                 Password
               </label>
-              <input 
-                type="password" 
+              <input
+                type="password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 className="w-full border border-gray-400 p-2 rounded-sm focus:ring-2 focus:ring-gc-blue focus:border-gc-blue outline-none"
@@ -96,7 +96,7 @@ const GCLogin = ({ onLogin }) => {
               />
             </div>
 
-            <button 
+            <button
               type="submit"
               className="w-40 bg-gc-blue text-white font-medium py-3 px-4 rounded-sm hover:bg-[#1b2a3a] transition-colors"
             >
@@ -107,15 +107,15 @@ const GCLogin = ({ onLogin }) => {
           <div className="mt-8 text-center">
             <a href="#" className="text-gc-link underline text-sm hover:text-gc-blue">Forgot your password?</a>
           </div>
-          
+
           <hr className="my-8 border-gray-200" />
-          
+
           <p className="text-xs text-gray-500 text-center">
-             This system is for authorized Government of Canada personnel only.
+            This system is for authorized Government of Canada personnel only.
           </p>
         </div>
       </div>
-      
+
       <footer className="py-6 px-12 bg-white border-t border-gray-200 flex gap-6 text-sm text-gc-link">
         <a href="#">Terms and conditions</a>
         <a href="#">Privacy</a>
@@ -126,16 +126,17 @@ const GCLogin = ({ onLogin }) => {
 
 const ChatInterface = ({ onLogout }) => {
   const [messages, setMessages] = useState([
-    { 
-      id: 1, 
-      type: 'bot', 
+    {
+      id: 1,
+      type: 'bot',
       text: "Hello. I am PolicyAI. I can help you navigate Government of Canada regulations, finding information on taxes, immigration, environment, and more.\nHow can I assist you today?",
-      citation: null 
+      citations: null
     }
   ]);
   const [input, setInput] = useState('');
   const [isSidebarOpen, setSidebarOpen] = useState(true);
   const scrollRef = useRef(null);
+  const [reviewPerCitation, setReviewPerCitation] = useState({});
 
   useEffect(() => {
     scrollRef.current?.scrollIntoView({ behavior: 'smooth' });
@@ -161,7 +162,7 @@ const ChatInterface = ({ onLogout }) => {
         id: Date.now() + 1,
         type: "bot",
         text: data.reply,
-        citation: data.citation || null,
+        citations: data.citations || null,
       };
       setMessages((prev) => [...prev, botMsg]);
     } catch (error) {
@@ -170,17 +171,29 @@ const ChatInterface = ({ onLogout }) => {
   };
 
 
+  const handleThumbsUpDown = (messageId, citationIndex, isThumbsUp) => {
+    setReviewPerCitation((prev) => ({
+      ...prev,
+      [messageId]: {
+        ...prev[messageId],
+        [citationIndex]: isThumbsUp,
+      },
+    }));
+    console.log(`User ${isThumbsUp ? 'liked' : 'disliked'} citation ${citationIndex} for message ${messageId}`);
+    console.log("Current review state:", { reviewPerCitation });
+  };
+
   return (
     <div className="flex flex-col h-screen bg-white">
       {/* Top Header */}
       <div className="border-b border-gray-300">
-         <GCHeader isLoggedIn={true} onLogout={onLogout} />
-         {/* Breadcrumbs */}
-         <div className="px-6 md:px-12 py-2 text-sm text-gray-600 bg-white border-b border-gray-200">
-            <span className="underline cursor-pointer">Canada.ca</span> 
-            <span className="mx-2 text-gray-400">&gt;</span>
-            <span className="underline cursor-pointer">ChatBot</span>
-         </div>
+        <GCHeader isLoggedIn={true} onLogout={onLogout} />
+        {/* Breadcrumbs */}
+        <div className="px-6 md:px-12 py-2 text-sm text-gray-600 bg-white border-b border-gray-200">
+          <span className="underline cursor-pointer">Canada.ca</span>
+          <span className="mx-2 text-gray-400">&gt;</span>
+          <span className="underline cursor-pointer">ChatBot</span>
+        </div>
       </div>
 
       <div className="flex flex-1 overflow-hidden">
@@ -226,9 +239,9 @@ const ChatInterface = ({ onLogout }) => {
 
         {/* Main Chat Area */}
         <main className="flex-1 flex flex-col bg-white relative">
-          
+
           {/* Mobile Toggle */}
-          <button 
+          <button
             onClick={() => setSidebarOpen(!isSidebarOpen)}
             className="absolute top-4 left-4 p-2 bg-gray-100 rounded md:hidden z-10"
           >
@@ -238,47 +251,78 @@ const ChatInterface = ({ onLogout }) => {
           <div className="flex-1 overflow-y-auto p-6 md:p-12 space-y-8">
             {messages.map((msg) => (
               <div key={msg.id} className={`flex flex-col ${msg.type === 'user' ? 'items-end' : 'items-start'}`}>
-                
+
                 {msg.type === 'user' ? (
                   <>
-                     <span className="text-xs text-gray-500 mb-1 mr-1">Citizen</span>
-                     <div className="bg-[#DEE8F4] text-gray-800 p-5 rounded-lg max-w-2xl text-sm leading-relaxed">
-                       {msg.text}
-                     </div>
+                    <span className="text-xs text-gray-500 mb-1 mr-1">Citizen</span>
+                    <div className="bg-[#DEE8F4] text-gray-800 p-5 rounded-lg max-w-2xl text-sm leading-relaxed">
+                      {msg.text}
+                    </div>
                   </>
                 ) : (
                   <div className="max-w-3xl">
                     <div className="flex items-center gap-2 mb-2">
-                       {/* Red Bot Icon */}
-                       <div className="w-5 h-5 rounded-full bg-gc-red flex items-center justify-center text-white">
-                         <span className="text-[10px] font-bold">Bot</span>
-                       </div>
-                       <span className="text-sm font-bold text-gray-700">PolicyAI</span>
+                      {/* Red Bot Icon */}
+                      <div className="w-5 h-5 rounded-full bg-gc-red flex items-center justify-center text-white">
+                        <span className="text-[10px] font-bold">Bot</span>
+                      </div>
+                      <span className="text-sm font-bold text-gray-700">PolicyAI</span>
                     </div>
-                    
+
                     <div className="bg-white border border-gray-200 p-6 rounded-lg text-sm leading-relaxed text-gray-800 shadow-sm">
                       <p className="whitespace-pre-wrap">{msg.text}</p>
                     </div>
 
                     {/* Citation Block matching image_5f35b3 */}
-                    {msg.citation && (
-                      <div className="mt-3 bg-[#F8F9FA] border border-gray-200 rounded p-3 flex items-center justify-between">
-                         <div className="flex items-center gap-3">
-                           <div className="bg-gc-blue rounded-full p-1">
-                             <Info size={12} className="text-white" />
-                           </div>
-                           <div className="flex flex-col">
-                             <span className="text-[10px] font-bold text-gray-500 uppercase">Official Source</span>
-                             <a href={msg.citation.link} className="text-xs text-gc-link font-medium hover:underline flex items-center gap-1">
-                               {msg.citation.title}
-                               <ExternalLink size={10} />
-                             </a>
-                           </div>
-                         </div>
-                         <div className="flex items-center gap-2 text-gray-500">
-                            <button className="hover:text-gc-blue"><ThumbsUp size={16} /></button>
-                            <button className="hover:text-gc-blue"><ThumbsDown size={16} /></button>
-                         </div>
+                    {msg.citations && msg.citations.length > 0 && (
+                      <div className="mt-3 space-y-2">
+                        {msg.citations.map((citation, index) => {
+                          const isUp = reviewPerCitation[msg.id]?.[index] === true;
+                          const isDown = reviewPerCitation[msg.id]?.[index] === false;
+
+                          return (
+                            <div
+                              key={index}
+                              className="bg-[#F8F9FA] border border-gray-200 rounded p-3 flex items-center justify-between"
+                            >
+                              <div className="flex items-center gap-3">
+                                <div className="bg-gc-blue rounded-full p-1">
+                                  <Info size={12} className="text-white" />
+                                </div>
+                                <div className="flex flex-col">
+                                  <span className="text-[10px] font-bold text-gray-500 uppercase">
+                                    Official Source
+                                  </span>
+                                  <a
+                                    href={citation.link}
+                                    className="text-xs text-gc-link font-medium hover:underline flex items-center gap-1"
+                                  >
+                                    {citation.title}
+                                    <ExternalLink size={10} />
+                                  </a>
+                                </div>
+                              </div>
+
+                              <div className="flex items-center gap-2">
+                                <button
+                                  onClick={() => handleThumbsUpDown(msg.id, index, true)}
+                                  className={`p-1 rounded ${isUp ? 'text-gc-blue' : 'text-gray-400 hover:text-gc-blue'}`}
+                                  aria-pressed={isUp}
+                                >
+                                  <ThumbsUp size={16} />
+                                </button>
+
+                                <button
+                                  onClick={() => handleThumbsUpDown(msg.id, index, false)}
+                                  className={`p-1 rounded ${isDown ? 'text-gc-red' : 'text-gray-400 hover:text-gc-red'}`}
+                                  aria-pressed={isDown}
+                                >
+                                  <ThumbsDown size={16} />
+                                </button>
+                              </div>
+                            </div>
+                          );
+                        })}
                       </div>
                     )}
                   </div>
@@ -291,28 +335,28 @@ const ChatInterface = ({ onLogout }) => {
           {/* Input Area matching image_5f35b3 footer */}
           <div className="p-6 md:px-12 border-t border-gray-200 bg-white">
             <form onSubmit={handleSend} className="max-w-4xl mx-auto relative">
-              <input 
-                type="text" 
+              <input
+                type="text"
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
                 className="w-full border border-gray-400 p-4 pr-12 rounded-sm shadow-inner focus:ring-2 focus:ring-gc-blue focus:border-gc-blue outline-none text-sm"
                 placeholder="Type your policy question here..."
               />
-              <button 
-                type="submit" 
+              <button
+                type="submit"
                 className="absolute right-3 top-1/2 -translate-y-1/2 bg-gc-blue text-white p-1.5 rounded-sm hover:bg-[#1b2a3a]"
               >
                 <Send size={18} />
               </button>
             </form>
             <div className="flex justify-between items-center max-w-4xl mx-auto mt-2 px-1">
-               <p className="text-xs text-gray-500">
-                 AI responses are for informational purposes. Verify with official sources.
-               </p>
-               <div className="flex gap-4 text-xs text-gc-link">
-                 <a href="#">Terms and conditions</a>
-                 <a href="#">Privacy Policy</a>
-               </div>
+              <p className="text-xs text-gray-500">
+                AI responses are for informational purposes. Verify with official sources.
+              </p>
+              <div className="flex gap-4 text-xs text-gc-link">
+                <a href="#">Terms and conditions</a>
+                <a href="#">Privacy Policy</a>
+              </div>
             </div>
           </div>
         </main>

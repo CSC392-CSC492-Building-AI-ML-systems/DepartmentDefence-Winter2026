@@ -11,3 +11,5 @@ class Chunk:
     title: str
     source_path: str
     text: str
+    source_url: str
+    source_title: str

@@ -60,7 +60,7 @@ ACAN_MISMATCH_PENALTY = float(os.getenv("ACAN_MISMATCH_PENALTY", "0.18"))
 
 # Cohere settings.
 COHERE_API_KEY = os.getenv("COHERE_API_KEY", "")
-CHAT_MODEL = os.getenv("COHERE_CHAT_MODEL", "command-r-plus")
+CHAT_MODEL = os.getenv("COHERE_CHAT_MODEL", "command-r-plus-08-2024")
 EMBED_MODEL = os.getenv("COHERE_EMBED_MODEL", "embed-english-v3.0")
 EMBED_BATCH = int(os.getenv("EMBED_BATCH", "64"))
 
