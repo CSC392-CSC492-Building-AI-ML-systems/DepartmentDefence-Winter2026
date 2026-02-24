@@ -52,6 +52,15 @@ RERANK_ALPHA = float(os.getenv("RERANK_ALPHA", "0.20"))
 # Max number of candidates scored by rerank before blending.
 # Set to 0 to rerank all considered candidates.
 RERANK_TOP_N = int(os.getenv("RERANK_TOP_N", "11"))
+# Optional MMR diversity pass over the ranked candidate pool.
+# Disabled by default so current behavior is unchanged unless explicitly enabled.
+ENABLE_MMR_DIVERSITY = (
+    os.getenv("ENABLE_MMR_DIVERSITY", "false").strip().lower()
+    in {"1", "true", "yes", "on"}
+)
+# MMR relevance/diversity trade-off:
+# 1.0 = relevance only, 0.0 = diversity only.
+MMR_LAMBDA = float(os.getenv("MMR_LAMBDA", "0.75"))
 
 # LLM query rewrite / expansion settings.
 ENABLE_LLM_QUERY_REWRITE = (
@@ -158,6 +167,8 @@ def validate_config() -> None:
         raise RuntimeError("RERANK_ALPHA must be between 0.0 and 1.0.")
     if RERANK_TOP_N < 0:
         raise RuntimeError("RERANK_TOP_N must be >= 0 (0 reranks all considered candidates).")
+    if not (0.0 <= MMR_LAMBDA <= 1.0):
+        raise RuntimeError("MMR_LAMBDA must be between 0.0 and 1.0.")
     if QUERY_REWRITE_MAX_QUERIES < 0:
         raise RuntimeError("QUERY_REWRITE_MAX_QUERIES must be >= 0.")
     if QUERY_REWRITE_MAX_TOKENS <= 0:

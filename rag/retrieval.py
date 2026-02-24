@@ -14,7 +14,9 @@ from .app_config import (
     ELASTIC_INDEX_NAME,
     ELASTIC_REQUEST_TIMEOUT,
     ELASTIC_URL,
+    ENABLE_MMR_DIVERSITY,
     ENABLE_RERANK,
+    MMR_LAMBDA,
     MAX_CHUNKS_PER_SOURCE,
     RERANK_ALPHA,
     RERANK_MODEL,
@@ -366,6 +368,58 @@ def _apply_rerank_scores(
     return updated
 
 
+def _apply_mmr_diversity(
+    candidate_idx: List[int],
+    combined_scores: np.ndarray,
+    chunk_vecs: np.ndarray,
+    lambda_mult: float,
+) -> List[int]:
+    """
+    Reorder candidates with MMR to reduce near-duplicate semantic picks.
+    """
+    if len(candidate_idx) <= 1:
+        return candidate_idx
+
+    lam = min(max(float(lambda_mult), 0.0), 1.0)
+    if lam >= 1.0:
+        return candidate_idx
+
+    candidate_arr = np.asarray(candidate_idx, dtype=np.int32)
+    rel = np.asarray([float(combined_scores[idx]) for idx in candidate_idx], dtype=np.float32)
+
+    vecs = np.asarray(chunk_vecs[candidate_arr], dtype=np.float32)
+    norms = np.linalg.norm(vecs, axis=1, keepdims=True)
+    safe_norms = np.where(norms > 1e-12, norms, 1.0)
+    unit_vecs = vecs / safe_norms
+    zero_rows = norms[:, 0] <= 1e-12
+    if np.any(zero_rows):
+        unit_vecs[zero_rows] = 0.0
+
+    remaining = list(range(len(candidate_idx)))
+    selected_local: List[int] = []
+
+    first = int(np.argmax(rel))
+    selected_local.append(first)
+    remaining.remove(first)
+
+    max_sim = np.zeros(len(candidate_idx), dtype=np.float32)
+    while remaining:
+        last = selected_local[-1]
+        sims = (unit_vecs @ unit_vecs[last]).astype(np.float32)
+        max_sim = np.maximum(max_sim, sims)
+
+        best_local = max(
+            remaining,
+            key=lambda local_idx: float(
+                (lam * rel[local_idx]) - ((1.0 - lam) * max_sim[local_idx])
+            ),
+        )
+        selected_local.append(int(best_local))
+        remaining.remove(int(best_local))
+
+    return [candidate_idx[local_idx] for local_idx in selected_local]
+
+
 def rerank_retrieved_chunks(
     client: cohere.Client,
     query: str,
@@ -480,6 +534,19 @@ def retrieve(
         combined_scores=combined_scores,
     )
     ranked_idx = np.argsort(-combined_scores)
+    if ENABLE_MMR_DIVERSITY and candidate_pool > 1:
+        mmr_candidates = [int(idx) for idx in ranked_idx[:candidate_pool]]
+        try:
+            diversified = _apply_mmr_diversity(
+                candidate_idx=mmr_candidates,
+                combined_scores=combined_scores,
+                chunk_vecs=chunk_vecs,
+                lambda_mult=MMR_LAMBDA,
+            )
+            tail = [int(idx) for idx in ranked_idx[candidate_pool:]]
+            ranked_idx = np.asarray(diversified + tail, dtype=np.int32)
+        except Exception as exc:
+            LOGGER.warning("MMR diversity pass failed; using score order: %s", exc)
 
     selected: List[int] = []
     max_per_source = int(MAX_CHUNKS_PER_SOURCE)

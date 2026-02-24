@@ -96,6 +96,17 @@ def parse_args() -> argparse.Namespace:
         help="Allow Cohere rerank inside retrieval.",
     )
     parser.add_argument(
+        "--enable-mmr-diversity",
+        action="store_true",
+        help="Enable MMR diversity reordering on the retrieval candidate pool.",
+    )
+    parser.add_argument(
+        "--mmr-lambda",
+        type=float,
+        default=None,
+        help="Optional override for MMR_LAMBDA (0.0 to 1.0) for this run only.",
+    )
+    parser.add_argument(
         "--split",
         default="all",
         help="Optional split filter for JSONL eval-style cases (all/dev/test/train or comma-separated).",
@@ -134,8 +145,8 @@ def parse_args() -> argparse.Namespace:
         type=int,
         default=0,
         help=(
-            "If > 0, rerank retrieved chunks to this size before packing "
-            "(mirrors app retrieve-wide then rerank-to-app-top-k behavior)."
+            "Deprecated and ignored. Packing now uses retrieval output order "
+            "(single rerank stage total)."
         ),
     )
     parser.add_argument(
@@ -385,11 +396,18 @@ def run() -> None:
     rewrite_lengths = [len(value) for value in query_rewrite_cache.values()]
     original_enable_rerank = retrieval.ENABLE_RERANK
     original_alpha = retrieval.RETRIEVAL_ALPHA
+    original_enable_mmr_diversity = retrieval.ENABLE_MMR_DIVERSITY
+    original_mmr_lambda = retrieval.MMR_LAMBDA
     retrieval.ENABLE_RERANK = bool(args.enable_rerank)
+    retrieval.ENABLE_MMR_DIVERSITY = bool(args.enable_mmr_diversity)
     if args.retrieval_alpha is not None:
         retrieval.RETRIEVAL_ALPHA = min(max(float(args.retrieval_alpha), 0.0), 1.0)
+    if args.mmr_lambda is not None:
+        retrieval.MMR_LAMBDA = min(max(float(args.mmr_lambda), 0.0), 1.0)
     effective_retrieval_alpha = float(retrieval.RETRIEVAL_ALPHA)
     effective_enable_rerank = bool(retrieval.ENABLE_RERANK)
+    effective_enable_mmr_diversity = bool(retrieval.ENABLE_MMR_DIVERSITY)
+    effective_mmr_lambda = float(retrieval.MMR_LAMBDA)
     effective_max_chunks_per_source = int(retrieval.MAX_CHUNKS_PER_SOURCE)
     available_prefixes = {
         _doc_prefix(chunk.chunk_id) for chunk in chunks if chunk.chunk_id
@@ -436,13 +454,6 @@ def run() -> None:
             packed_stats = None
             if args.measure_packed_recall:
                 selected_for_packing = retrieved
-                if args.pack_rerank_top_n > 0 and len(retrieved) > args.pack_rerank_top_n:
-                    selected_for_packing = retrieval.rerank_retrieved_chunks(
-                        client=client,
-                        query=question,
-                        rows=retrieved,
-                        top_n=args.pack_rerank_top_n,
-                    )
                 packed_docs, packed_stats = pack_retrieved_documents(
                     client=client,
                     question=question,
@@ -533,6 +544,8 @@ def run() -> None:
     finally:
         retrieval.ENABLE_RERANK = original_enable_rerank
         retrieval.RETRIEVAL_ALPHA = original_alpha
+        retrieval.ENABLE_MMR_DIVERSITY = original_enable_mmr_diversity
+        retrieval.MMR_LAMBDA = original_mmr_lambda
 
     chunk_recall_values = [row["chunk_id_recall"] for row in results if row["chunk_id_recall"] is not None]
     prefix_recall_values = [row["doc_prefix_recall"] for row in results if row["doc_prefix_recall"] is not None]
@@ -659,6 +672,8 @@ def run() -> None:
             "retrieval_alpha_override": args.retrieval_alpha,
             "use_query_rewrite": bool(args.use_query_rewrite),
             "enable_rerank": bool(args.enable_rerank),
+            "enable_mmr_diversity": bool(args.enable_mmr_diversity),
+            "mmr_lambda_override": args.mmr_lambda,
             "embed_model": EMBED_MODEL,
             "cache_file": str(args.cache_file),
             "chunk_cache_file": str(args.chunk_cache_file),
@@ -666,11 +681,15 @@ def run() -> None:
             "effective_retrieval_alpha": effective_retrieval_alpha,
             "effective_max_chunks_per_source": effective_max_chunks_per_source,
             "effective_enable_rerank": effective_enable_rerank,
+            "effective_enable_mmr_diversity": effective_enable_mmr_diversity,
+            "effective_mmr_lambda": effective_mmr_lambda,
             "env_snapshot": {
                 "TOP_K": os.getenv("TOP_K"),
                 "RETRIEVAL_ALPHA": os.getenv("RETRIEVAL_ALPHA"),
                 "MAX_CHUNKS_PER_SOURCE": os.getenv("MAX_CHUNKS_PER_SOURCE"),
                 "ENABLE_RERANK": os.getenv("ENABLE_RERANK"),
+                "ENABLE_MMR_DIVERSITY": os.getenv("ENABLE_MMR_DIVERSITY"),
+                "MMR_LAMBDA": os.getenv("MMR_LAMBDA"),
                 "ENABLE_LLM_QUERY_REWRITE": os.getenv("ENABLE_LLM_QUERY_REWRITE"),
                 "QUERY_REWRITE_MODEL": os.getenv("QUERY_REWRITE_MODEL"),
             },
@@ -681,6 +700,7 @@ def run() -> None:
             "pack_max_doc_tokens": int(args.pack_max_doc_tokens),
             "pack_max_docs": int(args.pack_max_docs),
             "pack_rerank_top_n": int(args.pack_rerank_top_n),
+            "pack_rerank_top_n_ignored": True,
             "pack_coverage_aware": bool(args.pack_coverage_aware),
             "config_diagnostics": config_diagnostics(),
             "legacy_retrieval_env_overrides": legacy_retrieval_env_overrides(),

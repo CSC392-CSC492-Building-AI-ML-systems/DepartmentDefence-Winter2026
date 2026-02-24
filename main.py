@@ -14,7 +14,7 @@ from rag.embedding_client import create_client
 from rag.pipeline import embed_chunks, load_chunks_from_docs
 from rag.prompting import pack_retrieved_documents
 from rag.query_rewrite import generate_query_expansions
-from rag.retrieval import rerank_retrieved_chunks, retrieve
+from rag.retrieval import retrieve
 
 
 def parse_args() -> argparse.Namespace:
@@ -87,13 +87,6 @@ def main() -> None:
                 k=max(APP_TOP_K, RETRIEVAL_CANDIDATE_K),
                 query_expansions=query_expansions,
             )
-            if len(retrieved) > APP_TOP_K:
-                retrieved = rerank_retrieved_chunks(
-                    client=client,
-                    query=q,
-                    rows=retrieved,
-                    top_n=APP_TOP_K,
-                )
             packed_docs, packing_stats = pack_retrieved_documents(
                 client=client,
                 question=q,

@@ -22,7 +22,6 @@ python evaluation/retrieval_adversarial_runner.py `
   --enable-rerank `
   --use-query-rewrite `
   --measure-packed-recall `
-  --pack-rerank-top-n 48 `
   --output evaluation/runs/adversarial_standard_packed.json
 ```
 
@@ -48,10 +47,31 @@ python evaluation/retrieval_adversarial_runner.py `
   --enable-rerank `
   --use-query-rewrite `
   --measure-packed-recall `
-  --pack-rerank-top-n 48 `
   --pack-coverage-aware `
   --output evaluation/runs/adversarial_packed_coverage_aware.json
 ```
+
+### 4) Packed eval with MMR diversity (opt-in experiment)
+```powershell
+$env:ENABLE_LLM_QUERY_REWRITE='1'
+$env:QUERY_REWRITE_MODEL='command-r-08-2024'
+$env:RETRIEVAL_CANDIDATE_K='100'
+$env:RERANK_TOP_N='0'
+$env:RERANK_ALPHA='0.2'
+python evaluation/retrieval_adversarial_runner.py `
+  --cases-file evaluation/cases/adversarial_retrieval_cases.json evaluation/cases/adversarial_chunk_stress_cases.json evaluation/cases/adversarial_retrieval_robustness.json `
+  --top-k 100 `
+  --enable-rerank `
+  --enable-mmr-diversity `
+  --mmr-lambda 0.75 `
+  --use-query-rewrite `
+  --measure-packed-recall `
+  --output evaluation/runs/adversarial_standard_packed_mmr_lambda075.json
+```
+
+Rollback / disable:
+- Remove `--enable-mmr-diversity` (and optional `--mmr-lambda`) from CLI runs.
+- Or set env defaults: `ENABLE_MMR_DIVERSITY=0` and `MMR_LAMBDA=0.75`.
 
 ## Recorded Benchmarks
 
@@ -105,6 +125,10 @@ Interpretation:
   - Enable rewrite/expansion queries before retrieval.
 - `--enable-rerank`
   - Enable retrieval-side rerank blending.
+- `--enable-mmr-diversity`
+  - Enable MMR diversity reordering on the retrieval candidate pool.
+- `--mmr-lambda <float>`
+  - Optional override for `MMR_LAMBDA` for this run (`0.0` to `1.0`).
 - `--split <name[,name...]>`
   - Split filter for JSONL-style cases (`all`, `dev`, `test`, `train`).
 - `--measure-packed-recall`
@@ -118,7 +142,7 @@ Interpretation:
 - `--pack-max-docs <int>`
   - Hard cap on number of packed documents.
 - `--pack-rerank-top-n <int>`
-  - If `>0`, prompt-side rerank retrieved docs to this count before packing.
+  - Deprecated and ignored (single rerank stage total).
 - `--pack-coverage-aware`
   - Enable temporary coverage-aware ordering before packing (experimental).
 
@@ -134,3 +158,7 @@ Interpretation:
   - Rewrite model name. Use a live model (for example `command-r-08-2024`).
 - `ENABLE_LLM_QUERY_REWRITE`
   - Enables rewrite generation/caching path.
+- `ENABLE_MMR_DIVERSITY`
+  - Enables MMR candidate diversification in retrieval (default off).
+- `MMR_LAMBDA`
+  - MMR relevance/diversity trade-off (`1.0` relevance only, `0.0` diversity only).
