@@ -41,6 +41,50 @@ METHOD_CHOICES = (
     "doc_first_focus",
 )
 JSON_OBJECT_RE = re.compile(r"\{.*\}", re.DOTALL)
+TOKEN_RE = re.compile(r"[a-z0-9]+")
+NON_ALNUM_RE = re.compile(r"[^a-z0-9]+")
+SPACE_RE = re.compile(r"\s+")
+CLAUSE_SPLIT_RE = re.compile(r"[?;:]|\b(?:and|or|but|while)\b", flags=re.IGNORECASE)
+STOPWORDS = {
+    "a",
+    "an",
+    "and",
+    "are",
+    "as",
+    "at",
+    "be",
+    "by",
+    "for",
+    "from",
+    "how",
+    "if",
+    "in",
+    "into",
+    "is",
+    "it",
+    "its",
+    "may",
+    "of",
+    "on",
+    "or",
+    "that",
+    "the",
+    "their",
+    "there",
+    "these",
+    "this",
+    "to",
+    "under",
+    "what",
+    "when",
+    "where",
+    "which",
+    "who",
+    "why",
+    "with",
+    "you",
+    "your",
+}
 
 
 def parse_args() -> argparse.Namespace:
@@ -158,6 +202,49 @@ def _parse_json_object(text: str) -> Dict[str, Any]:
     if isinstance(payload, dict):
         return payload
     return {}
+
+
+def _normalize_text(text: str) -> str:
+    lowered = str(text or "").lower()
+    cleaned = NON_ALNUM_RE.sub(" ", lowered)
+    return SPACE_RE.sub(" ", cleaned).strip()
+
+
+def _content_tokens(text: str) -> List[str]:
+    return [token for token in TOKEN_RE.findall(_normalize_text(text)) if len(token) > 2 and token not in STOPWORDS]
+
+
+def _extract_query_clauses(query: str, max_clauses: int = 4) -> List[str]:
+    normalized = SPACE_RE.sub(" ", str(query or "")).strip()
+    if not normalized:
+        return []
+    clauses: List[str] = []
+    seen = set()
+    for value in CLAUSE_SPLIT_RE.split(normalized):
+        clause = value.strip(" ,")
+        if not clause:
+            continue
+        tokens = _content_tokens(clause)
+        if len(tokens) < 3:
+            continue
+        key = " ".join(tokens)
+        if key in seen:
+            continue
+        seen.add(key)
+        clauses.append(clause)
+        if len(clauses) >= max_clauses:
+            break
+    if len(clauses) <= 1:
+        return []
+    return clauses
+
+
+def _lexical_overlap_vocab(query_tokens: Sequence[str], chunk_vocab: Set[str]) -> float:
+    if not query_tokens:
+        return 0.0
+    query_vocab = set(query_tokens)
+    overlap = sum(1 for token in query_vocab if token in chunk_vocab)
+    return overlap / max(1, len(query_vocab))
 
 
 def _summarize_case_rows(rows: List[Dict[str, Any]]) -> Dict[str, Any]:
@@ -278,10 +365,21 @@ def run() -> None:
     chunks = _load_or_chunk_docs(docs, args.chunk_cache_file)
     client = create_client()
     chunk_vecs = _load_or_embed_chunk_vectors(client, chunks, args.cache_file)
-    chunk_vocabs, chunk_modes, chunk_meta_vocabs = retrieval.build_chunk_features(chunks)
     chunk_by_id: Dict[str, Chunk] = {chunk.chunk_id: chunk for chunk in chunks}
     chunk_vocab_by_id: Dict[str, Set[str]] = {
-        chunk.chunk_id: chunk_vocabs[index] for index, chunk in enumerate(chunks)
+        chunk.chunk_id: set(
+            _content_tokens(
+                " ".join(
+                    [
+                        chunk.title or "",
+                        chunk.section_heading or "",
+                        " ".join(chunk.heading_path or []),
+                        chunk.text or "",
+                    ]
+                )
+            )
+        )
+        for chunk in chunks
     }
 
     original_enable_rerank = retrieval.ENABLE_RERANK
@@ -314,9 +412,6 @@ def run() -> None:
             chunk_vecs=chunk_vecs,
             k=args.top_k,
             query_expansions=_question_expansions(question),
-            chunk_vocabs=chunk_vocabs,
-            chunk_modes=chunk_modes,
-            chunk_meta_vocabs=chunk_meta_vocabs,
         )
 
     def method_large_pool_rerank(case: Dict[str, Any]) -> List[Tuple[Chunk, float]]:
@@ -328,9 +423,6 @@ def run() -> None:
             chunk_vecs=chunk_vecs,
             k=max(args.pool_k, args.top_k),
             query_expansions=_question_expansions(question),
-            chunk_vocabs=chunk_vocabs,
-            chunk_modes=chunk_modes,
-            chunk_meta_vocabs=chunk_meta_vocabs,
         )
         if not pool:
             return []
@@ -369,7 +461,7 @@ def run() -> None:
                 out.append(value.strip())
                 if len(out) >= args.max_subqueries:
                     return out
-        clauses = retrieval._extract_query_clauses(question, max_clauses=args.max_subqueries)  # noqa: SLF001
+        clauses = _extract_query_clauses(question, max_clauses=args.max_subqueries)
         for value in clauses:
             key = value.strip().lower()
             if not key or key in seen:
@@ -392,9 +484,6 @@ def run() -> None:
                 chunk_vecs=chunk_vecs,
                 k=max(args.subquery_k, args.top_k),
                 query_expansions=[],
-                chunk_vocabs=chunk_vocabs,
-                chunk_modes=chunk_modes,
-                chunk_meta_vocabs=chunk_meta_vocabs,
             )
             for rank, (chunk, _score) in enumerate(rows, start=1):
                 rrf_scores[chunk.chunk_id] += 1.0 / (args.rrf_k + rank)
@@ -415,19 +504,19 @@ def run() -> None:
     def method_two_pass_coverage(case: Dict[str, Any]) -> List[Tuple[Chunk, float]]:
         question = case["question"]
         primary = baseline_retrieve(case)
-        clauses = retrieval._extract_query_clauses(question, max_clauses=4)  # noqa: SLF001
+        clauses = _extract_query_clauses(question, max_clauses=4)
         if not clauses:
             return primary
 
         missing_clauses: List[str] = []
         for clause in clauses:
-            tokens = retrieval._content_tokens(clause)  # noqa: SLF001
+            tokens = _content_tokens(clause)
             if not tokens:
                 continue
             best_overlap = 0.0
             for chunk, _ in primary:
                 vocab = chunk_vocab_by_id.get(chunk.chunk_id, set())
-                overlap = retrieval._lexical_overlap_vocab(tokens, vocab)  # noqa: SLF001
+                overlap = _lexical_overlap_vocab(tokens, vocab)
                 if overlap > best_overlap:
                     best_overlap = overlap
             if best_overlap < args.clause_overlap_threshold:
@@ -448,9 +537,6 @@ def run() -> None:
                 chunk_vecs=chunk_vecs,
                 k=max(args.rescue_k, args.top_k // 2),
                 query_expansions=[],
-                chunk_vocabs=chunk_vocabs,
-                chunk_modes=chunk_modes,
-                chunk_meta_vocabs=chunk_meta_vocabs,
             )
             for rank, (chunk, _score) in enumerate(rescue_rows, start=1):
                 fusion[chunk.chunk_id] += args.rescue_weight / (args.rrf_k + rank)
@@ -475,9 +561,6 @@ def run() -> None:
             chunk_vecs=chunk_vecs,
             k=max(args.llm_pool_k, args.top_k),
             query_expansions=_question_expansions(question),
-            chunk_vocabs=chunk_vocabs,
-            chunk_modes=chunk_modes,
-            chunk_meta_vocabs=chunk_meta_vocabs,
         )
         if not pool:
             return []
@@ -536,9 +619,6 @@ def run() -> None:
                 break
         return _apply_source_cap(ranked, top_k=args.top_k)
 
-    index_by_chunk_id: Dict[str, int] = {
-        chunk.chunk_id: idx for idx, chunk in enumerate(chunks) if chunk.chunk_id
-    }
     source_to_indices: Dict[str, List[int]] = defaultdict(list)
     for idx, chunk in enumerate(chunks):
         source_to_indices[chunk.source_path].append(idx)
@@ -552,9 +632,6 @@ def run() -> None:
             chunk_vecs=chunk_vecs,
             k=max(args.pool_k, args.top_k),
             query_expansions=_question_expansions(question),
-            chunk_vocabs=chunk_vocabs,
-            chunk_modes=chunk_modes,
-            chunk_meta_vocabs=chunk_meta_vocabs,
         )
         if not pool:
             return []
@@ -585,9 +662,6 @@ def run() -> None:
         # Stage 2: re-rank chunks within the focused source set.
         focused_chunks = [chunks[idx] for idx in focused_indices]
         focused_vecs = chunk_vecs[focused_indices]
-        focused_vocabs = [chunk_vocabs[idx] for idx in focused_indices]
-        focused_modes = [chunk_modes[idx] for idx in focused_indices]
-        focused_meta_vocabs = [chunk_meta_vocabs[idx] for idx in focused_indices]
         rows = retrieval.retrieve(
             client=client,
             query=question,
@@ -595,9 +669,6 @@ def run() -> None:
             chunk_vecs=focused_vecs,
             k=args.top_k,
             query_expansions=_question_expansions(question),
-            chunk_vocabs=focused_vocabs,
-            chunk_modes=focused_modes,
-            chunk_meta_vocabs=focused_meta_vocabs,
         )
 
         # Safety fallback: if too few rows, backfill from global pool.

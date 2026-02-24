@@ -152,9 +152,6 @@ def _evaluate(
     chunk_vecs,
     top_k: int,
     query_rewrite_cache: Dict[str, List[str]],
-    chunk_vocabs,
-    chunk_modes,
-    chunk_meta_vocabs,
 ) -> Tuple[List[Dict[str, Any]], Dict[str, Any]]:
     rows: List[Dict[str, Any]] = []
     for case in cases:
@@ -168,9 +165,6 @@ def _evaluate(
             chunk_vecs=chunk_vecs,
             k=top_k,
             query_expansions=query_rewrite_cache.get(question, []),
-            chunk_vocabs=chunk_vocabs,
-            chunk_modes=chunk_modes,
-            chunk_meta_vocabs=chunk_meta_vocabs,
         )
         got_ids = [chunk.chunk_id for chunk, _ in retrieved]
         got_prefixes = [_doc_prefix(value) for value in got_ids]
@@ -196,7 +190,6 @@ def run() -> None:
     client = create_client()
     baseline_vecs = _load_or_embed_chunk_vectors(client, chunks, args.cache_file)
     contextual_vecs = _load_or_embed_contextual_vectors(client, chunks, args.context_cache_file)
-    chunk_vocabs, chunk_modes, chunk_meta_vocabs = retrieval.build_chunk_features(chunks)
     original_enable_rerank = retrieval.ENABLE_RERANK
     retrieval.ENABLE_RERANK = False
 
@@ -220,9 +213,6 @@ def run() -> None:
             chunk_vecs=baseline_vecs,
             top_k=args.top_k,
             query_rewrite_cache=rewrite_cache,
-            chunk_vocabs=chunk_vocabs,
-            chunk_modes=chunk_modes,
-            chunk_meta_vocabs=chunk_meta_vocabs,
         )
         contextual_rows, contextual_summary = _evaluate(
             cases=cases,
@@ -231,9 +221,6 @@ def run() -> None:
             chunk_vecs=contextual_vecs,
             top_k=args.top_k,
             query_rewrite_cache=rewrite_cache,
-            chunk_vocabs=chunk_vocabs,
-            chunk_modes=chunk_modes,
-            chunk_meta_vocabs=chunk_meta_vocabs,
         )
     finally:
         retrieval.ENABLE_RERANK = original_enable_rerank

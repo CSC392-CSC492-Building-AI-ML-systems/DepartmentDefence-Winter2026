@@ -35,12 +35,14 @@ from rag.app_config import (
     CHUNK_OVERLAP,
     EMBED_MODEL,
     EVAL_TOP_K,
+    CHAT_MODEL,
     CHAT_MAX_INPUT_TOKENS,
     CHAT_PREAMBLE,
     CHAT_RESERVED_TOKENS,
     MAX_DOC_TOKENS,
     MAX_PACKED_DOCS,
     QUERY_REWRITE_MODEL,
+    QUERY_REWRITE_MAX_QUERIES,
     RAW_DIR,
     config_diagnostics,
     legacy_retrieval_env_overrides,
@@ -51,6 +53,10 @@ from rag.pipeline import embed_chunks, load_chunks_from_docs
 from rag.prompting import pack_retrieved_documents
 from rag.query_rewrite import generate_query_expansions
 from rag.rag_types import Chunk
+from evaluation.query_rewrite_cache import (
+    DEFAULT_QUERY_REWRITE_CACHE,
+    build_query_rewrite_cache,
+)
 import rag.retrieval as retrieval
 
 
@@ -66,6 +72,12 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
     parser.add_argument("--cache-file", type=Path, default=DEFAULT_CACHE)
     parser.add_argument("--chunk-cache-file", type=Path, default=DEFAULT_CHUNK_CACHE)
+    parser.add_argument(
+        "--query-rewrite-cache-file",
+        type=Path,
+        default=DEFAULT_QUERY_REWRITE_CACHE,
+        help="Persistent cache for generated query rewrites.",
+    )
     parser.add_argument("--top-k", type=int, default=max(24, EVAL_TOP_K))
     parser.add_argument(
         "--retrieval-alpha",
@@ -124,6 +136,14 @@ def parse_args() -> argparse.Namespace:
         help=(
             "If > 0, rerank retrieved chunks to this size before packing "
             "(mirrors app retrieve-wide then rerank-to-app-top-k behavior)."
+        ),
+    )
+    parser.add_argument(
+        "--pack-coverage-aware",
+        action="store_true",
+        help=(
+            "Enable temporary coverage-aware document ordering before packing "
+            "(facet/source diversity heuristic)."
         ),
     )
     return parser.parse_args()
@@ -311,20 +331,6 @@ def _normalize_case(row: Dict[str, Any]) -> Dict[str, Any]:
     }
 
 
-def _build_query_rewrite_cache(client, cases: List[Dict[str, Any]]) -> Dict[str, List[str]]:
-    cache: Dict[str, List[str]] = {}
-    for case in cases:
-        question = case["question"]
-        if question in cache:
-            continue
-        cache[question] = generate_query_expansions(
-            client=client,
-            question=question,
-            chat_history=[],
-        )
-    return cache
-
-
 def run() -> None:
     args = parse_args()
     raw_cases = _load_cases(args.cases_file)
@@ -352,10 +358,30 @@ def run() -> None:
 
     client = create_client()
     chunk_vecs = _load_or_embed_chunk_vectors(client, chunks, args.cache_file)
-    chunk_vocabs, chunk_modes, chunk_meta_vocabs = retrieval.build_chunk_features(chunks)
-    query_rewrite_cache = (
-        _build_query_rewrite_cache(client, cases) if args.use_query_rewrite else {}
-    )
+    query_rewrite_stats: Dict[str, Any] = {
+        "cache_file": str(args.query_rewrite_cache_file),
+        "effective_model": QUERY_REWRITE_MODEL or CHAT_MODEL,
+        "max_queries": int(QUERY_REWRITE_MAX_QUERIES),
+        "question_count": 0,
+        "cache_hits": 0,
+        "cache_misses": 0,
+        "generated_count": 0,
+        "written_entries": 0,
+    }
+    if args.use_query_rewrite:
+        query_rewrite_cache, query_rewrite_stats = build_query_rewrite_cache(
+            questions=(case["question"] for case in cases),
+            cache_file=args.query_rewrite_cache_file,
+            model_name=(QUERY_REWRITE_MODEL or CHAT_MODEL),
+            max_queries=QUERY_REWRITE_MAX_QUERIES,
+            generator=lambda question: generate_query_expansions(
+                client=client,
+                question=question,
+                chat_history=[],
+            ),
+        )
+    else:
+        query_rewrite_cache = {}
     rewrite_lengths = [len(value) for value in query_rewrite_cache.values()]
     original_enable_rerank = retrieval.ENABLE_RERANK
     original_alpha = retrieval.RETRIEVAL_ALPHA
@@ -383,7 +409,6 @@ def run() -> None:
             ]
 
             query_expansions = query_rewrite_cache.get(question, []) if args.use_query_rewrite else []
-
             retrieved = retrieval.retrieve(
                 client=client,
                 query=question,
@@ -391,9 +416,6 @@ def run() -> None:
                 chunk_vecs=chunk_vecs,
                 k=args.top_k,
                 query_expansions=query_expansions,
-                chunk_vocabs=chunk_vocabs,
-                chunk_modes=chunk_modes,
-                chunk_meta_vocabs=chunk_meta_vocabs,
             )
 
             got_ids = [chunk.chunk_id for chunk, _score in retrieved]
@@ -431,6 +453,7 @@ def run() -> None:
                     reserved_tokens=args.pack_reserved_tokens,
                     max_doc_tokens=args.pack_max_doc_tokens,
                     max_packed_docs=args.pack_max_docs,
+                    coverage_aware=bool(args.pack_coverage_aware),
                 )
                 packed_chunk_ids = [
                     str(doc.get("chunk_id", "")).strip()
@@ -639,6 +662,7 @@ def run() -> None:
             "embed_model": EMBED_MODEL,
             "cache_file": str(args.cache_file),
             "chunk_cache_file": str(args.chunk_cache_file),
+            "query_rewrite_cache_file": str(args.query_rewrite_cache_file),
             "effective_retrieval_alpha": effective_retrieval_alpha,
             "effective_max_chunks_per_source": effective_max_chunks_per_source,
             "effective_enable_rerank": effective_enable_rerank,
@@ -657,6 +681,7 @@ def run() -> None:
             "pack_max_doc_tokens": int(args.pack_max_doc_tokens),
             "pack_max_docs": int(args.pack_max_docs),
             "pack_rerank_top_n": int(args.pack_rerank_top_n),
+            "pack_coverage_aware": bool(args.pack_coverage_aware),
             "config_diagnostics": config_diagnostics(),
             "legacy_retrieval_env_overrides": legacy_retrieval_env_overrides(),
         },
@@ -666,6 +691,7 @@ def run() -> None:
                 sum(rewrite_lengths) / len(rewrite_lengths) if rewrite_lengths else 0.0
             ),
             "questions_with_expansions": sum(1 for count in rewrite_lengths if count > 0),
+            "cache": query_rewrite_stats,
             "sample": [
                 {"question": question, "expansions": query_rewrite_cache[question]}
                 for question in list(query_rewrite_cache.keys())[:8]

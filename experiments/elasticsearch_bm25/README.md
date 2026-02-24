@@ -14,6 +14,32 @@ Scoring used in the script:
 1. Local Elasticsearch reachable at `http://127.0.0.1:9200`.
 2. Cohere API key in `.env`.
 
+## Recreate local Elasticsearch after clone
+
+Large local Elasticsearch runtime files are intentionally not tracked in git
+(`.tools/` is ignored). To recreate the same local setup:
+
+1. From repo root, start Elasticsearch:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File experiments/elasticsearch_bm25/start_local_elasticsearch.ps1
+```
+
+This script will:
+- download `elasticsearch-8.19.3-windows-x86_64.zip` into `.tools/` (if missing),
+- extract it to `.tools/elasticsearch-8.19.3`,
+- apply local single-node/no-auth config overrides,
+- start the node and wait for health at `http://127.0.0.1:9200`.
+
+2. Stop it when done:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File experiments/elasticsearch_bm25/stop_local_elasticsearch.ps1
+```
+
+3. Optional cleanup:
+- delete `.tools/` to remove downloaded binaries, data, and logs.
+
 ## Main script
 
 - `elastic_bm25_hybrid_eval.py`

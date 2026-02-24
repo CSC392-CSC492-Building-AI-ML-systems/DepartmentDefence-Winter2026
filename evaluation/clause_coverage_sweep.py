@@ -1,4 +1,4 @@
-"""Sweep clause-coverage parameters in retrieval and report metric sensitivity."""
+"""Legacy script: clause-coverage sweep is deprecated for BM25 retriever."""
 
 from __future__ import annotations
 
@@ -30,7 +30,9 @@ DEFAULT_OUTPUT = REPO_ROOT / "evaluation" / "runs" / "clause_coverage_sweep.json
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Sweep clause-coverage parameters.")
+    parser = argparse.ArgumentParser(
+        description="Legacy sweep for removed clause-coverage controls."
+    )
     parser.add_argument(
         "--cases-file",
         type=Path,
@@ -45,12 +47,12 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--coverage-values",
         default="1,2,3",
-        help="Comma-separated MAX_CLAUSE_COVERAGE values.",
+        help="Legacy argument retained for compatibility.",
     )
     parser.add_argument(
         "--overlap-values",
         default="0.35,0.45,0.55",
-        help="Comma-separated CLAUSE_COVERAGE_MIN_OVERLAP values.",
+        help="Legacy argument retained for compatibility.",
     )
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
     return parser.parse_args()
@@ -90,20 +92,14 @@ def run() -> None:
     chunks = _load_or_chunk_docs(docs, args.chunk_cache_file)
     client = create_client()
     chunk_vecs = _load_or_embed_chunk_vectors(client, chunks, args.cache_file)
-    chunk_vocabs, chunk_modes, chunk_meta_vocabs = retrieval.build_chunk_features(chunks)
 
     original_enable_rerank = retrieval.ENABLE_RERANK
-    original_coverage = retrieval.MAX_CLAUSE_COVERAGE
-    original_overlap = retrieval.CLAUSE_COVERAGE_MIN_OVERLAP
     retrieval.ENABLE_RERANK = False
 
     rows = []
     try:
         for coverage in coverage_values:
             for overlap in overlap_values:
-                retrieval.MAX_CLAUSE_COVERAGE = int(coverage)
-                retrieval.CLAUSE_COVERAGE_MIN_OVERLAP = float(overlap)
-
                 case_rows = []
                 for case in cases:
                     expected_ids = list(case["expected_chunk_ids"])
@@ -115,9 +111,6 @@ def run() -> None:
                         chunk_vecs=chunk_vecs,
                         k=args.top_k,
                         query_expansions=[],
-                        chunk_vocabs=chunk_vocabs,
-                        chunk_modes=chunk_modes,
-                        chunk_meta_vocabs=chunk_meta_vocabs,
                     )
                     got_ids = [chunk.chunk_id for chunk, _ in retrieved]
                     got_prefixes = [_doc_prefix(value) for value in got_ids]
@@ -154,8 +147,6 @@ def run() -> None:
                 )
     finally:
         retrieval.ENABLE_RERANK = original_enable_rerank
-        retrieval.MAX_CLAUSE_COVERAGE = original_coverage
-        retrieval.CLAUSE_COVERAGE_MIN_OVERLAP = original_overlap
 
     best = max(
         rows,
@@ -173,6 +164,10 @@ def run() -> None:
             "overlap_values": overlap_values,
             "effective_retrieval_alpha": float(retrieval.RETRIEVAL_ALPHA),
             "rerank_forced_off": True,
+            "deprecated_note": (
+                "Clause coverage controls were removed from rag/retrieval.py; "
+                "coverage/overlap values no longer affect retrieval."
+            ),
         },
         "best": best,
         "rows": rows,

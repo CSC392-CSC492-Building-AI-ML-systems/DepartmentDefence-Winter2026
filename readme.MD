@@ -37,6 +37,8 @@ Policy-focused RAG CLI for procurement questions using Cohere.
   - `python evaluation/eval_stack_runner.py --cases-file evaluation/cases/eval_cases.jsonl --with-chat --output evaluation/runs/stack_eval_with_chat.json`
 - Run structured eval stack with judge:
   - `python evaluation/eval_stack_runner.py --cases-file evaluation/cases/eval_cases_reference.jsonl --with-chat --with-judge --output evaluation/runs/stack_eval_reference_with_judge.json`
+- Start local Elasticsearch for BM25 experiments (downloads to ignored `.tools/`):
+  - `powershell -ExecutionPolicy Bypass -File experiments/elasticsearch_bm25/start_local_elasticsearch.ps1`
 
 ## Repo Map
 - `rag/`: core RAG package (config, corpus, embedding, retrieval, prompting)

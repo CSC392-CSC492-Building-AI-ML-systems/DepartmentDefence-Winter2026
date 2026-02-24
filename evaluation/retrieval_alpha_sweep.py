@@ -22,6 +22,11 @@ from evaluation.retrieval_adversarial_runner import (
     _load_or_embed_chunk_vectors,
     _normalize_case,
 )
+from evaluation.query_rewrite_cache import (
+    DEFAULT_QUERY_REWRITE_CACHE,
+    build_query_rewrite_cache,
+)
+from rag.app_config import CHAT_MODEL, QUERY_REWRITE_MAX_QUERIES, QUERY_REWRITE_MODEL
 from rag.corpus import list_docs
 from rag.embedding_client import create_client
 from rag.query_rewrite import generate_query_expansions
@@ -42,6 +47,12 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument("--cache-file", type=Path, default=DEFAULT_CACHE)
     parser.add_argument("--chunk-cache-file", type=Path, default=DEFAULT_CHUNK_CACHE)
+    parser.add_argument(
+        "--query-rewrite-cache-file",
+        type=Path,
+        default=DEFAULT_QUERY_REWRITE_CACHE,
+        help="Persistent cache for generated query rewrites.",
+    )
     parser.add_argument("--top-k", type=int, default=24)
     parser.add_argument(
         "--alphas",
@@ -96,20 +107,6 @@ def _select_cases(paths: List[Path], split_arg: str) -> List[Dict[str, Any]]:
     return selected
 
 
-def _build_query_rewrite_cache(client, cases: List[Dict[str, Any]]) -> Dict[str, List[str]]:
-    cache: Dict[str, List[str]] = {}
-    for case in cases:
-        question = case["question"]
-        if question in cache:
-            continue
-        cache[question] = generate_query_expansions(
-            client=client,
-            question=question,
-            chat_history=[],
-        )
-    return cache
-
-
 def _summarize(rows: List[Dict[str, Any]]) -> Dict[str, Any]:
     chunk_recall_values = [row["chunk_id_recall"] for row in rows if row["chunk_id_recall"] is not None]
     prefix_recall_values = [row["doc_prefix_recall"] for row in rows if row["doc_prefix_recall"] is not None]
@@ -135,9 +132,6 @@ def _evaluate_alpha(
     top_k: int,
     query_expansion_cache: Dict[str, List[str]],
     use_query_rewrite: bool,
-    chunk_vocabs,
-    chunk_modes,
-    chunk_meta_vocabs,
     available_prefixes: Set[str],
 ) -> Dict[str, Any]:
     rows: List[Dict[str, Any]] = []
@@ -157,9 +151,6 @@ def _evaluate_alpha(
             chunk_vecs=chunk_vecs,
             k=top_k,
             query_expansions=query_expansions,
-            chunk_vocabs=chunk_vocabs,
-            chunk_modes=chunk_modes,
-            chunk_meta_vocabs=chunk_meta_vocabs,
         )
         got_ids = [chunk.chunk_id for chunk, _ in retrieved]
         got_prefixes = [_doc_prefix(value) for value in got_ids]
@@ -210,10 +201,31 @@ def run() -> None:
 
     client = create_client()
     chunk_vecs = _load_or_embed_chunk_vectors(client, chunks, args.cache_file)
-    chunk_vocabs, chunk_modes, chunk_meta_vocabs = retrieval.build_chunk_features(chunks)
-    query_expansion_cache = (
-        _build_query_rewrite_cache(client, cases) if args.use_query_rewrite else {}
-    )
+    query_rewrite_stats: Dict[str, Any] = {
+        "cache_file": str(args.query_rewrite_cache_file),
+        "effective_model": QUERY_REWRITE_MODEL or CHAT_MODEL,
+        "max_queries": int(QUERY_REWRITE_MAX_QUERIES),
+        "question_count": 0,
+        "cache_hits": 0,
+        "cache_misses": 0,
+        "generated_count": 0,
+        "written_entries": 0,
+    }
+    if args.use_query_rewrite:
+        query_expansion_cache, query_rewrite_stats = build_query_rewrite_cache(
+            questions=(case["question"] for case in cases),
+            cache_file=args.query_rewrite_cache_file,
+            model_name=(QUERY_REWRITE_MODEL or CHAT_MODEL),
+            max_queries=QUERY_REWRITE_MAX_QUERIES,
+            generator=lambda question: generate_query_expansions(
+                client=client,
+                question=question,
+                chat_history=[],
+            ),
+        )
+    else:
+        query_expansion_cache = {}
+    rewrite_lengths = [len(value) for value in query_expansion_cache.values()]
 
     original_alpha = retrieval.RETRIEVAL_ALPHA
     original_enable_rerank = retrieval.ENABLE_RERANK
@@ -232,9 +244,6 @@ def run() -> None:
                     top_k=args.top_k,
                     query_expansion_cache=query_expansion_cache,
                     use_query_rewrite=bool(args.use_query_rewrite),
-                    chunk_vocabs=chunk_vocabs,
-                    chunk_modes=chunk_modes,
-                    chunk_meta_vocabs=chunk_meta_vocabs,
                     available_prefixes=available_prefixes,
                 )
             )
@@ -266,6 +275,15 @@ def run() -> None:
             "enable_rerank": bool(args.enable_rerank),
             "cache_file": str(args.cache_file),
             "chunk_cache_file": str(args.chunk_cache_file),
+            "query_rewrite_cache_file": str(args.query_rewrite_cache_file),
+        },
+        "query_rewrite_diagnostics": {
+            "question_count": len(query_expansion_cache),
+            "avg_expansions_per_question": (
+                sum(rewrite_lengths) / len(rewrite_lengths) if rewrite_lengths else 0.0
+            ),
+            "questions_with_expansions": sum(1 for count in rewrite_lengths if count > 0),
+            "cache": query_rewrite_stats,
         },
         # Backward-compatible key: prefix-first objective.
         "best_alpha": best_prefix_then_chunk["alpha"],

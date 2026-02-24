@@ -14,7 +14,7 @@ from rag.embedding_client import create_client
 from rag.pipeline import embed_chunks, load_chunks_from_docs
 from rag.prompting import pack_retrieved_documents
 from rag.query_rewrite import generate_query_expansions
-from rag.retrieval import build_chunk_features, rerank_retrieved_chunks, retrieve
+from rag.retrieval import rerank_retrieved_chunks, retrieve
 
 
 def parse_args() -> argparse.Namespace:
@@ -58,8 +58,6 @@ def main() -> None:
     if chunk_vecs.size == 0:
         print("No embeddings were created. Check chunking/input data and retry.")
         return
-    chunk_vocabs, chunk_modes, chunk_meta_vocabs = build_chunk_features(chunks)
-
     chat_history: list[dict] = []
 
     while True:
@@ -88,9 +86,6 @@ def main() -> None:
                 chunk_vecs=chunk_vecs,
                 k=max(APP_TOP_K, RETRIEVAL_CANDIDATE_K),
                 query_expansions=query_expansions,
-                chunk_vocabs=chunk_vocabs,
-                chunk_modes=chunk_modes,
-                chunk_meta_vocabs=chunk_meta_vocabs,
             )
             if len(retrieved) > APP_TOP_K:
                 retrieved = rerank_retrieved_chunks(

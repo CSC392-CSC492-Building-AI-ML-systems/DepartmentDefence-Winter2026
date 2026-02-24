@@ -54,14 +54,6 @@ LIGHT_STOPWORDS = {
     "why",
     "with",
 }
-FACET_SPLIT_RE = re.compile(
-    r"\s*(?:,\s+|;\s*|\bwith\b\s+|\band\b\s+)\s*",
-    flags=re.IGNORECASE,
-)
-LEADING_FACET_PREFIX_RE = re.compile(
-    r"^(?:for|combine|show|retrieve|provide|build|map|extract|align|compare|find|list)\b[:\s-]*",
-    flags=re.IGNORECASE,
-)
 
 
 def build_rewrite_corpus_context(
@@ -158,27 +150,6 @@ def _query_relevance_overlap(query: str, question_vocab: set[str]) -> float:
     return overlap / max(1, len(question_vocab))
 
 
-def _extract_question_facets(question: str, max_facets: int) -> List[str]:
-    normalized = re.sub(r"\s+", " ", (question or "").strip())
-    if not normalized:
-        return []
-
-    candidates: List[str] = []
-    for raw_part in FACET_SPLIT_RE.split(normalized):
-        part = LEADING_FACET_PREFIX_RE.sub("", raw_part.strip())
-        part = part.strip(" .,:;-")
-        if not part:
-            continue
-        # Drop fragments that are too short to be retrieval-effective.
-        if len(_content_tokens(part)) < 3:
-            continue
-        candidates.append(part)
-
-    if not candidates:
-        return []
-    return _dedupe_keep_order(candidates)[: max(1, int(max_facets))]
-
-
 def _parse_queries_from_json(text: str) -> List[str]:
     candidate = text.strip()
     try:
@@ -253,7 +224,6 @@ def generate_query_expansions(
         f"Current user question:\n{question}\n"
     )
 
-    queries: List[str] = []
     try:
         response = client.chat(
             model=QUERY_REWRITE_MODEL or CHAT_MODEL,
@@ -262,13 +232,11 @@ def generate_query_expansions(
             max_tokens=QUERY_REWRITE_MAX_TOKENS,
             response_format={"type": "json_object"},
         )
-        text = (response.text or "").strip()
-        if text:
-            queries = _parse_queries_from_json(text)
     except Exception:
-        # Fall through to deterministic facet extraction so rewrite stays useful
-        # even when the LLM call is unavailable.
-        queries = []
+        return []
+
+    text = (response.text or "").strip()
+    queries = _parse_queries_from_json(text)
 
     # Filter away exact repeats of the original question.
     filtered = [query for query in queries if query.lower() != question.lower()]
@@ -279,25 +247,7 @@ def generate_query_expansions(
             continue
         overlap = _query_relevance_overlap(query, question_vocab)
         # Keep rewrites anchored to the user question while allowing partial reframes.
-        if overlap < 0.12:
-            continue
-        selected.append(query)
-
-    # Backfill with deterministic facets so multi-part questions do not collapse
-    # into a single narrow rewrite when the model under-generates.
-    facet_queries = _extract_question_facets(question=question, max_facets=max_queries)
-    target_count = 1
-    if len(facet_queries) >= 2:
-        target_count = min(max_queries, len(facet_queries))
-
-    for query in facet_queries:
-        if len(selected) >= target_count:
-            break
-        if _is_overly_generic(query):
-            continue
-        overlap = _query_relevance_overlap(query, question_vocab)
         if overlap < 0.20:
             continue
         selected.append(query)
-
     return _dedupe_keep_order(selected)[:max_queries]

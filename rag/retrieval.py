@@ -1,94 +1,42 @@
-"""Minimal hybrid retrieval over embedded policy chunks."""
+"""Hybrid retrieval over dense embeddings + Elasticsearch BM25."""
 
 from __future__ import annotations
 
+import hashlib
 import logging
-import re
-from typing import Dict, List, Optional, Set, Tuple
+from typing import Any, Dict, List, Optional, Sequence, Tuple
 
 import cohere
 import numpy as np
+from elasticsearch import Elasticsearch, helpers
 
 from .app_config import (
+    ELASTIC_INDEX_NAME,
+    ELASTIC_REQUEST_TIMEOUT,
+    ELASTIC_URL,
     ENABLE_RERANK,
     MAX_CHUNKS_PER_SOURCE,
     RERANK_ALPHA,
     RERANK_MODEL,
+    RERANK_TOP_N,
     RETRIEVAL_ALPHA,
+    RETRIEVAL_CANDIDATE_K,
 )
 from .embedding_client import embed_texts
 from .rag_types import Chunk
 
 LOGGER = logging.getLogger(__name__)
 
-TOKEN_RE = re.compile(r"[a-z0-9]+")
-NON_ALNUM_RE = re.compile(r"[^a-z0-9]+")
-SPACE_RE = re.compile(r"\s+")
-CLAUSE_SPLIT_RE = re.compile(r"[?;:]|\b(?:and|or|but|while)\b", flags=re.IGNORECASE)
-MAX_CLAUSE_COVERAGE = 2
-CLAUSE_COVERAGE_MIN_OVERLAP = 0.45
-
-STOPWORDS = {
-    "a",
-    "an",
-    "and",
-    "are",
-    "as",
-    "at",
-    "be",
-    "by",
-    "for",
-    "from",
-    "how",
-    "if",
-    "in",
-    "into",
-    "is",
-    "it",
-    "its",
-    "may",
-    "of",
-    "on",
-    "or",
-    "that",
-    "the",
-    "their",
-    "there",
-    "these",
-    "this",
-    "to",
-    "under",
-    "what",
-    "when",
-    "where",
-    "which",
-    "who",
-    "why",
-    "with",
-    "you",
-    "your",
-}
-
-
-def _normalize_text(text: str) -> str:
-    lowered = text.lower()
-    cleaned = NON_ALNUM_RE.sub(" ", lowered)
-    return SPACE_RE.sub(" ", cleaned).strip()
-
-
-def _tokenize(text: str) -> List[str]:
-    return TOKEN_RE.findall(_normalize_text(text))
-
-
-def _content_tokens(text: str) -> List[str]:
-    return [token for token in _tokenize(text) if len(token) > 2 and token not in STOPWORDS]
+_ES_CLIENT: Optional[Elasticsearch] = None
+_ES_INDEX_SIGNATURE: Optional[str] = None
+INDEX_SCHEMA_VERSION = "metadata_boost_v1"
 
 
 def _merge_query_texts(query: str, query_expansions: Optional[List[str]]) -> List[str]:
     merged: List[str] = []
     seen = set()
     for value in [query, *(query_expansions or [])]:
-        normalized = value.strip()
+        normalized = str(value or "").strip()
         if not normalized:
             continue
         lowered = normalized.lower()
@@ -97,14 +45,6 @@ def _merge_query_texts(query: str, query_expansions: Optional[List[str]]) -> Lis
         seen.add(lowered)
         merged.append(normalized)
     return merged or [query]
-
-
-def _lexical_overlap_vocab(query_tokens: List[str], chunk_vocab: Set[str]) -> float:
-    if not query_tokens:
-        return 0.0
-    query_vocab = set(query_tokens)
-    overlap = sum(1 for token in query_vocab if token in chunk_vocab)
-    return overlap / max(1, len(query_vocab))
 
 
 def _compute_dense_scores(
@@ -118,62 +58,255 @@ def _compute_dense_scores(
         dense_scores = dense_matrix[:, 0]
     else:
         dense_scores = np.max(dense_matrix, axis=1)
-    return (dense_scores + 1.0) / 2.0
+    return np.clip((dense_scores + 1.0) / 2.0, 0.0, 1.0).astype(np.float32)
 
 
-def _extract_query_clauses(query: str, max_clauses: int = 3) -> List[str]:
-    normalized = SPACE_RE.sub(" ", query or "").strip()
-    if not normalized:
-        return []
+def _chunk_signature(chunks: Sequence[Chunk]) -> str:
+    lines = [f"schema={INDEX_SCHEMA_VERSION}"]
+    lines.extend(chunk.chunk_id for chunk in chunks)
+    blob = "\n".join(lines).encode("utf-8")
+    return hashlib.sha1(blob).hexdigest()
 
-    clauses: List[str] = []
-    seen = set()
-    for value in CLAUSE_SPLIT_RE.split(normalized):
-        clause = value.strip(" ,")
-        if not clause:
+
+def _get_es_client() -> Elasticsearch:
+    global _ES_CLIENT
+    if _ES_CLIENT is None:
+        _ES_CLIENT = Elasticsearch(ELASTIC_URL, request_timeout=ELASTIC_REQUEST_TIMEOUT)
+    return _ES_CLIENT
+
+
+def _create_index(es: Elasticsearch, index_name: str) -> None:
+    if es.indices.exists(index=index_name):
+        es.indices.delete(index=index_name)
+
+    es.indices.create(
+        index=index_name,
+        body={
+            "settings": {
+                "index": {
+                    "number_of_shards": 1,
+                    "number_of_replicas": 0,
+                }
+            },
+            "mappings": {
+                "dynamic": "false",
+                "properties": {
+                    "doc_kind": {"type": "keyword"},
+                    "chunk_id": {"type": "keyword"},
+                    "doc_type": {"type": "keyword"},
+                    "chunk_type": {"type": "keyword"},
+                    "section_id": {"type": "keyword"},
+                    "is_exception": {"type": "boolean"},
+                    "scope_tags": {"type": "keyword"},
+                    "authority_rank": {"type": "integer"},
+                    "title": {"type": "text", "analyzer": "english"},
+                    "section_heading": {"type": "text", "analyzer": "english"},
+                    "heading_path": {"type": "text", "analyzer": "english"},
+                    "text": {"type": "text", "analyzer": "english"},
+                    "full_text": {"type": "text", "analyzer": "english"},
+                    "chunk_count": {"type": "integer"},
+                    "chunk_signature": {"type": "keyword"},
+                },
+            },
+        },
+    )
+
+
+def _bulk_index_chunks(
+    es: Elasticsearch,
+    index_name: str,
+    chunks: Sequence[Chunk],
+    chunk_signature: str,
+) -> None:
+    actions: List[Dict[str, Any]] = [
+        {
+            "_index": index_name,
+            "_id": "__rag_meta__",
+            "_source": {
+                "doc_kind": "meta",
+                "chunk_signature": chunk_signature,
+                "chunk_count": len(chunks),
+            },
+        }
+    ]
+
+    for chunk in chunks:
+        actions.append(
+            {
+                "_index": index_name,
+                "_id": chunk.chunk_id,
+                "_source": {
+                    "doc_kind": "chunk",
+                    "chunk_id": chunk.chunk_id,
+                    "doc_type": chunk.doc_type or "",
+                    "chunk_type": chunk.chunk_type or "",
+                    "section_id": chunk.section_id or "",
+                    "is_exception": bool(chunk.is_exception),
+                    "scope_tags": list(chunk.scope_tags or []),
+                    "authority_rank": int(chunk.authority_rank),
+                    "title": chunk.title or "",
+                    "section_heading": chunk.section_heading or "",
+                    "heading_path": " ".join(chunk.heading_path or []),
+                    "text": chunk.text or "",
+                    "full_text": " ".join(
+                        [
+                            chunk.doc_type or "",
+                            chunk.chunk_type or "",
+                            chunk.section_id or "",
+                            " ".join(chunk.scope_tags or []),
+                            chunk.title or "",
+                            chunk.section_heading or "",
+                            " ".join(chunk.heading_path or []),
+                            chunk.text or "",
+                        ]
+                    ),
+                },
+            }
+        )
+    helpers.bulk(es, actions, refresh="wait_for", request_timeout=120)
+
+
+def _index_matches_signature(
+    es: Elasticsearch,
+    index_name: str,
+    chunk_signature: str,
+    chunk_count: int,
+) -> bool:
+    if not es.indices.exists(index=index_name):
+        return False
+    try:
+        meta = es.get(index=index_name, id="__rag_meta__", source=True)
+        source = meta.get("_source", {})
+        sig = str(source.get("chunk_signature", ""))
+        count = int(source.get("chunk_count", -1))
+        return sig == chunk_signature and count == int(chunk_count)
+    except Exception:
+        return False
+
+
+def _ensure_index(es: Elasticsearch, index_name: str, chunks: Sequence[Chunk]) -> None:
+    global _ES_INDEX_SIGNATURE
+    chunk_signature = _chunk_signature(chunks)
+
+    if _ES_INDEX_SIGNATURE == chunk_signature:
+        return
+
+    if _index_matches_signature(es, index_name, chunk_signature, len(chunks)):
+        _ES_INDEX_SIGNATURE = chunk_signature
+        return
+
+    _create_index(es, index_name)
+    _bulk_index_chunks(es, index_name, chunks, chunk_signature)
+    _ES_INDEX_SIGNATURE = chunk_signature
+
+
+def _elastic_bm25_scores(
+    es: Elasticsearch,
+    index_name: str,
+    query_texts: Sequence[str],
+    chunk_ids: Sequence[str],
+    chunk_id_to_idx: Dict[str, int],
+) -> np.ndarray:
+    def metadata_should_clauses(query_text: str) -> List[Dict[str, Any]]:
+        normalized = str(query_text or "").lower()
+        if not normalized:
+            return []
+
+        clauses: List[Dict[str, Any]] = []
+
+        def add_term(field: str, value: Any, boost: float) -> None:
+            clauses.append({"term": {field: {"value": value, "boost": float(boost)}}})
+
+        def has_any(terms: Sequence[str]) -> bool:
+            return any(term in normalized for term in terms)
+
+        if has_any(("table", "limits table", "appendix a")):
+            add_term("chunk_type", "table", 1.35)
+
+        if has_any(
+            (
+                "appendix a",
+                "contracting limits",
+                "treasury board",
+                "non-competitive limit",
+                "competitive limit",
+                "4.10",
+                "procurement-file",
+                "procurement file",
+            )
+        ):
+            add_term("doc_type", "tbs_directive", 0.95)
+
+        if has_any(("4.10", "procurement-file", "procurement file", "audit")):
+            clauses.append(
+                {
+                    "match_phrase": {
+                        "section_heading": {"query": "4. Requirements", "boost": 0.9}
+                    }
+                }
+            )
+
+        if has_any(("rfsa", "supply arrangement", "request for supply arrangement")):
+            add_term("doc_type", "buyers_guide", 0.75)
+
+        if "exception" in normalized:
+            add_term("is_exception", True, 0.5)
+
+        return clauses
+
+    bm25_raw = np.zeros(len(chunk_ids), dtype=np.float32)
+    size = len(chunk_ids)
+
+    for text in query_texts:
+        query = str(text or "").strip()
+        if not query:
             continue
-        tokens = _content_tokens(clause)
-        if len(tokens) < 3:
-            continue
-        key = " ".join(tokens)
-        if key in seen:
-            continue
-        seen.add(key)
-        clauses.append(clause)
-        if len(clauses) >= max_clauses:
-            break
-    if len(clauses) <= 1:
-        return []
-    return clauses
+        resp = es.search(
+            index=index_name,
+            size=size,
+            track_total_hits=False,
+            source=False,
+            query={
+                "bool": {
+                    "filter": [{"term": {"doc_kind": "chunk"}}],
+                    "must": [
+                        {
+                            "multi_match": {
+                                "query": query,
+                                "fields": [
+                                    "title^2.0",
+                                    "section_heading^1.5",
+                                    "heading_path^1.2",
+                                    "text",
+                                    "full_text",
+                                ],
+                                "type": "best_fields",
+                                "operator": "or",
+                            }
+                        }
+                    ],
+                    "should": metadata_should_clauses(query),
+                    "minimum_should_match": 0,
+                }
+            },
+            request_timeout=max(10, int(ELASTIC_REQUEST_TIMEOUT)),
+        )
+        for hit in resp.get("hits", {}).get("hits", []):
+            chunk_id = str(hit.get("_id", "")).strip()
+            if not chunk_id:
+                continue
+            idx = chunk_id_to_idx.get(chunk_id)
+            if idx is None:
+                continue
+            score = float(hit.get("_score") or 0.0)
+            if score > bm25_raw[idx]:
+                bm25_raw[idx] = score
 
-
-def _clause_coverage_indices(
-    query: str,
-    ranked_idx: np.ndarray,
-    chunk_vocabs: List[Set[str]],
-) -> List[int]:
-    clauses = _extract_query_clauses(query)
-    if not clauses:
-        return []
-
-    pool = [int(idx) for idx in ranked_idx[: min(len(ranked_idx), 200)]]
-    selected: List[int] = []
-    for clause in clauses:
-        tokens = _content_tokens(clause)
-        if not tokens:
-            continue
-        best_idx = -1
-        best_overlap = 0.0
-        for idx in pool:
-            overlap = _lexical_overlap_vocab(tokens, chunk_vocabs[idx])
-            if overlap > best_overlap:
-                best_overlap = overlap
-                best_idx = idx
-        if best_idx >= 0 and best_overlap >= CLAUSE_COVERAGE_MIN_OVERLAP and best_idx not in selected:
-            selected.append(best_idx)
-        if len(selected) >= MAX_CLAUSE_COVERAGE:
-            break
-    return selected
+    min_score = float(np.min(bm25_raw))
+    max_score = float(np.max(bm25_raw))
+    if max_score - min_score <= 1e-12:
+        return np.zeros_like(bm25_raw, dtype=np.float32)
+    return ((bm25_raw - min_score) / (max_score - min_score)).astype(np.float32)
 
 
 def _apply_rerank_scores(
@@ -191,12 +324,18 @@ def _apply_rerank_scores(
         return combined_scores
 
     documents = [f"{chunks[idx].title}\n{chunks[idx].text}" for idx in candidate_idx]
+    # RERANK_TOP_N == 0 means rerank all considered candidates.
+    configured_top_n = int(RERANK_TOP_N)
+    if configured_top_n <= 0:
+        rerank_top_n = len(documents)
+    else:
+        rerank_top_n = min(len(documents), configured_top_n)
     try:
         response = client.rerank(
             model=RERANK_MODEL,
             query=query,
             documents=documents,
-            top_n=len(documents),
+            top_n=rerank_top_n,
             return_documents=False,
         )
     except Exception as exc:
@@ -288,15 +427,9 @@ def retrieve(
     chunk_vecs: np.ndarray,
     k: int,
     query_expansions: Optional[List[str]] = None,
-    chunk_vocabs: Optional[List[Set[str]]] = None,
-    chunk_modes: Optional[List[Set[str]]] = None,
-    chunk_meta_vocabs: Optional[List[Set[str]]] = None,
 ) -> List[Tuple[Chunk, float]]:
     """
-    Return top-k chunks with minimal hybrid retrieval.
-
-    Inputs `chunk_modes` and `chunk_meta_vocabs` are accepted for backward
-    compatibility with existing callsites but are intentionally ignored.
+    Return top-k chunks with dense + Elasticsearch BM25 hybrid retrieval.
     """
     if not chunks or chunk_vecs.size == 0:
         return []
@@ -305,22 +438,38 @@ def retrieve(
     query_texts = _merge_query_texts(query, query_expansions)
     dense_scores = _compute_dense_scores(client, query_texts, chunk_vecs)
 
-    if chunk_vocabs is None:
-        chunk_vocabs = build_chunk_vocabs(chunks)
-    if len(chunk_vocabs) != len(chunks):
-        raise ValueError("chunk_vocabs length must match chunks length")
+    bm25_ok = False
+    bm25_scores = np.zeros(len(chunks), dtype=np.float32)
+    try:
+        es = _get_es_client()
+        _ensure_index(es, ELASTIC_INDEX_NAME, chunks)
+        chunk_ids = [chunk.chunk_id for chunk in chunks]
+        chunk_id_to_idx = {chunk_id: idx for idx, chunk_id in enumerate(chunk_ids)}
+        bm25_scores = _elastic_bm25_scores(
+            es=es,
+            index_name=ELASTIC_INDEX_NAME,
+            query_texts=query_texts,
+            chunk_ids=chunk_ids,
+            chunk_id_to_idx=chunk_id_to_idx,
+        )
+        bm25_ok = True
+    except Exception as exc:
+        LOGGER.warning("Elasticsearch BM25 unavailable; falling back to dense-only ranking: %s", exc)
 
-    query_tokens = _content_tokens(" ".join(query_texts))
-    lexical_scores = np.array(
-        [_lexical_overlap_vocab(query_tokens, vocab) for vocab in chunk_vocabs],
-        dtype=np.float32,
-    )
-
-    alpha = min(max(RETRIEVAL_ALPHA, 0.0), 1.0)
-    combined_scores = np.clip((alpha * dense_scores) + ((1.0 - alpha) * lexical_scores), 0.0, 1.0)
+    if bm25_ok:
+        alpha = min(max(RETRIEVAL_ALPHA, 0.0), 1.0)
+        combined_scores = np.clip(
+            (alpha * dense_scores) + ((1.0 - alpha) * bm25_scores),
+            0.0,
+            1.0,
+        ).astype(np.float32)
+    else:
+        combined_scores = dense_scores
 
     ranked_idx = np.argsort(-combined_scores)
-    candidate_pool = min(len(chunks), max(target_k * 4, 40))
+    # Keep candidate depth explicit and bounded: consider only the larger of
+    # requested top-k and RETRIEVAL_CANDIDATE_K (no hidden 4x expansion).
+    candidate_pool = min(len(chunks), max(int(RETRIEVAL_CANDIDATE_K), target_k))
     candidate_idx = [int(idx) for idx in ranked_idx[:candidate_pool]]
 
     combined_scores = _apply_rerank_scores(
@@ -331,21 +480,12 @@ def retrieve(
         combined_scores=combined_scores,
     )
     ranked_idx = np.argsort(-combined_scores)
-    clause_idx = _clause_coverage_indices(query=query, ranked_idx=ranked_idx, chunk_vocabs=chunk_vocabs)
-    if clause_idx:
-        clause_set = set(clause_idx)
-        ranked_idx = np.array(
-            clause_idx + [int(idx) for idx in ranked_idx if int(idx) not in clause_set],
-            dtype=np.int64,
-        )
 
     selected: List[int] = []
     max_per_source = int(MAX_CHUNKS_PER_SOURCE)
     if max_per_source <= 0:
-        # Explicitly uncapped mode: keep pure score ordering.
         selected = [int(idx) for idx in ranked_idx[:target_k]]
     else:
-        # Lightweight diversity cap by source to prevent full domination by one file.
         per_source_count: Dict[str, int] = {}
         for raw_idx in ranked_idx:
             idx = int(raw_idx)
@@ -357,7 +497,6 @@ def retrieve(
             if len(selected) >= target_k:
                 break
 
-        # Final fallback if source cap prevented enough results.
         if len(selected) < target_k:
             seen = set(selected)
             for raw_idx in ranked_idx:
@@ -369,37 +508,3 @@ def retrieve(
                     break
 
     return [(chunks[idx], float(combined_scores[idx])) for idx in selected[:target_k]]
-
-
-def build_chunk_vocabs(chunks: List[Chunk]) -> List[Set[str]]:
-    """Precompute lexical vocab per chunk and reuse across queries."""
-    return [
-        set(
-            _content_tokens(
-                " ".join(
-                    [
-                        chunk.title,
-                        chunk.section_heading or "",
-                        " ".join(chunk.heading_path or []),
-                        chunk.text,
-                    ]
-                )
-            )
-        )
-        for chunk in chunks
-    ]
-
-
-def build_chunk_modes(chunks: List[Chunk]) -> List[Set[str]]:
-    """Compatibility shim. Minimal retrieval does not use explicit mode routing."""
-    return [set() for _ in chunks]
-
-
-def build_chunk_meta_vocabs(chunks: List[Chunk]) -> List[Set[str]]:
-    """Compatibility shim. Minimal retrieval does not use separate metadata vocab."""
-    return [set() for _ in chunks]
-
-
-def build_chunk_features(chunks: List[Chunk]) -> Tuple[List[Set[str]], List[Set[str]], List[Set[str]]]:
-    """Return reusable feature tuples expected by existing callsites."""
-    return build_chunk_vocabs(chunks), build_chunk_modes(chunks), build_chunk_meta_vocabs(chunks)

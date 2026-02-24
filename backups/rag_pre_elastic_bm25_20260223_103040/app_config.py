@@ -20,20 +20,16 @@ APP_TOP_K = int(os.getenv("APP_TOP_K", os.getenv("TOP_K", "24")))
 EVAL_TOP_K = int(os.getenv("EVAL_TOP_K", "48"))
 # Backward-compat alias used by older callsites.
 TOP_K = APP_TOP_K
-# Candidate depth considered before final top-k selection.
-# Effective candidate depth is max(RETRIEVAL_CANDIDATE_K, requested top-k).
+# Candidate depth used before optional prompt-side condensation.
 RETRIEVAL_CANDIDATE_K = int(os.getenv("RETRIEVAL_CANDIDATE_K", "48"))
 CHUNK_CHARS = int(os.getenv("CHUNK_CHARS", "1200"))
 CHUNK_OVERLAP = int(os.getenv("CHUNK_OVERLAP", "200"))
-# Blend between dense semantic score and Elasticsearch BM25 score.
-# 1.0 = semantic only, 0.0 = BM25 only.
+# Blend between dense semantic score and keyword overlap score.
+# 1.0 = semantic only, 0.0 = keyword only.
 RETRIEVAL_ALPHA = float(os.getenv("RETRIEVAL_ALPHA", "0.70"))
 # Per-source cap used during final top-k selection for diversity.
 # Set to 0 to disable per-source capping.
 MAX_CHUNKS_PER_SOURCE = int(os.getenv("MAX_CHUNKS_PER_SOURCE", "0"))
-ELASTIC_URL = os.getenv("ELASTIC_URL", "http://127.0.0.1:9200").strip()
-ELASTIC_INDEX_NAME = os.getenv("ELASTIC_INDEX_NAME", "policy_chunks_rag_bm25").strip().lower()
-ELASTIC_REQUEST_TIMEOUT = int(os.getenv("ELASTIC_REQUEST_TIMEOUT", "60"))
 
 # Cohere settings.
 COHERE_API_KEY = os.getenv("COHERE_API_KEY", "")
@@ -49,9 +45,6 @@ RERANK_MODEL = os.getenv("COHERE_RERANK_MODEL", "rerank-v4.0-fast")
 # Blend between local hybrid score and Cohere rerank score for candidates.
 # 0.0 = no rerank impact, 1.0 = rerank only for candidate ordering.
 RERANK_ALPHA = float(os.getenv("RERANK_ALPHA", "0.20"))
-# Max number of candidates scored by rerank before blending.
-# Set to 0 to rerank all considered candidates.
-RERANK_TOP_N = int(os.getenv("RERANK_TOP_N", "11"))
 
 # LLM query rewrite / expansion settings.
 ENABLE_LLM_QUERY_REWRITE = (
@@ -148,16 +141,8 @@ def validate_config() -> None:
         raise RuntimeError("RETRIEVAL_ALPHA must be between 0.0 and 1.0.")
     if MAX_CHUNKS_PER_SOURCE < 0:
         raise RuntimeError("MAX_CHUNKS_PER_SOURCE must be >= 0 (0 disables cap).")
-    if not ELASTIC_URL:
-        raise RuntimeError("ELASTIC_URL must not be empty.")
-    if not ELASTIC_INDEX_NAME:
-        raise RuntimeError("ELASTIC_INDEX_NAME must not be empty.")
-    if ELASTIC_REQUEST_TIMEOUT <= 0:
-        raise RuntimeError("ELASTIC_REQUEST_TIMEOUT must be > 0.")
     if not (0.0 <= RERANK_ALPHA <= 1.0):
         raise RuntimeError("RERANK_ALPHA must be between 0.0 and 1.0.")
-    if RERANK_TOP_N < 0:
-        raise RuntimeError("RERANK_TOP_N must be >= 0 (0 reranks all considered candidates).")
     if QUERY_REWRITE_MAX_QUERIES < 0:
         raise RuntimeError("QUERY_REWRITE_MAX_QUERIES must be >= 0.")
     if QUERY_REWRITE_MAX_TOKENS <= 0:

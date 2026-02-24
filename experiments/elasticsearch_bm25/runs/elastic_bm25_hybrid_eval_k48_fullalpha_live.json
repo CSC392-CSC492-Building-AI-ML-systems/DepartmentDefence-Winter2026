@@ -1,0 +1,305 @@
+{
+  "config": {
+    "cases_file": [
+      "C:\\Users\\14164\\dev\\DepartmentDefence-Winter2026\\evaluation\\cases\\adversarial_retrieval_cases.json",
+      "C:\\Users\\14164\\dev\\DepartmentDefence-Winter2026\\evaluation\\cases\\adversarial_chunk_stress_cases.json",
+      "C:\\Users\\14164\\dev\\DepartmentDefence-Winter2026\\evaluation\\cases\\adversarial_retrieval_robustness.json",
+      "C:\\Users\\14164\\dev\\DepartmentDefence-Winter2026\\evaluation\\cases\\eval_cases.jsonl",
+      "C:\\Users\\14164\\dev\\DepartmentDefence-Winter2026\\evaluation\\cases\\eval_cases_reference.jsonl"
+    ],
+    "split": "all",
+    "top_k": 48,
+    "variants": [
+      "bm25",
+      "dense",
+      "hybrid"
+    ],
+    "alphas": [
+      0.0,
+      0.2,
+      0.4,
+      0.6,
+      0.7,
+      0.8,
+      1.0
+    ],
+    "use_query_rewrite": false,
+    "elastic_url": "http://127.0.0.1:9200",
+    "index_name": "policy_chunks_bm25_eval",
+    "reindex": false,
+    "cache_file": "C:\\Users\\14164\\dev\\DepartmentDefence-Winter2026\\evaluation\\runs\\adversarial_embeddings.npz",
+    "chunk_cache_file": "C:\\Users\\14164\\dev\\DepartmentDefence-Winter2026\\evaluation\\runs\\adversarial_chunks.json.gz",
+    "elastic_version": "8.19.3"
+  },
+  "results": [
+    {
+      "name": "bm25",
+      "variant": "bm25",
+      "alpha": null,
+      "summary": {
+        "case_count": 65,
+        "elapsed_seconds": 3.25,
+        "chunk_id_recall_mean": 0.9047619047619048,
+        "chunk_id_recall_micro": 0.8904109589041096,
+        "doc_prefix_recall_mean": 0.9717948717948718,
+        "doc_prefix_recall_micro": 0.9615384615384616,
+        "doc_prefix_recall_available_mean": 0.9717948717948718,
+        "zero_chunk_hit_cases": [],
+        "zero_prefix_hit_cases": [],
+        "expected_chunk_count_distribution": {
+          "0": 37,
+          "1": 3,
+          "2": 5,
+          "3": 20
+        },
+        "expected_doc_prefix_count_distribution": {
+          "1": 34,
+          "2": 23,
+          "3": 8
+        },
+        "query_rewrite_avg_expansions_per_question": 0.0,
+        "query_rewrite_questions_with_expansions": 0
+      }
+    },
+    {
+      "name": "dense",
+      "variant": "dense",
+      "alpha": null,
+      "summary": {
+        "case_count": 65,
+        "elapsed_seconds": 6.37,
+        "chunk_id_recall_mean": 0.8154761904761905,
+        "chunk_id_recall_micro": 0.7945205479452054,
+        "doc_prefix_recall_mean": 0.9538461538461539,
+        "doc_prefix_recall_micro": 0.9519230769230769,
+        "doc_prefix_recall_available_mean": 0.9538461538461539,
+        "zero_chunk_hit_cases": [
+          "chunk_stress_06_buy_canadian_precedence_thresholds_and_roles"
+        ],
+        "zero_prefix_hit_cases": [
+          "robust_01_typo_reciprocal_declaration"
+        ],
+        "expected_chunk_count_distribution": {
+          "0": 37,
+          "1": 3,
+          "2": 5,
+          "3": 20
+        },
+        "expected_doc_prefix_count_distribution": {
+          "1": 34,
+          "2": 23,
+          "3": 8
+        },
+        "query_rewrite_avg_expansions_per_question": 0.0,
+        "query_rewrite_questions_with_expansions": 0
+      }
+    },
+    {
+      "name": "hybrid_alpha_0.00",
+      "variant": "hybrid",
+      "alpha": 0.0,
+      "summary": {
+        "case_count": 65,
+        "elapsed_seconds": 9.21,
+        "chunk_id_recall_mean": 0.9047619047619048,
+        "chunk_id_recall_micro": 0.8904109589041096,
+        "doc_prefix_recall_mean": 0.9717948717948718,
+        "doc_prefix_recall_micro": 0.9615384615384616,
+        "doc_prefix_recall_available_mean": 0.9717948717948718,
+        "zero_chunk_hit_cases": [],
+        "zero_prefix_hit_cases": [],
+        "expected_chunk_count_distribution": {
+          "0": 37,
+          "1": 3,
+          "2": 5,
+          "3": 20
+        },
+        "expected_doc_prefix_count_distribution": {
+          "1": 34,
+          "2": 23,
+          "3": 8
+        },
+        "query_rewrite_avg_expansions_per_question": 0.0,
+        "query_rewrite_questions_with_expansions": 0
+      }
+    },
+    {
+      "name": "hybrid_alpha_0.20",
+      "variant": "hybrid",
+      "alpha": 0.2,
+      "summary": {
+        "case_count": 65,
+        "elapsed_seconds": 11.79,
+        "chunk_id_recall_mean": 0.9166666666666667,
+        "chunk_id_recall_micro": 0.9041095890410958,
+        "doc_prefix_recall_mean": 0.9794871794871794,
+        "doc_prefix_recall_micro": 0.9711538461538461,
+        "doc_prefix_recall_available_mean": 0.9794871794871794,
+        "zero_chunk_hit_cases": [],
+        "zero_prefix_hit_cases": [],
+        "expected_chunk_count_distribution": {
+          "0": 37,
+          "1": 3,
+          "2": 5,
+          "3": 20
+        },
+        "expected_doc_prefix_count_distribution": {
+          "1": 34,
+          "2": 23,
+          "3": 8
+        },
+        "query_rewrite_avg_expansions_per_question": 0.0,
+        "query_rewrite_questions_with_expansions": 0
+      }
+    },
+    {
+      "name": "hybrid_alpha_0.40",
+      "variant": "hybrid",
+      "alpha": 0.4,
+      "summary": {
+        "case_count": 65,
+        "elapsed_seconds": 14.07,
+        "chunk_id_recall_mean": 0.9166666666666667,
+        "chunk_id_recall_micro": 0.9041095890410958,
+        "doc_prefix_recall_mean": 0.9794871794871794,
+        "doc_prefix_recall_micro": 0.9711538461538461,
+        "doc_prefix_recall_available_mean": 0.9794871794871794,
+        "zero_chunk_hit_cases": [],
+        "zero_prefix_hit_cases": [],
+        "expected_chunk_count_distribution": {
+          "0": 37,
+          "1": 3,
+          "2": 5,
+          "3": 20
+        },
+        "expected_doc_prefix_count_distribution": {
+          "1": 34,
+          "2": 23,
+          "3": 8
+        },
+        "query_rewrite_avg_expansions_per_question": 0.0,
+        "query_rewrite_questions_with_expansions": 0
+      }
+    },
+    {
+      "name": "hybrid_alpha_0.60",
+      "variant": "hybrid",
+      "alpha": 0.6,
+      "summary": {
+        "case_count": 65,
+        "elapsed_seconds": 15.48,
+        "chunk_id_recall_mean": 0.9404761904761905,
+        "chunk_id_recall_micro": 0.9315068493150684,
+        "doc_prefix_recall_mean": 0.9717948717948718,
+        "doc_prefix_recall_micro": 0.9615384615384616,
+        "doc_prefix_recall_available_mean": 0.9717948717948718,
+        "zero_chunk_hit_cases": [],
+        "zero_prefix_hit_cases": [],
+        "expected_chunk_count_distribution": {
+          "0": 37,
+          "1": 3,
+          "2": 5,
+          "3": 20
+        },
+        "expected_doc_prefix_count_distribution": {
+          "1": 34,
+          "2": 23,
+          "3": 8
+        },
+        "query_rewrite_avg_expansions_per_question": 0.0,
+        "query_rewrite_questions_with_expansions": 0
+      }
+    },
+    {
+      "name": "hybrid_alpha_0.70",
+      "variant": "hybrid",
+      "alpha": 0.7,
+      "summary": {
+        "case_count": 65,
+        "elapsed_seconds": 10.33,
+        "chunk_id_recall_mean": 0.9523809523809524,
+        "chunk_id_recall_micro": 0.9452054794520548,
+        "doc_prefix_recall_mean": 0.9794871794871794,
+        "doc_prefix_recall_micro": 0.9711538461538461,
+        "doc_prefix_recall_available_mean": 0.9794871794871794,
+        "zero_chunk_hit_cases": [],
+        "zero_prefix_hit_cases": [],
+        "expected_chunk_count_distribution": {
+          "0": 37,
+          "1": 3,
+          "2": 5,
+          "3": 20
+        },
+        "expected_doc_prefix_count_distribution": {
+          "1": 34,
+          "2": 23,
+          "3": 8
+        },
+        "query_rewrite_avg_expansions_per_question": 0.0,
+        "query_rewrite_questions_with_expansions": 0
+      }
+    },
+    {
+      "name": "hybrid_alpha_0.80",
+      "variant": "hybrid",
+      "alpha": 0.8,
+      "summary": {
+        "case_count": 65,
+        "elapsed_seconds": 9.05,
+        "chunk_id_recall_mean": 0.9523809523809524,
+        "chunk_id_recall_micro": 0.9452054794520548,
+        "doc_prefix_recall_mean": 0.9794871794871794,
+        "doc_prefix_recall_micro": 0.9711538461538461,
+        "doc_prefix_recall_available_mean": 0.9794871794871794,
+        "zero_chunk_hit_cases": [],
+        "zero_prefix_hit_cases": [],
+        "expected_chunk_count_distribution": {
+          "0": 37,
+          "1": 3,
+          "2": 5,
+          "3": 20
+        },
+        "expected_doc_prefix_count_distribution": {
+          "1": 34,
+          "2": 23,
+          "3": 8
+        },
+        "query_rewrite_avg_expansions_per_question": 0.0,
+        "query_rewrite_questions_with_expansions": 0
+      }
+    },
+    {
+      "name": "hybrid_alpha_1.00",
+      "variant": "hybrid",
+      "alpha": 1.0,
+      "summary": {
+        "case_count": 65,
+        "elapsed_seconds": 12.08,
+        "chunk_id_recall_mean": 0.8154761904761905,
+        "chunk_id_recall_micro": 0.7945205479452054,
+        "doc_prefix_recall_mean": 0.9538461538461539,
+        "doc_prefix_recall_micro": 0.9519230769230769,
+        "doc_prefix_recall_available_mean": 0.9538461538461539,
+        "zero_chunk_hit_cases": [
+          "chunk_stress_06_buy_canadian_precedence_thresholds_and_roles"
+        ],
+        "zero_prefix_hit_cases": [
+          "robust_01_typo_reciprocal_declaration"
+        ],
+        "expected_chunk_count_distribution": {
+          "0": 37,
+          "1": 3,
+          "2": 5,
+          "3": 20
+        },
+        "expected_doc_prefix_count_distribution": {
+          "1": 34,
+          "2": 23,
+          "3": 8
+        },
+        "query_rewrite_avg_expansions_per_question": 0.0,
+        "query_rewrite_questions_with_expansions": 0
+      }
+    }
+  ]
+}

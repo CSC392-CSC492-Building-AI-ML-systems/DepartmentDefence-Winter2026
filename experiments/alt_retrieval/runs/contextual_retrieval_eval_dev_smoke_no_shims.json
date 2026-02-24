@@ -1,0 +1,350 @@
+{
+  "config": {
+    "cases_file": [
+      "C:\\Users\\14164\\dev\\DepartmentDefence-Winter2026\\evaluation\\cases\\adversarial_retrieval_cases.json",
+      "C:\\Users\\14164\\dev\\DepartmentDefence-Winter2026\\evaluation\\cases\\adversarial_chunk_stress_cases.json",
+      "C:\\Users\\14164\\dev\\DepartmentDefence-Winter2026\\evaluation\\cases\\adversarial_retrieval_robustness.json",
+      "C:\\Users\\14164\\dev\\DepartmentDefence-Winter2026\\evaluation\\cases\\eval_cases.jsonl",
+      "C:\\Users\\14164\\dev\\DepartmentDefence-Winter2026\\evaluation\\cases\\eval_cases_reference.jsonl"
+    ],
+    "top_k": 8,
+    "use_query_rewrite": false,
+    "context_version": "v1_metadata_prefix",
+    "effective_retrieval_alpha": 0.7,
+    "rerank_forced_off": true,
+    "cache_file": "C:\\Users\\14164\\dev\\DepartmentDefence-Winter2026\\evaluation\\runs\\adversarial_embeddings.npz",
+    "context_cache_file": "C:\\Users\\14164\\dev\\DepartmentDefence-Winter2026\\experiments\\alt_retrieval\\cache\\contextual_embeddings.npz"
+  },
+  "baseline": {
+    "summary": {
+      "case_count": 31,
+      "chunk_id_recall_mean": 0.5454545454545454,
+      "doc_prefix_recall_mean": 0.8064516129032258
+    },
+    "cases": [
+      {
+        "id": "chunk_stress_01_debt_authority_thresholds",
+        "chunk_id_recall": 1.0,
+        "doc_prefix_recall": 1.0
+      },
+      {
+        "id": "chunk_stress_02_prof_services_preaward_and_file",
+        "chunk_id_recall": 0.6666666666666666,
+        "doc_prefix_recall": 1.0
+      },
+      {
+        "id": "chunk_stress_03_reciprocal_trade_exception_declaration",
+        "chunk_id_recall": 1.0,
+        "doc_prefix_recall": 1.0
+      },
+      {
+        "id": "chunk_stress_05_late_offer_channel_rules_with_declaration_timing",
+        "chunk_id_recall": 0.3333333333333333,
+        "doc_prefix_recall": 0.6666666666666666
+      },
+      {
+        "id": "chunk_stress_08_spring2026_scope_vs_supersession",
+        "chunk_id_recall": 0.6666666666666666,
+        "doc_prefix_recall": 1.0
+      },
+      {
+        "id": "chunk_stress_10_limits_with_sa_contracting_mechanism",
+        "chunk_id_recall": 0.0,
+        "doc_prefix_recall": 0.5
+      },
+      {
+        "id": "chunk_stress_12_common_service_provider_and_buy_canadian_accountability",
+        "chunk_id_recall": 0.6666666666666666,
+        "doc_prefix_recall": 1.0
+      },
+      {
+        "id": "chunk_stress_14_acan_nonpublication_and_noncompetitive_justification",
+        "chunk_id_recall": 0.3333333333333333,
+        "doc_prefix_recall": 0.3333333333333333
+      },
+      {
+        "id": "chunk_stress_16_ratification_authority_crosswalk",
+        "chunk_id_recall": 0.6666666666666666,
+        "doc_prefix_recall": 0.5
+      },
+      {
+        "id": "chunk_stress_18_integrity_and_prof_services_file_requirements",
+        "chunk_id_recall": 0.0,
+        "doc_prefix_recall": 0.0
+      },
+      {
+        "id": "chunk_stress_20_tbs_appendix_d7_with_framework_and_strategic_policy",
+        "chunk_id_recall": 0.6666666666666666,
+        "doc_prefix_recall": 1.0
+      },
+      {
+        "id": "robust_01_typo_reciprocal_declaration",
+        "chunk_id_recall": null,
+        "doc_prefix_recall": 1.0
+      },
+      {
+        "id": "robust_02_negation_trap_closing",
+        "chunk_id_recall": null,
+        "doc_prefix_recall": 1.0
+      },
+      {
+        "id": "robust_03_cross_late_offer_plus_declaration",
+        "chunk_id_recall": null,
+        "doc_prefix_recall": 1.0
+      },
+      {
+        "id": "robust_04_acronym_rfsa_npp_thresholds",
+        "chunk_id_recall": null,
+        "doc_prefix_recall": 0.0
+      },
+      {
+        "id": "robust_07_debt_forgiveness_and_tb_limits",
+        "chunk_id_recall": null,
+        "doc_prefix_recall": 0.5
+      },
+      {
+        "id": "robust_08_integrity_verification_evidence",
+        "chunk_id_recall": null,
+        "doc_prefix_recall": 1.0
+      },
+      {
+        "id": "robust_10_binding_mechanism_so_vs_sa",
+        "chunk_id_recall": null,
+        "doc_prefix_recall": 1.0
+      },
+      {
+        "id": "BASE_001",
+        "chunk_id_recall": null,
+        "doc_prefix_recall": 0.5
+      },
+      {
+        "id": "BASE_002",
+        "chunk_id_recall": null,
+        "doc_prefix_recall": 1.0
+      },
+      {
+        "id": "BASE_003",
+        "chunk_id_recall": null,
+        "doc_prefix_recall": 0.0
+      },
+      {
+        "id": "BASE_004",
+        "chunk_id_recall": null,
+        "doc_prefix_recall": 1.0
+      },
+      {
+        "id": "BASE_005",
+        "chunk_id_recall": null,
+        "doc_prefix_recall": 1.0
+      },
+      {
+        "id": "BASE_006",
+        "chunk_id_recall": null,
+        "doc_prefix_recall": 1.0
+      },
+      {
+        "id": "BASE_007",
+        "chunk_id_recall": null,
+        "doc_prefix_recall": 1.0
+      },
+      {
+        "id": "BASE_008",
+        "chunk_id_recall": null,
+        "doc_prefix_recall": 1.0
+      },
+      {
+        "id": "HARD_011",
+        "chunk_id_recall": null,
+        "doc_prefix_recall": 1.0
+      },
+      {
+        "id": "REF_001",
+        "chunk_id_recall": null,
+        "doc_prefix_recall": 1.0
+      },
+      {
+        "id": "REF_002",
+        "chunk_id_recall": null,
+        "doc_prefix_recall": 1.0
+      },
+      {
+        "id": "REF_003",
+        "chunk_id_recall": null,
+        "doc_prefix_recall": 1.0
+      },
+      {
+        "id": "REF_004",
+        "chunk_id_recall": null,
+        "doc_prefix_recall": 1.0
+      }
+    ]
+  },
+  "contextual": {
+    "summary": {
+      "case_count": 31,
+      "chunk_id_recall_mean": 0.5454545454545454,
+      "doc_prefix_recall_mean": 0.8064516129032258
+    },
+    "cases": [
+      {
+        "id": "chunk_stress_01_debt_authority_thresholds",
+        "chunk_id_recall": 1.0,
+        "doc_prefix_recall": 1.0
+      },
+      {
+        "id": "chunk_stress_02_prof_services_preaward_and_file",
+        "chunk_id_recall": 0.6666666666666666,
+        "doc_prefix_recall": 1.0
+      },
+      {
+        "id": "chunk_stress_03_reciprocal_trade_exception_declaration",
+        "chunk_id_recall": 1.0,
+        "doc_prefix_recall": 1.0
+      },
+      {
+        "id": "chunk_stress_05_late_offer_channel_rules_with_declaration_timing",
+        "chunk_id_recall": 0.3333333333333333,
+        "doc_prefix_recall": 0.6666666666666666
+      },
+      {
+        "id": "chunk_stress_08_spring2026_scope_vs_supersession",
+        "chunk_id_recall": 0.6666666666666666,
+        "doc_prefix_recall": 1.0
+      },
+      {
+        "id": "chunk_stress_10_limits_with_sa_contracting_mechanism",
+        "chunk_id_recall": 0.0,
+        "doc_prefix_recall": 0.5
+      },
+      {
+        "id": "chunk_stress_12_common_service_provider_and_buy_canadian_accountability",
+        "chunk_id_recall": 0.6666666666666666,
+        "doc_prefix_recall": 1.0
+      },
+      {
+        "id": "chunk_stress_14_acan_nonpublication_and_noncompetitive_justification",
+        "chunk_id_recall": 0.3333333333333333,
+        "doc_prefix_recall": 0.3333333333333333
+      },
+      {
+        "id": "chunk_stress_16_ratification_authority_crosswalk",
+        "chunk_id_recall": 0.6666666666666666,
+        "doc_prefix_recall": 0.5
+      },
+      {
+        "id": "chunk_stress_18_integrity_and_prof_services_file_requirements",
+        "chunk_id_recall": 0.0,
+        "doc_prefix_recall": 0.0
+      },
+      {
+        "id": "chunk_stress_20_tbs_appendix_d7_with_framework_and_strategic_policy",
+        "chunk_id_recall": 0.6666666666666666,
+        "doc_prefix_recall": 1.0
+      },
+      {
+        "id": "robust_01_typo_reciprocal_declaration",
+        "chunk_id_recall": null,
+        "doc_prefix_recall": 1.0
+      },
+      {
+        "id": "robust_02_negation_trap_closing",
+        "chunk_id_recall": null,
+        "doc_prefix_recall": 1.0
+      },
+      {
+        "id": "robust_03_cross_late_offer_plus_declaration",
+        "chunk_id_recall": null,
+        "doc_prefix_recall": 1.0
+      },
+      {
+        "id": "robust_04_acronym_rfsa_npp_thresholds",
+        "chunk_id_recall": null,
+        "doc_prefix_recall": 0.0
+      },
+      {
+        "id": "robust_07_debt_forgiveness_and_tb_limits",
+        "chunk_id_recall": null,
+        "doc_prefix_recall": 0.5
+      },
+      {
+        "id": "robust_08_integrity_verification_evidence",
+        "chunk_id_recall": null,
+        "doc_prefix_recall": 1.0
+      },
+      {
+        "id": "robust_10_binding_mechanism_so_vs_sa",
+        "chunk_id_recall": null,
+        "doc_prefix_recall": 1.0
+      },
+      {
+        "id": "BASE_001",
+        "chunk_id_recall": null,
+        "doc_prefix_recall": 0.5
+      },
+      {
+        "id": "BASE_002",
+        "chunk_id_recall": null,
+        "doc_prefix_recall": 1.0
+      },
+      {
+        "id": "BASE_003",
+        "chunk_id_recall": null,
+        "doc_prefix_recall": 0.0
+      },
+      {
+        "id": "BASE_004",
+        "chunk_id_recall": null,
+        "doc_prefix_recall": 1.0
+      },
+      {
+        "id": "BASE_005",
+        "chunk_id_recall": null,
+        "doc_prefix_recall": 1.0
+      },
+      {
+        "id": "BASE_006",
+        "chunk_id_recall": null,
+        "doc_prefix_recall": 1.0
+      },
+      {
+        "id": "BASE_007",
+        "chunk_id_recall": null,
+        "doc_prefix_recall": 1.0
+      },
+      {
+        "id": "BASE_008",
+        "chunk_id_recall": null,
+        "doc_prefix_recall": 1.0
+      },
+      {
+        "id": "HARD_011",
+        "chunk_id_recall": null,
+        "doc_prefix_recall": 1.0
+      },
+      {
+        "id": "REF_001",
+        "chunk_id_recall": null,
+        "doc_prefix_recall": 1.0
+      },
+      {
+        "id": "REF_002",
+        "chunk_id_recall": null,
+        "doc_prefix_recall": 1.0
+      },
+      {
+        "id": "REF_003",
+        "chunk_id_recall": null,
+        "doc_prefix_recall": 1.0
+      },
+      {
+        "id": "REF_004",
+        "chunk_id_recall": null,
+        "doc_prefix_recall": 1.0
+      }
+    ]
+  },
+  "delta": {
+    "doc_prefix_recall_mean": 0.0,
+    "chunk_id_recall_mean": 0.0
+  }
+}

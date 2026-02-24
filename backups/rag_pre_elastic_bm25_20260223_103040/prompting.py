@@ -1,7 +1,6 @@
 """Prompt and context-packing helpers for grounded policy answers."""
 
 import hashlib
-import re
 from typing import Dict, List, Sequence, Tuple
 
 import cohere
@@ -15,40 +14,6 @@ from .app_config import (
 )
 
 from .rag_types import Chunk
-
-TOKEN_RE = re.compile(r"[a-z0-9]+")
-FACET_SPLIT_RE = re.compile(r"[?;:,]|\b(?:and|plus|then|also)\b", flags=re.IGNORECASE)
-LIGHT_STOPWORDS = {
-    "a",
-    "an",
-    "and",
-    "are",
-    "as",
-    "at",
-    "be",
-    "by",
-    "for",
-    "from",
-    "how",
-    "if",
-    "in",
-    "into",
-    "is",
-    "it",
-    "of",
-    "on",
-    "or",
-    "that",
-    "the",
-    "to",
-    "what",
-    "when",
-    "where",
-    "which",
-    "who",
-    "why",
-    "with",
-}
 
 
 def build_prompt(question: str, retrieved: List[Tuple[Chunk, float]]) -> str:
@@ -130,104 +95,6 @@ def _history_to_text(chat_history: Sequence[dict]) -> str:
     return "\n".join(lines)
 
 
-def _content_terms(text: str) -> List[str]:
-    return [
-        token
-        for token in TOKEN_RE.findall((text or "").lower())
-        if len(token) > 2 and token not in LIGHT_STOPWORDS
-    ]
-
-
-def _extract_query_facets(question: str, max_facets: int = 4) -> List[List[str]]:
-    facets: List[List[str]] = []
-    seen = set()
-    for part in FACET_SPLIT_RE.split(str(question or "")):
-        terms = _content_terms(part)
-        if len(terms) < 2:
-            continue
-        key = tuple(terms[:12])
-        if key in seen:
-            continue
-        seen.add(key)
-        facets.append(list(key))
-        if len(facets) >= max(1, int(max_facets)):
-            break
-    return facets
-
-
-def _chunk_terms(chunk: Chunk) -> set[str]:
-    text = " ".join(
-        [
-            chunk.title or "",
-            chunk.section_heading or "",
-            " ".join(chunk.heading_path or []),
-            chunk.text or "",
-        ]
-    )
-    return set(_content_terms(text))
-
-
-def _coverage_reorder_retrieved(
-    question: str,
-    retrieved: List[Tuple[Chunk, float]],
-) -> List[Tuple[Chunk, float]]:
-    if len(retrieved) <= 2:
-        return retrieved
-    facets = _extract_query_facets(question)
-    if not facets:
-        return retrieved
-
-    chunk_terms = [_chunk_terms(chunk) for chunk, _score in retrieved]
-    selected_idx: List[int] = []
-    selected = set()
-    per_source_count: Dict[str, int] = {}
-
-    def _select(idx: int) -> None:
-        if idx in selected:
-            return
-        selected.add(idx)
-        selected_idx.append(idx)
-        source = retrieved[idx][0].source_path or ""
-        per_source_count[source] = per_source_count.get(source, 0) + 1
-
-    # Phase 1: one best candidate per facet, preferring unseen sources.
-    for facet_terms in facets:
-        facet_vocab = set(facet_terms)
-        best_idx = -1
-        best_key = (-1.0, -1.0)
-        for idx, (_chunk, score) in enumerate(retrieved):
-            if idx in selected:
-                continue
-            overlap = len(facet_vocab & chunk_terms[idx]) / max(1, len(facet_vocab))
-            if overlap <= 0.0:
-                continue
-            source = retrieved[idx][0].source_path or ""
-            unseen_bonus = 0.05 if per_source_count.get(source, 0) == 0 else 0.0
-            key = (overlap + unseen_bonus, float(score))
-            if key > best_key:
-                best_key = key
-                best_idx = idx
-        if best_idx >= 0:
-            _select(best_idx)
-
-    # Phase 2: keep rerank order but prevent early single-source domination.
-    pending = [idx for idx in range(len(retrieved)) if idx not in selected]
-    source_cap = 2
-    while pending:
-        added = False
-        for idx in list(pending):
-            source = retrieved[idx][0].source_path or ""
-            if per_source_count.get(source, 0) >= source_cap:
-                continue
-            _select(idx)
-            pending.remove(idx)
-            added = True
-        if not added:
-            source_cap += 1
-
-    return [retrieved[idx] for idx in selected_idx]
-
-
 def pack_retrieved_documents(
     client: cohere.Client,
     question: str,
@@ -239,7 +106,6 @@ def pack_retrieved_documents(
     max_doc_tokens: int = MAX_DOC_TOKENS,
     max_packed_docs: int = MAX_PACKED_DOCS,
     tokenizer_model: str = TOKENIZER_MODEL,
-    coverage_aware: bool = False,
 ) -> Tuple[List[Dict[str, str]], Dict[str, int]]:
     """
     Convert retrieved chunks into Cohere chat documents within a token budget.
@@ -257,17 +123,11 @@ def pack_retrieved_documents(
     fixed_tokens = _count_tokens(client, fixed_text, model=tokenizer_model)
     budget_for_docs = max(256, max_input_tokens - reserved_tokens - fixed_tokens)
 
-    ordered_retrieved = (
-        _coverage_reorder_retrieved(question=question, retrieved=retrieved)
-        if coverage_aware
-        else retrieved
-    )
-
     packed_docs: List[Dict[str, str]] = []
     used_doc_tokens = 0
     truncated_docs = 0
 
-    for chunk, _score in ordered_retrieved:
+    for chunk, _score in retrieved:
         if max_packed_docs > 0 and len(packed_docs) >= max_packed_docs:
             break
         # Cohere document IDs must be short; keep full chunk_id in metadata and text header.
@@ -334,8 +194,7 @@ def pack_retrieved_documents(
         "budget_for_docs_tokens": budget_for_docs,
         "used_doc_tokens": used_doc_tokens,
         "packed_docs": len(packed_docs),
-        "retrieved_docs": len(ordered_retrieved),
+        "retrieved_docs": len(retrieved),
         "truncated_docs": truncated_docs,
-        "coverage_aware": int(bool(coverage_aware)),
     }
     return packed_docs, stats

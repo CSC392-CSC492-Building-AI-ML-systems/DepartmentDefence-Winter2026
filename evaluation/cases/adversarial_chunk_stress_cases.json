@@ -39,8 +39,7 @@
     "question": "For reciprocal procurement, extract the required file documentation and written approval for best-value/public-interest exceptions, then add the supply-arrangement transition deadline and interim rule for solicitations under existing SAs.",
     "expected_chunk_ids": [
       "buyers_guide__en-buyer-s-portal-buyer-s-guide-plan-determine-procurement-strategy-interim-policy-reciprocal-procurement__5e3e4634b7__20",
-      "buyers_guide__en-buyer-s-portal-buyer-s-guide-plan-determine-procurement-strategy-interim-policy-reciprocal-procurement__5e3e4634b7__25",
-      "buyers_guide__en-buyer-s-portal-buyer-s-guide-plan-determine-procurement-strategy-interim-policy-reciprocal-procurement__5e3e4634b7__30"
+      "buyers_guide__en-buyer-s-portal-buyer-s-guide-plan-determine-procurement-strategy-interim-policy-reciprocal-procurement__5e3e4634b7__25"
     ]
   },
   {
@@ -61,7 +60,6 @@
     "question": "For the strategic procurement policy, gather the evidence showing policy supersession/precedence, phased financial thresholds, and who must document approved exceptions and implement compliance mechanisms.",
     "expected_chunk_ids": [
       "buy_canadian_policy__en-how-procurement-works-policies-and-guidelines-policies-directives-and-regulations-policy-prioritizing-cana__1a6137428b__6",
-      "buy_canadian_policy__en-how-procurement-works-policies-and-guidelines-policies-directives-and-regulations-policy-prioritizing-cana__1a6137428b__7",
       "buy_canadian_policy__en-how-procurement-works-policies-and-guidelines-policies-directives-and-regulations-policy-prioritizing-cana__1a6137428b__15"
     ]
   },
@@ -138,8 +136,7 @@
     "question": "Extract the Shared Services Canada common-service role, then pair it with Buy Canadian framework requirements on integrating prioritization measures and obtaining required declarations/attestations.",
     "expected_chunk_ids": [
       "tbs_directive__pol-doc-eng-aspx__id-32692__70db5331eb__43",
-      "buy_canadian_policy__en-how-procurement-works-policies-and-guidelines-policies-directives-and-regulations-buy-canadian-procurement__2763528754__10",
-      "buy_canadian_policy__en-how-procurement-works-policies-and-guidelines-policies-directives-and-regulations-policy-prioritizing-cana__1a6137428b__15"
+      "buy_canadian_policy__en-how-procurement-works-policies-and-guidelines-policies-directives-and-regulations-buy-canadian-procurement__2763528754__10"
     ]
   },
   {

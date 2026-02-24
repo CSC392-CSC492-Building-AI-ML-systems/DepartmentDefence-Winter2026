@@ -3,7 +3,6 @@
 from __future__ import annotations
 
 import argparse
-import copy
 import json
 import sys
 import time
@@ -14,6 +13,11 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 
+from evaluation.query_rewrite_cache import (
+    DEFAULT_QUERY_REWRITE_CACHE,
+    build_query_rewrite_cache,
+)
+from rag.app_config import CHAT_MODEL, QUERY_REWRITE_MAX_QUERIES, QUERY_REWRITE_MODEL
 from rag.corpus import list_docs
 from rag.embedding_client import create_client
 from rag.query_rewrite import generate_query_expansions
@@ -50,6 +54,12 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument("--cache-file", type=Path, default=DEFAULT_CACHE)
     parser.add_argument("--chunk-cache-file", type=Path, default=DEFAULT_CHUNK_CACHE)
+    parser.add_argument(
+        "--query-rewrite-cache-file",
+        type=Path,
+        default=DEFAULT_QUERY_REWRITE_CACHE,
+        help="Persistent cache for generated query rewrites.",
+    )
     parser.add_argument("--top-k", type=int, default=24)
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
     parser.add_argument(
@@ -124,14 +134,12 @@ def _evaluate_variant(
     use_query_rewrite: bool,
     query_expansion_cache: Dict[str, List[str]],
     retrieval_alpha: Optional[float] = None,
-    clear_stopwords: bool = False,
     merge_query_only: bool = False,
     enable_rerank: bool = False,
 ) -> Dict[str, Any]:
     # Snapshot mutable module state.
     original_alpha = retrieval.RETRIEVAL_ALPHA
     original_enable_rerank = retrieval.ENABLE_RERANK
-    original_stopwords = copy.copy(retrieval.STOPWORDS)
     original_merge = retrieval._merge_query_texts
 
     try:
@@ -139,17 +147,10 @@ def _evaluate_variant(
             retrieval.RETRIEVAL_ALPHA = float(retrieval_alpha)
         retrieval.ENABLE_RERANK = bool(enable_rerank)
 
-        if clear_stopwords:
-            retrieval.STOPWORDS = set()
-        else:
-            retrieval.STOPWORDS = copy.copy(original_stopwords)
-
         if merge_query_only:
             retrieval._merge_query_texts = lambda query, query_expansions: [query]  # type: ignore[assignment]
         else:
             retrieval._merge_query_texts = original_merge
-
-        chunk_vocabs, chunk_modes, chunk_meta_vocabs = retrieval.build_chunk_features(chunks)
 
         t0 = time.perf_counter()
         rows: List[Dict[str, Any]] = []
@@ -170,9 +171,6 @@ def _evaluate_variant(
                 chunk_vecs=chunk_vecs,
                 k=top_k,
                 query_expansions=query_expansions,
-                chunk_vocabs=chunk_vocabs,
-                chunk_modes=chunk_modes,
-                chunk_meta_vocabs=chunk_meta_vocabs,
             )
 
             got_ids = [chunk.chunk_id for chunk, _score in retrieved]
@@ -213,7 +211,6 @@ def _evaluate_variant(
             "settings": {
                 "use_query_rewrite": use_query_rewrite,
                 "retrieval_alpha": retrieval.RETRIEVAL_ALPHA,
-                "clear_stopwords": clear_stopwords,
                 "merge_query_only": merge_query_only,
                 "enable_rerank": enable_rerank,
             },
@@ -223,24 +220,7 @@ def _evaluate_variant(
     finally:
         retrieval.RETRIEVAL_ALPHA = original_alpha
         retrieval.ENABLE_RERANK = original_enable_rerank
-        retrieval.STOPWORDS = original_stopwords
         retrieval._merge_query_texts = original_merge
-
-
-def _build_query_rewrite_cache(client, cases: List[Dict[str, Any]]) -> Dict[str, List[str]]:
-    cache: Dict[str, List[str]] = {}
-    seen = set()
-    for case in cases:
-        question = case["question"]
-        if question in seen:
-            continue
-        seen.add(question)
-        cache[question] = generate_query_expansions(
-            client=client,
-            question=question,
-            chat_history=[],
-        )
-    return cache
 
 
 def run() -> None:
@@ -251,7 +231,17 @@ def run() -> None:
     client = create_client()
     chunk_vecs = _load_or_embed_chunk_vectors(client, chunks, args.cache_file)
     available_prefixes = {_doc_prefix(chunk.chunk_id) for chunk in chunks if chunk.chunk_id}
-    rewrite_cache = _build_query_rewrite_cache(client, cases)
+    rewrite_cache, query_rewrite_stats = build_query_rewrite_cache(
+        questions=(case["question"] for case in cases),
+        cache_file=args.query_rewrite_cache_file,
+        model_name=(QUERY_REWRITE_MODEL or CHAT_MODEL),
+        max_queries=QUERY_REWRITE_MAX_QUERIES,
+        generator=lambda question: generate_query_expansions(
+            client=client,
+            question=question,
+            chat_history=[],
+        ),
+    )
     rewrite_lengths = [len(value) for value in rewrite_cache.values()]
 
     variants = [
@@ -260,17 +250,12 @@ def run() -> None:
             "use_query_rewrite": False,
         },
         {
-            "name": "no_stopwords_norewrite",
-            "use_query_rewrite": False,
-            "clear_stopwords": True,
-        },
-        {
             "name": "dense_only_norewrite",
             "use_query_rewrite": False,
             "retrieval_alpha": 1.0,
         },
         {
-            "name": "lexical_only_norewrite",
+            "name": "bm25_only_norewrite",
             "use_query_rewrite": False,
             "retrieval_alpha": 0.0,
         },
@@ -307,7 +292,6 @@ def run() -> None:
                 query_expansion_cache=rewrite_cache,
                 use_query_rewrite=bool(variant.get("use_query_rewrite", False)),
                 retrieval_alpha=variant.get("retrieval_alpha"),
-                clear_stopwords=bool(variant.get("clear_stopwords", False)),
                 merge_query_only=bool(variant.get("merge_query_only", False)),
                 enable_rerank=bool(variant.get("enable_rerank", False)),
             )
@@ -320,6 +304,7 @@ def run() -> None:
             "top_k": args.top_k,
             "cache_file": str(args.cache_file),
             "chunk_cache_file": str(args.chunk_cache_file),
+            "query_rewrite_cache_file": str(args.query_rewrite_cache_file),
             "variant_count": len(results),
         },
         "query_rewrite_diagnostics": {
@@ -328,6 +313,7 @@ def run() -> None:
                 sum(rewrite_lengths) / len(rewrite_lengths) if rewrite_lengths else 0.0
             ),
             "questions_with_expansions": sum(1 for count in rewrite_lengths if count > 0),
+            "cache": query_rewrite_stats,
             "sample": [
                 {
                     "question": question,

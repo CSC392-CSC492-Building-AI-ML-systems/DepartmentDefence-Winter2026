@@ -5,10 +5,11 @@ from __future__ import annotations
 import argparse
 from collections import Counter
 import json
+import logging
 from pathlib import Path
 import sys
 import time
-from typing import Any, Dict, Iterable, List, Sequence, Set
+from typing import Any, Dict, Iterable, List, Optional, Sequence, Set
 
 import numpy as np
 from elasticsearch import Elasticsearch, helpers
@@ -27,10 +28,13 @@ from evaluation.retrieval_adversarial_runner import (  # noqa: E402
     _load_or_embed_chunk_vectors,
     _normalize_case,
 )
+from rag.app_config import RERANK_MODEL  # noqa: E402
 from rag.corpus import list_docs  # noqa: E402
 from rag.embedding_client import create_client, embed_texts  # noqa: E402
 from rag.query_rewrite import generate_query_expansions  # noqa: E402
 from rag.rag_types import Chunk  # noqa: E402
+
+LOGGER = logging.getLogger(__name__)
 
 DEFAULT_OUTPUT = (
     REPO_ROOT
@@ -75,6 +79,27 @@ def parse_args() -> argparse.Namespace:
         "--use-query-rewrite",
         action="store_true",
         help="Enable LLM query rewrite cache before retrieval.",
+    )
+    parser.add_argument(
+        "--enable-rerank",
+        action="store_true",
+        help="Apply Cohere rerank to a candidate pool before final top-k selection.",
+    )
+    parser.add_argument(
+        "--rerank-alphas",
+        default="0.0,0.2,0.4,0.6",
+        help="Comma-separated rerank blend values (0=no effect, 1=rerank-only in candidate pool).",
+    )
+    parser.add_argument(
+        "--rerank-candidate-k",
+        type=int,
+        default=100,
+        help="Candidate depth retrieved before rerank blending (final output still --top-k).",
+    )
+    parser.add_argument(
+        "--rerank-model",
+        default=RERANK_MODEL,
+        help="Cohere rerank model name.",
     )
     parser.add_argument(
         "--elastic-url",
@@ -295,6 +320,57 @@ def _elastic_bm25_scores(
     return ((bm25_raw - min_score) / (max_score - min_score)).astype(np.float32)
 
 
+def _apply_rerank_scores(
+    *,
+    client: Any,
+    query: str,
+    chunks: Sequence[Chunk],
+    candidate_idx: Sequence[int],
+    base_scores: np.ndarray,
+    rerank_alpha: float,
+    rerank_model: str,
+) -> np.ndarray:
+    if client is None or (not candidate_idx):
+        return base_scores
+    alpha = min(max(float(rerank_alpha), 0.0), 1.0)
+    if alpha <= 0.0:
+        return base_scores
+
+    documents = [f"{chunks[idx].title}\n{chunks[idx].text}" for idx in candidate_idx]
+    try:
+        response = client.rerank(
+            model=rerank_model,
+            query=query,
+            documents=documents,
+            top_n=len(documents),
+            return_documents=False,
+        )
+    except Exception as exc:
+        LOGGER.warning("Cohere rerank failed; keeping base scores: %s", exc)
+        return base_scores
+
+    rerank_scores: Dict[int, float] = {}
+    for row in response.results:
+        local_idx = int(row.index)
+        if local_idx < 0 or local_idx >= len(candidate_idx):
+            continue
+        rerank_scores[int(candidate_idx[local_idx])] = float(row.relevance_score)
+    if not rerank_scores:
+        return base_scores
+
+    values = list(rerank_scores.values())
+    min_score = min(values)
+    max_score = max(values)
+    denom = (max_score - min_score) + 1e-12
+
+    blended = base_scores.copy()
+    for global_idx, value in rerank_scores.items():
+        normalized = (value - min_score) / denom
+        mixed = ((1.0 - alpha) * float(blended[global_idx])) + (alpha * float(normalized))
+        blended[global_idx] = np.float32(min(max(mixed, 0.0), 1.0))
+    return blended
+
+
 def _evaluate_variant(
     *,
     name: str,
@@ -304,11 +380,15 @@ def _evaluate_variant(
     chunks: Sequence[Chunk],
     chunk_ids: Sequence[str],
     chunk_id_to_idx: Dict[str, int],
-    chunk_vecs: np.ndarray,
-    client,
+    chunk_vecs: Optional[np.ndarray],
+    client: Any,
     es: Elasticsearch,
     index_name: str,
     top_k: int,
+    enable_rerank: bool,
+    rerank_alpha: float,
+    rerank_candidate_k: int,
+    rerank_model: str,
     rewrite_cache: Dict[str, List[str]],
     use_query_rewrite: bool,
     available_prefixes: Set[str],
@@ -333,6 +413,10 @@ def _evaluate_variant(
         dense = None
         bm25 = None
         if variant in {"dense", "hybrid"}:
+            if client is None or chunk_vecs is None:
+                raise RuntimeError(
+                    "Dense/hybrid variant requires Cohere client and chunk embeddings."
+                )
             dense = _dense_scores(client=client, chunk_vecs=chunk_vecs, query_texts=query_texts)
         if variant in {"bm25", "hybrid"}:
             bm25 = _elastic_bm25_scores(
@@ -357,6 +441,23 @@ def _evaluate_variant(
             raise ValueError(f"Unsupported variant: {variant}")
 
         ranked_idx = np.argsort(-combined)
+        if enable_rerank:
+            if client is None:
+                raise RuntimeError("Rerank requested but Cohere client is unavailable.")
+            candidate_k = max(target_k, int(rerank_candidate_k))
+            candidate_k = min(len(chunk_ids), max(1, candidate_k))
+            candidate_idx = [int(idx) for idx in ranked_idx[:candidate_k]]
+            combined = _apply_rerank_scores(
+                client=client,
+                query=question,
+                chunks=chunks,
+                candidate_idx=candidate_idx,
+                base_scores=combined,
+                rerank_alpha=rerank_alpha,
+                rerank_model=rerank_model,
+            )
+            ranked_idx = np.argsort(-combined)
+
         selected_idx = [int(idx) for idx in ranked_idx[:target_k]]
         got_ids = [chunk_ids[idx] for idx in selected_idx]
         got_prefixes = [_doc_prefix(value) for value in got_ids]
@@ -405,9 +506,14 @@ def _evaluate_variant(
         "name": name,
         "variant": variant,
         "alpha": alpha,
+        "enable_rerank": bool(enable_rerank),
+        "rerank_alpha": float(rerank_alpha) if enable_rerank else None,
         "summary": {
             "case_count": len(rows),
             "elapsed_seconds": round(elapsed, 2),
+            "rerank_enabled": bool(enable_rerank),
+            "rerank_alpha": float(rerank_alpha) if enable_rerank else None,
+            "rerank_candidate_k": int(rerank_candidate_k) if enable_rerank else None,
             "chunk_id_recall_mean": (sum(chunk_values) / len(chunk_values))
             if chunk_values
             else None,
@@ -470,6 +576,7 @@ def run() -> None:
     cases = _select_cases(args.cases_file, args.split)
     variants = _parse_variants(args.variants)
     alphas = _parse_alphas(args.alphas)
+    rerank_alphas = _parse_alphas(args.rerank_alphas) if args.enable_rerank else [0.0]
 
     es = Elasticsearch(args.elastic_url, request_timeout=60)
     info = es.info()
@@ -481,8 +588,15 @@ def run() -> None:
 
     _ensure_index(es=es, index_name=args.index_name, chunks=chunks, reindex=bool(args.reindex))
 
-    client = create_client()
-    chunk_vecs = _load_or_embed_chunk_vectors(client, chunks, args.cache_file)
+    needs_dense = any(variant in {"dense", "hybrid"} for variant in variants)
+    needs_client = needs_dense or bool(args.use_query_rewrite) or bool(args.enable_rerank)
+
+    client = create_client() if needs_client else None
+    chunk_vecs = (
+        _load_or_embed_chunk_vectors(client, chunks, args.cache_file)
+        if needs_dense
+        else None
+    )
     chunk_ids = [chunk.chunk_id for chunk in chunks]
     chunk_id_to_idx = {chunk_id: idx for idx, chunk_id in enumerate(chunk_ids)}
     available_prefixes = {_doc_prefix(chunk_id) for chunk_id in chunk_ids}
@@ -495,6 +609,8 @@ def run() -> None:
             question = case["question"]
             if question in rewrite_cache:
                 continue
+            if client is None:
+                raise RuntimeError("Query rewrite requested but Cohere client is unavailable.")
             rewrite_cache[question] = generate_query_expansions(
                 client=client,
                 question=question,
@@ -503,13 +619,23 @@ def run() -> None:
 
     results: List[Dict[str, Any]] = []
     for variant in variants:
+        alpha_grid: List[Optional[float]]
         if variant == "hybrid":
-            for alpha in alphas:
+            alpha_grid = [float(value) for value in alphas]
+        else:
+            alpha_grid = [None]
+
+        for alpha in alpha_grid:
+            base_name = variant if alpha is None else f"{variant}_alpha_{alpha:.2f}"
+            for rerank_alpha in rerank_alphas:
+                run_name = base_name
+                if args.enable_rerank:
+                    run_name = f"{base_name}_rerank_{float(rerank_alpha):.2f}"
                 results.append(
                     _evaluate_variant(
-                        name=f"hybrid_alpha_{alpha:.2f}",
-                        variant="hybrid",
-                        alpha=float(alpha),
+                        name=run_name,
+                        variant=variant,
+                        alpha=alpha,
                         cases=cases,
                         chunks=chunks,
                         chunk_ids=chunk_ids,
@@ -519,31 +645,15 @@ def run() -> None:
                         es=es,
                         index_name=args.index_name,
                         top_k=args.top_k,
+                        enable_rerank=bool(args.enable_rerank),
+                        rerank_alpha=float(rerank_alpha),
+                        rerank_candidate_k=int(args.rerank_candidate_k),
+                        rerank_model=str(args.rerank_model),
                         rewrite_cache=rewrite_cache,
                         use_query_rewrite=bool(args.use_query_rewrite),
                         available_prefixes=available_prefixes,
                     )
                 )
-        else:
-            results.append(
-                _evaluate_variant(
-                    name=variant,
-                    variant=variant,
-                    alpha=None,
-                    cases=cases,
-                    chunks=chunks,
-                    chunk_ids=chunk_ids,
-                    chunk_id_to_idx=chunk_id_to_idx,
-                    chunk_vecs=chunk_vecs,
-                    client=client,
-                    es=es,
-                    index_name=args.index_name,
-                    top_k=args.top_k,
-                    rewrite_cache=rewrite_cache,
-                    use_query_rewrite=bool(args.use_query_rewrite),
-                    available_prefixes=available_prefixes,
-                )
-            )
 
     payload = {
         "config": {
@@ -552,6 +662,10 @@ def run() -> None:
             "top_k": int(args.top_k),
             "variants": variants,
             "alphas": alphas,
+            "enable_rerank": bool(args.enable_rerank),
+            "rerank_alphas": rerank_alphas if args.enable_rerank else [],
+            "rerank_candidate_k": int(args.rerank_candidate_k),
+            "rerank_model": str(args.rerank_model),
             "use_query_rewrite": bool(args.use_query_rewrite),
             "elastic_url": str(args.elastic_url),
             "index_name": str(args.index_name),

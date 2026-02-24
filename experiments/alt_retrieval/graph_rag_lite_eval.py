@@ -153,7 +153,6 @@ def run() -> None:
     chunks = _load_or_chunk_docs(docs, args.chunk_cache_file)
     client = create_client()
     chunk_vecs = _load_or_embed_chunk_vectors(client, chunks, args.cache_file)
-    chunk_vocabs, chunk_modes, chunk_meta_vocabs = retrieval.build_chunk_features(chunks)
     original_enable_rerank = retrieval.ENABLE_RERANK
     retrieval.ENABLE_RERANK = False
 
@@ -182,9 +181,6 @@ def run() -> None:
                 chunk_vecs=chunk_vecs,
                 k=max(args.pool_k, args.top_k),
                 query_expansions=query_expansions,
-                chunk_vocabs=chunk_vocabs,
-                chunk_modes=chunk_modes,
-                chunk_meta_vocabs=chunk_meta_vocabs,
             )
             baseline_by_case[case["id"]] = pool[: args.top_k]
             graph_by_case[case["id"]] = _graph_expand_results(

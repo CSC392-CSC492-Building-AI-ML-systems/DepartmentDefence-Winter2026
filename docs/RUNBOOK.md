@@ -23,6 +23,11 @@
      - `MAX_DOC_TOKENS=320`
      - `MAX_PACKED_DOCS=8`
      - `MAX_HISTORY_TURNS=3`
+3. Optional: bootstrap local Elasticsearch for BM25 experiments:
+   - `powershell -ExecutionPolicy Bypass -File experiments/elasticsearch_bm25/start_local_elasticsearch.ps1`
+   - Runtime artifacts are kept under `.tools/` and are intentionally git-ignored.
+   - Stop later with:
+     - `powershell -ExecutionPolicy Bypass -File experiments/elasticsearch_bm25/stop_local_elasticsearch.ps1`
 
 ## Run Chatbot
 - Start interactive mode:

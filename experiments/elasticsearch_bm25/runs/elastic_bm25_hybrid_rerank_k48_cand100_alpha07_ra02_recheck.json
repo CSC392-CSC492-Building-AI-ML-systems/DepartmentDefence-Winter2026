@@ -1,0 +1,68 @@
+{
+  "config": {
+    "cases_file": [
+      "C:\\Users\\14164\\dev\\DepartmentDefence-Winter2026\\evaluation\\cases\\adversarial_retrieval_cases.json",
+      "C:\\Users\\14164\\dev\\DepartmentDefence-Winter2026\\evaluation\\cases\\adversarial_chunk_stress_cases.json",
+      "C:\\Users\\14164\\dev\\DepartmentDefence-Winter2026\\evaluation\\cases\\adversarial_retrieval_robustness.json",
+      "C:\\Users\\14164\\dev\\DepartmentDefence-Winter2026\\evaluation\\cases\\eval_cases.jsonl",
+      "C:\\Users\\14164\\dev\\DepartmentDefence-Winter2026\\evaluation\\cases\\eval_cases_reference.jsonl"
+    ],
+    "split": "all",
+    "top_k": 48,
+    "variants": [
+      "hybrid"
+    ],
+    "alphas": [
+      0.7
+    ],
+    "enable_rerank": true,
+    "rerank_alphas": [
+      0.2
+    ],
+    "rerank_candidate_k": 100,
+    "rerank_model": "rerank-v4.0-fast",
+    "use_query_rewrite": false,
+    "elastic_url": "http://127.0.0.1:9200",
+    "index_name": "policy_chunks_bm25_eval",
+    "reindex": false,
+    "cache_file": "C:\\Users\\14164\\dev\\DepartmentDefence-Winter2026\\evaluation\\runs\\adversarial_embeddings.npz",
+    "chunk_cache_file": "C:\\Users\\14164\\dev\\DepartmentDefence-Winter2026\\evaluation\\runs\\adversarial_chunks.json.gz",
+    "elastic_version": "8.19.3"
+  },
+  "results": [
+    {
+      "name": "hybrid_alpha_0.70_rerank_0.20",
+      "variant": "hybrid",
+      "alpha": 0.7,
+      "enable_rerank": true,
+      "rerank_alpha": 0.2,
+      "summary": {
+        "case_count": 65,
+        "elapsed_seconds": 36.63,
+        "rerank_enabled": true,
+        "rerank_alpha": 0.2,
+        "rerank_candidate_k": 100,
+        "chunk_id_recall_mean": 0.9642857142857143,
+        "chunk_id_recall_micro": 0.9571428571428572,
+        "doc_prefix_recall_mean": 0.9948717948717949,
+        "doc_prefix_recall_micro": 0.9902912621359223,
+        "doc_prefix_recall_available_mean": 0.9948717948717949,
+        "zero_chunk_hit_cases": [],
+        "zero_prefix_hit_cases": [],
+        "expected_chunk_count_distribution": {
+          "0": 37,
+          "1": 3,
+          "2": 8,
+          "3": 17
+        },
+        "expected_doc_prefix_count_distribution": {
+          "1": 34,
+          "2": 24,
+          "3": 7
+        },
+        "query_rewrite_avg_expansions_per_question": 0.0,
+        "query_rewrite_questions_with_expansions": 0
+      }
+    }
+  ]
+}
