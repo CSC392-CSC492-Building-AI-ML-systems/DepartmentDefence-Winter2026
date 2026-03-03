@@ -12,6 +12,7 @@ from typing import Any, Dict, List, Optional, Sequence, Tuple
 
 from .answer_metrics import (
     abstention_accuracy,
+    answer_basic_stats,
     citation_support_metrics,
     forbidden_claim_metrics,
     reference_answer_similarity,
@@ -21,7 +22,15 @@ from .cases import case_forbidden_claims, case_list, case_required_claims, load_
 from .common import round_float, split_sentences
 from .judge import judge_answer
 from .paths import CASES_DIR, REPO_ROOT, RUNS_DIR
-from .retrieval_metrics import doc_prefix_from_chunk_id, retrieval_evidence_coverage
+from .retrieval_metrics import (
+    doc_prefix_from_chunk_id,
+    mrr_at_k,
+    ndcg_at_k,
+    precision_at_k,
+    retrieval_evidence_coverage,
+    top1_hit,
+    unique_prefix_fraction,
+)
 from .summary import summarize_case_rows, summarize_ci95, timing_summary
 
 if str(REPO_ROOT) not in sys.path:
@@ -79,9 +88,17 @@ def case_metrics(
 
     gold_doc_hits = 0
     gold_doc_recall_at_k = None
+    gold_doc_precision_at_k = None
+    gold_doc_top1 = None
+    gold_doc_mrr = None
+    gold_doc_ndcg = None
     if gold_doc_prefixes:
         gold_doc_hits = sum(1 for prefix in gold_doc_prefixes if prefix in retrieved_prefixes)
         gold_doc_recall_at_k = gold_doc_hits / len(gold_doc_prefixes)
+        gold_doc_precision_at_k = precision_at_k(gold_doc_prefixes, retrieved_prefix_list)
+        gold_doc_top1 = top1_hit(gold_doc_prefixes, retrieved_prefix_list)
+        gold_doc_mrr = mrr_at_k(gold_doc_prefixes, retrieved_prefix_list)
+        gold_doc_ndcg = ndcg_at_k(gold_doc_prefixes, retrieved_prefix_list)
 
     contradiction_rate = None
     if contradiction_prefixes and k > 0:
@@ -92,6 +109,8 @@ def case_metrics(
     if noise_prefixes and k > 0:
         noise_set = set(noise_prefixes)
         noise_rate = sum(1 for p in retrieved_prefix_list if p in noise_set) / k
+
+    unique_prefix_frac = unique_prefix_fraction(retrieved_prefix_list)
 
     evidence_coverage = retrieval_evidence_coverage(
         case=case,
@@ -105,6 +124,10 @@ def case_metrics(
         "citation_support_rate": None,
         "reference_answer_similarity": None,
         "abstention_correct": None,
+        "answer_sentence_count": None,
+        "answer_word_count": None,
+        "citation_count": None,
+        "citation_sentence_rate": None,
     }
 
     if answer is not None:
@@ -142,18 +165,24 @@ def case_metrics(
             "citation_support_rate": citation_block["citation_support_rate"],
             "reference_answer_similarity": round_float(ref_similarity),
             "abstention_correct": abstention_accuracy(answer=answer, expect_abstain=case.get("expect_abstain")),
+            **answer_basic_stats(answer_sentences),
         }
 
     return {
         "retrieval": {
             "k": k,
-            "gold_doc_prefix_hits": gold_doc_hits,
-            "gold_doc_prefix_total": len(gold_doc_prefixes),
-            "gold_doc_recall_at_k": round_float(gold_doc_recall_at_k),
-            "contradiction_rate": round_float(contradiction_rate),
-            "noise_rate": round_float(noise_rate),
-            **evidence_coverage,
-        },
+        "gold_doc_prefix_hits": gold_doc_hits,
+        "gold_doc_prefix_total": len(gold_doc_prefixes),
+        "gold_doc_recall_at_k": round_float(gold_doc_recall_at_k),
+        "gold_doc_precision_at_k": round_float(gold_doc_precision_at_k),
+        "gold_doc_top1_hit": round_float(gold_doc_top1),
+        "gold_doc_mrr": round_float(gold_doc_mrr),
+        "gold_doc_ndcg": round_float(gold_doc_ndcg),
+        "unique_prefix_fraction": round_float(unique_prefix_frac),
+        "contradiction_rate": round_float(contradiction_rate),
+        "noise_rate": round_float(noise_rate),
+        **evidence_coverage,
+    },
         "answer": answer_block,
     }
 
@@ -424,6 +453,9 @@ def main() -> None:
     print(
         "Overall metrics: "
         f"doc_recall@k={overall_metrics['retrieval_gold_doc_recall_at_k_mean']}, "
+        f"doc_precision@k={overall_metrics['retrieval_gold_doc_precision_at_k_mean']}, "
+        f"mrr={overall_metrics['retrieval_gold_doc_mrr_mean']}, "
+        f"ndcg={overall_metrics['retrieval_gold_doc_ndcg_mean']}, "
         f"claim_evidence_cov={overall_metrics['retrieval_claim_evidence_coverage_mean']}, "
         f"noise_rate={overall_metrics['retrieval_noise_rate_mean']}, "
         f"required_claim_recall={overall_metrics['answer_required_claim_recall_mean']}, "

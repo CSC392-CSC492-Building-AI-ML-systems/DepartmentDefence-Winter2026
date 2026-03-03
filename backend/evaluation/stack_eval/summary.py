@@ -31,6 +31,21 @@ def summarize_case_rows(rows: List[Dict[str, Any]]) -> Dict[str, Any]:
         "retrieval_gold_doc_recall_at_k_mean": round_float(
             mean(collect_numeric(rows, ("metrics", "retrieval", "gold_doc_recall_at_k")))
         ),
+        "retrieval_gold_doc_precision_at_k_mean": round_float(
+            mean(collect_numeric(rows, ("metrics", "retrieval", "gold_doc_precision_at_k")))
+        ),
+        "retrieval_gold_doc_top1_hit_rate": round_float(
+            mean(collect_numeric(rows, ("metrics", "retrieval", "gold_doc_top1_hit")))
+        ),
+        "retrieval_gold_doc_mrr_mean": round_float(
+            mean(collect_numeric(rows, ("metrics", "retrieval", "gold_doc_mrr")))
+        ),
+        "retrieval_gold_doc_ndcg_mean": round_float(
+            mean(collect_numeric(rows, ("metrics", "retrieval", "gold_doc_ndcg")))
+        ),
+        "retrieval_unique_prefix_fraction_mean": round_float(
+            mean(collect_numeric(rows, ("metrics", "retrieval", "unique_prefix_fraction")))
+        ),
         "retrieval_claim_evidence_coverage_mean": round_float(
             mean(collect_numeric(rows, ("metrics", "retrieval", "claim_evidence_coverage")))
         ),
@@ -55,6 +70,18 @@ def summarize_case_rows(rows: List[Dict[str, Any]]) -> Dict[str, Any]:
         "answer_forbidden_violation_rate": round_float(
             mean(collect_numeric(rows, ("metrics", "answer", "forbidden_claim_violation_rate")))
         ),
+        "answer_citation_sentence_rate_mean": round_float(
+            mean(collect_numeric(rows, ("metrics", "answer", "citation_sentence_rate")))
+        ),
+        "answer_citation_count_mean": round_float(
+            mean(collect_numeric(rows, ("metrics", "answer", "citation_count")))
+        ),
+        "answer_sentence_count_mean": round_float(
+            mean(collect_numeric(rows, ("metrics", "answer", "answer_sentence_count")))
+        ),
+        "answer_word_count_mean": round_float(
+            mean(collect_numeric(rows, ("metrics", "answer", "answer_word_count")))
+        ),
     }
 
     for judge_key in (
@@ -72,6 +99,13 @@ def summarize_case_rows(rows: List[Dict[str, Any]]) -> Dict[str, Any]:
 def summarize_ci95(rows: List[Dict[str, Any]]) -> Dict[str, Dict[str, float]]:
     ci_metrics: Dict[str, Sequence[str]] = {
         "retrieval_gold_doc_recall_at_k_mean": ("metrics", "retrieval", "gold_doc_recall_at_k"),
+        "retrieval_gold_doc_precision_at_k_mean": (
+            "metrics",
+            "retrieval",
+            "gold_doc_precision_at_k",
+        ),
+        "retrieval_gold_doc_mrr_mean": ("metrics", "retrieval", "gold_doc_mrr"),
+        "retrieval_gold_doc_ndcg_mean": ("metrics", "retrieval", "gold_doc_ndcg"),
         "retrieval_claim_evidence_coverage_mean": (
             "metrics",
             "retrieval",
@@ -82,6 +116,7 @@ def summarize_ci95(rows: List[Dict[str, Any]]) -> Dict[str, Dict[str, float]]:
         "answer_required_claim_recall_mean": ("metrics", "answer", "required_claim_recall"),
         "answer_citation_support_rate_mean": ("metrics", "answer", "citation_support_rate"),
         "answer_reference_similarity_mean": ("metrics", "answer", "reference_answer_similarity"),
+        "answer_citation_sentence_rate_mean": ("metrics", "answer", "citation_sentence_rate"),
         "judge_decision_correctness_mean": ("judge", "scores", "decision_correctness"),
         "judge_reference_alignment_mean": ("judge", "scores", "reference_alignment"),
     }

@@ -239,3 +239,29 @@ def abstention_accuracy(answer: str, expect_abstain: Any) -> Any:
     if expect_abstain is None:
         return None
     return abstained(answer.lower()) == bool(expect_abstain)
+
+
+def answer_basic_stats(answer_sentences: Sequence[str]) -> Dict[str, Any]:
+    if not answer_sentences:
+        return {
+            "answer_sentence_count": 0,
+            "answer_word_count": 0,
+            "citation_count": 0,
+            "citation_sentence_rate": None,
+        }
+    sentence_count = len(answer_sentences)
+    word_count = sum(len(sentence.split()) for sentence in answer_sentences)
+    total_citations = 0
+    sentences_with_cites = 0
+    for sentence in answer_sentences:
+        cites = parse_citations(sentence)
+        total_citations += len(cites)
+        if cites:
+            sentences_with_cites += 1
+    citation_sentence_rate = sentences_with_cites / sentence_count if sentence_count else None
+    return {
+        "answer_sentence_count": sentence_count,
+        "answer_word_count": word_count,
+        "citation_count": total_citations,
+        "citation_sentence_rate": round_float(citation_sentence_rate),
+    }

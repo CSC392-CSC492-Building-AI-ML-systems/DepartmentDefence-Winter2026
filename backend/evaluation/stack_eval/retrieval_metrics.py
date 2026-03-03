@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import math
 from typing import Any, Dict, Sequence
 
 from .common import round_float
@@ -49,3 +50,51 @@ def retrieval_evidence_coverage(
         "claim_evidence_covered": covered,
         "claim_evidence_coverage": round_float(covered / total if total else None),
     }
+
+
+def precision_at_k(gold_prefixes: Sequence[str], retrieved_prefixes: Sequence[str]) -> float | None:
+    if not gold_prefixes or not retrieved_prefixes:
+        return None
+    k = len(retrieved_prefixes)
+    hits = sum(1 for p in retrieved_prefixes if p in set(gold_prefixes))
+    return hits / k if k else None
+
+
+def top1_hit(gold_prefixes: Sequence[str], retrieved_prefixes: Sequence[str]) -> float | None:
+    if not gold_prefixes or not retrieved_prefixes:
+        return None
+    return 1.0 if retrieved_prefixes[0] in set(gold_prefixes) else 0.0
+
+
+def mrr_at_k(gold_prefixes: Sequence[str], retrieved_prefixes: Sequence[str]) -> float | None:
+    if not gold_prefixes or not retrieved_prefixes:
+        return None
+    gold_set = set(gold_prefixes)
+    for idx, prefix in enumerate(retrieved_prefixes):
+        if prefix in gold_set:
+            return 1.0 / float(idx + 1)
+    return 0.0
+
+
+def ndcg_at_k(gold_prefixes: Sequence[str], retrieved_prefixes: Sequence[str]) -> float | None:
+    """Binary relevance nDCG@k using doc prefixes."""
+    if not gold_prefixes or not retrieved_prefixes:
+        return None
+    gold_set = set(gold_prefixes)
+    dcg = 0.0
+    for idx, prefix in enumerate(retrieved_prefixes):
+        rel = 1.0 if prefix in gold_set else 0.0
+        dcg += rel / (math.log2(idx + 2))
+
+    # Ideal DCG with all relevant items ranked first
+    ideal_rels = [1.0] * min(len(gold_set), len(retrieved_prefixes))
+    idcg = sum(rel / (math.log2(i + 2)) for i, rel in enumerate(ideal_rels))
+    if idcg == 0:
+        return 0.0
+    return dcg / idcg
+
+
+def unique_prefix_fraction(retrieved_prefixes: Sequence[str]) -> float | None:
+    if not retrieved_prefixes:
+        return None
+    return len(set(retrieved_prefixes)) / len(retrieved_prefixes)
