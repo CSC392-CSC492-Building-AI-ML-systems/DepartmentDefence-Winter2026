@@ -25,6 +25,7 @@ chunk_vecs = None
 client = None
 chat_history = []
 TOP_CITATIONS = 3
+backup_weights: dict = {}         # conversation_id -> {turn_id: {chunk_id: weight}}
 latest_feedback: dict = {}        # conversation_id -> feedback record
 feedback_weights: dict = {}       # conversation_id -> {chunk_id: weight}
 
@@ -117,6 +118,7 @@ def chat():
                 citations.append({
                     'title': ch.get('source_title', ch.get('title', 'Unknown Title')),
                     'link': link,
+                    'chunk_id': ch.get('chunk_id')
                 })
                 unique_links.add(link)
             if len(unique_links) >= TOP_CITATIONS:
@@ -153,33 +155,53 @@ def _append_feedback(record: dict) -> None:
 @app.route('/api/feedback', methods=['POST'])
 def feedback():
     """Collect thumbs feedback for a conversation turn."""
-    global latest_feedback, feedback_weights
+    global latest_feedback, feedback_weights, backup_weights
     data = request.get_json(force=True, silent=True) or {}
     thumb = str(data.get("thumb", "")).strip().lower()
-    if thumb not in {"up", "side", "down"}:
-        return jsonify({"error": "thumb must be one of: up, side, down"}), 400
+
+    if thumb not in {"up", "side", "down", "none"}:
+        return jsonify({"error": "thumb must be one of: up, side, down, none"}), 400
 
     conversation_id = str(data.get("conversation_id", "default")).strip() or "default"
+    turn_id = str(data.get("turn_id", "")).strip()
+    cited_chunks = data.get("cited_chunk_ids", [])
 
     record = {
         "timestamp": int(time.time()),
         "conversation_id": conversation_id,
-        "turn_id": str(data.get("turn_id", "")).strip(),
+        "turn_id": turn_id,
         "thumb": thumb,
         "comment": str(data.get("comment", "")).strip(),
         "question": str(data.get("question", "")).strip(),
         "answer": str(data.get("answer", "")).strip(),
-        "cited_chunk_ids": data.get("cited_chunk_ids", []),
+        "cited_chunk_ids": cited_chunks,
     }
     _append_feedback(record)
-    latest_feedback[conversation_id] = record
 
-    # Update per-conversation weights for cited chunks.
-    if record["cited_chunk_ids"]:
-        weight_map = feedback_weights.setdefault(conversation_id, {})
+    # Access weight maps
+    weight_map = feedback_weights.setdefault(conversation_id, {})
+    turn_backups = backup_weights.setdefault(conversation_id, {}).setdefault(turn_id, {})
+
+    # Revert to the pre-turn snapshot first (if we have one)
+    # This wipes clean any previous clicks on this specific message.
+    for cid, old_val in turn_backups.items():
+        weight_map[cid] = old_val
+
+    # Handle 'none' (Unchecking)
+    if thumb == "none":
+        # We already reverted the weights, so just clear the prompt warning
+        latest_feedback.pop(conversation_id, None)
+    # Handle actual feedback
+    else:
+        latest_feedback[conversation_id] = record
         factor = 1.05 if thumb == "up" else 0.95 if thumb == "side" else 0.8
-        for cid in record["cited_chunk_ids"]:
+        
+        for cid in cited_chunks:
             current = weight_map.get(cid, 1.0)
+            # Take a snapshot if this is the first time voting on this turn
+            if cid not in turn_backups:
+                turn_backups[cid] = current
+            # Apply the math
             weight_map[cid] = max(0.2, min(2.0, current * factor))
 
     return jsonify({"status": "ok"})

@@ -171,16 +171,47 @@ const ChatInterface = ({ onLogout }) => {
   };
 
 
-  const handleThumbsUpDown = (messageId, citationIndex, isThumbsUp) => {
+  const handleThumbsUpDown = async (messageId, citationIndex, action) => {
+    // 1. Determine the new toggle state ('up', 'down', or 'none')
+    const currentAction = reviewPerCitation[messageId]?.[citationIndex];
+    const newAction = currentAction === action ? 'none' : action;
+
+    // 2. Update the UI instantly
     setReviewPerCitation((prev) => ({
       ...prev,
       [messageId]: {
         ...prev[messageId],
-        [citationIndex]: isThumbsUp,
+        [citationIndex]: newAction,
       },
     }));
-    console.log(`User ${isThumbsUp ? 'liked' : 'disliked'} citation ${citationIndex} for message ${messageId}`);
-    console.log("Current review state:", { reviewPerCitation });
+
+    // 3. Find the associated question, answer, and specifically the chunk ID they clicked
+    const botMsgIndex = messages.findIndex((m) => m.id === messageId);
+    const botMsg = messages[botMsgIndex];
+    const userMsg = botMsgIndex > 0 ? messages[botMsgIndex - 1] : { text: "" };
+    
+    // Grab the specific citation they voted on
+    const clickedCitation = botMsg.citations[citationIndex];
+    // Put it in an array because the backend expects a list of IDs
+    const chunkIdsToSend = clickedCitation.chunk_id ? [clickedCitation.chunk_id] : [];
+
+    // 4. Fire the API call with the chunk_id included
+    try {
+      await fetch("/api/feedback", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          thumb: newAction,
+          conversation_id: "default", 
+          turn_id: messageId.toString(),
+          question: userMsg.text,
+          answer: botMsg.text,
+          cited_chunk_ids: chunkIdsToSend, // <--- NOW INCLUDED HERE
+        }),
+      });
+    } catch (error) {
+      console.error("Error submitting feedback:", error);
+    }
   };
 
   return (
@@ -277,8 +308,8 @@ const ChatInterface = ({ onLogout }) => {
                     {msg.citations && msg.citations.length > 0 && (
                       <div className="mt-3 space-y-2">
                         {msg.citations.map((citation, index) => {
-                          const isUp = reviewPerCitation[msg.id]?.[index] === true;
-                          const isDown = reviewPerCitation[msg.id]?.[index] === false;
+                          const isUp = reviewPerCitation[msg.id]?.[index] === 'up';
+                          const isDown = reviewPerCitation[msg.id]?.[index] === 'down';
 
                           return (
                             <div
@@ -305,7 +336,7 @@ const ChatInterface = ({ onLogout }) => {
 
                               <div className="flex items-center gap-2">
                                 <button
-                                  onClick={() => handleThumbsUpDown(msg.id, index, true)}
+                                  onClick={() => handleThumbsUpDown(msg.id, index, 'up')}
                                   className={`p-1 rounded ${isUp ? 'text-gc-blue' : 'text-gray-400 hover:text-gc-blue'}`}
                                   aria-pressed={isUp}
                                 >
@@ -313,7 +344,7 @@ const ChatInterface = ({ onLogout }) => {
                                 </button>
 
                                 <button
-                                  onClick={() => handleThumbsUpDown(msg.id, index, false)}
+                                  onClick={() => handleThumbsUpDown(msg.id, index, 'down')}
                                   className={`p-1 rounded ${isDown ? 'text-gc-red' : 'text-gray-400 hover:text-gc-red'}`}
                                   aria-pressed={isDown}
                                 >
