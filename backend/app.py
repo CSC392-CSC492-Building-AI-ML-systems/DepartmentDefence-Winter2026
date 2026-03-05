@@ -14,10 +14,11 @@ from rag.pipeline import embed_chunks, load_chunks_from_docs
 from rag.prompting import pack_retrieved_documents
 from rag.query_rewrite import generate_query_expansions
 from rag.retrieval import retrieve
+from dashboard.eval_api import dashboard_bp
 
 app = Flask(__name__)
-CORS(app)  
-
+CORS(app)
+app.register_blueprint(dashboard_bp)
 
 docs = None
 chunks = None
@@ -39,8 +40,11 @@ def load_rag_pipeline():
     client = create_client()
     chunk_vecs = embed_chunks(client, chunks)
     print(f"Loaded {len(docs)} docs -> {len(chunks)} chunks")
-    
+
+
 load_rag_pipeline()  # Load everything at startup
+
+
 @app.route('/api/chat', methods=['POST'])
 def chat():
     global chat_history, latest_feedback, feedback_weights

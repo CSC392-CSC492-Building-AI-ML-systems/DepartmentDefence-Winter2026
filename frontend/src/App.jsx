@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect } from 'react';
+import ModDashboard from './dashboard/ModDashboard';
 import {
   Menu, User, Send, ThumbsUp, ThumbsDown,
   ExternalLink, Info, Plus, Settings, LogOut
@@ -400,6 +401,11 @@ const ChatInterface = ({ onLogout }) => {
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
+
+  // Hidden moderator dashboard, accessible only via direct URL.
+  if (window.location.pathname === '/mod-dashboard') {
+    return <ModDashboard />;
+  }
 
   return (
     <>
