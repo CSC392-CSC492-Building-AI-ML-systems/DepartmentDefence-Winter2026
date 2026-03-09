@@ -95,11 +95,20 @@ def parse_args() -> argparse.Namespace:
         action="store_true",
         help="Allow Cohere rerank inside retrieval.",
     )
-    parser.add_argument(
+    mmr_group = parser.add_mutually_exclusive_group()
+    mmr_group.add_argument(
         "--enable-mmr-diversity",
+        dest="enable_mmr_diversity",
         action="store_true",
-        help="Enable MMR diversity reordering on the retrieval candidate pool.",
+        help="Force-enable MMR diversity reordering for this run.",
     )
+    mmr_group.add_argument(
+        "--disable-mmr-diversity",
+        dest="enable_mmr_diversity",
+        action="store_false",
+        help="Force-disable MMR diversity reordering for this run.",
+    )
+    parser.set_defaults(enable_mmr_diversity=None)
     parser.add_argument(
         "--mmr-lambda",
         type=float,
@@ -399,7 +408,8 @@ def run() -> None:
     original_enable_mmr_diversity = retrieval.ENABLE_MMR_DIVERSITY
     original_mmr_lambda = retrieval.MMR_LAMBDA
     retrieval.ENABLE_RERANK = bool(args.enable_rerank)
-    retrieval.ENABLE_MMR_DIVERSITY = bool(args.enable_mmr_diversity)
+    if args.enable_mmr_diversity is not None:
+        retrieval.ENABLE_MMR_DIVERSITY = bool(args.enable_mmr_diversity)
     if args.retrieval_alpha is not None:
         retrieval.RETRIEVAL_ALPHA = min(max(float(args.retrieval_alpha), 0.0), 1.0)
     if args.mmr_lambda is not None:
@@ -672,7 +682,7 @@ def run() -> None:
             "retrieval_alpha_override": args.retrieval_alpha,
             "use_query_rewrite": bool(args.use_query_rewrite),
             "enable_rerank": bool(args.enable_rerank),
-            "enable_mmr_diversity": bool(args.enable_mmr_diversity),
+            "mmr_diversity_override": args.enable_mmr_diversity,
             "mmr_lambda_override": args.mmr_lambda,
             "embed_model": EMBED_MODEL,
             "cache_file": str(args.cache_file),

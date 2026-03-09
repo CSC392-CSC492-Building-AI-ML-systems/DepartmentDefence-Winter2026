@@ -53,9 +53,9 @@ RERANK_ALPHA = float(os.getenv("RERANK_ALPHA", "0.20"))
 # Set to 0 to rerank all considered candidates.
 RERANK_TOP_N = int(os.getenv("RERANK_TOP_N", "11"))
 # Optional MMR diversity pass over the ranked candidate pool.
-# Disabled by default so current behavior is unchanged unless explicitly enabled.
+# Enabled by default; set ENABLE_MMR_DIVERSITY=0 to disable.
 ENABLE_MMR_DIVERSITY = (
-    os.getenv("ENABLE_MMR_DIVERSITY", "false").strip().lower()
+    os.getenv("ENABLE_MMR_DIVERSITY", "true").strip().lower()
     in {"1", "true", "yes", "on"}
 )
 # MMR relevance/diversity trade-off:

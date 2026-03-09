@@ -51,7 +51,7 @@ python evaluation/retrieval_adversarial_runner.py `
   --output evaluation/runs/adversarial_packed_coverage_aware.json
 ```
 
-### 4) Packed eval with MMR diversity (opt-in experiment)
+### 4) Packed eval with explicit MMR lambda override (MMR is default-on)
 ```powershell
 $env:ENABLE_LLM_QUERY_REWRITE='1'
 $env:QUERY_REWRITE_MODEL='command-r-08-2024'
@@ -62,7 +62,6 @@ python evaluation/retrieval_adversarial_runner.py `
   --cases-file evaluation/cases/adversarial_retrieval_cases.json evaluation/cases/adversarial_chunk_stress_cases.json evaluation/cases/adversarial_retrieval_robustness.json `
   --top-k 100 `
   --enable-rerank `
-  --enable-mmr-diversity `
   --mmr-lambda 0.75 `
   --use-query-rewrite `
   --measure-packed-recall `
@@ -70,8 +69,8 @@ python evaluation/retrieval_adversarial_runner.py `
 ```
 
 Rollback / disable:
-- Remove `--enable-mmr-diversity` (and optional `--mmr-lambda`) from CLI runs.
-- Or set env defaults: `ENABLE_MMR_DIVERSITY=0` and `MMR_LAMBDA=0.75`.
+- Add `--disable-mmr-diversity` to CLI runs.
+- Or set env defaults: `ENABLE_MMR_DIVERSITY=0` (optional `MMR_LAMBDA=0.75`).
 
 ## Recorded Benchmarks
 
@@ -126,7 +125,9 @@ Interpretation:
 - `--enable-rerank`
   - Enable retrieval-side rerank blending.
 - `--enable-mmr-diversity`
-  - Enable MMR diversity reordering on the retrieval candidate pool.
+  - Force-enable MMR diversity for this run (usually unnecessary; default is enabled).
+- `--disable-mmr-diversity`
+  - Force-disable MMR diversity for this run.
 - `--mmr-lambda <float>`
   - Optional override for `MMR_LAMBDA` for this run (`0.0` to `1.0`).
 - `--split <name[,name...]>`
@@ -159,6 +160,6 @@ Interpretation:
 - `ENABLE_LLM_QUERY_REWRITE`
   - Enables rewrite generation/caching path.
 - `ENABLE_MMR_DIVERSITY`
-  - Enables MMR candidate diversification in retrieval (default off).
+  - Enables MMR candidate diversification in retrieval (default on).
 - `MMR_LAMBDA`
   - MMR relevance/diversity trade-off (`1.0` relevance only, `0.0` diversity only).
