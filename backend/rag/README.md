@@ -13,3 +13,8 @@ Core implementation package for the CLI RAG system.
 - `prompting.py`: grounded prompt assembly.
 
 Entry scripts (`main.py`, `evaluation/eval_stack_runner.py`, `collect_sources.py`) import from this package.
+
+## Embedding cache
+- Embedding reuse is enabled by default (`ENABLE_EMBEDDING_CACHE=true`).
+- Cache file path is configurable via `EMBEDDING_CACHE_PATH` (default: `data/cache/embedding_cache.npz`).
+- Cache keys include embed model + `chunk_id` + chunk text hash, so changed chunks are re-embedded automatically.
