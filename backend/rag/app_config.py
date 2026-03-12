@@ -63,6 +63,10 @@ COHERE_API_KEY = os.getenv("COHERE_API_KEY", "")
 CHAT_MODEL = os.getenv("COHERE_CHAT_MODEL", "command-r-plus-08-2024")
 EMBED_MODEL = os.getenv("COHERE_EMBED_MODEL", "embed-english-v3.0")
 EMBED_BATCH = int(os.getenv("EMBED_BATCH", "64"))
+ENABLE_EMBEDDING_CACHE = (
+    os.getenv("ENABLE_EMBEDDING_CACHE", "true").strip().lower() in {"1", "true", "yes", "on"}
+)
+EMBEDDING_CACHE_PATH = os.getenv("EMBEDDING_CACHE_PATH", "data/cache/embedding_cache.npz")
 
 # Rerank settings (Cohere hosted reranking).
 ENABLE_RERANK = (
