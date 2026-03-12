@@ -6,8 +6,9 @@ import time
 # Import your RAG functions directly:
 from rag.app_config import (
     CHAT_MAX_INPUT_TOKENS, CHAT_MAX_OUTPUT_TOKENS, CHAT_MODEL, CHAT_PREAMBLE,
-    MAX_HISTORY_TURNS, TOP_K
+    ENABLE_CONTRADICTION_ANALYSIS, MAX_HISTORY_TURNS, TOP_K
 )
+from rag.contradiction import analyze_conflicts, build_conflict_prompt_section
 from rag.corpus import list_docs
 from rag.embedding_client import create_client
 from rag.pipeline import embed_chunks, load_chunks_from_docs
@@ -65,20 +66,6 @@ def chat():
             client=client, query=q, chunks=chunks, chunk_vecs=chunk_vecs,
             k=TOP_K, query_expansions=query_expansions
         )
-        packed_docs, packing_stats = pack_retrieved_documents(
-            client=client, question=q, retrieved=retrieved, preamble=CHAT_PREAMBLE,
-            chat_history=chat_history, max_input_tokens=CHAT_MAX_INPUT_TOKENS
-        )
-        
-        if not packed_docs:
-            return jsonify({'reply': 'No context docs fit. Try a shorter question.'})
-        
-        chat_message = (
-            f"{q}\n\n"
-            "Instructions: Use only the provided documents. "
-            "Cite CHUNK_ID values in square brackets for every policy claim. "
-            "If evidence is missing, explicitly say so."
-        )
         # Apply feedback weights to retrieval scores (session-local).
         if conversation_id in feedback_weights:
             weight_map = feedback_weights[conversation_id]
@@ -87,6 +74,29 @@ def chat():
                 w = weight_map.get(chunk.chunk_id, 1.0)
                 reweighted.append((chunk, score * w))
             retrieved = sorted(reweighted, key=lambda x: x[1], reverse=True)
+
+        packed_docs, packing_stats = pack_retrieved_documents(
+            client=client, question=q, retrieved=retrieved, preamble=CHAT_PREAMBLE,
+            chat_history=chat_history, max_input_tokens=CHAT_MAX_INPUT_TOKENS
+        )
+
+        if not packed_docs:
+            return jsonify({'reply': 'No context docs fit. Try a shorter question.'})
+
+        conflicts = []
+        conflict_section = "Conflict detected:\n- not evaluated."
+        if ENABLE_CONTRADICTION_ANALYSIS:
+            conflicts = analyze_conflicts(client=client, retrieved=retrieved)
+            conflict_section = build_conflict_prompt_section(conflicts)
+
+        chat_message = (
+            f"{q}\n\n"
+            "Instructions: Use only the provided documents. "
+            "Cite CHUNK_ID values in square brackets for every policy claim. "
+            "If evidence is missing, explicitly say so. "
+            "Always include a short 'Conflict detected' section in your response.\n\n"
+            f"{conflict_section}"
+        )
 
         feedback_note = ""
         fb = latest_feedback.get(conversation_id)
@@ -134,7 +144,8 @@ def chat():
             'citations': citations,
             'stats': {
                 'retrieved': len(retrieved),
-                'packed_docs': packing_stats['packed_docs']
+                'packed_docs': packing_stats['packed_docs'],
+                'conflict_pairs_analyzed': len(conflicts),
             }
         })
     

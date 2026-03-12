@@ -3,9 +3,11 @@ from rag.app_config import (
     CHAT_MAX_OUTPUT_TOKENS,
     CHAT_MODEL,
     CHAT_PREAMBLE,
+    ENABLE_CONTRADICTION_ANALYSIS,
     MAX_HISTORY_TURNS,
     TOP_K,
 )
+from rag.contradiction import analyze_conflicts, build_conflict_prompt_section
 from rag.corpus import list_docs
 from rag.embedding_client import create_client
 from rag.pipeline import embed_chunks, load_chunks_from_docs
@@ -74,11 +76,19 @@ def main() -> None:
                 print("\nNo context docs fit in the token budget. Try a shorter question.")
                 continue
 
+            conflicts = []
+            conflict_section = "Conflict detected:\n- not evaluated."
+            if ENABLE_CONTRADICTION_ANALYSIS:
+                conflicts = analyze_conflicts(client=client, retrieved=retrieved)
+                conflict_section = build_conflict_prompt_section(conflicts)
+
             chat_message = (
                 f"{q}\n\n"
                 "Instructions: Use only the provided documents. "
                 "Cite CHUNK_ID values in square brackets for every policy claim. "
-                "If evidence is missing, explicitly say so."
+                "If evidence is missing, explicitly say so. "
+                "Always include a short 'Conflict detected' section in your response.\n\n"
+                f"{conflict_section}"
             )
             resp = client.chat(
                 model=CHAT_MODEL,
@@ -113,6 +123,7 @@ def main() -> None:
             "\nCONTEXT STATS:\n"
             f"- query expansions: {len(query_expansions)}\n"
             f"- retrieved chunks: {len(retrieved)}\n"
+            f"- conflict pairs analyzed: {len(conflicts)}\n"
             f"- packed docs: {packing_stats['packed_docs']} / {packing_stats['retrieved_docs']}\n"
             f"- packed tokens: {packing_stats['used_doc_tokens']} / {packing_stats['budget_for_docs_tokens']}"
         )
