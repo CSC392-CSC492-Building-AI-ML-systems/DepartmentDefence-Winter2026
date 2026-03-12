@@ -10,6 +10,7 @@ Core implementation package for the CLI RAG system.
 - `pipeline.py`: load documents + build embedding matrix.
 - `retrieval.py`: hybrid retrieval, routing, and coverage logic.
 - `contradiction.py`: retrieved-chunk relationship classification for conflict labeling.
+- `self_rag.py`: draft -> verifier -> revision loop for groundedness and citation quality.
 - `prompting.py`: grounded prompt assembly.
 
 Entry scripts (`main.py`, `evaluation/eval_stack_runner.py`, `collect_sources.py`) import from this package.

@@ -15,6 +15,7 @@ from rag.pipeline import embed_chunks, load_chunks_from_docs
 from rag.prompting import pack_retrieved_documents
 from rag.query_rewrite import generate_query_expansions
 from rag.retrieval import retrieve
+from rag.self_rag import generate_answer_with_critique_loop
 from dashboard.eval_api import dashboard_bp
 
 app = Flask(__name__)
@@ -107,13 +108,17 @@ def chat():
             feedback_note = f"\n\nFEEDBACK:\nPrevious answer was rated {thumb_text}.{detail}\nEmphasize accuracy and cite explicit values/clauses."
             chat_message = chat_message + feedback_note
 
-        resp = client.chat(
-            model=CHAT_MODEL, preamble=CHAT_PREAMBLE, message=chat_message,
-            documents=packed_docs, chat_history=chat_history, temperature=0.2,
-            max_tokens=CHAT_MAX_OUTPUT_TOKENS, max_input_tokens=CHAT_MAX_INPUT_TOKENS,
-            citation_quality="off", prompt_truncation="AUTO_PRESERVE_ORDER"
+        answer, self_rag_meta = generate_answer_with_critique_loop(
+            client=client,
+            chat_model=CHAT_MODEL,
+            preamble=CHAT_PREAMBLE,
+            question=q,
+            chat_message=chat_message,
+            documents=packed_docs,
+            chat_history=chat_history,
+            max_tokens=CHAT_MAX_OUTPUT_TOKENS,
+            max_input_tokens=CHAT_MAX_INPUT_TOKENS,
         )
-        answer = (resp.text or "").strip()
         
         # Update history (same as main())
         chat_history.extend([{"role": "USER", "message": q}, {"role": "CHATBOT", "message": answer}])
@@ -146,6 +151,9 @@ def chat():
                 'retrieved': len(retrieved),
                 'packed_docs': packing_stats['packed_docs'],
                 'conflict_pairs_analyzed': len(conflicts),
+                'self_rag_revision_applied': bool(self_rag_meta.get('revision_applied')),
+                'self_rag_unsupported_claims': int(self_rag_meta.get('unsupported_claim_count', 0)),
+                'self_rag_missing_citations': int(self_rag_meta.get('missing_citation_count', 0)),
             }
         })
     

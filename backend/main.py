@@ -14,6 +14,7 @@ from rag.pipeline import embed_chunks, load_chunks_from_docs
 from rag.prompting import pack_retrieved_documents
 from rag.query_rewrite import generate_query_expansions
 from rag.retrieval import retrieve
+from rag.self_rag import generate_answer_with_critique_loop
 
 
 def main() -> None:
@@ -90,19 +91,17 @@ def main() -> None:
                 "Always include a short 'Conflict detected' section in your response.\n\n"
                 f"{conflict_section}"
             )
-            resp = client.chat(
-                model=CHAT_MODEL,
+            answer, self_rag_meta = generate_answer_with_critique_loop(
+                client=client,
+                chat_model=CHAT_MODEL,
                 preamble=CHAT_PREAMBLE,
-                message=chat_message,
+                question=q,
+                chat_message=chat_message,
                 documents=packed_docs,
                 chat_history=chat_history,
-                temperature=0.2,
                 max_tokens=CHAT_MAX_OUTPUT_TOKENS,
                 max_input_tokens=CHAT_MAX_INPUT_TOKENS,
-                citation_quality="off",
-                prompt_truncation="AUTO_PRESERVE_ORDER",
             )
-            answer = (resp.text or "").strip()
         except Exception as exc:  # noqa: BLE001
             print(f"\nRequest failed: {exc}")
             print("Retry in a few seconds or simplify the question.")
@@ -124,6 +123,7 @@ def main() -> None:
             f"- query expansions: {len(query_expansions)}\n"
             f"- retrieved chunks: {len(retrieved)}\n"
             f"- conflict pairs analyzed: {len(conflicts)}\n"
+            f"- self-rag revision applied: {self_rag_meta['revision_applied']}\n"
             f"- packed docs: {packing_stats['packed_docs']} / {packing_stats['retrieved_docs']}\n"
             f"- packed tokens: {packing_stats['used_doc_tokens']} / {packing_stats['budget_for_docs_tokens']}"
         )
