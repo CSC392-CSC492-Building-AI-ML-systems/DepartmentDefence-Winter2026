@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Eval Run Comparison</title>
+  <style>
+    :root {
+      --bg: #f4f7fb;
+      --surface: #ffffff;
+      --text: #101827;
+      --muted: #5b6472;
+      --line: #d7dde8;
+      --good: #1f9d55;
+      --bad: #d64545;
+      --neutral: #5b6472;
+      --bar: #2f66d0;
+      --bar-bg: #e7eefc;
+    }
+    body {
+      margin: 0;
+      background: radial-gradient(circle at 10% 10%, #e9efff, transparent 45%), var(--bg);
+      color: var(--text);
+      font-family: "SF Pro Text", "Segoe UI", -apple-system, sans-serif;
+    }
+    .container { max-width: 1200px; margin: 28px auto; padding: 0 20px; }
+    .header {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 18px 20px;
+      box-shadow: 0 10px 24px rgba(16, 24, 39, 0.05);
+    }
+    h1, h2 { margin: 0 0 12px; }
+    p { margin: 6px 0 0; color: var(--muted); }
+    .legend { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 10px; }
+    .legend-item { background: #f6f9ff; border: 1px solid #dce6ff; border-radius: 999px; padding: 6px 12px; font-size: 13px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; margin: 16px 0 20px; }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 12px;
+      box-shadow: 0 6px 16px rgba(16, 24, 39, 0.05);
+    }
+    .card-title { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
+    .card-values { margin-top: 8px; font-size: 13px; color: var(--text); }
+    .card-delta { margin-top: 6px; font-weight: 600; font-size: 13px; }
+    table {
+      border-collapse: separate;
+      border-spacing: 0;
+      width: 100%;
+      margin: 10px 0 24px;
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 10px 24px rgba(16, 24, 39, 0.05);
+    }
+    th, td { border-bottom: 1px solid var(--line); padding: 10px 10px; font-size: 13px; vertical-align: middle; }
+    tr:last-child td { border-bottom: none; }
+    th { background: #f8fbff; text-align: left; }
+    code { background: #f0f4fb; padding: 2px 6px; border-radius: 6px; }
+    .bar-wrap { background: var(--bar-bg); width: 100%; height: 11px; border-radius: 999px; overflow: hidden; }
+    .bar { height: 100%; background: linear-gradient(90deg, #76a0ff, var(--bar)); }
+    .bar.na { background: #d0d4da; width: 100%; opacity: .4; }
+    .delta { font-weight: 600; }
+    .good { color: var(--good); }
+    .bad { color: var(--bad); }
+    .neutral { color: var(--neutral); }
+  </style>
+</head>
+<body>
+  <div class="container">
+  <div class="header">
+  <h1>Eval Run Comparison</h1>
+  <div class="legend">
+    <div class="legend-item"><b>Run A:</b> ab_baseline_no_selfrag</div>
+    <div class="legend-item"><b>Run B:</b> ab_treatment_selfrag</div>
+  </div>
+  <p>Bars are scaled within each section (metrics vs latency). N/A means metric was not computed in that run.</p>
+  </div>
+
+  <div class="grid">
+    <div class='card'><div class='card-title'>Req Claim Recall</div><div class='card-values'>ab_baseline_no_selfrag: 0.250000 | ab_treatment_selfrag: 0.177778</div><div class='card-delta bad'>Δ -0.072222</div></div><div class='card'><div class='card-title'>Citation Support</div><div class='card-values'>ab_baseline_no_selfrag: 0.516667 | ab_treatment_selfrag: 0.537179</div><div class='card-delta good'>Δ +0.020512</div></div><div class='card'><div class='card-title'>Forbidden Rate</div><div class='card-values'>ab_baseline_no_selfrag: 0.000000 | ab_treatment_selfrag: 0.000000</div><div class='card-delta neutral'>Δ +0.000000</div></div><div class='card'><div class='card-title'>Total p50 (ms)</div><div class='card-values'>ab_baseline_no_selfrag: 25728.946 | ab_treatment_selfrag: 21908.455</div><div class='card-delta good'>Δ -3820.491000</div></div>
+  </div>
+
+  <h2>Overall Metrics</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Metric</th>
+        <th>ab_baseline_no_selfrag value</th>
+        <th>ab_baseline_no_selfrag bar</th>
+        <th>ab_treatment_selfrag value</th>
+        <th>ab_treatment_selfrag bar</th>
+        <th>Δ (Run B - Run A)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class='metric-row'><td><code>retrieval_gold_doc_recall_at_k_mean</code></td><td>0.866667</td><td><div class="bar-wrap"><div class="bar" style="width:63.42%"></div></div></td><td>0.900000</td><td><div class="bar-wrap"><div class="bar" style="width:65.86%"></div></div></td><td class='delta good'>+0.033333</td></tr><tr class='metric-row'><td><code>retrieval_gold_doc_precision_at_k_mean</code></td><td>0.377778</td><td><div class="bar-wrap"><div class="bar" style="width:27.65%"></div></div></td><td>0.388889</td><td><div class="bar-wrap"><div class="bar" style="width:28.46%"></div></div></td><td class='delta good'>+0.011111</td></tr><tr class='metric-row'><td><code>retrieval_gold_doc_mrr_mean</code></td><td>0.844444</td><td><div class="bar-wrap"><div class="bar" style="width:61.79%"></div></div></td><td>0.857778</td><td><div class="bar-wrap"><div class="bar" style="width:62.77%"></div></div></td><td class='delta good'>+0.013334</td></tr><tr class='metric-row'><td><code>retrieval_gold_doc_ndcg_mean</code></td><td>1.350712</td><td><div class="bar-wrap"><div class="bar" style="width:98.84%"></div></div></td><td>1.366526</td><td><div class="bar-wrap"><div class="bar" style="width:100.00%"></div></div></td><td class='delta good'>+0.015814</td></tr><tr class='metric-row'><td><code>retrieval_claim_evidence_coverage_mean</code></td><td>0.933333</td><td><div class="bar-wrap"><div class="bar" style="width:68.30%"></div></div></td><td>1.000000</td><td><div class="bar-wrap"><div class="bar" style="width:73.18%"></div></div></td><td class='delta good'>+0.066667</td></tr><tr class='metric-row'><td><code>retrieval_noise_rate_mean</code></td><td>0.022222</td><td><div class="bar-wrap"><div class="bar" style="width:1.63%"></div></div></td><td>0.022222</td><td><div class="bar-wrap"><div class="bar" style="width:1.63%"></div></div></td><td class='delta neutral'>+0.000000</td></tr><tr class='metric-row'><td><code>answer_required_claim_recall_mean</code></td><td>0.250000</td><td><div class="bar-wrap"><div class="bar" style="width:18.29%"></div></div></td><td>0.177778</td><td><div class="bar-wrap"><div class="bar" style="width:13.01%"></div></div></td><td class='delta bad'>-0.072222</td></tr><tr class='metric-row'><td><code>answer_citation_support_rate_mean</code></td><td>0.516667</td><td><div class="bar-wrap"><div class="bar" style="width:37.81%"></div></div></td><td>0.537179</td><td><div class="bar-wrap"><div class="bar" style="width:39.31%"></div></div></td><td class='delta good'>+0.020512</td></tr><tr class='metric-row'><td><code>answer_forbidden_violation_rate</code></td><td>0.000000</td><td><div class="bar-wrap"><div class="bar" style="width:0.00%"></div></div></td><td>0.000000</td><td><div class="bar-wrap"><div class="bar" style="width:0.00%"></div></div></td><td class='delta neutral'>+0.000000</td></tr><tr class='metric-row'><td><code>answer_abstention_accuracy</code></td><td>0.928571</td><td><div class="bar-wrap"><div class="bar" style="width:67.95%"></div></div></td><td>0.933333</td><td><div class="bar-wrap"><div class="bar" style="width:68.30%"></div></div></td><td class='delta good'>+0.004762</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Total Latency</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Metric</th>
+        <th>ab_baseline_no_selfrag value</th>
+        <th>ab_baseline_no_selfrag bar</th>
+        <th>ab_treatment_selfrag value</th>
+        <th>ab_treatment_selfrag bar</th>
+        <th>Δ (Run B - Run A)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td><code>total_p50_ms</code></td><td>25728.946</td><td><div class="bar-wrap"><div class="bar" style="width:28.04%"></div></div></td><td>21908.455</td><td><div class="bar-wrap"><div class="bar" style="width:23.88%"></div></div></td><td class='delta good'>-3820.491000</td></tr><tr><td><code>total_p95_ms</code></td><td>91746.661</td><td><div class="bar-wrap"><div class="bar" style="width:100.00%"></div></div></td><td>63039.328</td><td><div class="bar-wrap"><div class="bar" style="width:68.71%"></div></div></td><td class='delta good'>-28707.333000</td></tr><tr><td><code>total_mean_ms</code></td><td>42982.671</td><td><div class="bar-wrap"><div class="bar" style="width:46.85%"></div></div></td><td>31578.771</td><td><div class="bar-wrap"><div class="bar" style="width:34.42%"></div></div></td><td class='delta good'>-11403.900000</td></tr>
+    </tbody>
+  </table>
+  </div>
+</body>
+</html>
