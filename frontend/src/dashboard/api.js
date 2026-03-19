@@ -9,7 +9,9 @@ async function handleResponse(res, defaultMessage) {
     let data = {};
     try {
       data = await res.json();
-    } catch {}
+    } catch {
+      data = {};
+    }
     throw new Error(data.error || defaultMessage);
   }
 

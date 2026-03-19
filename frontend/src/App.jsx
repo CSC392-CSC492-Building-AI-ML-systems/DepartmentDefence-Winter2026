@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from 'react';
 import ModDashboard from './dashboard/ModDashboard';
 import {
   Menu, User, Send, ThumbsUp, ThumbsDown,
-  ExternalLink, Info, Plus, Settings, LogOut
+  ExternalLink, Info, Plus, Settings
 } from 'lucide-react';
 import gcLogo from './images/logo.png';
 
@@ -125,6 +125,35 @@ const GCLogin = ({ onLogin }) => {
   );
 };
 
+function getMessageContext(messages, messageId) {
+  const botMsgIndex = messages.findIndex((m) => m.id === messageId);
+  const botMsg = botMsgIndex >= 0 ? messages[botMsgIndex] : null;
+  const userMsg = botMsgIndex > 0 ? messages[botMsgIndex - 1] : { text: "" };
+  return { botMsgIndex, botMsg, userMsg };
+}
+
+function uniqueChunkIds(citations) {
+  if (!Array.isArray(citations)) return [];
+  const seen = new Set();
+  const ids = [];
+  for (const citation of citations) {
+    const chunkId = citation?.chunk_id;
+    if (!chunkId || seen.has(chunkId)) continue;
+    seen.add(chunkId);
+    ids.push(chunkId);
+  }
+  return ids;
+}
+
+function defaultAnswerFeedbackState() {
+  return {
+    thumb: "none",
+    persistedThumb: "none",
+    comment: "",
+    showComposer: false,
+  };
+}
+
 const ChatInterface = ({ onLogout }) => {
   const [messages, setMessages] = useState([
     {
@@ -138,6 +167,7 @@ const ChatInterface = ({ onLogout }) => {
   const [isSidebarOpen, setSidebarOpen] = useState(true);
   const scrollRef = useRef(null);
   const [reviewPerCitation, setReviewPerCitation] = useState({});
+  const [answerFeedback, setAnswerFeedback] = useState({});
   const [language, setLanguage] = useState("en");
 
   useEffect(() => {
@@ -156,7 +186,7 @@ const ChatInterface = ({ onLogout }) => {
       const response = await fetch("/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ message: input, language: language }),
+        body: JSON.stringify({ message: input, language: language, conversation_id: "default" }),
       });
       const data = await response.json();
 
@@ -172,13 +202,35 @@ const ChatInterface = ({ onLogout }) => {
     }
   };
 
+  const submitFeedback = async ({
+    thumb,
+    turnId,
+    question,
+    answer,
+    comment = "",
+    citedChunkIds = [],
+    feedbackType,
+  }) => {
+    await fetch("/api/feedback", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        thumb,
+        conversation_id: "default",
+        turn_id: turnId,
+        question,
+        answer,
+        comment,
+        cited_chunk_ids: citedChunkIds,
+        feedback_type: feedbackType,
+      }),
+    });
+  };
 
-  const handleThumbsUpDown = async (messageId, citationIndex, action) => {
-    // 1. Determine the new toggle state ('up', 'down', or 'none')
+  const handleCitationFeedback = async (messageId, citationIndex, action) => {
     const currentAction = reviewPerCitation[messageId]?.[citationIndex];
     const newAction = currentAction === action ? 'none' : action;
 
-    // 2. Update the UI instantly
     setReviewPerCitation((prev) => ({
       ...prev,
       [messageId]: {
@@ -187,32 +239,155 @@ const ChatInterface = ({ onLogout }) => {
       },
     }));
 
-    // 3. Find the associated question, answer, and specifically the chunk ID they clicked
-    const botMsgIndex = messages.findIndex((m) => m.id === messageId);
-    const botMsg = messages[botMsgIndex];
-    const userMsg = botMsgIndex > 0 ? messages[botMsgIndex - 1] : { text: "" };
-    
-    // Grab the specific citation they voted on
-    const clickedCitation = botMsg.citations[citationIndex];
-    // Put it in an array because the backend expects a list of IDs
-    const chunkIdsToSend = clickedCitation.chunk_id ? [clickedCitation.chunk_id] : [];
+    const { botMsg, userMsg } = getMessageContext(messages, messageId);
+    const clickedCitation = botMsg?.citations?.[citationIndex];
+    const chunkIdsToSend = clickedCitation?.chunk_id ? [clickedCitation.chunk_id] : [];
 
-    // 4. Fire the API call with the chunk_id included
     try {
-      await fetch("/api/feedback", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          thumb: newAction,
-          conversation_id: "default", 
-          turn_id: messageId.toString(),
-          question: userMsg.text,
-          answer: botMsg.text,
-          cited_chunk_ids: chunkIdsToSend, // <--- NOW INCLUDED HERE
-        }),
+      await submitFeedback({
+        thumb: newAction,
+        turnId: messageId.toString(),
+        question: userMsg.text,
+        answer: botMsg?.text || "",
+        citedChunkIds: chunkIdsToSend,
+        feedbackType: "citation",
       });
     } catch (error) {
       console.error("Error submitting feedback:", error);
+    }
+  };
+
+  const handleAnswerThumb = async (messageId, action) => {
+    const current = answerFeedback[messageId] || defaultAnswerFeedbackState();
+    const { botMsg, userMsg } = getMessageContext(messages, messageId);
+    const allChunkIds = uniqueChunkIds(botMsg?.citations);
+
+    if (action === "up") {
+      if (current.showComposer && current.persistedThumb === "up") {
+        setAnswerFeedback((prev) => ({
+          ...prev,
+          [messageId]: {
+            ...current,
+            thumb: "up",
+            showComposer: false,
+            comment: "",
+          },
+        }));
+        return;
+      }
+
+      const nextThumb = current.persistedThumb === "up" ? "none" : "up";
+      setAnswerFeedback((prev) => ({
+        ...prev,
+        [messageId]: {
+          ...current,
+          thumb: nextThumb,
+          persistedThumb: nextThumb,
+          showComposer: false,
+          comment: "",
+        },
+      }));
+
+      try {
+        await submitFeedback({
+          thumb: nextThumb,
+          turnId: messageId.toString(),
+          question: userMsg.text,
+          answer: botMsg?.text || "",
+          citedChunkIds: allChunkIds,
+          feedbackType: "answer",
+        });
+      } catch (error) {
+        console.error("Error submitting answer feedback:", error);
+      }
+      return;
+    }
+
+    if (current.showComposer) {
+      setAnswerFeedback((prev) => ({
+        ...prev,
+        [messageId]: {
+          ...current,
+          thumb: current.persistedThumb,
+          showComposer: false,
+          comment: "",
+        },
+      }));
+      return;
+    }
+
+    if (current.persistedThumb === "down") {
+      setAnswerFeedback((prev) => ({
+        ...prev,
+        [messageId]: defaultAnswerFeedbackState(),
+      }));
+
+      try {
+        await submitFeedback({
+          thumb: "none",
+          turnId: messageId.toString(),
+          question: userMsg.text,
+          answer: botMsg?.text || "",
+          citedChunkIds: allChunkIds,
+          feedbackType: "answer",
+        });
+      } catch (error) {
+        console.error("Error clearing answer feedback:", error);
+      }
+      return;
+    }
+
+    setAnswerFeedback((prev) => ({
+      ...prev,
+      [messageId]: {
+        ...current,
+        thumb: "down",
+        showComposer: true,
+      },
+    }));
+  };
+
+  const handleAnswerCommentChange = (messageId, value) => {
+    const current = answerFeedback[messageId] || defaultAnswerFeedbackState();
+    setAnswerFeedback((prev) => ({
+      ...prev,
+      [messageId]: {
+        ...current,
+        thumb: "down",
+        showComposer: true,
+        comment: value,
+      },
+    }));
+  };
+
+  const finalizeAnswerDownvote = async (messageId, comment = "") => {
+    const current = answerFeedback[messageId] || defaultAnswerFeedbackState();
+    const { botMsg, userMsg } = getMessageContext(messages, messageId);
+    const allChunkIds = uniqueChunkIds(botMsg?.citations);
+
+    setAnswerFeedback((prev) => ({
+      ...prev,
+      [messageId]: {
+        ...current,
+        thumb: "down",
+        persistedThumb: "down",
+        showComposer: false,
+        comment,
+      },
+    }));
+
+    try {
+      await submitFeedback({
+        thumb: "down",
+        turnId: messageId.toString(),
+        question: userMsg.text,
+        answer: botMsg?.text || "",
+        comment,
+        citedChunkIds: allChunkIds,
+        feedbackType: "answer",
+      });
+    } catch (error) {
+      console.error("Error submitting answer feedback:", error);
     }
   };
 
@@ -303,6 +478,14 @@ const ChatInterface = ({ onLogout }) => {
                   </>
                 ) : (
                   <div className="max-w-3xl">
+                    {(() => {
+                      const answerState = answerFeedback[msg.id] || defaultAnswerFeedbackState();
+                      const isAnswerUp = answerState.thumb === "up";
+                      const isAnswerDown = answerState.thumb === "down";
+                      const showAnswerFeedback = messages.findIndex((item) => item.id === msg.id) > 0;
+
+                      return (
+                        <>
                     <div className="flex items-center gap-2 mb-2">
                       {/* Red Bot Icon */}
                       <div className="w-5 h-5 rounded-full bg-gc-red flex items-center justify-center text-white">
@@ -316,6 +499,64 @@ const ChatInterface = ({ onLogout }) => {
                     <div className="bg-white border border-gray-200 p-6 rounded-lg text-sm leading-relaxed text-gray-800 shadow-sm">
                       <p className="whitespace-pre-wrap">{msg.text}</p>
                     </div>
+
+                    {showAnswerFeedback && (
+                      <div className="mt-3 border border-gray-200 rounded p-3 bg-gray-50 space-y-3">
+                        <div className="flex items-center justify-between gap-3 flex-wrap">
+                          <div>
+                            <p className="text-[10px] font-bold text-gray-500 uppercase">Answer Feedback</p>
+                            <p className="text-xs text-gray-600">Rate the overall answer quality.</p>
+                          </div>
+                          <div className="flex items-center gap-2">
+                            <button
+                              onClick={() => handleAnswerThumb(msg.id, "up")}
+                              className={`p-1 rounded ${isAnswerUp ? "text-gc-blue" : "text-gray-400 hover:text-gc-blue"}`}
+                              aria-pressed={isAnswerUp}
+                            >
+                              <ThumbsUp size={16} />
+                            </button>
+                            <button
+                              onClick={() => handleAnswerThumb(msg.id, "down")}
+                              className={`p-1 rounded ${isAnswerDown ? "text-gc-red" : "text-gray-400 hover:text-gc-red"}`}
+                              aria-pressed={isAnswerDown}
+                            >
+                              <ThumbsDown size={16} />
+                            </button>
+                          </div>
+                        </div>
+
+                        {answerState.showComposer && (
+                          <div className="space-y-2">
+                            <label className="block text-xs font-medium text-gray-700">
+                              What was wrong with this answer?
+                            </label>
+                            <textarea
+                              value={answerState.comment}
+                              onChange={(e) => handleAnswerCommentChange(msg.id, e.target.value)}
+                              rows={3}
+                              className="w-full border border-gray-300 rounded px-3 py-2 text-sm text-gray-800 focus:ring-2 focus:ring-gc-blue focus:border-gc-blue outline-none"
+                              placeholder="Optional comment"
+                            />
+                            <div className="flex items-center gap-2">
+                              <button
+                                type="button"
+                                className="px-3 py-1.5 rounded bg-gc-blue text-white text-sm hover:bg-[#1b2a3a]"
+                                onClick={() => finalizeAnswerDownvote(msg.id, answerState.comment.trim())}
+                              >
+                                Submit
+                              </button>
+                              <button
+                                type="button"
+                                className="px-3 py-1.5 rounded border border-gray-300 text-sm text-gray-700 hover:bg-gray-100"
+                                onClick={() => finalizeAnswerDownvote(msg.id, "")}
+                              >
+                                Skip
+                              </button>
+                            </div>
+                          </div>
+                        )}
+                      </div>
+                    )}
 
                     {/* Citation Block matching image_5f35b3 */}
                     {msg.citations && msg.citations.length > 0 && (
@@ -352,7 +593,7 @@ const ChatInterface = ({ onLogout }) => {
                               <div className="flex items-center gap-2">
                                 <button
                                   onClick={() =>
-                                    handleThumbsUpDown(msg.id, index, "up")
+                                    handleCitationFeedback(msg.id, index, "up")
                                   }
                                   className={`p-1 rounded ${isUp ? "text-gc-blue" : "text-gray-400 hover:text-gc-blue"}`}
                                   aria-pressed={isUp}
@@ -362,7 +603,7 @@ const ChatInterface = ({ onLogout }) => {
 
                                 <button
                                   onClick={() =>
-                                    handleThumbsUpDown(msg.id, index, "down")
+                                    handleCitationFeedback(msg.id, index, "down")
                                   }
                                   className={`p-1 rounded ${isDown ? "text-gc-red" : "text-gray-400 hover:text-gc-red"}`}
                                   aria-pressed={isDown}
@@ -375,6 +616,9 @@ const ChatInterface = ({ onLogout }) => {
                         })}
                       </div>
                     )}
+                        </>
+                      );
+                    })()}
                   </div>
                 )}
               </div>

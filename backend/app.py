@@ -22,14 +22,17 @@ app = Flask(__name__)
 CORS(app)
 app.register_blueprint(dashboard_bp)
 
+BACKEND_DIR = Path(__file__).resolve().parent
+FEEDBACK_DIR = BACKEND_DIR / "data" / "feedback"
+
 docs = None
 chunks = None
 chunk_vecs = None
 client = None
 chat_history = []
 TOP_CITATIONS = 3
-backup_weights: dict = {}         # conversation_id -> {turn_id: {chunk_id: weight}}
-latest_feedback: dict = {}        # conversation_id -> feedback record
+backup_weights: dict = {}         # conversation_id -> {feedback_target: {chunk_id: weight}}
+latest_feedback: dict = {}        # conversation_id -> latest answer-level negative/side record
 feedback_weights: dict = {}       # conversation_id -> {chunk_id: weight}
 
 def load_rag_pipeline():
@@ -45,6 +48,15 @@ def load_rag_pipeline():
 
 
 load_rag_pipeline()  # Load everything at startup
+
+
+# Build a stable key for the current feedback target so citation votes and
+# answer-level votes can be reverted independently.
+def _feedback_target_key(feedback_type: str, turn_id: str, cited_chunk_ids: list[str]) -> str:
+    if feedback_type == "citation":
+        chunk_id = cited_chunk_ids[0] if cited_chunk_ids else ""
+        return f"citation::{turn_id}::{chunk_id}"
+    return f"answer::{turn_id}"
 
 
 @app.route('/api/chat', methods=['POST'])
@@ -135,8 +147,6 @@ def chat():
         citations = []
         unique_links = set()
 
-        packed_ids = {doc["chunk_id"] for doc in packed_docs}
-
         for ch in packed_docs:
             link = ch.get('source_url', 'Unknown URL')
             if link not in unique_links and link not in ('Unknown URL', ''):
@@ -160,6 +170,7 @@ def chat():
                 'self_rag_revision_applied': bool(self_rag_meta.get('revision_applied')),
                 'self_rag_unsupported_claims': int(self_rag_meta.get('unsupported_claim_count', 0)),
                 'self_rag_missing_citations': int(self_rag_meta.get('missing_citation_count', 0)),
+                'intent_route': 'policy_question',
             }
         })
     
@@ -173,9 +184,8 @@ def health():
 
 def _append_feedback(record: dict) -> None:
     """Persist feedback as JSONL under backend/data/feedback/feedback.jsonl."""
-    feedback_dir = Path("data/feedback")
-    feedback_dir.mkdir(parents=True, exist_ok=True)
-    out_path = feedback_dir / "feedback.jsonl"
+    FEEDBACK_DIR.mkdir(parents=True, exist_ok=True)
+    out_path = FEEDBACK_DIR / "feedback.jsonl"
     line = json.dumps(record, ensure_ascii=False)
     with out_path.open("a", encoding="utf-8") as f:
         f.write(line + "\n")
@@ -193,45 +203,58 @@ def feedback():
 
     conversation_id = str(data.get("conversation_id", "default")).strip() or "default"
     turn_id = str(data.get("turn_id", "")).strip()
-    cited_chunks = data.get("cited_chunk_ids", [])
+    feedback_type = str(data.get("feedback_type", "citation")).strip().lower() or "citation"
+    if feedback_type not in {"citation", "answer"}:
+        return jsonify({"error": "feedback_type must be one of: citation, answer"}), 400
+
+    cited_chunks = [
+        str(chunk_id).strip()
+        for chunk_id in data.get("cited_chunk_ids", [])
+        if str(chunk_id).strip()
+    ]
+    target_chunk_id = cited_chunks[0] if cited_chunks else ""
 
     record = {
         "timestamp": int(time.time()),
         "conversation_id": conversation_id,
         "turn_id": turn_id,
+        "feedback_type": feedback_type,
         "thumb": thumb,
         "comment": str(data.get("comment", "")).strip(),
         "question": str(data.get("question", "")).strip(),
         "answer": str(data.get("answer", "")).strip(),
         "cited_chunk_ids": cited_chunks,
+        "target_chunk_id": target_chunk_id,
     }
     _append_feedback(record)
 
-    # Access weight maps
-    weight_map = feedback_weights.setdefault(conversation_id, {})
-    turn_backups = backup_weights.setdefault(conversation_id, {}).setdefault(turn_id, {})
+    if feedback_type == "citation":
+        # Access weight maps for this conversation and restore the pre-vote
+        # snapshot for this citation target before applying a new vote.
+        weight_map = feedback_weights.setdefault(conversation_id, {})
+        target_key = _feedback_target_key(feedback_type, turn_id, cited_chunks)
+        target_backups = backup_weights.setdefault(conversation_id, {}).setdefault(target_key, {})
 
-    # Revert to the pre-turn snapshot first (if we have one)
-    # This wipes clean any previous clicks on this specific message.
-    for cid, old_val in turn_backups.items():
-        weight_map[cid] = old_val
+        for cid, old_val in target_backups.items():
+            weight_map[cid] = old_val
 
-    # Handle 'none' (Unchecking)
-    if thumb == "none":
-        # We already reverted the weights, so just clear the prompt warning
-        latest_feedback.pop(conversation_id, None)
-    # Handle actual feedback
+        # Handle actual citation feedback by reapplying a fresh multiplier to the
+        # cited chunk IDs after the reset above. A "none" vote leaves the restored
+        # baseline in place.
+        if thumb != "none":
+            factor = 1.05 if thumb == "up" else 0.95 if thumb == "side" else 0.8
+            for cid in cited_chunks:
+                current = weight_map.get(cid, 1.0)
+                if cid not in target_backups:
+                    target_backups[cid] = current
+                weight_map[cid] = max(0.2, min(2.0, current * factor))
     else:
-        latest_feedback[conversation_id] = record
-        factor = 1.05 if thumb == "up" else 0.95 if thumb == "side" else 0.8
-        
-        for cid in cited_chunks:
-            current = weight_map.get(cid, 1.0)
-            # Take a snapshot if this is the first time voting on this turn
-            if cid not in turn_backups:
-                turn_backups[cid] = current
-            # Apply the math
-            weight_map[cid] = max(0.2, min(2.0, current * factor))
+        # Answer-level feedback does not reweight chunks. We only keep the latest
+        # negative/side signal so the next answer can be nudged toward higher accuracy.
+        if thumb in {"down", "side"}:
+            latest_feedback[conversation_id] = record
+        else:
+            latest_feedback.pop(conversation_id, None)
 
     return jsonify({"status": "ok"})
 

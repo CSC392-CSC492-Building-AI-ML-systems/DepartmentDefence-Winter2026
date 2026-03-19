@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useReducer, useState } from "react";
 import {
   checkDashboardAccess,
   getDashboardMeta,
@@ -18,6 +18,24 @@ const METRIC_LABELS = {
   answer_forbidden_violation_rate: "Forbidden violation",
   answer_abstention_accuracy: "Abstention accuracy",
 };
+
+const COMPARISON_METRICS = [
+  "retrieval_gold_doc_recall_at_k_mean",
+  "retrieval_gold_doc_mrr_mean",
+  "retrieval_gold_doc_precision_at_k_mean",
+  "retrieval_claim_evidence_coverage_mean",
+  "retrieval_noise_rate_mean",
+  "answer_required_claim_recall_mean",
+  "answer_citation_support_rate_mean",
+  "answer_forbidden_violation_rate",
+  "answer_abstention_accuracy",
+];
+
+const LOWER_IS_BETTER_METRICS = new Set([
+  "retrieval_noise_rate_mean",
+  "answer_forbidden_violation_rate",
+  "timing_total_p50_ms",
+]);
 
 const PERCENT_METRIC_KEYS = new Set([
   "retrieval_gold_doc_recall_at_k_mean",
@@ -57,6 +75,15 @@ function formatPercent(value) {
   return `${(value * 100).toFixed(1)}%`;
 }
 
+function EmptyState({ title, body }) {
+  return (
+    <div className="text-sm text-gray-700 bg-gray-50 border border-gray-200 rounded px-3 py-3 space-y-1">
+      <p className="font-medium text-gray-900">{title}</p>
+      <p className="text-gray-600">{body}</p>
+    </div>
+  );
+}
+
 function formatMetricName(key) {
   return METRIC_LABELS[key] || key.replace(/^retrieval_|^answer_/, "").replace(/_/g, " ");
 }
@@ -65,6 +92,18 @@ function formatMetricDisplay(metricKey, value) {
   if (typeof value !== "number") return formatMetricValue(value);
   if (PERCENT_METRIC_KEYS.has(metricKey)) return `${(value * 100).toFixed(1)}%`;
   return value.toFixed(3);
+}
+
+function formatDelta(value) {
+  if (typeof value !== "number") return "—";
+  const sign = value > 0 ? "+" : "";
+  return `${sign}${value.toFixed(3)}`;
+}
+
+function getDeltaTone(metricKey, delta) {
+  if (typeof delta !== "number" || Math.abs(delta) < 1e-12) return "text-gray-700";
+  const improved = LOWER_IS_BETTER_METRICS.has(metricKey) ? delta < 0 : delta > 0;
+  return improved ? "text-emerald-700" : "text-red-700";
 }
 
 function headlineItems(headline) {
@@ -88,6 +127,45 @@ function headlineItems(headline) {
     if (!seen.has(key)) ordered.push([key, value]);
   }
   return ordered.slice(0, 3);
+}
+
+function createLoadState(initialData = null, initialLoading = false) {
+  return {
+    data: initialData,
+    loading: initialLoading,
+    error: null,
+  };
+}
+
+function loadStateReducer(state, action) {
+  switch (action.type) {
+    case "start":
+      return {
+        data: action.keepData ? state.data : action.data ?? null,
+        loading: true,
+        error: null,
+      };
+    case "success":
+      return {
+        data: action.data,
+        loading: false,
+        error: null,
+      };
+    case "error":
+      return {
+        data: action.keepData ? state.data : action.data ?? null,
+        loading: false,
+        error: action.error,
+      };
+    case "reset":
+      return {
+        data: action.data ?? null,
+        loading: false,
+        error: null,
+      };
+    default:
+      return state;
+  }
 }
 
 function SummaryCards({ runs }) {
@@ -123,6 +201,7 @@ function SummaryCards({ runs }) {
 
 function KeyMetricsOverview({ summary, error }) {
   const groups = summary?.key_metrics || {};
+  const hasSummary = Boolean(summary);
 
   const groupRows = [
     {
@@ -163,9 +242,14 @@ function KeyMetricsOverview({ summary, error }) {
         </div>
       )}
 
-      {!error && !summary && <p className="text-sm text-gray-600">Loading latest run metrics...</p>}
+      {!error && !hasSummary && (
+        <EmptyState
+          title="No latest run metrics yet"
+          body="Generate at least one evaluation run to populate the latest metrics overview."
+        />
+      )}
 
-      {!error && summary && (
+      {!error && hasSummary && (
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {groupRows.map((group) => (
             <div key={group.name} className="border border-gray-200 rounded p-3">
@@ -186,16 +270,401 @@ function KeyMetricsOverview({ summary, error }) {
   );
 }
 
-function FeedbackHealth({ summary, error }) {
+function feedbackSectionTitle(type) {
+  return type === "answer" ? "Answer Feedback" : "Citation Feedback";
+}
+
+function feedbackSectionDescription(type) {
+  return type === "answer"
+    ? "Overall answer ratings and optional comments from the chat interface."
+    : "Citation-card ratings that help tune retrieval weighting and source quality signals.";
+}
+
+function feedbackEmptyTitle(type) {
+  return type === "answer" ? "No answer feedback yet" : "No citation feedback yet";
+}
+
+function feedbackEmptyBody(type) {
+  return type === "answer"
+    ? "Use the answer-level thumbs under a bot response to start tracking overall answer quality."
+    : "Use the citation thumbs on source cards to start tracking citation quality and chunk weighting feedback.";
+}
+
+function prettifySourceLabel(item) {
+  const sourceTitle = item?.source_title?.trim();
+  const sourcePath = item?.source_path?.trim();
+  if (sourceTitle) return sourceTitle;
+  if (!sourcePath) return item?.target_chunk_id || "Unknown source";
+  const normalized = sourcePath.replace(/\\/g, "/");
+  const filename = normalized.split("/").pop() || normalized;
+  return filename.replace(/\.(md|txt)$/i, "");
+}
+
+function renderCitationFeedbackLabel(item) {
+  const sourceLabel = prettifySourceLabel(item);
+  const sectionTitle = item?.section_title?.trim();
+  const sourceUrl = item?.source_url?.trim();
+  const label = sectionTitle ? `${sourceLabel} - ${sectionTitle}` : sourceLabel;
+
+  if (sourceUrl) {
+    return (
+      <a
+        href={sourceUrl}
+        target="_blank"
+        rel="noreferrer"
+        className="text-gray-800 underline decoration-gray-300 underline-offset-2 hover:text-gc-blue"
+      >
+        {label}
+      </a>
+    );
+  }
+
+  return <span className="text-gray-800">{label}</span>;
+}
+
+function CitationDebugDetails({ item }) {
+  const sourceUrl = item?.source_url?.trim();
+  const sourcePath = item?.source_path?.trim();
+  const sectionTitle = item?.section_title?.trim();
+  const docType = item?.doc_type?.trim();
+  const chunkPreview = item?.chunk_preview?.trim();
+  const chunkId = item?.target_chunk_id?.trim();
+  const authorityRank = Number.isFinite(item?.authority_rank) ? item.authority_rank : null;
+
+  return (
+    <details className="mt-2">
+      <summary className="cursor-pointer text-xs text-gc-blue hover:underline">
+        View chunk details
+      </summary>
+      <div className="mt-2 rounded border border-gray-200 bg-gray-50 p-3 text-xs text-gray-700 space-y-2">
+        {chunkId && (
+          <div>
+            <span className="font-semibold text-gray-900">Chunk ID:</span>{" "}
+            <span className="font-mono break-all">{chunkId}</span>
+          </div>
+        )}
+        {sectionTitle && (
+          <div>
+            <span className="font-semibold text-gray-900">Section:</span> {sectionTitle}
+          </div>
+        )}
+        {docType && (
+          <div>
+            <span className="font-semibold text-gray-900">Document type:</span> {docType}
+          </div>
+        )}
+        {authorityRank ? (
+          <div>
+            <span className="font-semibold text-gray-900">Authority rank:</span> {authorityRank}
+          </div>
+        ) : null}
+        {sourcePath && (
+          <div>
+            <span className="font-semibold text-gray-900">Source path:</span>{" "}
+            <span className="font-mono break-all">{sourcePath}</span>
+          </div>
+        )}
+        {sourceUrl && (
+          <div>
+            <span className="font-semibold text-gray-900">Source link:</span>{" "}
+            <a
+              href={sourceUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="text-gc-blue underline break-all"
+            >
+              {sourceUrl}
+            </a>
+          </div>
+        )}
+        {chunkPreview && (
+          <div>
+            <p className="font-semibold text-gray-900">Chunk preview</p>
+            <p className="mt-1 leading-5">{chunkPreview}</p>
+          </div>
+        )}
+      </div>
+    </details>
+  );
+}
+
+function AnswerDebugDetails({ item }) {
+  const question = item?.question?.trim();
+  const answer = item?.answer?.trim();
+  const comment = item?.comment?.trim();
+  const citedChunkIds = Array.isArray(item?.cited_chunk_ids) ? item.cited_chunk_ids.filter(Boolean) : [];
+
+  return (
+    <details className="mt-2">
+      <summary className="cursor-pointer text-xs text-gc-blue hover:underline">
+        View answer details
+      </summary>
+      <div className="mt-2 rounded border border-gray-200 bg-gray-50 p-3 text-xs text-gray-700 space-y-3">
+        {question && (
+          <div>
+            <p className="font-semibold text-gray-900">Question</p>
+            <p className="mt-1 leading-5">{question}</p>
+          </div>
+        )}
+        {answer && (
+          <div>
+            <p className="font-semibold text-gray-900">Answer</p>
+            <p className="mt-1 leading-5 whitespace-pre-wrap">{answer}</p>
+          </div>
+        )}
+        <div>
+          <p className="font-semibold text-gray-900">User comment</p>
+          <p className="mt-1 leading-5">{comment || "(no comment provided)"}</p>
+        </div>
+        <div>
+          <p className="font-semibold text-gray-900">Attached citations</p>
+          <p className="mt-1 leading-5">{citedChunkIds.length} linked chunk(s)</p>
+          {citedChunkIds.length > 0 && (
+            <div className="mt-2 space-y-1">
+              {citedChunkIds.slice(0, 5).map((chunkId) => (
+                <p key={chunkId} className="font-mono break-all text-gray-600">
+                  {chunkId}
+                </p>
+              ))}
+              {citedChunkIds.length > 5 && (
+                <p className="text-gray-500">+ {citedChunkIds.length - 5} more chunk IDs</p>
+              )}
+            </div>
+          )}
+        </div>
+      </div>
+    </details>
+  );
+}
+
+function FeedbackSignalVisual({ counts, totalFeedback }) {
+  const upCount = counts.up ?? 0;
+  const sideCount = counts.side ?? 0;
+  const downCount = counts.down ?? 0;
+  const total = Math.max(totalFeedback || 0, 0);
+
+  const percent = (value) => {
+    if (!total) return 0;
+    return (value / total) * 100;
+  };
+
+  return (
+    <div className="border border-gray-200 rounded p-3 space-y-3">
+      <h4 className="text-xs uppercase tracking-wide text-gray-500">Signal Mix</h4>
+
+      <div className="h-3 w-full overflow-hidden rounded-full bg-gray-100 border border-gray-200 flex">
+        <div
+          className="h-full bg-emerald-500"
+          style={{ width: `${percent(upCount)}%` }}
+          aria-hidden="true"
+        />
+        <div
+          className="h-full bg-amber-400"
+          style={{ width: `${percent(sideCount)}%` }}
+          aria-hidden="true"
+        />
+        <div
+          className="h-full bg-rose-500"
+          style={{ width: `${percent(downCount)}%` }}
+          aria-hidden="true"
+        />
+      </div>
+
+      <div className="grid grid-cols-3 gap-3 text-center text-xs">
+        <div className="rounded border border-gray-200 bg-emerald-50 px-2 py-2">
+          <p className="font-medium text-emerald-700">Up</p>
+          <p className="mt-1 font-mono text-gray-900">{formatPercent(total ? upCount / total : 0)}</p>
+        </div>
+        <div className="rounded border border-gray-200 bg-amber-50 px-2 py-2">
+          <p className="font-medium text-amber-700">Side</p>
+          <p className="mt-1 font-mono text-gray-900">{formatPercent(total ? sideCount / total : 0)}</p>
+        </div>
+        <div className="rounded border border-gray-200 bg-rose-50 px-2 py-2">
+          <p className="font-medium text-rose-700">Down</p>
+          <p className="mt-1 font-mono text-gray-900">{formatPercent(total ? downCount / total : 0)}</p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function FeedbackQuickTake({ counts, totalFeedback }) {
+  const upCount = counts.up ?? 0;
+  const sideCount = counts.side ?? 0;
+  const downCount = counts.down ?? 0;
+  const attentionCount = sideCount + downCount;
+  const overallRead =
+    upCount > attentionCount ? "Mostly positive" :
+    attentionCount > upCount ? "Needs attention" :
+    totalFeedback > 0 ? "Mixed signal" : "No signal yet";
+  const dominantSignal =
+    upCount > downCount && upCount > sideCount ? "Upvotes are leading" :
+    downCount > upCount && downCount > sideCount ? "Downvotes are leading" :
+    sideCount > upCount && sideCount > downCount ? "Sideways feedback is leading" :
+    totalFeedback > 0 ? "No single signal is dominating" : "No signal yet";
+  const snapshot =
+    totalFeedback === 0
+      ? "Waiting for the first feedback events."
+      : attentionCount === 0
+        ? "Feedback is currently positive without open concerns."
+        : downCount > upCount
+          ? "Users are flagging more issues than approvals right now."
+          : attentionCount === upCount
+            ? "Feedback is split between approvals and issues."
+            : "There are some concerns, but positive feedback still leads.";
+
+  return (
+    <div className="border border-gray-200 rounded p-3 space-y-3">
+      <h4 className="text-xs uppercase tracking-wide text-gray-500">Quick Take</h4>
+      <div className="space-y-2 text-sm">
+        <div className="flex justify-between gap-3">
+          <span className="text-gray-600">Overall read</span>
+          <span className="font-medium text-gray-900">{overallRead}</span>
+        </div>
+        <div className="flex justify-between gap-3">
+          <span className="text-gray-600">Dominant signal</span>
+          <span className="font-medium text-gray-900 text-right">{dominantSignal}</span>
+        </div>
+        <p className="rounded bg-gray-50 border border-gray-200 px-3 py-2 text-gray-700 leading-5">
+          {snapshot}
+        </p>
+      </div>
+    </div>
+  );
+}
+
+function FeedbackSummarySection({ type, summary }) {
   const counts = summary?.thumb_counts || {};
   const rates = summary?.thumb_rates || {};
   const recent = summary?.recent_negative_feedback || [];
-  const buckets = summary?.top_issue_buckets || [];
   const lastUpdated = summary?.last_updated_ts || null;
+  const totalFeedback = summary?.total_count ?? 0;
+
+  return (
+    <div className="border border-gray-200 rounded p-4 space-y-3">
+      <div className="space-y-1">
+        <h3 className="text-sm font-semibold text-gray-900">{feedbackSectionTitle(type)}</h3>
+        <p className="text-sm text-gray-600">{feedbackSectionDescription(type)}</p>
+      </div>
+
+      <div className="text-xs text-gray-500">
+        Last updated: {formatTimestamp(lastUpdated ? lastUpdated * 1000 : null)}
+      </div>
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-3">
+        <div className="bg-gray-50 border border-gray-200 rounded px-3 py-2">
+          <p className="text-xs text-gray-500">Total feedback</p>
+          <p className="text-xl font-semibold text-gray-900">{totalFeedback}</p>
+        </div>
+        <div className="bg-gray-50 border border-gray-200 rounded px-3 py-2">
+          <p className="text-xs text-gray-500">Positive rate</p>
+          <p className="text-xl font-semibold text-gray-900">{formatPercent(rates.up)}</p>
+        </div>
+        <div className="bg-gray-50 border border-gray-200 rounded px-3 py-2">
+          <p className="text-xs text-gray-500">Attention rate (side+down)</p>
+          <p className="text-xl font-semibold text-gray-900">{formatPercent(summary?.attention_rate)}</p>
+        </div>
+        <div className="bg-gray-50 border border-gray-200 rounded px-3 py-2">
+          <p className="text-xs text-gray-500">Activity (24h / 7d)</p>
+          <p className="text-xl font-semibold text-gray-900">
+            {summary?.count_last_24h ?? 0} / {summary?.count_last_7d ?? 0}
+          </p>
+        </div>
+      </div>
+
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+        <FeedbackQuickTake counts={counts} totalFeedback={totalFeedback} />
+
+        <FeedbackSignalVisual counts={counts} totalFeedback={totalFeedback} />
+
+      </div>
+
+      <div className="border border-gray-200 rounded p-3">
+        <h4 className="text-xs uppercase tracking-wide text-gray-500 mb-2">All negative/side events</h4>
+        {totalFeedback === 0 ? (
+          <EmptyState title={feedbackEmptyTitle(type)} body={feedbackEmptyBody(type)} />
+        ) : recent.length === 0 ? (
+          <p className="text-sm text-gray-500">No recent negative or sideways events.</p>
+        ) : (
+          <div className="max-h-56 overflow-y-auto pr-1 space-y-2">
+            {recent.map((item, idx) => (
+              <div key={`${type}-${item.timestamp || 0}-${idx}`} className="flex items-start justify-between gap-3 text-sm">
+                <div className="min-w-0">
+                  {item.comment ? (
+                    <div>
+                      <p className="text-gray-800 truncate">{item.comment}</p>
+                      {type === "answer" && <AnswerDebugDetails item={item} />}
+                    </div>
+                  ) : type === "citation" ? (
+                    <div>
+                      <div className="truncate">{renderCitationFeedbackLabel(item)}</div>
+                      <CitationDebugDetails item={item} />
+                    </div>
+                  ) : (
+                    <div>
+                      <p className="text-gray-500">(no comment)</p>
+                      {type === "answer" && <AnswerDebugDetails item={item} />}
+                    </div>
+                  )}
+                  <p className="text-xs text-gray-500">{formatTimestamp(item.timestamp ? item.timestamp * 1000 : null)}</p>
+                </div>
+                <span
+                  className={`px-2 py-0.5 rounded text-xs font-medium border ${
+                    item.thumb === "down"
+                      ? "bg-red-50 text-red-700 border-red-200"
+                      : "bg-amber-50 text-amber-700 border-amber-200"
+                  }`}
+                >
+                  {item.thumb}
+                </span>
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
+function FeedbackHealth({ summary, error, loading, onRefresh }) {
+  const citationSummary = summary?.citation || null;
+  const answerSummary = summary?.answer || null;
+
+  if (!error && summary) {
+    return (
+      <section className="bg-white border border-gray-200 rounded p-4 space-y-3">
+        <div className="flex items-center justify-between gap-3 flex-wrap">
+          <h2 className="text-sm font-semibold text-gray-900">Feedback Health</h2>
+          <button
+            type="button"
+            onClick={onRefresh}
+            disabled={loading}
+            className="px-3 py-1.5 rounded border border-gray-300 text-sm text-gray-700 hover:bg-gray-50 disabled:opacity-60 disabled:cursor-not-allowed"
+          >
+            {loading ? "Refreshing..." : "Refresh"}
+          </button>
+        </div>
+        <div className="grid grid-cols-1 xl:grid-cols-2 gap-4">
+          <FeedbackSummarySection type="citation" summary={citationSummary} />
+          <FeedbackSummarySection type="answer" summary={answerSummary} />
+        </div>
+      </section>
+    );
+  }
 
   return (
     <section className="bg-white border border-gray-200 rounded p-4 space-y-3">
-      <h2 className="text-sm font-semibold text-gray-900">Feedback Health</h2>
+      <div className="flex items-center justify-between gap-3 flex-wrap">
+        <h2 className="text-sm font-semibold text-gray-900">Feedback Health</h2>
+        <button
+          type="button"
+          onClick={onRefresh}
+          disabled={loading}
+          className="px-3 py-1.5 rounded border border-gray-300 text-sm text-gray-700 hover:bg-gray-50 disabled:opacity-60 disabled:cursor-not-allowed"
+        >
+          {loading ? "Refreshing..." : "Refresh"}
+        </button>
+      </div>
 
       {error && (
         <div className="text-sm text-red-700 bg-red-50 border border-red-200 px-3 py-2 rounded">
@@ -204,105 +673,6 @@ function FeedbackHealth({ summary, error }) {
       )}
 
       {!error && !summary && <p className="text-sm text-gray-600">Loading feedback summary...</p>}
-
-      {!error && summary && (
-        <>
-          <div className="text-xs text-gray-500">
-            Last updated: {formatTimestamp(lastUpdated ? lastUpdated * 1000 : null)}
-          </div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
-            <div className="bg-gray-50 border border-gray-200 rounded px-3 py-2">
-              <p className="text-xs text-gray-500">Total feedback</p>
-              <p className="text-xl font-semibold text-gray-900">{summary.total_count ?? 0}</p>
-            </div>
-            <div className="bg-gray-50 border border-gray-200 rounded px-3 py-2">
-              <p className="text-xs text-gray-500">Positive rate</p>
-              <p className="text-xl font-semibold text-gray-900">{formatPercent(rates.up)}</p>
-            </div>
-            <div className="bg-gray-50 border border-gray-200 rounded px-3 py-2">
-              <p className="text-xs text-gray-500">Attention rate (side+down)</p>
-              <p className="text-xl font-semibold text-gray-900">{formatPercent(summary.attention_rate)}</p>
-            </div>
-            <div className="bg-gray-50 border border-gray-200 rounded px-3 py-2">
-              <p className="text-xs text-gray-500">Activity (24h / 7d)</p>
-              <p className="text-xl font-semibold text-gray-900">
-                {summary.count_last_24h ?? 0} / {summary.count_last_7d ?? 0}
-              </p>
-            </div>
-          </div>
-
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-            <div className="border border-gray-200 rounded p-3">
-              <h3 className="text-xs uppercase tracking-wide text-gray-500 mb-2">Feedback breakdown</h3>
-              <div className="space-y-2 text-sm">
-                <div className="flex justify-between gap-3">
-                  <span className="text-gray-700">Up ↑</span>
-                  <span className="font-mono text-gray-900">
-                    {counts.up ?? 0} ({formatPercent(rates.up)})
-                  </span>
-                </div>
-                <div className="flex justify-between gap-3">
-                  <span className="text-gray-700">Sideways →</span>
-                  <span className="font-mono text-gray-900">
-                    {counts.side ?? 0} ({formatPercent(rates.side)})
-                  </span>
-                </div>
-                <div className="flex justify-between gap-3">
-                  <span className="text-gray-700">Down ↓</span>
-                  <span className="font-mono text-gray-900">
-                    {counts.down ?? 0} ({formatPercent(rates.down)})
-                  </span>
-                </div>
-              </div>
-            </div>
-
-            <div className="border border-gray-200 rounded p-3">
-              <h3 className="text-xs uppercase tracking-wide text-gray-500 mb-2">Top issue buckets</h3>
-              {buckets.length === 0 ? (
-                <p className="text-sm text-gray-500">No issue buckets yet.</p>
-              ) : (
-                <div className="space-y-1 text-sm">
-                  {buckets.map((item) => (
-                    <div key={item.bucket} className="flex justify-between gap-3">
-                      <span className="text-gray-600">{item.bucket}</span>
-                      <span className="font-mono text-gray-900">{item.count}</span>
-                    </div>
-                  ))}
-                </div>
-              )}
-            </div>
-          </div>
-
-          <div className="border border-gray-200 rounded p-3">
-            <h3 className="text-xs uppercase tracking-wide text-gray-500 mb-2">Recent negative/side events</h3>
-            {recent.length === 0 ? (
-              <p className="text-sm text-gray-500">No recent negative or sideways events.</p>
-            ) : (
-              <div className="max-h-36 overflow-y-auto space-y-2">
-                {recent.slice(0, 3).map((item, idx) => (
-                  <div key={`event-${item.timestamp || 0}-${idx}`} className="flex items-start justify-between gap-3 text-sm">
-                    <div className="min-w-0">
-                      <p className="text-gray-800 truncate">{item.comment || "(no comment)"}</p>
-                      <p className="text-xs text-gray-500">{formatTimestamp(item.timestamp ? item.timestamp * 1000 : null)}</p>
-                    </div>
-                    <span
-                      className={`px-2 py-0.5 rounded text-xs font-medium border ${
-                        item.thumb === "down"
-                          ? "bg-red-50 text-red-700 border-red-200"
-                          : "bg-amber-50 text-amber-700 border-amber-200"
-                      }`}
-                    >
-                      {item.thumb}
-                    </span>
-                  </div>
-                ))}
-              </div>
-            )}
-          </div>
-
-        </>
-      )}
     </section>
   );
 }
@@ -310,9 +680,10 @@ function FeedbackHealth({ summary, error }) {
 function RunsTable({ runs, onSelect, selectedRunId }) {
   if (!runs.length) {
     return (
-      <p className="text-sm text-gray-600">
-        No evaluation runs found. Generate a run with the evaluation stack to see results here.
-      </p>
+      <EmptyState
+        title="No evaluation runs found"
+        body="Use the run builder above to generate your first evaluation artifact. Once a run is created, it will appear here automatically."
+      />
     );
   }
 
@@ -366,21 +737,264 @@ function RunsTable({ runs, onSelect, selectedRunId }) {
   );
 }
 
-function RunDetail({ runId }) {
-  const [summary, setSummary] = useState(null);
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState(null);
+function RunComparison({ runs }) {
+  const [leftRunId, setLeftRunId] = useState(null);
+  const [rightRunId, setRightRunId] = useState(null);
+  const [leftSummaryState, dispatchLeftSummary] = useReducer(loadStateReducer, createLoadState());
+  const [rightSummaryState, dispatchRightSummary] = useReducer(loadStateReducer, createLoadState());
+  const selectedLeftRunId = leftRunId && runs.some((run) => run.run_id === leftRunId) ? leftRunId : runs[0]?.run_id || null;
+  const selectedRightRunId =
+    rightRunId && runs.some((run) => run.run_id === rightRunId)
+      ? rightRunId
+      : runs.find((run) => run.run_id !== selectedLeftRunId)?.run_id || null;
 
   useEffect(() => {
-    if (!runId) return;
-    setLoading(true);
-    setError(null);
-    setSummary(null);
+    if (!selectedLeftRunId) {
+      dispatchLeftSummary({ type: "reset" });
+      return;
+    }
+
+    let isMounted = true;
+    dispatchLeftSummary({ type: "start" });
+
+    getRunSummary(selectedLeftRunId)
+      .then((data) => {
+        if (!isMounted) return;
+        dispatchLeftSummary({ type: "success", data });
+      })
+      .catch((err) => {
+        if (!isMounted) return;
+        dispatchLeftSummary({ type: "error", error: err.message });
+      });
+
+    return () => {
+      isMounted = false;
+    };
+  }, [selectedLeftRunId]);
+
+  useEffect(() => {
+    if (!selectedRightRunId) {
+      dispatchRightSummary({ type: "reset" });
+      return;
+    }
+
+    let isMounted = true;
+    dispatchRightSummary({ type: "start" });
+
+    getRunSummary(selectedRightRunId)
+      .then((data) => {
+        if (!isMounted) return;
+        dispatchRightSummary({ type: "success", data });
+      })
+      .catch((err) => {
+        if (!isMounted) return;
+        dispatchRightSummary({ type: "error", error: err.message });
+      });
+
+    return () => {
+      isMounted = false;
+    };
+  }, [selectedRightRunId]);
+
+  const leftRun = runs.find((run) => run.run_id === selectedLeftRunId) || null;
+  const rightRun = runs.find((run) => run.run_id === selectedRightRunId) || null;
+  const leftSummary = leftSummaryState.data;
+  const rightSummary = rightSummaryState.data;
+  const leftError = leftSummaryState.error;
+  const rightError = rightSummaryState.error;
+  const isLoading = leftSummaryState.loading || rightSummaryState.loading;
+
+  const comparisonRows = useMemo(() => {
+    if (!leftSummary || !rightSummary) return [];
+
+    const leftOverall = leftSummary.overall_metrics || {};
+    const rightOverall = rightSummary.overall_metrics || {};
+    const leftTiming = leftSummary.timing_summary_ms?.total?.p50;
+    const rightTiming = rightSummary.timing_summary_ms?.total?.p50;
+
+    const metricRows = COMPARISON_METRICS.map((metricKey) => {
+      const leftValue = leftOverall[metricKey];
+      const rightValue = rightOverall[metricKey];
+      return {
+        key: metricKey,
+        label: formatMetricName(metricKey),
+        leftValue,
+        rightValue,
+        delta: typeof leftValue === "number" && typeof rightValue === "number" ? rightValue - leftValue : null,
+      };
+    });
+
+    metricRows.push({
+      key: "timing_total_p50_ms",
+      label: "Total p50 latency",
+      leftValue: leftTiming,
+      rightValue: rightTiming,
+      delta: typeof leftTiming === "number" && typeof rightTiming === "number" ? rightTiming - leftTiming : null,
+    });
+
+    return metricRows;
+  }, [leftSummary, rightSummary]);
+
+  if (runs.length < 2) {
+    return (
+      <section className="bg-white border border-gray-200 rounded p-4 space-y-3">
+        <h2 className="text-sm font-semibold text-gray-900">Run Comparison</h2>
+        <EmptyState
+          title="Need at least two runs to compare"
+          body="Generate a second evaluation run to unlock side-by-side metric comparisons."
+        />
+      </section>
+    );
+  }
+
+  return (
+    <section className="bg-white border border-gray-200 rounded p-4 space-y-4">
+      <div className="flex items-center justify-between gap-3 flex-wrap">
+        <h2 className="text-sm font-semibold text-gray-900">Run Comparison</h2>
+        <p className="text-xs text-gray-500">Compare two evaluation runs using the dashboard summary metrics.</p>
+      </div>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm">
+        <label className="space-y-1">
+          <span className="text-gray-600">Run A</span>
+          <select
+            className="w-full border border-gray-300 rounded px-2 py-1 bg-white"
+            value={selectedLeftRunId || ""}
+            onChange={(e) => setLeftRunId(e.target.value || null)}
+          >
+            {runs.map((run) => (
+              <option key={`left-${run.run_id}`} value={run.run_id}>
+                {run.run_id}
+              </option>
+            ))}
+          </select>
+        </label>
+
+        <label className="space-y-1">
+          <span className="text-gray-600">Run B</span>
+          <select
+            className="w-full border border-gray-300 rounded px-2 py-1 bg-white"
+            value={selectedRightRunId || ""}
+            onChange={(e) => setRightRunId(e.target.value || null)}
+          >
+            {runs.map((run) => (
+              <option key={`right-${run.run_id}`} value={run.run_id}>
+                {run.run_id}
+              </option>
+            ))}
+          </select>
+        </label>
+      </div>
+
+      {(leftError || rightError) && (
+        <div className="text-sm text-red-700 bg-red-50 border border-red-200 px-3 py-2 rounded">
+          {leftError || rightError}
+        </div>
+      )}
+
+      {selectedLeftRunId && selectedRightRunId && selectedLeftRunId === selectedRightRunId && (
+        <EmptyState
+          title="Choose two different runs"
+          body="Select distinct run IDs to see side-by-side metric deltas."
+        />
+      )}
+
+      {isLoading && selectedLeftRunId && selectedRightRunId && selectedLeftRunId !== selectedRightRunId && (
+        <p className="text-sm text-gray-600">Loading run comparison...</p>
+      )}
+
+      {!isLoading && leftRun && rightRun && selectedLeftRunId !== selectedRightRunId && comparisonRows.length > 0 && (
+        <>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 text-sm">
+            <div className="border border-gray-200 rounded p-3 space-y-2">
+              <h3 className="text-xs uppercase tracking-wide text-gray-500">Run A</h3>
+              <div className="grid grid-cols-[7rem_1fr] gap-2 items-start">
+                <span className="text-gray-600">Run ID</span>
+                <span className="text-gray-900 break-all">{leftRun.run_id}</span>
+              </div>
+              <div className="grid grid-cols-[7rem_1fr] gap-2 items-start">
+                <span className="text-gray-600">Mode</span>
+                <span className="text-gray-900">{getRunModeLabel(leftRun)}</span>
+              </div>
+              <div className="grid grid-cols-[7rem_1fr] gap-2 items-start">
+                <span className="text-gray-600">Timestamp</span>
+                <span className="text-gray-900">{formatTimestamp(leftRun.created_at)}</span>
+              </div>
+            </div>
+
+            <div className="border border-gray-200 rounded p-3 space-y-2">
+              <h3 className="text-xs uppercase tracking-wide text-gray-500">Run B</h3>
+              <div className="grid grid-cols-[7rem_1fr] gap-2 items-start">
+                <span className="text-gray-600">Run ID</span>
+                <span className="text-gray-900 break-all">{rightRun.run_id}</span>
+              </div>
+              <div className="grid grid-cols-[7rem_1fr] gap-2 items-start">
+                <span className="text-gray-600">Mode</span>
+                <span className="text-gray-900">{getRunModeLabel(rightRun)}</span>
+              </div>
+              <div className="grid grid-cols-[7rem_1fr] gap-2 items-start">
+                <span className="text-gray-600">Timestamp</span>
+                <span className="text-gray-900">{formatTimestamp(rightRun.created_at)}</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="overflow-x-auto border border-gray-200 rounded bg-white">
+            <table className="min-w-full text-sm">
+              <thead className="bg-gray-50 border-b border-gray-200">
+                <tr>
+                  <th className="text-left px-3 py-2 font-semibold text-gray-700">Metric</th>
+                  <th className="text-left px-3 py-2 font-semibold text-gray-700">Run A</th>
+                  <th className="text-left px-3 py-2 font-semibold text-gray-700">Run B</th>
+                  <th className="text-left px-3 py-2 font-semibold text-gray-700">Delta (B - A)</th>
+                </tr>
+              </thead>
+              <tbody>
+                {comparisonRows.map((row) => (
+                  <tr key={row.key} className="border-b border-gray-100">
+                    <td className="px-3 py-2 text-gray-900">{row.label}</td>
+                    <td className="px-3 py-2 font-mono text-gray-900">{formatMetricDisplay(row.key, row.leftValue)}</td>
+                    <td className="px-3 py-2 font-mono text-gray-900">{formatMetricDisplay(row.key, row.rightValue)}</td>
+                    <td className={`px-3 py-2 font-mono ${getDeltaTone(row.key, row.delta)}`}>{formatDelta(row.delta)}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </>
+      )}
+    </section>
+  );
+}
+
+function RunDetail({ runId }) {
+  const [runDetailState, dispatchRunDetail] = useReducer(loadStateReducer, createLoadState());
+  const summary = runDetailState.data;
+  const loading = runDetailState.loading;
+  const error = runDetailState.error;
+
+  useEffect(() => {
+    if (!runId) {
+      dispatchRunDetail({ type: "reset" });
+      return;
+    }
+
+    let isMounted = true;
+    dispatchRunDetail({ type: "start" });
 
     getRunSummary(runId)
-      .then((data) => setSummary(data))
-      .catch((err) => setError(err.message))
-      .finally(() => setLoading(false));
+      .then((data) => {
+        if (!isMounted) return;
+        dispatchRunDetail({ type: "success", data });
+      })
+      .catch((err) => {
+        if (!isMounted) return;
+        dispatchRunDetail({ type: "error", error: err.message });
+      });
+
+    return () => {
+      isMounted = false;
+    };
   }, [runId]);
 
   const config = summary?.config || {};
@@ -398,6 +1012,13 @@ function RunDetail({ runId }) {
         <div className="text-sm text-red-700 bg-red-50 border border-red-200 px-3 py-2 rounded">
           {error}
         </div>
+      )}
+
+      {!loading && !error && !summary && (
+        <EmptyState
+          title="No run selected"
+          body="Select an evaluation run from the table to inspect its configuration, metrics, and error breakdown."
+        />
       )}
 
       {!loading && !error && summary && (
@@ -496,7 +1117,7 @@ function RunDetail({ runId }) {
 function shellEscape(value) {
   const text = String(value ?? "");
   if (/^[a-zA-Z0-9_./:-]+$/.test(text)) return text;
-  return `'${text.replace(/'/g, `'\"'\"'`)}'`;
+  return `"${text.replace(/"/g, '""')}"`;
 }
 
 function buildDefaultOutputName() {
@@ -516,7 +1137,7 @@ function clampNumber(value, min, max, fallback) {
   return Math.max(min, Math.min(max, n));
 }
 
-function RunBuilder({ meta }) {
+function RunBuilder() {
   const [casesFile, setCasesFile] = useState("evaluation/cases/eval_cases.jsonl");
   const [topK, setTopK] = useState(10);
   const [split, setSplit] = useState("all");
@@ -576,7 +1197,9 @@ function RunBuilder({ meta }) {
       await navigator.clipboard.writeText(command);
       setCopied(true);
       setTimeout(() => setCopied(false), 1500);
-    } catch {}
+    } catch {
+      setCopied(false);
+    }
   };
 
   return (
@@ -739,7 +1362,9 @@ function RunBuilder({ meta }) {
           >
             {copied ? "Copied" : "Copy command"}
           </button>
-          <span className="text-xs text-gray-500">Run from: <code>/Users/jason/DepartmentDefence-Winter2026/backend</code></span>
+          <span className="text-xs text-gray-500">
+            Run from the repository's <code>backend</code> folder.
+          </span>
         </div>
       </div>
     </section>
@@ -794,7 +1419,7 @@ function DashboardReference({ meta, error }) {
                 A run is an offline evaluation report generated from structured test cases.
               </p>
               <p className="text-sm text-gray-700">
-                Normal chat usage updates live feedback signals (thumbs up, sideways, down) shown in the Feedback Health section.
+                Normal chat usage updates separate citation and answer feedback signals shown in the Feedback Health section.
               </p>
             </div>
           </div>
@@ -810,7 +1435,7 @@ function DashboardReference({ meta, error }) {
                     </span>
                   ))
                 ) : (
-                  <span className="text-sm text-gray-500">No execution modes available.</span>
+                  <span className="text-sm text-gray-500">No execution modes were reported by the backend.</span>
                 )}
               </div>
             </div>
@@ -825,7 +1450,7 @@ function DashboardReference({ meta, error }) {
                     </span>
                   ))
                 ) : (
-                  <span className="text-sm text-gray-500">No case modes available.</span>
+                  <span className="text-sm text-gray-500">No case modes were found in the evaluation case files.</span>
                 )}
               </div>
             </div>
@@ -859,52 +1484,89 @@ function DashboardReference({ meta, error }) {
 }
 
 function ModDashboard() {
-  const [accessLoading, setAccessLoading] = useState(true);
-  const [accessError, setAccessError] = useState(null);
-  const [runs, setRuns] = useState([]);
-  const [runsLoading, setRunsLoading] = useState(false);
-  const [runsError, setRunsError] = useState(null);
+  const [accessState, dispatchAccess] = useReducer(loadStateReducer, createLoadState(true, true));
+  const [runsState, dispatchRuns] = useReducer(loadStateReducer, createLoadState([], false));
   const [selectedRunId, setSelectedRunId] = useState(null);
-  const [latestSummary, setLatestSummary] = useState(null);
-  const [latestSummaryError, setLatestSummaryError] = useState(null);
-  const [feedbackSummary, setFeedbackSummary] = useState(null);
-  const [feedbackError, setFeedbackError] = useState(null);
-  const [dashboardMeta, setDashboardMeta] = useState(null);
-  const [dashboardMetaError, setDashboardMetaError] = useState(null);
+  const [latestSummaryState, dispatchLatestSummary] = useReducer(loadStateReducer, createLoadState());
+  const [feedbackState, dispatchFeedback] = useReducer(loadStateReducer, createLoadState());
+  const [dashboardMetaState, dispatchDashboardMeta] = useReducer(loadStateReducer, createLoadState());
+  const [feedbackRefreshToken, setFeedbackRefreshToken] = useState(0);
+
+  const accessLoading = accessState.loading;
+  const accessError = accessState.error;
+  const runs = runsState.data;
+  const runsLoading = runsState.loading;
+  const runsError = runsState.error;
+  const latestSummary = latestSummaryState.data;
+  const latestSummaryError = latestSummaryState.error;
+  const feedbackSummary = feedbackState.data;
+  const feedbackLoading = feedbackState.loading;
+  const feedbackError = feedbackState.error;
+  const dashboardMeta = dashboardMetaState.data;
+  const dashboardMetaError = dashboardMetaState.error;
 
   useEffect(() => {
-    setAccessLoading(true);
-    setAccessError(null);
+    let isMounted = true;
+    dispatchAccess({ type: "start", keepData: true });
+
     checkDashboardAccess()
-      .then(() => setAccessLoading(false))
+      .then(() => {
+        if (!isMounted) return;
+        dispatchAccess({ type: "success", data: true });
+      })
       .catch((err) => {
-        setAccessError(err.message);
-        setAccessLoading(false);
+        if (!isMounted) return;
+        dispatchAccess({ type: "error", error: err.message });
       });
+
+    return () => {
+      isMounted = false;
+    };
   }, []);
 
   useEffect(() => {
     if (accessLoading || accessError) return;
-    setRunsLoading(true);
-    setRunsError(null);
+    let isMounted = true;
+    dispatchRuns({ type: "start", data: [] });
 
     getRuns()
       .then((data) => {
+        if (!isMounted) return;
         const list = data.runs || [];
-        setRuns(list);
-        if (list.length > 0) setSelectedRunId(list[0].run_id);
+        dispatchRuns({ type: "success", data: list });
+        setSelectedRunId((current) => {
+          if (current && list.some((run) => run.run_id === current)) return current;
+          return list[0]?.run_id || null;
+        });
       })
-      .catch((err) => setRunsError(err.message))
-      .finally(() => setRunsLoading(false));
+      .catch((err) => {
+        if (!isMounted) return;
+        dispatchRuns({ type: "error", error: err.message, data: [] });
+      });
+
+    return () => {
+      isMounted = false;
+    };
   }, [accessLoading, accessError]);
 
   useEffect(() => {
     if (accessLoading || accessError) return;
-    setDashboardMeta(null);
-    setDashboardMetaError(null);
+    let isMounted = true;
+    dispatchDashboardMeta({ type: "start" });
+
     getDashboardMeta()
-      .then((data) => setDashboardMeta(data))
-      .catch((err) => setDashboardMetaError(err.message));
+      .then((data) => {
+        if (!isMounted) return;
+        dispatchDashboardMeta({ type: "success", data });
+      })
+      .catch((err) => {
+        if (!isMounted) return;
+        dispatchDashboardMeta({ type: "error", error: err.message });
+      });
+
+    return () => {
+      isMounted = false;
+    };
   }, [accessLoading, accessError]);
 
   const latestRunId = useMemo(() => runs[0]?.run_id || null, [runs]);
@@ -912,47 +1574,47 @@ function ModDashboard() {
   useEffect(() => {
     if (accessLoading || accessError) return;
     if (!latestRunId) {
-      setLatestSummary(null);
-      setLatestSummaryError(null);
+      dispatchLatestSummary({ type: "reset" });
       return;
     }
 
-    setLatestSummary(null);
-    setLatestSummaryError(null);
+    let isMounted = true;
+    dispatchLatestSummary({ type: "start" });
 
     getRunSummary(latestRunId)
-      .then((data) => setLatestSummary(data))
-      .catch((err) => setLatestSummaryError(err.message));
+      .then((data) => {
+        if (!isMounted) return;
+        dispatchLatestSummary({ type: "success", data });
+      })
+      .catch((err) => {
+        if (!isMounted) return;
+        dispatchLatestSummary({ type: "error", error: err.message });
+      });
+
+    return () => {
+      isMounted = false;
+    };
   }, [latestRunId, accessLoading, accessError]);
 
   useEffect(() => {
     if (accessLoading || accessError) return;
     let isMounted = true;
-    let timer = null;
+    dispatchFeedback({ type: "start", keepData: true });
 
-    const loadFeedback = () => {
-      getFeedbackSummary()
-        .then((data) => {
-          if (!isMounted) return;
-          setFeedbackSummary(data);
-          setFeedbackError(null);
-        })
-        .catch((err) => {
-          if (!isMounted) return;
-          setFeedbackError(err.message);
-        });
-    };
-
-    setFeedbackSummary(null);
-    setFeedbackError(null);
-    loadFeedback();
-    timer = setInterval(loadFeedback, 10000);
+    getFeedbackSummary()
+      .then((data) => {
+        if (!isMounted) return;
+        dispatchFeedback({ type: "success", data });
+      })
+      .catch((err) => {
+        if (!isMounted) return;
+        dispatchFeedback({ type: "error", error: err.message, keepData: true });
+      });
 
     return () => {
       isMounted = false;
-      if (timer) clearInterval(timer);
     };
-  }, [accessLoading, accessError]);
+  }, [accessLoading, accessError, feedbackRefreshToken]);
 
   if (accessLoading) {
     return (
@@ -985,8 +1647,14 @@ function ModDashboard() {
         <SummaryCards runs={runs} />
 
         <KeyMetricsOverview summary={latestSummary} error={latestSummaryError} />
-        <FeedbackHealth summary={feedbackSummary} error={feedbackError} />
-        <RunBuilder meta={dashboardMeta} />
+        <FeedbackHealth
+          summary={feedbackSummary}
+          error={feedbackError}
+          loading={feedbackLoading}
+          onRefresh={() => setFeedbackRefreshToken((value) => value + 1)}
+        />
+        <RunComparison runs={runs} />
+        <RunBuilder />
 
         <section className="grid grid-cols-1 lg:grid-cols-2 gap-4 items-start">
           <div className="space-y-2">
