@@ -54,6 +54,7 @@ def chat():
     data = request.get_json()
     q = data.get('message', '').strip()
     conversation_id = str(data.get("conversation_id", "default")).strip() or "default"
+    language = data.get('language', 'en').strip().lower()
     
     if not q:
         return jsonify({'reply': 'Please enter a question.'}), 400
@@ -98,6 +99,11 @@ def chat():
             "Always include a short 'Conflict detected' section in your response.\n\n"
             f"{conflict_section}"
         )
+        if language == 'fr':
+            chat_message += (
+                "\n\nIMPORTANT: You must respond entirely in French (français). "
+                "Translate any policy content into French in your answer."
+            )
 
         feedback_note = ""
         fb = latest_feedback.get(conversation_id)

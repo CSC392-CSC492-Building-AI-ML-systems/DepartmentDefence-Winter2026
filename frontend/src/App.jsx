@@ -138,6 +138,7 @@ const ChatInterface = ({ onLogout }) => {
   const [isSidebarOpen, setSidebarOpen] = useState(true);
   const scrollRef = useRef(null);
   const [reviewPerCitation, setReviewPerCitation] = useState({});
+  const [language, setLanguage] = useState("en");
 
   useEffect(() => {
     scrollRef.current?.scrollIntoView({ behavior: 'smooth' });
@@ -155,7 +156,7 @@ const ChatInterface = ({ onLogout }) => {
       const response = await fetch("/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ message: input }),
+        body: JSON.stringify({ message: input, language: language }),
       });
       const data = await response.json();
 
@@ -230,7 +231,9 @@ const ChatInterface = ({ onLogout }) => {
 
       <div className="flex flex-1 overflow-hidden">
         {/* Sidebar */}
-        <aside className={`${isSidebarOpen ? 'w-72' : 'w-0'} bg-white border-r border-gray-200 flex flex-col transition-all duration-300 overflow-hidden`}>
+        <aside
+          className={`${isSidebarOpen ? "w-72" : "w-0"} bg-white border-r border-gray-200 flex flex-col transition-all duration-300 overflow-hidden`}
+        >
           <div className="p-4">
             <button className="w-full bg-gc-blue text-white py-3 px-4 rounded flex items-center justify-center gap-2 font-medium hover:bg-[#1b2a3a]">
               <Plus size={18} />
@@ -239,7 +242,9 @@ const ChatInterface = ({ onLogout }) => {
           </div>
 
           <div className="flex-1 overflow-y-auto px-2">
-            <h3 className="text-xs font-bold text-gray-500 uppercase tracking-wide px-3 mb-2 mt-2">History</h3>
+            <h3 className="text-xs font-bold text-gray-500 uppercase tracking-wide px-3 mb-2 mt-2">
+              History
+            </h3>
             <ul className="space-y-1">
               <li className="bg-[#E6EEF5] border-l-4 border-gc-blue px-3 py-2 text-sm font-medium text-gray-800 cursor-pointer">
                 Carbon Tax Inquiry
@@ -252,7 +257,9 @@ const ChatInterface = ({ onLogout }) => {
               </li>
             </ul>
 
-            <h3 className="text-xs font-bold text-gray-500 uppercase tracking-wide px-3 mb-2 mt-8">Topics</h3>
+            <h3 className="text-xs font-bold text-gray-500 uppercase tracking-wide px-3 mb-2 mt-8">
+              Topics
+            </h3>
             <ul className="space-y-2 px-3 text-sm text-gc-link">
               <li className="cursor-pointer hover:underline">Immigration</li>
               <li className="cursor-pointer hover:underline">Taxation</li>
@@ -271,7 +278,6 @@ const ChatInterface = ({ onLogout }) => {
 
         {/* Main Chat Area */}
         <main className="flex-1 flex flex-col bg-white relative">
-
           {/* Mobile Toggle */}
           <button
             onClick={() => setSidebarOpen(!isSidebarOpen)}
@@ -282,11 +288,15 @@ const ChatInterface = ({ onLogout }) => {
 
           <div className="flex-1 overflow-y-auto p-6 md:p-12 space-y-8">
             {messages.map((msg) => (
-              <div key={msg.id} className={`flex flex-col ${msg.type === 'user' ? 'items-end' : 'items-start'}`}>
-
-                {msg.type === 'user' ? (
+              <div
+                key={msg.id}
+                className={`flex flex-col ${msg.type === "user" ? "items-end" : "items-start"}`}
+              >
+                {msg.type === "user" ? (
                   <>
-                    <span className="text-xs text-gray-500 mb-1 mr-1">Citizen</span>
+                    <span className="text-xs text-gray-500 mb-1 mr-1">
+                      Citizen
+                    </span>
                     <div className="bg-[#DEE8F4] text-gray-800 p-5 rounded-lg max-w-2xl text-sm leading-relaxed">
                       {msg.text}
                     </div>
@@ -298,7 +308,9 @@ const ChatInterface = ({ onLogout }) => {
                       <div className="w-5 h-5 rounded-full bg-gc-red flex items-center justify-center text-white">
                         <span className="text-[10px] font-bold">Bot</span>
                       </div>
-                      <span className="text-sm font-bold text-gray-700">PolicyAI</span>
+                      <span className="text-sm font-bold text-gray-700">
+                        PolicyAI
+                      </span>
                     </div>
 
                     <div className="bg-white border border-gray-200 p-6 rounded-lg text-sm leading-relaxed text-gray-800 shadow-sm">
@@ -309,8 +321,10 @@ const ChatInterface = ({ onLogout }) => {
                     {msg.citations && msg.citations.length > 0 && (
                       <div className="mt-3 space-y-2">
                         {msg.citations.map((citation, index) => {
-                          const isUp = reviewPerCitation[msg.id]?.[index] === 'up';
-                          const isDown = reviewPerCitation[msg.id]?.[index] === 'down';
+                          const isUp =
+                            reviewPerCitation[msg.id]?.[index] === "up";
+                          const isDown =
+                            reviewPerCitation[msg.id]?.[index] === "down";
 
                           return (
                             <div
@@ -337,16 +351,20 @@ const ChatInterface = ({ onLogout }) => {
 
                               <div className="flex items-center gap-2">
                                 <button
-                                  onClick={() => handleThumbsUpDown(msg.id, index, 'up')}
-                                  className={`p-1 rounded ${isUp ? 'text-gc-blue' : 'text-gray-400 hover:text-gc-blue'}`}
+                                  onClick={() =>
+                                    handleThumbsUpDown(msg.id, index, "up")
+                                  }
+                                  className={`p-1 rounded ${isUp ? "text-gc-blue" : "text-gray-400 hover:text-gc-blue"}`}
                                   aria-pressed={isUp}
                                 >
                                   <ThumbsUp size={16} />
                                 </button>
 
                                 <button
-                                  onClick={() => handleThumbsUpDown(msg.id, index, 'down')}
-                                  className={`p-1 rounded ${isDown ? 'text-gc-red' : 'text-gray-400 hover:text-gc-red'}`}
+                                  onClick={() =>
+                                    handleThumbsUpDown(msg.id, index, "down")
+                                  }
+                                  className={`p-1 rounded ${isDown ? "text-gc-red" : "text-gray-400 hover:text-gc-red"}`}
                                   aria-pressed={isDown}
                                 >
                                   <ThumbsDown size={16} />
@@ -366,6 +384,29 @@ const ChatInterface = ({ onLogout }) => {
 
           {/* Input Area matching image_5f35b3 footer */}
           <div className="p-6 md:px-12 border-t border-gray-200 bg-white">
+            <div className="flex gap-1 mb-4">
+              <button
+                onClick={() => setLanguage("en")}
+                className={`px-3 py-1 rounded border text-sm font-bold transition-colors ${
+                  language === "en"
+                    ? "bg-[#26374a] text-white border-[#26374a]"
+                    : "bg-white text-[#26374a] border-gray-300 hover:bg-gray-50"
+                }`}
+              >
+                EN
+              </button>
+              <button
+                onClick={() => setLanguage("fr")}
+                className={`px-3 py-1 rounded border text-sm font-bold transition-colors ${
+                  language === "fr"
+                    ? "bg-[#26374a] text-white border-[#26374a]"
+                    : "bg-white text-[#26374a] border-gray-300 hover:bg-gray-50"
+                }`}
+              >
+                FR
+              </button>
+            </div>
+
             <form onSubmit={handleSend} className="max-w-4xl mx-auto relative">
               <input
                 type="text"
@@ -383,7 +424,8 @@ const ChatInterface = ({ onLogout }) => {
             </form>
             <div className="flex justify-between items-center max-w-4xl mx-auto mt-2 px-1">
               <p className="text-xs text-gray-500">
-                AI responses are for informational purposes. Verify with official sources.
+                AI responses are for informational purposes. Verify with
+                official sources.
               </p>
               <div className="flex gap-4 text-xs text-gc-link">
                 <a href="#">Terms and conditions</a>
