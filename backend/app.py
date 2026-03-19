@@ -11,6 +11,7 @@ from rag.app_config import (
 from rag.contradiction import analyze_conflicts, build_conflict_prompt_section
 from rag.corpus import list_docs
 from rag.embedding_client import create_client
+from rag.intent_gate import build_intent_reply, classify_message_intent
 from rag.pipeline import embed_chunks, load_chunks_from_docs
 from rag.prompting import pack_retrieved_documents
 from rag.query_rewrite import generate_query_expansions
@@ -59,6 +60,26 @@ def _feedback_target_key(feedback_type: str, turn_id: str, cited_chunk_ids: list
     return f"answer::{turn_id}"
 
 
+# Return the same payload shape as normal chat responses when we short-circuit
+# non-policy or clarification requests before running the full RAG pipeline.
+def _shortcut_chat_response(reply: str, intent_route: str):
+    return jsonify(
+        {
+            "reply": reply,
+            "citations": [],
+            "stats": {
+                "intent_route": intent_route,
+                "retrieved": 0,
+                "packed_docs": 0,
+                "conflict_pairs_analyzed": 0,
+                "self_rag_revision_applied": False,
+                "self_rag_unsupported_claims": 0,
+                "self_rag_missing_citations": 0,
+            },
+        }
+    )
+
+
 @app.route('/api/chat', methods=['POST'])
 def chat():
     global chat_history, latest_feedback, feedback_weights
@@ -72,6 +93,20 @@ def chat():
         return jsonify({'reply': 'Please enter a question.'}), 400
     
     try:
+        # Route greetings, capability prompts, vague procurement asks, and
+        # out-of-scope messages before running the full retrieval pipeline.
+        intent_decision = classify_message_intent(client=client, message=q, chat_history=chat_history)
+        intent_route = intent_decision["route"]
+        if intent_route != "policy_question":
+            return _shortcut_chat_response(
+                reply=build_intent_reply(
+                    intent_route,
+                    language,
+                    clarifying_question=intent_decision.get("clarifying_question", ""),
+                ),
+                intent_route=intent_route,
+            )
+
         # Your exact RAG logic from main()
         query_expansions = generate_query_expansions(
             client=client, question=q, chat_history=chat_history
