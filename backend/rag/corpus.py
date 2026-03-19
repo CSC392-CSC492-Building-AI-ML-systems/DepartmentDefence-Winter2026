@@ -1,10 +1,26 @@
 """Document discovery and chunking utilities for local policy files."""
 
+import re
 from pathlib import Path
 from typing import List
 
 from .app_config import CHUNK_CHARS, CHUNK_OVERLAP, RAW_DIR
 from .rag_types import Chunk
+
+SECTION_HEADING_RE = re.compile(r"^(?:step\s+\d+[:.]?|(?:\d+(?:\.\d+)+|\d+)\s+.+)$", flags=re.IGNORECASE)
+
+
+def _looks_like_section_title(block: str) -> bool:
+    first_line = block.split("\n", 1)[0].strip()
+    if not first_line:
+        return False
+    if SECTION_HEADING_RE.match(first_line):
+        return True
+    return len(first_line.split()) <= 12 and first_line[:1].isupper() and first_line[-1:] != "."
+
+
+def _section_title_from_block(block: str) -> str:
+    return block.split("\n", 1)[0].strip()
 
 
 def _is_fence_start(line: str) -> bool:
@@ -139,6 +155,8 @@ def chunk_text(
     source_path: str,
     source_url: str,
     source_title: str,
+    doc_type: str = "",
+    authority_rank: int = 0,
     chunk_chars: int = CHUNK_CHARS,
     chunk_overlap: int = CHUNK_OVERLAP,
 ) -> List[Chunk]:
@@ -164,8 +182,13 @@ def chunk_text(
     chunks: List[Chunk] = []
     idx = 0
     current_blocks: List[str] = []
+    current_section_title = ""
 
     for block in blocks:
+        next_section_title = current_section_title
+        if _looks_like_section_title(block):
+            next_section_title = _section_title_from_block(block)
+
         candidate_blocks = current_blocks + [block]
         candidate_text = "\n\n".join(candidate_blocks)
 
@@ -180,6 +203,9 @@ def chunk_text(
                         source_path=source_path,
                         source_url=source_url,
                         source_title=source_title,
+                        doc_type=doc_type,
+                        authority_rank=authority_rank,
+                        section_title=current_section_title,
                         text=chunk_text_value,
                     )
                 )
@@ -188,8 +214,10 @@ def chunk_text(
             # Start new chunk with overlap tail plus the incoming block
             current_blocks = _tail_overlap_blocks(current_blocks, chunk_overlap)
             current_blocks.append(block)
+            current_section_title = next_section_title
         else:
             current_blocks = candidate_blocks
+            current_section_title = next_section_title
 
     # Flush remainder
     if current_blocks:
@@ -202,6 +230,9 @@ def chunk_text(
                     source_path=source_path,
                     source_url=source_url,
                     source_title=source_title,
+                    doc_type=doc_type,
+                    authority_rank=authority_rank,
+                    section_title=current_section_title,
                     text=chunk_text_value,
                 )
             )

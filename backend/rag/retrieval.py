@@ -13,6 +13,7 @@ from .app_config import (
     ENABLE_MODE_COVERAGE,
     ENABLE_MODE_ROUTING,
     ENABLE_QUERY_EXPANSION,
+    ENABLE_RETRIEVAL_TEXT_ENRICHMENT,
     EXPANSION_MIN_OVERLAP,
     MAX_CHUNKS_PER_SOURCE,
     MAX_EXPANSION_QUERIES,
@@ -349,7 +350,11 @@ def _apply_rerank_scores(
     if rerank_alpha <= 0:
         return combined_scores
 
-    documents = [f"{chunks[idx].title}\n{chunks[idx].text}" for idx in candidate_idx]
+    documents = [
+        f"{chunks[idx].title}\n"
+        f"{chunks[idx].retrieval_text(include_metadata=ENABLE_RETRIEVAL_TEXT_ENRICHMENT)}"
+        for idx in candidate_idx
+    ]
     try:
         response = client.rerank(
             model=RERANK_MODEL,
@@ -401,7 +406,17 @@ def retrieve(
 
     query_tokens = _content_tokens(" ".join(query_texts))
     chunk_vocabs: List[Set[str]] = [
-        set(_content_tokens(f"{chunk.title} {chunk.source_path} {chunk.text}"))
+        set(
+            _content_tokens(
+                " ".join(
+                    [
+                        chunk.title,
+                        chunk.source_path,
+                        chunk.retrieval_text(include_metadata=ENABLE_RETRIEVAL_TEXT_ENRICHMENT),
+                    ]
+                )
+            )
+        )
         for chunk in chunks
     ]
     lexical_scores = np.array(
@@ -415,7 +430,10 @@ def retrieve(
     query_modes = _infer_modes(query)
     chunk_modes: List[Set[str]] = [
         # Include a prefix of chunk text to catch labels not visible in filename/path.
-        _infer_modes(f"{chunk.title} {chunk.source_path} {chunk.text[:240]}")
+        _infer_modes(
+            f"{chunk.title} {chunk.source_path} "
+            f"{chunk.retrieval_text(include_metadata=ENABLE_RETRIEVAL_TEXT_ENRICHMENT)[:240]}"
+        )
         for chunk in chunks
     ]
 

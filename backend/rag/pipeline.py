@@ -8,11 +8,16 @@ import cohere
 import numpy as np
 from tqdm import tqdm
 
-from .app_config import EMBED_BATCH, EMBED_MODEL, EMBEDDING_CACHE_PATH, ENABLE_EMBEDDING_CACHE
+from .app_config import (
+    EMBED_BATCH,
+    EMBED_MODEL,
+    EMBEDDING_CACHE_PATH,
+    ENABLE_EMBEDDING_CACHE,
+    ENABLE_RETRIEVAL_TEXT_ENRICHMENT,
+)
 from .corpus import chunk_text
 from .embedding_client import embed_texts
 from .rag_types import Chunk
-import re
 
 
 def load_chunks_from_docs(docs: List[Path]) -> List[Chunk]:
@@ -21,30 +26,44 @@ def load_chunks_from_docs(docs: List[Path]) -> List[Chunk]:
     for path in docs:
         text = path.read_text(encoding="utf-8", errors="ignore")
 
-        source_url = ""
-        m = re.search(
-            r"^(?:\s*)(?:source[_\s\-]*url|sourceurl)\s*:\s*(\S.*)$",
-            text,
-            flags=re.IGNORECASE | re.MULTILINE,
-        )
-        if m:
-            source_url = m.group(1).strip()
+        metadata: Dict[str, str] = {}
+        body_text = text
+        if "\n---\n" in text:
+            header_text, body_text = text.split("\n---\n", 1)
+            for raw_line in header_text.splitlines():
+                if ":" not in raw_line:
+                    continue
+                key, value = raw_line.split(":", 1)
+                metadata[key.strip().upper()] = value.strip()
 
-        source_title = ""
-        m = re.search(
-            r"^(?:\s*)TITLE\s*:\s*(\S.*)$",
-            text,
-            flags=re.IGNORECASE | re.MULTILINE,
-        )
-        if m:
-            source_title = m.group(1).strip()
+        source_url = metadata.get("SOURCE_URL", "")
+        source_title = metadata.get("TITLE", "")
+        doc_type = metadata.get("DOC_TYPE", "")
+        authority_rank_raw = metadata.get("AUTHORITY_RANK", "0")
+        try:
+            authority_rank = int(authority_rank_raw)
+        except ValueError:
+            authority_rank = 0
 
-        chunks.extend(chunk_text(text=text, title=path.stem, source_path=str(path), source_url=source_url, source_title=source_title))
+        chunks.extend(
+            chunk_text(
+                text=body_text,
+                title=path.stem,
+                source_path=str(path),
+                source_url=source_url,
+                source_title=source_title,
+                doc_type=doc_type,
+                authority_rank=authority_rank,
+            )
+        )
     return chunks
 
 
 def _cache_key_for_chunk(chunk: Chunk, embed_model: str) -> str:
-    payload = f"{embed_model}\n{chunk.chunk_id}\n{chunk.text}".encode("utf-8")
+    payload = (
+        f"{embed_model}\n{ENABLE_RETRIEVAL_TEXT_ENRICHMENT}\n{chunk.chunk_id}\n"
+        f"{chunk.retrieval_text(include_metadata=ENABLE_RETRIEVAL_TEXT_ENRICHMENT)}"
+    ).encode("utf-8")
     return hashlib.sha1(payload).hexdigest()
 
 
@@ -93,7 +112,9 @@ def embed_chunks(
     missing_key_to_text: Dict[str, str] = {}
     for chunk, key in zip(chunks, keys, strict=False):
         if key not in cache and key not in missing_key_to_text:
-            missing_key_to_text[key] = chunk.text
+            missing_key_to_text[key] = chunk.retrieval_text(
+                include_metadata=ENABLE_RETRIEVAL_TEXT_ENRICHMENT
+            )
 
     if missing_key_to_text:
         missing_keys = list(missing_key_to_text.keys())

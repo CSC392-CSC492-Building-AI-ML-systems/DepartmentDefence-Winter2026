@@ -67,6 +67,10 @@ ENABLE_EMBEDDING_CACHE = (
     os.getenv("ENABLE_EMBEDDING_CACHE", "true").strip().lower() in {"1", "true", "yes", "on"}
 )
 EMBEDDING_CACHE_PATH = os.getenv("EMBEDDING_CACHE_PATH", "data/cache/embedding_cache.npz")
+ENABLE_RETRIEVAL_TEXT_ENRICHMENT = (
+    os.getenv("ENABLE_RETRIEVAL_TEXT_ENRICHMENT", "false").strip().lower()
+    in {"1", "true", "yes", "on"}
+)
 
 # Rerank settings (Cohere hosted reranking).
 ENABLE_RERANK = (
