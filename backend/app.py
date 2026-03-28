@@ -3,6 +3,7 @@ from flask_cors import CORS
 from pathlib import Path
 import json
 import time
+import sqlite3
 # Import your RAG functions directly:
 from rag.app_config import (
     CHAT_MAX_INPUT_TOKENS, CHAT_MAX_OUTPUT_TOKENS, CHAT_MODEL, CHAT_PREAMBLE,
@@ -25,6 +26,52 @@ app.register_blueprint(dashboard_bp)
 
 BACKEND_DIR = Path(__file__).resolve().parent
 FEEDBACK_DIR = BACKEND_DIR / "data" / "feedback"
+DB_PATH = BACKEND_DIR / "dummy_database.db"
+
+
+def get_db():
+    conn = sqlite3.connect(str(DB_PATH))
+    conn.row_factory = sqlite3.Row
+    conn.execute("PRAGMA foreign_keys = ON")
+    return conn
+
+
+def init_db():
+    conn = get_db()
+    conn.executescript("""
+        CREATE TABLE IF NOT EXISTS users (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            username TEXT UNIQUE NOT NULL,
+            password TEXT NOT NULL,
+            language TEXT DEFAULT 'en'
+        );
+        CREATE TABLE IF NOT EXISTS conversations (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            user_id INTEGER NOT NULL,
+            title TEXT,
+            created_at REAL DEFAULT (strftime('%s', 'now')),
+            FOREIGN KEY (user_id) REFERENCES users(id)
+        );
+        CREATE TABLE IF NOT EXISTS messages (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            conversation_id INTEGER NOT NULL,
+            type TEXT NOT NULL,
+            text TEXT NOT NULL,
+            language TEXT DEFAULT 'en',
+            citations TEXT,
+            created_at REAL DEFAULT (strftime('%s', 'now')),
+            FOREIGN KEY (conversation_id) REFERENCES conversations(id) ON DELETE CASCADE
+        );
+    """)
+    if not conn.execute("SELECT id FROM users WHERE username = 'admin'").fetchone():
+        conn.execute("INSERT INTO users (username, password, language) VALUES (?, ?, ?)",
+                     ('admin', 'admin', 'en'))
+    conn.commit()
+    conn.close()
+
+
+init_db()
+
 
 docs = None
 chunks = None
@@ -51,6 +98,73 @@ def load_rag_pipeline():
 load_rag_pipeline()  # Load everything at startup
 
 
+@app.route('/api/login', methods=['POST'])
+def login():
+    data = request.get_json()
+    username = data.get('username', '').strip()
+    password = data.get('password', '').strip()
+    conn = get_db()
+    user = conn.execute(
+        "SELECT id, language FROM users WHERE username = ? AND password = ?",
+        (username, password)
+    ).fetchone()
+    conn.close()
+    if user:
+        return jsonify({'user_id': user['id'], 'language': user['language']})
+    return jsonify({'error': 'Invalid credentials'}), 401
+
+
+@app.route('/api/conversations', methods=['GET'])
+def get_conversations():
+    user_id = request.args.get('user_id')
+    conn = get_db()
+    rows = conn.execute(
+        "SELECT id, title FROM conversations WHERE user_id = ? ORDER BY created_at DESC",
+        (user_id,)
+    ).fetchall()
+    conn.close()
+    return jsonify([{'id': r['id'], 'title': r['title']} for r in rows])
+
+
+@app.route('/api/conversations/<int:conv_id>/messages', methods=['GET'])
+def get_conversation_messages(conv_id):
+    conn = get_db()
+    rows = conn.execute(
+        "SELECT type, text, language, citations FROM messages WHERE conversation_id = ? ORDER BY created_at",
+        (conv_id,)
+    ).fetchall()
+    conn.close()
+    result = []
+    for m in rows:
+        msg = {'type': m['type'], 'text': m['text'], 'language': m['language']}
+        if m['citations']:
+            msg['citations'] = json.loads(m['citations'])
+        result.append(msg)
+    return jsonify(result)
+
+
+@app.route('/api/conversations/<int:conv_id>', methods=['DELETE'])
+def delete_conversation(conv_id):
+    conn = get_db()
+    conn.execute("DELETE FROM messages WHERE conversation_id = ?", (conv_id,))
+    conn.execute("DELETE FROM conversations WHERE id = ?", (conv_id,))
+    conn.commit()
+    conn.close()
+    return jsonify({'status': 'ok'})
+
+
+@app.route('/api/language', methods=['POST'])
+def set_language():
+    data = request.get_json()
+    user_id = data.get('user_id')
+    lang = data.get('language', 'en')
+    conn = get_db()
+    conn.execute("UPDATE users SET language = ? WHERE id = ?", (lang, user_id))
+    conn.commit()
+    conn.close()
+    return jsonify({'status': 'ok'})
+
+
 # Build a stable key for the current feedback target so citation votes and
 # answer-level votes can be reverted independently.
 def _feedback_target_key(feedback_type: str, turn_id: str, cited_chunk_ids: list[str]) -> str:
@@ -62,11 +176,12 @@ def _feedback_target_key(feedback_type: str, turn_id: str, cited_chunk_ids: list
 
 # Return the same payload shape as normal chat responses when we short-circuit
 # non-policy or clarification requests before running the full RAG pipeline.
-def _shortcut_chat_response(reply: str, intent_route: str):
+def _shortcut_chat_response(reply: str, intent_route: str, conversation_id=None):
     return jsonify(
         {
             "reply": reply,
             "citations": [],
+            "conversation_id": conversation_id,
             "stats": {
                 "intent_route": intent_route,
                 "retrieved": 0,
@@ -86,11 +201,31 @@ def chat():
     
     data = request.get_json()
     q = data.get('message', '').strip()
-    conversation_id = str(data.get("conversation_id", "default")).strip() or "default"
+    user_id = data.get('user_id')
+    conversation_id = data.get("conversation_id")
     language = data.get('language', 'en').strip().lower()
     
     if not q:
         return jsonify({'reply': 'Please enter a question.'}), 400
+
+    conn = get_db()
+    if not conversation_id and user_id:
+        title = q[:50] + ('...' if len(q) > 50 else '')
+        cursor = conn.execute(
+            "INSERT INTO conversations (user_id, title) VALUES (?, ?)",
+            (user_id, title)
+        )
+        conversation_id = cursor.lastrowid
+        conn.commit()
+
+    if conversation_id and user_id:
+        conn.execute(
+            "INSERT INTO messages (conversation_id, type, text, language) VALUES (?, ?, ?, ?)",
+            (conversation_id, 'user', q, language)
+        )
+        conn.commit()
+
+    conv_id_str = str(conversation_id) if conversation_id else "default"
     
     try:
         # Route greetings, capability prompts, vague procurement asks, and
@@ -98,13 +233,22 @@ def chat():
         intent_decision = classify_message_intent(client=client, message=q, chat_history=chat_history)
         intent_route = intent_decision["route"]
         if intent_route != "policy_question":
+            shortcut_reply = build_intent_reply(
+                intent_route,
+                language,
+                clarifying_question=intent_decision.get("clarifying_question", ""),
+            )
+            if conversation_id and user_id:
+                conn.execute(
+                    "INSERT INTO messages (conversation_id, type, text, language) VALUES (?, ?, ?, ?)",
+                    (conversation_id, 'bot', shortcut_reply, language)
+                )
+                conn.commit()
+            conn.close()
             return _shortcut_chat_response(
-                reply=build_intent_reply(
-                    intent_route,
-                    language,
-                    clarifying_question=intent_decision.get("clarifying_question", ""),
-                ),
+                reply=shortcut_reply,
                 intent_route=intent_route,
+                conversation_id=conversation_id,
             )
 
         # Your exact RAG logic from main()
@@ -116,8 +260,8 @@ def chat():
             k=TOP_K, query_expansions=query_expansions
         )
         # Apply feedback weights to retrieval scores (session-local).
-        if conversation_id in feedback_weights:
-            weight_map = feedback_weights[conversation_id]
+        if conv_id_str in feedback_weights:
+            weight_map = feedback_weights[conv_id_str]
             reweighted = []
             for chunk, score in retrieved:
                 w = weight_map.get(chunk.chunk_id, 1.0)
@@ -153,7 +297,7 @@ def chat():
             )
 
         feedback_note = ""
-        fb = latest_feedback.get(conversation_id)
+        fb = latest_feedback.get(conv_id_str)
         if fb and fb.get("thumb") in {"down", "side"}:
             reason = fb.get("comment", "").strip()
             thumb_text = "thumbs down" if fb["thumb"] == "down" else "thumbs sideways"
@@ -194,10 +338,18 @@ def chat():
             if len(unique_links) >= TOP_CITATIONS:
                 break
 
-        # Frontend expects this format
+        if conversation_id and user_id:
+            conn.execute(
+                "INSERT INTO messages (conversation_id, type, text, language, citations) VALUES (?, ?, ?, ?, ?)",
+                (conversation_id, 'bot', answer, language, json.dumps(citations))
+            )
+            conn.commit()
+        conn.close()
+
         return jsonify({
             'reply': answer,
             'citations': citations,
+            'conversation_id': conversation_id,
             'stats': {
                 'retrieved': len(retrieved),
                 'packed_docs': packing_stats['packed_docs'],

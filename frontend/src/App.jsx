@@ -2,70 +2,91 @@ import { useState, useRef, useEffect } from 'react';
 import ModDashboard from './dashboard/ModDashboard';
 import {
   Menu, User, Send, ThumbsUp, ThumbsDown,
-  ExternalLink, Info, Plus, Settings
+  ExternalLink, Info, Plus, Settings,
+  MoreVertical, Trash2
 } from 'lucide-react';
 import gcLogo from './images/logo.png';
+import translations from './translations';
 
 // --- Components ---
 
-const GCHeader = ({ isLoggedIn, onLogout }) => (
-  <header className="bg-white border-b border-gc-border py-4 px-6 md:px-12 flex items-center justify-between shrink-0 relative z-20">
-    {/* Left: Branding */}
-    <div className="flex items-center gap-4">
-      {/* Flag Logo (CSS construction or SVG placeholder) */}
-      <div className="h-8 flex items-center gap-1">
-        <img
-          src={gcLogo}
-          alt=""
-          className="h-[140px] w-auto"
-        />
+const GCHeader = ({ isLoggedIn, onLogout, language, onLanguageChange }) => {
+  const t = translations[language];
+  return (
+    <header className="bg-white border-b border-gc-border py-4 px-6 md:px-12 flex items-center justify-between shrink-0 relative z-20">
+      <div className="flex items-center gap-4">
+        <div className="h-8 flex items-center gap-1">
+          <img src={gcLogo} alt="" className="h-[140px] w-auto" />
+        </div>
       </div>
-    </div>
 
-    {/* Right: Language & Auth */}
-    <div className="flex items-center gap-6 text-sm">
-      <a href="#" className="underline text-gc-link hover:text-gc-blue">Français</a>
-      {isLoggedIn && (
-        <button
-          onClick={onLogout}
-          className="flex items-center gap-2 bg-gray-100 hover:bg-gray-200 px-4 py-2 rounded border border-gray-300 transition-colors"
-        >
-          <User size={16} className="text-gc-dark" />
-          <span className="font-medium text-gc-dark">Sign Out</span>
-        </button>
-      )}
-    </div>
-  </header>
-);
+      <div className="flex items-center gap-6 text-sm">
+        <div className="flex gap-1">
+          <button
+            onClick={() => onLanguageChange("en")}
+            className={`px-3 py-1 rounded border text-sm font-bold transition-colors ${language === "en" ? "bg-[#26374a] text-white border-[#26374a]" : "bg-white text-[#26374a] border-gray-300 hover:bg-gray-50"}`}
+          >
+            EN
+          </button>
+          <button
+            onClick={() => onLanguageChange("fr")}
+            className={`px-3 py-1 rounded border text-sm font-bold transition-colors ${language === "fr" ? "bg-[#26374a] text-white border-[#26374a]" : "bg-white text-[#26374a] border-gray-300 hover:bg-gray-50"}`}
+          >
+            FR
+          </button>
+        </div>
+        {isLoggedIn && (
+          <button
+            onClick={onLogout}
+            className="flex items-center gap-2 bg-gray-100 hover:bg-gray-200 px-4 py-2 rounded border border-gray-300 transition-colors"
+          >
+            <User size={16} className="text-gc-dark" />
+            <span className="font-medium text-gc-dark">{t.signOut}</span>
+          </button>
+        )}
+      </div>
+    </header>
+  );
+};
 
-const GCLogin = ({ onLogin }) => {
+const GCLogin = ({ onLogin, language, onLanguageChange }) => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState(false);
+  const t = translations[language];
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    if (email && password) {
-      onLogin();
-    } else {
+    try {
+      const res = await fetch('/api/login', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ username: email, password })
+      });
+      const data = await res.json();
+      if (res.ok) {
+        onLogin(data);
+      } else {
+        setError(true);
+      }
+    } catch {
       setError(true);
     }
   };
 
   return (
     <div className="min-h-screen bg-[#F5F5F5] flex flex-col">
-      <GCHeader isLoggedIn={false} />
+      <GCHeader isLoggedIn={false} language={language} onLanguageChange={onLanguageChange} />
 
       <div className="flex-1 flex items-center justify-center p-4">
         <div className="bg-white p-8 md:p-12 shadow-sm border border-gray-200 w-full max-w-[500px]">
-          <h2 className="text-3xl font-bold text-gray-800 mb-8">Sign in</h2>
+          <h2 className="text-3xl font-bold text-gray-800 mb-8">{t.signIn}</h2>
 
-          {/* Error Banner matching image_5f32ec */}
           {error && (
             <div className="bg-[#F3E9E8] border-l-4 border-gc-red p-4 mb-6 flex items-start gap-3">
               <div className="bg-gc-red rounded-full p-0.5 mt-0.5 text-white flex items-center justify-center w-5 h-5 font-bold text-xs">!</div>
               <p className="text-gray-800 text-sm font-medium">
-                The employee ID, email or password you entered is incorrect. Please try again.
+                {t.loginError}
               </p>
             </div>
           )}
@@ -73,27 +94,27 @@ const GCLogin = ({ onLogin }) => {
           <form onSubmit={handleSubmit} className="space-y-6">
             <div>
               <label className="block text-sm font-bold text-gray-700 mb-2">
-                Employee ID or Email
+                {t.emailLabel}
               </label>
               <input
                 type="text"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 className="w-full border border-gray-400 p-2 rounded-sm focus:ring-2 focus:ring-gc-blue focus:border-gc-blue outline-none"
-                placeholder="username"
+                placeholder={t.emailPlaceholder}
               />
             </div>
 
             <div>
               <label className="block text-sm font-bold text-gray-700 mb-2">
-                Password
+                {t.passwordLabel}
               </label>
               <input
                 type="password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 className="w-full border border-gray-400 p-2 rounded-sm focus:ring-2 focus:ring-gc-blue focus:border-gc-blue outline-none"
-                placeholder="********"
+                placeholder={t.passwordPlaceholder}
               />
             </div>
 
@@ -101,25 +122,25 @@ const GCLogin = ({ onLogin }) => {
               type="submit"
               className="w-40 bg-gc-blue text-white font-medium py-3 px-4 rounded-sm hover:bg-[#1b2a3a] transition-colors"
             >
-              Sign in
+              {t.signIn}
             </button>
           </form>
 
           <div className="mt-8 text-center">
-            <a href="#" className="text-gc-link underline text-sm hover:text-gc-blue">Forgot your password?</a>
+            <a href="#" className="text-gc-link underline text-sm hover:text-gc-blue">{t.forgotPassword}</a>
           </div>
 
           <hr className="my-8 border-gray-200" />
 
           <p className="text-xs text-gray-500 text-center">
-            This system is for authorized Government of Canada personnel only.
+            {t.authorizedOnly}
           </p>
         </div>
       </div>
 
       <footer className="py-6 px-12 bg-white border-t border-gray-200 flex gap-6 text-sm text-gc-link">
-        <a href="#">Terms and conditions</a>
-        <a href="#">Privacy</a>
+        <a href="#">{t.termsAndConditions}</a>
+        <a href="#">{t.privacy}</a>
       </footer>
     </div>
   );
@@ -154,31 +175,102 @@ function defaultAnswerFeedbackState() {
   };
 }
 
-const ChatInterface = ({ onLogout }) => {
-  const [messages, setMessages] = useState([
-    {
-      id: 1,
-      type: 'bot',
-      text: "Hello. I am PolicyAI. I can help you navigate Government of Canada regulations, finding information on taxes, immigration, environment, and more.\nHow can I assist you today?",
-      citations: null
-    }
-  ]);
+const ChatInterface = ({ user, onLogout, language, onLanguageChange }) => {
+  const t = translations[language];
+  const [messages, setMessages] = useState([]);
   const [input, setInput] = useState('');
   const [isSidebarOpen, setSidebarOpen] = useState(true);
   const scrollRef = useRef(null);
   const [reviewPerCitation, setReviewPerCitation] = useState({});
   const [answerFeedback, setAnswerFeedback] = useState({});
-  const [language, setLanguage] = useState("en");
+
+  const [conversations, setConversations] = useState([]);
+  const [activeConversation, setActiveConversation] = useState(null);
+  const [openMenuId, setOpenMenuId] = useState(null);
+
+  useEffect(() => {
+    const handleClickOutside = () => setOpenMenuId(null);
+    document.addEventListener('click', handleClickOutside);
+    return () => document.removeEventListener('click', handleClickOutside);
+  }, []);
+
+  const fetchHistory = async () => {
+    try {
+      const res = await fetch(`/api/conversations?user_id=${user.user_id}`);
+      const data = await res.json();
+      setConversations(data);
+    } catch (error) {
+      console.error("Failed to fetch history:", error);
+    }
+  };
+
+  useEffect(() => {
+    fetchHistory();
+  }, []);
+
+  const loadConversation = async (convId) => {
+    setActiveConversation(convId);
+    try {
+      const res = await fetch(`/api/conversations/${convId}/messages`);
+      const data = await res.json();
+      const formattedData = data.map((msg, i) => ({ ...msg, id: Date.now() + i }));
+      setMessages(formattedData);
+      if (data.length > 0 && data[data.length - 1].language) {
+        onLanguageChange(data[data.length - 1].language);
+      }
+      if (window.innerWidth < 768) setSidebarOpen(false);
+    } catch (error) {
+      console.error("Failed to load conversation:", error);
+    }
+  };
+
+  const handleNewChat = () => {
+    setActiveConversation(null);
+    setMessages([]);
+    setReviewPerCitation({});
+    setAnswerFeedback({});
+    if (window.innerWidth < 768) setSidebarOpen(false);
+  };
+
+  const handleDeleteChat = async (e, convId) => {
+    e.stopPropagation();
+    try {
+      await fetch(`/api/conversations/${convId}`, { method: 'DELETE' });
+      setConversations((prev) => prev.filter((c) => c.id !== convId));
+      if (activeConversation === convId) handleNewChat();
+      setOpenMenuId(null);
+    } catch (error) {
+      console.error("Failed to delete conversation:", error);
+    }
+  };
+
+  const toggleMenu = (e, convId) => {
+    e.stopPropagation();
+    setOpenMenuId(openMenuId === convId ? null : convId);
+  };
 
   useEffect(() => {
     scrollRef.current?.scrollIntoView({ behavior: 'smooth' });
   }, [messages]);
 
+  const handleLanguageChange = async (newLang) => {
+    onLanguageChange(newLang);
+    try {
+      await fetch('/api/language', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ user_id: user.user_id, language: newLang })
+      });
+    } catch (error) {
+      console.error("Error saving language preference:", error);
+    }
+  };
+
   const handleSend = async (e) => {
     e.preventDefault();
     if (!input.trim()) return;
 
-    const userMsg = { id: Date.now(), type: "user", text: input };
+    const userMsg = { id: Date.now(), type: "user", text: input, language };
     setMessages((prev) => [...prev, userMsg]);
     setInput("");
 
@@ -186,15 +278,26 @@ const ChatInterface = ({ onLogout }) => {
       const response = await fetch("/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ message: input, language: language, conversation_id: "default" }),
+        body: JSON.stringify({
+          message: input,
+          language,
+          user_id: user.user_id,
+          conversation_id: activeConversation
+        }),
       });
       const data = await response.json();
+
+      if (!activeConversation && data.conversation_id) {
+        setActiveConversation(data.conversation_id);
+        fetchHistory();
+      }
 
       const botMsg = {
         id: Date.now() + 1,
         type: "bot",
         text: data.reply,
         citations: data.citations || null,
+        language,
       };
       setMessages((prev) => [...prev, botMsg]);
     } catch (error) {
@@ -216,7 +319,7 @@ const ChatInterface = ({ onLogout }) => {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         thumb,
-        conversation_id: "default",
+        conversation_id: activeConversation ? activeConversation.toString() : "default",
         turn_id: turnId,
         question,
         answer,
@@ -393,14 +496,12 @@ const ChatInterface = ({ onLogout }) => {
 
   return (
     <div className="flex flex-col h-screen bg-white">
-      {/* Top Header */}
       <div className="border-b border-gray-300">
-        <GCHeader isLoggedIn={true} onLogout={onLogout} />
-        {/* Breadcrumbs */}
+        <GCHeader isLoggedIn={true} onLogout={onLogout} language={language} onLanguageChange={handleLanguageChange} />
         <div className="px-6 md:px-12 py-2 text-sm text-gray-600 bg-white border-b border-gray-200">
-          <span className="underline cursor-pointer">Canada.ca</span>
+          <span className="underline cursor-pointer">{t.breadcrumbHome}</span>
           <span className="mx-2 text-gray-400">&gt;</span>
-          <span className="underline cursor-pointer">ChatBot</span>
+          <span className="underline cursor-pointer">{t.breadcrumbChat}</span>
         </div>
       </div>
 
@@ -410,44 +511,43 @@ const ChatInterface = ({ onLogout }) => {
           className={`${isSidebarOpen ? "w-72" : "w-0"} bg-white border-r border-gray-200 flex flex-col transition-all duration-300 overflow-hidden`}
         >
           <div className="p-4">
-            <button className="w-full bg-gc-blue text-white py-3 px-4 rounded flex items-center justify-center gap-2 font-medium hover:bg-[#1b2a3a]">
+            <button onClick={handleNewChat} className="w-full bg-gc-blue text-white py-3 px-4 rounded flex items-center justify-center gap-2 font-medium hover:bg-[#1b2a3a]">
               <Plus size={18} />
-              New Chat
+              {t.newChat}
             </button>
           </div>
 
           <div className="flex-1 overflow-y-auto px-2">
             <h3 className="text-xs font-bold text-gray-500 uppercase tracking-wide px-3 mb-2 mt-2">
-              History
+              {t.history}
             </h3>
             <ul className="space-y-1">
-              <li className="bg-[#E6EEF5] border-l-4 border-gc-blue px-3 py-2 text-sm font-medium text-gray-800 cursor-pointer">
-                Carbon Tax Inquiry
-              </li>
-              <li className="px-3 py-2 text-sm text-gray-600 hover:bg-gray-100 cursor-pointer border-l-4 border-transparent">
-                Small Business Tax
-              </li>
-              <li className="px-3 py-2 text-sm text-gray-600 hover:bg-gray-100 cursor-pointer border-l-4 border-transparent">
-                EI Eligibility
-              </li>
+              {conversations.map(conv => (
+                <li
+                  key={conv.id}
+                  onClick={() => loadConversation(conv.id)}
+                  className={`px-3 py-2 text-sm cursor-pointer border-l-4 group relative flex justify-between items-center ${activeConversation === conv.id ? 'bg-[#E6EEF5] border-gc-blue font-medium text-gray-800' : 'border-transparent text-gray-600 hover:bg-gray-100'}`}
+                >
+                  <span className="truncate pr-2">{conv.title}</span>
+                  <button
+                    onClick={(e) => toggleMenu(e, conv.id)}
+                    className="p-1 rounded hover:bg-gray-300 text-gray-400 hover:text-gray-700 opacity-0 group-hover:opacity-100 transition-opacity"
+                  >
+                    <MoreVertical size={14} />
+                  </button>
+                  {openMenuId === conv.id && (
+                    <div className="absolute right-2 top-8 w-28 bg-white border border-gray-200 shadow-md rounded-md z-50 overflow-hidden">
+                      <button
+                        onClick={(e) => handleDeleteChat(e, conv.id)}
+                        className="w-full text-left px-3 py-2 text-xs text-red-600 hover:bg-red-50 flex items-center gap-2"
+                      >
+                        <Trash2 size={12} /> {t.delete}
+                      </button>
+                    </div>
+                  )}
+                </li>
+              ))}
             </ul>
-
-            <h3 className="text-xs font-bold text-gray-500 uppercase tracking-wide px-3 mb-2 mt-8">
-              Topics
-            </h3>
-            <ul className="space-y-2 px-3 text-sm text-gc-link">
-              <li className="cursor-pointer hover:underline">Immigration</li>
-              <li className="cursor-pointer hover:underline">Taxation</li>
-              <li className="cursor-pointer hover:underline">Environment</li>
-              <li className="cursor-pointer hover:underline">Health</li>
-            </ul>
-          </div>
-
-          <div className="p-4 border-t border-gray-200">
-            <button className="flex items-center gap-2 text-sm text-gray-600 hover:text-gc-blue w-full p-2 rounded hover:bg-gray-50">
-              <Settings size={16} />
-              Settings
-            </button>
           </div>
         </aside>
 
@@ -462,6 +562,12 @@ const ChatInterface = ({ onLogout }) => {
           </button>
 
           <div className="flex-1 overflow-y-auto p-6 md:p-12 space-y-8">
+            {messages.length === 0 && (
+              <div className="flex flex-col items-center justify-center h-full text-gray-400">
+                <p>{t.startConversation}</p>
+              </div>
+            )}
+
             {messages.map((msg) => (
               <div
                 key={msg.id}
@@ -470,7 +576,7 @@ const ChatInterface = ({ onLogout }) => {
                 {msg.type === "user" ? (
                   <>
                     <span className="text-xs text-gray-500 mb-1 mr-1">
-                      Citizen
+                      {t.citizen}
                     </span>
                     <div className="bg-[#DEE8F4] text-gray-800 p-5 rounded-lg max-w-2xl text-sm leading-relaxed">
                       {msg.text}
@@ -492,7 +598,7 @@ const ChatInterface = ({ onLogout }) => {
                         <span className="text-[10px] font-bold">Bot</span>
                       </div>
                       <span className="text-sm font-bold text-gray-700">
-                        PolicyAI
+                        {t.botName}
                       </span>
                     </div>
 
@@ -504,8 +610,8 @@ const ChatInterface = ({ onLogout }) => {
                       <div className="mt-3 border border-gray-200 rounded p-3 bg-gray-50 space-y-3">
                         <div className="flex items-center justify-between gap-3 flex-wrap">
                           <div>
-                            <p className="text-[10px] font-bold text-gray-500 uppercase">Answer Feedback</p>
-                            <p className="text-xs text-gray-600">Rate the overall answer quality.</p>
+                            <p className="text-[10px] font-bold text-gray-500 uppercase">{t.answerFeedback}</p>
+                            <p className="text-xs text-gray-600">{t.answerFeedbackHint}</p>
                           </div>
                           <div className="flex items-center gap-2">
                             <button
@@ -528,14 +634,14 @@ const ChatInterface = ({ onLogout }) => {
                         {answerState.showComposer && (
                           <div className="space-y-2">
                             <label className="block text-xs font-medium text-gray-700">
-                              What was wrong with this answer?
+                              {t.downvotePrompt}
                             </label>
                             <textarea
                               value={answerState.comment}
                               onChange={(e) => handleAnswerCommentChange(msg.id, e.target.value)}
                               rows={3}
                               className="w-full border border-gray-300 rounded px-3 py-2 text-sm text-gray-800 focus:ring-2 focus:ring-gc-blue focus:border-gc-blue outline-none"
-                              placeholder="Optional comment"
+                              placeholder={t.optionalComment}
                             />
                             <div className="flex items-center gap-2">
                               <button
@@ -543,14 +649,14 @@ const ChatInterface = ({ onLogout }) => {
                                 className="px-3 py-1.5 rounded bg-gc-blue text-white text-sm hover:bg-[#1b2a3a]"
                                 onClick={() => finalizeAnswerDownvote(msg.id, answerState.comment.trim())}
                               >
-                                Submit
+                                {t.submit}
                               </button>
                               <button
                                 type="button"
                                 className="px-3 py-1.5 rounded border border-gray-300 text-sm text-gray-700 hover:bg-gray-100"
                                 onClick={() => finalizeAnswerDownvote(msg.id, "")}
                               >
-                                Skip
+                                {t.skip}
                               </button>
                             </div>
                           </div>
@@ -578,7 +684,7 @@ const ChatInterface = ({ onLogout }) => {
                                 </div>
                                 <div className="flex flex-col">
                                   <span className="text-[10px] font-bold text-gray-500 uppercase">
-                                    Official Source
+                                    {t.officialSource}
                                   </span>
                                   <a
                                     href={citation.link}
@@ -626,38 +732,14 @@ const ChatInterface = ({ onLogout }) => {
             <div ref={scrollRef} />
           </div>
 
-          {/* Input Area matching image_5f35b3 footer */}
           <div className="p-6 md:px-12 border-t border-gray-200 bg-white">
-            <div className="flex gap-1 mb-4">
-              <button
-                onClick={() => setLanguage("en")}
-                className={`px-3 py-1 rounded border text-sm font-bold transition-colors ${
-                  language === "en"
-                    ? "bg-[#26374a] text-white border-[#26374a]"
-                    : "bg-white text-[#26374a] border-gray-300 hover:bg-gray-50"
-                }`}
-              >
-                EN
-              </button>
-              <button
-                onClick={() => setLanguage("fr")}
-                className={`px-3 py-1 rounded border text-sm font-bold transition-colors ${
-                  language === "fr"
-                    ? "bg-[#26374a] text-white border-[#26374a]"
-                    : "bg-white text-[#26374a] border-gray-300 hover:bg-gray-50"
-                }`}
-              >
-                FR
-              </button>
-            </div>
-
             <form onSubmit={handleSend} className="max-w-4xl mx-auto relative">
               <input
                 type="text"
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
                 className="w-full border border-gray-400 p-4 pr-12 rounded-sm shadow-inner focus:ring-2 focus:ring-gc-blue focus:border-gc-blue outline-none text-sm"
-                placeholder="Type your policy question here..."
+                placeholder={t.inputPlaceholder}
               />
               <button
                 type="submit"
@@ -668,12 +750,11 @@ const ChatInterface = ({ onLogout }) => {
             </form>
             <div className="flex justify-between items-center max-w-4xl mx-auto mt-2 px-1">
               <p className="text-xs text-gray-500">
-                AI responses are for informational purposes. Verify with
-                official sources.
+                {t.aiDisclaimer}
               </p>
               <div className="flex gap-4 text-xs text-gc-link">
-                <a href="#">Terms and conditions</a>
-                <a href="#">Privacy Policy</a>
+                <a href="#">{t.termsAndConditions}</a>
+                <a href="#">{t.privacyPolicy}</a>
               </div>
             </div>
           </div>
@@ -686,19 +767,24 @@ const ChatInterface = ({ onLogout }) => {
 // --- Main App Shell ---
 
 function App() {
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [user, setUser] = useState(null);
+  const [language, setLanguage] = useState("en");
 
-  // Hidden moderator dashboard, accessible only via direct URL.
   if (window.location.pathname === '/mod-dashboard') {
     return <ModDashboard />;
   }
 
+  const handleLogin = (userData) => {
+    setUser(userData);
+    if (userData.language) setLanguage(userData.language);
+  };
+
   return (
     <>
-      {isLoggedIn ? (
-        <ChatInterface onLogout={() => setIsLoggedIn(false)} />
+      {user ? (
+        <ChatInterface user={user} onLogout={() => setUser(null)} language={language} onLanguageChange={setLanguage} />
       ) : (
-        <GCLogin onLogin={() => setIsLoggedIn(true)} />
+        <GCLogin onLogin={handleLogin} language={language} onLanguageChange={setLanguage} />
       )}
     </>
   );
