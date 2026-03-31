@@ -1,10 +1,19 @@
 import { useState, useRef, useEffect } from 'react';
 import ModDashboard from './dashboard/ModDashboard';
 import {
-  Menu, User, Send, ThumbsUp, ThumbsDown,
-  ExternalLink, Info, Plus, Settings,
-  MoreVertical, Trash2
-} from 'lucide-react';
+  Menu,
+  User,
+  Send,
+  ThumbsUp,
+  ThumbsDown,
+  ExternalLink,
+  Info,
+  Plus,
+  Settings,
+  MoreVertical,
+  Trash2,
+  Loader2,
+} from "lucide-react";
 import gcLogo from './images/logo.png';
 import translations from './translations';
 
@@ -187,6 +196,7 @@ const ChatInterface = ({ user, onLogout, language, onLanguageChange }) => {
   const [conversations, setConversations] = useState([]);
   const [activeConversation, setActiveConversation] = useState(null);
   const [openMenuId, setOpenMenuId] = useState(null);
+  const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
     const handleClickOutside = () => setOpenMenuId(null);
@@ -273,6 +283,7 @@ const ChatInterface = ({ user, onLogout, language, onLanguageChange }) => {
     const userMsg = { id: Date.now(), type: "user", text: input, language };
     setMessages((prev) => [...prev, userMsg]);
     setInput("");
+    setIsLoading(true);
 
     try {
       const response = await fetch("/api/chat", {
@@ -282,7 +293,7 @@ const ChatInterface = ({ user, onLogout, language, onLanguageChange }) => {
           message: input,
           language,
           user_id: user.user_id,
-          conversation_id: activeConversation
+          conversation_id: activeConversation,
         }),
       });
       const data = await response.json();
@@ -302,6 +313,8 @@ const ChatInterface = ({ user, onLogout, language, onLanguageChange }) => {
       setMessages((prev) => [...prev, botMsg]);
     } catch (error) {
       console.error("Error:", error);
+    } finally {
+      setIsLoading(false); // 3. Stop loading
     }
   };
 
@@ -497,7 +510,12 @@ const ChatInterface = ({ user, onLogout, language, onLanguageChange }) => {
   return (
     <div className="flex flex-col h-screen bg-white">
       <div className="border-b border-gray-300">
-        <GCHeader isLoggedIn={true} onLogout={onLogout} language={language} onLanguageChange={handleLanguageChange} />
+        <GCHeader
+          isLoggedIn={true}
+          onLogout={onLogout}
+          language={language}
+          onLanguageChange={handleLanguageChange}
+        />
         <div className="px-6 md:px-12 py-2 text-sm text-gray-600 bg-white border-b border-gray-200">
           <span className="underline cursor-pointer">{t.breadcrumbHome}</span>
           <span className="mx-2 text-gray-400">&gt;</span>
@@ -511,7 +529,10 @@ const ChatInterface = ({ user, onLogout, language, onLanguageChange }) => {
           className={`${isSidebarOpen ? "w-72" : "w-0"} bg-white border-r border-gray-200 flex flex-col transition-all duration-300 overflow-hidden`}
         >
           <div className="p-4">
-            <button onClick={handleNewChat} className="w-full bg-gc-blue text-white py-3 px-4 rounded flex items-center justify-center gap-2 font-medium hover:bg-[#1b2a3a]">
+            <button
+              onClick={handleNewChat}
+              className="w-full bg-gc-blue text-white py-3 px-4 rounded flex items-center justify-center gap-2 font-medium hover:bg-[#1b2a3a]"
+            >
               <Plus size={18} />
               {t.newChat}
             </button>
@@ -522,11 +543,11 @@ const ChatInterface = ({ user, onLogout, language, onLanguageChange }) => {
               {t.history}
             </h3>
             <ul className="space-y-1">
-              {conversations.map(conv => (
+              {conversations.map((conv) => (
                 <li
                   key={conv.id}
                   onClick={() => loadConversation(conv.id)}
-                  className={`px-3 py-2 text-sm cursor-pointer border-l-4 group relative flex justify-between items-center ${activeConversation === conv.id ? 'bg-[#E6EEF5] border-gc-blue font-medium text-gray-800' : 'border-transparent text-gray-600 hover:bg-gray-100'}`}
+                  className={`px-3 py-2 text-sm cursor-pointer border-l-4 group relative flex justify-between items-center ${activeConversation === conv.id ? "bg-[#E6EEF5] border-gc-blue font-medium text-gray-800" : "border-transparent text-gray-600 hover:bg-gray-100"}`}
                 >
                   <span className="truncate pr-2">{conv.title}</span>
                   <button
@@ -585,143 +606,176 @@ const ChatInterface = ({ user, onLogout, language, onLanguageChange }) => {
                 ) : (
                   <div className="max-w-3xl">
                     {(() => {
-                      const answerState = answerFeedback[msg.id] || defaultAnswerFeedbackState();
+                      const answerState =
+                        answerFeedback[msg.id] || defaultAnswerFeedbackState();
                       const isAnswerUp = answerState.thumb === "up";
                       const isAnswerDown = answerState.thumb === "down";
-                      const showAnswerFeedback = messages.findIndex((item) => item.id === msg.id) > 0;
+                      const showAnswerFeedback =
+                        messages.findIndex((item) => item.id === msg.id) > 0;
 
                       return (
                         <>
-                    <div className="flex items-center gap-2 mb-2">
-                      {/* Red Bot Icon */}
-                      <div className="w-5 h-5 rounded-full bg-gc-red flex items-center justify-center text-white">
-                        <span className="text-[10px] font-bold">Bot</span>
-                      </div>
-                      <span className="text-sm font-bold text-gray-700">
-                        {t.botName}
-                      </span>
-                    </div>
-
-                    <div className="bg-white border border-gray-200 p-6 rounded-lg text-sm leading-relaxed text-gray-800 shadow-sm">
-                      <p className="whitespace-pre-wrap">{msg.text}</p>
-                    </div>
-
-                    {showAnswerFeedback && (
-                      <div className="mt-3 border border-gray-200 rounded p-3 bg-gray-50 space-y-3">
-                        <div className="flex items-center justify-between gap-3 flex-wrap">
-                          <div>
-                            <p className="text-[10px] font-bold text-gray-500 uppercase">{t.answerFeedback}</p>
-                            <p className="text-xs text-gray-600">{t.answerFeedbackHint}</p>
-                          </div>
-                          <div className="flex items-center gap-2">
-                            <button
-                              onClick={() => handleAnswerThumb(msg.id, "up")}
-                              className={`p-1 rounded ${isAnswerUp ? "text-gc-blue" : "text-gray-400 hover:text-gc-blue"}`}
-                              aria-pressed={isAnswerUp}
-                            >
-                              <ThumbsUp size={16} />
-                            </button>
-                            <button
-                              onClick={() => handleAnswerThumb(msg.id, "down")}
-                              className={`p-1 rounded ${isAnswerDown ? "text-gc-red" : "text-gray-400 hover:text-gc-red"}`}
-                              aria-pressed={isAnswerDown}
-                            >
-                              <ThumbsDown size={16} />
-                            </button>
-                          </div>
-                        </div>
-
-                        {answerState.showComposer && (
-                          <div className="space-y-2">
-                            <label className="block text-xs font-medium text-gray-700">
-                              {t.downvotePrompt}
-                            </label>
-                            <textarea
-                              value={answerState.comment}
-                              onChange={(e) => handleAnswerCommentChange(msg.id, e.target.value)}
-                              rows={3}
-                              className="w-full border border-gray-300 rounded px-3 py-2 text-sm text-gray-800 focus:ring-2 focus:ring-gc-blue focus:border-gc-blue outline-none"
-                              placeholder={t.optionalComment}
-                            />
-                            <div className="flex items-center gap-2">
-                              <button
-                                type="button"
-                                className="px-3 py-1.5 rounded bg-gc-blue text-white text-sm hover:bg-[#1b2a3a]"
-                                onClick={() => finalizeAnswerDownvote(msg.id, answerState.comment.trim())}
-                              >
-                                {t.submit}
-                              </button>
-                              <button
-                                type="button"
-                                className="px-3 py-1.5 rounded border border-gray-300 text-sm text-gray-700 hover:bg-gray-100"
-                                onClick={() => finalizeAnswerDownvote(msg.id, "")}
-                              >
-                                {t.skip}
-                              </button>
+                          <div className="flex items-center gap-2 mb-2">
+                            {/* Red Bot Icon */}
+                            <div className="w-5 h-5 rounded-full bg-gc-red flex items-center justify-center text-white">
+                              <span className="text-[10px] font-bold">Bot</span>
                             </div>
+                            <span className="text-sm font-bold text-gray-700">
+                              {t.botName}
+                            </span>
                           </div>
-                        )}
-                      </div>
-                    )}
 
-                    {/* Citation Block matching image_5f35b3 */}
-                    {msg.citations && msg.citations.length > 0 && (
-                      <div className="mt-3 space-y-2">
-                        {msg.citations.map((citation, index) => {
-                          const isUp =
-                            reviewPerCitation[msg.id]?.[index] === "up";
-                          const isDown =
-                            reviewPerCitation[msg.id]?.[index] === "down";
+                          <div className="bg-white border border-gray-200 p-6 rounded-lg text-sm leading-relaxed text-gray-800 shadow-sm">
+                            <p className="whitespace-pre-wrap">{msg.text}</p>
+                          </div>
 
-                          return (
-                            <div
-                              key={index}
-                              className="bg-[#F8F9FA] border border-gray-200 rounded p-3 flex items-center justify-between"
-                            >
-                              <div className="flex items-center gap-3">
-                                <div className="bg-gc-blue rounded-full p-1">
-                                  <Info size={12} className="text-white" />
+                          {showAnswerFeedback && (
+                            <div className="mt-3 border border-gray-200 rounded p-3 bg-gray-50 space-y-3">
+                              <div className="flex items-center justify-between gap-3 flex-wrap">
+                                <div>
+                                  <p className="text-[10px] font-bold text-gray-500 uppercase">
+                                    {t.answerFeedback}
+                                  </p>
+                                  <p className="text-xs text-gray-600">
+                                    {t.answerFeedbackHint}
+                                  </p>
                                 </div>
-                                <div className="flex flex-col">
-                                  <span className="text-[10px] font-bold text-gray-500 uppercase">
-                                    {t.officialSource}
-                                  </span>
-                                  <a
-                                    href={citation.link}
-                                    className="text-xs text-gc-link font-medium hover:underline flex items-center gap-1"
+                                <div className="flex items-center gap-2">
+                                  <button
+                                    onClick={() =>
+                                      handleAnswerThumb(msg.id, "up")
+                                    }
+                                    className={`p-1 rounded ${isAnswerUp ? "text-gc-blue" : "text-gray-400 hover:text-gc-blue"}`}
+                                    aria-pressed={isAnswerUp}
                                   >
-                                    {citation.title}
-                                    <ExternalLink size={10} />
-                                  </a>
+                                    <ThumbsUp size={16} />
+                                  </button>
+                                  <button
+                                    onClick={() =>
+                                      handleAnswerThumb(msg.id, "down")
+                                    }
+                                    className={`p-1 rounded ${isAnswerDown ? "text-gc-red" : "text-gray-400 hover:text-gc-red"}`}
+                                    aria-pressed={isAnswerDown}
+                                  >
+                                    <ThumbsDown size={16} />
+                                  </button>
                                 </div>
                               </div>
 
-                              <div className="flex items-center gap-2">
-                                <button
-                                  onClick={() =>
-                                    handleCitationFeedback(msg.id, index, "up")
-                                  }
-                                  className={`p-1 rounded ${isUp ? "text-gc-blue" : "text-gray-400 hover:text-gc-blue"}`}
-                                  aria-pressed={isUp}
-                                >
-                                  <ThumbsUp size={16} />
-                                </button>
-
-                                <button
-                                  onClick={() =>
-                                    handleCitationFeedback(msg.id, index, "down")
-                                  }
-                                  className={`p-1 rounded ${isDown ? "text-gc-red" : "text-gray-400 hover:text-gc-red"}`}
-                                  aria-pressed={isDown}
-                                >
-                                  <ThumbsDown size={16} />
-                                </button>
-                              </div>
+                              {answerState.showComposer && (
+                                <div className="space-y-2">
+                                  <label className="block text-xs font-medium text-gray-700">
+                                    {t.downvotePrompt}
+                                  </label>
+                                  <textarea
+                                    value={answerState.comment}
+                                    onChange={(e) =>
+                                      handleAnswerCommentChange(
+                                        msg.id,
+                                        e.target.value,
+                                      )
+                                    }
+                                    rows={3}
+                                    className="w-full border border-gray-300 rounded px-3 py-2 text-sm text-gray-800 focus:ring-2 focus:ring-gc-blue focus:border-gc-blue outline-none"
+                                    placeholder={t.optionalComment}
+                                  />
+                                  <div className="flex items-center gap-2">
+                                    <button
+                                      type="button"
+                                      className="px-3 py-1.5 rounded bg-gc-blue text-white text-sm hover:bg-[#1b2a3a]"
+                                      onClick={() =>
+                                        finalizeAnswerDownvote(
+                                          msg.id,
+                                          answerState.comment.trim(),
+                                        )
+                                      }
+                                    >
+                                      {t.submit}
+                                    </button>
+                                    <button
+                                      type="button"
+                                      className="px-3 py-1.5 rounded border border-gray-300 text-sm text-gray-700 hover:bg-gray-100"
+                                      onClick={() =>
+                                        finalizeAnswerDownvote(msg.id, "")
+                                      }
+                                    >
+                                      {t.skip}
+                                    </button>
+                                  </div>
+                                </div>
+                              )}
                             </div>
-                          );
-                        })}
-                      </div>
-                    )}
+                          )}
+
+                          {/* Citation Block matching image_5f35b3 */}
+                          {msg.citations && msg.citations.length > 0 && (
+                            <div className="mt-3 space-y-2">
+                              {msg.citations.map((citation, index) => {
+                                const isUp =
+                                  reviewPerCitation[msg.id]?.[index] === "up";
+                                const isDown =
+                                  reviewPerCitation[msg.id]?.[index] === "down";
+
+                                return (
+                                  <div
+                                    key={index}
+                                    className="bg-[#F8F9FA] border border-gray-200 rounded p-3 flex items-center justify-between"
+                                  >
+                                    <div className="flex items-center gap-3">
+                                      <div className="bg-gc-blue rounded-full p-1">
+                                        <Info
+                                          size={12}
+                                          className="text-white"
+                                        />
+                                      </div>
+                                      <div className="flex flex-col">
+                                        <span className="text-[10px] font-bold text-gray-500 uppercase">
+                                          {t.officialSource}
+                                        </span>
+                                        <a
+                                          href={citation.link}
+                                          className="text-xs text-gc-link font-medium hover:underline flex items-center gap-1"
+                                        >
+                                          {citation.title}
+                                          <ExternalLink size={10} />
+                                        </a>
+                                      </div>
+                                    </div>
+
+                                    <div className="flex items-center gap-2">
+                                      <button
+                                        onClick={() =>
+                                          handleCitationFeedback(
+                                            msg.id,
+                                            index,
+                                            "up",
+                                          )
+                                        }
+                                        className={`p-1 rounded ${isUp ? "text-gc-blue" : "text-gray-400 hover:text-gc-blue"}`}
+                                        aria-pressed={isUp}
+                                      >
+                                        <ThumbsUp size={16} />
+                                      </button>
+
+                                      <button
+                                        onClick={() =>
+                                          handleCitationFeedback(
+                                            msg.id,
+                                            index,
+                                            "down",
+                                          )
+                                        }
+                                        className={`p-1 rounded ${isDown ? "text-gc-red" : "text-gray-400 hover:text-gc-red"}`}
+                                        aria-pressed={isDown}
+                                      >
+                                        <ThumbsDown size={16} />
+                                      </button>
+                                    </div>
+                                  </div>
+                                );
+                              })}
+                            </div>
+                          )}
                         </>
                       );
                     })()}
@@ -729,6 +783,24 @@ const ChatInterface = ({ user, onLogout, language, onLanguageChange }) => {
                 )}
               </div>
             ))}
+            {isLoading && (
+              <div className="flex flex-col items-start animate-in fade-in slide-in-from-bottom-2 duration-300">
+                <div className="flex items-center gap-2 mb-2">
+                  <div className="w-5 h-5 rounded-full bg-gc-red flex items-center justify-center text-white">
+                    <span className="text-[10px] font-bold">Bot</span>
+                  </div>
+                  <span className="text-sm font-bold text-gray-700">
+                    {t.botName}
+                  </span>
+                </div>
+                <div className="bg-white border border-gray-200 p-4 rounded-lg shadow-sm flex items-center gap-3">
+                  <Loader2 className="h-4 w-4 animate-spin text-gc-blue" />
+                  <span className="text-sm text-gray-500 italic">
+                    {t.botIsThinking || "Thinking..."}
+                  </span>
+                </div>
+              </div>
+            )}
             <div ref={scrollRef} />
           </div>
 
@@ -749,9 +821,7 @@ const ChatInterface = ({ user, onLogout, language, onLanguageChange }) => {
               </button>
             </form>
             <div className="flex justify-between items-center max-w-4xl mx-auto mt-2 px-1">
-              <p className="text-xs text-gray-500">
-                {t.aiDisclaimer}
-              </p>
+              <p className="text-xs text-gray-500">{t.aiDisclaimer}</p>
               <div className="flex gap-4 text-xs text-gc-link">
                 <a href="#">{t.termsAndConditions}</a>
                 <a href="#">{t.privacyPolicy}</a>
