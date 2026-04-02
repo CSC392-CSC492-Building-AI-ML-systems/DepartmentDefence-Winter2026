@@ -91,6 +91,22 @@ There is also an evaluation/dashboard blueprint in [`backend/dashboard/eval_api.
 
 Those dashboard routes are hidden unless `DASHBOARD_ACCESS_KEY` is set, as enforced by [`backend/dashboard/auth.py`](../backend/dashboard/auth.py).
 
+On the frontend side, the moderator dashboard is mounted when the browser path is:
+
+```text
+/mod-dashboard
+```
+
+That route is switched directly in [`frontend/src/App.jsx`](../frontend/src/App.jsx).
+
+The dashboard frontend currently calls:
+
+- `/api/eval/health`
+- `/api/eval/meta`
+- `/api/eval/runs`
+- `/api/eval/runs/<run_id>/summary`
+- `/api/eval/feedback/summary`
+
 ## Chat Request Flow
 
 When the frontend sends a chat message to `POST /api/chat`, the backend does this:

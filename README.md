@@ -213,6 +213,54 @@ After both servers are running:
 6. send a procurement question such as `What is a standing offer?`
 7. wait for the answer and confirm citations appear
 
+## Moderator Dashboard
+
+The frontend also includes a moderator/evaluation dashboard at:
+
+```text
+http://127.0.0.1:5173/mod-dashboard
+```
+
+### Enable the dashboard
+
+The dashboard API is disabled unless [`backend/.env`](backend/.env) contains:
+
+```dotenv
+DASHBOARD_ACCESS_KEY=your_local_dashboard_key
+```
+
+Any non-empty value enables the dashboard routes.
+
+Without that key:
+
+- `/api/eval/health`
+- `/api/eval/meta`
+- `/api/eval/runs`
+- `/api/eval/runs/<run_id>/summary`
+- `/api/eval/feedback/summary`
+
+return `404`, and the frontend will treat dashboard access as disabled.
+
+### What the dashboard reads
+
+The dashboard reads:
+
+- evaluation run JSON files from [`backend/evaluation/runs/`](backend/evaluation/runs/)
+- feedback JSONL from [`backend/data/feedback/feedback.jsonl`](backend/data/feedback/feedback.jsonl)
+- case-mode metadata from the evaluation case files
+
+### Current empty-state behavior
+
+If [`backend/evaluation/runs/`](backend/evaluation/runs/) has no `*.json` run artifacts, the dashboard still loads, but the runs list is empty and the UI should show empty states rather than failing.
+
+In that state:
+
+- `GET /api/eval/runs` returns an empty `runs` array
+- `GET /api/eval/runs/latest` returns `404`
+- feedback summary still loads, but the counts stay at zero until feedback is recorded
+
+That empty-state path is expected behavior.
+
 ## Troubleshooting
 
 ### `Missing COHERE_API_KEY`

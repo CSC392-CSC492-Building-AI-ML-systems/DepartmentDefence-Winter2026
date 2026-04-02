@@ -52,4 +52,24 @@ The frontend uses the backend through the Vite proxy on these paths:
 - `POST /api/login`
 - `POST /api/chat`
 
+The moderator dashboard also uses:
+
+- `GET /api/eval/health`
+- `GET /api/eval/meta`
+- `GET /api/eval/runs`
+- `GET /api/eval/runs/<run_id>/summary`
+- `GET /api/eval/feedback/summary`
+
 These requests are expected to resolve through the frontend port during local development.
+
+## Moderator Dashboard Route
+
+The moderator dashboard is available at:
+
+```text
+http://127.0.0.1:5173/mod-dashboard
+```
+
+It only works when the backend has `DASHBOARD_ACCESS_KEY` set in [`../backend/.env`](../backend/.env).
+
+If there are no evaluation run artifacts in [`../backend/evaluation/runs/`](../backend/evaluation/runs/), the dashboard still loads but shows empty states for run-driven panels.
