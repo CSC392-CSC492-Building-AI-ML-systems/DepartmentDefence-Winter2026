@@ -24,15 +24,15 @@ This README is the main entrypoint for a TA or any new developer who needs to cl
 - `frontend/vite.config.js`
   - proxies `/api/*` requests to the backend on `http://127.0.0.1:5001`
 
-## Tested Setup
+## Baseline Environment
 
-The setup and run instructions below were verified on **April 2, 2026** in this clone using:
+The setup and run instructions below were last checked on **April 2, 2026** using:
 
 - Python `3.13.5`
 - Node `22.17.0`
 - npm `10.8.0`
 
-What I explicitly tested:
+The expected local workflow is:
 
 - creating a backend virtual environment
 - installing backend dependencies from `backend/requirements.txt`
@@ -146,7 +146,7 @@ On first backend startup, the app seeds a default local user in [`backend/app.py
 
 Use those credentials to get into the UI.
 
-## Verified Frontend/Backend Flow
+## Frontend/Backend Flow
 
 The frontend is not talking to the backend directly by hardcoded absolute URLs.
 
@@ -158,12 +158,10 @@ It works like this:
 
 The proxy is defined in [`frontend/vite.config.js`](frontend/vite.config.js).
 
-This was verified by calling:
+Expected proxy behavior:
 
 - `http://127.0.0.1:5173/api/login`
 - `http://127.0.0.1:4174/api/login` after `vite preview`
-
-and getting the backend login response through the frontend port.
 
 ## Important Runtime Notes
 
@@ -179,7 +177,7 @@ This means startup is noticeably slower than a basic Flask app.
 
 ### Real policy answers can be slow
 
-A greeting request returned quickly during testing.
+A greeting request should return quickly.
 
 A real policy question such as:
 
@@ -187,13 +185,13 @@ A real policy question such as:
 What is a standing offer?
 ```
 
-did return a real answer, but it took about **166 seconds** in this environment.
+can take on the order of **minutes**, not seconds, on the current stack.
 
-So the backend is startup-verified and functionally live, but you should not oversell the interactive latency.
+The current architecture is functional, but it is not optimized for interactive latency.
 
 ### The frontend build also works
 
-This was verified:
+The production-style frontend path is:
 
 ```bash
 cd frontend
@@ -201,7 +199,7 @@ npm run build
 npm run preview -- --host 127.0.0.1 --port 4174
 ```
 
-The preview server responded at `http://127.0.0.1:4174`, and `/api/login` still resolved correctly through the preview setup in this environment.
+The preview server is expected to respond at `http://127.0.0.1:4174`, and `/api/login` should still resolve through the preview setup.
 
 ## Minimal Smoke Test Checklist
 

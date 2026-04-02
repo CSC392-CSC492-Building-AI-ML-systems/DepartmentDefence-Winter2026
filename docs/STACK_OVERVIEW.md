@@ -130,7 +130,7 @@ For real policy questions it can do several LLM-assisted steps:
 - contradiction analysis
 - self-RAG critique/revision
 
-In the verified local run, a real policy question took much longer than a greeting-style request.
+In local testing, a real policy question took much longer than a greeting-style request.
 
 That is a real behavior of the current system, not just a documentation caveat.
 

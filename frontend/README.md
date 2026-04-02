@@ -45,11 +45,11 @@ Then open:
 http://127.0.0.1:4174
 ```
 
-## Verified API Calls Through the Frontend
+## API Paths Used by the Frontend
 
-The following were verified through the frontend port:
+The frontend uses the backend through the Vite proxy on these paths:
 
 - `POST /api/login`
 - `POST /api/chat`
 
-So the proxy path is not just theoretical; it works in local development.
+These requests are expected to resolve through the frontend port during local development.
