@@ -6,3 +6,4 @@ evaluation/runs/*.json
 data/cache/*
 *.log
 dummy_database.db
+.DS_Store
