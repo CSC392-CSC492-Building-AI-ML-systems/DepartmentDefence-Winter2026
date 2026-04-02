@@ -4,3 +4,5 @@ __pycache__/
 rag/__pycache__/
 evaluation/runs/*.json
 data/cache/*
+*.log
+dummy_database.db

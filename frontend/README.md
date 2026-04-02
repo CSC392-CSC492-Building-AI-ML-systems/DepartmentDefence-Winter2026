@@ -1,16 +1,55 @@
-# React + Vite
+# Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This folder contains the React + Vite frontend for the procurement-policy assistant.
 
-Currently, two official plugins are available:
+The authoritative repo-level setup instructions are in:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Repo README](../README.md)
+- [Stack Overview](../docs/STACK_OVERVIEW.md)
 
-## React Compiler
+## What This Frontend Depends On
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The frontend does not work by itself.
 
-## Expanding the ESLint configuration
+It expects the Flask backend in [`../backend`](../backend/) to be running on:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+http://127.0.0.1:5001
+```
+
+The Vite proxy for `/api/*` is defined in [`vite.config.js`](vite.config.js).
+
+## Run in Development
+
+```bash
+npm ci
+npm run dev -- --host 127.0.0.1 --port 5173
+```
+
+Then open:
+
+```text
+http://127.0.0.1:5173
+```
+
+## Build and Preview
+
+```bash
+npm run build
+npm run preview -- --host 127.0.0.1 --port 4174
+```
+
+Then open:
+
+```text
+http://127.0.0.1:4174
+```
+
+## Verified API Calls Through the Frontend
+
+The following were verified through the frontend port:
+
+- `POST /api/login`
+- `POST /api/chat`
+
+So the proxy path is not just theoretical; it works in local development.
