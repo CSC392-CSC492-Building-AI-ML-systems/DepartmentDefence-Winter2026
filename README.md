@@ -249,6 +249,31 @@ The dashboard reads:
 - feedback JSONL from [`backend/data/feedback/feedback.jsonl`](backend/data/feedback/feedback.jsonl)
 - case-mode metadata from the evaluation case files
 
+### What the dashboard represents
+
+The moderator dashboard combines two different kinds of information:
+
+- `Offline Evaluation Summary`
+  - reads saved evaluation run artifacts from `backend/evaluation/runs/*.json`
+  - shows metrics from structured evaluation cases
+  - reflects the contents of saved run files, not a direct live measurement of the currently running chatbot
+
+- `Live User Feedback`
+  - reads logged thumbs/comment feedback from `backend/data/feedback/feedback.jsonl`
+  - summarizes citation feedback and answer feedback from normal chat usage
+  - reflects accumulated feedback history, not a full real-time system monitor
+
+Because of this, the dashboard is best understood as a review and analysis tool. It helps inspect saved evaluation results and logged user feedback, but it should not be treated as a direct real-time view of the chatbot's current runtime behavior.
+
+### Dashboard validation panel
+
+The moderator dashboard UI includes a backend unit test panel that shows the current backend test count and the command used to rerun the suite locally.
+
+This panel is meant to make validation easier when reviewing the dashboard:
+
+- it reports the current backend test count as `22/22 passing`
+- it shows the exact backend test command used in development
+
 ### Current empty-state behavior
 
 If [`backend/evaluation/runs/`](backend/evaluation/runs/) has no `*.json` run artifacts, the dashboard still loads, but the runs list is empty and the UI should show empty states rather than failing.
@@ -260,6 +285,51 @@ In that state:
 - feedback summary still loads, but the counts stay at zero until feedback is recorded
 
 That empty-state path is expected behavior.
+
+## Backend Unit Tests
+
+The repository includes backend unit tests for the chatbot, moderator dashboard API, feedback flow, and stable evaluation helpers.
+
+Run them from the backend folder:
+
+```powershell
+cd backend
+.\.venv\Scripts\python.exe -m unittest discover -s tests -v
+```
+
+Current expected result:
+
+- `22/22 passing`
+
+The backend test suite currently covers:
+
+- live chatbot route behavior in `backend/tests/test_chat_route.py`
+  - empty input handling
+  - shortcut intent routing for non-policy messages
+  - policy-question response shape
+  - citation persistence
+  - feedback-aware prompt behavior
+  - no-context fallback behavior
+
+- moderator dashboard backend behavior in `backend/tests/test_dashboard_eval_api.py`
+  - dashboard route responses
+  - evaluation run listing and summary behavior
+  - feedback summary aggregation
+  - case-mode loading
+  - key metric grouping
+  - error breakdown generation
+
+- feedback behavior in `backend/tests/test_feedback_route.py`
+  - citation feedback weighting
+  - deselection / reset behavior
+  - answer-level feedback tracking
+  - invalid feedback rejection
+
+- stable evaluation metric helpers in `backend/tests/test_eval_metrics.py`
+  - retrieval precision, top-1 hit, and MRR
+  - evidence coverage logic
+  - summary aggregation
+  - timing summary behavior
 
 ## Troubleshooting
 

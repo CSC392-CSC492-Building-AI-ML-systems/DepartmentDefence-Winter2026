@@ -1,0 +1,111 @@
+{
+  "config": {
+    "cases_file": "evaluation/cases/eval_cases.jsonl",
+    "split_filter": [
+      "all"
+    ],
+    "top_k": 10,
+    "with_chat": false,
+    "with_judge": false,
+    "judge_model": null,
+    "required_claim_threshold": 0.7,
+    "forbidden_claim_threshold": 0.8,
+    "citation_support_threshold": 0.65,
+    "case_count": 2
+  },
+  "timing_summary_ms": {
+    "retrieval": {
+      "p50": 120.0,
+      "p95": 140.0,
+      "mean": 125.0
+    },
+    "chat": null,
+    "judge": null,
+    "total": {
+      "p50": 121.0,
+      "p95": 141.0,
+      "mean": 126.0
+    }
+  },
+  "overall_metrics": {
+    "retrieval_gold_doc_recall_at_k_mean": 0.75,
+    "retrieval_gold_doc_precision_at_k_mean": 0.4,
+    "retrieval_gold_doc_top1_hit_rate": 0.5,
+    "retrieval_gold_doc_mrr_mean": 0.625,
+    "retrieval_gold_doc_ndcg_mean": 0.81,
+    "retrieval_unique_prefix_fraction_mean": 0.9,
+    "retrieval_claim_evidence_coverage_mean": 1.0,
+    "retrieval_contradiction_rate_mean": null,
+    "retrieval_noise_rate_mean": 0.1,
+    "answer_required_claim_recall_mean": null,
+    "answer_citation_support_rate_mean": null,
+    "answer_reference_similarity_mean": null,
+    "answer_abstention_accuracy": null,
+    "answer_forbidden_violation_rate": null,
+    "answer_citation_sentence_rate_mean": null,
+    "answer_citation_count_mean": null,
+    "answer_sentence_count_mean": null,
+    "answer_word_count_mean": null,
+    "judge_decision_correctness_mean": null,
+    "judge_reference_alignment_mean": null,
+    "judge_required_claim_recall_mean": null,
+    "judge_forbidden_claim_violation_mean": null
+  },
+  "overall_metric_ci95": {},
+  "subgroup_metrics": {
+    "by_split": {
+      "dev": {
+        "count": 1,
+        "metrics": {
+          "retrieval_gold_doc_recall_at_k_mean": 1.0
+        }
+      },
+      "test": {
+        "count": 1,
+        "metrics": {
+          "retrieval_gold_doc_recall_at_k_mean": 0.5
+        }
+      }
+    }
+  },
+  "cases": [
+    {
+      "case": {
+        "id": "CASE_001",
+        "split": "dev",
+        "mode": "cross_mode",
+        "question_type": "eligibility"
+      },
+      "chat_error": null,
+      "answer": "",
+      "judge": null,
+      "metrics": {
+        "retrieval": {
+          "gold_doc_recall_at_k": 1.0
+        },
+        "answer": {
+          "abstention_correct": null
+        }
+      }
+    },
+    {
+      "case": {
+        "id": "CASE_002",
+        "split": "test",
+        "mode": "late_offer",
+        "question_type": "process"
+      },
+      "chat_error": null,
+      "answer": "",
+      "judge": null,
+      "metrics": {
+        "retrieval": {
+          "gold_doc_recall_at_k": 0.5
+        },
+        "answer": {
+          "abstention_correct": null
+        }
+      }
+    }
+  ]
+}

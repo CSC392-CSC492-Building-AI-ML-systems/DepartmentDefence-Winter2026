@@ -1,0 +1,7 @@
+{"timestamp":1999995000,"conversation_id":"conv-a","turn_id":"turn-1","feedback_type":"citation","thumb":"up","comment":"","question":"Q1","answer":"A1","cited_chunk_ids":["chunk-1"],"target_chunk_id":"chunk-1"}
+{"timestamp":1999998000,"conversation_id":"conv-a","turn_id":"turn-1","feedback_type":"citation","thumb":"down","comment":"Wrong source","question":"Q1","answer":"A1","cited_chunk_ids":["chunk-1"],"target_chunk_id":"chunk-1"}
+{"timestamp":1999999000,"conversation_id":"conv-a","turn_id":"turn-2","feedback_type":"citation","thumb":"side","comment":"Partially helpful","question":"Q2","answer":"A2","cited_chunk_ids":["chunk-2"],"target_chunk_id":"chunk-2"}
+{"timestamp":1999700000,"conversation_id":"conv-b","turn_id":"turn-3","feedback_type":"answer","thumb":"down","comment":"Too vague","question":"Q3","answer":"A3","cited_chunk_ids":["chunk-1"],"target_chunk_id":"chunk-1"}
+{"timestamp":1999996000,"conversation_id":"conv-b","turn_id":"turn-3","feedback_type":"answer","thumb":"none","comment":"","question":"Q3","answer":"A3","cited_chunk_ids":["chunk-1"],"target_chunk_id":"chunk-1"}
+{"timestamp":1999998500,"conversation_id":"conv-c","turn_id":"turn-4","feedback_type":"answer","thumb":"side","comment":"Needs more detail","question":"Q4","answer":"A4","cited_chunk_ids":["chunk-2"],"target_chunk_id":"chunk-2"}
+{"timestamp":1999999500,"conversation_id":"conv-d","turn_id":"turn-5","feedback_type":"answer","thumb":"up","comment":"","question":"Q5","answer":"A5","cited_chunk_ids":["chunk-2"],"target_chunk_id":"chunk-2"}

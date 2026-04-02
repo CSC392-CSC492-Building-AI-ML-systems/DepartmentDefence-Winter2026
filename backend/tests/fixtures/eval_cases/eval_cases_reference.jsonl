@@ -1,0 +1,3 @@
+# Reference eval cases fixture for dashboard tests.
+{"id":"REF_001","mode":"cross_mode","split":"dev","question_type":"eligibility"}
+{"id":"REF_002","mode":"reference_mode","split":"test","question_type":"comparison"}

@@ -1,0 +1,123 @@
+{
+  "config": {
+    "cases_file": "evaluation/cases/eval_cases_reference.jsonl",
+    "split_filter": [
+      "dev"
+    ],
+    "top_k": 8,
+    "with_chat": true,
+    "with_judge": true,
+    "judge_model": "command-r-plus-08-2024",
+    "required_claim_threshold": 0.7,
+    "forbidden_claim_threshold": 0.8,
+    "citation_support_threshold": 0.65,
+    "case_count": 2
+  },
+  "timing_summary_ms": {
+    "retrieval": {
+      "p50": 130.0,
+      "p95": 160.0,
+      "mean": 135.0
+    },
+    "chat": {
+      "p50": 220.0,
+      "p95": 260.0,
+      "mean": 225.0
+    },
+    "judge": {
+      "p50": 180.0,
+      "p95": 200.0,
+      "mean": 185.0
+    },
+    "total": {
+      "p50": 540.0,
+      "p95": 610.0,
+      "mean": 545.0
+    }
+  },
+  "overall_metrics": {
+    "retrieval_gold_doc_recall_at_k_mean": 0.9,
+    "retrieval_gold_doc_precision_at_k_mean": 0.55,
+    "retrieval_gold_doc_top1_hit_rate": 1.0,
+    "retrieval_gold_doc_mrr_mean": 1.0,
+    "retrieval_gold_doc_ndcg_mean": 0.95,
+    "retrieval_unique_prefix_fraction_mean": 0.8,
+    "retrieval_claim_evidence_coverage_mean": 0.95,
+    "retrieval_contradiction_rate_mean": 0.0,
+    "retrieval_noise_rate_mean": 0.05,
+    "answer_required_claim_recall_mean": 0.85,
+    "answer_citation_support_rate_mean": 0.8,
+    "answer_reference_similarity_mean": 0.88,
+    "answer_abstention_accuracy": 1.0,
+    "answer_forbidden_violation_rate": 0.0,
+    "answer_citation_sentence_rate_mean": 0.7,
+    "answer_citation_count_mean": 3.5,
+    "answer_sentence_count_mean": 5.0,
+    "answer_word_count_mean": 88.0,
+    "judge_decision_correctness_mean": 1.0,
+    "judge_reference_alignment_mean": 0.9,
+    "judge_required_claim_recall_mean": 0.85,
+    "judge_forbidden_claim_violation_mean": 0.0
+  },
+  "overall_metric_ci95": {},
+  "subgroup_metrics": {
+    "by_split": {
+      "dev": {
+        "count": 2,
+        "metrics": {
+          "answer_citation_support_rate_mean": 0.8
+        }
+      }
+    }
+  },
+  "cases": [
+    {
+      "case": {
+        "id": "REF_001",
+        "split": "dev",
+        "mode": "cross_mode",
+        "question_type": "eligibility"
+      },
+      "chat_error": "temporary failure",
+      "answer": "Answer with citations [fixture__chunk_1].",
+      "judge": {
+        "scores": {
+          "decision_correctness": 1.0
+        },
+        "error": "judge retry"
+      },
+      "metrics": {
+        "retrieval": {
+          "gold_doc_recall_at_k": 1.0
+        },
+        "answer": {
+          "abstention_correct": true
+        }
+      }
+    },
+    {
+      "case": {
+        "id": "REF_002",
+        "split": "dev",
+        "mode": "reference_mode",
+        "question_type": "comparison"
+      },
+      "chat_error": null,
+      "answer": "",
+      "judge": {
+        "scores": {
+          "decision_correctness": 1.0
+        },
+        "error": null
+      },
+      "metrics": {
+        "retrieval": {
+          "gold_doc_recall_at_k": 0.8
+        },
+        "answer": {
+          "abstention_correct": true
+        }
+      }
+    }
+  ]
+}

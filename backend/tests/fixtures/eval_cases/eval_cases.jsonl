@@ -1,0 +1,4 @@
+# Primary eval cases fixture for dashboard tests.
+{"id":"CASE_001","mode":"cross_mode","split":"dev","question_type":"eligibility"}
+{"id":"CASE_002","mode":"late_offer","split":"test","question_type":"process"}
+not-json

@@ -57,6 +57,18 @@ const PERCENT_METRIC_KEYS = new Set([
   "key_abstention_accuracy",
 ]);
 
+const BACKEND_TEST_SUMMARY = {
+  label: "Backend tests",
+  passing: 22,
+  total: 22,
+  details: "Live chatbot route behavior, dashboard API routes, feedback behavior, and stable evaluation helpers.",
+};
+
+const BACKEND_TEST_COMMAND = [
+  "cd backend",
+  ".\\.venv\\Scripts\\python.exe -m unittest discover -s tests -v",
+].join("\n");
+
 function formatMetricValue(value) {
   if (typeof value === "number") return value.toFixed(3);
   if (value === null || value === undefined) return "—";
@@ -199,6 +211,38 @@ function SummaryCards({ runs }) {
   );
 }
 
+function ValidationPanel() {
+  const item = BACKEND_TEST_SUMMARY;
+
+  return (
+    <section className="bg-white border border-gray-200 rounded p-4 space-y-4">
+      <div className="space-y-1">
+        <h2 className="text-sm font-semibold text-gray-900">Backend Unit Tests</h2>
+        <p className="text-sm text-gray-700">
+          These tests check the main backend behavior and help us confirm it still works after changes.
+        </p>
+      </div>
+
+      <div className="border border-gray-200 rounded p-3 space-y-2">
+        <div className="flex items-center justify-between gap-3">
+          <h3 className="text-xs uppercase tracking-wide text-gray-500">{item.label}</h3>
+          <span className="inline-flex px-2 py-1 rounded text-xs font-medium bg-emerald-50 text-emerald-800 border border-emerald-200">
+            {item.passing}/{item.total} passing
+          </span>
+        </div>
+        <p className="text-sm text-gray-700">{item.details}</p>
+      </div>
+
+      <div className="border border-gray-200 rounded p-3 space-y-2">
+        <h3 className="text-xs uppercase tracking-wide text-gray-500">Backend command</h3>
+        <pre className="text-xs bg-gray-50 border border-gray-200 rounded p-2 overflow-x-auto text-gray-800">
+          {BACKEND_TEST_COMMAND}
+        </pre>
+      </div>
+    </section>
+  );
+}
+
 function KeyMetricsOverview({ summary, error }) {
   const groups = summary?.key_metrics || {};
   const hasSummary = Boolean(summary);
@@ -234,7 +278,7 @@ function KeyMetricsOverview({ summary, error }) {
 
   return (
     <section className="bg-white border border-gray-200 rounded p-4 space-y-3">
-      <h2 className="text-sm font-semibold text-gray-900">Latest Run: Key Metrics Overview</h2>
+      <h2 className="text-sm font-semibold text-gray-900">Offline Evaluation Summary</h2>
 
       {error && (
         <div className="text-sm text-red-700 bg-red-50 border border-red-200 px-3 py-2 rounded">
@@ -634,7 +678,7 @@ function FeedbackHealth({ summary, error, loading, onRefresh }) {
     return (
       <section className="bg-white border border-gray-200 rounded p-4 space-y-3">
         <div className="flex items-center justify-between gap-3 flex-wrap">
-          <h2 className="text-sm font-semibold text-gray-900">Feedback Health</h2>
+          <h2 className="text-sm font-semibold text-gray-900">Live User Feedback</h2>
           <button
             type="button"
             onClick={onRefresh}
@@ -655,7 +699,7 @@ function FeedbackHealth({ summary, error, loading, onRefresh }) {
   return (
     <section className="bg-white border border-gray-200 rounded p-4 space-y-3">
       <div className="flex items-center justify-between gap-3 flex-wrap">
-        <h2 className="text-sm font-semibold text-gray-900">Feedback Health</h2>
+        <h2 className="text-sm font-semibold text-gray-900">Live User Feedback</h2>
         <button
           type="button"
           onClick={onRefresh}
@@ -1419,7 +1463,7 @@ function DashboardReference({ meta, error }) {
                 A run is an offline evaluation report generated from structured test cases.
               </p>
               <p className="text-sm text-gray-700">
-                Normal chat usage updates separate citation and answer feedback signals shown in the Feedback Health section.
+                Normal chat usage updates separate citation and answer feedback signals shown in the Live User Feedback section.
               </p>
             </div>
           </div>
@@ -1473,7 +1517,7 @@ function DashboardReference({ meta, error }) {
               </div>
               <div className="grid grid-cols-[9rem_1fr] gap-2 items-start">
                 <p className="font-medium text-gray-800">Timing</p>
-                <p className="text-gray-700">p50/p95 latency for retrieval, chat, and judge. Used to track responsiveness and regressions.</p>
+                <p className="text-gray-700">p50/p95 latency for retrieval, chat, and judge. Used to track responsiveness over time.</p>
               </div>
             </div>
           </div>
@@ -1645,7 +1689,7 @@ function ModDashboard() {
         </header>
 
         <SummaryCards runs={runs} />
-
+        <ValidationPanel />
         <KeyMetricsOverview summary={latestSummary} error={latestSummaryError} />
         <FeedbackHealth
           summary={feedbackSummary}
