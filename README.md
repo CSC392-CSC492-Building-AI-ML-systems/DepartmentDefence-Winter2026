@@ -8,6 +8,26 @@ Procurement-policy RAG system with:
 
 This README is the main entrypoint for a TA or any new developer who needs to clone the repo, start the backend, start the frontend, and verify that the app actually works.
 
+## Related Repository
+
+The related repo
+[PolicyRAGv.2](https://github.com/allan-hnrqs/PolicyRAGv.2) is currently the
+cleaner backend experimentation and evaluation repo for this project family.
+
+In current practice:
+
+- `DepartmentDefence-Winter2026` is the integrated app repo
+  - Flask backend
+  - React frontend
+  - local auth, chat UI, moderator dashboard, and app wiring
+- `PolicyRAGv.2` is where retrieval, chunking, answering, evaluation, and
+  product-comparator ideas are being tested more rigorously before deciding
+  whether anything is worth carrying over here
+
+That means not every experiment or benchmark artifact lives in this repo, and
+not every result from `PolicyRAGv.2` is automatically reflected in the running
+app here.
+
 ## What This Repository Contains
 
 - `backend/app.py`
