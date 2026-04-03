@@ -52,11 +52,23 @@ def retrieval_evidence_coverage(
     }
 
 
+def _unique_preserve_order(values: Sequence[str]) -> list[str]:
+    out: list[str] = []
+    seen = set()
+    for value in values:
+        if value in seen:
+            continue
+        seen.add(value)
+        out.append(value)
+    return out
+
+
 def precision_at_k(gold_prefixes: Sequence[str], retrieved_prefixes: Sequence[str]) -> float | None:
     if not gold_prefixes or not retrieved_prefixes:
         return None
     k = len(retrieved_prefixes)
-    hits = sum(1 for p in retrieved_prefixes if p in set(gold_prefixes))
+    unique_retrieved = _unique_preserve_order(retrieved_prefixes)
+    hits = sum(1 for p in unique_retrieved if p in set(gold_prefixes))
     return hits / k if k else None
 
 
@@ -82,8 +94,15 @@ def ndcg_at_k(gold_prefixes: Sequence[str], retrieved_prefixes: Sequence[str]) -
         return None
     gold_set = set(gold_prefixes)
     dcg = 0.0
+    seen_prefixes = set()
     for idx, prefix in enumerate(retrieved_prefixes):
-        rel = 1.0 if prefix in gold_set else 0.0
+        # Count each retrieved document prefix at most once to avoid nDCG > 1.0
+        # when top-k contains many chunks from the same relevant source.
+        if prefix in seen_prefixes:
+            rel = 0.0
+        else:
+            rel = 1.0 if prefix in gold_set else 0.0
+            seen_prefixes.add(prefix)
         dcg += rel / (math.log2(idx + 2))
 
     # Ideal DCG with all relevant items ranked first

@@ -70,6 +70,7 @@ COHERE_API_KEY=your_real_cohere_api_key_here
 ```
 
 That is the only required key for basic local startup.
+You can start from [`backend/.env.example`](backend/.env.example).
 
 The backend reads `.env` at import time from [`backend/rag/app_config.py`](backend/rag/app_config.py).
 
@@ -271,7 +272,7 @@ The moderator dashboard UI includes a backend unit test panel that shows the cur
 
 This panel is meant to make validation easier when reviewing the dashboard:
 
-- it reports the current backend test count as `22/22 passing`
+- it reports the current backend test count as `23/23 passing`
 - it shows the exact backend test command used in development
 
 ### Current empty-state behavior
@@ -299,7 +300,7 @@ cd backend
 
 Current expected result:
 
-- `22/22 passing`
+- `23/23 passing`
 
 The backend test suite currently covers:
 

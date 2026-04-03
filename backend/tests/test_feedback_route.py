@@ -26,7 +26,7 @@ class FeedbackRouteTests(unittest.TestCase):
         self.feedback_tmpdir.cleanup()
 
     def test_citation_feedback_reweights_and_none_restores_baseline(self):
-        with patch.object(self.app_module.time, "time", side_effect=[101, 102, 103]):
+        with patch.object(self.app_module.time, "time", return_value=101):
             up_response = self.client.post(
                 "/api/feedback",
                 json={
@@ -72,7 +72,7 @@ class FeedbackRouteTests(unittest.TestCase):
         self.assertEqual(len(log_lines), 3)
 
     def test_answer_feedback_tracks_latest_negative_and_clears_on_positive(self):
-        with patch.object(self.app_module.time, "time", side_effect=[201, 202]):
+        with patch.object(self.app_module.time, "time", return_value=201):
             negative_response = self.client.post(
                 "/api/feedback",
                 json={

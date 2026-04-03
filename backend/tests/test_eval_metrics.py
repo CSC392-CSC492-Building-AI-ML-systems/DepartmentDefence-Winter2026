@@ -119,9 +119,16 @@ class EvalMetricHelperTests(unittest.TestCase):
 
         self.assertEqual(timing, {"p50": 25.0, "p95": 38.5, "mean": 25.0})
 
-    # We intentionally avoid asserting more controversial metric behavior here,
-    # such as the current nDCG output bounds, because backend alignment work is
-    # still in progress and these tests are meant to protect stable behavior.
+    def test_doc_metrics_do_not_overcredit_duplicate_doc_prefixes(self):
+        gold_prefixes = ["doc-a", "doc-b"]
+        retrieved_prefixes = ["doc-a", "doc-a", "doc-a", "doc-b"]
+
+        precision = retrieval_metrics.precision_at_k(gold_prefixes, retrieved_prefixes)
+        ndcg = retrieval_metrics.ndcg_at_k(gold_prefixes, retrieved_prefixes)
+
+        self.assertAlmostEqual(precision, 0.5, places=6)
+        self.assertIsNotNone(ndcg)
+        self.assertLessEqual(ndcg, 1.0)
 
 
 if __name__ == "__main__":

@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect, useCallback } from 'react';
 import ModDashboard from './dashboard/ModDashboard';
 import {
   Menu,
@@ -204,7 +204,7 @@ const ChatInterface = ({ user, onLogout, language, onLanguageChange }) => {
     return () => document.removeEventListener('click', handleClickOutside);
   }, []);
 
-  const fetchHistory = async () => {
+  const fetchHistory = useCallback(async () => {
     try {
       const res = await fetch(`/api/conversations?user_id=${user.user_id}`);
       const data = await res.json();
@@ -212,11 +212,11 @@ const ChatInterface = ({ user, onLogout, language, onLanguageChange }) => {
     } catch (error) {
       console.error("Failed to fetch history:", error);
     }
-  };
+  }, [user.user_id]);
 
   useEffect(() => {
     fetchHistory();
-  }, []);
+  }, [fetchHistory]);
 
   const loadConversation = async (convId) => {
     setActiveConversation(convId);
